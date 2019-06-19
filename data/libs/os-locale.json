@@ -2,7 +2,7 @@
   "name": "os-locale",
   "description": "Get the system locale",
   "dist-tags": {
-    "latest": "3.1.0"
+    "latest": "4.0.0"
   },
   "versions": [
     "1.0.0",
@@ -17,7 +17,8 @@
     "2.1.0",
     "3.0.0",
     "3.0.1",
-    "3.1.0"
+    "3.1.0",
+    "4.0.0"
   ],
   "maintainers": [
     "bcoe <ben@npmjs.com>",
@@ -25,7 +26,7 @@
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-05T01:41:56.542Z",
+    "modified": "2019-06-11T17:31:14.151Z",
     "created": "2015-03-16T07:18:34.088Z",
     "1.0.0": "2015-03-16T07:18:34.088Z",
     "1.0.1": "2015-05-06T10:26:46.592Z",
@@ -39,7 +40,8 @@
     "2.1.0": "2017-07-21T19:59:10.218Z",
     "3.0.0": "2018-08-06T17:54:26.017Z",
     "3.0.1": "2018-08-31T18:52:55.186Z",
-    "3.1.0": "2018-12-26T19:56:12.453Z"
+    "3.1.0": "2018-12-26T19:56:12.453Z",
+    "4.0.0": "2019-06-11T17:31:11.643Z"
   },
   "homepage": "https://github.com/sindresorhus/os-locale#readme",
   "keywords": [
@@ -74,31 +76,32 @@
     "cedx": true,
     "vandeurenglenn": true
   },
-  "version": "3.1.0",
+  "version": "4.0.0",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava && tsd"
   },
   "dependencies": {
     "execa": "^1.0.0",
-    "lcid": "^2.0.0",
-    "mem": "^4.0.0"
+    "lcid": "^3.0.0",
+    "mem": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "^1.0.1",
+    "ava": "^2.1.0",
     "import-fresh": "^3.0.0",
-    "xo": "^0.23.0"
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
   },
-  "gitHead": "7d4d2b5c47a1176e6b73879ec64128e8a6ece938",
+  "gitHead": "966ff9d03ea8c7911fd71e57fb60f042ceaea73e",
   "dist": {
-    "integrity": "sha512-Z8l3R4wYWM40/52Z+S265okfFj8Kt2cC2MKY+xNi3kFs+XGI7WXu/I309QQQYbRW4ijiZ+yxs9pqEhJh0DqW3Q==",
-    "shasum": "a802a6ee17f24c10483ab9935719cef4ed16bf1a",
-    "tarball": "https://registry.npmjs.org/os-locale/-/os-locale-3.1.0.tgz",
-    "fileCount": 4,
-    "unpackedSize": 6183,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcI9zdCRA9TVsSAnZWagAAdfcP/jH3KU/YxFmj/U3WAf0s\n5/BcSktePvb61zluirtXhfzpLqcu7He1lgact3tQX+e1bs59F1HD8iMTI+/A\nHo+4e2YyUk8WRup3a4RyO0w9z/fy+S8TxO17AXpJFQpXQLrUXzC4XOvQNLdT\niJlccoQdG3/zEmOwU1F0QYImnkoD8DFXaaxyaIiMpwTWR3zjiRldwsx1tk11\nXfDvpb03ViMXbe2jzqJyDHG1H22OR0A5JnFSVtQBuF4vqcFwyMeAda01fP0n\n2MYovWHS8L85RYBR8iciYT/Bte3jZVNbNWXQsDWfBwW9CB7Ofx/vMFDWUnnB\nKED4s8WlyfR6rfrUhMYl9TBMead5TY0mr9ueT2tXVAbPayYe+FdrduQdrr3q\nV/kimt14ZuHu936mVh6ox5aggKaHu8oUh+8tjy5mO+kbUcLdsZbSZKDd7mCb\n9RHe6whojm6DqsLj9l/vKcbc4adHSZlWiWgjiPnPSc281I0//s37XKSXnTlM\nQeBxgCWat4wprFvcBhSdv6dlSqhGDicK6cImAhJVXOoYYvtN1WTEE64TmLUh\nzxsBF0wudMDScJX+6nXi5boEc6T2FhnwT/J2b4pFkKdI9D+LpaENmJUUrbPa\npVmJWZyWiHj1quqz3Rt21UUx3sesSPGl7p6Jbxp2DwyUqAjjSsR9SYc/G0qu\ny541\r\n=HOiP\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-HsSR1+2l6as4Wp2SGZxqLnuFHxVvh1Ir9pvZxyujsC13egZVe7P0YeBLN0ijQzM/twrO5To3ia3jzBXAvpMTEA==",
+    "shasum": "06e4fb102f38f33e9e904f41af3c34a5aa3b2b7b",
+    "tarball": "https://registry.npmjs.org/os-locale/-/os-locale-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6844,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/+VgCRA9TVsSAnZWagAAk7UP+wWEk3AMkUytTbiX3hpX\nR2tCNhYtBssphnrvZA91UKL9LyzOxEuHSm7PTSe1ryhyxVwMm3EIshk7jDcx\nJHi1elMsjw6ZoWeocCpdfodOdRiDld9pqzjeeoFDtxTmVovY7QL2QAqzgWSQ\n8C7NKR4crjKpE6YB49Ot3fU3aSDPL/ZKm6JG7EWh7G0ivossKdsBoWhEuI2u\nNp3sbE422Qx2u5xhSQfaOUZDoEM3+TpF47xW7O8pdwJSNBaXteF9qgx6ukYs\nZ8zzgKKnAAOrvJ5VFHs8Q510uTR7ZLfZJfjVALrp7X0hAm+YsGNfGGwEIBp2\nokeDIXzUiMmj0fSsXGfq+N7O/m5DtgzKL+ShgukyjsP/mw5KTyQoGKfyEdDy\nYX2XLtxWrkaIbFQrk+PP1Lbv3VnoEQzlovr1OMId132Yb+W2jHMmGcuEj/jt\na4eE94xDkj7laTRu0OFfkQwu6ENBShSVB99Mk/hZq5KQlv+WMTA1ucTupjlq\nQic37rGk9LyZamPdf9UShRZWGc5yN0abuqo0VjWT1KF1CRfy7SdW9U7CQk+z\nwAlPt8JFppBS8822bjx3AqgMehoAvAOT+PNKjBXH8AWAF6avoavHUitsXnKg\nMLZIL/n6fXMZT/VAO5lCbv2CjobQN22seNmZR+YYbrmftSpwqBxOls8WXtwn\nkEqJ\r\n=ugG9\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

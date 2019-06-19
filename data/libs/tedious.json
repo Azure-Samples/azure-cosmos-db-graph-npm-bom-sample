@@ -2,7 +2,7 @@
   "name": "tedious",
   "description": "A TDS driver, for connecting to MS SQLServer databases.",
   "dist-tags": {
-    "latest": "6.1.2",
+    "latest": "6.2.0",
     "beta": "1.11.5-beta.5-gb7b6e4d",
     "next": "6.2.0"
   },
@@ -129,7 +129,7 @@
     "v-suhame <v-suhame@microsoft.com>"
   ],
   "time": {
-    "modified": "2019-06-05T19:25:24.575Z",
+    "modified": "2019-06-13T18:17:11.069Z",
     "created": "2011-12-04T21:55:08.096Z",
     "0.0.1": "2011-12-04T21:55:09.620Z",
     "0.0.2": "2012-01-08T17:09:08.076Z",
@@ -328,7 +328,7 @@
     "url": "https://github.com/tediousjs/tedious/issues"
   },
   "license": "MIT",
-  "version": "6.1.2",
+  "version": "6.2.0",
   "main": "./lib/tedious.js",
   "engines": {
     "node": ">= 6"
@@ -396,14 +396,15 @@
       "@commitlint/config-conventional"
     ]
   },
-  "gitHead": "40d816d495a6204ce12aa59bc223a3acac9b97d9",
+  "gitHead": "27be6f461a34d320464b69ff055b6ea9195079b3",
+  "readme": "# Tedious (node implementation of TDS)\n[![Dependency Status](https://david-dm.org/tediousjs/tedious.svg)](https://david-dm.org/tediousjs/tedious) [![NPM version](https://badge.fury.io/js/tedious.svg)](http://badge.fury.io/js/tedious) [![Build Status](https://secure.travis-ci.org/tediousjs/tedious.svg)](http://travis-ci.org/tediousjs/tedious) [![Build Status](https://ci.appveyor.com/api/projects/status/ike3p58hljpyffrl?svg=true)](https://ci.appveyor.com/project/tediousjs/tedious) [![Slack Status](https://tediousjs-slack.herokuapp.com/badge.svg)](https://tediousjs-slack.herokuapp.com/)\n\n\nTedious is a pure-Javascript implementation of the [TDS protocol](http://msdn.microsoft.com/en-us/library/dd304523.aspx),\nwhich is used to interact with instances of Microsoft's SQL Server. It is intended to be a fairly slim implementation of the protocol, with not too much additional functionality.\n\n**NOTE: New columns are nullable by default as of version 1.11.0**\n\nPrevious behavior can be restored using `config.options.enableAnsiNullDefault = false`. See [pull request 230](https://github.com/tediousjs/tedious/pull/230).\n\n**NOTE: Default login behavior has changed slightly as of version 1.2**\n\nSee the [changelog](https://github.com/tediousjs/tedious/releases) for version history.\n\n\n### Supported TDS versions\n\n- TDS 7.4 (SQL Server 2012/2014/2016/2017)\n- TDS 7.3.B (SQL Server 2008 R2)\n- TDS 7.3.A (SQL Server 2008)\n- TDS 7.2 (SQL Server 2005)\n- TDS 7.1 (SQL Server 2000)\n\n## Installation\n\nNode.js is a prerequisite for installing tedious. Once you have installed [Node.js](https://nodejs.org/), installing tedious is simple: \n\n    npm install tedious\n\n## Getting Started\n- [Node.js + macOS](https://www.microsoft.com/en-us/sql-server/developer-get-started/node/mac/)\n- [Node.js + Red Hat Enterprise Linux](https://www.microsoft.com/en-us/sql-server/developer-get-started/node/rhel/)\n- [Node.js + SUSE Linux Enterprise Server](https://www.microsoft.com/en-us/sql-server/developer-get-started/node/sles/)\n- [Node.js + Ubuntu](https://www.microsoft.com/en-us/sql-server/developer-get-started/node/ubuntu/)\n- [Node.js + Windows](https://www.microsoft.com/en-us/sql-server/developer-get-started/node/windows/)\n\n<a name=\"documentation\"></a>\n## Documentation\nMore documentation and code samples are available at [tediousjs.github.io/tedious/](http://tediousjs.github.io/tedious/)\n\n<a name=\"name\"></a>\n## Name\n_Tedious_ is simply derived from a fast, slightly garbled, pronunciation of the letters T, D and S. \n\n## Developer Survey\n\nWe'd like to learn more about how you use tedious:\n\n<a href=\"https://aka.ms/mssqltedioussurvey\"><img style=\"float: right;\"  height=\"67\" width=\"156\" src=\"https://sqlchoice.blob.core.windows.net/sqlchoice/static/images/survey.png\"></a>\n\n<a name=\"contributing\"></a>\n## Contributing\nWe welcome contributions from the community. Feel free to checkout the code and submit pull requests.\n\n<a name=\"license\"></a>\n## Licence\n\nCopyright (c) 2010-2018 Mike D Pilsbury\n\nThe MIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
   "dist": {
-    "integrity": "sha512-WEjzkyG+dkojPr/DDoXYs3O37kUXyutRsDWStdzEBNpkwzvgAD9uzCZZbwhBqxS9PfGLry4av1yQset5jRfgiQ==",
-    "shasum": "86d009641f46c397fe2d56a2c8f1c2b7a9a03734",
-    "tarball": "https://registry.npmjs.org/tedious/-/tedious-6.1.2.tgz",
+    "integrity": "sha512-HNZa/fWv36hqd9leX4rfj/baZLdCoky0B096gWWwUtDFlUTDZMsNh1qkvgusIj9MhEoDc+Weq/KtVmpNcVTqAA==",
+    "shasum": "11815b45851967f4d41a2e4668bbd0b4ef00cd81",
+    "tarball": "https://registry.npmjs.org/tedious/-/tedious-6.2.0.tgz",
     "fileCount": 106,
-    "unpackedSize": 318359,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc6larCRA9TVsSAnZWagAAy7cP/ijA8PPr1vJFC4LrVJh2\nwULmUzjLZtbhH0Be3OHrHIn7nYM6UizombcLVoS4hCe8h/eE6N720ketuFyF\nIoV8h7igFTttvNWwY8YBXK82QdtfJ4YpG3e9LRTPpdauzseg7uSf2VAh5FOA\n6YWAn1Px/h9bzy72gRHnlPuvncoKQNxLNoWMlhGvxuN/E11xb7tqDdTNOvsu\nPTH6Xq1CooynJQSazS7lKotLqrq446MOTHFqve7F8KnTcHusteRXfkBS/rlO\n3LYDW+mrapH81L/cd7ZydJLFYuFKsdHTnAcqX+/9aZf5MIgITEYoOrqlQVGq\nz3prG5SZAMfXRoR7VlKU9IQcCZmGjzJattcky7+IrWnomiK810lQyYC2c73S\nc/C4xZpjfvWpNxA+fOpm8VdpmvnIzZOXUPFgnybcv35doMOn6oC70ZYGrqmV\ndFEaPO4SycUpqJgAh3vO7rlJoU6iqSa7WyvmKOLrvtf8EDuuNTFk21y6j07t\nnALkTzPcReXRSFObnLVP3S5hplRqzUEk8nUPny/rELF6Wm0kQkQncd/Aw52r\nSbeWafl2ppVeFcb+OKk1RZp38/lMEKxTcaIM3Ufn+IC7YC8KCHtTddyxZal9\noiOJLr0ef+FgNAkSIECCyFYOJLesuRDF14N4Rz0m51+UjvTpBQzI/Iy4Se09\nQ4YI\r\n=IpmJ\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 321087,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+BcgCRA9TVsSAnZWagAAfv4P/R9KcnhNy+U/1bLZyY2G\n0qrE6p2JbdJ6kv3hFRgCa+9gotZdGHyvyyt/SeRhd7qBJbfIiRx7s70bEo7y\nhzB2wduQq6SGGG7rx3qsKAiUzu37j0KxsF5NJBZv2/Pt8qiInlUnyKT6Igvg\n4chCjHX1p/nHSfxWS2zm0TbYqWQeVQ5mjaVl8sP1Wb/exPkZd8bnzlbEL8zz\nebltyPtIVkRmSRRfuW++4DyMMsDJY8AsN7fbYwC9eBNwdo4XT5x4lqBI7EiX\nFh9VJEp/g5X/191MWp/7NVjIGPIQ8oGGsxnveECJtfEiHJB3B572uSxqSRfn\ngsPXZhyepjNroVoXP/Ypz/9OO9qzLZg0iVlCGRFoXHVFwKAtdSffdbOZFmdG\nxfZsuxXZXkxXQg/whCBYMolpq78YCKOGHZ1HwMeUzWFyfNI/nXb13Cuc9nbT\nhLmwzNvBFHnjdJCIjNTAwJMqU0OzC25zBa6y49mUNUXYVuClikS7hlSAhzeU\nlozXf5H6hfaslP9Q/8E/0bDP75M/+m6YyJuvb0OTBhUh3Cf4GgUrzCYPhyis\nIytZwIOzwtEgSph0qDEOm1UYtaBuH+/0eFJhoS+l+15Cm+Lpa6FGnuxHB6RX\ndirdnXxPLDmB+B2ezcBSgDKZxic67zXfNTgiHfpZmfSBO/8A4hrmZrtiJx+I\n9/Xw\r\n=qClI\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

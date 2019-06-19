@@ -1,7 +1,7 @@
 {
   "name": "@azure/ms-rest-nodeauth",
   "dist-tags": {
-    "latest": "2.0.1"
+    "latest": "2.0.2"
   },
   "versions": [
     "0.8.0",
@@ -18,12 +18,13 @@
     "1.1.0",
     "1.1.1",
     "2.0.0",
-    "2.0.1"
+    "2.0.1",
+    "2.0.2"
   ],
   "time": {
     "created": "2018-11-12T22:12:38.342Z",
     "0.8.0": "2018-11-12T22:12:38.756Z",
-    "modified": "2019-05-23T00:40:08.459Z",
+    "modified": "2019-06-13T17:06:55.272Z",
     "0.8.1": "2018-11-19T19:22:27.645Z",
     "0.8.2": "2018-11-19T20:55:56.960Z",
     "0.8.3": "2018-12-18T17:34:55.035Z",
@@ -37,7 +38,8 @@
     "1.1.0": "2019-05-16T16:22:50.816Z",
     "1.1.1": "2019-05-16T17:35:12.717Z",
     "2.0.0": "2019-05-20T18:19:56.465Z",
-    "2.0.1": "2019-05-23T00:40:05.667Z"
+    "2.0.1": "2019-05-23T00:40:05.667Z",
+    "2.0.2": "2019-06-13T17:06:52.267Z"
   },
   "maintainers": [
     "amarzavery <amarzavery@gmail.com>",
@@ -67,7 +69,7 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "./dist/lib/msRestNodeAuth.js",
   "types": "./dist/lib/msRestNodeAuth.d.ts",
   "dependencies": {
@@ -104,12 +106,12 @@
     "check:packagejsonversion": "ts-node ./.scripts/checkPackageJsonVersion.ts"
   },
   "dist": {
-    "integrity": "sha512-iBhdBC6uN1YapRZeCYdeK87gvQN6mqADqD9H5eGiT8YDtyabd7vc6fTY1VvJ4XOZbI3bJDLlkDTQAjaPbyoGTQ==",
-    "shasum": "68596e20885263102950dc03f983ac5fb3c24d51",
-    "tarball": "https://registry.npmjs.org/@azure/ms-rest-nodeauth/-/ms-rest-nodeauth-2.0.1.tgz",
+    "integrity": "sha512-KmNNICOxt3EwViAJI3iu2VH8t8BQg5J2rSAyO4IUYLF9ZwlyYsP419pdvl4NBUhluAP2cgN7dfD2V6E6NOMZlQ==",
+    "shasum": "037e29540c5625eaec718b8fcc178dd7ad5dfb96",
+    "tarball": "https://registry.npmjs.org/@azure/ms-rest-nodeauth/-/ms-rest-nodeauth-2.0.2.tgz",
     "fileCount": 90,
-    "unpackedSize": 365760,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5evmCRA9TVsSAnZWagAAXtcP/2GwR+O6Z8/ejMY9SB4N\ntDIF3vYlrBGfG1yV7ucKcynFqbMnJTC+G2BK/XXswyvVH7EPg0tk6Yv2YATT\nUjffHg3jXmi43lUvf62+aszACLZF/KoNAAToNpd2PX7GQ8OXjngLHpObrW3f\nBJKPMkOKYuJJ9YyJy6c9kOJ8xe2C8Q9GFalwSTy/9gCdFOnWkyomJIgA50X5\n0cODmLFTn+n9nBnvpvlbWT2XHgbWM/I4XtMiBQl/kWZCFi7Noshg0dzn1UOx\nPhidCFquj0iG3NjN21VdhplCNrRuudw4m5S/r3CIKmqVuHng3q/t2oH98/sP\nxwfjigxI5VOUg90+bGAcZ04DjTce1Ku/5kx7aPb/n+iiYlkonVlkcstPJ/vo\nckRBPtfU2i1/hncFk8qcJqP5ZvPMY0sCx6IToIVZ3JpHltr1UA43tszx3LDz\ncCKTV18dYq1gfvGFGn4mEJ87Y1cnO8O5hHoOrhBXnnR6URccO30SwVTP3rvJ\npajNNTR4qlvLGyXuZHvAXL/NMRc2CoLF64YO7rViieU0UCXh6K2D64fa5HqM\nSdEiExfzh1fTxJQr1hEHHTYPJLErirIj4e7JKrt5SLFqKrIB7/aZrw7qWdiB\nbhkUPYO9awdwwnHKwYSX4Z0eXfY3ceNU4WB5tqulNeu3XTTIy9lsbHkZ0krV\nn/gQ\r\n=NYYy\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 365865,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAoKtCRA9TVsSAnZWagAAsKcP/1XUJFh/1w3hBfB92elm\n7Wjbt1ojsSAwzs6aHAlNqKNGQf1C0JwzdYw3V2nqAUuRTXRtI8aH4ldwKgsc\nTClPvgGSmUDEu5hW0vsG/p+OyZjLmVGpb2IO+gIzTJ6ZKechilAwsvGScGC7\n1igPm33KzTTamEQUYYnkEeOxnYiMA4t6bLclSPxJ5lUgnfgZVMByyJV4DKq/\ndOIhpckJY3ymAf1SQTy4VRzGpS4NUG7j6MLPck3Q6B4VZXv35qmQ08y6YVjw\nwS+rN79KEZPCC0puTfi+ZNaS8YH4uBpOeFn+urugW99ApCUCJq6jmoLOgD2g\niMJEdudZLM785/QwFz6AVCPDEFVwzDhuSilri3yF0kT9I5iUYcqBtmPWYufH\nVx2zLZ77mMqXbRTx8jJ3l4SyLtcQ3BMEYUuda9KiNdQBCZP1IP2Xvv1TrbE6\n7GOw+pUcYS/EZhPf6WjmKZWDZtI6Yn4vGgbhkGXcm2vzgAcooGPHlHD116xj\nwAh/FvYfTZo5f5dxsuZ/j2htd0a+MZ3QvHs/pN3aqK6pJvsQTq91uXVgmPYb\ndOhvU3lZZyGdqtFTup6EkmgZYABFpTVqg7p94E8ehv7aqxd7No8jz9BksVBC\nJzQgRtwNlakFtPFojswP91bdlREJdjMbtECSRYEe94sDVVRANPIVKkRrBB9K\n170o\r\n=x9ZQ\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

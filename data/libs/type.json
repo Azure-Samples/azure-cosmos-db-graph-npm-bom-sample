@@ -1,0 +1,122 @@
+{
+  "name": "type",
+  "description": "Runtime validation and processing of JavaScript types",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "gozala <rfobic@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-08T14:22:09.666Z",
+    "created": "2011-06-09T23:12:24.505Z",
+    "0.0.1": "2011-06-09T23:12:25.475Z",
+    "0.0.2": "2012-02-25T18:41:58.376Z",
+    "0.0.3": "2012-06-18T19:41:26.049Z",
+    "1.0.0": "2019-04-05T09:08:56.236Z",
+    "1.0.1": "2019-04-08T14:22:06.794Z"
+  },
+  "author": "Mariusz Nowak <medyk@medikoo.com> (https://www.medikoo.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medikoo/type.git"
+  },
+  "homepage": "https://github.com/medikoo/type#readme",
+  "keywords": [
+    "type",
+    "coercion"
+  ],
+  "bugs": {
+    "url": "https://github.com/medikoo/type/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "version": "1.0.1",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.15.3",
+    "eslint-config-medikoo-es3": "^2.1.0",
+    "git-list-updated": "^1.1.2",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "prettier-elastic": "^1.16.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ],
+    "*.{css,html,js,json,md,yaml,yml}": [
+      "prettier -c"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "medikoo-es3",
+    "root": true,
+    "globals": {
+      "Map": true,
+      "Promise": true,
+      "Set": true,
+      "Symbol": true
+    },
+    "overrides": [
+      {
+        "files": "test/**/*.js",
+        "env": {
+          "mocha": true
+        },
+        "rules": {
+          "no-eval": "off",
+          "no-new-wrappers": "off"
+        }
+      },
+      {
+        "files": [
+          "string/coerce.js",
+          "number/coerce.js"
+        ],
+        "rules": {
+          "no-implicit-coercion": "off"
+        }
+      },
+      {
+        "files": "plain-object/is.js",
+        "rules": {
+          "no-proto": "off"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "coverage": "nyc --reporter=lcov --reporter=html --reporter=text-summary npm test",
+    "check-coverage": "npm run coverage && nyc check-coverage --statements 80 --function 80 --branches 80 --lines 80",
+    "lint": "eslint --ignore-path=.gitignore .",
+    "lint-updated": "pipe-git-updated --ext=js -- eslint --ignore-pattern '!*'",
+    "prettier-check-updated": "pipe-git-updated --ext=css --ext=html --ext=js --ext=json --ext=md --ext=yaml --ext=yml -- prettier -c",
+    "prettify": "prettier --write --ignore-path .gitignore '**/*.{css,html,js,json,md,yaml,yml}'",
+    "test": "mocha --recursive"
+  },
+  "gitHead": "eb9e77ae26450e8d250db7f1f1b5e01f13011750",
+  "dist": {
+    "integrity": "sha512-MAM5dBMJCJNKs9E7JXo4CXRAansRfG0nlJxW7Wf6GZzSOvH31zClSaHdIMWLehe/EGMBkqeC55rrkaOr5Oo7Nw==",
+    "shasum": "084c9a17fcc9151a2cdb1459905c2e45e4bb7d61",
+    "tarball": "https://registry.npmjs.org/type/-/type-1.0.1.tgz",
+    "fileCount": 101,
+    "unpackedSize": 96534,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq1kPCRA9TVsSAnZWagAAVE8QAJJjMCA7+LIxgjYVhAwD\n85yQgnZ6fknasTdqYOo7qjYIntEgZ5smEKWzh9eofRv/pWEN/80+B4cOX6Hr\niZVJdvTH//Ahd9d6cNK34pVan5DbhUYX8SW8RLFgangaLAmzcCo+17C4TxWv\nHRi5vFbl8dQLHda28EOfMC2CWzxnp91flTxjGCDBGwhLIv8kAEI6z8lM+PnL\nP3Hg6GK2Q87aOHU287RvsZxpegn4pLDuRmfHYg/25tfDT5sdr2us481oGx6S\nb1o4B37AS3Kv65yShe55ymx4JvZd/EKLaWUfwBltKPaoOBO3/yuZA8HMbaDk\nRKPlCbiPOQndTsiwEzjgyKDZL8u+xIdtl3M8vSbPf5a3yZDZ970kDIoCmQe8\nFEDSTpiyKXMeroLbxGlN3LeIc1gE1a/HlAQmURlP4DxkH4WjjWPiKjBtcFwM\nhzXyiYyUX4O3DjdHfeDVU+G6y2OnQOLXKhT08ijZzCHaVEhSUAsVqfZroRM1\nSCZfUC03D0/DGDtPUhrsFTf4hdyr1OkS14DWJmF9ydSps5NGKdVGmXvcGIGJ\nuPTk8u7Cu9fTjJerG1hv5s7d9C9A2OU9/RV3e1s2hnVv/mhFeUGrY3GAvibH\nGtue/TeGFkkHJVrtHORQJO0dRaSP7hLjx0Eh3Sdp2Z8fPvKhfPRmW+PNgKhL\nrmu9\r\n=1gzz\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

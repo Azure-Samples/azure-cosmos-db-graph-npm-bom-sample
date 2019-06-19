@@ -2,7 +2,7 @@
   "name": "pug",
   "description": "A clean, whitespace-sensitive template language for writing HTML",
   "dist-tags": {
-    "latest": "2.0.3"
+    "latest": "2.0.4"
   },
   "versions": [
     "0.0.0",
@@ -34,14 +34,15 @@
     "2.0.0",
     "2.0.1",
     "2.0.2",
-    "2.0.3"
+    "2.0.3",
+    "2.0.4"
   ],
   "maintainers": [
     "forbeslindesay <forbes@lindesay.co.uk>",
     "timothygu <timothygu99@gmail.com>"
   ],
   "time": {
-    "modified": "2019-03-10T10:50:42.290Z",
+    "modified": "2019-06-18T09:45:16.190Z",
     "created": "2013-08-22T21:02:25.748Z",
     "0.0.0": "2013-08-22T21:02:27.124Z",
     "0.1.0": "2015-12-12T01:05:50.802Z",
@@ -72,16 +73,17 @@
     "2.0.0": "2018-03-06T13:12:41.679Z",
     "2.0.1": "2018-03-08T16:32:40.671Z",
     "2.0.2": "2018-03-20T12:28:47.098Z",
-    "2.0.3": "2018-03-21T11:45:06.961Z"
+    "2.0.3": "2018-03-21T11:45:06.961Z",
+    "2.0.4": "2019-06-18T09:45:13.407Z"
   },
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pugjs/pug"
+    "url": "https://github.com/pugjs/pug/tree/master/packages/pug"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "homepage": "https://pugjs.org/",
+  "homepage": "https://pugjs.org",
   "users": {
     "adc39": true,
     "dhampik": true,
@@ -261,17 +263,23 @@
     "yanghcc": true,
     "ahillier": true
   },
-  "version": "2.0.3",
+  "keywords": [
+    "html",
+    "jade",
+    "pug",
+    "template"
+  ],
+  "version": "2.0.4",
   "main": "lib",
   "dependencies": {
-    "pug-code-gen": "^2.0.1",
-    "pug-filters": "^3.1.0",
-    "pug-lexer": "^4.0.0",
-    "pug-linker": "^3.0.5",
-    "pug-load": "^2.0.11",
-    "pug-parser": "^5.0.0",
-    "pug-runtime": "^2.0.4",
-    "pug-strip-comments": "^1.0.3"
+    "pug-code-gen": "^2.0.2",
+    "pug-filters": "^3.1.1",
+    "pug-lexer": "^4.1.0",
+    "pug-linker": "^3.0.6",
+    "pug-load": "^2.0.12",
+    "pug-parser": "^5.0.1",
+    "pug-runtime": "^2.0.5",
+    "pug-strip-comments": "^1.0.4"
   },
   "devDependencies": {
     "jstransformer-cdata": "^1.0.0",
@@ -288,12 +296,14 @@
   "browser": {
     "fs": false
   },
-  "licenseText": "(The MIT License)\n\nCopyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "gitHead": "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
   "dist": {
-    "shasum": "71cba82537c95a5eab7ed04696e4221f53aa878e",
-    "tarball": "https://registry.npmjs.org/pug/-/pug-2.0.3.tgz",
-    "fileCount": 674,
-    "unpackedSize": 310975
+    "integrity": "sha512-XhoaDlvi6NIzL49nu094R2NA6P37ijtgMDuWE+ofekDChvfKnzFal60bhSdiy8y2PBO6fmz3oMEIcfpBVRUdvw==",
+    "shasum": "ee7682ec0a60494b38d48a88f05f3b0ac931377d",
+    "tarball": "https://registry.npmjs.org/pug/-/pug-2.0.4.tgz",
+    "fileCount": 6,
+    "unpackedSize": 59437,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCLKpCRA9TVsSAnZWagAA310P/2lY5yoVfOWU1Mucqlfi\nhdyo57FEtafJ1sLdy4uXjNBWnZi+bz3AUzzCGjBZC0vsEs7H0KmqRE8hGDyg\n3ohBcTitIXcLsIwfT11cXGTVc/e6BBrh7uxve7GWERAw++PnrG7yNV/kaNdh\nX/P2G4OmvRRSkn6JV6Hf9u310HG23SFMMlZ8gdlcibNrfYgGFbys1iTSS5E6\nNtDDPR5jPwxZTzqZLC8z8l9VnFq3izzKNENDaYs/dbouyEyKoV4KTqxOXZu+\noYXtM//F1GSD9xxwfZKGJVL/B5+56j4vrbP41hgTRTTlb2zRbThHTkifPFqh\n+aAdT01ymZxB38LK20lP+SrHaNGiVkS1hKOHvJxIQ4HES0l4d3L2Khz8qT+3\nNthKCi8DR9Nroyi5YwvcudUAbGm302bf+TUxko+zrOavjd094p1IKK+toUHn\nSHioocWpXS/FxJpGJbMPl+T8YIyZqnEW7mgXaJX9OZibNyAdSwhP1YtcAsKr\n+F9l0i4HiM2fyL0Dvc0joZEvR9skZO0iCiitjcts8lqz2+CE5d3cHNimNKxp\nHCNnKGQTuB6ToZXFh/93/+4DvVTE8lNW7OkWUtNiuOZJ2y4je64I2/6Jr4zQ\nJ7Ry+k32ExhIaoEIEGJwLPNTEHzIgH1ORlhlNrRlP0JyJn9rRLGBjlFVLdP8\nzSub\r\n=1K4b\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

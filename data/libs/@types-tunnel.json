@@ -2,58 +2,68 @@
   "name": "@types/tunnel",
   "description": "TypeScript definitions for tunnel",
   "dist-tags": {
-    "latest": "0.0.0",
-    "ts2.0": "0.0.0",
-    "ts2.1": "0.0.0",
-    "ts2.2": "0.0.0",
-    "ts2.3": "0.0.0",
-    "ts2.4": "0.0.0",
-    "ts2.5": "0.0.0",
-    "ts2.6": "0.0.0",
-    "ts2.7": "0.0.0",
-    "ts2.8": "0.0.0",
-    "ts2.9": "0.0.0",
-    "ts3.0": "0.0.0",
-    "ts3.1": "0.0.0",
-    "ts3.2": "0.0.0",
-    "ts3.3": "0.0.0",
-    "ts3.4": "0.0.0",
-    "ts3.5": "0.0.0",
-    "ts3.6": "0.0.0"
+    "latest": "0.0.1",
+    "ts2.0": "0.0.1",
+    "ts2.1": "0.0.1",
+    "ts2.2": "0.0.1",
+    "ts2.3": "0.0.1",
+    "ts2.4": "0.0.1",
+    "ts2.5": "0.0.1",
+    "ts2.6": "0.0.1",
+    "ts2.7": "0.0.1",
+    "ts2.8": "0.0.1",
+    "ts2.9": "0.0.1",
+    "ts3.0": "0.0.1",
+    "ts3.1": "0.0.1",
+    "ts3.2": "0.0.1",
+    "ts3.3": "0.0.1",
+    "ts3.4": "0.0.1",
+    "ts3.5": "0.0.1",
+    "ts3.6": "0.0.1"
   },
   "versions": [
-    "0.0.0"
+    "0.0.0",
+    "0.0.1"
   ],
   "maintainers": [
     "types <ts-npm-types@microsoft.com>"
   ],
   "time": {
-    "modified": "2019-05-29T22:29:21.908Z",
+    "modified": "2019-06-12T23:18:25.007Z",
     "created": "2017-07-24T18:26:09.373Z",
-    "0.0.0": "2017-07-24T18:26:09.373Z"
+    "0.0.0": "2017-07-24T18:26:09.373Z",
+    "0.0.1": "2019-06-12T23:18:15.778Z"
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/tunnel"
   },
   "contributors": [
-    "BendingBender (https://github.com/BendingBender)"
+    {
+      "name": "BendingBender",
+      "url": "https://github.com/BendingBender",
+      "githubUsername": "BendingBender"
+    }
   ],
   "license": "MIT",
   "readmeFilename": "",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "",
+  "types": "index",
   "scripts": {},
   "dependencies": {
     "@types/node": "*"
   },
-  "peerDependencies": {},
-  "typesPublisherContentHash": "841738a8f7c86d19eb07cfd5de7f11d53069df9e33d6341a58c94e94644df587",
+  "typesPublisherContentHash": "4e4e986c9a2912a1a62a77408f4d955f05c87bee95736b8b2c62d81b0a01e995",
   "typeScriptVersion": "2.0",
   "dist": {
-    "integrity": "sha512-FGDp0iBRiBdPjOgjJmn1NH0KDLN+Z8fRmo+9J7XGBhubq1DPrGrbmG4UTlGzrpbCpesMqD0sWkzi27EYkOMHyg==",
-    "shasum": "c2a42943ee63c90652a5557b8c4e56cda77f944e",
-    "tarball": "https://registry.npmjs.org/@types/tunnel/-/tunnel-0.0.0.tgz"
+    "integrity": "sha512-AOqu6bQu5MSWwYvehMXLukFHnupHrpZ8nvgae5Ggie9UwzDR1CCwoXgSSWNZJuyOlCdfdsWMA5F2LlmvyoTv8A==",
+    "shasum": "0d72774768b73df26f25df9184273a42da72b19c",
+    "tarball": "https://registry.npmjs.org/@types/tunnel/-/tunnel-0.0.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3669,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAYg4CRA9TVsSAnZWagAAstwP/R0+2as6dgEkmDn1bVFs\nKSe+PBzLZzR3yx0nGFi8RAYMl9rhZQYwbCnFDKoe27XKEl8wQ5dQ4XTVS8n0\nOUCuDL5X2GxHh9ERcwsNeyNhOKpEPCZHOC2EaFGVoIXjcxXTuP7euKm8/sXH\nXGLaDVreJR2+QWCholmk9GGn5nfi3CmJl4ZRe1PQyDycyJjauw9MF4KGMdm5\nFhosLqxootk+mw1GcNQIG9mJISQfeNfiBuoQbMS/r3cE6c2/pScZP5C4Ojoz\nl3KlsIlVn0wbmwo9DPkS9p6EsxS896uhJ2sPTeEMUEdgoZU1lyWWxuOx9yXQ\n3FehmwUJqMNkZNkEsemhF+VHOV3REI+mBiTopa+SH2+17StHndPZuTWOR5ey\nEYJx/H7j5ldOqpL4bZr8rnCAwdi0arMz+4SX2gJCMFQ9/kYXRpFCMB5r93SS\nH350XF7T/zG38ckvNiLTjiv8B6nMTyypfsdC6c2BRWa6bCXqz6bBzpw1m8S+\nYdDndNBF0q8exXgAg2RX+NA4kRmRzwjWcA7Va6dBq4a6O9f+SzU9AvBbQbXa\nX2nvBA46JKmLoAEP2n9RTxgsjZXqm9qO0ITSFkWRNy6dHuayY+/0ptSlcrb4\nImw2pPSkEfJFkb2iDnq7lTxvLJMQCseQrkqPXFanhIevoCT1mwcWaf+PaQOx\neld6\r\n=LA0y\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

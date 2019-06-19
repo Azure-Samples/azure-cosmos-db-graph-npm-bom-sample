@@ -2,7 +2,7 @@
   "name": "cacheable-request",
   "description": "Wrap native HTTP requests with RFC compliant cache support",
   "dist-tags": {
-    "latest": "6.0.0"
+    "latest": "6.1.0"
   },
   "versions": [
     "0.0.0",
@@ -32,13 +32,14 @@
     "5.1.0",
     "5.2.0",
     "5.2.1",
-    "6.0.0"
+    "6.0.0",
+    "6.1.0"
   ],
   "maintainers": [
     "lukechilds <lukechilds123@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-04T07:37:45.926Z",
+    "modified": "2019-06-07T06:15:41.887Z",
     "created": "2017-06-02T12:36:50.988Z",
     "0.0.0": "2017-06-02T12:36:50.988Z",
     "0.1.0": "2017-06-09T14:06:47.087Z",
@@ -67,7 +68,8 @@
     "5.1.0": "2018-10-17T14:41:19.627Z",
     "5.2.0": "2018-11-13T08:25:02.628Z",
     "5.2.1": "2018-12-22T05:27:47.866Z",
-    "6.0.0": "2019-01-04T07:37:43.357Z"
+    "6.0.0": "2019-01-04T07:37:43.357Z",
+    "6.1.0": "2019-06-07T06:15:39.202Z"
   },
   "homepage": "https://github.com/lukechilds/cacheable-request#readme",
   "keywords": [
@@ -95,7 +97,7 @@
   "users": {
     "shanewholloway": true
   },
-  "version": "6.0.0",
+  "version": "6.1.0",
   "main": "src/index.js",
   "engines": {
     "node": ">=8"
@@ -106,37 +108,37 @@
   },
   "dependencies": {
     "clone-response": "^1.0.2",
-    "get-stream": "^4.0.0",
+    "get-stream": "^5.1.0",
     "http-cache-semantics": "^4.0.0",
     "keyv": "^3.0.0",
-    "lowercase-keys": "^1.0.1",
-    "normalize-url": "^3.1.0",
+    "lowercase-keys": "^2.0.0",
+    "normalize-url": "^4.1.0",
     "responselike": "^1.0.2"
   },
   "devDependencies": {
     "@keyv/sqlite": "^2.0.0",
-    "ava": "^0.25.0",
+    "ava": "^1.1.0",
     "coveralls": "^3.0.0",
-    "create-test-server": "2.1.1",
+    "create-test-server": "3.0.0",
     "delay": "^4.0.0",
     "eslint-config-xo-lukechilds": "^1.0.0",
-    "nyc": "^13.0.1",
+    "nyc": "^14.1.1",
     "pify": "^4.0.0",
     "sqlite3": "^4.0.2",
     "this": "^1.0.2",
-    "xo": "^0.22.0"
+    "xo": "^0.23.0"
   },
   "xo": {
     "extends": "xo-lukechilds"
   },
-  "gitHead": "ea92da1fb1e44e795fbe51d39f86630c2015e5fe",
+  "gitHead": "d50e6af350b6f52814c71ce3908e704a3d5f428e",
   "dist": {
-    "integrity": "sha512-2N7AmszH/WPPpl5Z3XMw1HAP+8d+xugnKQAeKvxFZ/04dbT/CAznqwbl+7eSr3HkwdepNwtb2yx3CAMQWvG01Q==",
-    "shasum": "4a1727414e02ac4af82560c4da1b61daa3fa2b63",
-    "tarball": "https://registry.npmjs.org/cacheable-request/-/cacheable-request-6.0.0.tgz",
+    "integrity": "sha512-Oj3cAGPCqOZX7Rz64Uny2GYAZNliQSqfbePrgAQ1wKAihYmCUnraBtJtKcGR4xz7wF+LoJC+ssFZvv5BgF9Igg==",
+    "shasum": "20ffb8bd162ba4be11e9567d823db651052ca912",
+    "tarball": "https://registry.npmjs.org/cacheable-request/-/cacheable-request-6.1.0.tgz",
     "fileCount": 4,
-    "unpackedSize": 16525,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLw1HCRA9TVsSAnZWagAA/eYP/iZd3/dcO8tPXlALoQ0M\nGdNAZBpRHZQIzgRmY+q4Ehv969PeeZCyzqc3MlTOhobXvPcQP45AnzpskYG4\n1gVxSJewP1rGFFd0XJcd9IlrREkt2uxqT97INl/sNJLPDy0x84cemPfcLDsl\naYhTFDXFRkKQ4LC7OfqNBlQUhRqTrG71DbGC8wu7DG2RcqMWOPciYf4yxIU0\nEqEx2ZtOcGhPNRPsp+1OsyjndunsGfUi7xnuTiXuVjEc2o1/jVgFYVHzpy92\nVyPXjHHngW3GqpKz9Wtj4qKVB2MLk43qzgOeYW+lBSUoBd1C5p56hvuCmMK+\nP2Pohwuqz7ouFW5AV73eVXLt9XD65Yqheeydh52skB811Gz+9LViQwdn+nwL\nj1XF8D6RcgGFLh4B5H5DNAro5R1fOjp8OOidnaVHv7zxhhBQw3U6sA4DlwTE\nJiRqhT7M77MoYit6g1CpVWSnwEBb1mQ/oWGY3JLwfoO8LqBTamnEg4UIP5Qm\nFbhhoJ4TFyguyny2BfpK+eNtGwmDZFbi35wU8P+5VKyIT/XudQyUD+N3ZR6i\ni9wi/VfwXHhC7XA2eH/LuQp56gyRyOYxbLE4c4iJ2reXt0bgshZDhzRpzkR3\nkhZjpDgBKV7aUPT72IGceusJmzSI9NI9uG6QK5JEMwZh/AKuqk074TM7lmp6\nueKC\r\n=9djW\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 16750,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+gELCRA9TVsSAnZWagAAg4UP/icEa1kgzzzsS3WW4kLV\nxLC66G4F22SX1oGRPoVGDKT7/rn/cGBiiLyGvlQPMoTd/chYCAKIHSIiSoWU\nPkuPcZuFA2A+stiQ9TPPnZYyUxkFqB+9UwZBqqHXFZ+zoS5pdoUA2U6zhM5Z\nagiv8tV5TmzbyCq7AaWIl1xGA3MnwgWp7Yt2xpUW2KRYLfQDiCMB13O/5W9b\nfjz0qBqY0ebxtEiN4gS29QPNRo9SNtrGVB5fdQtiWd43abIvy3g+YytlVTRh\nfYAazeo0itA4txKIRYxz0eomNyaOJlER5qdNS667zuDyCDWl5+RQMf15AMeE\nvSHp7nMjzq0e6bjAo7M2aD/f2Be40s5Mo+JffZ0ZxPUa2A6oa9NypKnjtwOV\nVRqVadXuz2z2XVD+5kprL1ibZW8dtEL6pr8zaZ1bLqxnUvzVypi6BWdVKolp\nJM093Y2y6iUo3RpawHWVIlXGgOzXzZFwmSDjgG05h6MH4CeuGhMSdMRkQUjd\n2Egc+xaN+bzlNVBzcyIx8twvAETU7UjIF+tUdusVU0AGbSfiLIB6riZlr2QB\nZaUQmLGSxMWHcHDOFiJXIWv6FRFhlNpQa3Ft1mSv0TQxa6ZNE3VKEnV2O0Ca\nODS+lRX5xlQf+frQ14pmSW/gbj5qtYbn0SWN1oEgnpsXja0Fv0MZ1fBbLUpv\n1A3/\r\n=zWoo\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

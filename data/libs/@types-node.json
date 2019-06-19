@@ -2,24 +2,24 @@
   "name": "@types/node",
   "description": "TypeScript definitions for Node.js",
   "dist-tags": {
-    "latest": "12.0.5",
-    "ts2.0": "12.0.5",
-    "ts2.1": "12.0.5",
-    "ts2.2": "12.0.5",
-    "ts2.3": "12.0.5",
-    "ts2.4": "12.0.5",
-    "ts2.5": "12.0.5",
-    "ts2.6": "12.0.5",
-    "ts2.7": "12.0.5",
-    "ts2.8": "12.0.5",
-    "ts2.9": "12.0.5",
-    "ts3.0": "12.0.5",
-    "ts3.1": "12.0.5",
-    "ts3.2": "12.0.5",
-    "ts3.3": "12.0.5",
-    "ts3.4": "12.0.5",
-    "ts3.5": "12.0.5",
-    "ts3.6": "12.0.5"
+    "latest": "12.0.8",
+    "ts2.0": "12.0.8",
+    "ts2.1": "12.0.8",
+    "ts2.2": "12.0.8",
+    "ts2.3": "12.0.8",
+    "ts2.4": "12.0.8",
+    "ts2.5": "12.0.8",
+    "ts2.6": "12.0.8",
+    "ts2.7": "12.0.8",
+    "ts2.8": "12.0.8",
+    "ts2.9": "12.0.8",
+    "ts3.0": "12.0.8",
+    "ts3.1": "12.0.8",
+    "ts3.2": "12.0.8",
+    "ts3.3": "12.0.8",
+    "ts3.4": "12.0.8",
+    "ts3.5": "12.0.8",
+    "ts3.6": "12.0.8"
   },
   "versions": [
     "0.0.0",
@@ -559,6 +559,7 @@
     "10.14.6",
     "10.14.7",
     "10.14.8",
+    "10.14.9",
     "11.9.0",
     "11.9.1",
     "11.9.2",
@@ -601,18 +602,22 @@
     "11.13.11",
     "11.13.12",
     "11.13.13",
+    "11.13.14",
     "12.0.0",
     "12.0.1",
     "12.0.2",
     "12.0.3",
     "12.0.4",
-    "12.0.5"
+    "12.0.5",
+    "12.0.6",
+    "12.0.7",
+    "12.0.8"
   ],
   "maintainers": [
     "types <ts-npm-types@microsoft.com>"
   ],
   "time": {
-    "modified": "2019-06-05T22:07:00.469Z",
+    "modified": "2019-06-11T19:13:27.187Z",
     "created": "2016-05-17T18:26:38.670Z",
     "4.0.15-alpha": "2016-05-17T18:26:38.670Z",
     "4.0.16-alpha": "2016-05-19T21:50:06.330Z",
@@ -1198,7 +1203,12 @@
     "10.14.8": "2019-05-30T18:08:09.634Z",
     "9.6.49": "2019-05-30T18:08:31.698Z",
     "8.10.49": "2019-05-30T18:08:45.630Z",
-    "12.0.5": "2019-06-05T22:06:25.272Z"
+    "12.0.5": "2019-06-05T22:06:25.272Z",
+    "12.0.6": "2019-06-06T18:27:35.303Z",
+    "12.0.7": "2019-06-06T23:14:30.808Z",
+    "12.0.8": "2019-06-11T19:12:14.629Z",
+    "11.13.14": "2019-06-11T19:13:06.490Z",
+    "10.14.9": "2019-06-11T19:13:22.578Z"
   },
   "license": "MIT",
   "readmeFilename": "",
@@ -1418,7 +1428,7 @@
       "githubUsername": "bhongy"
     }
   ],
-  "version": "12.0.5",
+  "version": "12.0.8",
   "main": "",
   "types": "index",
   "typesVersions": {
@@ -1430,15 +1440,15 @@
   },
   "scripts": {},
   "dependencies": {},
-  "typesPublisherContentHash": "b0882d32e8ea55049c062aceeeb771f6b122731752971c335313555e17d8297e",
+  "typesPublisherContentHash": "b10057a9c0d44251a5a8984947e54f9f9e906169ad37310f25993c9a526df5ab",
   "typeScriptVersion": "2.0",
   "dist": {
-    "integrity": "sha512-CFLSALoE+93+Hcb5pFjp0J1uMrrbLRe+L1+gFwerJ776R3TACSF0kTVRQ7AvRa7aFx70nqYHAc7wQPlt9kY2Mg==",
-    "shasum": "ac14404c33d1a789973c45379a67f7f7e58a01b9",
-    "tarball": "https://registry.npmjs.org/@types/node/-/node-12.0.5.tgz",
+    "integrity": "sha512-b8bbUOTwzIY3V5vDTY1fIJ+ePKDUBqt2hC2woVGotdQQhG/2Sh62HOKHrT7ab+VerXAcPyAiTEipPu/FsreUtg==",
+    "shasum": "551466be11b2adc3f3d47156758f610bd9f6b1d8",
+    "tarball": "https://registry.npmjs.org/@types/node/-/node-12.0.8.tgz",
     "fileCount": 49,
-    "unpackedSize": 628265,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+DzhCRA9TVsSAnZWagAAEUsP/Ay/zwn3ZLNCUQJcVqqp\nZi7We6x+iC6NX7fEBY2x0vbxQa5Dbzx01zMrRGl9i8BKE9sfJoNVrxLHGg7y\nX1q818kAcBvmJ3lPIUNTq4WUU0CWqwhjpotFGroyBvGS/XA3J/1en6161KNL\nTNtTIFXPBVHFDTyNwDDZ8soZgRlQ8gblhauTdcvWM13GAEocrcUHZSu2gTpX\nosm6Nq8XHUt7Co2oMd30wAgRHal7Y803crKFp1ovHBZ1qXVstoqzJkv/fkQB\n/HaKqCzC9NP8qghDoVLkrzM3MYFV0jYH+DeeALiKGCjQQmnQvo6w1EuJl7tK\nGWK+k2eewK6TRad/4mA7R0FwxbWyQT+t+XM9TIr2ij/Y24bdanmGsmf3wihr\ntuYIOs2tzttsjq3ZlyElO/XfJNaHGO31wQqubfWx71b328yo7ruusFnX/1xx\n388NuJ2BiN/SFB+BHa5JLqkEF0Ba16pPKL4CV6C8aXZy1nOi76VVywc+YXiU\n3VEsoCOjxIXuX93rH1C9yleIH2AaDiVQKhqMggWIA5XDbDdj+Ej6/VxhHBTi\nMAPJghy/6XARI2tjeQvPGwWe9/ezygkVeExHc8aRpkpzGiyn39pSUXSGZYzi\nf2UtmiSUHu0oJnb2F5qRxmp7ETdgozZfH2SqkCARUal3pm8asGGFnY5P0V3r\n/ba5\r\n=08Fd\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 629193,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc//0PCRA9TVsSAnZWagAAbDsP/iJ3j3XkOaLJ5mqbj9Gs\n/pkhK9SceImwYtkqWVLA/nUAx0+y00vuZ9R9fLFfo1KPEKha6XvUB6lX0mDd\njGq8pWktc5CQYdsgj9lrbEM8AJIxy6QjWAhk81YX9SAeNPohH6znJnetbp4S\nph2SmWOx4gmfKkXfglgByuDLvthui5Xn8NCryF02K72Sed77xCfbVQJ8bhet\nJVlRS31S/Pyihq4EAfHKU6Hhe5pOi6btiQ2DtYGr47rEuwedSDqedbz+hp/C\nUOjwn68Bwlg0dtSTU64R/evrWrGpKGjeorwvBnQXu+hMhq3+2LNP/AzGeZka\nLigvneXkVBmLlrwfZTi3+O7xFl+rGoVx65E0oOlxiqHIiafCYMKNSk2Z0N+Q\nqAAy41TDCC2rlEqRHAL3cVcu4/Q2oddMBQUaHUdykgijet/m6ncqoChMibYy\nMc1jJqwVpMunxLTcE+eJK5GV3V4lkE+Ig8SQjliuyFMY01LbwLJcsCPH0nAn\nbtsX5S0oQ9PwObf0tObY6BnfiDxsZMdlMmpYJUPRLr9aFCNLYj8vd/bbktPg\nVbEp0du9TnzDsLBxOGtb4QuAbZPzKIXTR3Cy5plv1J0+JY70/z8Bf1qN3Rml\nw055GC5OnRPv3DFc5+Bb7oDzoWEdMckwgO5PMarYnWjkxiFCrDbse2H+2dTD\nH1Zx\r\n=ruCe\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

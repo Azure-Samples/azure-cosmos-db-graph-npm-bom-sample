@@ -2,26 +2,32 @@
   "name": "linebreak",
   "description": "An implementation of the Unicode Line Breaking Algorithm (UAX #14)",
   "dist-tags": {
-    "latest": "0.3.0"
+    "latest": "1.0.2"
   },
   "versions": [
     "0.1.0",
     "0.1.1",
     "0.1.2",
     "0.2.0",
-    "0.3.0"
+    "0.3.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
   ],
   "maintainers": [
     "devongovett <devongovett@gmail.com>"
   ],
   "time": {
-    "modified": "2015-02-15T02:31:42.852Z",
+    "modified": "2019-06-17T02:37:53.991Z",
     "created": "2014-02-16T09:50:08.795Z",
     "0.1.0": "2014-02-16T09:50:08.795Z",
     "0.1.1": "2014-07-14T03:36:48.284Z",
     "0.1.2": "2014-07-14T03:59:26.032Z",
     "0.2.0": "2014-12-16T21:18:59.361Z",
-    "0.3.0": "2015-02-15T02:31:42.852Z"
+    "0.3.0": "2015-02-15T02:31:42.852Z",
+    "1.0.0": "2019-06-17T01:52:38.875Z",
+    "1.0.1": "2019-06-17T01:56:01.208Z",
+    "1.0.2": "2019-06-17T02:37:51.388Z"
   },
   "readmeFilename": "readme.md",
   "homepage": "https://github.com/devongovett/linebreaker",
@@ -32,27 +38,24 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/devongovett/linebreaker.git"
+    "url": "git+https://github.com/devongovett/linebreaker.git"
   },
   "author": "Devon Govett <devongovett@gmail.com>",
   "bugs": {
     "url": "https://github.com/devongovett/linebreaker/issues"
   },
   "license": "MIT",
-  "version": "0.3.0",
+  "version": "1.0.2",
   "dependencies": {
     "base64-js": "0.0.8",
-    "brfs": "^1.3.0",
-    "unicode-trie": "^0.3.0"
+    "brfs": "^2.0.2",
+    "unicode-trie": "^1.0.0"
   },
   "devDependencies": {
-    "coffee-script": "^1.7.1",
-    "mocha": "*"
+    "mocha": "^6.0.2"
   },
   "scripts": {
-    "prepublish": "coffee -c src/",
-    "postpublish": "rm -rf src/*.js",
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
   "main": "src/linebreaker",
   "browserify": {
@@ -60,10 +63,14 @@
       "brfs"
     ]
   },
-  "gitHead": "33faa05d16082ef47873fbf5ca8bbb15782d668d",
+  "gitHead": "90bf47f6e8a2c8461c59344e6a5d8ec7a4b86983",
   "dist": {
-    "shasum": "0526480a62c05bd679f3e9d99830e09c6a7d0ed6",
-    "tarball": "https://registry.npmjs.org/linebreak/-/linebreak-0.3.0.tgz"
+    "integrity": "sha512-bJwSRsJeAmaZYnkcwl5sCQNfSDAhBuXxb6L27tb+qkBRtUQSSTUa5bcgCPD6hFEkRNlpWHfK7nFMmcANU7ZP1w==",
+    "shasum": "4b5781733e9a9eb2849dba2f963e47c887f8aa06",
+    "tarball": "https://registry.npmjs.org/linebreak/-/linebreak-1.0.2.tgz",
+    "fileCount": 10,
+    "unpackedSize": 897459,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBvz/CRA9TVsSAnZWagAAQUAP/1ghwDLAbPtQeb9fCFCW\nqzbnP1606x6HWbmA8Q2fk+p8TOnDphc5SI6vUGdpBqip18tzMIQgVNM2Icl8\nm9wMVfyLV4oxU9Wt9kjhzHsgNmRaBNTgU6kJl5XGUoK8+PTC58J9uTjyhlvf\n8K0Ab+cNUegvquGj/HPjxvSj4h6H0b4Cf9G0/ET9OWfFx0YJyTFPD9Yem431\nCbq9UBJvt9aV9zchaNTGoZhN5scYFZuHQsm7+rLAy9J9eAfw0iG0y2X7Wupn\nSj+qD4+Ou9BXLwcnKyQj+v3qvbdgZi0GMbf8JNIRXkmrl6Wo7rPAiC/NIXso\nKzWOmej6uO11OaDGat86ufwCMsmV7SuLLwRyZ4HILyOcKF7Xyb67WFAeW3c2\n/0J9Nhc1wKdoaPewSaRImFsBYgHC/GfMUkdsXUY59V9rJa3JKPo+gAXdDNc+\nhTzjNRXU0e+Z4Xs+UPhD1EpLTc2+qUvbyMe1CWqW1KQ+2z7VZLC3PGjVfJtZ\nEiWeIqVjVHlW0KEswZn0kzMARbtVuJAhMgMpGwPGSubF3GWuhy3J3OvnOc7s\nZOG881BnVOY2anINcKtBg5RM7wETJYkEe4OQo2CCtjWUx4WcJ6OxatvbV6Dq\nhnxfU0wRwDtHD52wPZGWJuFem7HMAiFMO2vfI0stRTJ8p3PJdGNYbnithYw5\nsd57\r\n=MRIl\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

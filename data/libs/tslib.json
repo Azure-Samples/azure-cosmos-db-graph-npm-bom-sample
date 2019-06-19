@@ -1,7 +1,7 @@
 {
   "name": "tslib",
   "time": {
-    "modified": "2018-06-22T07:45:08.905Z",
+    "modified": "2019-06-10T22:29:49.488Z",
     "created": "2014-12-30T09:21:20.138Z",
     "0.0.1": "2014-12-30T09:21:22.769Z",
     "0.0.2": "2014-12-30T11:02:46.195Z",
@@ -21,13 +21,14 @@
     "1.9.0": "2018-01-18T21:44:23.777Z",
     "1.9.1": "2018-05-14T18:16:04.424Z",
     "1.9.2": "2018-05-29T23:51:13.946Z",
-    "1.9.3": "2018-06-22T07:45:03.346Z"
+    "1.9.3": "2018-06-22T07:45:03.346Z",
+    "1.10.0": "2019-06-10T22:29:46.948Z"
   },
   "maintainers": [
     "typescript <typescript@microsoft.com>"
   ],
   "dist-tags": {
-    "latest": "1.9.3"
+    "latest": "1.10.0"
   },
   "description": "Runtime library for TypeScript helper functions",
   "versions": [
@@ -47,7 +48,8 @@
     "1.9.0",
     "1.9.1",
     "1.9.2",
-    "1.9.3"
+    "1.9.3",
+    "1.10.0"
   ],
   "homepage": "http://typescriptlang.org/",
   "keywords": [
@@ -79,19 +81,19 @@
     "vinbhatt": true
   },
   "license": "Apache-2.0",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "main": "tslib.js",
   "module": "tslib.es6.js",
   "jsnext:main": "tslib.es6.js",
   "typings": "tslib.d.ts",
-  "gitHead": "9dd9aa322c893e5e0b3f1609b1126314ccf37bbb",
+  "gitHead": "e1aae12c74c57200f72a7f9cfb53321e0c43b616",
   "dist": {
-    "integrity": "sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==",
-    "shasum": "d7e4dd79245d85428c4d7e4822a79917954ca286",
-    "tarball": "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz",
-    "fileCount": 12,
-    "unpackedSize": 58392,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLKj/CRA9TVsSAnZWagAAMbAP/0g8SAYSi20BDDGjSuw4\noNwKH5PeM4GkxOyEvI+dvrhx7I9TuH+dbBmXf/776MflvSeiZ+nzh/q7EP8o\noFTAvh/jg5o8tKbpMSZaQwMG1Zni18qt8dpb9hY39kN+/3UEPbguMEqcIJsD\nNlg8vc/QnlcvV8L1XxTr7d8x/2+lXhEJygG6+JIhDJvl58SzoCuJKvyDFRAU\nMhQ2avaorYsyh9yR5C/9shY/I/TJk0yhTDmfdLj+M/6Fc4u6XO0uSv5CJaG4\nOoB3xgg/dVJR9eNPyCDjyIaLvTH+VPjZOwwpcy1MmIJpztCa4XcZ1TBtha4a\nsOGRrik8OmawEorbOmFAeXxyhUTtTWqBq2EuaiCzBZl6niRZLY/6jWKExXPM\ngmBvKwqm2M7Vnas37Ab9Ob/Acwaq39oKs4gubutex1xJw7H2uAPNe1XlWIVV\njw61DmK278xzQXNQvCHS7HQp/sG0ma8tFz3XT8S4QM9jLdsLHjjwYUvCnv9p\nlnbdOL/fARL4ZkzzBW8RHo44o8kdDhHO/t7VqOn9hSb/s95tqJIwhWGw/XMk\nudBtWcGEAfg7mt1EDsSkwCNNhPESC54O/reBW04FrXRnWaBa8xm/XLxQmIC/\ns8yJhstov1IiIHXGx/TwSKPCHHlfPGYQrlnjgiYrIJqV6Jxti267xw+kRluD\neT4g\r\n=O9KF\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==",
+    "shasum": "c3c19f95973fb0a62973fb09d90d961ee43e5c8a",
+    "tarball": "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz",
+    "fileCount": 9,
+    "unpackedSize": 38131,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/tnbCRA9TVsSAnZWagAAbx4P/2qh+Bkug5hngdttGPKu\nvOo3zVChx4lFykr1SBqE20AIlN+QI1NhVjlWgfhcsPJFXTuNRZR33ZsZ0ItY\nFz5St8fQw293LDW8iWS/m8eIF1UmrI0h6Udtk4zgpJPt0Y40EWjATbWPpkGB\nZpdTAjcEDJnDJANdR+hK1B4Ln+0ZLKVx+Ar6oRIk/JCdzSTHWXmZIyP6gGGi\nA7ppCZqPLs/QhB1OQNVR1lpMTTw0FX5dgTTufrfb4Srl1/yOi2epzzNA9eu4\nLN1RKiyelXmFsgQawoZoo+cSAHGuPQpv1K3dJ6F25jpIgBJHGkAHgEmydtAb\nlNWUSXokcHgL2t/DT8gICCF5Z9bmdpNljiCC/B4bq1SFpuFgKQIbWrhNCFy2\n5rRQgHFK848W8ZfsZVhdKUktd/7T4D/tFBT9TEcLHgY/1yqmOQAPL4AtUqSy\nXe5rhLMze33nl7eh1mVPQpWQlrtzGq+0GRgkwfQVTRRnStXMWIqRM3FgXrqO\ni/yy+HVrfTE71sqaZGgul8vfbDo6m70n0ca2Cpo02UJjC7oVzDH82aHwgOTf\nvWoYgU5zewKcu/Jxi5vhn3TYlkb9UQyNIur/VmMl3NZ1dceQnaqdv1Z+1UX6\nMfmhF7LL1HllVVO2u8ZqiKNoVppAHt4aJuRNcor/uth/Y2dHLTI/eWG0/9WD\nA9bw\r\n=A20l\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

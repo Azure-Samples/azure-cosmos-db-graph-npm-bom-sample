@@ -2,7 +2,7 @@
   "name": "unicode-trie",
   "description": "Unicode Trie data structure for fast character metadata lookup, ported from ICU",
   "dist-tags": {
-    "latest": "0.3.1"
+    "latest": "1.0.0"
   },
   "versions": [
     "0.1.0",
@@ -10,20 +10,22 @@
     "0.1.2",
     "0.2.0",
     "0.3.0",
-    "0.3.1"
+    "0.3.1",
+    "1.0.0"
   ],
   "maintainers": [
     "devongovett <devongovett@gmail.com>"
   ],
   "time": {
-    "modified": "2015-11-11T04:33:33.381Z",
+    "modified": "2019-06-17T01:44:30.078Z",
     "created": "2014-07-14T02:28:53.394Z",
     "0.1.0": "2014-07-14T02:28:53.394Z",
     "0.1.1": "2014-07-14T03:11:05.640Z",
     "0.1.2": "2014-07-14T04:07:10.876Z",
     "0.2.0": "2014-12-16T21:21:15.043Z",
     "0.3.0": "2015-02-15T02:21:38.162Z",
-    "0.3.1": "2015-11-11T04:33:33.381Z"
+    "0.3.1": "2015-11-11T04:33:33.381Z",
+    "1.0.0": "2019-06-17T01:44:27.616Z"
   },
   "homepage": "https://github.com/devongovett/unicode-trie",
   "repository": {
@@ -39,25 +41,27 @@
   "users": {
     "getify": true
   },
-  "version": "0.3.1",
+  "version": "1.0.0",
   "devDependencies": {
-    "mocha": "^1.20.1",
-    "coffee-script": "^1.7.1",
-    "coffee-coverage": "^0.4.2"
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
   },
   "scripts": {
-    "prepublish": "make build",
-    "postpublish": "make clean",
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc mocha"
   },
   "dependencies": {
     "pako": "^0.2.5",
     "tiny-inflate": "^1.0.0"
   },
-  "gitHead": "0e19655c9c291c133e577bcacd2c25b7c82455f7",
+  "gitHead": "cc87aecf5f5222fbc2f9cfa60904c29c91156826",
   "dist": {
-    "shasum": "d671dddd89101a08bac37b6a5161010602052085",
-    "tarball": "https://registry.npmjs.org/unicode-trie/-/unicode-trie-0.3.1.tgz"
+    "integrity": "sha512-v5raLKsobbFbWLMoX9+bChts/VhPPj3XpkNr/HbqkirXR1DPk8eo9IYKyvk0MQZFkaoRsFj2Rmaqgi2rfAZYtA==",
+    "shasum": "f649afdca127135edb55ca0ad7c8c60656d92ad1",
+    "tarball": "https://registry.npmjs.org/unicode-trie/-/unicode-trie-1.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 47565,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBvB8CRA9TVsSAnZWagAAb+EP/0VjAn/NUh0iJQUmakV9\n5Xb/Hj/gxp7C4kT9Vl9M/ippwN8idOLuM3bzWo2uHjSWWGg+IV2spgfTg7VB\nHzYiOnZOL9nhJP0Ey27m8/bu2A/hKkbk8pwhdKTTEP0LhK7AeZCL60CQADuv\n5jaWeDO6rudrreoF5rqUdp3GCP+02WdaLe41gQCeL3eQbF6bQ/CMI1bXPFKP\nUUPMWLs7LKzAa2M01QkkoNXcI3144tSYyiyd/c/AZzIG+c78Oqgd2mI2wLKG\n6nPS4Wq+xK0KoywxTt6AJBJxjTSr5v7e9yDLsaFC9iTaroS3vnaKUWPw5HWM\nCymeVKJ43wvaTg7KACCZGy+KIKr2NOfFeCnGC+FZVJPe+1GPbQxTOqXn9bBc\nBxXpf5d4N1qcYqDOyw+0wiY2u0ZRmI8lInXLyNGcRGBmqozl2FuIW+2nCt9M\nBZqVkij56/nIO06kg402eFtJX97YBmKueOhg8sq09oUN34Dgz8eOqQhGZUGY\nGbsTPe+0ja5mc2pnbmJZwCgHYP2UN9rPdje9I20srOmScEAeSOUXn/QL3qMo\noI44Y5Zx31piF1tW07oezKnuAWtueDqmQGO20O/R2x/aGwaNxY0BbpS+9Wyh\nCwgyvWKji6Iw7bI6L1/0AmmBxN8Qei3OdDdXTTLcxhl0FmPQzkicOLdaIbr1\nxN+d\r\n=CGvb\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

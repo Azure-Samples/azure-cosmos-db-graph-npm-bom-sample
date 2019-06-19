@@ -2,20 +2,26 @@
   "name": "unicode-properties",
   "description": "Provides fast access to unicode character properties",
   "dist-tags": {
-    "latest": "1.1.0"
+    "latest": "1.2.2"
   },
   "versions": [
     "1.0.0",
-    "1.1.0"
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2"
   ],
   "maintainers": [
     "devongovett <devongovett@gmail.com>"
   ],
   "time": {
-    "modified": "2015-07-28T04:57:15.308Z",
+    "modified": "2019-06-17T04:21:07.210Z",
     "created": "2015-04-04T02:19:48.054Z",
     "1.0.0": "2015-04-04T02:19:48.054Z",
-    "1.1.0": "2015-07-28T04:57:15.308Z"
+    "1.1.0": "2015-07-28T04:57:15.308Z",
+    "1.2.0": "2019-06-17T02:35:26.379Z",
+    "1.2.1": "2019-06-17T04:12:17.449Z",
+    "1.2.2": "2019-06-17T04:21:04.654Z"
   },
   "homepage": "https://github.com/devongovett/unicode-properties",
   "keywords": [
@@ -34,32 +40,42 @@
   },
   "license": "MIT",
   "readmeFilename": "readme.md",
-  "version": "1.1.0",
+  "version": "1.2.2",
+  "main": "./unicode-properties.cjs.js",
+  "module": "./unicode-properties.es.js",
+  "browser": {
+    "./unicode-properties.es.js": "./unicode-properties.browser.es.js",
+    "./unicode-properties.cjs.js": "./unicode-properties.browser.cjs.js"
+  },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "brfs": "^1.4.0",
-    "unicode-trie": "^0.3.0"
+    "base64-js": "^1.3.0",
+    "unicode-trie": "^1.0.0"
   },
   "devDependencies": {
-    "codepoints": "^1.2.0",
-    "coffee-script": "^1.9.1",
-    "mocha": "^2.2.1"
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "codepoints": "^1.2.1",
+    "mocha": "^5.2.0",
+    "rollup": "^1.5.0",
+    "rollup-plugin-babel": "^4.0.1",
+    "rollup-plugin-json": "^4.0.0"
   },
   "scripts": {
-    "test": "mocha",
-    "prepublish": "coffee generate.coffee && coffee -cb index.coffee",
-    "postpublish": "rm -f index.js"
+    "test": "npm run build && mocha",
+    "build": "node ./generate.js && rollup -c",
+    "prepublish": "npm run build"
   },
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
-  "gitHead": "3f3a2bb7a6ced662a48b18ff33870990194a72c8",
+  "gitHead": "7df4249add7c86e6dab8b61011fabdd7890a8229",
   "dist": {
-    "shasum": "7a96eef49f75682ea69d2315eec9ac43ffdf00c1",
-    "tarball": "https://registry.npmjs.org/unicode-properties/-/unicode-properties-1.1.0.tgz"
+    "integrity": "sha512-+WhsOj19c93rPymvnPnFisbgFzrI4LjTV8ejMcCCfwS0XhdllZB4NsMFiYb4xUmpn3+aj3PM40h+wlzoG7PCnQ==",
+    "shasum": "8ea79db656166f9c2eca157b0fd06c415dcf5b01",
+    "tarball": "https://registry.npmjs.org/unicode-properties/-/unicode-properties-1.2.2.tgz",
+    "fileCount": 13,
+    "unpackedSize": 101898,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBxUxCRA9TVsSAnZWagAANJQP/16soCao7Ydub5HVHHFR\nz8akjZgfcuw7Hv+5wNwsc8Q7Z7gwobEPcXSNdM7YQv45AzpZQy5Rcp3PdeQL\nYs/OkxFQTGGWK+YHazTDB/JQLTx4yKofAkpkOCs6QQuOOoFaLKo9AXCaCoGZ\nssPHpoOHVOz7dTl9bSBKSArYqGFQnM7y5FDRz8TXER5GPgtiiGQnTCvEwKSn\nNqTMtVzVMUnPkOwEJTtuuCxHE/KrvS1XjsUA8JGw1BfymMyzbtcBupLeckz8\nWpNm5pLcLv7ytoo6fyV42gBUHNvQG2Ym3mvQFrXVvLKtCjJgVtvppyluJ8s/\nv1KfohuLGuR/4kk2ZXbOSE0uPpbnDeq2ly/j9Cbkh/h30JcEpHjdO0gXTmty\nogqlcH5yVA1qpaEyEKSgYuSfTLansoYn96OXcCHgWtKyrxmyDZVCSjEZ1l/f\n2hu0nu2sMFiJjJ2EX6zcnnVzq/Ney4GY0vI60fnoU04PD70SESCjTnc25R6d\nxxeJ0oldRPFf4rh2VsMjAYsqBZzD9/70KPrJ60sChGR0CKc87+RyaJRUnIB9\neuIfQz30Wvmwq8sTCbEcG9PlzJ4zSX53Dud5Rn7UGnb7wNK/UHrFXyQETSFE\n+iWqirma350PbkYh8c8U9YbrvlWli97hgOYSGqp4CwRRZh99/AiO+ICtBEK9\nHQuP\r\n=1L69\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

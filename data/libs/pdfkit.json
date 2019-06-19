@@ -2,7 +2,7 @@
   "name": "pdfkit",
   "description": "A PDF generation library for Node.js",
   "dist-tags": {
-    "latest": "0.9.1"
+    "latest": "0.10.0"
   },
   "versions": [
     "0.1.0",
@@ -45,7 +45,8 @@
     "0.8.2",
     "0.8.3",
     "0.9.0",
-    "0.9.1"
+    "0.9.1",
+    "0.10.0"
   ],
   "maintainers": [
     "blikblum <camara_luiz@yahoo.com.br>",
@@ -54,7 +55,7 @@
     "liborm85 <liborm85@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-30T01:41:32.731Z",
+    "modified": "2019-06-06T23:38:51.389Z",
     "created": "2011-07-11T15:10:53.305Z",
     "0.1.0": "2011-07-11T15:10:53.537Z",
     "0.1.1": "2011-07-12T20:31:23.169Z",
@@ -99,12 +100,13 @@
     "0.8.2": "2017-05-29T22:20:50.783Z",
     "0.8.3": "2017-07-02T01:31:37.767Z",
     "0.9.0": "2019-01-28T04:40:33.303Z",
-    "0.9.1": "2019-04-30T01:41:30.140Z"
+    "0.9.1": "2019-04-30T01:41:30.140Z",
+    "0.10.0": "2019-06-06T23:38:48.578Z"
   },
   "author": "Devon Govett <devongovett@gmail.com> (http://badassjs.com/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foliojs/pdfkit.git"
+    "url": "https://github.com/foliojs/pdfkit.git"
   },
   "readmeFilename": "README.md",
   "homepage": "http://pdfkit.org/",
@@ -196,12 +198,13 @@
     "xch": true,
     "gamersdelight": true
   },
-  "version": "0.9.1",
+  "license": "MIT",
+  "version": "0.10.0",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.6.0",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-env": "^1.7.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^24.7.1",
     "blob-stream": "^0.1.2",
     "brace": "^0.2.1",
     "brfs": "~2.0.1",
@@ -209,24 +212,23 @@
     "codemirror": "~3.20.0",
     "eslint": "^5.3.0",
     "iconv-lite": "^0.4.13",
-    "jade": "~1.1.5",
-    "jest": "^23.4.2",
+    "jest": "^24.7.1",
     "markdown": "~0.5.0",
     "prettier": "1.15.3",
-    "rollup": "^0.65.0",
-    "rollup-plugin-babel": "^3.0.7",
+    "pug": "^2.0.3",
+    "rollup": "^1.11.0",
+    "rollup-plugin-babel": "^4.0.1",
     "rollup-plugin-cpy": "^1.0.0"
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1",
     "fontkit": "^1.0.0",
     "linebreak": "^0.3.0",
-    "png-js": ">=0.1.0",
-    "saslprep": "1.0.1"
+    "png-js": ">=0.1.0"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "rollup -c",
+    "build": "rollup -c && browserify --standalone PDFDocument js/pdfkit.js > js/pdfkit.standalone.js",
     "demo": "cd demo && node test.js",
     "browser-demo": "browserify demo/browser.js > demo/bundle.js",
     "pdf-guide": "node docs/generate.js",
@@ -253,16 +255,19 @@
       "/node_modules/",
       "<rootDir>/demo/"
     ],
-    "testURL": "http://localhost/"
+    "testURL": "http://localhost/",
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/unit/setupTests.js"
+    ]
   },
-  "gitHead": "56a490fa19d308dbdafeeb1b11b5ef5ae35b4554",
+  "licenseText": "MIT LICENSE\nCopyright (c) 2014 Devon Govett\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
   "dist": {
-    "integrity": "sha512-45X/NjaynHVNd/866ETK9KmblL8Sqwmah1RPz04IzmZoEO+cvPid2UvkVfZQcS4Jeq/uWY+99qAq04NoigzWSA==",
-    "shasum": "f07a66eebc64855f8345dccfd313f2d8f880f10f",
-    "tarball": "https://registry.npmjs.org/pdfkit/-/pdfkit-0.9.1.tgz",
-    "fileCount": 46,
-    "unpackedSize": 2440640,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcx6fKCRA9TVsSAnZWagAAmPIP/3vaXGdQ3yABHkBTmbC2\nNyNWU62r5ZGEfWjIkXWEdCwyhK2dX6OxsNlHR0LyJ4yIS1O/aHL7A9YXPaEC\nl6w5ey/7r7/p2ApvWSHuUuuJBZw5WjPWhI3eUEbDd2/jthujvPTGHZmwgZDg\n1TWcHQURzLRJyCzKXUbAP4Ko0P9fhzPBDnGO29P73RnwQTIa4bV2MoGJdrc/\nIw3pkkbNlvG2GBJ2LzA9CDBAy1bOK7vBM+AkdAwvcdpKR29ES3AdeHxd9ULO\ns34CmN6MIgv+EG/EElwNRWJjFxNJDeMfSDS7Nez4GxDyR372h2rv2gMOe/qH\nhSYq8qLR7hISuFt3yj88565Y6oeqeF7Obwox4XzV6qAAnGuaX38GL2OeGmPo\nBi3rZdm7FCMH4JXEbe5H76Rlop+udMcdzHoG/w1VlnPFz5BMK8OFVLG9Y5YQ\nC91hnZh6SJ1eR57s1cTrepAtpsJcLAm4VeKomlSkYpXQxXLwHyJVjhQIPZ+5\noYhnexnxJi5lXtOT9GeEmwpHNwFVA8J+30efw4sFbPHEYHTdEk5r2SVmydB9\n3bDiqbcTt/mnEd2+PmXgMN2N4fUorLkJZ1bWXeZXDwMSyMLSlrc6wiN7ahML\nY8ZWZ32on6a1vby1E9yR/L1GllOT2NnjeH4Z5fcOivejo4NaBCUrPYA44PJ5\nO/st\r\n=1L4+\r\n-----END PGP SIGNATURE-----\r\n"
+    "shasum": "88f2aa8e3cf9e1cc2caff6447b68dd4e435cb284",
+    "integrity": "sha512-mRJ6iuDzpIQ4ftKp5GvijLXNVRK86xjnyIPBraYSPrUPubNqWM5/oYmc7FZKUWz3wusRTj3PLR9HJ1X5ooqfsg==",
+    "tarball": "https://registry.npmjs.org/pdfkit/-/pdfkit-0.10.0.tgz",
+    "fileCount": 29,
+    "unpackedSize": 5076715,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+aQJCRA9TVsSAnZWagAAY1kQAKGn/ycha6UCeUJuRG7E\nSSew+xX3wO006QXIBqmHbT79hb/us0/WYasMYOKPqCEy4dYMSAOuDipyIO9V\neenRjx2uQYQ4fQh8QQpehweZcqllkA3xBbXCGH7bo9gC6Nd0og/+YcplSBPu\n46r+sHqKdp4JU6+qffiKzHEpDlUC7nvwDMNz2CNyHGVbIkbBoG6Q0qvAOvOa\nfh72BaFjz/P/y+Tu6YSY8jwpSseRpfY1g6GEp/HW8WSjC5p2dyjAJFYRKwx+\n9XxjValocUJ5hJlaJjC5vXqsMNRZdW9MsjU4K+V/ryPcYryLOxG9mnqDznvf\nr03tmcZy1jaG6gwQtarn0BsRlfr37gNhecTrYVtqfSCUUjJNlYs1N8lQ2Ppd\nTDgtDPRIJDy1WLXa4QgMUsSr1r3zi67XREd9a7Esoeynr+lN6NWtwt920JAh\npMlpdoF/0UrfrbrWS+amdW6z4j612STNvyCG42AKFX4L823F9o485twrv2gn\nz9iYRwgoMs4OA6GhXxyUEd34IJcK1/ImFYmPDReDVszM4ZTo9uiu7MtWRRdE\nLxMMfflmkgBnQFZS2CPF02nOlpad/8B48k7zBKZYOhfeyVEXh1OifWUDMe3L\nMxY/F1FMwV8coa1BW9orQ4Ib2dI2LVbOTonRKa7stw6Zf5EUhR3aDKhgn569\n9hr0\r\n=rs6N\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

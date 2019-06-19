@@ -2,7 +2,7 @@
   "name": "stream-transform",
   "description": "Object transformations implementing the Node.js `stream.Transform` API",
   "dist-tags": {
-    "latest": "2.0.0"
+    "latest": "2.0.1"
   },
   "versions": [
     "0.0.2",
@@ -26,13 +26,14 @@
     "1.0.6",
     "1.0.7",
     "1.0.8",
-    "2.0.0"
+    "2.0.0",
+    "2.0.1"
   ],
   "maintainers": [
     "david <david@adaltas.com>"
   ],
   "time": {
-    "modified": "2019-04-25T22:47:40.902Z",
+    "modified": "2019-06-08T11:07:55.901Z",
     "created": "2014-04-28T11:39:46.746Z",
     "0.0.2": "2014-04-28T11:39:46.746Z",
     "0.0.4": "2014-06-22T13:32:26.707Z",
@@ -56,7 +57,8 @@
     "1.0.6": "2018-09-28T21:30:01.895Z",
     "1.0.7": "2018-09-29T19:18:15.695Z",
     "1.0.8": "2018-12-07T22:01:23.515Z",
-    "2.0.0": "2019-04-25T22:47:38.330Z"
+    "2.0.0": "2019-04-25T22:47:38.330Z",
+    "2.0.1": "2019-06-08T11:07:53.333Z"
   },
   "keywords": [
     "stream",
@@ -79,7 +81,7 @@
   "bugs": {
     "url": "https://github.com/adaltas/node-stream-transform/issues"
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "coffeelintConfig": {
     "indentation": {
       "level": "error",
@@ -117,8 +119,8 @@
     "patch": "npm version patch -m 'Bump to version %s'",
     "minor": "npm version minor -m 'Bump to version %s'",
     "major": "npm version major -m 'Bump to version %s'",
-    "coffee": "coffee -b -o lib src && cd lib && babel *.js  -d es5 && cd ..",
-    "pretest": "coffee -b -o lib src && cd lib && babel *.js  -d es5 && cd ..",
+    "build": "coffee -b -o lib src && cd lib && babel *.js -d es5 && cd ..",
+    "pretest": "npm run build",
     "test": "mocha test/**/*.{coffee,ts}"
   },
   "types": [
@@ -130,14 +132,14 @@
   "dependencies": {
     "mixme": "^0.3.1"
   },
-  "gitHead": "ad4c228b58db7e2f7622604981ce9439eda4d28b",
+  "gitHead": "c6c4465c2af548c664f566409dd3bc77660f79fa",
   "dist": {
-    "integrity": "sha512-xbTLpkQTi7hbQdRmJmP2exrKlcN/dstQb6m/Rh7DP7gZ0Rx/jDCpJhXIENcYcQrQvyEFyS92cogOyOGImugRXQ==",
-    "shasum": "1ea1e7b6c1c28075cd759f82b2108209ec612e47",
-    "tarball": "https://registry.npmjs.org/stream-transform/-/stream-transform-2.0.0.tgz",
-    "fileCount": 23,
-    "unpackedSize": 36245,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcwjkKCRA9TVsSAnZWagAAw/4P/3sSWuJndA1uz4t8fRJY\nNqWkH6cly++1Ep94fuEmX9Cu6GcZOStQDu3c0qPah83ddBEAMsuM3hRNxRFM\niJMFKB0McHhq/nnxjobbxnfup/Eg1j0g/21Fgwu7JylnOcQj16rFOWwROwCK\nbPJNQbYiCFR+77X1zJIJ7sGpsppvPaTZDUO8Jb1J59osUb7S3Vdo2UVlashi\nStv5vIryVPO+V5qZMpyCBdoQ/X1JjZXS4RCdipEIosVjr9SXq79iwpIaJ5QM\nKDojYTLLplHnltPNl8EcAvnJMXkv5Nh547kf+z7hfSPeSi9yInkvJg3CEAup\npMNzyeK33wefhK+TB4Ekhn7dDTo8QoBDMkjW4eDl4vVMivdWabhugiDMbn4z\nEbS/t6hs7aT9fXr2g9ZwAFo5qKeuNqbe4dX2D8HXU6ySHFEjGtACsgGnJMPE\nNFhRoCfKKlOcJb8dRoPKlEhBc9npwTXEONSEKwsUgl8buJ1cv1DZOdIsSv1t\nLinWJ6JIF3uXa654nzZIA/fcDyTxVDTut2fdxs0wwla/uhgNYtfGtHJIp5j0\na4E+GUaFLzOpTVfen8a4Vo3QvdqdXD9GRB+HVgMdvNW8cxH1Gm2OXRgDP1GX\n8O3gCQyTURmgzh7lV3k3BWaxhWN6A5DFvg9eJbHFVnCahZmEFmulVQ4IgkOk\n/ZYF\r\n=zJ6g\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-GiTcO/rRvZP2R8WPwxmxCFP+Of1yIATuFAmYkvSLDfcD93X2WHiPwdgIqeFT2CvL1gyAsjQvu1nB6RDNQ5b2jw==",
+    "shasum": "112ef2b4d8b9b517f9a6994b0bf7b946fa4d51bc",
+    "tarball": "https://registry.npmjs.org/stream-transform/-/stream-transform-2.0.1.tgz",
+    "fileCount": 12,
+    "unpackedSize": 25985,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+5cJCRA9TVsSAnZWagAAeLAP/ifWV+4QU7K3JCWLyZcU\nSoLLkpOz2Ti6m3TI1xxMlc+3PYZGpLpROciVSZfIPrWSohqCsr3xFwDHmDvr\n+L3/HRpbej6OrVM/H+OgjVXKTcONUqviBdkqTV++LSTpEkzkORoFDfNGTdqG\n5t8nL6XDsM8IfDUqEzx1PllQ4FqCuL07ZUCoi326zsm99pq4KDFNAct+EBlu\n57WYxVmh4z8/+xZShK6hvEMpmsCdqj+hGgBkvrg24V3i0OiDIbnryt2uIbLj\nRAyqzVRBBjWtoRPxFK+MrTglNus9rmHiYmKaNL2xPdWFbHIfPfy6wf9bpSGo\nd89TKBe0cimPan+c07WLmf8YwCG4ufYXAY2i4sknS6YlQLH52x39CoY+dRbX\ngdPE6fC5G+ZP/DjSbQ36cB8X1jDvwebphV/++KWXZu+XeHUTxuB8kZBQDbvh\n/kEyVozcS2pdK6o7VW+agKdwtlCuv6KuOtDEFLeGvOtZoSQ/wsg6nKjWl3R7\nrG05pSbsifmxoZECvl8vW5H43zA/AdBvLD00elHidZNyFrsmpEVoYP/NB5r+\n55JCkfklEabHlZxdPkPS/OVVBoiSGEufOUwV34wYkXkQPv18rLnk/jFOUSEh\nzQ9nl/TEE0xnabFA3ePaV9160wVTszgCJwHpz4unVplOiVKKk2hc6qDUUN/4\nQ2rb\r\n=0lzS\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

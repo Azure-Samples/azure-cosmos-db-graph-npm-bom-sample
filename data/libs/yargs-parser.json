@@ -2,7 +2,7 @@
   "name": "yargs-parser",
   "description": "the mighty option parser used by yargs",
   "dist-tags": {
-    "latest": "13.1.0",
+    "latest": "13.1.1",
     "next": "13.0.0-candidate.0",
     "alpha": "1.1.1-alpha3"
   },
@@ -47,14 +47,15 @@
     "12.0.0",
     "13.0.0-candidate.0",
     "13.0.0",
-    "13.1.0"
+    "13.1.0",
+    "13.1.1"
   ],
   "maintainers": [
     "bcoe <ben@npmjs.com>",
     "nexdrew <andrewbgoode@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-05T21:33:07.725Z",
+    "modified": "2019-06-10T01:18:01.688Z",
     "created": "2016-01-23T21:12:29.644Z",
     "1.0.0": "2016-01-23T21:12:29.644Z",
     "1.1.0": "2016-01-24T22:43:03.382Z",
@@ -96,7 +97,8 @@
     "12.0.0": "2019-01-29T00:49:36.441Z",
     "13.0.0-candidate.0": "2019-02-02T20:43:45.492Z",
     "13.0.0": "2019-02-02T21:30:58.258Z",
-    "13.1.0": "2019-05-05T21:33:05.139Z"
+    "13.1.0": "2019-05-05T21:33:05.139Z",
+    "13.1.1": "2019-06-10T01:17:59.099Z"
   },
   "keywords": [
     "argument",
@@ -132,7 +134,7 @@
     "fm-96": true,
     "rubiadias": true
   },
-  "version": "13.1.0",
+  "version": "13.1.1",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha test/*.js",
@@ -155,14 +157,14 @@
   "engine": {
     "node": ">=6"
   },
-  "gitHead": "69ddfedf03024ac0e9e45d0a18daa0964e4c1c34",
+  "gitHead": "7e01a2c8d1ba75d9d5472e5839e2852bdf2af3db",
   "dist": {
-    "integrity": "sha512-Yq+32PrijHRri0vVKQEm+ys8mbqWjLiwQkMFNXEENutzLPP0bE4Lcd4iA3OQY5HF+GD3xXxf0MEHb8E4/SA3AA==",
-    "shasum": "7016b6dd03e28e1418a510e258be4bff5a31138f",
-    "tarball": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-13.1.0.tgz",
+    "integrity": "sha512-oVAVsHz6uFrg3XQheFII8ESO2ssAf9luWuAd6Wexsu4F3OtIW0o8IribPXYrD4WC24LWtPrJlGy87y5udK+dxQ==",
+    "shasum": "d26058532aa06d365fe091f6a1fc06b2f7e5eca0",
+    "tarball": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-13.1.1.tgz",
     "fileCount": 6,
-    "unpackedSize": 55362,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcz1aRCRA9TVsSAnZWagAAtpMP/jACleJupqg3CZdCqSxG\n0jSvwBTvTIKZ0eHVRAH6KMN7rZcx2JLwgJ3Ac9qwZBNO4Fzvt+FEqPUuvX+6\nOsU/zRB//K7aGRuvESaZQPcyIFwMzo/6PwmhXvvwYnEzN5EmePLTkRP+H30w\nnFdTW1zC+JXEp32C2ggKE6PAqo+6j9A/+YSpcaMx2DHFuxxyhFOG1asrtCYj\n6OsXnShPUlCdT3/CyackvK+9eNEruWPBRjlgizz2gsC/63jVhzWtNNSo0TPT\nQYqgeXfuLgsLqChF6OxeZ91qsHJK6lkx5A6JeO2jOvYiZdPp3ZLAtc98Tg1G\nvW0NeiZCkPLNkhLwBl5E9DVDMwlLSjdTTY29KGNHgYkV18pPKwmeYxC1oBgG\n+pL/Za4qlv28cHx5JIznrFtOp6cps0BbM5NCI0UQqzetWQdw+uqAyXs6+6kV\nVJpJtvcSRArVS11NR7YnIOTd4V8sFudLOKvKxlFM69Eqp4pDMmpnPPU/d8yE\nTyIr8mvvAO6twabpxlI14zhSfmxCV9a8tSNWvQyGvBWHyYMKK33eBfMafrGu\n/BfoFugYTFgkR8joEjVe32uW8deJoMvk7ApdUZViM1x+uq/LPbTpjGioEx73\n1NSdoWFzrVqg0+pG8deBxMtE+6929Rgu4v3TncrbWFhBoL+JQCbKhV/79/Yi\nbIy0\r\n=P+yU\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 56619,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/a/HCRA9TVsSAnZWagAAT1MP/0Jd8mvdED68tv36sBfV\nAfRFtdrw+eU3tI0UFs+bWSFu70TDS3b78GL/Wu5RbMtRvH/9B0Y6kAKAnPQc\nAkOtAyQoEP3dwR63A829WMg0qvosxiip0IciIwpj5qx7gIijixJl72VDrfJl\n8+AiZym6RVl+nuV8Dl7a1WZJyy0XTGGELXZSWOHHEPzQY7BzNm4rU+V82BoZ\nkNaOfj2QWwWIxYacl3rYGULY6Me1Oik2oWRdfsj+JP5Nh03apJ+NW2snPPT5\nTEU8jZDTzMk7PXSABQaf4Py2gWPbxskCi9/zmHqhvFj8KYPL0ImsO4nXbUkt\n5exPB/c5XLWBm1fQfRdbKfkp2NFRXIIwYh4mwp5t+bwvUIbwqcFVleuIruWK\nFmyE4NjaKtaRuGj3vs/OyLWbhSFegozbMQ8tb22Ekusewp8XfGRcEgDwmG9H\nCvWbgPZqad1+I/L02Jo52oFA0L0CIuww9F9a5fcRIljLv0bZMmYZp7CQO/du\nplM0vuck4R0yAUrs3n/f8cccLj2BybHE+/zdKiNYpwU8SmTZc3lRFybBgV5w\nEcEukyWs8/XkBrPuKLjDLutUuONrmIjq7Y9dlaTMIlzTzV/4LdZ4+kpUFFSv\nTQfyZMBmpFonQ2TdXWWP9ztvc06MYHclZsFOXhBKg1lSzd1S2usPr2BE5wGY\nyqYU\r\n=m06t\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

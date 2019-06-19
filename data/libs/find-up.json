@@ -2,7 +2,7 @@
   "name": "find-up",
   "description": "Find a file or directory by walking up parent directories",
   "dist-tags": {
-    "latest": "4.0.0"
+    "latest": "4.1.0"
   },
   "versions": [
     "1.0.0",
@@ -12,13 +12,14 @@
     "2.0.0",
     "2.1.0",
     "3.0.0",
-    "4.0.0"
+    "4.0.0",
+    "4.1.0"
   ],
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-12T15:28:47.611Z",
+    "modified": "2019-06-17T06:20:37.240Z",
     "created": "2015-09-01T07:15:16.509Z",
     "1.0.0": "2015-09-01T07:15:16.509Z",
     "1.1.0": "2015-11-14T19:05:49.453Z",
@@ -27,7 +28,8 @@
     "2.0.0": "2016-09-20T16:13:51.109Z",
     "2.1.0": "2016-12-02T13:21:51.615Z",
     "3.0.0": "2018-06-18T09:19:21.364Z",
-    "4.0.0": "2019-05-12T15:28:45.148Z"
+    "4.0.0": "2019-05-12T15:28:45.148Z",
+    "4.1.0": "2019-06-17T06:20:34.221Z"
   },
   "homepage": "https://github.com/sindresorhus/find-up#readme",
   "keywords": [
@@ -75,7 +77,7 @@
     "djblue": true,
     "danday74": true
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "engines": {
     "node": ">=8"
   },
@@ -83,23 +85,24 @@
     "test": "xo && ava && tsd"
   },
   "dependencies": {
-    "locate-path": "^5.0.0"
+    "locate-path": "^5.0.0",
+    "path-exists": "^4.0.0"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.1.0",
     "is-path-inside": "^2.1.0",
     "tempy": "^0.3.0",
     "tsd": "^0.7.3",
     "xo": "^0.24.0"
   },
-  "gitHead": "a2841237562d1f9996084d16c1bc6b471143892a",
+  "gitHead": "6c32f0caed1684ef778053b6f79b13a772e22ba4",
   "dist": {
-    "integrity": "sha512-zoH7ZWPkRdgwYCDVoQTzqjG8JSPANhtvLhh4KVUHyKnaUJJrNeFmWIkTcNuJmR3GLMEmGYEf2S2bjgx26JTF+Q==",
-    "shasum": "c367f8024de92efb75f2d4906536d24682065c3a",
-    "tarball": "https://registry.npmjs.org/find-up/-/find-up-4.0.0.tgz",
+    "integrity": "sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==",
+    "shasum": "97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19",
+    "tarball": "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz",
     "fileCount": 5,
-    "unpackedSize": 10221,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2DutCRA9TVsSAnZWagAAH8kP/jsZxV5KNq5u/5HSXNUA\n3zyTzFjRSRSxgzDv7MyjqkZDZVGaJxoQjXpwC/RS5pHM2R442RQR52xq/CHD\nGvCzTnUe51+XgNJ46pEcwA/t+PRQF2gGHxv7Sp/GbUwVLlXkTjPZpKr7Mzix\nSrB0wWZ97vB+xvr24FAp3T9c8gU0Lr6VpvA1hiLo3ecAWq984aPG2iOnFco1\nQVh2yp5ovblESCyElPNl5ZMPLHeH9ovroOBOs9B3J4yKm4EF/b8YTFlgIuGI\nDD5fDH076ql7pUEqEJKQvijt7W3uIHs8vh3ZLy3ModwN28ix2lzEQt70T+k1\nvjvDm+ZJXSYK88Owhe4qqVmaYkB5sTnChJTunid3wHN4Me3pusuhayIrLddd\nObiq7BHAvmFiqcFfrjtGxWLXnzhybkPAof0ENceSd288+NEY5N201OSsLAiB\naLj2/saDpJm4+FRQkQwj3su9a/dfhBLt2gucpiFkq8Ca4yWagSu2FU1r6fV2\n1hHp8bAALOJNmb+uDcxsdGSaYjXX9ESsLH1hRI+ROqrhOonY6qmgtO0pUUkv\n1VlqgdW7JSKYbafpVPqH4yrC4wPAq4S1XAn3k0GEnS2TrO6sURWZllF+xdPp\nbRi0E77GE3kYr02cOSowEfz6DvonQBkD1Y0A1bKnj3sMc4iaa0twtIXnJmGv\nTAmJ\r\n=wBb5\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 11611,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBzEzCRA9TVsSAnZWagAA7ZwQAJUrXCf9gkIYlisJcBE6\n2Wzq80Qhyy1k36PLbZPOIgwJsRyN81OGxhQQ5dlzvSIdyvXmJveNSm85+9pC\naN+th01evbkcCVLo6hoPwZyjv/CxWPjdKKqbF0dTBJwY8zCW+g0zDm/TUdlW\nZvlIncpN/AUSOjBpnmd8jYSC+wbedQ3JBCJi0ETSBYIVOuNwKUr14F0wl25+\nCZIAZB2D9VUMP+ZgT+F5z64OiUz1/+Q+U4VtXU0ivJ7OQfX3obNRqRx33KS7\nvBDHgVpeCh5ryMXNEGMZFblzR1qUOewik9/YdQ9e848SbhNu9oSfh4FaEg5X\n6ybitbPf7oOBQudM+LdJofhFkqJgUM8E+/eKtUxWZx6S2FmxbHltrjchAliW\n8JARBCQ2g0OqqyPPFOyWtQlImWr9BYcm2nyZqjA5Tj6jbGTsxkMaPK0YS89g\nAwXxJA5bXn3Xp8KTxFmxJUNJ0zDf5eRhWaZEIX/Tm2qpdEB2+kYbE9QfdOtV\nTo+Y7ZIg5mE44sDi5oN6LLmic+eHlTqtUaqaRS36Lecx65NbCBQY8fkxPNQp\ndJE/qYMRNOWMiNpA8yXqxpaXTtBUopFCpZ1ahTBUpQVP5pKVxX3uoPAbTT2Q\nzUvs1S2b0zo1sFAt3LpCgs24gyTu0WJTyMTFEKrTsk5nALPCpU93o5rUnJ0L\nSUUW\r\n=2E9L\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

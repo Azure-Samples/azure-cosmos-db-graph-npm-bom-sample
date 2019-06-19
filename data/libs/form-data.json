@@ -2,7 +2,7 @@
   "name": "form-data",
   "description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
   "dist-tags": {
-    "latest": "2.3.3",
+    "latest": "2.4.0",
     "next": "2.3.2-rc1"
   },
   "versions": [
@@ -37,7 +37,8 @@
     "2.3.1",
     "2.3.2-rc1",
     "2.3.2",
-    "2.3.3"
+    "2.3.3",
+    "2.4.0"
   ],
   "maintainers": [
     "alexindigo <iam@alexindigo.com>",
@@ -46,7 +47,7 @@
     "mikeal <mikeal.rogers@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-03T22:02:59.433Z",
+    "modified": "2019-06-19T07:27:09.178Z",
     "created": "2011-05-16T14:58:21.870Z",
     "0.0.0": "2011-05-16T14:58:22.532Z",
     "0.0.2": "2012-07-02T21:59:37.447Z",
@@ -79,7 +80,8 @@
     "2.3.1": "2017-08-24T23:00:54.577Z",
     "2.3.2-rc1": "2018-02-12T17:58:22.688Z",
     "2.3.2": "2018-02-14T00:31:49.698Z",
-    "2.3.3": "2018-10-17T07:26:22.767Z"
+    "2.3.3": "2018-10-17T07:26:22.767Z",
+    "2.4.0": "2019-06-19T07:27:06.596Z"
   },
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
   "repository": {
@@ -155,7 +157,7 @@
   "bugs": {
     "url": "https://github.com/form-data/form-data/issues"
   },
-  "version": "2.3.3",
+  "version": "2.4.0",
   "main": "./lib/form_data",
   "browser": "./lib/browser",
   "scripts": {
@@ -210,14 +212,14 @@
     "rimraf": "^2.5.4",
     "tape": "^4.6.2"
   },
-  "gitHead": "b16916a568a0d06f3f8a16c31f9a8b89b7844094",
+  "gitHead": "8512eef436e28372f5bc88de3ca76a9cb46e6847",
   "dist": {
-    "integrity": "sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==",
-    "shasum": "dcce52c05f644f298c6a7ab936bd724ceffbf3a6",
-    "tarball": "https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz",
+    "integrity": "sha512-4FinE8RfqYnNim20xDwZZE0V2kOs/AuElIjFUbPuegQSaoZM+vUT5FnwSl10KPugH4voTg1bEQlcbCG9ka75TA==",
+    "shasum": "4902b831b051e0db5612a35e1a098376f7b13ad8",
+    "tarball": "https://registry.npmjs.org/form-data/-/form-data-2.4.0.tgz",
     "fileCount": 8,
-    "unpackedSize": 119230,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbxuQfCRA9TVsSAnZWagAAiRgP/35Rr4anNT4tkKaF5BjA\nqyn2Rqik/V1A2uEXoVRZjwFAn4c3xH8riq4suJeOS0LbjaPoj6pWJXdiYkdN\nT2MCeTfUsGbT+LY5s2WOXQsDD5I78MzG88jn5QLSiNc72kbqmCAw2lDTr3b6\nm1ds6tFRb8xdkSGloXjpZ7BY/mex1Mkx+MS9pcXOVU9K7w8NbFXzRGO+A1Zh\ng5bQvcWjm98IjC6PRutLhbp4g4v502zpdYDRXtVW6w5fnC7uN7Mcv2GraRqN\nFIGEDhhcTeGomrb62Ea3imTiTkUliRvE7tSwGPJz894Rq1ej66oP/wfkF3yL\npe0DEAHlpqoG2328Fkcrzy1+dKxaqSqGf2LSGIPUNrjF76bPY+3VpXAcMS+h\nGK9brzI9I5KAfdJ6Gbgj2IX/A6xtIV5Ru7/kc2diVFIWkZXGaIQZVmho7Xkz\nMc3kLnIzT92b1xkk4bxiVFnLq7UaiheTEUxn8A1V8k1wWLMebJfndK3fMKJ8\n0fZKgPaPk+qG9J9Ld1AZWXZPg8nO06PkpCNwtb0TaUP7j2meQzjRqrCJqz+c\nuQwFbhQqEsT6TKd98dY7tcKKQf4t5hWL8InjeiqQ3+fe5Yehn264oKnJcnTo\ndHIKlpiqxdP9Natp/cCM6zCYcORN1mEinwf8zalChSk+XVCQ3NGKsHWywVc6\nZCxO\r\n=NorT\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 120904,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCePLCRA9TVsSAnZWagAAwsEP/3HA3hkx7sUGw/n2uu+m\no6c5k6O4mfU85NwHSNfw1Ck0JZFXwHKPIACNJJVGAbWJezFyf8NYaYxiz+st\nge1pMsT0rIgpqLfA4xgoLwUyKokqmPesMJPB4e1USuHRHuoDmoy5MmL7X9l8\nPXWzDG9V7UnJHiHyv/fOm9f7rw/sGdPMOrwRMSW1+mySXl7vCtWXoiebzsoR\nFQ2Z2RBtPOEm0O91InbM0D3wjZHAPMn+aweruf8hVT42rRUb8NtL7NByHZRo\nqr7iULDrKAjPGcRgjCHFvtvxdqrryxVy8Q7TMF2avE7VQUEOjGUY6Nc99lSW\nF6Ds3Eyk3Kr2thrIRzdVhK5XH16ybfwlqAFtyjFvT7R+W5FPBUaMBwfgk6vr\nqBKAU2FL7Flot2PANgv9V7XhBrBJgOonaHbtYCldVDBS2aEYnXEQLJDIphd3\npDbosxqZPw+dci9B8aZsURTvyQ4bOexFNpvVceR0TT2uKVKgaIhzpWlv863/\n59Oxq6XIIhKbrdowlGu4pVnCNPWRSer0fDFjKmE3x3+9W/riPQQoVkG4/DpW\n2lTNg89a68hRrYKdsAByTESMifijxsJAiSiZ7I+U+U8qbVDFpNdKfihfr5g9\npeHVWFjFfDKl65dvEf3Wg0BGAbvS3XyqqclN6p1cErdPsXEhZ1hC5NADKLC9\n/czT\r\n=Q+UL\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

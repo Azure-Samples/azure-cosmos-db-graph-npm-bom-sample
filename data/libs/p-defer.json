@@ -2,24 +2,26 @@
   "name": "p-defer",
   "description": "Create a deferred promise",
   "dist-tags": {
-    "latest": "2.1.0"
+    "latest": "3.0.0"
   },
   "versions": [
     "1.0.0",
     "2.0.0",
     "2.0.1",
-    "2.1.0"
+    "2.1.0",
+    "3.0.0"
   ],
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-03T05:21:24.104Z",
+    "modified": "2019-06-07T08:11:20.815Z",
     "created": "2016-10-21T05:14:31.906Z",
     "1.0.0": "2016-10-21T05:14:31.906Z",
     "2.0.0": "2019-03-17T12:27:03.960Z",
     "2.0.1": "2019-03-23T08:56:36.724Z",
-    "2.1.0": "2019-04-03T05:21:21.381Z"
+    "2.1.0": "2019-04-03T05:21:21.381Z",
+    "3.0.0": "2019-06-07T08:11:13.854Z"
   },
   "homepage": "https://github.com/sindresorhus/p-defer#readme",
   "keywords": [
@@ -32,8 +34,7 @@
     "later",
     "async",
     "await",
-    "promises",
-    "bluebird"
+    "promises"
   ],
   "repository": {
     "type": "git",
@@ -48,26 +49,26 @@
   "users": {
     "rocket0191": true
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "test": "xo && ava && tsd"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
-    "tsd": "^0.7.2",
+    "ava": "^2.0.0",
+    "tsd": "^0.7.3",
     "xo": "^0.24.0"
   },
-  "gitHead": "267600324e63a3e298c0d5a3cbd2d316bb4d1225",
+  "gitHead": "11f2980f795829b9c027acad2f65187dc8c3cdb9",
   "dist": {
-    "integrity": "sha512-xMwL9id1bHn/UfNGFEMFwlULOprQUEOg6vhqSfr6oKxPFB0oSh0zhGq/9/tPSE+cyij2+RW6H8+0Ke4xsPdZ7Q==",
-    "shasum": "d9c97b40f8fb5c256a70b4aabec3c1c8c42f1fae",
-    "tarball": "https://registry.npmjs.org/p-defer/-/p-defer-2.1.0.tgz",
+    "integrity": "sha512-ugZxsxmtTln604yeYd29EGrNhazN2lywetzpKhfmQjW/VJmhpDmWbiX+h0zL8V91R0UXkhb3KtPmyq9PZw3aYw==",
+    "shasum": "d1dceb4ee9b2b604b1d94ffec83760175d4e6f83",
+    "tarball": "https://registry.npmjs.org/p-defer/-/p-defer-3.0.0.tgz",
     "fileCount": 5,
-    "unpackedSize": 4304,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpELSCRA9TVsSAnZWagAAKIwP/1fX1BG+MisBP1K6j8Tu\nQCpE76Mh7dWEJrKRiVdErFd2727ai72v/n8CnY1M4nz/2XTx0fkTh/1bh6Js\nzMeV2uKe86wKHJPQlYAk2l1/JClJSfbwbuHS/7hRne4gwGSlaO/+ot2luPkR\nS/y9tRD77dfPG2hNNUPVVlAyYA2/C1Aw5SKm4I+2wfzZkee1ZvzgPQiqGfnx\nufCOYeP9Dj9hGVwgRJHGv32dKvbbwzxqE/elciL7/uCxE+ZUa076kHCsMqlB\nbm1vtgN1rqxVBLvdq4T/RABQTnhowq4P1Z0Fx5x+BQv+ufaBRLHWkmIOzE6P\ngPU5DHnDZUVMm0xlXm9h833v1vRLvaTQMjjuu0s6qVO0XiEk7cCun3Bm28LA\nLvG8GrzvtaiRFemT13idMCsrjrPr2JyemsM6VogoKKmN9jHH/jZye90RqlXZ\niH0VSgy/HVBQ5RgCF7qt5WN7eIOpsqgXek+nwXAb52ZzwsDEygq1lmVUKO0W\nfFDJ4WIUJfJ6fGwrBQGPei9+Ivx43zJkiJNaO4emvp5sxVfFnvMBSTRS51qL\nui3qWAKdfSOEsCiADIxtt4I+9bmGXUd0IiTsWJrXEo2VubsTS6kguniTl5YI\n1Rc5MB6wzwfycwrRC7Qa5saaK8r7DxMiqPjEtEJuVtUXEFXuLBcIK1uTCzhW\nLCAK\r\n=6B4k\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 3886,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+hwiCRA9TVsSAnZWagAANSwP/RzYDKB9TIfF23QvZ178\nnfq2Dtvh/2wEcW0CM80uje3U8LBgQVMDgCiK+OSi2NmwKaxgVEAE2fcIGYNG\nOHdWL88qKNiUFJdNPJKOu3oqx9wbVxI/SDs9BhxAH+2K+68xwoSC9s58Kuyz\n01n/cMThtXYZbUYC0fp0fQSFlUw1mbTX8DPEgwWn03Tr0o1RQkcvhDtpqtnP\nG8bli5uiIw2bhAPD4fx+mdNlcPfRhkwRxxvrGZaku6B5c37HWJkl9smmu5w1\nG1DVHBS2A6tQdFMd0WPZCf7LdWqyopeiBRgFYqM+sS7Bv5E4Gy68OM82+Oft\nE5kv/fJh9cZws1JiTA1M8jVGubMDveQZM3qV9wxx5tKA9WiSCtmlP2+q28Q5\nOu3iPq2H27Jf5pUFooejvQ8lkspvZ5QuK40nZ73sIqZvHVpiLdm7DpfsHHRk\nK17NUWL2lXvpb48yp4N4paXBkLIX8C5nIoieowp4sEUCtIGkgX23Uc0uv+ET\nuultvv+IhAfDdNqs6zsH5i1ETNgwdgD7Hhm223ArslQjojaSRI2r7dgFcFNS\ncoCY13910rx7F//uZgdEaOXRhBYILe+hRjTi61/nKHgxEcCJ1mLfwzXbG05k\nup6NsNM6NuRvw5/X8XVrio/IywmOJ9cdmojpT//qGUOB26flY05JLot/ZxJB\nFKty\r\n=vUcU\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

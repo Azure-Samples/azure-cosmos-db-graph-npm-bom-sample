@@ -2,7 +2,7 @@
   "name": "dot-prop",
   "description": "Get, set, or delete a property from a nested object using a dot path",
   "dist-tags": {
-    "latest": "5.0.0"
+    "latest": "5.1.0"
   },
   "versions": [
     "1.0.0",
@@ -17,13 +17,15 @@
     "4.1.0",
     "4.1.1",
     "4.2.0",
-    "5.0.0"
+    "5.0.0",
+    "5.0.1",
+    "5.1.0"
   ],
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-06T15:48:31.449Z",
+    "modified": "2019-06-11T17:00:08.165Z",
     "created": "2015-01-08T06:19:18.574Z",
     "1.0.0": "2015-01-08T06:19:18.574Z",
     "1.0.1": "2015-01-24T07:27:06.884Z",
@@ -37,7 +39,9 @@
     "4.1.0": "2016-11-27T16:45:58.307Z",
     "4.1.1": "2017-02-18T18:25:51.926Z",
     "4.2.0": "2017-07-24T20:08:50.144Z",
-    "5.0.0": "2019-04-06T15:48:28.290Z"
+    "5.0.0": "2019-04-06T15:48:28.290Z",
+    "5.0.1": "2019-06-07T07:15:14.421Z",
+    "5.1.0": "2019-06-11T17:00:04.463Z"
   },
   "homepage": "https://github.com/sindresorhus/dot-prop#readme",
   "keywords": [
@@ -79,7 +83,7 @@
     "isayme": true,
     "evocateur": true
   },
-  "version": "5.0.0",
+  "version": "5.1.0",
   "engines": {
     "node": ">=8"
   },
@@ -88,22 +92,22 @@
     "bench": "node bench.js"
   },
   "dependencies": {
-    "is-obj": "^1.0.0"
+    "is-obj": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.1.0",
     "benchmark": "^2.1.4",
     "tsd": "^0.7.2",
     "xo": "^0.24.0"
   },
-  "gitHead": "3de4456a52fa1bb4b6a06c74e8053e4c40ac0f34",
+  "gitHead": "b8b7124920b909bd829d689242324607e41fddc1",
   "dist": {
-    "integrity": "sha512-RTmaF2jx3nOBO2GvtFqjnDLycjFUMqt+2pwRx7JVYa81lDauoj9aNkyrJI2ikR58FbBIchiIlRiGG+muLJ4oHQ==",
-    "shasum": "64b7968af349c3a9f966aa12658dbd5829f6b953",
-    "tarball": "https://registry.npmjs.org/dot-prop/-/dot-prop-5.0.0.tgz",
+    "integrity": "sha512-n1oC6NBF+KM9oVXtjmen4Yo7HyAVWV2UUl50dCYJdw2924K6dX9bf9TTTWaKtYlRn0FEtxG27KS80ayVLixxJA==",
+    "shasum": "bdd8c986a77b83e3fca524e53786df916cabbd8a",
+    "tarball": "https://registry.npmjs.org/dot-prop/-/dot-prop-5.1.0.tgz",
     "fileCount": 5,
-    "unpackedSize": 8377,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqMpNCRA9TVsSAnZWagAAmLIP/Rz+2xKrq9RuGMVQBISb\npGOLP456AS7ETuwFwQWn4k6U1IypiMZCPuOZk5LojGYcztTn/8H+aOgO7RE2\nUNzreGqoDpNG2DxxsctGZbmjhy1elp6BKG5dlfxwUdhqbZkZeFz9Lsbvrs3g\nHj9wikmXXBUMeW1NEMonFd/6RWa04hnZx3RaA1RSVXhUFKPC5qW8vl13qa0M\nyL8idUOiQ7Jg1II1FG9M00ucDXMMW45e6m8KXntixysNIBB54gfD9BDM8HlH\n5/GF1AYkRtyupz721HbZrrM5zpq9a7+hhg8qpFiqnYyJ/T05zCTkYcoS7V8M\nW3PaMmcNWoTDBh8BrkVUwkqo9yp1Jm90S4uFfdNR6XVXCR4wwfDrDu7KROnn\n2YFB4+fs9+p80hG3j1IYfA1DSmfgxnf6Mo9qbF1H1//q2onCykq4MCp4EsoW\n7+nZ5HjdL3vwz8NDtUZB9xKSopqsFH6SHyF7iD/J+W02oArT+fIv2IcV69r7\nKhS5ktXUUEXCtBv9HcXEaWAioFM4L3ldvxZInexS3LC6qYjL+dQDcEM0RYiM\nMKHC9Gaz1QXBnzzKQS34eUCC8Z2TAdfL4QTZIw7CMjSPbiDtQAVgrPnbFgr0\nitgjV3bY/aKoSWrnsBMpA9BUx4XesV+6Mr62shHApGdw+wGyGM1guklsN3nB\nFmLY\r\n=bKMK\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 8724,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/94UCRA9TVsSAnZWagAAmhIP/jsMPdAZnv5X0CyPEppZ\nHqQS+wdthFvJNIrE0E24O7TN784vdhUtV96HTnKE4fR2es3YdMNxtNw0r9Wx\naPoUe41ByLojme3mcRqXPvuQi3CxkAWpFBf63UW74Vksdn2VugTHphFnC3hJ\ntHMhb97ar0d6Ci2Bv32AHrRRd2Q038+cVc962HyqmhEOVQGKu8+OjeGCk3zG\n00R5c0wLGlJR6HuzVndba5OprgEK+kgv65BBjcr+wY8fnfcMpyCwpOCS9vLr\nDtTsvo2jwgJwy1BCrX6KnM3+R+zWXmKYA+/VYhwezKH1jGdw4SpgLQf43EVf\nindW8ZADzNJXqMRz0L4pDyHCLcU1Db07sn/ei2f938JMdeow7k5GkE3RfxN7\npdM7O212norEmRwczwaoSXe7jAbyY4hFFZqxMSNTxpzkFuxv8bcjsBbjgFJl\nTRbhPF1YeA8Tn8hev98nq55uEV1AcPKRR8LD1e2iDGbNGaPqDvHFAsw5vHsJ\naIeWq1taFL1XETTBDA+0fcgaQeZDZ5EFYmFAV/v5WhNFqi2ItAMdrHqSv61Z\nu21kUrne0MvUokj8jN4MAMnj2GOSW0YXenmXmbhA1bbLbzbaPqWR7E6nihiC\nfbQX97bfDwGQggTd7MbzqjptsedkpqaIShjaGUV8moGf8RTmhcBRg353FhG5\nS6tr\r\n=IBhd\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

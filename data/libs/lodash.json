@@ -115,7 +115,7 @@
     "mathias <mathias@qiwi.be>"
   ],
   "time": {
-    "modified": "2019-05-31T06:23:06.933Z",
+    "modified": "2019-06-15T17:40:15.912Z",
     "created": "2012-04-23T16:37:11.912Z",
     "0.1.0": "2012-04-23T16:37:12.603Z",
     "0.2.0": "2012-05-22T04:06:24.044Z",
@@ -1704,7 +1704,8 @@
     "crstn": true,
     "bsdnpmjs": true,
     "mrosata": true,
-    "huaichao.wang": true
+    "huaichao.wang": true,
+    "volf": true
   },
   "readmeFilename": "README.md",
   "homepage": "https://lodash.com/",

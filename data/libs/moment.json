@@ -76,7 +76,7 @@
     "timrwood <washwithcare@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-18T13:30:40.093Z",
+    "modified": "2019-06-09T11:36:32.051Z",
     "created": "2011-10-17T20:04:22.876Z",
     "1.0.0": "2011-12-06T18:33:55.051Z",
     "1.0.1": "2011-12-06T18:33:55.051Z",
@@ -1178,7 +1178,8 @@
     "leota": true,
     "myhlcb": true,
     "ndenis": true,
-    "nelhu": true
+    "nelhu": true,
+    "bspolstra": true
   },
   "readmeFilename": "README.md",
   "homepage": "http://momentjs.com",

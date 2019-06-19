@@ -3,7 +3,7 @@
   "description": "yargs the modern, pirate-themed, successor to optimist.",
   "dist-tags": {
     "latest": "13.2.4",
-    "next": "13.0.0-candidate.0"
+    "next": "13.3.0"
   },
   "versions": [
     "1.0.0",
@@ -173,7 +173,8 @@
     "13.2.0",
     "13.2.1",
     "13.2.2",
-    "13.2.4"
+    "13.2.4",
+    "13.3.0"
   ],
   "maintainers": [
     "bcoe <ben@npmjs.com>",
@@ -181,7 +182,7 @@
     "nexdrew <andrewbgoode@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-13T04:07:19.379Z",
+    "modified": "2019-06-18T02:11:44.912Z",
     "created": "2013-11-23T09:34:05.069Z",
     "1.0.0": "2013-11-23T09:34:06.097Z",
     "1.0.1": "2013-11-23T09:39:47.210Z",
@@ -350,13 +351,14 @@
     "13.2.0": "2019-02-15T01:11:52.927Z",
     "13.2.1": "2019-02-18T05:20:46.855Z",
     "13.2.2": "2019-03-06T06:24:50.679Z",
-    "13.2.4": "2019-05-13T04:07:16.853Z"
+    "13.2.4": "2019-05-13T04:07:16.853Z",
+    "13.3.0": "2019-06-10T02:19:28.836Z"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yargs/yargs.git"
   },
-  "readmeFilename": "README.md",
+  "readmeFilename": "",
   "homepage": "https://yargs.js.org/",
   "keywords": [
     "argument",
@@ -880,7 +882,8 @@
     "daizch": true,
     "ungurys": true,
     "papb": true,
-    "mahume": true
+    "mahume": true,
+    "yanghcc": true
   },
   "contributors": [
     "Yargs Contributors (https://github.com/yargs/yargs/graphs/contributors)"

@@ -2,7 +2,7 @@
   "name": "configstore",
   "description": "Easily load and save config without having to think about where and how",
   "dist-tags": {
-    "latest": "4.0.0"
+    "latest": "5.0.0"
   },
   "versions": [
     "0.1.0",
@@ -32,20 +32,19 @@
     "3.1.0",
     "3.1.1",
     "3.1.2",
-    "4.0.0"
+    "4.0.0",
+    "5.0.0"
   ],
   "maintainers": [
     "addyosmani <addyosmani@gmail.com>",
-    "arthurvr <contact@arthurverschaeve.be>",
     "eddiemonge <eddie+npm@eddiemonge.com>",
     "mischah <mail@michael-kuehnel.de>",
-    "passy <phartig@rdrei.net>",
     "sboudrias <admin@simonboudrias.com>",
     "sindresorhus <sindresorhus@gmail.com>",
-    "zckrs <mdara@eleven-labs.com>"
+    "zckrs <mehdy.dara.fr@gmail.com>"
   ],
   "time": {
-    "modified": "2019-03-25T16:47:06.118Z",
+    "modified": "2019-06-14T09:22:23.878Z",
     "created": "2012-11-13T15:43:50.942Z",
     "0.1.0": "2012-11-13T15:43:52.522Z",
     "0.1.1": "2013-04-06T17:35:49.620Z",
@@ -74,7 +73,8 @@
     "3.1.0": "2017-05-10T12:10:55.123Z",
     "3.1.1": "2017-07-20T21:36:43.439Z",
     "3.1.2": "2018-03-26T03:56:41.149Z",
-    "4.0.0": "2018-07-28T16:01:01.058Z"
+    "4.0.0": "2018-07-28T16:01:01.058Z",
+    "5.0.0": "2019-06-11T18:24:34.664Z"
   },
   "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
   "repository": {
@@ -124,7 +124,6 @@
     "config",
     "store",
     "storage",
-    "conf",
     "configuration",
     "settings",
     "preferences",
@@ -138,36 +137,33 @@
     "url": "https://github.com/yeoman/configstore/issues"
   },
   "license": "BSD-2-Clause",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "test": "xo && ava"
   },
-  "files": [
-    "index.js"
-  ],
   "dependencies": {
-    "dot-prop": "^4.1.0",
+    "dot-prop": "^5.1.0",
     "graceful-fs": "^4.1.2",
-    "make-dir": "^1.0.0",
-    "unique-string": "^1.0.0",
-    "write-file-atomic": "^2.0.0",
-    "xdg-basedir": "^3.0.0"
+    "make-dir": "^3.0.0",
+    "unique-string": "^2.0.0",
+    "write-file-atomic": "^3.0.0",
+    "xdg-basedir": "^4.0.0"
   },
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "^2.1.0",
+    "xo": "^0.24.0"
   },
-  "gitHead": "fca8373abaa2b50477dbae2673ac63bacc17525b",
+  "gitHead": "310f25f446c15e360e86c1d6d24bf4c352e4e242",
   "dist": {
-    "integrity": "sha512-CmquAXFBocrzaSM8mtGPMM/HiWmyIpr4CcJl/rgY2uCObZ/S7cKU0silxslqJejl+t/T9HS8E0PUNQD81JGUEQ==",
-    "shasum": "5933311e95d3687efb592c528b922d9262d227e7",
-    "tarball": "https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz",
+    "integrity": "sha512-eE/hvMs7qw7DlcB5JPRnthmrITuHMmACUJAp89v6PT6iOqzoLS7HRWhBtuHMlhNHo2AhUSA/3Dh1bKNJHcublQ==",
+    "shasum": "37de662c7a49b5fe8dbcf8f6f5818d2d81ed852b",
+    "tarball": "https://registry.npmjs.org/configstore/-/configstore-5.0.0.tgz",
     "fileCount": 4,
-    "unpackedSize": 7164,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbXJM9CRA9TVsSAnZWagAAlKkP/RMjyB5rsWyYtY+Q5LRS\nhgw7WWi3mVfVRW0IRabjvCxX0W0+ovkjfqZu+FmktYeJRnhk6Qe4meWdni2F\nirjgfcHOtfwYRx+tmKG10wlbMl4SGwunHpW2kby22iUdl3BG+TNbDa58eN4+\n59gUKgsPXnMb8gvFsr7mmpkl/IRaOdUDz3fWFmQn6rNPafTmrcSmNzYSklzn\ns7xbOEgF2jesIRDytx2RbGXDr0Y97FsryJ3JUCSFEJv7l+MbYil3QTh+Ndx9\nwVwR+zQMuAX3NSnOJ7ibsF8D5GKQSMYiWrph5+Pr+7HGfJG/GklE4vfO2sru\n705BSaZ+IaGhEmUi4iqy+Mp9IKyFvacx9JzFDQ0Buzkc680SPhmflFGZGi9a\n8Y0yV4YzoNP2dY5nDilhCaqGkYxxTk6QQdBaASMX3K3OqPD4FuZusHO2z/wH\noQ5Uvhbw94VkIQuCENbaX8cDUbEXWx/AiRULXmYB6VUpMpR1TK+Ye6LqZU++\nGmIuBtvLwunS0nfauK3IsdH3Gc84an5FTT4BABgLptGQ6J5xhje4TYGJHNv/\nG1pi1SFoPQAmKcY0BX+6jh8hmnxPM1BKoV/s5gIlBGLn//jwjkD4nvqu6X8K\ngoR19mJF6u4frcrN6RywN0vEkV2jujOkbaxof5MHsQ9ED05XOIJ0OVAQsrbi\nbHF+\r\n=VoVj\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 7614,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc//HjCRA9TVsSAnZWagAAVXkQAJ5eYGe8h3/5hyjam6fl\nuUE76H8a/Q748AP4UcvULoSrE5E0yNfZFL+rQmBuG3rNfflysz6bxEkEBegM\ncg1XAdYaODqG+79MTEcNHmkN4fN6QUwgE7qXP+Lv0r8csIpTG4w2T7+RCFT/\nB5M0T9ISyNGvZFPEOAE7HxoCxxiFD6sEW/Va8o9zvfuq4IHClpw2RZsh+7ik\ngHNu9cDLOQPAkMEj5u0vb6139JIENj7R6oBm0v6HW9CYygkaPMovi8GwO2eg\npHzxe3vwGcK9kllR/M49MZLXxCctiSr4ez84Zc9EkBA6NlteSKcj9nhMhyZk\nND04N2o7YbLmbVdBY9R4vXM9mJVaX5FppkVMfOZ2vcd0B+3zPtN/mxFYKEBZ\nFMoeC+F9jRjt6we1jaUuMqxTbFqmGTlIjy3a/pEnWvRShbGcGssUcijyYiRq\nSDobo3vFwzbiI7ivLMCCzVXdF8Gycy3W3hbZttS6st5gze2wdTJcAKeQ33B2\noohOO6KKcog6HyfhM+N/5xSItcNRB8nT/C2odjG3VM+UhKLzmrvXodIgNHL8\n3X8UlHosFkgBAJl+tweXAqd0dIQmPP/w9cTMJFm1xit6LdalVxyC9GUmYJl1\nLVMgZg0NoDQSoeoXOOH2HEBFUSrXZEV+WiHAjYxNVuIhLaFsbuBAsf7hSw4q\nUIdF\r\n=Jt4s\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

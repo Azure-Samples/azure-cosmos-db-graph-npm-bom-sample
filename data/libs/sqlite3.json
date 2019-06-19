@@ -2,7 +2,7 @@
   "name": "sqlite3",
   "description": "Asynchronous, non-blocking SQLite3 bindings",
   "dist-tags": {
-    "latest": "4.0.8",
+    "latest": "4.0.9",
     "alpha": "3.1.10-alpha"
   },
   "versions": [
@@ -83,7 +83,8 @@
     "4.0.4",
     "4.0.6",
     "4.0.7",
-    "4.0.8"
+    "4.0.8",
+    "4.0.9"
   ],
   "maintainers": [
     "kewde_ <kewde@particl.io>",
@@ -95,7 +96,7 @@
     "zmully <mully@mapbox.com>"
   ],
   "time": {
-    "modified": "2019-05-11T02:38:21.472Z",
+    "modified": "2019-06-13T15:02:57.337Z",
     "created": "2011-02-24T15:45:51.936Z",
     "2.0.0": "2011-02-24T15:45:52.177Z",
     "2.0.1": "2011-02-24T16:50:09.004Z",
@@ -176,7 +177,8 @@
     "4.0.5": "2019-01-04T21:05:22.798Z",
     "4.0.6": "2019-01-11T18:21:05.139Z",
     "4.0.7": "2019-05-08T15:52:46.741Z",
-    "4.0.8": "2019-05-11T02:38:18.985Z"
+    "4.0.8": "2019-05-11T02:38:18.985Z",
+    "4.0.9": "2019-06-13T15:02:54.596Z"
   },
   "author": "MapBox (https://mapbox.com/)",
   "repository": {
@@ -345,7 +347,7 @@
     "database"
   ],
   "license": "BSD-3-Clause",
-  "version": "4.0.8",
+  "version": "4.0.9",
   "binary": {
     "module_name": "node_sqlite3",
     "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
@@ -373,12 +375,12 @@
   "main": "./lib/sqlite3",
   "licenseText": "Copyright (c) MapBox\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n- Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n- Redistributions in binary form must reproduce the above copyright notice, this\n  list of conditions and the following disclaimer in the documentation and/or\n  other materials provided with the distribution.\n- Neither the name \"MapBox\" nor the names of its contributors may be\n  used to endorse or promote products derived from this software without\n  specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
   "dist": {
-    "shasum": "81ee60d54befaa52f5421fe6337050bd43d4bb95",
-    "integrity": "sha512-kgwHu4j10KhpCHtx//dejd/tVQot7jc3sw+Sn0vMuKOw0X00Ckyg9VceKgzPyGmmz+zEoYue9tOLriWTvYy0ww==",
-    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-4.0.8.tgz",
+    "shasum": "cff74550fa5a1159956815400bdef69245557640",
+    "integrity": "sha512-IkvzjmsWQl9BuBiM4xKpl5X8WCR4w0AeJHRdobCdXZ8dT/lNc1XS6WqvY35N6+YzIIgzSBeY5prdFObID9F9tA==",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-4.0.9.tgz",
     "fileCount": 38,
     "unpackedSize": 2950951,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1jWbCRA9TVsSAnZWagAAn5oP+wQBU0wnanzLjoMHsjsZ\n11ITUhZJ1SfVfQ6FI/OCZQGS0L/I4j9kQ3z+I06E4E0nA/fm9NdXrwG2BZsf\nNjKQiMEllJBFL++IUSSdzgzYFmu3l3MAH0puNJeYIV/F8SDoNBah8gRcgHwl\nZYQRdtBA5nZOTHHbW/zMC7dEQygckSi2dr5p/uEYdw444XiUFVtOhThnHUff\nzl6mUZY2wi/4fqHQDpueW/aidzDBUzHY0johHjAzNlxC3mdvBZTXTfB8pOQg\nMeZemxI8+bOZZRkpEVUaJI4pm0eAmYObQShNVhR1bAHR/hg292W2A0jjWRmn\nC/Z0V2RaGVrzTNpVbNn3VkwTNzsibW1TqxdCj0orSgCRG2sDq9NrHJW2DrsR\nwnSGZIxYQXxK33+AhHjpef9FQkhd8UWgj2UqxP5Xd/BeW91qOsYPNAlUcedK\n/nKPwjn9jUzfCwipATFqBwupDkGeX7mXB3PjaRgTeGT4QfDeHYXSZnQ09eTW\nSA/FezfF8cXdr2Ebu9g+yFAstQWKA+DAkViK47fuFgmkw7DlIGgLt8x4Af31\nmSH3ho1LfOsMquvoYR6vdxTzznTO6BhyrM9BLq2uGe57EKzkBfvM/I+MO3JD\nMlEZoRWh1W0wrirHsCbZO1EY1LYIE8jR7IfQwytPc6hmUEOFJL6z45XUg+lI\nt7ol\r\n=ZPxq\r\n-----END PGP SIGNATURE-----\r\n"
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAmWfCRA9TVsSAnZWagAAXY4P/0nfVPHfOjHsssmuViAa\novxWkWXyRvLtXd1GKMqHxDL/mW9NTq6A4WdqUuwnIjzfqgWKcwLZKZ7az+f1\nEQYNNjneRp1NXXoF5aKJIZFox7KPH/w0oGJ6iKYV2HTScB2uu6VbFRyW2utL\nZVfSNzgSrHtMrgBQPVMka2xWGlRNkJJqnQW7f980+wyUslM7vO4JyTT/6Fa7\nFuQKSJaoBFeqDDxnqc51roiFZxLFA3wJWsgDwIoS7UIGi/vUuGa/9qBDFV2j\n25R0HH+qXHbY18fufq5RQD2oj3qYGqUpiSplq/Cmbdu3bKCa0Ry0PwEZ1zsn\n94c//eInDy+ruAQdJSMNYNWYnnha87kIeJ9HS8AsWkk/uGKuQ4qVU9VGHBs+\n/L27qKcvMkz1AS615hx4GMOjNWDfpzVql6vmY02tuJGWD8Nt+c8QJjzC6WUV\n5ZiG7S4uq06ft5yBAjITUqzX+G1D2dzYdnFpnUVGL4KEsWZiBskwYaGsKo3g\ntgU4RYLac3C21r6AwaB2QpMihYGBS2IRRvmKZMAIgrLXw4zs/aSLvmP8LpVA\nCG6EFfUxo3e+maIcDGhmqvGLd7elWinJGQdQDn+Scbr1zFSMMbWWPyzqXSVl\nC05EClQ/2wDYpAqNv0JJxufdkc1T8R59kAFPsKsXm9aQo0vIWdsGo+GfxUmh\npp1i\r\n=SV0v\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

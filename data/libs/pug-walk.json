@@ -2,7 +2,7 @@
   "name": "pug-walk",
   "description": "Walk and transform a pug AST",
   "dist-tags": {
-    "latest": "1.1.7"
+    "latest": "1.1.8"
   },
   "versions": [
     "0.0.0",
@@ -16,14 +16,15 @@
     "1.1.4",
     "1.1.5",
     "1.1.6",
-    "1.1.7"
+    "1.1.7",
+    "1.1.8"
   ],
   "maintainers": [
     "forbeslindesay <forbes@lindesay.co.uk>",
     "timothygu <timothygu99@gmail.com>"
   ],
   "time": {
-    "modified": "2018-03-08T16:32:32.890Z",
+    "modified": "2019-06-18T09:44:59.879Z",
     "created": "2015-12-12T00:28:05.587Z",
     "0.0.0": "2015-12-12T00:28:05.587Z",
     "0.0.3": "2015-12-23T04:00:23.616Z",
@@ -36,32 +37,32 @@
     "1.1.4": "2017-08-01T15:53:49.062Z",
     "1.1.5": "2017-09-06T15:28:13.321Z",
     "1.1.6": "2018-03-06T13:12:29.964Z",
-    "1.1.7": "2018-03-08T16:32:31.549Z"
+    "1.1.7": "2018-03-08T16:32:31.549Z",
+    "1.1.8": "2019-06-18T09:44:55.330Z"
   },
   "keywords": [
     "pug"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pugjs/pug-walk.git"
+    "url": "https://github.com/pugjs/pug/tree/master/packages/pug-walk"
   },
   "author": "ForbesLindesay",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "devDependencies": {
-    "pug-lexer": "^4.0.0",
-    "pug-parser": "^5.0.0"
+    "pug-lexer": "^4.1.0",
+    "pug-parser": "^5.0.1"
   },
-  "files": [
-    "index.js"
-  ],
-  "licenseText": "Copyright (c) 2015 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+  "gitHead": "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
   "dist": {
-    "shasum": "c00d5c5128bac5806bec15d2b7e7cdabe42531f3",
-    "tarball": "https://registry.npmjs.org/pug-walk/-/pug-walk-1.1.7.tgz",
-    "fileCount": 6,
-    "unpackedSize": 9242
+    "integrity": "sha512-GMu3M5nUL3fju4/egXwZO0XLi6fW/K3T3VTgFQ14GxNi8btlxgT5qZL//JwZFm/2Fa64J/PNS8AZeys3wiMkVA==",
+    "shasum": "b408f67f27912f8c21da2f45b7230c4bd2a5ea7a",
+    "tarball": "https://registry.npmjs.org/pug-walk/-/pug-walk-1.1.8.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9519,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCLKXCRA9TVsSAnZWagAAtgkP/0pYHykrNDtRne1GL1WB\nEdPmG2QqOldMRKWmXB1G7XvcOb03B2mc8L8zjXLFbL9Hfghc14CQ3Jg5bGru\n/4uCzEnYcR686wJBHlyL0HaPQgAHQBgpAE5XDx/Kwpfu6Obc/1BBVKDFHIAE\nAIOj7BH62o50K8YIj6gUeV6L5YPk2x/t6TqcT9dcVbjKsmUhCxfKZIK4VrZ0\nwHWRjQpIgyNWL8tRj6EYrzXFyFSHL+FfjyBgmd5SZ2XT0zVcq7TfqBN0tue1\njHlQisZZtM6lnZqSpE838SgYvaZ3nDaELumEBnH4KqGvH6BbLfpq6OChTHYw\nTPpzReVcAKTTdh1Ppp5fC/UCn2Ydo1z4HNz+oz7+vyWaOjw1MT9w3n4ODStZ\ngymsNzeZflBXK01i5YZpYJQkRy3HYgh/hbkQqnKwoKb975Yi3Npj4YWtrlsf\nLISGXYfdOv6PUMwpTAlobXIYBilfzk1OVTxB33sg8Vb4JWF3TA4bUck03j42\nwKdzh42ZqeZ+IEoC8fOmOVJ1ExUxFFxo5bZzxAjoSTitRvkRn21C/eg3cuPB\nTwdQIHaR7HNkqi6lB4aoIzFLaOj/SQ4hEX0S//vJ5a3umw1TFadypl+wAYcd\nAyu4k93Ednx7GcN+vsBXGBS6lxzLU8YK2xwJU0i4Qe5WYg61EiucVm0GzqBx\n0nOs\r\n=7COe\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

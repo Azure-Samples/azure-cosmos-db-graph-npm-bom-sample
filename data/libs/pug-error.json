@@ -2,51 +2,50 @@
   "name": "pug-error",
   "description": "Standard error objects for pug",
   "dist-tags": {
-    "latest": "1.3.2"
+    "latest": "1.3.3"
   },
   "versions": [
     "0.0.0",
     "1.3.0",
     "1.3.1",
-    "1.3.2"
+    "1.3.2",
+    "1.3.3"
   ],
   "maintainers": [
     "forbeslindesay <forbes@lindesay.co.uk>",
     "timothygu <timothygu99@gmail.com>"
   ],
   "time": {
-    "modified": "2018-02-05T18:51:28.350Z",
+    "modified": "2019-06-18T09:44:59.720Z",
     "created": "2015-12-04T13:29:35.426Z",
     "0.0.0": "2015-12-04T13:29:35.426Z",
     "1.3.0": "2015-12-23T03:20:25.297Z",
     "1.3.1": "2016-06-02T16:59:07.512Z",
-    "1.3.2": "2017-01-24T01:07:12.517Z"
+    "1.3.2": "2017-01-24T01:07:12.517Z",
+    "1.3.3": "2019-06-18T09:44:55.239Z"
   },
-  "homepage": "https://github.com/pugjs/pug-error#readme",
   "keywords": [
     "pug"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pugjs/pug-error.git"
+    "url": "https://github.com/pugjs/pug/tree/master/packages/pug-error"
   },
   "author": "Forbes Lindesay",
-  "bugs": {
-    "url": "https://github.com/pugjs/pug-error/issues"
-  },
   "license": "MIT",
   "readmeFilename": "README.md",
   "users": {
     "hyokosdeveloper": true
   },
-  "version": "1.3.2",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {},
+  "version": "1.3.3",
+  "gitHead": "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
   "dist": {
-    "shasum": "53ae7d9d29bb03cf564493a026109f54c47f5f26",
-    "tarball": "https://registry.npmjs.org/pug-error/-/pug-error-1.3.2.tgz"
+    "integrity": "sha512-qE3YhESP2mRAWMFJgKdtT5D7ckThRScXRwkfo+Erqga7dyJdY3ZquspprMCj/9sJ2ijm5hXFWQE/A3l4poMWiQ==",
+    "shasum": "f342fb008752d58034c185de03602dd9ffe15fa6",
+    "tarball": "https://registry.npmjs.org/pug-error/-/pug-error-1.3.3.tgz",
+    "fileCount": 4,
+    "unpackedSize": 4613,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCLKXCRA9TVsSAnZWagAApW8P/0wMk+NoiemNEXAA1i2c\nPlWWwA0yu/dyAg1Ge0MJfVBHITEjrHd2+fBz7Fi/jTXAm9HfvD+ZalMuhzwJ\njEFGGRflCQujHnX3UmR3Hba03rE/s9dRUwDYlNtmgzXZauBg01M9rGd9N5Gw\nsv6X0dIsybOex7fmafaMs4v5IYyCmbw/bop22uiLTcd15OpPtM6wegRAcwX1\n4+8Yp2+ROjmUEd/AIl+8W1iapRgZtEXJN9bDev04/1jt5Af9x2ONzAxHHMdN\ne5hUUQWy293W2thqa/0PEMtuWfU2ZT3wRISFlV4stE4aaj5oHIVPNJ4iGaHP\nUAkOuIl+D5zAGhTU07ZhtrNK3ekVXDwmynzm2dIzyoM5I3SviI8pExDx2ur4\n4auLRCN55Dj+2Za0RKA3+7iDNg/Bkc6RPyd4h7lPNsqOw+dL64jb0FMG0Ot3\njH+ktP48HZKGKTA2jRFOTrFchoR6+sxFnPXRefeOkITgk/AwtEGpWxiQHKG7\niTcpzc+J8P9xD3+ydIrLGPisFBw0EK9upRJu0toQBvqnCfQTvq6n7lHj7vEF\ntLtC26sV6ssg4ib12FIpTnmTC4jS3pr5Afw4xe6eqoO95ETcDxxC81azVGJl\nGeauYegz9k6r2LvWpLMMIjIpmaqt86UcTUPBFjgnuwtkagIM7SE1U8SRtVGF\nHDCT\r\n=xjwG\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

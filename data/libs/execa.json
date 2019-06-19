@@ -2,7 +2,8 @@
   "name": "execa",
   "description": "A better `child_process`",
   "dist-tags": {
-    "latest": "1.0.0"
+    "latest": "1.0.0",
+    "next": "2.0.0-alpha.0"
   },
   "versions": [
     "0.1.0",
@@ -23,13 +24,14 @@
     "0.9.0",
     "0.10.0",
     "0.11.0",
-    "1.0.0"
+    "1.0.0",
+    "2.0.0-alpha.0"
   ],
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-17T17:48:03.115Z",
+    "modified": "2019-06-18T17:47:09.259Z",
     "created": "2015-12-05T23:03:32.752Z",
     "0.1.0": "2015-12-05T23:03:32.752Z",
     "0.1.1": "2015-12-07T10:22:42.263Z",
@@ -49,7 +51,8 @@
     "0.9.0": "2018-01-11T23:29:49.655Z",
     "0.10.0": "2018-03-15T04:59:55.439Z",
     "0.11.0": "2018-08-20T07:57:57.953Z",
-    "1.0.0": "2018-08-26T17:43:44.171Z"
+    "1.0.0": "2018-08-26T17:43:44.171Z",
+    "2.0.0-alpha.0": "2019-06-18T17:47:06.429Z"
   },
   "homepage": "https://github.com/sindresorhus/execa#readme",
   "keywords": [
@@ -78,7 +81,7 @@
     "url": "https://github.com/sindresorhus/execa/issues"
   },
   "license": "MIT",
-  "readmeFilename": "readme.md",
+  "readmeFilename": "",
   "users": {
     "timdp": true,
     "king.v": true,

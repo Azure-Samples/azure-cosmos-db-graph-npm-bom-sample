@@ -60,7 +60,7 @@ The batch processing does the following:
 
 2) Programatically invoke the **npm cli** to recursively **Spider** npm for information about each library.
    - The spider process starts with your hand-edited list of seed npm libraries
-   - The spider will iterate n-number of times to get the dependencies of those seed libraries
+   - The spider will iterate n-number of times to get the **dependencies** of those seed libraries
    - Then dependencies of those libraries, and their dependencies, etc, etc
    - The command **npm view library -json** is executed for each library and the JSON response is captured
 
@@ -83,8 +83,10 @@ scripts (*.sh) and Windows PowerShell Scripts (*.ps1) are provided in this repo.
 First clone this repository and install the npm libraries necessary for this project
 in the project root directory.
 ```
-$ git clone https://github.com/cjoakim/azure-cosmosdb-graph-npm.git
-$ cd azure-cosmosdb-graph-npm
+$ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
+
+$ cd azure-cosmos-db-graph-npm-bom-sample
+
 $ mkdir tmp
 
 $ npm install 
@@ -96,12 +98,12 @@ $ node main.js seed2json
 ```
 This creates file data/seed_libraries.json
 
-Then execute the npm Spidering process, with 10 iterations.
+Then execute the npm "Spidering" process, with 10 iterations.
 ```
 $ ./spider_npm.sh
 ```
 
-The above Spidering process may take an hour or two to execute, depending on the number
+The above Spidering process will take roughly 10-minutes to execute, depending on the number
 of seed libraries and your network bandwidth.
 
 Then execute the data-wrangling and gremlin-statement-generation process:
@@ -300,6 +302,7 @@ web framework.  D3.js is used in the client-side browser code for Graph Visualiz
 
 ```
 $ cd webapp
+
 $ npm install
 
 $ ./webserver.sh
@@ -307,6 +310,9 @@ $ ./webserver.sh
     Express server listening on port 3000
     ...
 ```
+
+Then visit **http://localhost:3000/** with your browser.
+
 
 ### Web App Screen Shots
 

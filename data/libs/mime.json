@@ -2,7 +2,7 @@
   "name": "mime",
   "description": "A comprehensive library for mime-type mapping",
   "dist-tags": {
-    "latest": "2.4.3"
+    "latest": "2.4.4"
   },
   "versions": [
     "1.0.0",
@@ -42,7 +42,8 @@
     "2.4.0",
     "2.4.1",
     "2.4.2",
-    "2.4.3"
+    "2.4.3",
+    "2.4.4"
   ],
   "maintainers": [
     "bentomas <benjamin@benjaminthomas.org>",
@@ -50,7 +51,7 @@
   ],
   "author": "Robert Kieffer <robert@broofa.com> (http://github.com/broofa)",
   "time": {
-    "modified": "2019-05-15T14:07:46.089Z",
+    "modified": "2019-06-07T18:37:24.320Z",
     "created": "2011-01-20T16:27:31.008Z",
     "1.0.0": "2011-01-20T16:27:31.008Z",
     "1.1.0": "2011-01-20T16:27:31.008Z",
@@ -90,7 +91,8 @@
     "2.4.0": "2018-11-26T22:34:54.322Z",
     "2.4.1": "2019-04-03T18:51:17.186Z",
     "2.4.2": "2019-04-07T18:23:49.030Z",
-    "2.4.3": "2019-05-15T14:07:40.987Z"
+    "2.4.3": "2019-05-15T14:07:40.987Z",
+    "2.4.4": "2019-06-07T18:37:21.843Z"
   },
   "repository": {
     "url": "git+https://github.com/broofa/node-mime.git",
@@ -250,15 +252,15 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "benchmark": "^2.1.4",
-    "chalk": "2.4.2",
-    "eslint": "5.16.0",
-    "mime-db": "1.38.0",
-    "mime-score": "1.1.2",
-    "mime-types": "2.1.22",
-    "mocha": "6.0.2",
-    "runmd": "1.2.1",
-    "standard-version": "5.0.2"
+    "benchmark": "*",
+    "chalk": "*",
+    "eslint": "*",
+    "mime-db": "1.40.0",
+    "mime-score": "*",
+    "mime-types": "2.1.24",
+    "mocha": "6.1.4",
+    "runmd": "*",
+    "standard-version": "6.0.1"
   },
   "scripts": {
     "prepare": "node src/build.js && runmd --output README.md src/README_js.md",
@@ -267,15 +269,15 @@
     "md": "runmd --watch --output README.md src/README_js.md",
     "test": "mocha src/test.js"
   },
-  "version": "2.4.3",
-  "gitHead": "2f595e4f000daa858f2c2611b56ec221545331f1",
+  "version": "2.4.4",
+  "gitHead": "6479a848ac4699e9dc4049409aad99dbebc3f1da",
   "dist": {
-    "integrity": "sha512-QgrPRJfE+riq5TPZMcHZOtm8c6K/yYrMbKIoRfapfiGLxS8OTeIfRhUGW5LU7MlRa52KOAGCfUNruqLrIBvWZw==",
-    "shasum": "229687331e86f68924e6cb59e1cdd937f18275fe",
-    "tarball": "https://registry.npmjs.org/mime/-/mime-2.4.3.tgz",
+    "integrity": "sha512-LRxmNwziLPT828z+4YkNzloCFC2YM4wrB99k+AV5ZbEyfGNWfG8SO1FUXLmLDBSo89NrJZ4DIWeLjy1CHGhMGA==",
+    "shasum": "bd7b91135fc6b01cde3e9bae33d659b63d8857e5",
+    "tarball": "https://registry.npmjs.org/mime/-/mime-2.4.4.tgz",
     "fileCount": 19,
-    "unpackedSize": 74508,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3B0tCRA9TVsSAnZWagAA448QAKQAmUAlViGYaqHe5CyB\n1th8GxX+J9t6msjV0ffe1ZGti+RZWQ30rCRuLCkyg4GxQ0lBkWbzOPe/IA6B\ntq6lQ3UZAU8j/bjApETdsbktCiHFStB8/XPpnh4q3kG3o0BTyGZn2564PR//\nZH+rPhZNmpQe/6oqF3CAUa5ilXxOENGcFWxlwKLzCVULP50TiA+bgSxyMdT2\n/x6SBImaasjkW3XyOjQbjWbxu6JLmiutUGxSkUDXPeKyGbEOCHYwL6bSCbrr\nucdBEZpz9p7v/hdm8J2E1DbJZHhSH79wy1b0jeH1MFUckfLLPgRIxaa4jhZY\nRuL80s4UBPQZqcUEOYwnoiAedUT0u4Yq4d0n807jHKpmQ6Lcjwbr9xxF8Bd9\nlpt6c9V/ckV/2VWi1+44MLDJ/vd+Os4wDs9PWcSaYoD97k/5xjrdj/9Y808S\nzByUs330xcgLtElwgqcAySu3PC122RKQI6g+06JHZR+X2yqpSsQV1PeumBdY\nC4XcXUlxobxVC3rXE7fnXyr53I+Nqi4WdEFYLPwYEGpqG6T7MaQa5B2doqy8\naZ1PSS3klKF2qTpG4vAO9POqZysuxD1epqG+G1gQYuaVWZQeuOtgCcMiG4YR\n0T2N40r+8kAaLNgB9vUcUibm4bHIJwS1KCJ54Pz6ut3XxzfTBlGtZjfIe4nC\nie3z\r\n=kNJP\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 74946,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+q7iCRA9TVsSAnZWagAAIMMP/1ZtPOiAAL1b2hbekcva\nTgHAroKFU8SdPR3d8nXnDd56g4KbQ5rlWM1EgVlbVSAuuCYQU5R0MKqgaq9P\np27JNBEQTPHsmTAZeN9mZ1R2TTqAwped5RcjOFsrZDYvGPGSOiTKPtv6ZGzg\n/zVJwLNR3DaWNSsu3lnw2/K2kyucZ3xSPRnGgIpzbdJ/pheNbXS6lCA7mWMZ\nDFkhAOB3Z19J3ahFPd/+AdxswtknFOmKEefudXXbdezjYyf355LWz7Cta/OM\nc+B8DRq/TrBqcko2ixY1dJwAs9h8eRnO/QnJT/ysRwFC/YnnrNyq/S77WbfP\nlkW1QZfLFDOt6qsK3ll3VLLf/hxK4Sdsvc+aaFvK4f8rRK8WSppMgPaVLAtV\nilOUETPqj0wp/ycurCxwVJi+Hm8hQyfh05X1glFVUD8YYp9IZIWpOVOqqLdN\n7TL1UDx4oJ0/wpdjy3wSAKfavGk5JuL9TnXa3TbJoRJ8T1FkGhWvAmnRsO20\ncrNCIK1kwl2OBnYjMx54uEs7783DTntg3f/HWGg73tfmv9RLe5ngWYK81FrU\nV5AfTrtiAFyYspJug9uHfRkeoBX5eEhzfOzGyVgcyoMcVMCWY/+dtYMQeAeh\n9ImJrg9jQT7wFMPxeFEaCIYGhnsqjFl7N/8jJwNH6dKfsPxA9KuDf7PVhUG9\ne0MT\r\n=TmH0\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

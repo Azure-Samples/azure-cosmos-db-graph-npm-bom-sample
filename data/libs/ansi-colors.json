@@ -2,7 +2,7 @@
   "name": "ansi-colors",
   "description": "Easily add ANSI colors to your text and symbols in the terminal. A faster drop-in replacement for chalk, kleur and turbocolor (without the dependencies and rendering bugs).",
   "dist-tags": {
-    "latest": "3.2.4"
+    "latest": "4.0.1"
   },
   "versions": [
     "0.1.0",
@@ -28,14 +28,15 @@
     "3.2.1",
     "3.2.2",
     "3.2.3",
-    "3.2.4"
+    "3.2.4",
+    "4.0.1"
   ],
   "maintainers": [
     "doowb <brian.woodward@gmail.com>",
     "jonschlinkert <github@sellside.com>"
   ],
   "time": {
-    "modified": "2019-03-03T05:39:22.948Z",
+    "modified": "2019-06-19T11:12:14.446Z",
     "created": "2015-11-30T17:41:48.492Z",
     "0.1.0": "2015-11-30T17:41:48.492Z",
     "0.2.0": "2016-07-11T13:09:33.057Z",
@@ -60,7 +61,8 @@
     "3.2.1": "2018-10-22T06:56:42.779Z",
     "3.2.2": "2018-12-04T01:59:24.714Z",
     "3.2.3": "2018-12-08T03:01:09.269Z",
-    "3.2.4": "2019-03-03T05:39:18.903Z"
+    "3.2.4": "2019-03-03T05:39:18.903Z",
+    "4.0.1": "2019-06-19T11:12:11.648Z"
   },
   "homepage": "https://github.com/doowb/ansi-colors",
   "keywords": [
@@ -124,7 +126,7 @@
     "Jon Schlinkert (http://twitter.com/jonschlinkert)",
     "Jordan (https://github.com/Silic0nS0ldier)"
   ],
-  "version": "3.2.4",
+  "version": "4.0.1",
   "main": "index.js",
   "types": "./types/index.d.ts",
   "engines": {
@@ -134,10 +136,10 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "decache": "^4.4.0",
-    "gulp-format-md": "^1.0.0",
+    "decache": "^4.5.1",
+    "gulp-format-md": "^2.0.0",
     "justified": "^1.0.1",
-    "mocha": "^5.2.0",
+    "mocha": "^6.1.4",
     "text-table": "^0.2.0"
   },
   "verb": {
@@ -171,14 +173,14 @@
       "kleur"
     ]
   },
-  "gitHead": "7eec91eaa5988bca82cb625d36ccd212959f3c44",
+  "gitHead": "417093e9caee145df2bcfdf5a94343387a6dce1c",
   "dist": {
-    "integrity": "sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==",
-    "shasum": "e3a3da4bfbae6c86a9c285625de124a234026fbf",
-    "tarball": "https://registry.npmjs.org/ansi-colors/-/ansi-colors-3.2.4.tgz",
+    "integrity": "sha512-1Qs1jdXEMSYwcVooLRfnCc5+e3365pw38v4AVkSsCxsjXRGKDTem5VLCl53SpHSpLnEy8O5DofJHZJELaRiJbg==",
+    "shasum": "3dc29301836c6152f617a71466bde162a2e42582",
+    "tarball": "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.0.1.tgz",
     "fileCount": 6,
-    "unpackedSize": 21197,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJce2iHCRA9TVsSAnZWagAAzZgQAKM5NzpejtDviWkS9y0S\ndpUvbvafJldyHy3pUpvYP7v3GA6lqFea2U9sEBm8XPfUxX+JaaiQ4OmbWTn2\nsr7QUqFJZDjtHAGZwny2obvF6Gx0w3diow4Arz0yyKptungBp+y+dur10fMa\nuyi8Q9v32AasnPtX8vCvVx8vLyt7W1SOsSp4HffDJrf4WqqMS4oVS2o2Cyri\nj/GF+VDeb2CfKd5XH4c1OQKx8Ox4V2D0R4ti8I4yWQoCr5qTUWX9RrDP5Fmj\nGCo7KeWNiVZnhaZMirHv83V2cfnSrQI5LGMZ7nSWxShTMTD0/+JvzzmplZ64\nHKEwPlINaBu8WHHwwrJBrg3DYP2tlmEFBEzecXXECKNwvgwZ3sgPk1c7l5ry\nra6QVGbMnVS8YkXBitBUOxnLccjKLZ1KwkrnZ/8Rlf6u4fH9iq1sIgNkGPAE\nY3X5ULW/ACBdgVu9BdbVugsEJuMxVUOBUfBR4FkoMv4EmXTjaXo9i8xo+aly\nLN97MfYn5mGmBzGAcudt6p7w5HCtwrMYZ5Ot5ltvlzVugn83sWAYgEBQf/T2\nuuBRsSiMzRLlGUkkKtAK3xv8T6fGpvxk/xgbjyha3kq2B7ohJLg2FSBI9uAt\nIZBlu7C9uYJe0iRFPIewdaTw0+Q6RmMN96AZFnrAcMIhuglZdkJ5kGvoh9NV\nrdZ9\r\n=Fssd\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 23464,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdChiMCRA9TVsSAnZWagAAeCkP/1cCqDeXBWPTzVY1bmeH\nxo72h2bScDGy90jzOAN9915r/jlQoBEjvaym5DcL9wOmsY61kayGR3A6/o/w\nGEVmpJGyJyWR2YDoe+9EUmfj1Ilfuh/UdRnYffmga3nRhrl23AwCG55onVpt\nVsEPSaCGEYG/TPMYJNCWvSbfhDZM/0UEa1MYl08E3tDhdsrDZk8/vWL19C4H\n8XHfSkAcfbFMOSxCNOnHezZQ78VmM446+YDBDSaV7mzyDbhx+ItB03czjqg2\nV+WvEcGhByCtgP+WdUg8wGCmVSYjy/3ePSR6weIGPm2DsD+zbxFQZ6Un2aHW\nw0/IRTZH8qRqZIZfQ55OnzZRf+K2MIrAJa96lZTiaDwTUCGtGkxuxhPPKGGR\nvpo8F8iX42wvCmYPDomWsCNKqM615wRlD2MrP9+V5qce9YToi948ccegt8L7\nbOhSqnjn4dg+QzftZXE2zSaEqin4PXqXtAlnPLa8eWIZYRZQhwK2LrFvR3ZH\nxA84lnfZaZXjhzKPs9ibh+cxfKwmm9SiKZ/fc4OW5WuRdHmHpEQqn2Z2NXnO\nn74If4HUqLA5WhBrcM1BUzjSHmlmRsPWk/e35tkYIeRbUT/AiPZGFhu9LBB5\n+v6CYxbzGzCPIeoqF9fRNhYnaVsRFde5SBtP2qQJnEpBasMI5H5GIWdjDtqU\nAGGr\r\n=iQWX\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

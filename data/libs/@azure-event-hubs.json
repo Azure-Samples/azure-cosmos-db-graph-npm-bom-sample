@@ -1,7 +1,7 @@
 {
   "name": "@azure/event-hubs",
   "dist-tags": {
-    "latest": "2.0.0"
+    "latest": "2.1.0"
   },
   "versions": [
     "0.0.1",
@@ -14,12 +14,13 @@
     "1.0.6",
     "1.0.7",
     "1.0.8",
-    "2.0.0"
+    "2.0.0",
+    "2.1.0"
   ],
   "time": {
     "created": "2018-09-13T00:59:54.257Z",
     "0.0.1": "2018-09-13T00:59:54.565Z",
-    "modified": "2019-03-27T21:35:38.715Z",
+    "modified": "2019-06-10T19:36:20.574Z",
     "1.0.0": "2018-09-13T02:45:48.197Z",
     "1.0.1": "2018-09-13T03:11:14.506Z",
     "1.0.2": "2018-09-14T19:49:04.626Z",
@@ -29,7 +30,8 @@
     "1.0.6": "2018-10-05T19:32:00.786Z",
     "1.0.7": "2018-10-26T01:29:57.452Z",
     "1.0.8": "2018-12-14T20:01:41.968Z",
-    "2.0.0": "2019-03-27T21:35:36.081Z"
+    "2.0.0": "2019-03-27T21:35:36.081Z",
+    "2.1.0": "2019-06-10T19:36:17.904Z"
   },
   "maintainers": [
     "amarzavery <amarzavery@gmail.com>",
@@ -40,7 +42,7 @@
     "vladbarosan <vlad.barosan@gmail.com>"
   ],
   "description": "Azure Event Hubs SDK for JS.",
-  "homepage": "https://github.com/Azure/azure-sdk-for-js/tree/master/packages/%40azure/eventhubs",
+  "homepage": "https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/eventhub",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Azure/azure-sdk-for-js.git"
@@ -57,82 +59,109 @@
     "event hubs",
     "events"
   ],
-  "version": "2.0.0",
+  "version": "2.1.0",
+  "sideEffects": false,
   "main": "./dist/index.js",
-  "module": "dist-esm/lib/index.js",
-  "types": "./typings/lib/index.d.ts",
+  "module": "dist-esm/src/index.js",
+  "types": "./typings/event-hubs.d.ts",
   "browser": {
     "./dist/index.js": "./browser/index.js"
   },
   "engine": {
     "node": ">=6.0.0"
   },
+  "scripts": {
+    "audit": "node ../../../common/scripts/rush-audit.js && rimraf node_modules package-lock.json && npm i --package-lock-only 2>&1 && npm audit",
+    "build:browser": "tsc -p . && cross-env ONLY_BROWSER=true rollup -c 2>&1",
+    "build:node": "tsc -p . && cross-env ONLY_NODE=true rollup -c 2>&1",
+    "build:samples": "cd samples && tsc -p .",
+    "build:test": "tsc -p . && cross-env ONLY_NODE=true rollup -c rollup.test.config.js 2>&1",
+    "build": "tsc -p . && rollup -c 2>&1 && npm run extract-api",
+    "check-format": "prettier --list-different --config .prettierrc.json \"src/**/*.ts\" \"test/**/*.ts\" \"*.{js,json}\"",
+    "clean": "rimraf dist dist-esm test-dist typings *.tgz *.log",
+    "coverage": "nyc --reporter=lcov --exclude-after-remap=false mocha -t 120000 test-dist/index.js --reporter mocha-multi --reporter-options spec=-,mocha-junit-reporter=-",
+    "extract-api": "tsc -p . && api-extractor run --local",
+    "format": "prettier --write --config .prettierrc.json \"src/**/*.ts\" \"test/**/*.ts\" \"*.{js,json}\"",
+    "integration-test:browser": "echo skipped",
+    "integration-test:node": "mocha -t 120000 test-dist/index.js --reporter mocha-multi --reporter-options spec=-,mocha-junit-reporter=-",
+    "integration-test": "npm run integration-test:node && npm run integration-test:browser",
+    "lint:fix": "eslint -c ../../.eslintrc.json src test samples --ext .ts --fix",
+    "lint": "eslint -c ../../.eslintrc.json src test samples --ext .ts -f node_modules/eslint-detailed-reporter/lib/detailed.js -o event-hubs-lintReport.html || exit 0",
+    "pack": "npm pack 2>&1",
+    "prebuild": "npm run clean",
+    "test:browser": "npm run build:test && npm run unit-test:browser && npm run integration-test:browser",
+    "test:node": "npm run build:test && npm run unit-test:node && npm run integration-test:node",
+    "test": "npm run build:test && npm run unit-test && npm run integration-test",
+    "unit-test:browser": "echo skipped",
+    "unit-test:node": "echo skipped",
+    "unit-test": "npm run unit-test:node && npm run unit-test:browser"
+  },
   "dependencies": {
-    "@azure/amqp-common": "^1.0.0-preview.2",
+    "@azure/amqp-common": "^1.0.0-preview.5",
+    "@azure/ms-rest-nodeauth": "^0.9.2",
     "async-lock": "^1.1.3",
     "debug": "^3.1.0",
-    "is-buffer": "2.0.2",
+    "is-buffer": "^2.0.3",
     "jssha": "^2.3.1",
-    "@azure/ms-rest-nodeauth": "^0.9.2",
-    "rhea-promise": "^0.1.14",
+    "rhea-promise": "^0.1.15",
     "tslib": "^1.9.3",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "@microsoft/api-extractor": "^6.3.0",
+    "@microsoft/api-extractor": "^7.1.5",
     "@types/async-lock": "^1.1.0",
     "@types/chai": "^4.1.6",
     "@types/chai-as-promised": "^7.1.0",
+    "@types/chai-string": "^1.4.1",
     "@types/debug": "^0.0.31",
-    "@types/dotenv": "^4.0.3",
+    "@types/dotenv": "^6.1.0",
+    "@typescript-eslint/eslint-plugin": "~1.9.0",
+    "@typescript-eslint/parser": "^1.7.0",
     "@types/long": "^4.0.0",
     "@types/mocha": "^5.2.5",
-    "@types/node": "^8.0.37",
-    "@types/uuid": "^3.3.2",
+    "@types/node": "^8.0.0",
+    "@types/uuid": "^3.4.3",
+    "@types/ws": "^6.0.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
+    "chai-string": "^1.5.0",
     "cross-env": "^5.2.0",
-    "dotenv": "^6.1.0",
+    "dotenv": "^7.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-detailed-reporter": "^0.8.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-no-only-tests": "^2.3.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "https-proxy-agent": "^2.2.1",
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.18.0",
     "mocha-multi": "^1.0.1",
-    "nyc": "13.3.0",
-    "prettier": "^1.15.3",
+    "nyc": "^14.0.0",
+    "prettier": "^1.16.4",
     "rimraf": "^2.6.2",
-    "rollup": "^0.66.6",
+    "rollup": "~1.13.1",
     "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-inject": "^2.2.0",
     "rollup-plugin-json": "^3.1.0",
-    "rollup-plugin-multi-entry": "^2.0.2",
-    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "rollup-plugin-node-resolve": "^4.2.0",
     "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-shim": "^1.0.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-uglify": "^6.0.0",
     "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.2.1"
-  },
-  "scripts": {
-    "tslint": "tslint -p . -c tslint.json",
-    "tsc": "tsc",
-    "prebuild": "rimraf dist && rimraf typings",
-    "build": "npm run tslint && tsc -p . && rollup -c",
-    "build-browser": "tsc -p . && cross-env ONLY_BROWSER=true rollup -c",
-    "build-node": "tsc -p . && cross-env ONLY_NODE=true rollup -c",
-    "build-test": "tsc -p . && cross-env ONLY_NODE=true rollup -c rollup.test.config.js",
-    "build-samples": "cd examples && tsc -p .",
-    "test": "npm run build",
-    "unit": "npm run build-test && mocha -t 120000 test-dist/index.js",
-    "coverage": "npm run build-test && nyc --reporter=lcov mocha -t 120000 test-dist/index.js",
-    "prepack": "npm i && npm run build",
-    "extract-api": "tsc -p . && api-extractor run --local"
+    "tslint": "^5.15.0",
+    "typescript": "^3.2.2",
+    "ws": "^6.2.1"
   },
   "dist": {
-    "integrity": "sha512-1cYyFRnJt6/oyb7wrIVS8iJyLIwjFYe3XbAj53CJ+yhqi0fyaMtTOY3QFNaPH9/CfL73C3Aw494VHJP0QLtt3w==",
-    "shasum": "e88398268e8c012813d2e73687c6df4212517927",
-    "tarball": "https://registry.npmjs.org/@azure/event-hubs/-/event-hubs-2.0.0.tgz",
-    "fileCount": 91,
-    "unpackedSize": 732353,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcm+yoCRA9TVsSAnZWagAAm0cP/3F75JVQ/XlmB2jEuIVG\nQ7BPTTg+JW3yAvCNqy7YuAKbD+sWJCeSntm/MwIdI/PYc8sz8JbnPMY2V1yT\nUCgrU78XuTqfnMMcuJNHAslVy8KjgDa/PmcAFG3glkb7kh/4qQ/3UUiM3B+J\n6529BsiK2AxmRBsQ+0kdFexYooqFlCyzru7MuNd4tKs4zmeiEFyKAtTp/3+Q\nJm+BjC4gmiO+tlja8arS/68xstLJH5RiQ138NUXfhfzyjd9HTEzYXLx9yps9\nAwcKHsvHHYG+oGzYSqsV5h9ehnd71xCDDuprlRq+ZzAcI2YKY5+/peY9EJGp\nbSjtgVY7gQ19FogCE2+s+K5xVd8jT1djMyOcXHLxSqVFxr9GsOZmHw8q+znM\n49EyAct86iXhhk3oLcBMuJQT7icCB+gBolYRdjach9qz9uZcBRArGZbB11CH\n63euhKGwgoCkGX9SR2jgWCSrkQuSUKzrYcbXoLm6fhbCfwbGN/WtvAsgKYrQ\n2gBQY77TiqLkytMWkjZ7zxgb3A2wohuUHZlhysvOKX5nDsd9CaTQaHgBwPNb\nz5q11yCoPRcdJEEQAwGy8DOKHPf+GLZC40fyMeyGPKpHmgZSC5ZTCIfZn1vO\nYRButQpYRn7QwnEjCQEm5jTTwRunGL9g6dhjlyIQsss6b0CXG6Evz+/8QhmS\nlnej\r\n=9wiY\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-Q4W8jFqCZoZ8E46luXP0czNAEWPhMihgC2KWUs7PiCzvKiaGwWHaAQQ4LKk5+Ao3yfEQyf06fgR8i9BDOh26Fw==",
+    "shasum": "34853995ff237ff34b28fca0919deba601946afc",
+    "tarball": "https://registry.npmjs.org/@azure/event-hubs/-/event-hubs-2.1.0.tgz",
+    "fileCount": 51,
+    "unpackedSize": 734567,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/rEyCRA9TVsSAnZWagAAHGgP+wdIeYgkDhJIHEhx3/H7\nQp4tThUQUkUr9zpsFBIHmEXMX+UVS99iDAid2OPTT+SPZ6EDmEaELLlBOCGS\neX+URPHxMt6UF6H3NMHQnkfBC3eBSrgxtTOdKWyTi9caI6INpzOY3EOSGjXr\n9qBCichxtkw/aFyzMHdD0K/P0cwzveuELoYcZJP1V6c6oxBa/ZVrzR/zTetP\nBxdcoYw3u4Sx2A27CvX9tOPfzNMqa6n+qPALPBCim8uwCzJeUEreWaRdi7b3\n3rGmMEH6BGxoEmStFh/C+ai1CavzHsWFbEIaSSalPJJV8Mw3t9rM5bNWx6xp\nLZifTxr/SfqODmp/tOtabBF+374YAsiAYZZg1aFjJB4rAVRDmbuIYIJzzT7S\nybUBwP5Ij3xWDtXZlzKdfOzCA33IkNiNVultKmgGqhv5BXnW5WMIROLYGyry\n10LdwAlf9iXpzOs5Li2zrk0xRJ6UDCSNBclH0Adm8yNCg8cgtELkRTZAZWcn\ngLfaAzjIsq67U3ciZnDVqJgr6Dn7koXNGIMWE5TZLPc4fPlrLp6p/Or4Djqk\noxch8XCGANhy1hfketYpjL8Ft7nSZuSJ2lRx5DM+OeBdM9RynZE/RbgvJxXU\nNyGWiLdxI2ELOmHeWd7ZPZ/SzNFnVQcSfNjawbdqC+es8JHIX/f+kHD0HdJD\niqWX\r\n=AmUb\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

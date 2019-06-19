@@ -2,8 +2,8 @@
   "name": "electron",
   "description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
   "dist-tags": {
-    "latest": "5.0.2",
-    "beta": "6.0.0-beta.6",
+    "latest": "5.0.4",
+    "beta": "6.0.0-beta.9",
     "unsupported": "2.1.0-unsupported.20180809",
     "nightly": "4.0.0-nightly.20181010",
     "nightly-3-0-x": "3.0.0-nightly.20180904",
@@ -15,13 +15,12 @@
     "beta-4-0-x": "4.0.0-beta.11",
     "beta-3-1-x": "3.1.0-beta.5",
     "4-0-x": "4.0.8",
-    "3-1-x": "3.1.10",
+    "3-1-x": "3.1.11",
     "beta-5-0-x": "5.0.0-beta.9",
     "4-1-x": "4.1.5",
-    "5-0-x": "5.0.2",
-    "beta-HEAD": "6.0.0-beta.1",
+    "5-0-x": "5.0.4",
     "4-2-x": "4.2.4",
-    "beta-6-0-x": "6.0.0-beta.6"
+    "beta-6-0-x": "6.0.0-beta.9"
   },
   "versions": [
     "0.1.0",
@@ -192,6 +191,7 @@
     "3.1.8",
     "3.1.9",
     "3.1.10",
+    "3.1.11",
     "4.0.0-beta.1",
     "4.0.0-beta.2",
     "4.0.0-beta.3",
@@ -242,19 +242,24 @@
     "5.0.0",
     "5.0.1",
     "5.0.2",
+    "5.0.3",
+    "5.0.4",
     "6.0.0-beta.1",
     "6.0.0-beta.2",
     "6.0.0-beta.3",
     "6.0.0-beta.4",
     "6.0.0-beta.5",
-    "6.0.0-beta.6"
+    "6.0.0-beta.6",
+    "6.0.0-beta.7",
+    "6.0.0-beta.8",
+    "6.0.0-beta.9"
   ],
   "maintainers": [
     "electron <electron@github.com>",
     "electron-nightly <info@electronjs.org>"
   ],
   "time": {
-    "modified": "2019-06-05T22:32:59.036Z",
+    "modified": "2019-06-18T23:18:38.627Z",
     "created": "2012-05-18T23:11:55.741Z",
     "0.1.0": "2012-05-18T23:11:56.439Z",
     "0.1.1": "2012-05-22T14:37:24.301Z",
@@ -482,7 +487,13 @@
     "6.0.0-beta.5": "2019-05-29T19:35:32.142Z",
     "4.2.3": "2019-05-31T04:13:27.081Z",
     "6.0.0-beta.6": "2019-06-05T00:15:57.316Z",
-    "4.2.4": "2019-06-05T22:25:55.344Z"
+    "4.2.4": "2019-06-05T22:25:55.344Z",
+    "3.1.11": "2019-06-06T18:06:20.517Z",
+    "5.0.3": "2019-06-07T21:32:23.024Z",
+    "6.0.0-beta.7": "2019-06-11T22:22:48.469Z",
+    "6.0.0-beta.8": "2019-06-14T21:06:33.663Z",
+    "5.0.4": "2019-06-15T01:02:51.206Z",
+    "6.0.0-beta.9": "2019-06-18T23:18:29.526Z"
   },
   "users": {
     "306766053": true,
@@ -628,7 +639,7 @@
     "azza8574": true,
     "digiclip": true
   },
-  "readmeFilename": "",
+  "readmeFilename": "README.md",
   "homepage": "https://github.com/electron/electron#readme",
   "keywords": [
     "electron"
@@ -669,13 +680,13 @@
   "engines": {
     "node": ">= 4.0"
   },
-  "version": "5.0.2",
+  "version": "5.0.4",
   "dist": {
-    "integrity": "sha512-bUHKQhyuOen/q8iHTkrnzqB9CAwBDI+vHbeu21kpq2bqAD+t25yfrmUEcYHaPL4fZOAhk6nnRqskF6/Xd+aZxg==",
-    "shasum": "0f6b38ae7e344b94f433d9171e50568f56962fc7",
-    "tarball": "https://registry.npmjs.org/electron/-/electron-5.0.2.tgz",
+    "integrity": "sha512-7QaKorvANvP+azMT7wElx33oLlqw8QxmLs7/outfH7LC5amErk4EUtWDesQ6Zgr+s5pYFbykl8ZtJ4ZGXER05g==",
+    "shasum": "2e0d09055363e983f4a73317cde4821c39617b02",
+    "tarball": "https://registry.npmjs.org/electron/-/electron-5.0.4.tgz",
     "fileCount": 7,
-    "unpackedSize": 443000,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5ruQCRA9TVsSAnZWagAATgAP/2sUdy9uPN5S80F6KRIi\nljA5d8CrUybbvpeCZEx4vghpH2Q40BPOUsIhPb84MNVbGUIGrcmYRP4OffMB\n/ooi+nD4jPMWp+IKcQt34KSAHLnUX3qxnoB5h4rn8disCZW6YwiHMKK0tXUX\nMiWIc+PeUjUWT/urQb0Lb4OuZCztl5dyEA8BZoHlMEtzm9WRrMKYytYV6kDS\nnz1Yp0Imu2qsS1ChblcCnBD3X2IPLYxmYtGQqpy2ZujmgEx5B7aI+0R5r+cg\nm48xoBCMCcDVS13mCJgPP4lLnbOS6/YvOGy5NxEPYf9VFJq2HkF9DjEsOuIH\nblKEIvqlgb+cvZXfnAUdmx5AXXAAqzkTc/tDHc5QxBE++XM8XmNIRkkQJfqI\ng4Q5mWotPlpejsMmNf5+6u+1z1TmAmwpJF0HGwK38oAZi89CjSDKRz9ClSSN\nFCGAlE9OHDQ4SwZlkALNtqWZSSofjkeaEgzs0GWncPBQ+Xxl0fLWcumzOi+h\nePotGPKksGiwcog6nLkRBWUlHFhPnuWRbW/qncfA+f2a/3qd7I2wakvwuIyF\nyR30zXdFtd9id8xaQqAaq9C7RnzV2+pecqfLHn4zSu8yynFnPX1Z312hU586\nI5t/xmqIpzAnetl0vH/M2d3LcneuIgjmpHTv76pib2fxkm6vlXWGV/W24NpM\nJTjI\r\n=p/pJ\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 442699,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBEO8CRA9TVsSAnZWagAAlPQP/0CapopQjqtJf+zSh2OY\nmq37+zAX92dGf/ZmkXlhG5LCKLRCcg8Exu+dWJrUidryhc6wRJP4J4d+SnVQ\nEe81tUcZvfHL2DYnbyCWFRLhbrhz6fv+BsR816x59z9KIC95Kho36v8A6loD\n2FsQxlDj0HrIzM5QuTQvxjmKTBWbog2RLtI/brMadx9nNTouDcYOfwSSKGfx\not5znoVMjGN0BZ0hadMcuSFGbknVhp1dXLgoPX7E3dPFEP7m1JjSydf41u5L\nigibofqJI2Uc/56qB2kL7cKq8phmQe+7+MMD+6BIfXBYeWg+/XVQV8fCAbbI\nbzx2p473zn1wO4OYzieUneDGRYCKNLVDIO2eFZASZT8buP82LUjGEWdu2sHV\nDdNXQ7AdijzYBMXpWSAwJZaAni2ZYOjcnZsla8t9mgDxxa8sxBeGaBFAu7L7\nJQcrhewrKjSjO/UDcmtDkSNirxk6qztkBnQldZpfqWD8fqTdVWW9sVnDR8rk\n/th1Te9iIQP6FMnEiXv7l7y47zorcmotiovrKZI/gqsv8MWdLNq74S9/Ngru\n+mzQDkjCXi7uLjVScQGQVAvDGg3GhKAe6OvrHTSkW2YtGxwuPCfNxO0fRx8N\nfZRh5yDpcaiHsPJp5tGz7piTAemzDwztUFOIgHeEiJVzCYYoEPgzPQJanycf\npdT0\r\n=irHA\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

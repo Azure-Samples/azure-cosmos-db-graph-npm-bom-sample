@@ -760,13 +760,11 @@
       "electron-download",
       "end-of-stream",
       "generate-function",
-      "memory-pager",
       "nugget",
       "pump",
       "resolve",
       "safe-buffer",
       "single-line-log",
-      "sparse-bitfield",
       "speedometer",
       "static-eval",
       "static-module",
@@ -1638,6 +1636,7 @@
       "debug",
       "file-uri-to-path",
       "merge-descriptors",
+      "ms",
       "readable-stream",
       "throttleit",
       "util-deprecate"
@@ -2128,13 +2127,6 @@
       "update-notifier"
     ]
   },
-  "arthurvr": {
-    "id": "arthurvr",
-    "email": "<contact@arthurverschaeve.be>",
-    "libs": [
-      "configstore"
-    ]
-  },
   "eddiemonge": {
     "id": "eddiemonge",
     "email": "<eddie+npm@eddiemonge.com>",
@@ -2151,13 +2143,6 @@
       "update-notifier"
     ]
   },
-  "passy": {
-    "id": "passy",
-    "email": "<phartig@rdrei.net>",
-    "libs": [
-      "configstore"
-    ]
-  },
   "sboudrias": {
     "id": "sboudrias",
     "email": "<admin@simonboudrias.com>",
@@ -2168,7 +2153,7 @@
   },
   "zckrs": {
     "id": "zckrs",
-    "email": "<mdara@eleven-labs.com>",
+    "email": "<mehdy.dara.fr@gmail.com>",
     "libs": [
       "configstore",
       "update-notifier"
@@ -2544,7 +2529,8 @@
     "email": "<rfobic@gmail.com>",
     "libs": [
       "events",
-      "querystring"
+      "querystring",
+      "type"
     ]
   },
   "cowboy": {
@@ -3162,6 +3148,13 @@
       "uuid"
     ]
   },
+  "ehmicky": {
+    "id": "ehmicky",
+    "email": "<ehmicky@gmail.com>",
+    "libs": [
+      "mimic-fn"
+    ]
+  },
   "boneskull": {
     "id": "boneskull",
     "email": "<boneskull@boneskull.com>",
@@ -3245,9 +3238,331 @@
       "mpns"
     ]
   },
+  "alexaltea": {
+    "id": "alexaltea",
+    "email": "<alexandro@phi.nz>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "anatrajkovska": {
+    "id": "anatrajkovska",
+    "email": "<ana.trajkovska2015@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "andybitz": {
+    "id": "andybitz",
+    "email": "<artzbitz@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "arunoda": {
+    "id": "arunoda",
+    "email": "<arunoda.susiripala@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "arzafran": {
+    "id": "arzafran",
+    "email": "<franco@basement.studio>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "atcastle": {
+    "id": "atcastle",
+    "email": "<atcastle@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "b3nnyl": {
+    "id": "b3nnyl",
+    "email": "<ciao@sylin.me>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "caarlos0": {
+    "id": "caarlos0",
+    "email": "<caarlos0@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "codetheory": {
+    "id": "codetheory",
+    "email": "<thecodetheory@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "coetry": {
+    "id": "coetry",
+    "email": "<allenhai03@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "dav-is": {
+    "id": "dav-is",
+    "email": "<mail@connordav.is>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "fivepointseven": {
+    "id": "fivepointseven",
+    "email": "<fivepointseven@icloud.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "guybedford": {
+    "id": "guybedford",
+    "email": "<guybedford@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "hharnisc": {
+    "id": "hharnisc",
+    "email": "<hharnisc@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "huvik": {
+    "id": "huvik",
+    "email": "<lukas@huvar.cz>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "iamevilrabbit": {
+    "id": "iamevilrabbit",
+    "email": "<hello@evilrabb.it>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "igorklopov": {
+    "id": "igorklopov",
+    "email": "<igor@klopov.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "ijjk": {
+    "id": "ijjk",
+    "email": "<jj@jjsweb.site>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "janicklas-ralph": {
+    "id": "janicklas-ralph",
+    "email": "<janicklasralph036@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "javivelasco": {
+    "id": "javivelasco",
+    "email": "<javier.velasco86@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "joecohens": {
+    "id": "joecohens",
+    "email": "<joecohenr@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "juancampa": {
+    "id": "juancampa",
+    "email": "<juancampa@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
   "leo": {
     "id": "leo",
     "email": "<leo@zeit.co>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "lfades": {
+    "id": "lfades",
+    "email": "<luisito453@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "lucleray": {
+    "id": "lucleray",
+    "email": "<luc.leray@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "manovotny": {
+    "id": "manovotny",
+    "email": "<manovotny@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "marcosnils": {
+    "id": "marcosnils",
+    "email": "<marcosnils@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "matheuss": {
+    "id": "matheuss",
+    "email": "<me@matheus.top>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "mfix22": {
+    "id": "mfix22",
+    "email": "<mrfix84@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "mglagola": {
+    "id": "mglagola",
+    "email": "<mark.glagola@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "msweeneydev": {
+    "id": "msweeneydev",
+    "email": "<mail@msweeneydev.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "nkzawa": {
+    "id": "nkzawa",
+    "email": "<naoyuki.kanezawa@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "olliv": {
+    "id": "olliv",
+    "email": "<olli@zeit.co>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "paco": {
+    "id": "paco",
+    "email": "<pvco.coursey@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "paulogdm": {
+    "id": "paulogdm",
+    "email": "<paulogdemitri@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "quietshu": {
+    "id": "quietshu",
+    "email": "<ds303077135@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "rabaut": {
+    "id": "rabaut",
+    "email": "<rabautse@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "ragojose": {
+    "id": "ragojose",
+    "email": "<ragojosefrancisco@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "sarupbanskota": {
+    "id": "sarupbanskota",
+    "email": "<sbanskota08@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "skllcrn": {
+    "id": "skllcrn",
+    "email": "<skllcrn@zeit.co>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "sophearak": {
+    "id": "sophearak",
+    "email": "<t.sophearak@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "styfle": {
+    "id": "styfle",
+    "email": "<steven@ceriously.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "timer": {
+    "id": "timer",
+    "email": "<timer150@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "timneutkens": {
+    "id": "timneutkens",
+    "email": "<tim@timneutkens.nl>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "umegaya": {
+    "id": "umegaya",
+    "email": "<iyatomi@gmail.com>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "williamli": {
+    "id": "williamli",
+    "email": "<williamli@bbi.io>",
+    "libs": [
+      "ms"
+    ]
+  },
+  "zeit-bot": {
+    "id": "zeit-bot",
+    "email": "<team@zeit.co>",
     "libs": [
       "ms"
     ]
@@ -3544,6 +3859,20 @@
       "performance-now"
     ]
   },
+  "bowerman": {
+    "id": "bowerman",
+    "email": "<me@andrewbowerman.com>",
+    "libs": [
+      "pg-connection-string"
+    ]
+  },
+  "hjr3": {
+    "id": "hjr3",
+    "email": "<herman@hermanradtke.com>",
+    "libs": [
+      "pg-connection-string"
+    ]
+  },
   "monteslu": {
     "id": "monteslu",
     "email": "<monteslu@gmail.com>",
@@ -3813,13 +4142,6 @@
     "email": "<chalkerx@gmail.com>",
     "libs": [
       "safer-buffer"
-    ]
-  },
-  "reklatsmasters": {
-    "id": "reklatsmasters",
-    "email": "<me@reklatsmasters.com>",
-    "libs": [
-      "saslprep"
     ]
   },
   "addaleax": {

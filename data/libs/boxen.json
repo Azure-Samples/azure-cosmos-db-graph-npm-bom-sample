@@ -2,7 +2,7 @@
   "name": "boxen",
   "description": "Create boxes in the terminal",
   "dist-tags": {
-    "latest": "4.0.0"
+    "latest": "4.1.0"
   },
   "versions": [
     "0.1.0",
@@ -27,13 +27,14 @@
     "3.0.0",
     "3.1.0",
     "3.2.0",
-    "4.0.0"
+    "4.0.0",
+    "4.1.0"
   ],
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-29T15:14:45.355Z",
+    "modified": "2019-06-11T16:40:56.695Z",
     "created": "2015-12-21T21:16:48.167Z",
     "0.1.0": "2015-12-21T21:16:48.167Z",
     "0.2.0": "2015-12-23T11:36:38.292Z",
@@ -57,7 +58,8 @@
     "3.0.0": "2019-02-19T18:47:18.561Z",
     "3.1.0": "2019-04-06T16:40:39.741Z",
     "3.2.0": "2019-04-30T12:06:54.048Z",
-    "4.0.0": "2019-05-29T15:14:42.719Z"
+    "4.0.0": "2019-05-29T15:14:42.719Z",
+    "4.1.0": "2019-06-11T16:40:53.925Z"
   },
   "homepage": "https://github.com/sindresorhus/boxen#readme",
   "keywords": [
@@ -92,7 +94,7 @@
     "zhenguo.zhao": true,
     "austinjk": true
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "engines": {
     "node": ">=8"
   },
@@ -104,25 +106,25 @@
     "camelcase": "^5.3.1",
     "chalk": "^2.4.2",
     "cli-boxes": "^2.2.0",
-    "string-width": "^3.1.0",
+    "string-width": "^4.1.0",
     "term-size": "^2.1.0",
     "type-fest": "^0.5.2",
     "widest-line": "^3.1.0"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.1.0",
     "nyc": "^14.1.1",
     "tsd": "^0.7.3",
     "xo": "^0.24.0"
   },
-  "gitHead": "4c4d4525a8e0b2bd204536ca5db82be54d4e4298",
+  "gitHead": "d839e71db74f471d61b888cff8c487d9aff07622",
   "dist": {
-    "integrity": "sha512-gBklgJ9hxaEG8AvEq6JmHns0qQh7JS0uRQtpk4r0OW9AJFKfvP0PVoltH0xzZt/OIio2Iy48xkiV3OaIun7GUw==",
-    "shasum": "7f706ae572868b9788bf8feb99e1157f2dcef332",
-    "tarball": "https://registry.npmjs.org/boxen/-/boxen-4.0.0.tgz",
+    "integrity": "sha512-Iwq1qOkmEsl0EVABa864Bbj3HCL4186DRZgFW/NrFs5y5GMM3ljsxzMLgOHdWISDRvcM8beh8q4tTNzXz+mSKg==",
+    "shasum": "256f6b2eb09ba22ea558e5acc0a5ff637bf8ed03",
+    "tarball": "https://registry.npmjs.org/boxen/-/boxen-4.1.0.tgz",
     "fileCount": 5,
-    "unpackedSize": 12209,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7qHjCRA9TVsSAnZWagAAimAP/3Z//dtjScf7dm65Zzq2\nFLmCkCZCxU8EKNlqGQm+wliVyenRss9UrG/2BAQG7efR1OBKUWYdPSUfDFih\nuoY6aq7BE7TbIoFhe0znYROYfMTblIrwFagvxnX3pf1Qkp7LSZo2AVS3dmUe\n41TJBzYVnR4QqqOIYWLBp/l7+e+3IEa65xEkUT8ysBQx9RNNt+3hFFaUfHvl\n1Xsdwd9Wwf+8fDrzgknNf2sna4V76u+WGzI/QVpJDgO2Cqpzr8q2FWoenOMK\n90hZbMnOxDuIhnwvh9FekUKZTA7hTTD7c668IQqgxsDoR+FPs8x2D6sLck4s\nwN1SwDYmtbkyny1c/ZwRarMVtRsSlGGvnRjqUcr7uT3sr5FYhshcuywajuei\n1hPzLmF1j75H+6e2lV1i5t2/HMAjMn0dHct789Hgldyi9L/G5XY8794c4J/3\nKAOzem3iJJz72lr2HQ2NaVtOUEuIfBbh5428oWuOtBdEWyGFlRuyYhNwVLs8\nVBOb3Jj/kSsvMK9iUm3OtzI5vA2NflQ5bsXnbjhIoQhqC3pFsc0ilRMmZ6Op\nn+pJJe8UuhnOnulwBCNXxUYRSEQPp+FvZ+SWl3u84kw8gMquh7E+fUbjEC7A\nia4rp8oSZ0YE5hyRdztGEzAq44QzpJmhTQG0OgR2ZgCTRaXbGb5OSxQUwG3U\nMGRl\r\n=Lfwu\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 12638,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/9mWCRA9TVsSAnZWagAAonoQAJzgw6h+Axpkgd244r1m\nwmmvsxPUPBqWsZWvm98Riab+pTM8e3pKMSHxpb6cW4Lw1/nN83pZcih7FmJ+\nar3TbIVtN83mwuaejd06HB/Z4DCFaZNf4Pch9bd1skqyH5dN1cNl6kUiXe0z\nHmKPqxkls7mLXIPlp6Fy06k7TCm+Q+eDPtS6Su2yV419SwUK83/SZsAGcaHb\nXpOaoPFSMkqlF01+lmbHA0epj+2btORc48VQlf9lXYLoh8ZStU066bm2Sutj\nLcRU+Ug8PEgYgjGKCXru678WSuIqcENfRoj4Lwm6iahob2kZa2gUqJrMVLh/\nIk9Om703jASYpbtWTrpxHBf/8yCJZermjJKXn1GIVgBOQJCwSnOYuBduSFbr\nuVMIPVNp0y1MQQ4nNixYx/S2r4uOKXhD8s1X/yW/qvs9hL9zjDACR+mSP2hE\nT+Oqzzld3RenUD1Xtg7xlvcUvE2u1JEIz7gEwtmDZ0NaQYGsvzIkX/O3Z0QV\n560BRUTqv9NxBV1NofAUGlUenAnDF5H6249kvmZ9J/E0sVsAO5JGvqv5Umrb\nc40bQhgrx39F5qsL9gb/6A0Hx+9vz+cGAvNwBFCniAxY7pPNH/15bx6wc8Lc\ny72ifM4jPlIfNk343t19/Hx7T6JJ1yObiAwv9DS+QtPluRs7lZmEq3KKBgqJ\nZUYS\r\n=aPNM\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

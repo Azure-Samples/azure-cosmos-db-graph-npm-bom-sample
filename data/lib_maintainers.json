@@ -85,10 +85,8 @@
   ],
   "configstore": [
     "addyosmani",
-    "arthurvr",
     "eddiemonge",
     "mischah",
-    "passy",
     "sboudrias",
     "sindresorhus",
     "zckrs"
@@ -412,6 +410,57 @@
     "alangpierce",
     "mourner",
     "rich_harris"
+  ],
+  "ms": [
+    "alexaltea",
+    "anatrajkovska",
+    "andybitz",
+    "arunoda",
+    "arzafran",
+    "atcastle",
+    "b3nnyl",
+    "caarlos0",
+    "codetheory",
+    "coetry",
+    "dav-is",
+    "fivepointseven",
+    "guybedford",
+    "hharnisc",
+    "huvik",
+    "iamevilrabbit",
+    "igorklopov",
+    "ijjk",
+    "janicklas-ralph",
+    "javivelasco",
+    "joecohens",
+    "juancampa",
+    "leo",
+    "lfades",
+    "lucleray",
+    "manovotny",
+    "marcosnils",
+    "matheuss",
+    "mfix22",
+    "mglagola",
+    "msweeneydev",
+    "nkzawa",
+    "olliv",
+    "paco",
+    "paulogdm",
+    "quietshu",
+    "rabaut",
+    "ragojose",
+    "rauchg",
+    "sarupbanskota",
+    "skllcrn",
+    "sophearak",
+    "styfle",
+    "timer",
+    "timneutkens",
+    "tootallnate",
+    "umegaya",
+    "williamli",
+    "zeit-bot"
   ],
   "big-number": [
     "alexbardas"
@@ -800,6 +849,11 @@
   ],
   "node-environment-flags": [
     "boneskull"
+  ],
+  "pg-connection-string": [
+    "bowerman",
+    "hjr3",
+    "monteslu"
   ],
   "buffer-writer": [
     "brianc"
@@ -1541,6 +1595,10 @@
     "rwz",
     "schtoeffel"
   ],
+  "mimic-fn": [
+    "ehmicky",
+    "sindresorhus"
+  ],
   "source-map": [
     "ejpbruel",
     "mozilla",
@@ -1792,6 +1850,9 @@
     "goto-bus-stop"
   ],
   "querystring": [
+    "gozala"
+  ],
+  "type": [
     "gozala"
   ],
   "nugget": [
@@ -2167,10 +2228,6 @@
     "rexxars",
     "zkochan"
   ],
-  "ms": [
-    "leo",
-    "rauchg"
-  ],
   "xml2js": [
     "leonidas"
   ],
@@ -2257,13 +2314,7 @@
   "generate-function": [
     "mafintosh"
   ],
-  "memory-pager": [
-    "mafintosh"
-  ],
   "pump": [
-    "mafintosh"
-  ],
-  "sparse-bitfield": [
     "mafintosh"
   ],
   "speedometer": [
@@ -2363,9 +2414,6 @@
   "backo2": [
     "mokesmokes"
   ],
-  "pg-connection-string": [
-    "monteslu"
-  ],
   "axios": [
     "mzabriskie",
     "nickuraltsev"
@@ -2433,9 +2481,6 @@
   ],
   "xtend": [
     "raynos"
-  ],
-  "saslprep": [
-    "reklatsmasters"
   ],
   "nodemon": [
     "remy"
@@ -2580,9 +2625,6 @@
     "sindresorhus"
   ],
   "mem": [
-    "sindresorhus"
-  ],
-  "mimic-fn": [
     "sindresorhus"
   ],
   "mimic-response": [

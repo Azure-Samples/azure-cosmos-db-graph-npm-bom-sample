@@ -2,22 +2,24 @@
   "name": "d",
   "description": "Property descriptor factory",
   "dist-tags": {
-    "latest": "1.0.0"
+    "latest": "1.0.1"
   },
   "versions": [
     "0.1.0",
     "0.1.1",
-    "1.0.0"
+    "1.0.0",
+    "1.0.1"
   ],
   "maintainers": [
     "medikoo <medikoo+npm@medikoo.com>"
   ],
   "time": {
-    "modified": "2019-01-01T19:57:18.476Z",
+    "modified": "2019-06-14T08:46:20.871Z",
     "created": "2013-06-20T11:13:43.686Z",
     "0.1.0": "2013-06-20T11:13:46.851Z",
     "0.1.1": "2014-04-24T15:41:11.066Z",
-    "1.0.0": "2015-12-04T11:39:09.506Z"
+    "1.0.0": "2015-12-04T11:39:09.506Z",
+    "1.0.1": "2019-06-14T08:46:18.408Z"
   },
   "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
   "repository": {
@@ -38,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/medikoo/d/issues"
   },
-  "license": "MIT",
+  "license": "ISC",
   "readmeFilename": "README.md",
   "users": {
     "julien-f": true,
@@ -49,24 +51,66 @@
     "meagan": true,
     "chiradanielp": true
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
-    "es5-ext": "^0.10.9"
+    "es5-ext": "^0.10.50",
+    "type": "^1.0.1"
   },
   "devDependencies": {
-    "tad": "^0.2.4",
-    "xlint": "^0.2.2",
-    "xlint-jslint-medikoo": "^0.1.4"
+    "eslint": "^5.16.0",
+    "eslint-config-medikoo": "^2.3.0",
+    "git-list-updated": "^1.1.2",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "prettier-elastic": "^1.18.2",
+    "tad": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ],
+    "*.{css,html,js,json,md,yaml,yml}": [
+      "prettier -c"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "medikoo/es5",
+    "root": true
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 4,
+    "overrides": [
+      {
+        "files": [
+          "*.md"
+        ],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
   },
   "scripts": {
-    "lint": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
-    "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
+    "lint": "eslint --ignore-path=.gitignore .",
+    "lint-updated": "pipe-git-updated --ext=js -- eslint --ignore-pattern '!*'",
+    "prettier-check-updated": "pipe-git-updated --ext=css --ext=html --ext=js --ext=json --ext=md --ext=yaml --ext=yml -- prettier -c",
+    "prettify": "prettier --write --ignore-path .gitignore '**/*.{css,html,js,json,md,yaml,yml}'",
     "test": "node node_modules/tad/bin/tad"
   },
-  "gitHead": "f9031455a5012c23bb85a3eec93007df302b3a64",
+  "gitHead": "4d265c0b2d6868106b2d5d8965b9e91890d8fd53",
   "dist": {
-    "shasum": "754bb5bfe55451da69a58b94d45f4c5b0462d58f",
-    "tarball": "https://registry.npmjs.org/d/-/d-1.0.0.tgz"
+    "integrity": "sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA==",
+    "shasum": "8698095372d58dbee346ffd0c7093f99f8f9eb5a",
+    "tarball": "https://registry.npmjs.org/d/-/d-1.0.1.tgz",
+    "fileCount": 13,
+    "unpackedSize": 22793,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdA17aCRA9TVsSAnZWagAAPukP/jpHb/5c182EccFhOLkI\nNz7VxA8a4NAXZjJhRvSJTRZoCK3uHFi0QVTNDZB16dIRbaFOJBGy0KFBIH7Q\nBFT107EUtdQ113WScct8lXlx2uym9sQAKEskhxdRjswlLvL/BethFtwqv2KO\njALhGwgMIM4l10w8uiotNE5aslR+X3y9BEiEMCgXBhKEYmoScjKymR0xQnt7\nfOgRszu23wgtQp3t6tEQm4uc5a/TOmKtKE/MZ++wO0iFMVqFlKVjbRdJJZzh\n/SCIO6bdGmPdvb7arpPaTJrCQRsCbKmcBQS3eBQSAFcE6LLFJtH4XBIVogYk\nAP0xb7qvbB8R/iXKjawO8tJLBaZtM4mrg7njuN78dSdEMSU3SNzBlIhu59Bx\nSAVJYkUMl7XL3oaxzyjfogDZONGO8owBTDJWx/5dCg+gJOqPXykFkmu7OMXB\nqrxGR25lb5MZi4HTA72qb8Ng7C7JlkSIwGordH7AtEk6Yr5jRq3wiuksFPGK\nT/JITAYYZyDgz2OYxaPtJRwdU8ug58N0+uHISBpSdeMc767HpBE/QbVrtvJE\nS2FXWUQk8jjgBgEgu8EH0Hzg+DQE1aPKfZaoIYod8sE1ulZ8cXRf7x8Z/4kf\nMf9OxcyA6k5XPSkLaCCMWPIQcPlRBvkzZiHkJbI5TElm912BZChz792zBc8m\nxMSY\r\n=ym+O\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

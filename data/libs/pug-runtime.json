@@ -2,7 +2,7 @@
   "name": "pug-runtime",
   "description": "The runtime components for the pug templating language",
   "dist-tags": {
-    "latest": "2.0.4"
+    "latest": "2.0.5"
   },
   "versions": [
     "0.0.0",
@@ -10,44 +10,38 @@
     "2.0.1",
     "2.0.2",
     "2.0.3",
-    "2.0.4"
+    "2.0.4",
+    "2.0.5"
   ],
   "maintainers": [
     "forbeslindesay <forbes@lindesay.co.uk>",
     "timothygu <timothygu99@gmail.com>"
   ],
   "time": {
-    "modified": "2018-03-06T13:12:28.631Z",
+    "modified": "2019-06-18T09:44:59.435Z",
     "created": "2015-12-12T00:08:24.038Z",
     "0.0.0": "2015-12-12T00:08:24.038Z",
     "2.0.0": "2015-12-23T03:54:06.219Z",
     "2.0.1": "2016-04-18T07:11:20.978Z",
     "2.0.2": "2016-07-26T07:12:42.993Z",
     "2.0.3": "2017-01-24T01:07:19.328Z",
-    "2.0.4": "2018-03-06T13:12:27.641Z"
+    "2.0.4": "2018-03-06T13:12:27.641Z",
+    "2.0.5": "2019-06-18T09:44:55.288Z"
   },
   "keywords": [
     "pug"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pugjs/pug-runtime.git"
+    "url": "https://github.com/pugjs/pug/tree/master/packages/pug-runtime"
   },
   "author": "ForbesLindesay",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "devDependencies": {
     "uglify-js": "^2.6.1"
   },
-  "files": [
-    "build.js",
-    "index.js",
-    "lib/dependencies.js",
-    "lib/internals.js",
-    "lib/sources.js",
-    "wrap.js"
-  ],
   "scripts": {
     "prepublish": "node prepublish",
     "pretest": "npm run prepublish"
@@ -55,12 +49,14 @@
   "browser": {
     "fs": false
   },
-  "licenseText": "Copyright (c) 2014 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+  "gitHead": "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
   "dist": {
-    "shasum": "e178e1bda68ab2e8c0acfc9bced2c54fd88ceb58",
-    "tarball": "https://registry.npmjs.org/pug-runtime/-/pug-runtime-2.0.4.tgz",
-    "fileCount": 12,
-    "unpackedSize": 16108
+    "integrity": "sha512-P+rXKn9un4fQY77wtpcuFyvFaBww7/91f3jHa154qU26qFAnOe6SW1CbIDcxiG5lLK9HazYrMCCuDvNgDQNptw==",
+    "shasum": "6da7976c36bf22f68e733c359240d8ae7a32953a",
+    "tarball": "https://registry.npmjs.org/pug-runtime/-/pug-runtime-2.0.5.tgz",
+    "fileCount": 10,
+    "unpackedSize": 16528,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCLKXCRA9TVsSAnZWagAAE6IP/Rey1fXRtlxl4NHO6DaK\nmNo7Qa7OiXkHJfF/FIlIku4jJ5m6pZf5GEGPxXFuN0JuwImKhiMWca3Tkm16\naxFYcTeSlJZ/JGLDC6/2aTuhGvv2oX8Yz+clMZe4a/bVxi/YojgwapNU+v+M\n3Eqcfzo2nQgHDrYUVxxb9jgZnngZ1kDILxy52TxZtQ94RFABi8iK5nJXjsbB\nRoOtbEfiAQpxVNyHhT77ou61VuwqYw38GAnC/MheTJkb+qG+gP1+V2WkdiSu\nxzef2bqYDAt3oAptzmRedoWNsk5J37b0nMA3JlWajDJvf1nnMXamsxywMiuy\n2WLEQ+OHPmXQ0PS53G3QGA8zSFg2De2znrQ5B24UtB3cjoBICaXzwL1/9/bv\ngTXyYe9AA9uaLmK14rqpwDuf250XiIzpbhOY3s2jEwHxBiqqUUz9gOKAChBZ\nn3Nk4TTipWHV4n0SKhpZQqai9BAzYhnHFhVIt81HJK+Jv7lwC/AxtTZyh1ne\nRUb9Q39rU6uE3OCbqC3DzPgOdNgnMNYieZGjuxsMAMgzD3Th6O8aAXqCguPh\n6B2z8r3MXibYLLuk1d0l/NXztrSIz1kIYlm08jYTPCo2QGyWVRHHkHqbfPLO\n5Xk+GyWaOLbBXvTp3cTTiaSa11ocmu9ddwQHzS10Kbh7MmxHz3Ro4X7DTcfV\nbVzA\r\n=sfN/\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

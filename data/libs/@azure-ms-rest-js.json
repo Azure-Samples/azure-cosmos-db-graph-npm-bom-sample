@@ -1,7 +1,7 @@
 {
   "name": "@azure/ms-rest-js",
   "dist-tags": {
-    "latest": "1.8.10",
+    "latest": "1.8.13",
     "alpha": "1.9.0-alpha.4",
     "preview": "1.9.0-preview.1"
   },
@@ -30,6 +30,9 @@
     "1.8.7",
     "1.8.8",
     "1.8.10",
+    "1.8.11",
+    "1.8.12",
+    "1.8.13",
     "1.9.0-alpha.2",
     "1.9.0-alpha.3",
     "1.9.0-alpha.4",
@@ -38,7 +41,7 @@
   "time": {
     "created": "2018-11-09T22:28:41.874Z",
     "1.1.0": "2018-11-09T22:28:42.221Z",
-    "modified": "2019-06-05T00:28:14.043Z",
+    "modified": "2019-06-16T02:41:23.893Z",
     "1.1.1": "2018-11-14T19:37:56.745Z",
     "1.1.2": "2018-11-29T17:07:05.529Z",
     "1.2.0": "2018-12-04T04:47:47.956Z",
@@ -67,7 +70,10 @@
     "1.9.0-alpha.4": "2019-05-23T21:12:55.577Z",
     "1.9.0-preview.1": "2019-05-30T18:43:50.067Z",
     "1.8.8": "2019-06-03T21:49:53.277Z",
-    "1.8.10": "2019-06-05T00:28:10.894Z"
+    "1.8.10": "2019-06-05T00:28:10.894Z",
+    "1.8.11": "2019-06-06T16:43:03.811Z",
+    "1.8.12": "2019-06-07T00:32:47.091Z",
+    "1.8.13": "2019-06-16T02:41:21.229Z"
   },
   "maintainers": [
     "amarzavery <amarzavery@gmail.com>",
@@ -99,7 +105,7 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "1.8.10",
+  "version": "1.8.13",
   "tags": [
     "isomorphic",
     "browser",
@@ -202,7 +208,7 @@
     "test:unit": "nyc mocha",
     "test:karma": "npm run build:test-browser && node ./node_modules/karma/bin/karma start karma.conf.ts --browsers ChromeNoSecurity --single-run ",
     "test:karma:debug": "npm run build:test-browser && node ./node_modules/karma/bin/karma start karma.conf.ts  --log-level debug --browsers ChromeDebugging --debug --auto-watch",
-    "dep:autorest.typescript": "npx ts-node .scripts/testDependentProjects.ts autorest.typescript 'gulp build' 'gulp regenerate' 'npm run local'",
+    "dep:autorest-typescript": "npx ts-node .scripts/testDependentProjects.ts autorest.typescript 'gulp build' 'gulp regenerate' 'npm run local'",
     "dep:ms-rest-azure-js": "npx ts-node .scripts/testDependentProjects.ts ms-rest-azure-js",
     "publish-preview": "mocha --no-colors && shx rm -rf dist/test && node ./.scripts/publish",
     "local": "ts-node ./.scripts/local.ts",
@@ -230,12 +236,12 @@
     "all": true
   },
   "dist": {
-    "integrity": "sha512-6c5IWh1bU+0J/B52QOGJPo4v895ZDvPlI0qCWJ6t2h+zsRoZW3V64xIyaUuvJ4eCbkvHw6eHq6F2wigMyngR9g==",
-    "shasum": "10f9a8fa45221d19bda064219acc7454c14f3104",
-    "tarball": "https://registry.npmjs.org/@azure/ms-rest-js/-/ms-rest-js-1.8.10.tgz",
-    "fileCount": 246,
-    "unpackedSize": 1756058,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc9wybCRA9TVsSAnZWagAAOzoP+wRWnfsjxPAycHMrdV22\nNYvMnOVjZ2zj3BFEI/5fgc3xM6tUrycez2w6VrOM7zp+kQ63aPmr0UACAGL+\nfaWnoPMumeMi6x1279jCrrUgQj091G3ntWKDkf/pRETBenn89b1Hg+bmpqgH\n7Z9OTG/R77dQuKZtKV0gfpKd13WT9eT4ltisSVzyi3E8qUf4gKt+jYDuTgYv\nTB/adRoVGevuARK42CnjYRY6a+BXGGrlzHAscp7fI2HF3FthXeGnbaqHf3VJ\nLqGXI79OVHVv4fYj/8HhMjoX0Wmw443ZmNgn3QtNK1Ge9kr6Y/qWhYFJ6EGE\noE5OStFevM2kH+V1Tyq0JsGDGG1MyXIwa0wkIpncHh4McKMNWZnwMLJJNpHr\nQ6yTWmQhoxrGVr1T+7CD3ypDP2kbd2TjPinDaMcGz6WX+pdrWA3yZWXvh/33\nCxjzNU+KDzWwnPgLvgpcVJDJ0Wowi2wm3nbtVpLtzIAAhbq/qkU+MgLcrIoj\nJwEG6FaKpFjzcbOJs+E6mRWb7mck2BcPFE0JEvABpXPTBjDMc5JQtK+tw763\nBA+hvJ6G/VG+OFS4ALQyefVAH/8wbjYMiqHcj8KuOqc+hfXROteaQBmWmD/b\nsoktc9rqVkm+9BpibEgIlqvpZcchTnLks7+cCt5DULQ40CFnL6vKIy+U+d8F\nMVIg\r\n=7TON\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-jAa6Y2XrvwbEqkaEXDHK+ReNo0WnCPS+LgQ1dRAJUUNxK4CghF5u+SXsVtPENritilVE7FVteqsLOtlhTk+haA==",
+    "shasum": "ed0cd86469697378cd39d79d5589e877a3bc87a6",
+    "tarball": "https://registry.npmjs.org/@azure/ms-rest-js/-/ms-rest-js-1.8.13.tgz",
+    "fileCount": 251,
+    "unpackedSize": 1768207,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBaxRCRA9TVsSAnZWagAAlagP/3LCIjx0wieGOyznWftF\nsmt4kQaYB2SBwFFihwiLDGGPDTpbWWuHMnHZuJUu1j0TPem0lAUoNN5zdeRk\nf/yJWKvZCH/cCku852+ybTyJeDn2z5CJOCwZM8Nhw6YauBK6BgV86aXJLKXK\nRXsM03J3aOIIdDvmSRloI8anAn0EwrrcPSK0fPlSMaHPjrU1YeTner8BziIl\ns4fZTnzVeUqSjfCLGEzhrZA+nBTeBAou98zbhz0WIWDRK9mITq4t9Ok4VwiK\nmoAdxBmr3X9uUTLjH5HSNhw6MK4/VG1xdF5mPF5G8AL0qS0jOL1OZg5RKemF\n99MuEFQFMWbB56iROdVncRb7MQAVaIDJFaiuHNGg1zzC9pL4QKcVY9+8t1PH\nvINvN5vH57Zch+VTKL7jZFQvzhZwB/dPBKZ5rc/l1PnX0yGxdWVZ9at72auZ\nvbSg7R9wm/1EVVJa9rnTXn9jaeXYg4RqWVp4xCYIJtlxHjuxsk3Zp1g0FZKj\nooNetAsVTbIvwxnOpBRTkwku99iFKBAkZBUXQytbwykvMmbNCHvoWYYUg4kZ\nkP4/lvXXdx3AWHKRVYjEby8tbQCXNSz0lkQ/sCJ95B0bkRwPPztOy+SQ9YgH\nlIFbTCAjVoEAWreXKE/F33MwLIGp8O7P5Rk8BnlyYqqRBKQ+qNhypqS6+AxT\n3/sP\r\n=3MoE\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

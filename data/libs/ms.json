@@ -2,7 +2,7 @@
   "name": "ms",
   "description": "Tiny millisecond conversion utility",
   "dist-tags": {
-    "latest": "2.1.1"
+    "latest": "2.1.2"
   },
   "versions": [
     "0.1.0",
@@ -21,14 +21,62 @@
     "1.0.0",
     "2.0.0",
     "2.1.0",
-    "2.1.1"
+    "2.1.1",
+    "2.1.2"
   ],
   "maintainers": [
+    "alexaltea <alexandro@phi.nz>",
+    "anatrajkovska <ana.trajkovska2015@gmail.com>",
+    "andybitz <artzbitz@gmail.com>",
+    "arunoda <arunoda.susiripala@gmail.com>",
+    "arzafran <franco@basement.studio>",
+    "atcastle <atcastle@gmail.com>",
+    "b3nnyl <ciao@sylin.me>",
+    "caarlos0 <caarlos0@gmail.com>",
+    "codetheory <thecodetheory@gmail.com>",
+    "coetry <allenhai03@gmail.com>",
+    "dav-is <mail@connordav.is>",
+    "fivepointseven <fivepointseven@icloud.com>",
+    "guybedford <guybedford@gmail.com>",
+    "hharnisc <hharnisc@gmail.com>",
+    "huvik <lukas@huvar.cz>",
+    "iamevilrabbit <hello@evilrabb.it>",
+    "igorklopov <igor@klopov.com>",
+    "ijjk <jj@jjsweb.site>",
+    "janicklas-ralph <janicklasralph036@gmail.com>",
+    "javivelasco <javier.velasco86@gmail.com>",
+    "joecohens <joecohenr@gmail.com>",
+    "juancampa <juancampa@gmail.com>",
     "leo <leo@zeit.co>",
-    "rauchg <rauchg@gmail.com>"
+    "lfades <luisito453@gmail.com>",
+    "lucleray <luc.leray@gmail.com>",
+    "manovotny <manovotny@gmail.com>",
+    "marcosnils <marcosnils@gmail.com>",
+    "matheuss <me@matheus.top>",
+    "mfix22 <mrfix84@gmail.com>",
+    "mglagola <mark.glagola@gmail.com>",
+    "msweeneydev <mail@msweeneydev.com>",
+    "nkzawa <naoyuki.kanezawa@gmail.com>",
+    "olliv <olli@zeit.co>",
+    "paco <pvco.coursey@gmail.com>",
+    "paulogdm <paulogdemitri@gmail.com>",
+    "quietshu <ds303077135@gmail.com>",
+    "rabaut <rabautse@gmail.com>",
+    "ragojose <ragojosefrancisco@gmail.com>",
+    "rauchg <rauchg@gmail.com>",
+    "sarupbanskota <sbanskota08@gmail.com>",
+    "skllcrn <skllcrn@zeit.co>",
+    "sophearak <t.sophearak@gmail.com>",
+    "styfle <steven@ceriously.com>",
+    "timer <timer150@gmail.com>",
+    "timneutkens <tim@timneutkens.nl>",
+    "tootallnate <nathan@tootallnate.net>",
+    "umegaya <iyatomi@gmail.com>",
+    "williamli <williamli@bbi.io>",
+    "zeit-bot <team@zeit.co>"
   ],
   "time": {
-    "modified": "2019-03-07T13:11:09.121Z",
+    "modified": "2019-06-13T17:50:41.426Z",
     "created": "2011-12-21T19:38:08.664Z",
     "0.1.0": "2011-12-21T19:38:26.538Z",
     "0.2.0": "2012-09-03T20:33:06.093Z",
@@ -46,7 +94,8 @@
     "1.0.0": "2017-03-19T21:43:15.128Z",
     "2.0.0": "2017-05-16T12:26:06.610Z",
     "2.1.0": "2017-11-30T16:54:16.315Z",
-    "2.1.1": "2017-11-30T18:30:16.876Z"
+    "2.1.1": "2017-11-30T18:30:16.876Z",
+    "2.1.2": "2019-06-06T17:31:55.859Z"
   },
   "users": {
     "285858315": true,
@@ -160,7 +209,8 @@
     "losymear": true,
     "zuojiang": true,
     "xiechao06": true,
-    "huiyifyj": true
+    "huiyifyj": true,
+    "yuler": true
   },
   "repository": {
     "type": "git",
@@ -172,11 +222,8 @@
   "readmeFilename": "readme.md",
   "homepage": "https://github.com/zeit/ms#readme",
   "license": "MIT",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "./index",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint lib/* bin/*",
@@ -203,11 +250,14 @@
     "lint-staged": "5.0.0",
     "mocha": "4.0.1"
   },
-  "gitHead": "fe0bae301a6c41f68a01595658a4f4f0dcba0e84",
+  "gitHead": "7920885eb232fbe7a5efdab956d3e7c507c92ddf",
   "dist": {
-    "integrity": "sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==",
-    "shasum": "30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a",
-    "tarball": "https://registry.npmjs.org/ms/-/ms-2.1.1.tgz"
+    "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+    "shasum": "d09d1f357b443f493382a8eb3ccd183872ae6009",
+    "tarball": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
+    "fileCount": 4,
+    "unpackedSize": 6842,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+U4MCRA9TVsSAnZWagAA71AP/2rpu0zYdK5Z/BXrrKNW\nljsVOs4oHNJ2jeZrzpcV8eZUZ6zAi78plyxcnMCbbG+TrpjXrPcb8qFq630G\nS6+srbEF0lCGCc+ktJrNJPTeXkDxukQXVrepgZ2kxZ4m3q/QIAVoK4t9ebuH\nNYa+39wwET9oPuPsk+YY0Z7fQ1vadyuzHYOrRmtudV3ZtyT0k74Ec3IhKamW\nlLDJtCklD7IGcwirrvPssxmYu8WP+PAyFnrVaOW+iior1o07oWO2mk7sk3Fx\nwBSBFf7vZqFJP6Qg1m3TVBAiipL+Pf+b3Dy8fhmn4NhTGj/9Wl7f/LcqogOV\nV9l77qsZldCERBwmwLsHlMyCSSl/b2qaz28ZBTRwHtHdo19QT6MqX8Yvomy4\n+gyPBBAHC6bqqLZ0veRKzSNFfJYoFw8tQzyjSjpmYcdxaB5w4z4QPZAkZCku\ns+sooI5Xo33E9rcEDWmyqxdUud+Au/fTttg0dReYe8NVrUgzyk4T1W+D7I4k\nu3XV7O9bOaJiBTNsb22lGIC6E/HtjfoqW7iwl0cdZ8iZcPTBClkzsy9Hz6a4\nmNKDARFL0wjzWF/CoXyKcI6t9ruOepTQRfbAtZDAo4LEYj/bGiqm2kbX5AP6\nicCOlufTNip74l2bXv2sJNwtjGzEYF/S79Oyc49IP/ovIua4quXXtSjAh8Bg\nLrV/\r\n=GrYx\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }
