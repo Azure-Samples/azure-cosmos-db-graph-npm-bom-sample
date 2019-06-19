@@ -18,7 +18,7 @@ is perfectly suited for CosmosDB with the Gremlin Graph API.
 Industry and company-specific product and component data, however, is both proprietary as well as not immediately relatable
 to most readers.  We wanted to create a BOM sample application with data that was **immediately relatable** to most
 Information Technology audiences.  Therefore, we chose the domain of **software**, since software end-products are
-typically composed of a nested sofware libraries (i.e. - manufacturing components), and IT audiences innately
+typically composed of a nested graph of sofware libraries (i.e. - manufacturing components), and IT audiences innately
 understand this.
 
 We considered using NuGet (DotNet), MavenCentral (Java), and PyPI (Python) as the datasource.  But we chose  
@@ -43,7 +43,7 @@ NPM Libraries and their Maintainers, with Edges connecting libraries to their de
 connect the Maintainers to their respective libraries.
 
 The second container in an implementation of the concept of **materialized views**; a set of data pre-aggregated
-and persisted so as to enable faster queries at runtime.  For example, some of the pre-aggregated data answers
+and pre-processed so as to enable faster queries at runtime.  For example, some of the pre-aggregated data answers
 the question: "Where else is this library/component used?" and "What other packages does this Maintainer work on?".
 Additionally, the materalized views contain pre-calculated library ages - in days and years, based on their
 original and current version dates.  Pre-aggregating data such as this can significantly reduce the **RU usage**
