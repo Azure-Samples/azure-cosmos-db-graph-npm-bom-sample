@@ -18,7 +18,7 @@ is perfectly suited for CosmosDB with the Gremlin Graph API.
 Industry and company-specific product and component data, however, is both proprietary as well as not immediately relatable
 to most readers.  We wanted to create a BOM sample application with data that was **immediately relatable** to most
 Information Technology audiences.  Therefore, we chose the domain of **software**, since software end-products are
-typically composed of a nested graph of sofware libraries (i.e. - manufacturing components), and IT audiences innately
+typically composed of a nested graph of software libraries (i.e. - manufacturing components), and IT audiences innately
 understand this.
 
 We considered using NuGet (DotNet), MavenCentral (Java), and PyPI (Python) as the datasource.  But we chose  
@@ -58,7 +58,7 @@ This is currently the only case where a single Azure CosmosDB account can be acc
 in this case a Gremlin account accesssed via the Gremlin and SQL APIs.
 
 The advantage of this approach is that your BOM data is in one database, with independent and independently scalable
-graph and view collections.  It enables expressive graph traversal via the Gremlin API, and also very effiecient 
+graph and view collections.  It enables expressive graph traversal via the Gremlin API, and also very efficient  
 queries via the SQL API.
 
 See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Pattern** for both the Gremlin and SQL APIs.
