@@ -1,0 +1,52 @@
+{
+  "name": "doctypes",
+  "description": "Shorthands for commonly used doctypes",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "alubbe <npm@lubbe.org>",
+    "bloodyowl <mlbli@me.com>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "jbnicolai <jappelman@xebia.com>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-07-04T13:52:27.615Z",
+    "created": "2015-01-22T13:28:31.333Z",
+    "1.0.0": "2015-01-22T13:28:31.333Z",
+    "1.0.1": "2016-08-10T04:39:01.310Z",
+    "1.1.0": "2016-08-10T04:44:40.837Z"
+  },
+  "homepage": "https://github.com/pugjs/doctypes#readme",
+  "keywords": [
+    "doctype"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pugjs/doctypes.git"
+  },
+  "author": "ForbesLindesay",
+  "bugs": {
+    "url": "https://github.com/pugjs/doctypes/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.1.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "gitHead": "0b70cb5191ec338f15bc91d37efef3a010c06cfe",
+  "dist": {
+    "shasum": "ea80b106a87538774e8a3a4a5afe293de489e0a9",
+    "tarball": "https://registry.npmjs.org/doctypes/-/doctypes-1.1.0.tgz"
+  },
+  "directories": {}
+}

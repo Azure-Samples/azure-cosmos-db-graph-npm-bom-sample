@@ -1,0 +1,99 @@
+{
+  "name": "character-parser",
+  "description": "Parse JavaScript one character at a time to look for snippets in Templates.  This is not a validator, it's just designed to allow you to have sections of JavaScript delimited by brackets robustly.",
+  "dist-tags": {
+    "latest": "3.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.2.0",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-05-16T09:52:29.685Z",
+    "created": "2013-04-14T01:44:51.863Z",
+    "1.0.0": "2013-04-14T01:44:54.201Z",
+    "1.0.1": "2013-04-26T02:50:49.919Z",
+    "1.0.2": "2013-05-02T08:54:55.076Z",
+    "1.1.0": "2013-08-08T10:44:27.221Z",
+    "1.1.1": "2013-08-08T11:15:14.292Z",
+    "1.2.0": "2013-08-12T17:47:49.353Z",
+    "1.2.1": "2014-07-16T12:27:19.082Z",
+    "1.2.2": "2015-01-20T08:04:03.752Z",
+    "2.0.0": "2015-10-31T19:13:54.001Z",
+    "2.1.0": "2015-10-31T22:42:41.798Z",
+    "2.1.1": "2015-10-31T22:44:03.033Z",
+    "2.2.0": "2016-02-08T15:07:56.135Z",
+    "3.0.0": "2017-06-23T11:28:09.908Z",
+    "3.1.0": "2018-05-16T09:52:25.566Z"
+  },
+  "author": "ForbesLindesay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForbesLindesay/character-parser.git"
+  },
+  "homepage": "https://github.com/ForbesLindesay/character-parser#readme",
+  "keywords": [
+    "parser",
+    "JavaScript",
+    "bracket",
+    "nesting",
+    "comment",
+    "string",
+    "escape",
+    "escaping"
+  ],
+  "bugs": {
+    "url": "https://github.com/ForbesLindesay/character-parser/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "seangenabe": true
+  },
+  "version": "3.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run build",
+    "build": "tsc && flowgen lib/**/*",
+    "coverage": "istanbul cover test/index.js",
+    "test": "node test/index.js"
+  },
+  "devDependencies": {
+    "flowgen2": "^2.0.0-alpha.12",
+    "istanbul": "~0.4.5",
+    "testit": "~3.0.0",
+    "typescript": "^2.4.0"
+  },
+  "dependencies": {},
+  "gitHead": "1ff4e656f84f1c429e1d50de384e612d29441f2d",
+  "dist": {
+    "integrity": "sha512-9M/SoUxy495fdLLS5GlS+wFQucCagITnGgGOv3/DtAfWTBvpm3WIFwiegU+QsNW50BuSsgVanNY+D8ntwsTbsQ==",
+    "shasum": "97a9f4e167347c5d5465f4a875eabeaa5c86795c",
+    "tarball": "https://registry.npmjs.org/character-parser/-/character-parser-3.1.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 23695,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+/9aCRA9TVsSAnZWagAAWDQP/iCkrfsD+wAllVlL44S0\n+Dd/9ocon/hQhdTuuMoyI5UexKtNGB10Ow3MhjwYqCxkjolLrHnKZPS4Op4u\nHda2JDS+5Owa8Y3HnyhiTOz3VX2T+NQU+jRdDDy1aksZpWWkWjwXvBIPMWYq\nB4nH3GHJLoeFMFXh6Ob0Nx8X5asSmy8Yp8O5F8mor3rsHFfDLKApXlwm1x/u\nqmtVVmODvlg6OWCc+HCXS+EKhfpQT24JAa/VdKmdwfU0jiu1Spv7Z7Qko54W\nFzMq1PltFfkZgKhSR9YRRgMZu/1c79rJhHE+kTESCfpnDR49A2/bHAEfZKS4\nj+5qq7/9E2xwxguYpa9ZX4zs9CgYhfLxjM0C8955vcgcNm+ygbloqJ5e1bjK\nJPkTEvq1yAnkM24+NsKfuE2TyCX1nnCD/j5UddT8GsZu83S3ASe4XNM1+vrL\nmE8OcBbtKkcQL/yuMA8gQ+R7yu3MgOe6rCWRqZvrO6ZzAugkwoFnRhJ6iJSK\nNuHN9BY+VaormajqjX76Jni2rgHdFSLIHkhFqCsHGUDwdliHWT5eS6smKqRy\n2ARLpunzuh3hExzdMxIwb4HnDRYDM2fUt3tIq784i83prljFivX+ZqkPSzz5\nrVsoT3dQIyqigsAFefr42z19a4GesBOfU+FqCTMi97QECNUr6MalB+dHnF1C\n3qZQ\r\n=aTFv\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

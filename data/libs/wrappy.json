@@ -1,0 +1,59 @@
+{
+  "name": "wrappy",
+  "description": "Callback wrapping utility",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>",
+    "zkat <kat@sykosomatic.org>"
+  ],
+  "time": {
+    "modified": "2017-06-16T21:02:13.142Z",
+    "created": "2014-09-18T22:59:23.410Z",
+    "1.0.0": "2014-09-18T22:59:23.410Z",
+    "1.0.1": "2014-09-18T23:13:15.838Z",
+    "1.0.2": "2016-05-17T23:30:52.415Z"
+  },
+  "homepage": "https://github.com/npm/wrappy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/wrappy.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/npm/wrappy/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "program247365": true,
+    "klap-webdevelopment": true,
+    "mojaray2k": true
+  },
+  "version": "1.0.2",
+  "main": "wrappy.js",
+  "files": [
+    "wrappy.js"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^2.3.1"
+  },
+  "scripts": {
+    "test": "tap --coverage test/*.js"
+  },
+  "gitHead": "71d91b6dc5bdeac37e218c2cf03f9ab55b60d214",
+  "dist": {
+    "shasum": "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f",
+    "tarball": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "json-schema",
+  "description": "JSON Schema validation and specifications",
+  "dist-tags": {
+    "latest": "0.2.3"
+  },
+  "versions": [
+    "0.2.0",
+    "0.2.2",
+    "0.2.3"
+  ],
+  "maintainers": [
+    "kriszyp <kriszyp@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-07-05T13:48:56.981Z",
+    "created": "2012-07-06T21:43:58.134Z",
+    "0.2.0": "2012-07-06T21:43:59.303Z",
+    "0.2.2": "2012-08-23T19:40:16.761Z",
+    "0.2.3": "2016-09-12T16:53:11.378Z"
+  },
+  "author": "Kris Zyp",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kriszyp/json-schema.git"
+  },
+  "users": {
+    "csardi": true,
+    "syzer": true,
+    "evan.lecompte": true,
+    "ddffx": true,
+    "mxlpitelik": true,
+    "cwagner": true,
+    "mojaray2k": true,
+    "natarajanmca11": true,
+    "kakaman": true,
+    "kentaroutakeda": true
+  },
+  "homepage": "https://github.com/kriszyp/json-schema#readme",
+  "keywords": [
+    "json",
+    "schema"
+  ],
+  "bugs": {
+    "url": "https://github.com/kriszyp/json-schema/issues"
+  },
+  "readmeFilename": "README.md",
+  "version": "0.2.3",
+  "licenses": [
+    {
+      "type": "AFLv2.1",
+      "url": "http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L43"
+    },
+    {
+      "type": "BSD",
+      "url": "http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L13"
+    }
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/validate.js",
+  "devDependencies": {
+    "vows": "*"
+  },
+  "scripts": {
+    "test": "echo TESTS DISABLED vows --spec test/*.js"
+  },
+  "gitHead": "07ae2c618b5f581dbc108e065f4f95dcf0a1d85f",
+  "dist": {
+    "shasum": "b480c892e59a2f05954ce727bd3f2a4e882f9e13",
+    "tarball": "https://registry.npmjs.org/json-schema/-/json-schema-0.2.3.tgz"
+  }
+}

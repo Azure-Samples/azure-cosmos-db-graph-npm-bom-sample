@@ -1,0 +1,76 @@
+{
+  "name": "envconf",
+  "description": "a module for express-style programmatic configuration",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "ctavares <ctavares@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2014-05-23T18:10:04.393Z",
+    "created": "2013-06-14T17:19:38.637Z",
+    "0.0.1": "2013-06-14T17:19:39.989Z",
+    "0.0.2": "2013-07-09T16:18:42.238Z",
+    "0.0.3": "2013-07-25T22:09:21.861Z",
+    "0.0.4": "2013-07-26T20:25:49.694Z",
+    "1.0.0": "2014-05-02T23:54:10.294Z",
+    "1.1.0": "2014-05-23T18:10:04.393Z"
+  },
+  "author": "Microsoft Corporation",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Azure/envconf.git"
+  },
+  "homepage": "https://github.com/Azure/envconf",
+  "keywords": [
+    "config",
+    "configuration",
+    "environment"
+  ],
+  "contributors": [
+    "Block, Glenn <gblock@microsoft.com>",
+    "Rodrigues, Andre <andrerod@microsoft.com>",
+    "Tavares, Chris <ctavares@microsoft.com>"
+  ],
+  "bugs": {
+    "url": "http://github.com/Azure/envconf/issues"
+  },
+  "readmeFilename": "README.md",
+  "version": "1.1.0",
+  "main": "lib/index.js",
+  "tags": [
+    "config",
+    "environment"
+  ],
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1",
+    "should": "~3",
+    "sinon": "*",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "npm -s run-script jshint && npm -s run-script unit",
+    "unit": "mocha -R spec",
+    "jshint": "jshint lib"
+  },
+  "dist": {
+    "shasum": "80f7d14f3a34e0fd8a9656dbbfa3a3d9bca54d7c",
+    "tarball": "https://registry.npmjs.org/envconf/-/envconf-1.1.0.tgz"
+  },
+  "directories": {}
+}

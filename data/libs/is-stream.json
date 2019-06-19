@@ -1,0 +1,78 @@
+{
+  "name": "is-stream",
+  "description": "Check if something is a Node.js stream",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-20T17:02:40.694Z",
+    "created": "2015-01-18T18:59:27.432Z",
+    "1.0.0": "2015-01-18T18:59:27.432Z",
+    "1.0.1": "2015-01-19T12:39:43.945Z",
+    "1.1.0": "2016-04-12T07:41:55.666Z",
+    "2.0.0": "2019-04-20T17:02:37.870Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is-stream#readme",
+  "keywords": [
+    "stream",
+    "type",
+    "streams",
+    "writable",
+    "readable",
+    "duplex",
+    "transform",
+    "check",
+    "detect",
+    "is"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is-stream.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-stream/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "waynedpj": true,
+    "monjer": true,
+    "rocket0191": true,
+    "nicknaso": true,
+    "zhenguo.zhao": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.6",
+    "ava": "^1.4.1",
+    "tempy": "^0.3.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "1a70a7f985a00bf25de8437e68c849bf0e434bfb",
+  "dist": {
+    "integrity": "sha512-XCoy+WlUr7d1+Z8GgSuXmpuUFC9fOhRXglJMx+dwLKTkL44Cjd4W1Z5P+BQZpr+cR93aGP4S/s7Ftw6Nd/kiEw==",
+    "shasum": "bde9c32680d6fae04129d6ac9d921ce7815f78e3",
+    "tarball": "https://registry.npmjs.org/is-stream/-/is-stream-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5691,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcu1CuCRA9TVsSAnZWagAApkwP/1LBH7WhFysLIo7y37ZT\nZWM6y/PcOCxrRAAM8qFNv9VQEGVEtjJLZBJNBuqGpGIsfctYn5cViUF1ZQNQ\nL5rEzvJBy8aNzKRNmQf/itbBGRkC75NMWCZISPPM3XxgvP2o6Bnw7P2Nu0if\n75j93Hqg4GcYFQjV9rCYagSdxJEPEIDI6d8PH2Tgdwj+581X0aNx90oEu6vU\nk33vTvMbhcsuc+19W/Asr5BpHJ2foNcTLTN1QvLCKkE1sZfCQ42EEvTmp600\n875RGh8GbId9D8kpK94pulnog1ARRpkLpvJ+ONFw/16p2hoKBLHOxUoSKZY8\nK8RPCkrdC6J2JgIyh1Yhysu0biN6jT9wgwnIcJraIUEkbNHXerCBgug+Fl3I\n4sQ+2IEIoLne+t0oqwJKoQPTgsJSVdPOVzyDps94vhxX3nB+82gOWP6qquQ9\nfTAWcmkB3cRDImlq8uCd2kAtLmXZcG+AyC1pCqA3PIPrdZG+2lWOX38Geqnw\nion1Ws4jI6d+/aJ+hs/DFEeXVvKpc+9cnFbqFKYtFRutmywquZ8mVOgSl6ez\nnV282upQ8cMpU4txk7R+PDgOz0uhIa2AA+hQ9L863HDsfOwr4CgHYGxZt/AL\nkYUoaAo6MxUdkL7rjePxho1ZDTJtK26k+5Eg+iyD3xDzVyhu2HCxZNPiRWoA\npfkb\r\n=yjey\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

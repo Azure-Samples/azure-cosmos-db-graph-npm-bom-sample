@@ -1,0 +1,86 @@
+{
+  "name": "mixme",
+  "dist-tags": {
+    "latest": "0.3.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2"
+  ],
+  "time": {
+    "created": "2018-03-25T21:47:17.150Z",
+    "0.0.1": "2018-03-25T21:47:17.225Z",
+    "modified": "2019-05-29T19:48:46.729Z",
+    "0.1.0": "2019-04-05T11:36:34.274Z",
+    "0.2.0": "2019-04-05T21:26:26.525Z",
+    "0.3.0": "2019-04-09T15:05:33.778Z",
+    "0.3.1": "2019-04-12T09:40:20.709Z",
+    "0.3.2": "2019-05-29T19:48:44.180Z"
+  },
+  "maintainers": [
+    "david <david@adaltas.com>"
+  ],
+  "description": "A library for recursive merging of Javascript objects",
+  "homepage": "https://github.com/adaltas/node-mixme",
+  "keywords": [
+    "merge",
+    "deep",
+    "extend",
+    "copy",
+    "clone",
+    "recursive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaltas/node-mixme.git"
+  },
+  "contributors": [
+    "David Worms <david@adaltas.com>"
+  ],
+  "author": "David Worms <david@adaltas.com>",
+  "bugs": {
+    "url": "https://github.com/adaltas/node-mixme/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.3.2",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "coffeescript": "^2.4.1",
+    "mocha": "^6.1.1",
+    "rollup": "^1.9.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "should": "^13.2.3"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "main": "dist/mixme.cjs.js",
+  "module": "dist/mixme.esm.js",
+  "scripts": {
+    "preversion": "grep '## Trunk' CHANGELOG.md && npm test",
+    "version": "version=`grep '^  \"version\": ' package.json | sed 's/.*\"\\([0-9\\.]*\\)\".*/\\1/'` && sed -i \"s/## Trunk/## Version $version/\" CHANGELOG.md && git add CHANGELOG.md",
+    "postversion": "git push origin master && git push origin master --tags && npm publish",
+    "patch": "npm version patch -m 'Bump to version %s'",
+    "minor": "npm version minor -m 'Bump to version %s'",
+    "major": "npm version major -m 'Bump to version %s'",
+    "build": "coffee -b -o lib src && rollup -c",
+    "pretest": "npm run build",
+    "test": "mocha test/**/*.coffee"
+  },
+  "gitHead": "777a6622d931d57e89336a72294a6e18dc12b3e8",
+  "dist": {
+    "integrity": "sha512-tilCZOvIhRETXJuTmxxpz8mgplF7gmFhcH05JuR/YL+JLO98gLRQ1Mk4XpYQxxbPMKupSOv+Bidw7EKv8wds1w==",
+    "shasum": "cbda53e3009da0b5035361954232019d776720da",
+    "tarball": "https://registry.npmjs.org/mixme/-/mixme-0.3.2.tgz",
+    "fileCount": 7,
+    "unpackedSize": 15099,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7uIcCRA9TVsSAnZWagAAC9AP/1HNCegtqzMgTaeuEND6\neFOvuBM3QheB/giJyP90FebK3NLlNYxysWDKzvEpVX1zIbOkOqcJySEqMYrD\nrsmXAimS3+tYC+jbv6lEGYJkDlSNqn8IoDw2oeQ4Xhlji3QsYSmB0ex4J0NB\nm4iq4bvL1fFLAGxR+vDpAkeQuyKFTjwiolRSKPLFrnBDLpv7GZK31fd8XM+B\nVZr8h151E45CVRAULDY0y9+Bi60BX0thlqA1uJE6stP7L1xN4EJ2v512oFhh\niWQwcTp0nH7rUbXYHXEBv6NwuQNuS4loVWzJpixJGr0zr8apP+UZMj1eNit7\nhYqfXtOPKFLIfKYzKxo89fZoh1d9QtaCMCEpdUkcCvDaIv6bG1aGvTGNySOw\nDDuupB6ExTx1Bfi7ewC78Rcfmr6RZ2ivEno6BX5vhg0JQxpRrctDF4fziIA7\nH/qz73vxq6gVMUyuceIBlQQPQLhrS2P/HyIr47MxNeyGnGFekIvGcyTWUA0Y\nMV/4kO0CWNnZoftMnjd4uc28PAPJVFV0tvwsU/IqMXWPQqVYBoYxt2H6QcPA\nlgCm1RaAFf0MLe46yX+aXEiBybl1KkJGsZ63hGiXk4Hao/UwZ0TE67xjWhdJ\nH01qgA1nqRLbFzoN+RK8eyh1y8XkvyMkOPJMUpKZ0K+0kZFGp7YZjg5s6piu\n0EQP\r\n=ZhM9\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,84 @@
+{
+  "name": "array-each",
+  "description": "Loop over each item in an array and call the given function on every element.",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2017-08-30T13:54:33.509Z",
+    "created": "2015-04-19T10:57:15.865Z",
+    "0.1.0": "2015-04-19T10:57:15.865Z",
+    "0.1.1": "2015-04-28T19:09:08.671Z",
+    "1.0.0": "2017-02-25T22:21:24.186Z",
+    "1.0.1": "2017-02-27T00:40:50.246Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/array-each",
+  "keywords": [
+    "array",
+    "each"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/array-each.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/array-each/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mkwr": true,
+    "rocket0191": true
+  },
+  "version": "1.0.1",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "collection-map",
+        "arr-filter",
+        "arr-map"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "a752d70897f25abfd38bfb51bb1b3a06ffcd2aed",
+  "dist": {
+    "shasum": "a794af0c05ab1752846ee753a1f211a05ba0c44f",
+    "tarball": "https://registry.npmjs.org/array-each/-/array-each-1.0.1.tgz"
+  },
+  "directories": {}
+}

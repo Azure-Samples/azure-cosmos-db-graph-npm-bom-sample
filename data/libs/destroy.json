@@ -1,0 +1,70 @@
+{
+  "name": "destroy",
+  "time": {
+    "modified": "2017-05-22T14:30:27.084Z",
+    "created": "2013-10-03T17:12:42.209Z",
+    "0.0.0": "2013-10-03T17:12:45.167Z",
+    "1.0.3": "2014-08-15T06:30:06.962Z",
+    "1.0.4": "2016-01-16T03:14:05.899Z"
+  },
+  "maintainers": [
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "description": "destroy a stream if possible",
+  "versions": [
+    "1.0.3",
+    "1.0.4"
+  ],
+  "homepage": "https://github.com/stream-utils/destroy",
+  "keywords": [
+    "stream",
+    "streams",
+    "destroy",
+    "cleanup",
+    "leak",
+    "fd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stream-utils/destroy"
+  },
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+  ],
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "bugs": {
+    "url": "https://github.com/stream-utils/destroy/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "goodseller": true,
+    "kankungyip": true,
+    "mojaray2k": true,
+    "chaoliu": true
+  },
+  "version": "1.0.4",
+  "devDependencies": {
+    "istanbul": "0.4.2",
+    "mocha": "2.3.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "gitHead": "86edea01456f5fa1027f6a47250c34c713cbcc3b",
+  "dist": {
+    "shasum": "978857442c44749e4206613e37946205826abd80",
+    "tarball": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz"
+  },
+  "directories": {}
+}

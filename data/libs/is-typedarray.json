@@ -1,0 +1,56 @@
+{
+  "name": "is-typedarray",
+  "description": "Detect whether or not an object is a Typed Array",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "hughsk <hughskennedy@gmail.com>"
+  ],
+  "time": {
+    "modified": "2016-12-25T00:47:00.818Z",
+    "created": "2014-06-01T19:10:47.674Z",
+    "0.0.0": "2014-06-01T19:10:47.674Z",
+    "1.0.0": "2015-05-17T01:03:39.627Z"
+  },
+  "homepage": "https://github.com/hughsk/is-typedarray",
+  "keywords": [
+    "typed",
+    "array",
+    "detect",
+    "is",
+    "util"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/is-typedarray.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "bugs": {
+    "url": "https://github.com/hughsk/is-typedarray/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "anoubis": true
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^2.13.1"
+  },
+  "gitHead": "0617cfa871686cf541af62b144f130488f44f6fe",
+  "dist": {
+    "shasum": "e479c80858df0c1b11ddda6940f96011fcda4a9a",
+    "tarball": "https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz"
+  },
+  "directories": {}
+}

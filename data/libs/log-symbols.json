@@ -1,0 +1,121 @@
+{
+  "name": "log-symbols",
+  "description": "Colored symbols for various log levels. Example: `✔︎ Success`",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-17T15:46:59.639Z",
+    "created": "2014-07-10T00:55:11.397Z",
+    "1.0.0": "2014-07-10T00:55:11.397Z",
+    "1.0.1": "2014-09-24T09:33:36.184Z",
+    "1.0.2": "2015-02-24T08:57:54.293Z",
+    "2.0.0": "2017-07-19T17:09:14.271Z",
+    "2.1.0": "2017-09-23T09:20:37.914Z",
+    "2.2.0": "2018-01-21T23:44:35.752Z",
+    "3.0.0": "2019-04-17T15:46:56.791Z"
+  },
+  "homepage": "https://github.com/sindresorhus/log-symbols#readme",
+  "keywords": [
+    "unicode",
+    "cli",
+    "cmd",
+    "command-line",
+    "characters",
+    "symbol",
+    "symbols",
+    "figure",
+    "figures",
+    "fallback",
+    "windows",
+    "log",
+    "logging",
+    "terminal",
+    "stdout"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/log-symbols.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/log-symbols/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "imagdy": true,
+    "kikobeats": true,
+    "rmlewisuk": true,
+    "pedroparra": true,
+    "brandonpapworth": true,
+    "phoenix-xsy": true,
+    "battlemidget": true,
+    "igz": true,
+    "gochomugo": true,
+    "jtbrinkmann": true,
+    "ahme-t": true,
+    "gor0n": true,
+    "passcod": true,
+    "ahmed-dinar": true,
+    "blacksun1": true,
+    "esenor": true,
+    "dosevader": true,
+    "ealen": true,
+    "wickie": true,
+    "coolhanddev": true,
+    "rocket0191": true,
+    "ognjen.jevremovic": true,
+    "sprying": true,
+    "alfeo92": true,
+    "danielheene": true,
+    "zhenguo.zhao": true,
+    "bigwinds": true,
+    "heartnett": true,
+    "ttionya": true,
+    "soenkekluth": true,
+    "preethamvishy": true,
+    "artin__": true,
+    "asfrom30": true,
+    "daizch": true
+  },
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "strip-ansi": "^5.2.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "browser": "browser.js",
+  "gitHead": "1f4ac6ef31cb4c7c4c4c67b7d6f9db712d4c0186",
+  "dist": {
+    "integrity": "sha512-dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==",
+    "shasum": "f3a08516a5dea893336a7dee14d18a1cfdab77c4",
+    "tarball": "https://registry.npmjs.org/log-symbols/-/log-symbols-3.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 4107,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJct0pxCRA9TVsSAnZWagAAX/wQAI8fsLd3r9Yn6/mSwYFW\n7xAyAf+B/MuBFvv8OwRyi8ofDET0VdFtd1XktCVRnwv3O1FJERCAe2cJyewt\nOerlUnwz6ggK7rXfFeyA8bbpQB4PANYwuV2YYpusd9AIhH0FAiN4lXrOj2pq\n5mTAKSYVuIuJMpQtUj+FwtOnPY3YzWvMq/wP5ad2zVvdAmNFfSTljXdXRR7H\nSbloC7xDVz7qukQnMvyopRSaAHYe9DmQW8McIzEbKSFkclxtHpEtRqfGYTIP\n2KBu7aGippT/I9c51FGErRp8V3nVABz+3wVCpwNkSmM5X7UjvtlMGdVFs1VD\nIhAIKf6yzcinFGUPOSfllZNqnVEImSx7/EUeY8DZsBMZKTuEdtyVZUbOhOHE\nuwwYcnSXKOGrwkfR+wv4J7rewg0e3M8JdVTtWVs+H21SVTdJXNw2DPmY4i4i\nwUAPAPyHa05Z4GdY+6PQYIfLlVZ9GyeBuwG1oFknrz3ZYR0t7b1V7xjwJSmq\nse443HTZn+8O2xFcWnheNww9wFdkecZxRNWcaVHpfhWOXDLl/lXUzdswU0LZ\nRC+zlJNm25wo3bBC3NSq7TaHcMQ5PGTJBEPW3RhLUkaxeeeonCp/e5EZiFEg\n1zvJqtVwmFtmjyqEujW9QTzEghfoTFXy4x9V/1Dn7u3NxBlQLdoofvyCpHw9\n9EU0\r\n=Bfli\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

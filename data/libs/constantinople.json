@@ -1,0 +1,87 @@
+{
+  "name": "constantinople",
+  "description": "Determine whether a JavaScript expression evaluates to a constant (using acorn)",
+  "dist-tags": {
+    "latest": "3.1.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.0.1",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-09T23:46:55.646Z",
+    "created": "2013-06-26T03:43:25.055Z",
+    "1.0.0": "2013-06-26T03:43:27.269Z",
+    "1.0.1": "2013-06-26T03:55:01.692Z",
+    "1.0.2": "2013-08-25T01:44:29.030Z",
+    "2.0.0": "2014-02-21T15:13:32.766Z",
+    "2.0.1": "2014-07-09T10:21:25.848Z",
+    "3.0.0": "2014-09-22T15:28:14.371Z",
+    "3.0.1": "2014-09-22T16:42:45.974Z",
+    "3.0.2": "2015-07-21T17:13:27.422Z",
+    "3.1.0": "2016-06-09T14:36:31.573Z",
+    "3.1.1": "2018-02-09T23:40:07.327Z",
+    "3.1.2": "2018-02-09T23:46:54.306Z"
+  },
+  "author": "ForbesLindesay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForbesLindesay/constantinople.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/ForbesLindesay/constantinople#readme",
+  "keywords": [
+    "acorn",
+    "ast",
+    "tooling"
+  ],
+  "bugs": {
+    "url": "https://github.com/ForbesLindesay/constantinople/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "nyakto": true
+  },
+  "version": "3.1.2",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@types/babel-types": "^7.0.0",
+    "@types/babylon": "^6.16.2",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.4",
+    "mocha": "*",
+    "typescript": "^2.7.1"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "mocha -R spec"
+  },
+  "gitHead": "8c1e731bd862da48df1158980e3171f689f5b9af",
+  "dist": {
+    "integrity": "sha512-yePcBqEFhLOqSBtwYOGGS1exHo/s1xjekXiinh4itpNQGCu4KA1euPh1fg07N2wMITZXQkBz75Ntdt1ctGZouw==",
+    "shasum": "d45ed724f57d3d10500017a7d3a889c1381ae647",
+    "tarball": "https://registry.npmjs.org/constantinople/-/constantinople-3.1.2.tgz",
+    "fileCount": 14,
+    "unpackedSize": 34110
+  },
+  "directories": {}
+}

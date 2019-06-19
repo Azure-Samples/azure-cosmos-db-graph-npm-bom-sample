@@ -1,0 +1,119 @@
+{
+  "name": "for-in",
+  "description": "Iterate over the own and inherited enumerable properties of an object, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`. JavaScript/Node.js",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>",
+    "doowb <brian.woodward@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-10-21T06:41:48.069Z",
+    "created": "2014-09-20T23:24:21.373Z",
+    "0.1.0": "2014-09-20T23:24:21.373Z",
+    "0.1.1": "2014-09-20T23:26:01.423Z",
+    "0.1.2": "2014-09-20T23:30:31.957Z",
+    "0.1.3": "2014-10-06T02:36:49.650Z",
+    "0.1.4": "2015-03-24T06:25:12.152Z",
+    "0.1.5": "2016-03-27T14:58:16.722Z",
+    "0.1.6": "2016-09-14T13:07:03.225Z",
+    "0.1.7": "2017-02-27T01:26:39.739Z",
+    "1.0.0": "2017-02-27T01:27:14.051Z",
+    "1.0.1": "2017-02-27T01:29:59.650Z",
+    "0.1.8": "2017-02-27T02:50:17.988Z",
+    "1.0.2": "2017-02-28T16:12:56.286Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/for-in",
+  "keywords": [
+    "for",
+    "for-in",
+    "for-own",
+    "has",
+    "has-own",
+    "hasOwn",
+    "in",
+    "key",
+    "keys",
+    "object",
+    "own",
+    "value"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/for-in.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/for-in/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Paul Irish (http://paulirish.com)"
+  ],
+  "users": {
+    "shuoshubao": true,
+    "rocket0191": true
+  },
+  "version": "1.0.2",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "arr-flatten",
+        "collection-map",
+        "for-own"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "5f97ad4f6556e938d9b71614259ddd8044a081e3",
+  "dist": {
+    "shasum": "81068d295a8142ec0ac726c6e2200c30fb6d5e80",
+    "tarball": "https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz"
+  },
+  "directories": {}
+}

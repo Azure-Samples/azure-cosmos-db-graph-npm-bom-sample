@@ -1,0 +1,84 @@
+{
+  "name": "os-homedir",
+  "description": "Node.js 4 `os.homedir()` ponyfill",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-05T01:41:52.823Z",
+    "created": "2015-05-11T12:15:42.136Z",
+    "0.1.0": "2015-05-11T12:15:42.136Z",
+    "1.0.0": "2015-06-13T12:25:40.507Z",
+    "1.0.1": "2015-07-20T23:26:36.048Z",
+    "1.0.2": "2016-09-30T04:58:41.739Z",
+    "2.0.0": "2018-11-08T11:18:38.141Z"
+  },
+  "homepage": "https://github.com/sindresorhus/os-homedir#readme",
+  "keywords": [
+    "builtin",
+    "core",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "os",
+    "homedir",
+    "home",
+    "dir",
+    "directory",
+    "folder",
+    "user",
+    "path"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/os-homedir.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/os-homedir/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "demoive": true,
+    "gochomugo": true,
+    "akiva": true,
+    "kvz": true,
+    "rbecheras": true,
+    "kerwyn": true,
+    "malloryerik": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "path-exists": "^2.0.0",
+    "xo": "^0.16.0"
+  },
+  "gitHead": "e7277f6db9df0b8a5b30aad9fb16429dd3c057b1",
+  "dist": {
+    "integrity": "sha512-saRNz0DSC5C/I++gFIaJTXoFJMRwiP5zHar5vV3xQ2TkgEw6hDCcU5F272JjUylpiVgBrZNQHnfjkLabTfb92Q==",
+    "shasum": "a0c76bb001a8392a503cbd46e7e650b3423a923c",
+    "tarball": "https://registry.npmjs.org/os-homedir/-/os-homedir-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3240,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb5BuOCRA9TVsSAnZWagAAEB4P/16c8lUgo2W6xp1qLygI\nHAkwzie45zF8JGEfejH2mXv3AmRVwRhqYnN7MVEYdWmz66xv0G/3BsF0DXrk\nSsDL03hea6wFw3UBwvyeJG33LL8H+s6lDJogyEHbCz5ALwYcTvT/kz3gN2AB\n2mnwQ85WaCIP7wkAH6uZ9ykR8/hjMF0Enl5See8XhSLkBy6Z9go2szuvEZ2R\ngO3hqLzzJDrsqk90wP1nky7GvQKB2aTSOqAtA3+N19p/nJTBJuhmgUq4kz6F\n8qyhigpSF8q0N6/7YWYfUqW0Pce/X3Wy7gx8LWW6ZN9er2afZHMHmvgG8pgd\nz4v6Gi+57Nq9fvH9IpOSlD1biJRA1Ud2FqY4QM43iONFcbHRGgJA/F01w/eQ\nlXmWFvJjbKQSKSUrKhU4gD1qDBVDzlN9W/+UZ0fDjey8Bm51FGyq9f847Hy3\nXni9/tK70Z2xLEqwaoiCWUCHr5kJjUDSQHm8x2l0EaC+Zj0yDdqsgQrlgAYW\nflg5VfpuqJeFrpAMnF2a19MJ2tJ8yGhZ3AP22tsc2EswHZRKBYcVyzAPq6zD\nR8lLWkjRpSnmKIvcbQt9AMsVWKKwUetpIuTvsRZVD2Fkph1/61Cax90MWYv+\ncIKL/N53wN326LbMHrZ2cFf44jC2ZpZ01ysS2/eO0Zp3PZljCV6o8xpVvFkz\nMzDl\r\n=Kx5M\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "deprecated": "This is not needed anymore. Use `require('os').homedir()` instead."
+}

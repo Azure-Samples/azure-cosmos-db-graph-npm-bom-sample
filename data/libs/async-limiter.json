@@ -1,0 +1,67 @@
+{
+  "name": "async-limiter",
+  "description": "asynchronous function queue with adjustable concurrency",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "1.0.0"
+  ],
+  "maintainers": [
+    "strml <samuel.trace.reed@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-11-30T19:55:08.083Z",
+    "created": "2017-09-11T16:57:49.546Z",
+    "1.0.0": "2017-09-11T16:57:49.546Z"
+  },
+  "homepage": "https://github.com/strml/async-limiter#readme",
+  "keywords": [
+    "throttle",
+    "async",
+    "limiter",
+    "asynchronous",
+    "job",
+    "task",
+    "concurrency",
+    "concurrent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strml/async-limiter.git"
+  },
+  "author": "Samuel Reed",
+  "bugs": {
+    "url": "https://github.com/strml/async-limiter/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "tzq1011": true
+  },
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "eslint": "^4.6.1",
+    "eslint-plugin-mocha": "^4.11.0",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^3.5.2",
+    "power-assert": "^1.4.4"
+  },
+  "scripts": {
+    "test": "mocha --R intelli-espower-loader test/",
+    "travis": "npm run lint && npm run coverage",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls",
+    "example": "node example",
+    "lint": "eslint ."
+  },
+  "gitHead": "02c8b498279dc7cc1ecc1c4f6fc9ca320c0ce39b",
+  "dist": {
+    "integrity": "sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==",
+    "shasum": "78faed8c3d074ab81f22b4e985d79e8738f720f8",
+    "tarball": "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.0.tgz"
+  },
+  "directories": {}
+}

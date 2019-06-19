@@ -1,0 +1,97 @@
+{
+  "name": "tslib",
+  "time": {
+    "modified": "2018-06-22T07:45:08.905Z",
+    "created": "2014-12-30T09:21:20.138Z",
+    "0.0.1": "2014-12-30T09:21:22.769Z",
+    "0.0.2": "2014-12-30T11:02:46.195Z",
+    "0.0.1-security": "2016-06-16T22:56:19.306Z",
+    "1.0.0": "2016-06-28T00:46:05.835Z",
+    "1.1.0": "2016-11-21T19:18:50.947Z",
+    "1.2.0": "2016-11-30T01:20:12.477Z",
+    "1.3.0": "2016-12-21T17:39:27.117Z",
+    "1.4.0": "2016-12-22T04:46:12.098Z",
+    "1.5.0": "2017-01-05T18:07:30.457Z",
+    "1.6.0": "2017-02-22T00:24:40.508Z",
+    "1.6.1": "2017-04-19T22:24:12.069Z",
+    "1.7.0": "2017-05-04T21:53:04.607Z",
+    "1.7.1": "2017-05-15T22:41:50.599Z",
+    "1.8.0": "2017-10-11T04:34:53.500Z",
+    "1.8.1": "2017-12-06T23:26:57.437Z",
+    "1.9.0": "2018-01-18T21:44:23.777Z",
+    "1.9.1": "2018-05-14T18:16:04.424Z",
+    "1.9.2": "2018-05-29T23:51:13.946Z",
+    "1.9.3": "2018-06-22T07:45:03.346Z"
+  },
+  "maintainers": [
+    "typescript <typescript@microsoft.com>"
+  ],
+  "dist-tags": {
+    "latest": "1.9.3"
+  },
+  "description": "Runtime library for TypeScript helper functions",
+  "versions": [
+    "0.0.1-security",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.5.0",
+    "1.6.0",
+    "1.6.1",
+    "1.7.0",
+    "1.7.1",
+    "1.8.0",
+    "1.8.1",
+    "1.9.0",
+    "1.9.1",
+    "1.9.2",
+    "1.9.3"
+  ],
+  "homepage": "http://typescriptlang.org/",
+  "keywords": [
+    "TypeScript",
+    "Microsoft",
+    "compiler",
+    "language",
+    "javascript",
+    "tslib",
+    "runtime"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/tslib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/TypeScript/issues"
+  },
+  "readmeFilename": "README.md",
+  "author": "Microsoft Corp.",
+  "users": {
+    "sergeyshandar": true,
+    "andr": true,
+    "monolithed": true,
+    "mataco817": true,
+    "noemandn": true,
+    "zhangaz1": true,
+    "mgthomas99": true,
+    "vinbhatt": true
+  },
+  "license": "Apache-2.0",
+  "version": "1.9.3",
+  "main": "tslib.js",
+  "module": "tslib.es6.js",
+  "jsnext:main": "tslib.es6.js",
+  "typings": "tslib.d.ts",
+  "gitHead": "9dd9aa322c893e5e0b3f1609b1126314ccf37bbb",
+  "dist": {
+    "integrity": "sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==",
+    "shasum": "d7e4dd79245d85428c4d7e4822a79917954ca286",
+    "tarball": "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz",
+    "fileCount": 12,
+    "unpackedSize": 58392,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLKj/CRA9TVsSAnZWagAAMbAP/0g8SAYSi20BDDGjSuw4\noNwKH5PeM4GkxOyEvI+dvrhx7I9TuH+dbBmXf/776MflvSeiZ+nzh/q7EP8o\noFTAvh/jg5o8tKbpMSZaQwMG1Zni18qt8dpb9hY39kN+/3UEPbguMEqcIJsD\nNlg8vc/QnlcvV8L1XxTr7d8x/2+lXhEJygG6+JIhDJvl58SzoCuJKvyDFRAU\nMhQ2avaorYsyh9yR5C/9shY/I/TJk0yhTDmfdLj+M/6Fc4u6XO0uSv5CJaG4\nOoB3xgg/dVJR9eNPyCDjyIaLvTH+VPjZOwwpcy1MmIJpztCa4XcZ1TBtha4a\nsOGRrik8OmawEorbOmFAeXxyhUTtTWqBq2EuaiCzBZl6niRZLY/6jWKExXPM\ngmBvKwqm2M7Vnas37Ab9Ob/Acwaq39oKs4gubutex1xJw7H2uAPNe1XlWIVV\njw61DmK278xzQXNQvCHS7HQp/sG0ma8tFz3XT8S4QM9jLdsLHjjwYUvCnv9p\nlnbdOL/fARL4ZkzzBW8RHo44o8kdDhHO/t7VqOn9hSb/s95tqJIwhWGw/XMk\nudBtWcGEAfg7mt1EDsSkwCNNhPESC54O/reBW04FrXRnWaBa8xm/XLxQmIC/\ns8yJhstov1IiIHXGx/TwSKPCHHlfPGYQrlnjgiYrIJqV6Jxti267xw+kRluD\neT4g\r\n=O9KF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

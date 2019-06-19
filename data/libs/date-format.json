@@ -1,0 +1,88 @@
+{
+  "name": "date-format",
+  "description": "Formatting Date objects as strings since 2013",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "csausdev <gareth.jones@sensis.com.au>"
+  ],
+  "time": {
+    "modified": "2019-01-02T19:13:59.118Z",
+    "created": "2013-08-29T10:45:02.490Z",
+    "0.0.0": "2013-08-29T10:45:24.426Z",
+    "0.0.1": "2014-02-24T21:46:59.381Z",
+    "0.0.2": "2014-02-24T21:49:54.550Z",
+    "1.0.0": "2016-12-30T04:38:14.526Z",
+    "1.1.0": "2017-02-27T21:50:43.233Z",
+    "1.2.0": "2017-11-13T21:09:56.348Z",
+    "2.0.0": "2018-11-06T22:36:24.280Z"
+  },
+  "author": "Gareth Jones <gareth.nomiddlename@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomiddlename/date-format.git"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "date",
+    "format",
+    "string"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nomiddlename/date-format#readme",
+  "bugs": {
+    "url": "https://github.com/nomiddlename/date-format/issues"
+  },
+  "users": {
+    "salvatorelab": true,
+    "warapitiya": true,
+    "ozshimon21": true,
+    "m-shibata": true,
+    "redmonkeydf": true,
+    "stone_breaker": true,
+    "guim0ve": true,
+    "x0000ff": true,
+    "tiagobraga": true,
+    "jacoborus": true,
+    "icerainnuaa": true,
+    "fetaoily": true,
+    "michalskuza": true,
+    "rubiadias": true
+  },
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "scripts": {
+    "lint": "eslint lib/* test/*",
+    "pretest": "eslint lib/* test/*",
+    "test": "mocha"
+  },
+  "gitHead": "bf59015ab6c9e86454b179374f29debbdb403522",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "dist": {
+    "integrity": "sha512-M6UqVvZVgFYqZL1SfHsRGIQSz3ZL+qgbsV5Lp1Vj61LZVYuEwcMXYay7DRDtYs2HQQBK5hQtQ0fD9aEJ89V0LA==",
+    "shasum": "7cf7b172f1ec564f0003b39ea302c5498fb98c8f",
+    "tarball": "https://registry.npmjs.org/date-format/-/date-format-2.0.0.tgz",
+    "fileCount": 8,
+    "unpackedSize": 15722,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4hdoCRA9TVsSAnZWagAA43EP/RpjlvAFkomBvvaSJa7m\n9hzo7iQX76YAUQBUo+ThEb50DcyEWG1i/FYpOOJooR23oOG5+LV0UKHY3b7F\nwzCNK3FqCUfQuHfIXOJULN7J35Yr/xnQigXRI9EbqhBr9xXiift1zMNGF6qk\n4zB260a8Tj3fx0bG9owT3ULasYlA0yRSobTTd7kJgu7Er3chAHF1lrhGAnqJ\nXRmmJwgzVB5XnMMxjNyaSAqDSn2S8tMIF66unmB37VmEflP1jV+Om0+ZHgXV\nC9W/eevzyvERvHMKSDs/+1x9ZAqEJkSR6c7hCHFJ+kW+RJ6Cptr/py9suIuH\nfJ9zBJ1/oL9m3QTHkOWVi0cAgU9BX+C/a7jtecvmZOSL5VDrgiSxK8IhSPf1\n9vT5vuIi9TO+5mfWbx+T6PIPiod0ykWWMXGUhoflf5Pe62zLVyV+yP7C47EP\nyAk3X44MKuz2OS/6YsAHPajMUWbzBvRSsV0HtBoBztDxPcvamXL07mi4AXFS\nTAqWbpGdTUrEWVL9htqf+uFoR5Gr/sxVT2kPYJ2LLEiM9qem15pN0ck3xgbk\n5gEXogv4HO1Appax1ldPqpYwl491LlV7/thTXeFDAcsLPs3mC1F0vhKGTmlD\nLPFNGO6oWT2LDImXSvFlcqemUBwuaEw86YRgslDIA688sQGjk3zUqCC4+3Dn\nM6+H\r\n=jAnK\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

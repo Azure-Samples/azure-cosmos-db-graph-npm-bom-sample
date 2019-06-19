@@ -1,0 +1,116 @@
+{
+  "name": "require-directory",
+  "description": "Recursively iterates over specified directory, require()'ing each file, and returning a nested hash structure containing those modules.",
+  "dist-tags": {
+    "latest": "2.1.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1"
+  ],
+  "maintainers": [
+    "troygoode <troygoode@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-03T00:39:55.133Z",
+    "created": "2011-12-27T00:06:30.661Z",
+    "0.0.1": "2011-12-27T00:06:32.027Z",
+    "0.0.2": "2012-12-12T15:17:08.227Z",
+    "0.0.3": "2012-12-12T21:23:28.294Z",
+    "1.0.0": "2012-12-16T16:30:54.518Z",
+    "1.0.1": "2013-06-23T20:54:08.357Z",
+    "1.0.2": "2013-06-23T21:15:20.814Z",
+    "1.1.0": "2013-08-28T20:32:19.471Z",
+    "1.1.1": "2013-09-01T15:10:33.473Z",
+    "1.2.0": "2013-11-14T13:59:26.636Z",
+    "2.0.0": "2014-07-29T02:17:35.323Z",
+    "2.1.0": "2015-02-19T05:02:34.997Z",
+    "2.1.1": "2015-05-28T08:31:04.702Z"
+  },
+  "author": "Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/troygoode/node-require-directory.git"
+  },
+  "users": {
+    "troygoode": true,
+    "dgarlitt": true,
+    "filipedeschamps": true,
+    "symblst": true,
+    "metinweb": true,
+    "highflying": true,
+    "nukisman": true,
+    "chaseadamsio": true,
+    "skrdv": true,
+    "mgenev": true,
+    "koulmomo": true,
+    "wangnan0610": true,
+    "ufukomer": true,
+    "nelix": true,
+    "mode54": true,
+    "nmccready": true,
+    "icerainnuaa": true,
+    "sopepos": true,
+    "tmurngon": true,
+    "mojaray2k": true,
+    "paulnordlund": true,
+    "shanemileham": true,
+    "fengbeijing": true,
+    "suddi": true,
+    "mariusc23": true,
+    "bvaccc": true,
+    "eonio": true,
+    "tomgao365": true,
+    "xanderlewis": true,
+    "gamersdelight": true,
+    "shlomi": true,
+    "akamaozu": true,
+    "losymear": true,
+    "likkli": true,
+    "dwqs": true
+  },
+  "homepage": "https://github.com/troygoode/node-require-directory/",
+  "keywords": [
+    "require",
+    "directory",
+    "library",
+    "recursive"
+  ],
+  "contributors": [
+    "Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)"
+  ],
+  "bugs": {
+    "url": "http://github.com/troygoode/node-require-directory/issues/"
+  },
+  "readmeFilename": "README.markdown",
+  "license": "MIT",
+  "version": "2.1.1",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint index.js test/test.js"
+  },
+  "gitHead": "cc71c23dd0c16cefd26855303c16ca1b9b50a36d",
+  "dist": {
+    "shasum": "8c64ad5fd30dab1c976e2344ffe7f792a6a6df42",
+    "tarball": "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
+  },
+  "directories": {}
+}

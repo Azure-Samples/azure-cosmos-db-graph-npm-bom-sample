@@ -1,0 +1,172 @@
+{
+  "name": "xmldom",
+  "description": "A W3C Standard XML DOM(Level2 CORE) implementation and parser(DOMParser/XMLSerializer).",
+  "dist-tags": {
+    "latest": "0.1.27"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.1.9",
+    "0.1.10",
+    "0.1.11",
+    "0.1.12",
+    "0.1.13",
+    "0.1.14",
+    "0.1.15",
+    "0.1.16",
+    "0.1.17",
+    "0.1.18",
+    "0.1.19",
+    "0.1.20",
+    "0.1.21",
+    "0.1.22",
+    "0.1.24",
+    "0.1.25",
+    "0.1.26",
+    "0.1.27"
+  ],
+  "maintainers": [
+    "jindw <jindw@xidea.org>",
+    "yaron <yaronn01@gmail.com>",
+    "bigeasy <alan@prettyrobots.com>",
+    "kethinov <kethinov@gmail.com>",
+    "jinjinyun <jinyun.jin@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-06-28T07:02:09.274Z",
+    "created": "2012-01-06T09:49:36.833Z",
+    "0.1.0": "2012-01-06T09:49:42.641Z",
+    "0.1.1": "2012-01-10T07:18:18.313Z",
+    "0.1.2": "2012-02-03T10:49:02.984Z",
+    "0.1.3": "2012-05-22T16:39:09.565Z",
+    "0.1.4": "2012-05-22T16:41:40.120Z",
+    "0.1.5": "2012-05-25T17:43:18.008Z",
+    "0.1.6": "2012-05-28T12:49:32.759Z",
+    "0.1.7": "2012-05-29T03:05:55.479Z",
+    "0.1.8": "2012-05-29T13:30:02.006Z",
+    "0.1.9": "2012-06-08T06:18:02.555Z",
+    "0.1.10": "2012-06-14T02:54:35.731Z",
+    "0.1.11": "2012-06-18T10:45:58.508Z",
+    "0.1.12": "2012-09-03T15:02:46.106Z",
+    "0.1.13": "2012-10-02T11:35:53.362Z",
+    "0.1.14": "2013-03-31T15:31:24.481Z",
+    "0.1.15": "2013-04-03T02:41:28.358Z",
+    "0.1.16": "2013-05-04T15:00:51.322Z",
+    "0.1.17": "2013-12-16T03:07:43.259Z",
+    "0.1.18": "2014-01-17T06:59:32.788Z",
+    "0.1.19": "2014-01-28T15:15:52.723Z",
+    "0.1.20": "2016-01-10T08:23:49.148Z",
+    "0.1.21": "2016-01-13T11:41:16.160Z",
+    "0.1.22": "2016-01-30T11:50:11.848Z",
+    "0.1.24": "2016-11-27T14:00:51.058Z",
+    "0.1.25": "2016-11-28T03:35:10.826Z",
+    "0.1.26": "2016-11-28T03:47:29.103Z",
+    "0.1.27": "2016-11-28T03:56:48.136Z"
+  },
+  "author": "jindw <jindw@xidea.org> (http://www.xidea.org)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jindw/xmldom.git"
+  },
+  "users": {
+    "jindw": true,
+    "xidea": true,
+    "kastor": true,
+    "jneurock": true,
+    "t1st3": true,
+    "bevinb": true,
+    "erikvold": true,
+    "mattonfoot": true,
+    "snaidero": true,
+    "sceext": true,
+    "drewigg": true,
+    "onelaview": true,
+    "cparker15": true,
+    "e23jiang": true,
+    "pandao": true,
+    "wzbg": true,
+    "lyriarte": true,
+    "chinaqstar": true,
+    "antanst": true,
+    "pedroparra": true,
+    "jlucktay": true,
+    "t2ym": true,
+    "ahme-t": true,
+    "akarem": true,
+    "joanmi": true,
+    "froguard": true,
+    "chrisbottin": true,
+    "honingwon": true,
+    "davidrapin": true,
+    "seangenabe": true,
+    "drazisil": true,
+    "rojo2": true,
+    "wvbe": true,
+    "chainorchestra": true,
+    "nmccready": true,
+    "wolfram77": true,
+    "subchen": true,
+    "zuojiang": true,
+    "thomoute": true,
+    "berti": true,
+    "sopov": true,
+    "chaoliu": true,
+    "ostgals": true,
+    "johnshao": true,
+    "daizch": true,
+    "hugojosefson": true
+  },
+  "readmeFilename": "readme.md",
+  "homepage": "https://github.com/jindw/xmldom",
+  "keywords": [
+    "w3c",
+    "dom",
+    "xml",
+    "parser",
+    "javascript",
+    "DOMParser",
+    "XMLSerializer"
+  ],
+  "contributors": [
+    "Yaron Naveh <yaronn01@gmail.com> (http://webservices20.blogspot.com/)",
+    "Harutyun Amirjanyan <amirjanyan@gmail.com> (https://github.com/nightwing)",
+    "Alan Gutierrez <alan@prettyrobots.com> (http://www.prettyrobots.com/)"
+  ],
+  "bugs": {
+    "url": "http://github.com/jindw/xmldom/issues",
+    "email": "jindw@xidea.org"
+  },
+  "version": "0.1.27",
+  "main": "./dom-parser.js",
+  "scripts": {
+    "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+  },
+  "engines": {
+    "node": ">=0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "proof": "0.0.28"
+  },
+  "licenses": [
+    {
+      "type": "LGPL",
+      "url": "http://www.gnu.org/licenses/lgpl.html",
+      "MIT": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "gitHead": "b53aa82a36160d85faab394035dcd1784764537f",
+  "dist": {
+    "shasum": "d501f97b3bdb403af8ef9ecc20573187aadac0e9",
+    "tarball": "https://registry.npmjs.org/xmldom/-/xmldom-0.1.27.tgz"
+  },
+  "directories": {}
+}

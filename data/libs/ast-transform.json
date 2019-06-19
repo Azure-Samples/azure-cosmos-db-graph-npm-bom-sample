@@ -1,0 +1,50 @@
+{
+  "name": "ast-transform",
+  "description": "Convenience wrapper for performing AST transformations with browserify transform streams",
+  "dist-tags": {
+    "latest": "0.0.0"
+  },
+  "versions": [
+    "0.0.0"
+  ],
+  "maintainers": [
+    "hughsk <hughskennedy@gmail.com>"
+  ],
+  "time": {
+    "modified": "2014-02-27T04:57:40.964Z",
+    "created": "2014-02-27T04:57:40.964Z",
+    "0.0.0": "2014-02-27T04:57:40.964Z"
+  },
+  "homepage": "https://github.com/hughsk/ast-transform",
+  "keywords": [
+    "ast",
+    "transform",
+    "browserify",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/ast-transform"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "bugs": {
+    "url": "https://github.com/hughsk/ast-transform/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "joaocunha": true
+  },
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "through": "~2.3.4",
+    "esprima": "~1.0.4",
+    "escodegen": "~1.2.0"
+  },
+  "dist": {
+    "shasum": "74944058887d8283e189d954600947bc98fe0062",
+    "tarball": "https://registry.npmjs.org/ast-transform/-/ast-transform-0.0.0.tgz"
+  },
+  "directories": {}
+}

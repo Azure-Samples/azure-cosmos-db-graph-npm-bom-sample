@@ -1,0 +1,120 @@
+{
+  "name": "ansi-styles",
+  "description": "ANSI escape codes for styling strings in the terminal",
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "2.2.1",
+    "3.0.0",
+    "3.1.0",
+    "3.2.0",
+    "3.2.1",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "qix <i.am.qix@gmail.com>",
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-31T07:09:56.796Z",
+    "created": "2013-07-31T23:00:29.145Z",
+    "0.1.0": "2013-07-31T23:00:32.552Z",
+    "0.1.1": "2013-08-03T00:31:59.821Z",
+    "0.1.2": "2013-08-03T01:38:52.766Z",
+    "0.2.0": "2013-08-03T16:40:58.340Z",
+    "1.0.0": "2013-12-08T00:00:09.315Z",
+    "1.1.0": "2014-06-03T23:35:17.884Z",
+    "2.0.0": "2014-11-23T11:52:58.607Z",
+    "2.0.1": "2015-02-22T09:21:36.085Z",
+    "2.1.0": "2015-07-01T13:26:31.005Z",
+    "2.2.0": "2016-02-21T12:27:55.984Z",
+    "2.2.1": "2016-03-28T20:35:18.267Z",
+    "3.0.0": "2017-01-17T09:16:34.807Z",
+    "3.1.0": "2017-06-12T22:42:00.220Z",
+    "3.2.0": "2017-07-23T11:25:48.038Z",
+    "3.2.1": "2018-03-02T09:40:00.702Z",
+    "4.0.0": "2019-05-31T07:09:54.329Z"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalk/ansi-styles.git"
+  },
+  "users": {
+    "passy": true,
+    "tunnckocore": true,
+    "gliviu": true,
+    "operandom": true,
+    "scottfreecode": true,
+    "michalskuza": true,
+    "usex": true,
+    "houzhanfeng": true,
+    "danielheene": true,
+    "willwolffmyren": true,
+    "denmasgeo": true
+  },
+  "homepage": "https://github.com/chalk/ansi-styles#readme",
+  "keywords": [
+    "ansi",
+    "styles",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "cli",
+    "string",
+    "tty",
+    "escape",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
+  ],
+  "bugs": {
+    "url": "https://github.com/chalk/ansi-styles/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "4.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "screenshot": "svg-term --command='node screenshot' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor"
+  },
+  "dependencies": {
+    "color-convert": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "svg-term-cli": "^2.1.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "3df6a798ff5a86fed4e93d638a0d8525056e684d",
+  "dist": {
+    "integrity": "sha512-8zjUtFJ3db/QoPXuuEMloS2AUf79/yeyttJ7Abr3hteopJu9HK8vsgGviGUMq+zyA6cZZO6gAyZoMTF6TgaEjA==",
+    "shasum": "f6b84e8fc97ea7add7a53b7530ef28f3fde0e048",
+    "tarball": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 9741,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc8NNCCRA9TVsSAnZWagAAAiQP/2a4KgMz9t4UZBR03CNL\n635U+8tvDW8ihbpL5EGXWjsK4E9WWqjAkTTcP2J/eekN7qCR3MGek0Y1UFJp\nTD3M2wHb3UQrYwBTxSJ61mLR5QpvdXl3q6z1KZ1cZ364D0jWElWaYYiXhNjI\ntm8r5r6ygEbEqAv0FU6U+Dckw/k0++a6KavCa0NBqNXfqrjVNAndtjIJkARg\nwo8hmb2LiqGGqcgFRiqmESNro5+YLa/ictECH8e8RYWWFRe2UiyH8KQPQXnE\nip4ugr/ZbRxrYnbj962/Ctd1mALqeVW/mCSTP1nx70HIuBwfr9P/SjIdLbIG\nFb59gQRMlTgc4d7wmuUVyanhwuVLpZc/yTNfqbfQgDbJ9bZDoO5uKTVWzM+S\n8REx3CfRfAaJpaKjCJNrxhxZQcWdGzhMxhRhzeF3/lCvWkpv/+KyiSu/N32p\nU15+PuyJomZT8R6Kx/VJ/+dzUXCDiPsMgrTKz9+KpWOc6dRVExRKYnRgVCH2\n5Cmav2IVl4GOgM6nxeA4drZP4vR/jQdbjw4qtVbUuKXON1B1auRORDzLwub9\nZmVLXTtECJedZxWVHo0YMm8s5mnUzl+nGWPl/LMt1/MyRtxtCkh20TvV3jBo\n4s5FeioDeIKjw6nUCIraSCNQ0k73rxy/IsirJES4L3j8I8mcUrhuhn9BQmen\nXLdl\r\n=wntf\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

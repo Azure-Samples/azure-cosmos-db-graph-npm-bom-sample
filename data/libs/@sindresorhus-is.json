@@ -1,0 +1,157 @@
+{
+  "name": "@sindresorhus/is",
+  "description": "Type check values",
+  "dist-tags": {
+    "latest": "0.17.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.9.0",
+    "0.10.0",
+    "0.11.0",
+    "0.12.0",
+    "0.13.0",
+    "0.14.0",
+    "0.15.0",
+    "0.16.0",
+    "0.17.0",
+    "0.17.1"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-21T09:49:15.877Z",
+    "created": "2017-09-21T17:54:29.643Z",
+    "0.1.0": "2017-09-21T17:54:29.643Z",
+    "0.2.0": "2017-09-29T03:22:58.510Z",
+    "0.2.1": "2017-10-05T04:21:48.204Z",
+    "0.3.0": "2017-10-11T09:51:14.974Z",
+    "0.4.0": "2017-10-21T19:28:29.768Z",
+    "0.5.0": "2017-11-07T03:23:52.189Z",
+    "0.6.0": "2017-11-19T20:18:18.050Z",
+    "0.7.0": "2017-12-11T20:40:22.859Z",
+    "0.8.0": "2018-04-03T17:10:13.482Z",
+    "0.9.0": "2018-05-04T05:31:15.672Z",
+    "0.10.0": "2018-07-05T16:33:40.901Z",
+    "0.11.0": "2018-07-10T09:56:50.311Z",
+    "0.12.0": "2018-09-28T06:36:14.674Z",
+    "0.13.0": "2018-11-02T12:10:40.889Z",
+    "0.14.0": "2018-12-13T16:00:08.390Z",
+    "0.15.0": "2019-02-03T19:55:51.371Z",
+    "0.16.0": "2019-05-04T09:15:03.794Z",
+    "0.17.0": "2019-05-13T04:08:48.018Z",
+    "0.17.1": "2019-05-21T09:49:11.963Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is#readme",
+  "keywords": [
+    "type",
+    "types",
+    "is",
+    "check",
+    "checking",
+    "validate",
+    "validation",
+    "utility",
+    "util",
+    "typeof",
+    "instanceof",
+    "object",
+    "assert",
+    "assertion",
+    "test",
+    "kind",
+    "primitive",
+    "verify",
+    "compare",
+    "typescript",
+    "typeguards",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "joelwallis": true,
+    "styfle": true,
+    "pl0x": true
+  },
+  "version": "0.17.1",
+  "main": "dist",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "del dist && tsc",
+    "test": "xo && ava",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^0.3.0",
+    "@types/jsdom": "^12.2.3",
+    "@types/node": "^12.0.0",
+    "@types/zen-observable": "^0.8.0",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "ava": "^1.4.1",
+    "del-cli": "^1.1.0",
+    "eslint-config-xo-typescript": "^0.10.1",
+    "jsdom": "^15.0.0",
+    "rxjs": "^6.4.0",
+    "tempy": "^0.3.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1",
+    "xo": "^0.24.0",
+    "zen-observable": "^0.8.8"
+  },
+  "types": "dist",
+  "sideEffects": false,
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "xo": {
+    "extends": "xo-typescript",
+    "extensions": [
+      "ts"
+    ],
+    "globals": [
+      "BigInt",
+      "BigInt64Array",
+      "BigUint64Array"
+    ],
+    "rules": {
+      "@typescript-eslint/explicit-function-return-type": "off"
+    }
+  },
+  "gitHead": "878d111ae734660d4c0238ef7ec6b779e1b52083",
+  "dist": {
+    "integrity": "sha512-kg/maAZD2Z2AHDFp7cY/ACokjUL0e7MaupTtGXkSW2SV4DJQEHdslFUioP0SMccotjwqTdI0b4XH/qZh6CN+kQ==",
+    "shasum": "453b27750f358689c4aa3c9f32d9ace1f0929a79",
+    "tarball": "https://registry.npmjs.org/@sindresorhus/is/-/is-0.17.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 42780,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc48mYCRA9TVsSAnZWagAABuQQAJp+fC8CJ8EaSQBI6WED\nKTyL3MYjprJG9CKpQmcRR4GTtL5yR/dp5/DKFj7dOjQCLY+8rhuL5FVKvcMi\nWw3Yk79QAKov51Hbzxmamb2Ldg6z7y0/axaeOhrnjc8o3UvOUmpP13ayeA7t\nUQV1Z3tej4AEExor55i8psO8pHsKXU2EZY3sVIM9Rjik6J1DywZWvVv7flvy\nbNExRgxgWwlxrkUr+iB7YgNg7QAHnXqKUwJOzVwLzXYkSL7MAN+Lsi0+/d4m\naNWknFt5lKf/XfQTtntEc4gNMV+O5RfPg2cbQK0nLjjtgU+ViJv9P6OolG13\nw2cz3Jr/M7vpZt9NC1HJ+tjcmntSXrR3r/iwoYlT5jjcTt6NJLqJIpxSalL2\npBFWyjZo70kdSSqU2UuCbGCnQI6EzFOnt8ylMmZOkuGuULVNL1YLi+ZkmSW+\nFH3x1m535aMAmLLYvgbjEmDPLh6iLnqvOaJErJEgAL0CYnO5PPNpJgs2PF3O\n85l4lmIl95gIVbBGie/P3Rw/xVMNvBIVUTK1FzohOiWbdiy9KXVgfymyuYcC\n8ygX5RMs3uiXQlyDYOJe5UffpEkzT6kVpYY63BB/X0YzmlWA2hDBxPpBMFKt\nWVleL3kM8t1jflGBUvcnwnruiu9LiT2mh3FJBTueRpNimIftoJ0yVwg8EMMM\nnreJ\r\n=GpQW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

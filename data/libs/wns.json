@@ -1,0 +1,74 @@
+{
+  "name": "wns",
+  "description": "Send push notifications to Windows 8 devices using WNS",
+  "dist-tags": {
+    "latest": "0.5.4"
+  },
+  "versions": [
+    "0.5.2",
+    "0.5.3",
+    "0.5.4"
+  ],
+  "maintainers": [
+    "tjanczuk <tomasz@janczuk.org>"
+  ],
+  "time": {
+    "modified": "2018-06-17T18:10:22.909Z",
+    "created": "2012-06-19T06:19:57.981Z",
+    "0.1.0-pre": "2012-06-19T06:19:58.677Z",
+    "0.1.0": "2012-06-20T00:30:01.339Z",
+    "0.2.0": "2012-06-21T22:17:22.711Z",
+    "0.3.0": "2012-06-22T18:51:35.377Z",
+    "0.4.0": "2012-07-02T21:16:56.884Z",
+    "0.5.1": "2012-07-31T17:28:59.781Z",
+    "0.5.2": "2012-10-03T00:27:44.141Z",
+    "0.5.3": "2013-02-20T08:00:38.966Z",
+    "0.5.4": "2018-06-17T18:10:19.154Z"
+  },
+  "author": "Tomasz Janczuk <tomasz@janczuk.org> (http://tomasz.janczuk.org)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tjanczuk/wns.git"
+  },
+  "users": {
+    "fgribreau": true
+  },
+  "homepage": "https://github.com/tjanczuk/wns",
+  "bugs": {
+    "url": "http://github.com/tjanczuk/wns/issues"
+  },
+  "readmeFilename": "README.md",
+  "version": "0.5.4",
+  "tags": [
+    "azure",
+    "sdk",
+    "windows 8",
+    "notifications",
+    "wns"
+  ],
+  "main": "./lib/wns.js",
+  "engines": {
+    "node": ">= 0.6.17"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.2.0",
+    "nock": "0.13.3"
+  },
+  "gitHead": "4fcbced22da8eb15dd2f5e2b5eaf05c8b80263b6",
+  "dist": {
+    "integrity": "sha512-WYiJ7khIwUGBD5KAm+YYmwJDDRzFRs4YGAjtbFSoRIdbn9Jcix3p9khJmpvBTXGommaKkvduAn+pc9l4d9yzVQ==",
+    "shasum": "ad8e2ee60e675557da9610d94444a7f59eceaf78",
+    "tarball": "https://registry.npmjs.org/wns/-/wns-0.5.4.tgz",
+    "fileCount": 75,
+    "unpackedSize": 262612,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbJqQMCRA9TVsSAnZWagAAH7AQAKDz1DThMYjCc2zWohai\nBCH6FbCKgfIATohHsD+xCd+RCFTgHvHeHK8HKfMAIEtQ8tkqFWLYAwgjpCd8\nDmukg9QtAszlQLHJqedlybqr/S5n5BswSGXhOwtKN036xoy8u+LXkUInv70H\naXS3sKK9jqBQhoX152dUMFbGy81l3/aMXUnBR1zvtKzFd7UfdPPmg4zULzqk\nBb8U2EL5/86oNUJ/b1NEHYw9ecm0YGyW/R7oioQ78coASqjeCBrXKtff3445\nLEP0hA38XpMzl5ddKGAjilprnpmH/R9qZ1j+hZfR1pCAp2XYruUn8OzwrNtQ\nztoq4OrcpDvoGmPs39O+nKM00u1GMcY69+IO4nCz8Xk6NA2n6irEg4bcQfAb\n1gsvhR3SqqH7U1RC0Di6UMNBUsUVKC4HA0OMrBaxOBMVAg29La64hb3pWuo4\n1jlncoO+XTiVLQo8bUhlYMubdIYkCAq9MNiT+9OXrfOam44lzWMGq8QWcPrt\n63L6P68sTU9KLZTXrnecnAG4ToQmR4gwC7//6QN0FvvAneaTy+u36cdWltYQ\nQ4+7O9cU0rcnaGr9l9Hkh1XV43QmVYTrtMvDrs8/UocUCz4e7QLVbpJfYguG\n/xn1PmpQI8+l2aWlbJRtuqbg9IdjKLU8qR9m/h6HTzUfShvHpCvKh0rDDVvS\ncmc9\r\n=5Yxi\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

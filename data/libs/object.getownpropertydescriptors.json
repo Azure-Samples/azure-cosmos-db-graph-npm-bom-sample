@@ -1,0 +1,117 @@
+{
+  "name": "object.getownpropertydescriptors",
+  "description": "ES2017 spec-compliant shim for `Object.getOwnPropertyDescriptors` that works in ES5.",
+  "dist-tags": {
+    "latest": "2.0.3"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2016-07-26T23:09:55.671Z",
+    "created": "2015-02-17T10:37:39.045Z",
+    "1.0.0": "2015-02-17T10:37:39.045Z",
+    "1.0.1": "2015-03-20T10:38:50.214Z",
+    "1.0.2": "2015-05-23T23:50:18.939Z",
+    "1.0.3": "2015-06-28T17:52:46.171Z",
+    "1.0.4": "2015-07-21T03:49:05.558Z",
+    "2.0.0": "2016-01-28T06:49:54.480Z",
+    "2.0.1": "2016-01-28T07:05:31.686Z",
+    "2.0.2": "2016-02-04T08:04:10.155Z",
+    "2.0.3": "2016-07-26T23:09:55.671Z"
+  },
+  "homepage": "https://github.com/ljharb/object.getownpropertydescriptors#readme",
+  "keywords": [
+    "Object.getOwnPropertyDescriptors",
+    "descriptor",
+    "property descriptor",
+    "ES8",
+    "ES2017",
+    "shim",
+    "polyfill",
+    "getOwnPropertyDescriptor",
+    "es-shim API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/object.getownpropertydescriptors.git"
+  },
+  "author": "Jordan Harband",
+  "bugs": {
+    "url": "https://github.com/ljharb/object.getownpropertydescriptors/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.3",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run --silent lint && es-shim-api",
+    "test": "npm run --silent tests-only",
+    "posttest": "npm run --silent security",
+    "tests-only": "npm run --silent test:shimmed && npm run --silent test:module",
+    "test:shimmed": "node test/shimmed.js",
+    "test:module": "node test/index.js",
+    "coverage": "covert test/*.js",
+    "coverage:quiet": "covert test/*.js --quiet",
+    "lint": "npm run --silent jscs && npm run --silent eslint",
+    "jscs": "jscs test/*.js *.js",
+    "eslint": "eslint test/*.js *.js",
+    "security": "nsp check"
+  },
+  "dependencies": {
+    "define-properties": "^1.1.2",
+    "es-abstract": "^1.5.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0",
+    "covert": "^1.1.0",
+    "jscs": "^3.0.7",
+    "nsp": "^2.6.1",
+    "eslint": "^3.1.1",
+    "@ljharb/eslint-config": "^6.0.0",
+    "semver": "^5.3.0",
+    "replace": "^0.3.0",
+    "@es-shims/api": "^1.2.0"
+  },
+  "testling": {
+    "files": [
+      "test/index.js",
+      "test/shimmed.js"
+    ],
+    "browsers": [
+      "iexplore/9.0..latest",
+      "firefox/4.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/5.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/12.0..latest",
+      "opera/next",
+      "safari/5.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "gitHead": "43bcf3e85f678fec5e06fbb0644608b05d3bd5f7",
+  "dist": {
+    "shasum": "8758c846f5b407adab0f236e0986f14b051caa16",
+    "tarball": "https://registry.npmjs.org/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.0.3.tgz"
+  },
+  "directories": {}
+}

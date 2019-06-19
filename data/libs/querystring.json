@@ -1,0 +1,140 @@
+{
+  "name": "querystring",
+  "description": "Node's querystring module for all engines.",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.4",
+    "0.1.0",
+    "0.2.0"
+  ],
+  "maintainers": [
+    "gozala <rfobic@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-07T03:51:35.078Z",
+    "created": "2011-04-15T13:01:20.436Z",
+    "0.0.1": "2011-04-15T13:01:21.027Z",
+    "0.0.4": "2011-08-01T21:10:27.098Z",
+    "0.1.0": "2011-12-13T19:26:29.378Z",
+    "0.2.0": "2013-03-05T22:13:43.986Z"
+  },
+  "author": "Irakli Gozalishvili <rfobic@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gozala/querystring.git",
+    "web": "https://github.com/Gozala/querystring"
+  },
+  "users": {
+    "306766053": true,
+    "fgribreau": true,
+    "m42am": true,
+    "shen-weizhong": true,
+    "wenbing": true,
+    "santosharakere": true,
+    "cbpetersen": true,
+    "shan": true,
+    "bpatel": true,
+    "bret": true,
+    "vbv": true,
+    "goblindegook": true,
+    "brunolemos": true,
+    "lavir": true,
+    "superchenney": true,
+    "paragi": true,
+    "demopark": true,
+    "guananddu": true,
+    "lifecube": true,
+    "vasz": true,
+    "monjer": true,
+    "snowdream": true,
+    "dreamanddead": true,
+    "sergeymakoveev": true,
+    "iori20091101": true,
+    "rocket0191": true,
+    "kodekracker": true,
+    "pavelusov": true,
+    "stone_breaker": true,
+    "aidenzou": true,
+    "shuoshubao": true,
+    "kulyk404": true,
+    "vjudge": true,
+    "ivan.marquez": true,
+    "qddegtya": true,
+    "yanhaijing": true,
+    "bertof": true,
+    "wfalkwallace": true,
+    "bnu": true,
+    "eyson": true,
+    "knoja4": true
+  },
+  "readmeFilename": "Readme.md",
+  "id": "querystring",
+  "version": "0.2.0",
+  "keywords": [
+    "commonjs",
+    "query",
+    "querystring"
+  ],
+  "bugs": {
+    "url": "http://github.com/Gozala/querystring/issues/"
+  },
+  "devDependencies": {
+    "test": "~0.x.0",
+    "phantomify": "~0.x.0",
+    "retape": "~0.x.0",
+    "tape": "~0.1.5"
+  },
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "scripts": {
+    "test": "npm run test-node && npm run test-browser && npm run test-tap",
+    "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/common-index.js",
+    "test-node": "node ./test/common-index.js",
+    "test-tap": "node ./test/tap-index.js"
+  },
+  "testling": {
+    "files": "test/tap-index.js",
+    "browsers": {
+      "iexplore": [
+        9,
+        10
+      ],
+      "chrome": [
+        16,
+        20,
+        25,
+        "canary"
+      ],
+      "firefox": [
+        10,
+        15,
+        16,
+        17,
+        18,
+        "nightly"
+      ],
+      "safari": [
+        5,
+        6
+      ],
+      "opera": [
+        12
+      ]
+    }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Gozala/enchain/License.md"
+    }
+  ],
+  "dist": {
+    "shasum": "b209849203bb25df820da756e747005878521620",
+    "tarball": "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz"
+  },
+  "directories": {}
+}

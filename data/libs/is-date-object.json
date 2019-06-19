@@ -1,0 +1,93 @@
+{
+  "name": "is-date-object",
+  "description": "Is this value a JS Date object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-03-08T12:14:34.819Z",
+    "created": "2015-01-28T22:24:27.244Z",
+    "1.0.0": "2015-01-28T22:24:27.244Z",
+    "1.0.1": "2015-09-27T14:34:57.369Z"
+  },
+  "homepage": "https://github.com/ljharb/is-date-object#readme",
+  "keywords": [
+    "Date",
+    "ES6",
+    "toStringTag",
+    "@@toStringTag",
+    "Date object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/is-date-object.git"
+  },
+  "author": "Jordan Harband",
+  "bugs": {
+    "url": "https://github.com/ljharb/is-date-object/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "illuminator": true,
+    "ognjen.jevremovic": true
+  },
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node --harmony --es-staging test.js && npm run security",
+    "coverage": "covert test.js",
+    "coverage-quiet": "covert test.js --quiet",
+    "lint": "npm run jscs && npm run eslint",
+    "jscs": "jscs test.js *.js",
+    "eslint": "eslint test.js *.js",
+    "security": "nsp package"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "foreach": "^2.0.5",
+    "is": "^3.1.0",
+    "tape": "^4.2.0",
+    "indexof": "^0.0.1",
+    "covert": "^1.1.0",
+    "jscs": "^2.1.1",
+    "nsp": "^1.1.0",
+    "eslint": "^1.5.1",
+    "@ljharb/eslint-config": "^1.2.0",
+    "semver": "^5.0.3"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "gitHead": "b03d8e939fec4f139f135a01ff2a3229a424e8fd",
+  "dist": {
+    "shasum": "9aa20eb6aeebbff77fbd33e74ca01b33581d3a16",
+    "tarball": "https://registry.npmjs.org/is-date-object/-/is-date-object-1.0.1.tgz"
+  },
+  "directories": {}
+}

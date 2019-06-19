@@ -1,0 +1,51 @@
+{
+  "name": "backo2",
+  "description": "simple backoff based on segmentio/backo",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "mokesmokes <mokesmokes@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-01T12:16:38.921Z",
+    "created": "2014-11-22T21:57:18.558Z",
+    "1.0.1": "2014-11-22T21:57:18.558Z",
+    "1.0.2": "2014-11-23T06:10:58.817Z"
+  },
+  "homepage": "https://github.com/mokesmokes/backo",
+  "keywords": [
+    "backoff"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokesmokes/backo"
+  },
+  "bugs": {
+    "url": "https://github.com/mokesmokes/backo/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "users": {
+    "manikantag": true,
+    "temasm": true,
+    "sim04ful": true
+  },
+  "version": "1.0.2",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "gitHead": "3e695bade7756fef2295e8883bf3570a06e5d9ec",
+  "scripts": {},
+  "dist": {
+    "shasum": "31ab1ac8b129363463e35b3ebb69f4dfcfba7947",
+    "tarball": "https://registry.npmjs.org/backo2/-/backo2-1.0.2.tgz"
+  },
+  "directories": {}
+}

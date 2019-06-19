@@ -1,0 +1,65 @@
+{
+  "name": "unicode-properties",
+  "description": "Provides fast access to unicode character properties",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "devongovett <devongovett@gmail.com>"
+  ],
+  "time": {
+    "modified": "2015-07-28T04:57:15.308Z",
+    "created": "2015-04-04T02:19:48.054Z",
+    "1.0.0": "2015-04-04T02:19:48.054Z",
+    "1.1.0": "2015-07-28T04:57:15.308Z"
+  },
+  "homepage": "https://github.com/devongovett/unicode-properties",
+  "keywords": [
+    "unicode",
+    "metadata",
+    "character",
+    "codepoint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devongovett/unicode-properties.git"
+  },
+  "author": "Devon Govett <devongovett@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/devongovett/unicode-properties/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "1.1.0",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "unicode-trie": "^0.3.0"
+  },
+  "devDependencies": {
+    "codepoints": "^1.2.0",
+    "coffee-script": "^1.9.1",
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee generate.coffee && coffee -cb index.coffee",
+    "postpublish": "rm -f index.js"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "gitHead": "3f3a2bb7a6ced662a48b18ff33870990194a72c8",
+  "dist": {
+    "shasum": "7a96eef49f75682ea69d2315eec9ac43ffdf00c1",
+    "tarball": "https://registry.npmjs.org/unicode-properties/-/unicode-properties-1.1.0.tgz"
+  }
+}

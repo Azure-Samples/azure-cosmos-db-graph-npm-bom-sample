@@ -1,0 +1,79 @@
+{
+  "name": "void-elements",
+  "description": "Array of \"void elements\" defined by the HTML specification.",
+  "dist-tags": {
+    "latest": "3.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "3.1.0"
+  ],
+  "maintainers": [
+    "alubbe <npm@lubbe.org>",
+    "bloodyowl <mlbli@me.com>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "hemanth <hemanth.hm@gmail.com>",
+    "jbnicolai <jappelman@xebia.com>",
+    "jeromew <jerome.wagner@m4x.org>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-09-04T19:59:59.578Z",
+    "created": "2014-08-29T11:29:35.857Z",
+    "0.1.0": "2014-08-29T11:29:35.857Z",
+    "0.1.1": "2014-08-29T11:43:05.429Z",
+    "1.0.0": "2014-08-31T05:53:29.283Z",
+    "2.0.0": "2015-01-28T03:31:46.169Z",
+    "2.0.1": "2015-01-28T03:46:50.519Z",
+    "3.1.0": "2017-01-19T16:48:57.518Z"
+  },
+  "homepage": "https://github.com/jadejs/void-elements",
+  "keywords": [
+    "html",
+    "void",
+    "elements"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pugjs/void-elements.git"
+  },
+  "author": "hemanth.hm",
+  "bugs": {
+    "url": "https://github.com/jadejs/void-elements/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "seangenabe": true,
+    "alex-cory": true,
+    "robinblomberg": true
+  },
+  "version": "3.1.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node build.js > test/latest.js",
+    "test": "node test",
+    "update": "node build.js > index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "jsdom": "^9.9.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "gitHead": "b6e48fd72877bde572ef03b9b10df9a3b6f00e21",
+  "dist": {
+    "shasum": "614f7fbf8d801f0bb5f0661f5b2f5785750e4f09",
+    "tarball": "https://registry.npmjs.org/void-elements/-/void-elements-3.1.0.tgz"
+  },
+  "directories": {}
+}

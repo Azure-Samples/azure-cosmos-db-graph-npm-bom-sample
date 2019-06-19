@@ -1,0 +1,73 @@
+{
+  "name": "ee-first",
+  "description": "return the first event in a set of ee/event pairs",
+  "dist-tags": {
+    "latest": "1.1.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "maintainers": [
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2016-11-01T17:18:18.975Z",
+    "created": "2014-06-11T01:31:59.902Z",
+    "1.0.0": "2014-06-11T01:31:59.902Z",
+    "1.0.1": "2014-06-11T01:50:57.486Z",
+    "1.0.2": "2014-06-11T03:50:16.688Z",
+    "1.0.3": "2014-06-11T04:22:46.000Z",
+    "1.0.4": "2014-08-15T20:04:59.878Z",
+    "1.0.5": "2014-08-15T21:20:58.889Z",
+    "1.1.0": "2014-10-22T05:53:29.380Z",
+    "1.1.1": "2015-05-25T19:18:28.732Z"
+  },
+  "homepage": "https://github.com/jonathanong/ee-first",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanong/ee-first"
+  },
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "bugs": {
+    "url": "https://github.com/jonathanong/ee-first/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+  ],
+  "users": {
+    "zhangyaochun": true,
+    "bapinney": true,
+    "monjer": true,
+    "mojaray2k": true
+  },
+  "version": "1.1.1",
+  "devDependencies": {
+    "istanbul": "0.3.9",
+    "mocha": "2.2.5"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "512e0ce4cc3643f603708f965a97b61b1a9c0441",
+  "dist": {
+    "shasum": "590c61156b0ae2f4f0255732a158b266bc56b21d",
+    "tarball": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
+  },
+  "directories": {}
+}

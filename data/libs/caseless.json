@@ -1,0 +1,82 @@
+{
+  "name": "caseless",
+  "description": "Caseless object set/get/has, very useful when working with HTTP headers.",
+  "dist-tags": {
+    "latest": "0.12.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.9.0",
+    "0.10.0",
+    "0.11.0",
+    "0.12.0"
+  ],
+  "maintainers": [
+    "mikeal <mikeal.rogers@gmail.com>",
+    "nylen <jnylen@gmail.com>",
+    "simov <simeonvelichkov@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-01-08T14:48:38.301Z",
+    "created": "2013-09-13T08:24:37.793Z",
+    "0.1.0": "2013-09-13T08:24:41.536Z",
+    "0.2.0": "2014-03-19T00:24:45.260Z",
+    "0.3.0": "2014-03-19T00:32:45.686Z",
+    "0.4.0": "2014-07-24T02:20:38.463Z",
+    "0.5.0": "2014-08-11T22:09:39.169Z",
+    "0.6.0": "2014-08-11T22:11:11.459Z",
+    "0.7.0": "2014-10-29T19:02:25.783Z",
+    "0.8.0": "2014-11-21T01:43:50.954Z",
+    "0.9.0": "2015-01-12T13:16:27.155Z",
+    "0.10.0": "2015-03-13T16:44:33.260Z",
+    "0.11.0": "2015-06-25T21:39:22.129Z",
+    "0.12.0": "2017-01-26T21:37:30.100Z"
+  },
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/caseless.git"
+  },
+  "homepage": "https://github.com/mikeal/caseless#readme",
+  "keywords": [
+    "headers",
+    "http",
+    "caseless"
+  ],
+  "bugs": {
+    "url": "https://github.com/mikeal/caseless/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "users": {
+    "sprjrx": true,
+    "chrisdickinson": true,
+    "wangnan0610": true,
+    "n0f3": true,
+    "akiva": true,
+    "ganeshkbhat": true,
+    "thevikingcoder": true
+  },
+  "version": "0.12.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "test": "node test.js",
+  "devDependencies": {
+    "tape": "^2.10.2"
+  },
+  "gitHead": "af91df7878a8b53cf3dc2e9a086dc57ba8301649",
+  "dist": {
+    "shasum": "1b681c21ff84033c826543090689420d187151dc",
+    "tarball": "https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz"
+  },
+  "directories": {}
+}

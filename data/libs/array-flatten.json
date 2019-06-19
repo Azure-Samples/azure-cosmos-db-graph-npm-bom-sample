@@ -1,0 +1,99 @@
+{
+  "name": "array-flatten",
+  "time": {
+    "modified": "2019-01-01T05:44:50.010Z",
+    "created": "2014-03-16T01:38:15.278Z",
+    "0.0.1": "2014-03-16T01:38:15.278Z",
+    "0.0.2": "2014-03-16T04:13:40.954Z",
+    "0.0.3": "2014-08-17T17:49:57.857Z",
+    "1.0.0": "2014-08-17T18:11:00.008Z",
+    "1.0.1": "2015-01-12T09:00:11.413Z",
+    "1.0.2": "2015-01-13T05:58:48.541Z",
+    "1.1.0": "2015-05-09T21:48:40.747Z",
+    "1.1.1": "2015-07-09T21:42:55.619Z",
+    "2.0.0": "2015-11-16T03:14:26.425Z",
+    "2.1.0": "2016-04-29T00:43:12.819Z",
+    "2.1.1": "2017-01-14T01:09:38.922Z",
+    "2.1.2": "2018-12-03T00:21:55.036Z"
+  },
+  "description": "Flatten nested arrays",
+  "maintainers": [
+    "blakeembrey <hello@blakeembrey.com>"
+  ],
+  "dist-tags": {
+    "latest": "2.1.2"
+  },
+  "versions": [
+    "0.0.2",
+    "0.0.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2"
+  ],
+  "homepage": "https://github.com/blakeembrey/array-flatten",
+  "keywords": [
+    "array",
+    "flatten",
+    "arguments",
+    "depth",
+    "fast",
+    "for"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/array-flatten.git"
+  },
+  "author": "Blake Embrey <hello@blakeembrey.com> (http://blakeembrey.me)",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/array-flatten/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "tunnckocore": true,
+    "jamescostian": true,
+    "acollins-ts": true,
+    "nickeltobias": true,
+    "tobiasnickel": true,
+    "wangnan0610": true,
+    "bluelovers": true,
+    "sunkeyhub": true,
+    "elidoran": true,
+    "d0ughtyj": true,
+    "ninozhang": true,
+    "shoresh319": true,
+    "zuojiang": true
+  },
+  "version": "2.1.2",
+  "main": "array-flatten.js",
+  "typings": "array-flatten.d.ts",
+  "scripts": {
+    "lint": "standard",
+    "test-spec": "mocha -R spec --bail",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+    "test": "npm run lint && npm run test-cov",
+    "benchmark": "node benchmark"
+  },
+  "devDependencies": {
+    "benchmarked": "^2.0.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^3.1.2",
+    "standard": "^10.0.0"
+  },
+  "gitHead": "04b45e7a5a9fb7e7946a1321287a09e84f1d352d",
+  "dist": {
+    "integrity": "sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==",
+    "shasum": "24ef80a28c1a893617e2149b0c6d0d788293b099",
+    "tarball": "https://registry.npmjs.org/array-flatten/-/array-flatten-2.1.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6242,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcBHcjCRA9TVsSAnZWagAA6C4P/1ZV77yfnxvhR9WUixth\nVTQCT4TxIWY/qRmFV8IldijazpVvtKAEkJjdsetwDCoq0Qtt0fJciJQl8+Hi\nPgS19C5sI0bBLuxeCSwbIUKYQon7vCMB6xoR40J8LbM+L7CLczENo2CmilCD\nwMXe6m8dxRPcNaIRY0GhnDDyMx6D7ZANaEu/8D0CKB8zO64I+w6nIUmO287N\nPZQA5hRQz1W1mI+w+J+j2MRYTouqhkPa/FWcdC5o/PF5QoOXpcOXfHYLazCw\nuNEiRIDjrQo4bZ0xYk0YN6iL7PSczJeAXtUB0gHJvIBX4or/Sp4d+RZRAeQA\neCfgnVJ6ayxbgg3nAHDKAqqyOkgC+WZ9BPxbG7x+kL4O8A/bdLetBnP7K8HS\nxetv8WEn5T5t/a7q/crzp81HZPM0MxNeCiRF49Zi41swmoHghN1SH5jWoWKJ\nKfM7TqBgbgsHtY5zlig+y079AfOal73wlVHwDyyNVdMXgv3wv5x1slBSvvx/\nQ4mDOf/7Fi/4Tys/4slYslqpWyFdwKwa4wZrLtw6H6ZoBLj9NonwdrttYIjE\ndWLMi+AiQC0/xAP1FAOrKf9PPasVdnqNZFoRYIqF6OtWX/4DaepSpPY4SL+v\ns+L/hhLP7PLgeDlv0qr/lH4Fa9fglPitQcdIedgP8UZAx/zfCULbkwPvv+XG\n/wqD\r\n=I6rO\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

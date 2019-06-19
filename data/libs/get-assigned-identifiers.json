@@ -1,0 +1,61 @@
+{
+  "name": "get-assigned-identifiers",
+  "description": "get a list of identifiers that are initialised by a JavaScript AST node.",
+  "dist-tags": {
+    "latest": "1.2.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0"
+  ],
+  "maintainers": [
+    "goto-bus-stop <rene@kooi.me>"
+  ],
+  "time": {
+    "modified": "2018-02-08T12:29:42.771Z",
+    "created": "2017-11-11T13:02:13.567Z",
+    "1.0.0": "2017-11-11T13:02:13.567Z",
+    "1.1.0": "2017-12-02T11:09:39.011Z",
+    "1.2.0": "2018-02-08T12:29:42.515Z"
+  },
+  "homepage": "https://github.com/goto-bus-stop/get-assigned-identifiers",
+  "keywords": [
+    "ast",
+    "bindings",
+    "destructuring",
+    "identifiers",
+    "javascript",
+    "names",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goto-bus-stop/get-assigned-identifiers.git"
+  },
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/get-assigned-identifiers/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "version": "1.2.0",
+  "devDependencies": {
+    "acorn": "^5.4.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "gitHead": "dd3f228ca9fd40541e98f2f4406069c82fe52f35",
+  "dist": {
+    "integrity": "sha512-mBBwmeGTrxEMO4pMaaf/uUEFHnYtwr8FTe8Y/mer4rcV/bye0qGm6pw1bGZFGStxC5O76c5ZAVBGnqHmOaJpdQ==",
+    "shasum": "6dbf411de648cbaf8d9169ebb0d2d576191e2ff1",
+    "tarball": "https://registry.npmjs.org/get-assigned-identifiers/-/get-assigned-identifiers-1.2.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 7947
+  },
+  "directories": {}
+}

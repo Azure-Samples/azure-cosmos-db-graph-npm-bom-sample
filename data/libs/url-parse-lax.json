@@ -1,0 +1,75 @@
+{
+  "name": "url-parse-lax",
+  "description": "Lax url.parse() with support for protocol-less URLs & IPs",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-11-03T20:35:38.836Z",
+    "created": "2015-07-13T11:21:35.694Z",
+    "1.0.0": "2015-07-13T11:21:35.694Z",
+    "2.0.0": "2017-10-17T10:21:42.728Z",
+    "3.0.0": "2017-11-03T20:35:38.836Z"
+  },
+  "homepage": "https://github.com/sindresorhus/url-parse-lax#readme",
+  "keywords": [
+    "url",
+    "uri",
+    "parse",
+    "parser",
+    "loose",
+    "lax",
+    "protocol",
+    "less",
+    "protocol-less",
+    "ip",
+    "ipv4",
+    "ipv6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/url-parse-lax.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/url-parse-lax/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "antixrist": true,
+    "huhgawz": true,
+    "gavinning": true
+  },
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "prepend-http": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "gitHead": "4b0d2d310a9f39c8df88295853fe4f1a3bd13ec4",
+  "dist": {
+    "shasum": "16b5cafc07dbe3676c1b1999177823d6503acb0c",
+    "tarball": "https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-3.0.0.tgz"
+  },
+  "directories": {}
+}

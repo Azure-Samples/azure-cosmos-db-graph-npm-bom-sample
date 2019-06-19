@@ -1,0 +1,56 @@
+{
+  "name": "@types/is-buffer",
+  "dist-tags": {
+    "latest": "2.0.0",
+    "ts3.0": "2.0.0",
+    "ts3.1": "2.0.0",
+    "ts3.2": "2.0.0",
+    "ts3.3": "2.0.0",
+    "ts3.4": "2.0.0",
+    "ts3.5": "2.0.0",
+    "ts3.6": "2.0.0"
+  },
+  "versions": [
+    "2.0.0"
+  ],
+  "time": {
+    "created": "2018-12-18T17:24:25.922Z",
+    "2.0.0": "2018-12-18T17:24:26.266Z",
+    "modified": "2019-05-29T22:06:30.841Z"
+  },
+  "maintainers": [
+    "types <ts-npm-types@microsoft.com>"
+  ],
+  "description": "TypeScript definitions for is-buffer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "contributors": [
+    {
+      "name": "Junyoung Choi",
+      "url": "https://github.com/rokt33r",
+      "githubUsername": "rokt33r"
+    }
+  ],
+  "license": "MIT",
+  "readmeFilename": "",
+  "version": "2.0.0",
+  "main": "",
+  "types": "index",
+  "scripts": {},
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "typesPublisherContentHash": "c94eb2043941fd6151a8b55e4846f08d704c34e2cc329bc2059127dad0fb47aa",
+  "typeScriptVersion": "3.0",
+  "dist": {
+    "integrity": "sha512-0f7N/e3BAz32qDYvgB4d2cqv1DqUwvGxHkXsrucICn8la1Vb6Yl6Eg8mPScGwUiqHJeE7diXlzaK+QMA9m4Gxw==",
+    "shasum": "94de4d23540646de5f5df2cd346a1c162067ea5a",
+    "tarball": "https://registry.npmjs.org/@types/is-buffer/-/is-buffer-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 2723,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGS1KCRA9TVsSAnZWagAANVsP/0AdOJ1I/tGT4Fhb0rIA\nXa7Zk5+MjUyFE8kyYGjWl5fUD2sCNbkgBijwqw5ag7PS/vpvBGxzGK834Wef\nW9Zn+xV6Z7LBDA3h4O+tS+z66cHV/V9HBnRJGA94xVEXbMBNwOe0cMiUng5z\nAHVo3ZuUHAZjOA0ywwsMmnJy9ShRpoeMAhtOlXGMicb9PoRricbn0/J1kaVe\nKVN+pJHmuaw9ITjl/CxFFbc/e0Fie1NtHEA5kr76BUrD3iNOIA8ffV8kkEHy\nlER7zqRgk5l9DsnpD1eS9CLPoK/EpXnE6rIqO8jLnFbtP5Fto3Wr9Xhq9/Qb\nbjouxnFSFHJ/GTJ1mU4nzKM3uV0+1YOaUqZ8wZVeIoePLHNpBG/FKHFwWzS6\nkqGgkEitfpLQmBhQV4BkZvB9MAeQ2SrijDghXzGRpSTTmX1239wXNyUUkARG\nxQRiU4o5oQTxTh79FHdJVGHB7DfMFO2Ts5/PkldjTF9OnlQj8j2W8jy/mz9n\nGBheNg/UOGDwsjRFsR+nAWnPzu5dmzDZoXZjD2TiAhbxL9ItXN9ladEebeht\nJovyhLj5FGqJKkvCIudxdvl8jjN1rEZtuqHjeqGf8YRK5OQdXrjXCpF95nWL\nlNAwmPylj6JmHil/HbwwMYuxb5XPavx1CmbizJlnA/WXFxS451oxX7jckj5L\n0sf2\r\n=sytF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

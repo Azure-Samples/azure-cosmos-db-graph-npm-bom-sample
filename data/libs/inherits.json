@@ -1,0 +1,116 @@
+{
+  "name": "inherits",
+  "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+  "dist-tags": {
+    "latest": "2.0.3"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.0.1",
+    "2.0.3"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2018-08-03T00:38:03.803Z",
+    "created": "2011-04-07T00:35:14.848Z",
+    "1.0.0": "2011-04-07T00:35:15.718Z",
+    "2.0.0": "2013-05-16T14:44:54.523Z",
+    "2.0.1": "2013-08-19T22:10:20.463Z",
+    "1.0.1": "2015-08-26T22:12:12.252Z",
+    "1.0.2": "2015-08-27T19:36:46.817Z",
+    "2.0.2": "2016-09-07T20:33:59.118Z",
+    "2.0.3": "2016-09-08T00:49:38.520Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/inherits.git"
+  },
+  "users": {
+    "fgribreau": true,
+    "pid": true,
+    "dbrockman": true,
+    "fibo": true,
+    "shen-weizhong": true,
+    "joakin": true,
+    "stringparser": true,
+    "kxbrand": true,
+    "magemagic": true,
+    "oceanswave": true,
+    "gdibble": true,
+    "rethinkflash": true,
+    "iamveen": true,
+    "docksteaderluke": true,
+    "simplyianm": true,
+    "alexkval": true,
+    "mrmartineau": true,
+    "minwe": true,
+    "koulmomo": true,
+    "chinaqstar": true,
+    "kontrax": true,
+    "sammyteahan": true,
+    "antixrist": true,
+    "monjer": true,
+    "abdihaikal": true,
+    "tobiasnickel": true,
+    "christopher.urquidi": true,
+    "markoni": true,
+    "bret": true,
+    "spywhere": true,
+    "nickeltobias": true,
+    "roman-io": true,
+    "princetoad": true,
+    "slurm": true,
+    "mikemimik": true,
+    "hyokosdeveloper": true,
+    "roccomuso": true,
+    "sadr0b0t": true,
+    "mojaray2k": true,
+    "soenkekluth": true,
+    "sprying": true,
+    "chrisdickinson": true,
+    "leix3041": true,
+    "semir2": true,
+    "zhenguo.zhao": true,
+    "j3rrywan9": true
+  },
+  "keywords": [
+    "inheritance",
+    "class",
+    "klass",
+    "oop",
+    "object-oriented",
+    "inherits",
+    "browser",
+    "browserify"
+  ],
+  "bugs": {
+    "url": "https://github.com/isaacs/inherits/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/isaacs/inherits#readme",
+  "version": "2.0.3",
+  "main": "./inherits.js",
+  "browser": "./inherits_browser.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "tap": "^7.1.0"
+  },
+  "files": [
+    "inherits.js",
+    "inherits_browser.js"
+  ],
+  "gitHead": "e05d0fb27c61a3ec687214f0476386b765364d5f",
+  "dist": {
+    "shasum": "633c2c83e3da42a502f52466022480f4208261de",
+    "tarball": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz"
+  },
+  "directories": {}
+}

@@ -1,0 +1,123 @@
+{
+  "name": "after",
+  "description": "after - tiny flow control",
+  "dist-tags": {
+    "latest": "0.8.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.2.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.3.4",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.8.1",
+    "0.8.2"
+  ],
+  "maintainers": [
+    "raynos <raynos2@gmail.com>",
+    "defunctzombie <shtylman@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-05-26T17:58:19.853Z",
+    "created": "2011-08-15T14:01:15.289Z",
+    "0.1.0": "2011-12-08T01:56:13.312Z",
+    "0.1.3": "2011-12-08T01:56:13.312Z",
+    "0.1.4": "2011-12-08T01:56:13.312Z",
+    "0.1.5": "2011-12-08T01:56:13.312Z",
+    "0.1.6": "2011-12-08T01:56:13.312Z",
+    "0.1.7": "2011-11-10T15:31:29.230Z",
+    "0.1.8": "2011-12-02T18:29:43.571Z",
+    "0.2.0": "2011-12-08T01:56:13.312Z",
+    "0.3.1": "2012-01-30T01:04:13.451Z",
+    "0.3.2": "2012-02-28T11:38:51.930Z",
+    "0.3.3": "2012-03-04T20:38:46.024Z",
+    "0.3.4": "2012-04-11T23:44:38.170Z",
+    "0.4.0": "2012-04-23T10:50:58.605Z",
+    "0.4.1": "2012-05-08T19:20:57.272Z",
+    "0.5.0": "2012-05-30T15:58:26.661Z",
+    "0.6.0": "2012-07-15T06:05:34.045Z",
+    "0.7.0": "2013-02-26T22:21:25.548Z",
+    "0.8.1": "2013-06-30T06:09:40.954Z",
+    "0.8.2": "2016-08-16T00:50:39.441Z"
+  },
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Raynos/after.git"
+  },
+  "users": {
+    "luk": true,
+    "shtylman": true,
+    "hij1nx": true,
+    "meggesje": true,
+    "pid": true,
+    "daviddias": true,
+    "syzer": true,
+    "kesla": true,
+    "rsalesc": true,
+    "trycatch9264": true,
+    "pnevares": true,
+    "pengzhisun": true,
+    "trotyl": true,
+    "aesinv": true,
+    "alanshaw": true,
+    "etsit": true,
+    "mjurincic": true,
+    "defunctzombie": true,
+    "gyaresu": true,
+    "tzookb": true,
+    "fridurmus": true,
+    "2dxgujun": true,
+    "deubaka": true,
+    "monjer": true,
+    "artskydj": true,
+    "vinchik": true,
+    "izumisy": true,
+    "dyohns": true,
+    "xrush": true,
+    "intelinc": true,
+    "mickeyzhou": true,
+    "dmckirnan": true
+  },
+  "keywords": [
+    "flowcontrol",
+    "after",
+    "flow",
+    "control",
+    "arch"
+  ],
+  "contributors": [
+    "Raynos <raynos2@gmail.com> (http://raynos.org)"
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/after/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/Raynos/after#readme",
+  "license": "MIT",
+  "version": "0.8.2",
+  "scripts": {
+    "test": "mocha --ui tdd --reporter spec test/*.js"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "gitHead": "e8c26046f36962b90e68dc5df33a9672a54b25f5",
+  "dist": {
+    "shasum": "fedb394f9f0e02aa9768e702bda23b505fae7e1f",
+    "tarball": "https://registry.npmjs.org/after/-/after-0.8.2.tgz"
+  },
+  "directories": {}
+}

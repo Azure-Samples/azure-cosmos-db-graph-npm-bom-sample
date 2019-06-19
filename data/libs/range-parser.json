@@ -1,0 +1,104 @@
+{
+  "name": "range-parser",
+  "description": "Range header field string parser",
+  "dist-tags": {
+    "latest": "1.2.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>",
+    "jonathanong <jonathanrichardong@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "tjholowaychuk <tj@vision-media.ca>"
+  ],
+  "time": {
+    "modified": "2019-05-11T00:27:40.264Z",
+    "created": "2012-06-11T16:08:20.957Z",
+    "0.0.1": "2012-06-11T16:08:22.373Z",
+    "0.0.2": "2012-06-18T00:15:02.069Z",
+    "0.0.3": "2012-06-18T00:28:29.754Z",
+    "0.0.4": "2012-06-18T00:56:34.968Z",
+    "1.0.0": "2013-12-11T20:35:49.123Z",
+    "1.0.1": "2014-09-08T01:00:41.796Z",
+    "1.0.2": "2014-09-09T02:45:20.606Z",
+    "1.0.3": "2015-10-29T23:12:00.478Z",
+    "1.1.0": "2016-05-13T19:15:16.506Z",
+    "1.2.0": "2016-06-01T17:48:14.367Z",
+    "1.2.1": "2019-05-11T00:27:37.805Z"
+  },
+  "author": "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+  "users": {
+    "m42am": true,
+    "abdul": true,
+    "simplyianm": true,
+    "shavyg2": true,
+    "glebec": true,
+    "mojaray2k": true,
+    "gpuente": true,
+    "hualei": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/range-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jshttp/range-parser/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/jshttp/range-parser#readme",
+  "keywords": [
+    "range",
+    "parser",
+    "http"
+  ],
+  "license": "MIT",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "James Wyatt Cready <wyatt.cready@lanetix.com>",
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+  ],
+  "version": "1.2.1",
+  "devDependencies": {
+    "deep-equal": "1.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-markdown": "1.0.0",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "mocha": "6.1.4",
+    "nyc": "14.1.1"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "test-travis": "nyc --reporter=text npm test"
+  },
+  "gitHead": "0f56ff8d4b579599f9f225f0a19f4ef1628c585f",
+  "dist": {
+    "integrity": "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==",
+    "shasum": "3cf37023d199e1c24d1a55b84800c2f3e6468031",
+    "tarball": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8457,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1hb6CRA9TVsSAnZWagAA6MIP/2aFx73ToT5iGRN0mgZw\nLy7BEmRQkblBxo81k9Cvjt8jucfv/PtDUllITbke596JI/jHnb5oU5XV5Fzd\nK1WklG8rJC9z1y9iEaEe4pRcnvkPvkHtFMmPcYS9dm5XQyYw9fYcApRl/6zH\neuV/1CtwzQnCCErvfmolfSQ13v1d4LyWwrMRcG79uOGYBm8XSuTb3fKrEbBj\n3Gms6SQA2mC5ntKrf6VQRXzWvGIvWp2Q3RGFkgI1fnEPFfq7DbNqvHiD+KV4\nXV2wOD6B8pBlpbpSdNMHfUBSVSMHqFv9rOJqJumBAEZeUcwQzO06/2kUw5/f\nWCaFTHYTMCvSNX9qg71EoRZuuvNS0E53quFagdmTxq2vf04vz01PgRc5G64m\nTlz07gVHos3CQ9fU4NP0Aim1rtgOLJj15IF+z/kSSQoQZ6DhW5aTs8zCa3AS\nk4xWFafBuzyG1ApCSJrRCsqzY+oRqHPyTSZx5fBv75qZIEKe4moBpJ6EkaqZ\nRc6EqCpJjwOZVOssoPN3RiP+f/g43ytkVmUoYSXTs2bpkwNQUJShg2ItsT55\nkxkfZx8YbNxkFKp8S/uwUGQjbmXXspWozrkKNHikpzWMgDmuj9k2fx3LPo0c\nDSEq295fDQlKdxcfuGpOkH1PSzMHuIef26IGNDjMlOyBSY2FrQJaxpYtpQYq\nw1FC\r\n=GGKV\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

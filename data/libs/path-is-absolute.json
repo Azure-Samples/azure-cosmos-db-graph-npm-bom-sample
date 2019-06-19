@@ -1,0 +1,83 @@
+{
+  "name": "path-is-absolute",
+  "description": "Node.js 0.12 path.isAbsolute() ponyfill",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-05T02:56:56.679Z",
+    "created": "2015-02-17T03:11:44.044Z",
+    "1.0.0": "2015-02-17T03:11:44.044Z",
+    "1.0.1": "2016-09-30T04:42:03.803Z",
+    "2.0.0": "2018-11-08T11:03:52.447Z"
+  },
+  "homepage": "https://github.com/sindresorhus/path-is-absolute#readme",
+  "keywords": [
+    "path",
+    "paths",
+    "file",
+    "dir",
+    "absolute",
+    "isabsolute",
+    "is-absolute",
+    "built-in",
+    "util",
+    "utils",
+    "core",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "is",
+    "detect",
+    "check"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/path-is-absolute.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/path-is-absolute/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "wenbing": true,
+    "sixertoy": true,
+    "knownasilya": true,
+    "youstrive": true,
+    "artemigos": true,
+    "mojaray2k": true,
+    "shuoshubao": true,
+    "stone_breaker": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && node test.js"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  },
+  "gitHead": "339a65c0a372f5f669d23fa12a0f349caa3fbed5",
+  "dist": {
+    "integrity": "sha512-ajROpjq1SLxJZsgSVCcVIt+ZebVH+PwJtPnVESjfg6JKwJGwAgHRC3zIcjvI0LnecjIHCJhtfNZ/Y/RregqyXg==",
+    "shasum": "cba416f4f3be5d068afe2083d9b3b3707414533d",
+    "tarball": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3699,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb5BgZCRA9TVsSAnZWagAAjzEP/3lJ7zhj0TKOtNrPBVj8\n9Ypn5Ru29IWn/UTy6iv48fODPWvDH/gbzi+lb99wYBVOrEhwkXRRthQnyE6H\nOMfDamSFZ0M5N9g/2QafpbdIKIyAHmwNPLdY1BxlNE18CGUopx8wBxZcf725\nTmSa/6ld2gIhTbAaNklO7U6G1jFx5rZmbh2sQlz3/ezYY6ll69x4lNUG36Vv\nK3Qyo0zYKhXIZaDoD+ERcQWDVMjsCJ+7EJiSci1dg+Wn2ERebkRYYTNNvAjz\nCGw5QNW2vO5EvvCbHfts9VH1yPSrKrp/qCNByFVVkKV/FUVJqZshK6bSAb8p\nfr6i3y4dOKNYBnLScz2a+yDkhiNFpTSrCh7fPAuZECN3o1l3luseHIg44Dfp\nYph+YsGNJPEe/eq5h6KN18vtCMEs/1xTC0Pffo/pWv3AK5nCuZFzblsNIkLH\nO5McLriRI8BHc1VxRcPAWWRR7yNinqpQqZ3vp6qEWISqLeVKohYLixETiIz9\nZcnKsBKouejDx2AfeMakb1vLYj1B7dWQdcZZFQrqGjnMF+vdvOMI7VY9PJgV\nggQAcQyDcKOyTq1xW6rLy2X6906kU5VsLnjQbKr+kQ06hXRubgwfqfB/7WWu\nDSvRzAG9lUHjWNI8HSZhvEWewLetHIBeuj/P5OQIjFCFQ9fj0UE3chw8Q3u6\nPlls\r\n=MOl8\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {},
+  "deprecated": "This package is no longer relevant as Node.js 0.12 is unmaintained."
+}

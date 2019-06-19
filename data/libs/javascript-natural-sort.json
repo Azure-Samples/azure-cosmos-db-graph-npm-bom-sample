@@ -1,0 +1,52 @@
+{
+  "name": "javascript-natural-sort",
+  "description": "Natural Sort algorithm for Javascript - Version 0.7 - Released under MIT license",
+  "dist-tags": {
+    "latest": "0.7.1"
+  },
+  "versions": [
+    "0.7.0",
+    "0.7.1"
+  ],
+  "maintainers": [
+    "kylehousley <khousley@bill4time.com>"
+  ],
+  "time": {
+    "modified": "2017-05-12T08:19:16.873Z",
+    "created": "2014-01-01T00:16:50.104Z",
+    "0.7.0": "2014-01-01T00:16:50.715Z",
+    "0.7.1": "2014-01-02T17:54:40.720Z"
+  },
+  "author": "Jim Palmer (based on chunking idea from Dave Koelle, packaged by @khous of Bill4Time)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bill4Time/javascript-natural-sort.git"
+  },
+  "users": {
+    "felixfbecker": true
+  },
+  "homepage": "https://github.com/Bill4Time/javascript-natural-sort",
+  "keywords": [
+    "natural",
+    "sort",
+    "javascript",
+    "array",
+    "sort",
+    "sorting"
+  ],
+  "bugs": {
+    "url": "https://github.com/Bill4Time/javascript-natural-sort/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.7.1",
+  "main": "naturalSort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dist": {
+    "shasum": "f9e2303d4507f6d74355a73664d1440fb5a0ef59",
+    "tarball": "https://registry.npmjs.org/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz"
+  },
+  "directories": {}
+}

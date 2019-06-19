@@ -1,0 +1,88 @@
+{
+  "name": "levn",
+  "description": "Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.3.0"
+  ],
+  "maintainers": [
+    "gkz <z@georgezahariev.com>"
+  ],
+  "time": {
+    "modified": "2017-04-16T08:35:27.866Z",
+    "created": "2013-10-04T20:10:33.861Z",
+    "0.1.0": "2013-10-04T20:10:35.117Z",
+    "0.2.0": "2013-10-29T23:20:26.681Z",
+    "0.2.1": "2013-12-17T23:20:46.320Z",
+    "0.2.2": "2014-03-20T00:28:20.920Z",
+    "0.2.3": "2014-03-20T23:59:27.077Z",
+    "0.2.4": "2014-04-08T06:17:16.950Z",
+    "0.2.5": "2014-04-29T05:16:08.135Z",
+    "0.3.0": "2015-12-29T05:57:03.996Z"
+  },
+  "author": "George Zahariev <z@georgezahariev.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkz/levn.git"
+  },
+  "homepage": "https://github.com/gkz/levn",
+  "keywords": [
+    "levn",
+    "light",
+    "ecmascript",
+    "value",
+    "notation",
+    "json",
+    "typed",
+    "human",
+    "concise",
+    "typed",
+    "flexible"
+  ],
+  "bugs": {
+    "url": "https://github.com/gkz/levn/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "users": {
+    "quzhi78": true,
+    "pwn": true
+  },
+  "version": "0.3.0",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./lib/",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "prelude-ls": "~1.1.2",
+    "type-check": "~0.3.2"
+  },
+  "devDependencies": {
+    "livescript": "~1.4.0",
+    "mocha": "~2.3.4",
+    "istanbul": "~0.4.1"
+  },
+  "gitHead": "a92b9acf928282ba81134b4ae8e6a5f29e1f5e1e",
+  "dist": {
+    "shasum": "3b09924edf9f083c0490fdd4c0bc4421e04764ee",
+    "tarball": "https://registry.npmjs.org/levn/-/levn-0.3.0.tgz"
+  },
+  "directories": {}
+}

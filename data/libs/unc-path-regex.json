@@ -1,0 +1,82 @@
+{
+  "name": "unc-path-regex",
+  "description": "Regular expression for testing if a file path is a windows UNC file path. Can also be used as a component of another regexp via the `.source` property.",
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>",
+    "tunnckocore <mameto_100@mail.bg>"
+  ],
+  "time": {
+    "modified": "2016-04-10T02:51:44.090Z",
+    "created": "2015-07-07T14:25:00.416Z",
+    "0.1.0": "2015-07-07T14:25:00.416Z",
+    "0.1.1": "2015-07-07T14:35:21.552Z",
+    "0.1.2": "2016-04-10T02:51:44.090Z"
+  },
+  "homepage": "https://github.com/regexhq/unc-path-regex",
+  "keywords": [
+    "absolute",
+    "expression",
+    "file",
+    "filepath",
+    "match",
+    "matching",
+    "path",
+    "regex",
+    "regexp",
+    "regular",
+    "unc",
+    "win",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regexhq/unc-path-regex.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/regexhq/unc-path-regex/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.1.2",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "verb": {
+    "related": {
+      "list": [
+        "dotfile-regex",
+        "is-unc-path",
+        "unc-path-regex",
+        "dotdir-regex",
+        "path-regex",
+        "dirname-regex",
+        "is-glob"
+      ]
+    }
+  },
+  "gitHead": "8962715152d8438fac975f90ac218017b41fea20",
+  "dist": {
+    "shasum": "e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa",
+    "tarball": "https://registry.npmjs.org/unc-path-regex/-/unc-path-regex-0.1.2.tgz"
+  },
+  "directories": {}
+}

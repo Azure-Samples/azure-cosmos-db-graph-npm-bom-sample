@@ -1,0 +1,89 @@
+{
+  "name": "aproba",
+  "description": "A ridiculously light-weight argument validator (now browser friendly)",
+  "dist-tags": {
+    "latest": "2.0.0",
+    "😄": "1.1.1",
+    "abc": "1.1.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "iarna <me@re-becca.org>"
+  ],
+  "time": {
+    "modified": "2019-03-19T18:47:16.500Z",
+    "created": "2015-02-27T18:11:19.818Z",
+    "1.0.0": "2015-02-27T18:11:19.818Z",
+    "1.0.1": "2015-04-09T19:24:02.127Z",
+    "1.0.2": "2016-05-20T22:38:57.683Z",
+    "1.0.3": "2016-05-20T22:52:09.980Z",
+    "1.0.4": "2016-06-23T21:54:45.947Z",
+    "1.1.0": "2017-02-07T21:43:38.939Z",
+    "1.1.1": "2017-02-08T22:32:11.372Z",
+    "1.1.2": "2017-06-02T23:15:52.316Z",
+    "1.2.0": "2017-09-19T22:48:12.592Z",
+    "2.0.0": "2018-05-22T21:29:46.504Z"
+  },
+  "homepage": "https://github.com/iarna/aproba",
+  "keywords": [
+    "argument",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarna/aproba.git"
+  },
+  "author": "Rebecca Turner <me@re-becca.org>",
+  "bugs": {
+    "url": "https://github.com/iarna/aproba/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "hal9zillion": true,
+    "nguru": true,
+    "lgomez": true,
+    "iarna": true,
+    "buzuli": true,
+    "oleg_tsyba": true,
+    "wangnan0610": true,
+    "detj": true
+  },
+  "version": "2.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tap": "^12.0.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap --100 -J test/*.js"
+  },
+  "gitHead": "f87074e0c9b1afbd6ba1b2eab4736433d29d85f8",
+  "dist": {
+    "integrity": "sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==",
+    "shasum": "52520b8ae5b569215b354efc0caa3fe1e45a8adc",
+    "tarball": "https://registry.npmjs.org/aproba/-/aproba-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8047,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBIvMCRA9TVsSAnZWagAAAIcP/1qup9qwIgKp+SCSf0rR\nsHJO1GAdECnBCghAqMfUM7biv6tZOP3RbZkQKhVA8YU+Fl80BgFQ4ZiKa1SU\nazt54yur3sb3Tm80lyR4EZ3v3pBq0Gbzp/gVnJgQuvAoTU4bAba/CDXmj8Df\npmRUZNSPqjJK4zD5tGTfWd3sfY6lgQC/T401z0WafF/T82pE6wpJPMLyds/H\nnw8p5rbHwLNbdYihX/Gv8G4AdHuFtRRFOi1vDky1NUrs8k32N21EmlOaNC4y\nJ7x9VsWNZTqcmb8zwp3fQv+/IGdY36hZTFlF2Ig2u2UaapzL9u2vFEZAOmZ9\n6eGjz8ZYepa11/QuOr1sZJM9xQzJNqT89VsB7gZMci4kJ3pk8e8Za1vJC2Ub\nx7bJSKTsCMUclDjZBLpPv0QczW61os6kIWoZLzEs+MIESCBU8GVX4pNjEaoB\nGFDyMTYmu93c6+23FxTVPjofFI7Bt3tJ55l4v5rX5uNiQhlkVHw71kztYQ9r\nv2Uq5tdeaohrzfRUhNVWxwBup6+zDBJP4fS6G+2l7KPtx1Ylkm9xsT8P6LOm\nW+6426jArfwiygOZgNewZDQHhsvbx2PmpWwZt/+WJpW+hPtdAAxBJCD96NFJ\nJqIwaDaJ7K6gSkr56hhwu2BMOptk8WtcD3w0NTsMUhJqy4tJPzeqtznToSD1\n7dh9\r\n=/XJn\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

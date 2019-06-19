@@ -1,0 +1,138 @@
+{
+  "name": "@azure/event-hubs",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "2.0.0"
+  ],
+  "time": {
+    "created": "2018-09-13T00:59:54.257Z",
+    "0.0.1": "2018-09-13T00:59:54.565Z",
+    "modified": "2019-03-27T21:35:38.715Z",
+    "1.0.0": "2018-09-13T02:45:48.197Z",
+    "1.0.1": "2018-09-13T03:11:14.506Z",
+    "1.0.2": "2018-09-14T19:49:04.626Z",
+    "1.0.3": "2018-09-26T00:14:24.614Z",
+    "1.0.4": "2018-09-27T03:54:49.614Z",
+    "1.0.5": "2018-10-02T01:10:19.476Z",
+    "1.0.6": "2018-10-05T19:32:00.786Z",
+    "1.0.7": "2018-10-26T01:29:57.452Z",
+    "1.0.8": "2018-12-14T20:01:41.968Z",
+    "2.0.0": "2019-03-27T21:35:36.081Z"
+  },
+  "maintainers": [
+    "amarzavery <amarzavery@gmail.com>",
+    "azure-sdk <azuresdkengsysadmins@microsoft.com>",
+    "billytrend <billy.trend@gmail.com>",
+    "sergeyshandar <sergey.shandar@gmail.com>",
+    "veronicagg <bggve@outlook.com>",
+    "vladbarosan <vlad.barosan@gmail.com>"
+  ],
+  "description": "Azure Event Hubs SDK for JS.",
+  "homepage": "https://github.com/Azure/azure-sdk-for-js/tree/master/packages/%40azure/eventhubs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/azure-sdk-for-js.git"
+  },
+  "author": "Microsoft Corporation",
+  "bugs": {
+    "url": "https://github.com/azure/azure-sdk-for-js/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "azure",
+    "cloud",
+    "event hubs",
+    "events"
+  ],
+  "version": "2.0.0",
+  "main": "./dist/index.js",
+  "module": "dist-esm/lib/index.js",
+  "types": "./typings/lib/index.d.ts",
+  "browser": {
+    "./dist/index.js": "./browser/index.js"
+  },
+  "engine": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@azure/amqp-common": "^1.0.0-preview.2",
+    "async-lock": "^1.1.3",
+    "debug": "^3.1.0",
+    "is-buffer": "2.0.2",
+    "jssha": "^2.3.1",
+    "@azure/ms-rest-nodeauth": "^0.9.2",
+    "rhea-promise": "^0.1.14",
+    "tslib": "^1.9.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^6.3.0",
+    "@types/async-lock": "^1.1.0",
+    "@types/chai": "^4.1.6",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/debug": "^0.0.31",
+    "@types/dotenv": "^4.0.3",
+    "@types/long": "^4.0.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^8.0.37",
+    "@types/uuid": "^3.3.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.1.0",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-multi": "^1.0.1",
+    "nyc": "13.3.0",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.66.6",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-multi-entry": "^2.0.2",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^6.0.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "tslint": "tslint -p . -c tslint.json",
+    "tsc": "tsc",
+    "prebuild": "rimraf dist && rimraf typings",
+    "build": "npm run tslint && tsc -p . && rollup -c",
+    "build-browser": "tsc -p . && cross-env ONLY_BROWSER=true rollup -c",
+    "build-node": "tsc -p . && cross-env ONLY_NODE=true rollup -c",
+    "build-test": "tsc -p . && cross-env ONLY_NODE=true rollup -c rollup.test.config.js",
+    "build-samples": "cd examples && tsc -p .",
+    "test": "npm run build",
+    "unit": "npm run build-test && mocha -t 120000 test-dist/index.js",
+    "coverage": "npm run build-test && nyc --reporter=lcov mocha -t 120000 test-dist/index.js",
+    "prepack": "npm i && npm run build",
+    "extract-api": "tsc -p . && api-extractor run --local"
+  },
+  "dist": {
+    "integrity": "sha512-1cYyFRnJt6/oyb7wrIVS8iJyLIwjFYe3XbAj53CJ+yhqi0fyaMtTOY3QFNaPH9/CfL73C3Aw494VHJP0QLtt3w==",
+    "shasum": "e88398268e8c012813d2e73687c6df4212517927",
+    "tarball": "https://registry.npmjs.org/@azure/event-hubs/-/event-hubs-2.0.0.tgz",
+    "fileCount": 91,
+    "unpackedSize": 732353,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcm+yoCRA9TVsSAnZWagAAm0cP/3F75JVQ/XlmB2jEuIVG\nQ7BPTTg+JW3yAvCNqy7YuAKbD+sWJCeSntm/MwIdI/PYc8sz8JbnPMY2V1yT\nUCgrU78XuTqfnMMcuJNHAslVy8KjgDa/PmcAFG3glkb7kh/4qQ/3UUiM3B+J\n6529BsiK2AxmRBsQ+0kdFexYooqFlCyzru7MuNd4tKs4zmeiEFyKAtTp/3+Q\nJm+BjC4gmiO+tlja8arS/68xstLJH5RiQ138NUXfhfzyjd9HTEzYXLx9yps9\nAwcKHsvHHYG+oGzYSqsV5h9ehnd71xCDDuprlRq+ZzAcI2YKY5+/peY9EJGp\nbSjtgVY7gQ19FogCE2+s+K5xVd8jT1djMyOcXHLxSqVFxr9GsOZmHw8q+znM\n49EyAct86iXhhk3oLcBMuJQT7icCB+gBolYRdjach9qz9uZcBRArGZbB11CH\n63euhKGwgoCkGX9SR2jgWCSrkQuSUKzrYcbXoLm6fhbCfwbGN/WtvAsgKYrQ\n2gBQY77TiqLkytMWkjZ7zxgb3A2wohuUHZlhysvOKX5nDsd9CaTQaHgBwPNb\nz5q11yCoPRcdJEEQAwGy8DOKHPf+GLZC40fyMeyGPKpHmgZSC5ZTCIfZn1vO\nYRButQpYRn7QwnEjCQEm5jTTwRunGL9g6dhjlyIQsss6b0CXG6Evz+/8QhmS\nlnej\r\n=9wiY\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

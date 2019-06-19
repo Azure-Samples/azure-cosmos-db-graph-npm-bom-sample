@@ -1,0 +1,64 @@
+{
+  "name": "is-property",
+  "description": "Tests if a JSON property can be accessed using . syntax",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "mikolalysenko <mikolalysenko@gmail.com>"
+  ],
+  "time": {
+    "modified": "2016-11-01T17:38:29.446Z",
+    "created": "2013-07-18T14:13:28.789Z",
+    "0.0.0": "2013-07-18T14:13:30.325Z",
+    "1.0.0": "2014-07-30T14:50:33.406Z",
+    "1.0.1": "2014-12-25T14:48:06.931Z",
+    "1.0.2": "2014-12-25T14:50:43.208Z"
+  },
+  "author": "Mikola Lysenko",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/is-property.git"
+  },
+  "homepage": "https://github.com/mikolalysenko/is-property",
+  "keywords": [
+    "is",
+    "property",
+    "json",
+    "dot",
+    "bracket",
+    ".",
+    "[]"
+  ],
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/is-property/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mojaray2k": true
+  },
+  "version": "1.0.2",
+  "main": "is-property.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "gitHead": "0a85ea5b6b1264ea1cdecc6e5cf186adbb3ffc50",
+  "dist": {
+    "shasum": "57fe1c4e48474edd65b09911f26b1cd4095dda84",
+    "tarball": "https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz"
+  }
+}

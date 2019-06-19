@@ -1,0 +1,88 @@
+{
+  "name": "express-favicon",
+  "description": "express favicon middleware",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "maintainers": [
+    "song940 <song940@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-03T20:34:55.518Z",
+    "created": "2014-08-01T03:22:36.208Z",
+    "1.0.0": "2014-08-01T03:22:36.208Z",
+    "1.0.1": "2014-08-01T03:49:47.983Z",
+    "2.0.0": "2016-08-30T02:49:57.413Z",
+    "2.0.1": "2018-05-14T11:36:46.305Z"
+  },
+  "keywords": [
+    "express",
+    "favicon"
+  ],
+  "author": "lsong",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/song940/express-favicon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/express-favicon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/express-favicon/issues"
+  },
+  "users": {
+    "broxmgs": true,
+    "tophsic": true,
+    "weshigbee": true,
+    "wander_lp": true,
+    "geralex": true,
+    "rsaa": true,
+    "ushervani": true,
+    "aikaramba": true,
+    "chirag8642": true,
+    "boopathisakthivel.in": true,
+    "landy2014": true,
+    "rocket0191": true,
+    "dylanh724": true,
+    "rupertong": true,
+    "oussoulessou": true,
+    "jcanes": true,
+    "benwyse11": true
+  },
+  "contributors": [
+    "Jannis R <mail@jannisr.de>"
+  ],
+  "version": "2.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "express": "4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {},
+  "gitHead": "49b23abdfa2a005903ebbd7854239906cf467f22",
+  "dist": {
+    "integrity": "sha512-KZZF9lIUKU9lkyZM/7AVql7qeXA6EVkHCU5rGU4NvgbWNcYFn6zvCw3cwS5IY/vvP+MzVNVvBABnWfaVZoy7bQ==",
+    "shasum": "6d852a1bc576ac72db006d3550cc09b23a96eef7",
+    "tarball": "https://registry.npmjs.org/express-favicon/-/express-favicon-2.0.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 4054,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+XTPCRA9TVsSAnZWagAAPcIP/3UEVPgxkX0LQJLWPk4T\nmgtOJoqCzEoCVHDWwckfpjyMkaWUi2f0xoVNBLZNDpGFVRv6ygmLTvqVY54n\nrHApvd8/lLPwd5+6TUjNhv33EslnBaFwN4tVqeCunBgvXRb9LKH8ndNKMZIV\nNe6941wNEijz2z8eXFkzuYdevZz5CF3Id2aBi4Gkj5r42BwDFHpMgAw83DZg\nkg0jke9NgShWgCoESuGJBazTdLY5u4yJuksnxGFpKylLPpE3PeSY9JUZPvYK\nY2weV0MFhIm8cnXY/ggS8Wei8WGmAPafkiq9u9pj/tb3hXmDM2M986gyXIP0\nTZHxBq/TRxZ8zCamxLxP+6ygwRdC3IJEh59iYzQMWsW67a36+D+7IXbdJ5hn\nxi9oWmCYMv/hpo9S1BmwfEGbuM+lVvy2YgsCDGIMVForNXXP5EqYuPUmTZt2\n+6bdk6H8Wm53mvRMnD+1CmCFMEsPF1boN7L1kVgXJvtbbLaYlSbChc5zoJMO\nIeEcQIMHTpm4ve5SZbSMieA3A4LPJTKJ0gJkPXLQAZR/I2ZxkUeYACR9Lc7z\n4SE7mjdjiOn7ZsvyQLlmG66l9OqMjAw5+RKGgj7RrFwpkH/lUTF7Ix9vHFwq\n2RMOpXBpLNjCJVqzU13upc4L5qbXE8aYCBFzyp0N5ILFO8uGL3035ejry8zX\nDT+f\r\n=G+H6\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

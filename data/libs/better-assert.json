@@ -1,0 +1,68 @@
+{
+  "name": "better-assert",
+  "description": "Better assertions for node, reporting the expr, filename, lineno etc",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>",
+    "tony_ado <coolhzb@163.com>"
+  ],
+  "time": {
+    "modified": "2018-02-07T15:58:07.193Z",
+    "created": "2011-11-30T03:06:15.220Z",
+    "0.0.1": "2011-11-30T03:06:16.614Z",
+    "0.1.0": "2012-10-05T05:43:26.488Z",
+    "1.0.0": "2013-06-08T17:16:34.525Z",
+    "1.0.1": "2014-07-23T09:31:48.173Z",
+    "1.0.2": "2014-11-21T05:46:02.646Z"
+  },
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "users": {
+    "rsp": true,
+    "nex": true,
+    "antanst": true,
+    "princetoad": true,
+    "itcorp": true,
+    "zhenguo.zhao": true
+  },
+  "keywords": [
+    "assert",
+    "stack",
+    "trace",
+    "debug"
+  ],
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/visionmedia/better-assert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visionmedia/better-assert.git"
+  },
+  "contributors": [
+    "TonyHe <coolhzb@163.com>",
+    "ForbesLindesay"
+  ],
+  "bugs": {
+    "url": "https://github.com/visionmedia/better-assert/issues"
+  },
+  "version": "1.0.2",
+  "dependencies": {
+    "callsite": "1.0.0"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  },
+  "dist": {
+    "shasum": "40866b9e1b9e0b55b481894311e68faffaebc522",
+    "tarball": "https://registry.npmjs.org/better-assert/-/better-assert-1.0.2.tgz"
+  },
+  "directories": {}
+}

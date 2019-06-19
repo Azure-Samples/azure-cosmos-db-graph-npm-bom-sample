@@ -1,0 +1,106 @@
+{
+  "name": "is-arguments",
+  "description": "Is this an arguments object? It's a harder question than you think.",
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-04T05:35:36.995Z",
+    "created": "2014-01-08T04:48:23.679Z",
+    "0.1.0": "2014-01-08T04:48:23.679Z",
+    "1.0.0": "2014-01-08T06:06:44.839Z",
+    "1.0.1": "2015-04-29T08:14:12.108Z",
+    "1.0.2": "2015-09-21T18:43:22.607Z",
+    "1.0.3": "2018-11-03T05:53:32.940Z",
+    "1.0.4": "2018-11-06T07:17:49.780Z"
+  },
+  "users": {
+    "stdarg": true
+  },
+  "homepage": "https://github.com/ljharb/is-arguments",
+  "keywords": [
+    "arguments",
+    "js",
+    "javascript",
+    "is-arguments",
+    "is",
+    "object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/is-arguments.git"
+  },
+  "author": "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+  "bugs": {
+    "url": "https://github.com/ljharb/is-arguments/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)"
+  ],
+  "version": "1.0.4",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run --silent lint",
+    "test": "npm run --silent tests-only",
+    "tests-only": "node test.js",
+    "posttest": "npm run --silent security",
+    "security": "nsp check",
+    "coverage": "covert test.js",
+    "lint": "npm run --silent jscs && npm run --silent eslint",
+    "jscs": "jscs *.js",
+    "eslint": "eslint *.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ljharb/eslint-config": "^13.0.0",
+    "covert": "^1.1.0",
+    "eslint": "^5.8.0",
+    "jscs": "^3.0.7",
+    "nsp": "^3.2.1",
+    "tape": "^4.9.1"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "gitHead": "0f6224b1b5f77362a186b8d3a7d7b767e704e67e",
+  "dist": {
+    "integrity": "sha512-xPh0Rmt8NE65sNzvyUmWgI1tz3mKq74lGA0mL8LYZcoIzKOzDh6HmrYm3d18k60nHerC8A9Km8kYu87zfSFnLA==",
+    "shasum": "3faf966c7cba0ff437fb31f6250082fcf0448cf3",
+    "tarball": "https://registry.npmjs.org/is-arguments/-/is-arguments-1.0.4.tgz",
+    "fileCount": 10,
+    "unpackedSize": 19750,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4UAeCRA9TVsSAnZWagAAW48P/iROaFysRMqPLEpF89rj\nRuHfz7UK6aeeF9LhH8VQNsI3m6IRBUmFiALJZh2ByWSkphuznynrB4fAKK+4\nVdHwOe5WkA/Qi/Dm5RQHdMoIY8v/qv6HpELD29KUcCEnIcfPjeyFXn4P9XbL\nv/6DwYZkpmAfrcABitnCJ5p8ZphaZMLmRxYH4TKHsuO1Z6NHW4TkhEbkYzx5\nSRU9YFk9NVS1/45XpJPrNLTSh+74B5UIkpCLSUpbmwWh2VdzxO8E5bacJC9f\nRLBJ8Oq6z96/98J3HTbS5b1nKfOkLqa4dODrlJ4tP8jGSfxD24eMxi+wNS7a\n/MzVsUaSGsbBdmXt1/PgYrScVrsoe9xIaGfTvSr0qs/DPgMAkLOzqe6C75IS\nqjnQ5WM0L+1sxBzJUJd954IDM041xWw0prJ1Ezg7HF8UvuiXoHAT4K/4f1oF\nOs8TK5aQjrX0BjwOcMWqgPHqxyaFNr7lfOjMejO7C04ytH1TbfcRYJi10Onx\nVQuUU2nLg+yQUIoPhIJSpEkj8SXjQlKtBlQ0kOrva6E70vid+vxN6PcvUKiM\n0ZHEPldiX4SOY2pzNK6uVjzVWE44pQs8OSV1rJbuU86SOV2Di/pAGLukBY/K\n/tE3FGVdz5wFUSsedFkr3iacIuhDfe0M5XkiALDE93BUfwLVTzKUaTd6H7AD\nlhf7\r\n=w1iC\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

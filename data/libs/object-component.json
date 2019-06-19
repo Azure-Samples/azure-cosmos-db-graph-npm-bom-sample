@@ -1,0 +1,38 @@
+{
+  "name": "object-component",
+  "description": "Object utils.",
+  "dist-tags": {
+    "latest": "0.0.3"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>"
+  ],
+  "time": {
+    "modified": "2012-10-15T17:51:36.766Z",
+    "created": "2012-09-19T18:34:40.726Z",
+    "0.0.1": "2012-09-19T18:34:47.301Z",
+    "0.0.2": "2012-09-20T17:36:21.852Z",
+    "0.0.3": "2012-10-15T17:51:36.766Z"
+  },
+  "version": "0.0.3",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "object/index.js": "index.js"
+    }
+  },
+  "readme": "\n# object\n\n  Object utils.\n\n## API\n\n### .keys(obj)\n\n  Return the keys for `obj`.\n\n### .values(obj)\n\n  Return the values for `obj`.\n\n### .length(obj)\n\n  Return the number of keys for `obj`.\n\n### .isEmpty(obj)\n\n  Check if `obj` is empty.\n\n### .merge(a, b)\n\n  Merge object `b` into `a`, returns `a`.\n  Precedence is given to `b`.\n\n## License\n\n  MIT",
+  "dist": {
+    "shasum": "f0c69aa50efc95b866c186f400a33769cb2f1291",
+    "tarball": "https://registry.npmjs.org/object-component/-/object-component-0.0.3.tgz"
+  },
+  "directories": {}
+}

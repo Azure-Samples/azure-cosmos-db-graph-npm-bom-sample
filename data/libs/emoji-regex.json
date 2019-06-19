@@ -1,0 +1,115 @@
+{
+  "name": "emoji-regex",
+  "description": "A regular expression to match all Emoji-only symbols as per the Unicode Standard.",
+  "dist-tags": {
+    "latest": "8.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0",
+    "3.0.0",
+    "4.0.0",
+    "5.0.0",
+    "6.0.0",
+    "6.1.0",
+    "6.1.1",
+    "6.1.3",
+    "6.2.0",
+    "6.3.0",
+    "6.4.0",
+    "6.4.1",
+    "6.4.2",
+    "6.4.3",
+    "6.5.0",
+    "6.5.1",
+    "7.0.0",
+    "7.0.1",
+    "7.0.2",
+    "7.0.3",
+    "8.0.0"
+  ],
+  "maintainers": [
+    "mathias <mathias@qiwi.be>"
+  ],
+  "time": {
+    "modified": "2019-03-05T18:58:27.733Z",
+    "created": "2014-09-28T11:10:47.034Z",
+    "1.0.0": "2014-09-28T11:10:47.034Z",
+    "1.0.1": "2014-09-29T15:38:43.645Z",
+    "2.0.0": "2014-11-04T06:29:44.152Z",
+    "3.0.0": "2014-11-27T11:49:34.181Z",
+    "4.0.0": "2014-12-17T23:29:54.222Z",
+    "5.0.0": "2015-02-13T22:46:20.711Z",
+    "6.0.0": "2015-07-04T11:57:13.288Z",
+    "6.1.0": "2016-12-21T19:26:57.851Z",
+    "6.1.1": "2017-03-08T19:30:43.274Z",
+    "6.1.3": "2017-03-09T12:59:14.686Z",
+    "6.2.0": "2017-03-15T12:43:50.440Z",
+    "6.3.0": "2017-03-15T19:54:04.590Z",
+    "6.4.0": "2017-03-15T20:45:40.423Z",
+    "6.4.1": "2017-03-15T21:05:09.685Z",
+    "6.4.2": "2017-04-06T11:37:02.494Z",
+    "6.4.3": "2017-07-02T08:55:21.949Z",
+    "6.5.0": "2017-07-15T22:10:04.552Z",
+    "6.5.1": "2017-07-26T13:42:07.910Z",
+    "7.0.0": "2018-06-08T09:12:15.142Z",
+    "7.0.1": "2018-08-31T19:24:00.344Z",
+    "7.0.2": "2018-12-20T11:08:57.200Z",
+    "7.0.3": "2018-12-21T10:26:45.903Z",
+    "8.0.0": "2019-03-05T18:58:23.040Z"
+  },
+  "homepage": "https://mths.be/emoji-regex",
+  "keywords": [
+    "unicode",
+    "regex",
+    "regexp",
+    "regular expressions",
+    "code points",
+    "symbols",
+    "characters",
+    "emoji"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasbynens/emoji-regex.git"
+  },
+  "author": "Mathias Bynens (https://mathiasbynens.be/)",
+  "bugs": {
+    "url": "https://github.com/mathiasbynens/emoji-regex/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "netoperatorwibby": true,
+    "rocket0191": true,
+    "zhenguo.zhao": true
+  },
+  "version": "8.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "rm -rf -- es2015; babel src -d .; NODE_ENV=es2015 babel src -d ./es2015; node script/inject-sequences.js",
+    "test": "mocha",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-unicode-property-regex": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "mocha": "^6.0.2",
+    "regexgen": "^1.3.0",
+    "unicode-12.0.0": "^0.7.9"
+  },
+  "gitHead": "a9f2e514523d4c0931974aff5059052da10c52c5",
+  "dist": {
+    "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==",
+    "shasum": "e818fd69ce5ccfcb404594f842963bf53164cc37",
+    "tarball": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz",
+    "fileCount": 8,
+    "unpackedSize": 48255,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcfsbPCRA9TVsSAnZWagAAr8oP/1XbIqEdVhX0sTGbaxsq\n2McAMLM6oAIrjkBXrNdMgP9fX5kEUfAE45JTbpZU6RprIM8GnhPAyJKauwmj\nIUFKvwSMdwxUPOsYljPiWYRrjsqn1rDENI/q9vwISwOJuqTg/h+Y6V5PQj8b\nQbSnzFDkuDlAgmp4BPPtNFZdpSQNtaylpC08GkKZneQXfCuV2uOB3PTTelIV\nYnANLh09gEmrKeCEKp2WYhc1wANK1Bae04GEr+8tsoKoDDhiMktEzhuhCs/8\nvl9pQPa2xuNa3SbZF3bZtyiuF8CJUJin9R5sooqjBOHKw58taxfu5A5GwGNx\n9Uss9ysWTfuKKRJTmSG5OaRF49/bmIXPSpt4uwIywFtaWCdPgfeOorBUHeun\n1v4EhksSXggKIW1i1KbNQT6b0OIqEV7GQI5XWWlxhZ5vSFXSjTtasLyf/NtY\nJVOBlb8+fGFygQvzb1QjVDuKtEnnILTGbCVDIYx8yDiTW7z2Qt7Id3Sp+Whr\naRHjVE1mSB3tQrAyBvIw3650stwxMnS++c+qJbCaR/90JKahD3vM40Zt6aAO\nn31zq6N00oUefhd+2YwpUbmDqWQiROZCBKbRcYB1gDiIcu9PaenCeJkvgNId\nVoB6Mb3DYZggjjQcOGtdcS2ZcYaY2UexGuItbYqoMTvdmIcWqjEMq+oOaAjw\n/TqM\r\n=NmDr\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

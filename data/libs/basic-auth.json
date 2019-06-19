@@ -1,0 +1,131 @@
+{
+  "name": "basic-auth",
+  "description": "node.js basic auth parser",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.0",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>",
+    "jonathanong <jonathanrichardong@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "tjholowaychuk <tj@vision-media.ca>"
+  ],
+  "time": {
+    "modified": "2019-01-01T08:19:23.222Z",
+    "created": "2013-11-30T19:20:04.033Z",
+    "0.0.1": "2013-11-30T19:20:06.195Z",
+    "1.0.0": "2014-07-07T00:19:25.361Z",
+    "1.0.1": "2015-05-05T05:54:12.251Z",
+    "1.0.2": "2015-06-13T03:51:35.314Z",
+    "1.0.3": "2015-07-02T04:45:20.715Z",
+    "1.0.4": "2016-05-11T03:54:40.196Z",
+    "1.1.0": "2016-11-18T18:57:06.779Z",
+    "2.0.0": "2017-09-13T04:11:36.377Z",
+    "2.0.1": "2018-09-20T03:26:02.582Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/basic-auth.git"
+  },
+  "homepage": "https://github.com/jshttp/basic-auth#readme",
+  "keywords": [
+    "basic",
+    "auth",
+    "authorization",
+    "basicauth"
+  ],
+  "bugs": {
+    "url": "https://github.com/jshttp/basic-auth/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "pdilyard": true,
+    "sanketss84": true,
+    "justintormey": true,
+    "melliw": true,
+    "markthethomas": true,
+    "fabian.moron.zirfas": true,
+    "hckhanh": true,
+    "hyteer": true,
+    "ghkddbguse": true,
+    "sammok2003": true,
+    "garrickajo": true,
+    "j.su": true,
+    "mikermcneil": true,
+    "dburdese": true,
+    "tfentonz": true,
+    "iori20091101": true,
+    "bobjohnson23": true,
+    "langri-sha": true,
+    "tmurngon": true,
+    "3creatives": true,
+    "izzy": true,
+    "artmadiar": true,
+    "serge-nikitin": true,
+    "icerainnuaa": true,
+    "quafoo": true,
+    "jaguarj": true,
+    "garenyondem": true,
+    "leonardorb": true,
+    "tomchao": true,
+    "rocket0191": true,
+    "gavinning": true,
+    "monjer": true,
+    "cooboor": true,
+    "hugojosefson": true,
+    "mucahitnezir": true,
+    "xuu": true,
+    "mobeicaoyuan": true,
+    "im_dodo": true,
+    "rowantaubitz": true,
+    "josudoey": true,
+    "archibinario": true,
+    "maxblock": true
+  },
+  "version": "2.0.1",
+  "dependencies": {
+    "safe-buffer": "5.1.2"
+  },
+  "devDependencies": {
+    "eslint": "5.6.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-markdown": "1.0.0-beta.6",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --check-leaks --reporter spec --bail",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "bde0bac8ba99f5d461a339cb6b8a598a0586d699",
+  "dist": {
+    "integrity": "sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==",
+    "shasum": "b998279bf47ce38344b4f3cf916d4679bbf51e3a",
+    "tarball": "https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8895,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJboxNLCRA9TVsSAnZWagAABjAP/36HVdFJZd41XWu4V4Lq\nC9iexogRT/eQ3offpCaOg6Z4phYNUhvspCNzpvWDK+PgFHhL+iT1JaseR8L6\ns10FIWUsV8MWf+PhRyaixrHTlYeKtw86EKCDagUQ+3F/WuR0t1l8tJ61oXmX\nt9mGcmdk9lC7gtq29nY/OP5pIR1wgNcFKXvxhdQ5qQNm1xBJM8HlhkrbJcNV\ncCS22k010P7YGny1hBsDd9d60s8N0qRYYv5jZdAEPyvfe7EuAAuhfjkd7OWZ\notO2E5ynAkHit5MekUdV0s+pUciO8doBCT+KzueHQWt5r7RD4+RgxlCMqzG7\nk4b7uZe0hxvnzRJPoTdWZzdrA5VPwAD+0+TKGUNUzqkeSZViYajwxXBF4WHT\necB+0KUhPMI6IIGdeiIYmL7tSa6hwzqxTy4HhFQ3VHZAi+MCcNFMZ/LuOQyX\nMUiAtxzyLMXCYfe0U3Lk/fBdrcBZAYAHreAdYXwksV2PPvoEc28/qomshKDo\nbVfv3pJvaXDHIEiJBR/4g99ploihTkmOxbqF5ogDBXoim+ql24zuEgHJD3v/\nKPmXTGCyeS6Jrk7hL2bw8mmy0uVb6/LYpKOvcWtTwkIW32DxQMM7zK0y1wq+\n9tSN539Byca0qpbDdh1hgGjwtfaciNb3fGNLGF3QuLYbvrOd4K+cE67vJdbI\nZMlO\r\n=cB++\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

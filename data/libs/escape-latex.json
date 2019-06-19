@@ -1,0 +1,125 @@
+{
+  "name": "escape-latex",
+  "description": "Escape LaTeX special characters with Javascript",
+  "dist-tags": {
+    "latest": "1.2.0",
+    "next": "1.0.0-beta.3"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "1.0.0-beta.1",
+    "1.0.0-beta.2",
+    "1.0.0-beta.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.3",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0"
+  ],
+  "maintainers": [
+    "dangmai <contact@dangmai.net>"
+  ],
+  "time": {
+    "modified": "2019-01-03T19:19:56.623Z",
+    "created": "2012-10-27T19:39:14.978Z",
+    "0.0.1": "2012-10-27T19:39:16.153Z",
+    "0.1.0": "2012-10-27T19:54:44.729Z",
+    "0.1.1": "2012-10-28T00:05:11.448Z",
+    "0.1.2": "2012-10-30T13:26:30.154Z",
+    "0.1.3": "2016-03-10T19:55:51.693Z",
+    "0.1.4": "2017-02-22T21:42:07.220Z",
+    "0.1.5": "2017-02-22T22:05:22.840Z",
+    "1.0.0-beta.0": "2018-01-16T23:48:58.702Z",
+    "1.0.0-beta.1": "2018-01-16T23:56:54.138Z",
+    "1.0.0-beta.2": "2018-01-23T22:23:02.431Z",
+    "1.0.0-beta.3": "2018-01-24T17:00:05.264Z",
+    "1.0.0": "2018-01-25T20:53:07.731Z",
+    "1.0.1": "2018-05-03T21:02:28.854Z",
+    "1.0.3": "2018-05-03T21:33:05.534Z",
+    "1.1.0": "2018-06-04T20:50:04.856Z",
+    "1.1.1": "2018-08-20T20:41:03.487Z",
+    "1.2.0": "2018-10-27T19:03:26.058Z"
+  },
+  "author": "Dang Mai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangmai/escape-latex.git"
+  },
+  "homepage": "https://github.com/dangmai/escape-latex#readme",
+  "keywords": [
+    "latex",
+    "escape"
+  ],
+  "bugs": {
+    "url": "https://github.com/dangmai/escape-latex/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.2.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register -u tdd ./src/**/*.test.js",
+    "preversion": "npm test && npm run build",
+    "postversion": "git push && git push --tags",
+    "precommit": "npm run lint && lint-staged",
+    "prettier": "prettier --write ./src/**/*.js",
+    "lint": "eslint ./src",
+    "init": "mkdir dist",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean && npm run init",
+    "build": "babel ./src -d ./dist --ignore index.test.js"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "npm run prettier",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "extends": [
+      "eslint:recommended",
+      "google",
+      "prettier"
+    ],
+    "env": {
+      "node": "true"
+    }
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.0.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "mocha": "^5.0.0",
+    "prettier": "^1.9.2"
+  },
+  "gitHead": "15cc5ef8572ba0fe7e0d96ec4339ceec549c8d6b",
+  "dist": {
+    "integrity": "sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw==",
+    "shasum": "07c03818cf7dac250cce517f4fda1b001ef2bca1",
+    "tarball": "https://registry.npmjs.org/escape-latex/-/escape-latex-1.2.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 7474,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1LZ+CRA9TVsSAnZWagAAjMAP/jBPKHZ2+Uyl+l9aG3Xv\nreN3ZH5FZNa7FwQyICTvQ+OAKQUNE4nVt7A2/VrFGYi/K2ja2Ix1U+SgoDzt\naepZxIfyWbB7MCOmMr35Ldmomq/vtCjYQyhpMZDi3Iz/tE4ZRgoHVIwoRrQJ\nTCSoSOU4WvKeOho95vcgBKEbfRKGuYc3oTfTxLSheR9oaItPMTiuME0D+Ast\nnsp6YHm8R3XynYTrXwLyPcSPpUat/xOwz26PmUIeVjh2FkuG+I7vpwJiQa49\n+MKjF5jt6mJpBEWuJzmMaCHE3sW8NHNVkfeysj7qgD/cKqG/hWrG3QtL02tN\n8scPiMWZNVXO5JVU8mad4UUCdBLFqUE0MrXLzJSKJbdO38In1bascjymLKsW\nhJr7aNIhC5OmtjGbvVIIdZu9mqGoIDUC9tOAxyE0XvEPM35x9A4mF1+MdbhR\nHsfMiniVLujMZrRvvfuAlVxhSsaQIHbxXxoEwC1iBo8bGJUIxlq438Ao2fZL\nOe12gloFKGMNmy9horQyP9u2pMQrtjvhKE30ZRKM6DJIhhEqxCA8kIVeSdbP\n7k7ZHKBmc+p2/RCCigdqyEMPVKQo98SdqYKyk/e0Ml8Qxe8Mdl4GiVSK2ukU\nt2za4aBz6ySQaMC3SYIQdCDqhNR6/53UaUdG+sb5BKpskDfTiZVgO2xzi5rW\nbcbX\r\n=xTyh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

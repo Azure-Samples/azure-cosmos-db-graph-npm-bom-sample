@@ -1,0 +1,82 @@
+{
+  "name": "locate-path",
+  "description": "Get the first path that exists on disk of multiple paths",
+  "dist-tags": {
+    "latest": "5.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0",
+    "4.0.0",
+    "5.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-04T13:00:10.081Z",
+    "created": "2016-11-20T10:27:29.562Z",
+    "1.0.0": "2016-11-20T10:27:29.562Z",
+    "1.1.0": "2016-11-20T13:20:48.318Z",
+    "2.0.0": "2016-11-28T05:27:33.711Z",
+    "3.0.0": "2018-06-17T20:59:26.704Z",
+    "4.0.0": "2019-04-15T15:56:42.988Z",
+    "5.0.0": "2019-05-04T13:00:07.428Z"
+  },
+  "homepage": "https://github.com/sindresorhus/locate-path#readme",
+  "keywords": [
+    "locate",
+    "path",
+    "paths",
+    "file",
+    "files",
+    "exists",
+    "find",
+    "finder",
+    "search",
+    "searcher",
+    "array",
+    "iterable",
+    "iterator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/locate-path.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/locate-path/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "aretecode": true
+  },
+  "version": "5.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "p-locate": "^4.1.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "630c0bbd609055c1895089c715649e21000a1ab7",
+  "dist": {
+    "integrity": "sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==",
+    "shasum": "1afba396afd676a6d42504d0a67a3a7eb9f62aa0",
+    "tarball": "https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6584,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJczYzYCRA9TVsSAnZWagAAoH4QAJ55Du9nat4GZgsgC/+d\nU8skY+UkpMg7sYrxcLFg7iL/6DUrc1QcavNPbQxANFOubfMvadGmSOZjiZeD\nMY2Sf+01Odcj6kW+hpzO3X03by1zzggXvuX4Wzw2L+XPK9yd2zhQViblkr27\nJzp68UqKwEpq4tQtld0nS31cxEe4Rqjeh7i4f1sDJBxix2CEglgX2/HcnAcU\n/SELUZtunAgRBBIons8FdjL2VOhcesPD2fh8ebBpoSmojDUgzlGIWagsmO6X\nYn0ftdcv77ILQBDitLjPWTGK1riAvfJkSOlK2J0LEFLR//yQByICmvPzXr0x\nZom6AYCdhUy5PJkaPuxEMuKJo5DrXuV+cKN9z4Ek5kumOl4H4sR+viKC+/b4\nX96Vxt0eZfT2nERjA31raJtQQVjyJUrt3QZRhf3CUItMDqE0s6+R2abAzUoA\nmF+dIzizSSZKdfy6/sVVcht4ZyxkgMSBtN6q4Pw/aNUDJEWYfqUZ1b9ucMif\nwLpP2MIH6GLQhKoFymqZx7jWzqGduKX25vS9RLZh6keyF3sZMQ618qfbX5cv\n0PJqf/YOx9N+PUeSW+Eu+JFlXlGvpZV4gLlTIlNIRsyHHavLWpw58q9fuLGy\nqFn1eegD45ITp3WdCCqRT+FTrQwomNcnLoN1ESw/fpJVWRG81RWGwaEj43NO\ntmj8\r\n=qQUv\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

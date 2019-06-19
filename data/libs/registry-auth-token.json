@@ -1,0 +1,106 @@
+{
+  "name": "registry-auth-token",
+  "description": "Get the auth token set for an npm registry (if any)",
+  "dist-tags": {
+    "latest": "3.4.0"
+  },
+  "versions": [
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "3.0.0",
+    "3.0.1",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2",
+    "3.2.0",
+    "3.3.0",
+    "3.3.1",
+    "3.3.2",
+    "3.4.0"
+  ],
+  "maintainers": [
+    "leipert <git@leipert.io>",
+    "rexxars <rexxars@gmail.com>",
+    "zkochan <zoltan.kochan@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-20T15:49:07.818Z",
+    "created": "2016-03-28T13:29:00.561Z",
+    "1.0.1": "2016-03-28T13:29:00.561Z",
+    "1.1.0": "2016-03-28T14:46:18.171Z",
+    "1.1.1": "2016-04-26T12:12:56.675Z",
+    "2.0.0": "2016-06-17T07:23:13.476Z",
+    "2.1.0": "2016-07-07T09:56:14.231Z",
+    "2.1.1": "2016-07-10T18:29:58.888Z",
+    "3.0.0": "2016-08-04T14:16:48.041Z",
+    "3.0.1": "2016-08-07T09:38:38.994Z",
+    "3.1.0": "2016-10-19T19:53:09.972Z",
+    "3.1.1": "2017-04-06T15:30:25.523Z",
+    "3.1.2": "2017-04-07T21:20:54.179Z",
+    "3.2.0": "2017-04-20T19:38:03.123Z",
+    "3.3.0": "2017-04-24T20:23:51.741Z",
+    "3.3.1": "2017-05-02T19:59:05.664Z",
+    "3.3.2": "2018-01-26T08:37:31.362Z",
+    "3.4.0": "2019-03-20T15:49:05.126Z"
+  },
+  "homepage": "https://github.com/rexxars/registry-auth-token#readme",
+  "keywords": [
+    "npm",
+    "conf",
+    "config",
+    "npmconf",
+    "registry",
+    "auth",
+    "token",
+    "authtoken"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/registry-auth-token.git"
+  },
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "bugs": {
+    "url": "https://github.com/rexxars/registry-auth-token/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "dwqs": true
+  },
+  "version": "3.4.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "posttest": "standard",
+    "coverage": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "rc": "^1.1.6",
+    "safe-buffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^3.3.0",
+    "require-uncached": "^1.0.2",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "ignore": [
+      "coverage/**"
+    ]
+  },
+  "gitHead": "6544ac2da8a7e5f48055e2cdf0ed9ed93ab9ec6a",
+  "dist": {
+    "shasum": "d7446815433f5d5ed6431cd5dca21048f66b397e",
+    "tarball": "https://registry.npmjs.org/registry-auth-token/-/registry-auth-token-3.4.0.tgz",
+    "integrity": "sha512-4LM6Fw8eBQdwMYcES4yTnn2TqIasbXuwDx3um+QRs7S55aMKCBKBxvPXl2RiUjHwuJLTyYfxSpmfSAjQpcuP+A==",
+    "fileCount": 11,
+    "unpackedSize": 81135,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJckmDxCRA9TVsSAnZWagAAg0oP/35tD0RLWEHCLPbuIQ1m\n4SpMFwnqad/iZ0iUn7RQDEF9E2LdRIhTV7wO+/KFAUs+orV+zDD3bsJ+JTRx\nhdqeT4ETsn1BfTr3L6h/PVNFf18b07XmfOdqlg5sRaUU5tjpSwOSNacPERZr\nru30/zGvWsbUikOA5qYMaQY7FPpemVKBFL+4twP9p6iajKMkWWAA0FIWn5KK\nUkAJBMwa3yGh8BLG/C5xORaz+Ue2GrDROvqxSB9sohXEq9w2mZrpFTcMLEU3\ndAlVKq6NOLfJussOWQ6QfEhJD6h89L4eFARMMNn1bwp/04zEzJjcIkC9ZaCQ\ne/dpNJSIh9K74UXKDg/NmKKMD1G2twS34p2bobghQDkHRCANLGkw/UHEJT/L\nHJzXBLlbwdQGLWyoNygxVcPEN+nEfdCwjm2ATYhKyfZuC5swQMCLkYiZh9tC\nThauA47kKUzclg7K9+3ty8GOASe5ILpZfUfuQ4KimHJLmc7ykWS5keE2zver\nuTBTrqdqHvGhEJmeCGapzbi/j52ogEe2q5jJzSFNERV/Lm1AKOBM31XP6I8M\nlQ2hllz2bgBCGqjDTP6GyLWoI8BMlLKaQVtrmUlz9CZHr3yOWhKY3VnOZezq\n4IWDvCZEswfvUdm2woDAnSPeBt6Arm3rDID8IYZ/lEKHEFTbvhTu1zbNbCdu\nEyqi\r\n=r3eh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

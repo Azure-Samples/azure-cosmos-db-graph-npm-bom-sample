@@ -1,0 +1,97 @@
+{
+  "name": "azure-sb",
+  "description": "Microsoft Azure Service Bus Service Library for node",
+  "dist-tags": {
+    "latest": "0.11.0"
+  },
+  "versions": [
+    "0.9.9",
+    "0.9.10",
+    "0.9.11",
+    "0.9.12",
+    "0.9.13",
+    "0.9.14",
+    "0.9.15",
+    "0.9.16",
+    "0.10.0",
+    "0.10.1",
+    "0.10.2",
+    "0.10.3",
+    "0.10.4",
+    "0.10.5",
+    "0.10.6",
+    "0.11.0"
+  ],
+  "maintainers": [
+    "windowsazure <azuresdk@outlook.com>"
+  ],
+  "time": {
+    "modified": "2019-04-08T20:15:04.120Z",
+    "created": "2014-07-30T23:10:18.715Z",
+    "0.9.9": "2014-07-30T23:10:18.715Z",
+    "0.9.10": "2014-08-12T00:42:09.960Z",
+    "0.9.11": "2014-08-13T00:29:07.720Z",
+    "0.9.12": "2014-09-10T20:53:26.150Z",
+    "0.9.13": "2014-10-03T22:36:50.298Z",
+    "0.9.14": "2014-11-08T01:42:18.480Z",
+    "0.9.15": "2015-01-21T23:34:56.381Z",
+    "0.9.16": "2015-03-25T22:31:34.272Z",
+    "0.10.0": "2015-05-04T23:24:57.948Z",
+    "0.10.1": "2015-06-08T23:16:34.590Z",
+    "0.10.2": "2015-08-20T00:34:20.548Z",
+    "0.10.3": "2016-07-05T21:22:52.288Z",
+    "0.10.4": "2016-09-02T05:42:47.611Z",
+    "0.10.5": "2017-09-29T18:33:03.215Z",
+    "0.10.6": "2018-03-02T21:08:21.216Z",
+    "0.11.0": "2019-04-08T20:15:01.155Z"
+  },
+  "homepage": "http://github.com/Azure/azure-sdk-for-node",
+  "keywords": [
+    "node",
+    "azure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Azure/azure-sdk-for-node.git"
+  },
+  "contributors": [
+    "Block, Glenn <gblock@microsoft.com>",
+    "Cowlishaw, Mark <markcowl@microsoft.com>",
+    "Dejardin, Louis <loudej@microsoft.com>",
+    "Georgiev, Yavor <yavorg@microsoft.com>",
+    "Janczuk, Tomasz <tjanczuk@microsoft.com>",
+    "Rodrigues, Andre <andrerod@microsoft.com>",
+    "Tavares, Chris <ctavares@microsoft.com>",
+    "Kulshrestha, Ankur <ankurkul@microsoft.com>"
+  ],
+  "author": "Microsoft Corporation",
+  "bugs": {
+    "url": "http://github.com/Azure/azure-sdk-for-node/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "Apache-2.0",
+  "version": "0.11.0",
+  "tags": [
+    "azure",
+    "sdk"
+  ],
+  "main": "./lib/servicebus.js",
+  "dependencies": {
+    "azure-common": "^0.9.19",
+    "underscore": "^1.8.3",
+    "wns": "~0.5.3",
+    "mpns": "2.1.3"
+  },
+  "scripts": {
+    "test": "npm -s run-script jshint"
+  },
+  "dist": {
+    "integrity": "sha512-ygUzezpR7z2ZGAF8WZ8Dlyl2TFoNgPnd+RL9lZF+LTI7IUp3h2bVU39uTKs4KqawvGc6hwlOR5lHVnWaqHqXlQ==",
+    "shasum": "2adb4ac1991c1aee1ccb8148e26f57f7fd7c327c",
+    "tarball": "https://registry.npmjs.org/azure-sb/-/azure-sb-0.11.0.tgz",
+    "fileCount": 25,
+    "unpackedSize": 260246,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq6vFCRA9TVsSAnZWagAAF70QAIgfUsf4QYJjFod4M5wb\nPLrJcMWMRlbnRMQR322xq+pS1L4qrNbNMvCoNH68dJtBy1iZvVaUpXA7saGt\nSM+ZPDcLQC2ym/8T/kYFw5Hc79EvdVBQcRyc6UQHc8dcyUVRj8NPBIYEgunH\nDEgss8z8kIhaJczHllIjzVGWwZrl/3q+lTzlyoujMjb3mjgXAUCuc3QN5Vzg\ncAzUZiwHzPursEvaWGgcfJsM97BKdS2sbTyeJs7RNlkOClEFPJe9cwjxK2jy\nBfh1YBh59oM94+0i5CZZMW+HlK9FhAMV062BzTk9lwc2V920/S5BMWxbxkdX\nlXEMLWzmnmfB0dNfFJMjnzz1fewFhptwvgH6/QUMuMi32gGqyb5LrcLbzYh5\n3AY5d6ppP6FcjktjYB60AnfbIoS13jk03atyVg28OBJVXvuEbjGocaKV3e94\n6Cy9w3qNC3R+WbOVilMtFlhSm4cdNKI04ZJMAPr+NsEh2bLaLdpY9zPxAnCr\nEsSnrf77nAqSdj0sxtFVcosfPslS2ehN8mt3ZMwF5K3yxMroUriK6SOB6JlE\nkPfyPYrhBOjdCAHpN8eMfwcnvAXiTbZLkOVccu1tby3l77ve2KytrR15hQS5\nVoOF8BzJObEe1FIFPQbydRPovWLLe3ru8srWoAiBVFBV95msOz4PPQXJvn+9\nyL0D\r\n=Qd4f\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

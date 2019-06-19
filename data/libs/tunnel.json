@@ -1,0 +1,88 @@
+{
+  "name": "tunnel",
+  "description": "Node HTTP/HTTPS Agents for tunneling proxies",
+  "dist-tags": {
+    "latest": "0.0.6"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "maintainers": [
+    "koichik <koichik@improvement.jp>"
+  ],
+  "time": {
+    "modified": "2019-01-05T16:49:12.880Z",
+    "created": "2012-02-11T17:22:49.174Z",
+    "0.0.0": "2012-02-11T17:22:52.172Z",
+    "0.0.1": "2012-02-18T07:35:24.487Z",
+    "0.0.2": "2012-08-04T14:08:54.973Z",
+    "0.0.3": "2014-01-20T09:53:22.299Z",
+    "0.0.4": "2016-01-22T16:45:22.020Z",
+    "0.0.5": "2017-06-12T13:27:38.716Z",
+    "0.0.6": "2018-09-11T06:39:15.596Z"
+  },
+  "author": "Koichi Kobayashi <koichik@improvement.jp>",
+  "users": {
+    "goinstant": true,
+    "zhangyaochun": true,
+    "dongxu": true,
+    "nex": true,
+    "matiasmarani": true,
+    "fedor": true,
+    "wfcookie": true,
+    "itskdk": true,
+    "mikestaub": true,
+    "nachbar90": true,
+    "eijs": true,
+    "ethanliew": true,
+    "bouchezb": true,
+    "garenyondem": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koichik/node-tunnel.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/koichik/node-tunnel/",
+  "keywords": [
+    "http",
+    "https",
+    "agent",
+    "proxy",
+    "tunnel"
+  ],
+  "bugs": {
+    "url": "https://github.com/koichik/node-tunnel/issues"
+  },
+  "license": "MIT",
+  "version": "0.0.6",
+  "main": "./index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "gitHead": "5fb2fb424788597146b7be6729006cad1cf9e9a8",
+  "dist": {
+    "integrity": "sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==",
+    "shasum": "72f1314b34a5b192db012324df2cc587ca47f92c",
+    "tarball": "https://registry.npmjs.org/tunnel/-/tunnel-0.0.6.tgz",
+    "fileCount": 12,
+    "unpackedSize": 64886,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbl2MUCRA9TVsSAnZWagAAqrEP/R0MbYv1F8/sAQjUUaoN\n0pGj5gt19rpoAEFzYHLI7mYC+AwmNgDrptMbmbFTNbLNGBpV6jt3QguQgaaK\nnS4MgcdNVEQwCtibXqSLYDn39MIOspxlKK8Z+aquc53A77AyM1aZcmnmm59G\nb6JmKNBBvzrJtcwWjdk4RQbkL+KKXLjNNIe0wPTWnZx9Rk142M1/Vbhqyp5r\nqLYnu7vih+S9g4RHKLH+Invwil5se06B6c0Tp75tGN2EyenRdPJFiy5qVuVh\nyJmuvOJNLmw3+FHPuU4uEH3cjLyXY34zsrjvn8g9jVqdrkY/ZKKcw76cQgT5\nmCuWRh9t3bHeMD9o2qlaxKJTKk2NAVDUdu6Q+RdcuMMyoepi5fiYZjRtFTYp\nIO0co1wuYuNNVbigi/V4/QCKOXC5NRWkbbbR6qQOGHNJ0GEQQVmvyraRNQRJ\nJHvqzn8EQnXRwVZJ6zdM0/bAh6LanitSYs4OEh8Nk7+CMVm/ZkHpV0IpCW1/\njBaOHBHrCH9TaeVNDc17o56JkFPhQSU8WqKv6tMLTc7N8+CuEHX/11I5YGTC\nqa//6tZRlWU80Os0YtA78QgonrOzbP7bQvO+k/JMdDzfOykCllmF254ns5Su\nly617muU1zQqlB9FHFIdGGvaStPUKz2IJgYlC0J6JylVtnChnKX0I220VcsP\nQbyz\r\n=EsRp\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

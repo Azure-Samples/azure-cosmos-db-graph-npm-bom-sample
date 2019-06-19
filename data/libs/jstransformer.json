@@ -1,0 +1,78 @@
+{
+  "name": "jstransformer",
+  "description": "Normalize the API of any jstransformer",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "hemanth <hemanth.hm@gmail.com>",
+    "robloach <robloach@gmail.com>",
+    "stoeffel <schtoeffel@gmail.com>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-10-28T01:20:04.303Z",
+    "created": "2014-11-18T17:19:18.314Z",
+    "0.0.0": "2014-11-18T17:19:18.314Z",
+    "0.0.1": "2015-02-09T22:32:01.028Z",
+    "0.0.2": "2015-04-12T02:57:12.696Z",
+    "0.0.3": "2015-07-13T10:20:49.591Z",
+    "0.0.4": "2015-11-23T10:35:17.137Z",
+    "1.0.0": "2016-06-06T01:13:09.732Z"
+  },
+  "homepage": "https://github.com/jstransformers/jstransformer#readme",
+  "keywords": [
+    "jstransformer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstransformers/jstransformer.git"
+  },
+  "author": "ForbesLindesay",
+  "bugs": {
+    "url": "https://github.com/jstransformers/jstransformer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "robloach": true,
+    "nelix": true,
+    "eshinn": true,
+    "seangenabe": true,
+    "dduran1967": true,
+    "zuojiang": true
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "is-promise": "^2.0.0",
+    "promise": "^7.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.4.0",
+    "testit": "^2.0.2"
+  },
+  "scripts": {
+    "test": "node test",
+    "coverage": "istanbul cover test",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "7cad069255989318fc5638228fd2fa54fe35992f",
+  "dist": {
+    "shasum": "ed8bf0921e2f3f1ed4d5c1a44f68709ed24722c3",
+    "tarball": "https://registry.npmjs.org/jstransformer/-/jstransformer-1.0.0.tgz"
+  },
+  "directories": {}
+}

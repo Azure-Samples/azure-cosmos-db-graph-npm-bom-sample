@@ -1,0 +1,78 @@
+{
+  "name": "encodeurl",
+  "description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2019-01-03T18:58:49.700Z",
+    "created": "2016-06-08T18:58:44.662Z",
+    "1.0.0": "2016-06-08T18:58:44.662Z",
+    "1.0.1": "2016-06-10T00:48:58.829Z",
+    "1.0.2": "2018-01-22T03:19:29.733Z"
+  },
+  "homepage": "https://github.com/pillarjs/encodeurl#readme",
+  "keywords": [
+    "encode",
+    "encodeurl",
+    "url"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pillarjs/encodeurl.git"
+  },
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/pillarjs/encodeurl/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "antixrist": true,
+    "mojaray2k": true,
+    "mobeicaoyuan": true,
+    "icodeforcookies": true
+  },
+  "version": "1.0.2",
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "2.5.3"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "README.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "1a7301e330bf20fd7c8c173102315e45cd1f5d1e",
+  "dist": {
+    "shasum": "ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59",
+    "tarball": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
+  },
+  "directories": {}
+}

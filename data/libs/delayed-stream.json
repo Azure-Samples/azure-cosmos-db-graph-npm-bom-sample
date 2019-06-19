@@ -1,0 +1,72 @@
+{
+  "name": "delayed-stream",
+  "description": "Buffers events from a stream until you are ready to handle them.",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "felixge <felix@debuggable.com>",
+    "apechimp <apeherder@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-28T04:09:04.959Z",
+    "created": "2011-05-22T13:50:32.615Z",
+    "0.0.0": "2011-05-22T13:50:34.131Z",
+    "0.0.1": "2011-05-22T20:51:10.182Z",
+    "0.0.2": "2011-05-22T20:54:55.117Z",
+    "0.0.3": "2011-05-22T21:39:43.149Z",
+    "0.0.4": "2011-05-24T08:02:37.327Z",
+    "0.0.5": "2011-05-24T08:09:45.283Z",
+    "0.0.6": "2014-11-23T13:53:23.249Z",
+    "0.0.7": "2015-04-30T21:58:57.409Z",
+    "1.0.0": "2015-04-30T22:10:29.726Z"
+  },
+  "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felixge/node-delayed-stream.git"
+  },
+  "homepage": "https://github.com/felixge/node-delayed-stream",
+  "bugs": {
+    "url": "https://github.com/felixge/node-delayed-stream/issues"
+  },
+  "readmeFilename": "Readme.md",
+  "contributors": [
+    "Mike Atkins <apeherder@gmail.com>"
+  ],
+  "license": "MIT",
+  "users": {
+    "mojaray2k": true,
+    "ganeshkbhat": true
+  },
+  "version": "1.0.0",
+  "main": "./lib/delayed_stream",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "fake": "0.2.0",
+    "far": "0.0.1"
+  },
+  "gitHead": "07a9dc99fb8f1a488160026b9ad77493f766fb84",
+  "dist": {
+    "shasum": "df3ae199acadfb7d440aaae0b29e2272b24ec619",
+    "tarball": "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
+  },
+  "directories": {}
+}

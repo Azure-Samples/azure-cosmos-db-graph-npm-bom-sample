@@ -1,0 +1,136 @@
+{
+  "name": "proxy-addr",
+  "description": "Determine address of proxied request",
+  "dist-tags": {
+    "latest": "2.0.5"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2019-04-16T16:29:47.144Z",
+    "created": "2014-05-05T02:38:49.512Z",
+    "0.0.0": "2014-05-05T02:38:49.512Z",
+    "0.0.1": "2014-05-05T02:44:46.419Z",
+    "1.0.0": "2014-05-08T14:52:39.430Z",
+    "1.0.1": "2014-06-03T14:49:59.893Z",
+    "1.0.2": "2014-09-18T17:32:14.933Z",
+    "1.0.3": "2014-09-21T19:40:43.122Z",
+    "1.0.4": "2014-11-23T20:35:27.606Z",
+    "1.0.5": "2015-01-09T03:16:54.215Z",
+    "1.0.6": "2015-02-01T19:54:32.976Z",
+    "1.0.7": "2015-03-17T04:47:05.972Z",
+    "1.0.8": "2015-05-11T02:56:29.699Z",
+    "1.0.9": "2015-12-01T20:55:36.227Z",
+    "1.0.10": "2015-12-10T03:27:48.082Z",
+    "1.1.0": "2016-05-02T06:20:13.693Z",
+    "1.1.1": "2016-05-04T04:12:38.179Z",
+    "1.1.2": "2016-05-30T01:56:19.142Z",
+    "1.1.3": "2017-01-15T06:01:02.224Z",
+    "1.1.4": "2017-03-24T22:57:34.521Z",
+    "1.1.5": "2017-07-26T01:00:40.146Z",
+    "2.0.0": "2017-08-09T03:00:17.324Z",
+    "2.0.1": "2017-09-11T01:11:33.860Z",
+    "2.0.2": "2017-09-25T01:41:05.676Z",
+    "2.0.3": "2018-02-20T04:46:17.003Z",
+    "2.0.4": "2018-07-26T18:34:07.754Z",
+    "2.0.5": "2019-04-16T16:29:44.431Z"
+  },
+  "homepage": "https://github.com/jshttp/proxy-addr#readme",
+  "keywords": [
+    "ip",
+    "proxy",
+    "x-forwarded-for"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/proxy-addr.git"
+  },
+  "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "bugs": {
+    "url": "https://github.com/jshttp/proxy-addr/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "nathantu": true,
+    "robermac": true,
+    "markthethomas": true,
+    "simplyianm": true,
+    "nex": true,
+    "mojaray2k": true,
+    "wangnan0610": true,
+    "rocket0191": true,
+    "quafoo": true,
+    "mariusc23": true,
+    "zzz1233210731": true,
+    "ganeshkbhat": true,
+    "isayme": true
+  },
+  "version": "2.0.5",
+  "dependencies": {
+    "forwarded": "~0.1.2",
+    "ipaddr.js": "1.9.0"
+  },
+  "devDependencies": {
+    "benchmark": "2.1.4",
+    "beautify-benchmark": "0.2.4",
+    "deep-equal": "1.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.17.1",
+    "eslint-plugin-markdown": "1.0.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "mocha": "6.1.3",
+    "nyc": "13.3.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "bench": "node benchmark/index.js",
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "nyc --reporter=text npm test",
+    "test-travis": "nyc --reporter=html --reporter=text npm test"
+  },
+  "gitHead": "6dec756fafa35a2666e0f298a82ea6b1ac504f52",
+  "dist": {
+    "integrity": "sha512-t/7RxHXPH6cJtP0pRG6smSr9QJidhB+3kXu0KgXnbGYMgzEnUxRQ4/LDdfOwZEMyIh3/xHb8PX3t+lfL9z+YVQ==",
+    "shasum": "34cbd64a2d81f4b1fd21e76f9f06c8a45299ee34",
+    "tarball": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.5.tgz",
+    "fileCount": 5,
+    "unpackedSize": 15475,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctgL5CRA9TVsSAnZWagAA/YQP/2wTt4ACbgaN+8tJspqr\nIAPCxN9E559sCCjGf3fneSCUOl0IvxT32Ao9Ue8vYyWyCjf+YIBbp1TO9ZAL\nJc54x/0mKjozz0pKideKOaUGv5R8BLDsxH+bWhXNkcgROj0TDYpUHmDVH89n\n/0/7auhigu++wbh8Fhcq7bciUhfCeajUprc1zjeqvTfSnDywl4ZhgM1EKvcL\nddXoczeIXiXgf1yC5ZNqVZSl8umaVbCC9MUnW0/zRWmzFN4sFPa5cHfMdiN0\nPK4cKqvrzu7RFQQSRKbp8DhI87/RS/r84AoJWSNoHWFfzYNZLArdqf0Ry5Cm\n2zmTlzfKyeLeK5kyCBmzc6JRlaseMDb0S8owIxDM0rIcWzyYsfrTTc4f6yNF\naFaPU/cPdYYuzdFnV8HelkO+04/NCVMl21oHuBhdL20mrWi4g03lfWPnovE4\nI8p4MTaxAlbDTmYOcpevz3Dytl5m2xE4zu0kRrC9j35r9Yrr1Xf3tTphi8bF\nIBE53bbY4Yq79AM17O8WiKETPI+bx398e++5PBFB/6m/tzU1lsRE61GNqM90\nGxUqmc/vG+xIPZUYPvGIhJ+l0VIDrcCIKWdvVQTYinN6nmTnQZwNLMpuRDWH\nL6IxtUF7Bq5hPku9BMa58UhqkBdJ7dIC12+NO9/XGgA80nHaURTNvAXWOxMY\nssnp\r\n=fWr9\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

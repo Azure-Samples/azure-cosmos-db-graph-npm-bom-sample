@@ -1,0 +1,61 @@
+{
+  "name": "packet-reader",
+  "description": "Read binary packets...",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "brianc <brian.m.carlson@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-02-20T15:41:23.300Z",
+    "created": "2013-12-31T04:09:16.467Z",
+    "0.0.0": "2013-12-31T04:09:16.941Z",
+    "0.1.0": "2014-03-14T10:51:44.888Z",
+    "0.2.0": "2014-03-14T11:15:19.125Z",
+    "0.2.1": "2016-11-30T15:10:22.335Z",
+    "0.3.0": "2016-11-30T15:47:55.564Z",
+    "0.3.1": "2017-05-12T15:23:58.577Z",
+    "1.0.0": "2019-02-20T15:41:20.604Z"
+  },
+  "author": "Brian M. Carlson",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/node-packet-reader.git"
+  },
+  "homepage": "https://github.com/brianc/node-packet-reader",
+  "bugs": {
+    "url": "https://github.com/brianc/node-packet-reader/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.5"
+  },
+  "gitHead": "dceac2f7da94e42b57f95f8d53577136505c8902",
+  "dist": {
+    "integrity": "sha512-HAKu/fG3HpHFO0AA8WE8q2g+gBJaZ9MG7fcKk+IJPLTGAD6Psw4443l+9DGRbOIh3/aXr7Phy0TjilYivJo5XQ==",
+    "shasum": "9238e5480dedabacfe1fe3f2771063f164157d74",
+    "tarball": "https://registry.npmjs.org/packet-reader/-/packet-reader-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10023,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcbXUhCRA9TVsSAnZWagAAstsP/3lIqQsFVAuWDB4VdZhK\nJekZ9Q11LUGXCsORlfTNBCwGh35OTy2GnaHQKBbQiVFuaBllpR2qWpW6/Cbw\nCZ1IW5A194IhjQQbKaZK/rorbUUvTHSd7tVa8/u34Hl7fuvleUQTL47/M6tr\nJksQhkNAO/KGQagSOZcIyfrldCeKpvOw2Ekg+hJTyUSfyBd1IyAd5bcvO33D\nAYmLrmX0X0BqGpkKYIjbAzRLR4spiPCbYKSR7l2m4iEPrN5OG8gfy0c8JkqZ\n5Y0qGshBi0hJjvIBVedgKcK9rp2GSLPOIdvv6jV9xg4O4ZRBC+RoU+nLSpA/\nx9l36DyUAOaeB541h9O3enpst1MZVvE/OetMhovzNxiSkzAZQ9SVR5gpcdY8\n8bcRhcijoIRuQP+M9uAmyGvQAABbET3qxXsgQ2mx+0VzvGw1Cgt+ACV4Ij0P\noIMX0hhT1yQSlXSkLI9R/1uLWFyN45Ek6kcg85eeYKglnmQjOkb7gsTcwALS\nr11LelsL3215EivqiutjPQBQnfxbVKcm5BH/ayqlIjSjrWWGNzz0RSmzTWym\naHDheAB/RQDAhUomhZiV//HRVNti1kKCN+2mHO1tjUaLPD/qOA5kz/aK4en1\nf2d6qcDp+WySx1E//6G+WEfRHI+07r8i1YeqLYn6jTsbuvtLC5ulYO/DZrwU\nxmOW\r\n=zx3O\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

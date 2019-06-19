@@ -1,0 +1,66 @@
+{
+  "name": "shebang-regex",
+  "description": "Regular expression for matching a shebang line",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-27T10:46:21.890Z",
+    "created": "2015-02-17T05:24:58.945Z",
+    "1.0.0": "2015-02-17T05:24:58.945Z",
+    "2.0.0": "2015-12-04T16:40:07.830Z",
+    "3.0.0": "2019-04-27T10:46:19.256Z"
+  },
+  "homepage": "https://github.com/sindresorhus/shebang-regex#readme",
+  "keywords": [
+    "regex",
+    "regexp",
+    "shebang",
+    "match",
+    "test",
+    "line"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/shebang-regex.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/shebang-regex/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "hualei": true
+  },
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "27a9a6f0f85c04b9c37a43cf7503fdb58f5ae8d6",
+  "dist": {
+    "integrity": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+    "shasum": "ae16f1644d873ecad843b0307b143362d4c42172",
+    "tarball": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2828,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcxDL7CRA9TVsSAnZWagAAWYAP/R5EbXIFL5aDT7Yavy5P\nrcZIWN4fQwwlFp/YdSocsX/lBlwgJ0axGZsoVxZ78y5TjJZbvJ+6YwYkUGuf\n4bCkNLWdnmI9xNdShULSc1gExlnH/+3ubiKoosm9hJ2z+5CFNB1OWmuxSIxw\nIo/6aSYhhzFmWDrwKkwB4fbb2SMMuyGnHCAq2TolakuSk75OJlHF7xRZWZ5k\nko/2f0CiSaP1OllRMBYWssHCAaEjdXqjOy1fCvoHgTw+aPYWZWnZSlKyQkzu\n20EAgEVhYQkiyZxNNCj40I6VTgr2mZnxTftZx49HwqfVs5qoU8DmCit+pMJd\nY+chiFfltBymUrF54j986kRUc/MkXNsWsRPFzzVg/9mOJAO+n9dW6rMcAM4f\nLbB7ZT5ah8PbgcXlUVCM4nEexLSFKFUhB9GATw/SSEgG/rTdd8sskIPb7lGj\nwMdqDvYh+oTc2r3r8Dl4lQRt/hrmHX3jk5Mf4de+IAPld5+9YDkqCcsev2w8\n44LoqmclULeuxcJPo2IA6K/gbKBmOjWjIuyBdV+8OX4xZFM4Eu9n1NTT7olT\nbGSIkVxASNiIqiatCMl5qqKnClqzY4F+bDVNe+KK6aaPvvV4ShktD4I682pH\nzULKVxadENPKGKhX/Y2xu7va9+GqbHTVwODuFH77n0AXf+BCirHFiKbGSqZg\nGT1V\r\n=FKXn\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

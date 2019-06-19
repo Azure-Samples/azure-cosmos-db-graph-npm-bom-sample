@@ -1,0 +1,104 @@
+{
+  "name": "make-iterator",
+  "description": "Convert an argument into a valid iterator. Based on the `.makeIterator()` implementation in mout https://github.com/mout/mout.",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "1.0.0",
+    "1.0.1",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2018-04-08T14:18:30.327Z",
+    "created": "2014-09-30T23:29:53.297Z",
+    "0.1.0": "2014-09-30T23:29:53.297Z",
+    "0.1.1": "2014-10-09T18:55:17.133Z",
+    "0.2.0": "2015-07-18T02:35:39.543Z",
+    "0.2.1": "2016-07-11T10:52:41.522Z",
+    "0.3.0": "2016-07-11T10:53:45.624Z",
+    "0.3.1": "2017-02-27T00:14:47.288Z",
+    "1.0.0": "2017-02-27T00:15:00.249Z",
+    "1.0.1": "2018-04-08T14:13:52.058Z",
+    "2.0.0": "2018-04-08T14:18:29.167Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/make-iterator",
+  "keywords": [
+    "arr",
+    "array",
+    "contains",
+    "for-own",
+    "forown",
+    "forOwn",
+    "function",
+    "iterate",
+    "iterator",
+    "make"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/make-iterator.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/make-iterator/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "2.0.0",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "kind-of": "^6.0.2"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "breakdance",
+        "micromatch",
+        "snapdragon"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "5dfb4e9e53b3fd9e5e3023fcd9a9861d5546a7c4",
+  "dist": {
+    "integrity": "sha512-zHnsDJEZlwYBosooMGEQhYgZw4C8qZZVZ2cER5camdlMb+GDrEOgoUCbfutsZK6aKT6hSHAgABWVjazXwkfMJw==",
+    "shasum": "7077b554e417f4f70f9abba7b880c57baae54baa",
+    "tarball": "https://registry.npmjs.org/make-iterator/-/make-iterator-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 7795
+  },
+  "directories": {}
+}

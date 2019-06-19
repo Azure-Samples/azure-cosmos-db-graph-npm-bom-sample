@@ -1,0 +1,97 @@
+{
+  "name": "har-schema",
+  "description": "JSON Schema for HTTP Archive (HAR)",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "esp <e.poberezkin@me.com>"
+  ],
+  "time": {
+    "modified": "2019-01-08T06:13:00.441Z",
+    "created": "2016-07-14T23:56:19.443Z",
+    "0.0.1": "2016-07-14T23:56:19.443Z",
+    "0.1.0": "2016-07-15T09:15:13.545Z",
+    "0.2.0": "2016-12-04T01:13:12.310Z",
+    "1.0.0": "2016-12-04T05:32:14.005Z",
+    "1.0.1": "2016-12-04T05:46:59.648Z",
+    "1.0.2": "2016-12-04T06:35:03.124Z",
+    "1.0.3": "2016-12-04T08:14:19.484Z",
+    "1.0.4": "2016-12-04T08:20:08.730Z",
+    "1.0.5": "2016-12-04T18:55:49.145Z",
+    "2.0.0": "2017-04-18T19:44:14.320Z"
+  },
+  "homepage": "https://github.com/ahmadnassri/har-schema",
+  "keywords": [
+    "har",
+    "http",
+    "archive",
+    "JSON",
+    "schema",
+    "JSON-schema"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadnassri/har-schema.git"
+  },
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/har-schema/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Evgeny Poberezkin <e.poberezkin@me.com>"
+  ],
+  "users": {
+    "josudoey": true,
+    "hualei": true
+  },
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "tap test --reporter spec",
+    "pretest": "snazzy && echint",
+    "coverage": "tap test --reporter silent --coverage",
+    "codeclimate": "tap --coverage-report=text-lcov | codeclimate-test-reporter",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "ajv": "^5.0.0",
+    "codeclimate-test-reporter": "^0.4.0",
+    "cz-conventional-changelog": "^1.2.0",
+    "echint": "^2.1.0",
+    "semantic-release": "^6.3.2",
+    "snazzy": "^5.0.0",
+    "tap": "^8.0.1"
+  },
+  "gitHead": "d006b0500e083a5b3e42635f110f3fb702ccdbb1",
+  "dist": {
+    "shasum": "a94c2224ebcac04782a0d9035521f24735b7ec92",
+    "tarball": "https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz"
+  },
+  "directories": {}
+}

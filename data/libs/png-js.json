@@ -1,0 +1,47 @@
+{
+  "name": "png-js",
+  "description": "A PNG decoder in CoffeeScript",
+  "dist-tags": {
+    "latest": "0.1.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1"
+  ],
+  "maintainers": [
+    "devongovett <devongovett@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-07-01T08:26:08.965Z",
+    "created": "2012-04-07T04:42:44.455Z",
+    "0.1.0": "2012-04-07T04:42:45.730Z",
+    "0.1.1": "2012-11-21T23:17:13.830Z"
+  },
+  "author": "Devon Govett <devongovett@gmail.com> (http://badassjs.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devongovett/png.js.git"
+  },
+  "users": {
+    "bonez": true,
+    "heineiuo": true
+  },
+  "version": "0.1.1",
+  "bugs": "http://github.com/devongovett/png.js/issues",
+  "devDependencies": {
+    "coffee-script": ">=1.0.1"
+  },
+  "scripts": {
+    "prepublish": "coffee -c png-node.coffee"
+  },
+  "main": "png-node.js",
+  "engine": [
+    "node >= v0.6.0"
+  ],
+  "readme": "png.js\n======\nA PNG decoder in JS for the canvas element or Node.js.\n\n## Browser Usage\nSimply include png.js and zlib.js on your HTML page, create a canvas element, and call PNG.load to load an image.\n\n    <canvas></canvas>\n    <script src=\"zlib.js\"></script>\n    <script src=\"png.js\"></script>\n    <script>\n        var canvas = document.getElementsByTagName('canvas')[0];\n        PNG.load('some.png', canvas);\n    </script>\n    \nThe source code for the browser version resides in `png.js` and also supports loading and displaying animated PNGs.\n    \n## Node.js Usage\nInstall the module using npm\n\n    sudo npm install png-js\n    \nRequire the module and decode a PNG\n\n    var PNG = require('png-js');\n    PNG.decode('some.png', function(pixels) {\n        // pixels is a 1d array of decoded pixel data\n    });\n    \nYou can also call `PNG.load` if you want to load the PNG (but not decode the pixels) synchronously.  If you already\nhave the PNG data in a buffer, simply use `new PNG(buffer)`.  In both of these cases, you need to call `png.decode`\nyourself which passes your callback the decoded pixels as a buffer.  If you already have a buffer you want the pixels\ncopied to, call `copyToImageData` with your buffer and the decoded pixels as returned from `decodePixels`.",
+  "dist": {
+    "shasum": "1cc7c212303acabe74263ec3ac78009580242d93",
+    "tarball": "https://registry.npmjs.org/png-js/-/png-js-0.1.1.tgz"
+  },
+  "directories": {}
+}

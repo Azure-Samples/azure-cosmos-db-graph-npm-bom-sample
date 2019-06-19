@@ -1,0 +1,54 @@
+{
+  "name": "pend",
+  "description": "dead-simple optimistic async helper",
+  "dist-tags": {
+    "latest": "1.2.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.2.0"
+  ],
+  "maintainers": [
+    "superjoe <superjoe30@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-06-09T13:08:09.701Z",
+    "created": "2013-08-02T06:43:13.047Z",
+    "1.0.0": "2013-08-02T06:43:14.314Z",
+    "1.1.0": "2013-08-10T18:10:53.649Z",
+    "1.1.1": "2013-09-24T07:32:33.755Z",
+    "1.1.2": "2014-07-05T07:41:37.829Z",
+    "1.1.3": "2014-08-20T23:34:46.349Z",
+    "1.2.0": "2014-11-23T21:52:52.675Z"
+  },
+  "author": "Andrew Kelley <superjoe30@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewrk/node-pend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewrk/node-pend/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "tenaciousmv": true,
+    "debearloper": true,
+    "jeremygaither": true
+  },
+  "version": "1.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "gitHead": "ed57bbe8520518dca24d0c6bb847ffb6b68ae6f9",
+  "dist": {
+    "shasum": "7a57eb550a6783f9115331fcf4663d5c8e007a50",
+    "tarball": "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz"
+  },
+  "directories": {}
+}

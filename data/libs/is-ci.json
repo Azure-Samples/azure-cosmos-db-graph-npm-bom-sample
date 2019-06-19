@@ -1,0 +1,96 @@
+{
+  "name": "is-ci",
+  "description": "Detect if the current environment is a CI server",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "watson <w@tson.dk>"
+  ],
+  "time": {
+    "modified": "2019-01-04T05:37:01.129Z",
+    "created": "2015-10-07T23:49:36.993Z",
+    "1.0.0": "2015-10-07T23:49:36.993Z",
+    "1.0.1": "2015-10-08T00:12:22.827Z",
+    "1.0.2": "2015-10-08T10:36:38.039Z",
+    "1.0.3": "2015-10-08T10:47:20.467Z",
+    "1.0.4": "2015-10-08T11:12:25.410Z",
+    "1.0.5": "2015-10-15T09:04:19.368Z",
+    "1.0.6": "2015-10-16T16:41:30.759Z",
+    "1.0.7": "2015-10-16T16:42:38.626Z",
+    "1.0.8": "2016-02-12T18:40:05.201Z",
+    "1.0.9": "2016-07-07T21:14:12.675Z",
+    "1.0.10": "2016-10-20T16:09:11.830Z",
+    "1.1.0": "2018-01-03T15:43:54.241Z",
+    "1.2.0": "2018-08-16T09:06:56.543Z",
+    "1.2.1": "2018-09-09T07:49:19.379Z",
+    "2.0.0": "2018-12-05T21:49:50.810Z"
+  },
+  "homepage": "https://github.com/watson/is-ci",
+  "keywords": [
+    "ci",
+    "continuous",
+    "integration",
+    "test",
+    "detect"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/is-ci.git"
+  },
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "bugs": {
+    "url": "https://github.com/watson/is-ci/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "heartnett": true
+  },
+  "version": "2.0.0",
+  "bin": {
+    "is-ci": "bin.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "ci-info": "^2.0.0"
+  },
+  "devDependencies": {
+    "clear-module": "^3.0.0",
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "coordinates": [
+    55.778272,
+    12.593116
+  ],
+  "gitHead": "8b88365d804abc1905ca93f312e99cf95b48fc8a",
+  "dist": {
+    "integrity": "sha512-YfJT7rkpQB0updsdHLGWrvhBJfcfzNNawYDNIyQXJz0IViGf75O8EBPKSdvw2rF+LGCsX4FZ8tcr3b19LcZq4w==",
+    "shasum": "6bc6334181810e04b5c22b3d589fdca55026404c",
+    "tarball": "https://registry.npmjs.org/is-ci/-/is-ci-2.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 3581,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCEf/CRA9TVsSAnZWagAAMvwP/1cV6uY9uye3xn2vM6vC\nMAhvaWd12GWmBg9POPhJaGi9KwhnaogbAVPHV5hhRiecrhiVXmn/Zu0T/rHt\nIkwPTeZsZ8OH4PkucIEEquj76bSJAV3oGoEWD1j3xZmCw3euSM3qsbiioYDS\nMiOBUVXhfLFZpQ3VqbN7I7L6LeuD1TDWER4rKPAl7qQO5rDgNNhk2T8KR1r/\nwiRI6YYtD1mhPF6RhUAFjUS0mT14NJ+PT+2U0c2FO8ubKb01cUk+xWCAhxax\nj6ebQnpRYDeZqICPpNOdJyenOAmsAZbFbo6vWE8M2AO/j/8+X7+P/kocdKWz\n4xrXdkM3g2Iuy+muIR9WkroWH++r3553Ni7GR1vI0qL49hlm/93zh5Vsc93a\n+VbreKYr6FzcBH+j47LG+P9TO+DZ5medQxr9U8t0WcnK0+nPW62SUoEfzryt\n6dnxeHsSRCTCQDfbgKU7s4rvG7hFmMlHH29MYVFAIwWvSJjXIlUqDsD75DwM\nKoWqNZixUYC3024ioZNxhK8bjr7Vsf6aFmplTt0aILMDuGtKwBzA9ZcijhTQ\nhPdEs24sEly9jeLastC6kvJPKxYeqZkPHvtLjWuKZ3QZMlCQN24QFWSLh2rv\nrLMR55eow/XuPO6hEqlRhSN0W4TTppsoBiravL42eK41ylzd+l80ICLTh+CZ\npcQS\r\n=YX5I\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

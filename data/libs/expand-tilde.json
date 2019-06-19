@@ -1,0 +1,116 @@
+{
+  "name": "expand-tilde",
+  "description": "Bash-like tilde expansion for node.js. Expands a leading tilde in a file path to the user home directory, or `~+` to the cwd.",
+  "dist-tags": {
+    "latest": "2.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2"
+  ],
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2017-08-06T00:08:39.990Z",
+    "created": "2015-01-19T23:41:37.276Z",
+    "1.0.0": "2015-01-19T23:41:37.276Z",
+    "1.0.1": "2015-01-19T23:43:44.319Z",
+    "1.1.0": "2015-01-19T23:51:58.174Z",
+    "1.2.0": "2015-01-22T02:33:55.894Z",
+    "1.2.1": "2016-04-07T20:07:28.573Z",
+    "1.2.2": "2016-06-05T10:06:13.833Z",
+    "2.0.0": "2016-10-18T17:39:28.475Z",
+    "2.0.1": "2016-10-18T17:56:09.284Z",
+    "2.0.2": "2016-12-08T05:29:17.146Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/expand-tilde",
+  "keywords": [
+    "cwd",
+    "expand",
+    "expansion",
+    "filepath",
+    "home",
+    "path",
+    "pwd",
+    "tilde",
+    "user",
+    "userhome"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/expand-tilde.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/expand-tilde/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "david-martin": true,
+    "battlemidget": true,
+    "jonschlinkert": true,
+    "rivy": true,
+    "rsaa": true,
+    "shrimpseaweed": true
+  },
+  "version": "2.0.2",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.9",
+    "is-windows": "^0.2.0",
+    "mocha": "^2.5.3"
+  },
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "braces",
+        "expand-brackets",
+        "is-glob",
+        "micromatch"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "dependencies": {
+    "homedir-polyfill": "^1.0.1"
+  },
+  "gitHead": "2389f5d93903c43bc26ed57b02a24b432d1dee89",
+  "dist": {
+    "shasum": "97e801aa052df02454de46b02bf621642cdc8502",
+    "tarball": "https://registry.npmjs.org/expand-tilde/-/expand-tilde-2.0.2.tgz"
+  },
+  "directories": {}
+}

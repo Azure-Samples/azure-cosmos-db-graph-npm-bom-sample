@@ -1,0 +1,35 @@
+{
+  "name": "azure-cosmos-db-graph-npm-bom-sample-webapp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Node.js and Express Web App for this NPM/BOM project",
+  "author": "Chris Joakim",
+  "license": "",
+  "keywords": [],
+  "main": "app.js",
+  "dependencies": {
+    "@azure/cosmos": "^2.1.5",
+    "async": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "express-session": "^1.16.2",
+    "gremlin": "^3.4.2",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "numeral": "^2.0.6",
+    "pug": "^2.0.4",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-develop": "^0.4.0",
+    "grunt-contrib-stylus": "^1.0.0",
+    "load-grunt-tasks": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node bin/www"
+  }
+}

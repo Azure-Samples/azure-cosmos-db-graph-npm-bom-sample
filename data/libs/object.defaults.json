@@ -1,0 +1,100 @@
+{
+  "name": "object.defaults",
+  "description": "Like `extend` but only copies missing properties/values to the target object.",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>",
+    "phated <blaine.bublitz@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-04-26T18:26:00.510Z",
+    "created": "2014-10-12T02:01:00.992Z",
+    "0.1.0": "2014-10-12T02:01:00.992Z",
+    "0.2.0": "2015-02-25T11:48:47.917Z",
+    "0.3.0": "2015-04-19T11:03:09.820Z",
+    "1.0.0": "2017-03-02T19:26:02.792Z",
+    "1.1.0": "2017-04-26T18:26:00.510Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/object.defaults",
+  "keywords": [
+    "copy",
+    "default",
+    "defaults",
+    "extend",
+    "javascript",
+    "js",
+    "merge",
+    "object",
+    "properties",
+    "property",
+    "util",
+    "utils",
+    "value",
+    "values"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/object.defaults.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/object.defaults/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Sobolev Nikita <mail@sobolevn.me> (https://github.com/sobolevn)"
+  ],
+  "version": "1.1.0",
+  "files": [
+    "index.js",
+    "immutable.js",
+    "mutable.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "array-each": "^1.0.1",
+    "array-slice": "^1.0.0",
+    "for-own": "^1.0.0",
+    "isobject": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "9c2ebcb48968ab3cd1e5ebe84b55b6c926a2a3e8",
+  "dist": {
+    "shasum": "3a7f868334b407dea06da16d88d5cd29e435fecf",
+    "tarball": "https://registry.npmjs.org/object.defaults/-/object.defaults-1.1.0.tgz"
+  },
+  "directories": {}
+}

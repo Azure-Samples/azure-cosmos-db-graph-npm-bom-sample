@@ -1,0 +1,123 @@
+{
+  "name": "etag",
+  "description": "Create simple HTTP ETags",
+  "dist-tags": {
+    "latest": "1.8.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0",
+    "1.3.1",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "1.6.0",
+    "1.7.0",
+    "1.8.0",
+    "1.8.1"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2019-01-09T05:26:21.676Z",
+    "created": "2014-05-18T11:14:58.281Z",
+    "1.0.0": "2014-05-18T11:14:58.281Z",
+    "1.0.1": "2014-08-24T23:28:33.196Z",
+    "1.1.0": "2014-08-25T02:07:34.113Z",
+    "1.2.0": "2014-08-25T04:09:33.706Z",
+    "1.2.1": "2014-08-30T03:58:39.314Z",
+    "1.3.0": "2014-08-30T04:25:31.815Z",
+    "1.3.1": "2014-09-14T16:54:11.346Z",
+    "1.4.0": "2014-09-21T18:47:20.760Z",
+    "1.5.0": "2014-10-14T04:48:49.796Z",
+    "1.5.1": "2014-11-20T07:06:45.217Z",
+    "1.6.0": "2015-05-11T02:11:35.427Z",
+    "1.7.0": "2015-06-09T03:38:54.614Z",
+    "1.8.0": "2017-02-19T03:42:17.486Z",
+    "1.8.1": "2017-09-13T02:43:44.422Z"
+  },
+  "homepage": "https://github.com/jshttp/etag#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/etag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jshttp/etag/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "etag",
+    "http",
+    "res"
+  ],
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "David Björklund <david.bjorklund@gmail.com>"
+  ],
+  "users": {
+    "simplyianm": true,
+    "program247365": true,
+    "blitzprog": true,
+    "liushoukai": true,
+    "wangnan0610": true,
+    "yesseecity": true,
+    "shanoor": true,
+    "mojaray2k": true,
+    "makediff": true,
+    "fistynuts": true,
+    "myprlab": true,
+    "tdevm": true,
+    "kankungyip": true,
+    "kodekracker": true,
+    "xtx1130": true,
+    "gfilip": true,
+    "allen_lyu": true,
+    "wxttxw125": true,
+    "bracken": true,
+    "hualei": true
+  },
+  "version": "1.8.1",
+  "devDependencies": {
+    "beautify-benchmark": "0.2.4",
+    "benchmark": "2.1.4",
+    "eslint": "3.19.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-markdown": "1.0.0-beta.6",
+    "eslint-plugin-node": "5.1.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "1.21.5",
+    "safe-buffer": "5.1.1",
+    "seedrandom": "2.4.3"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "README.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "bench": "node benchmark/index.js",
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "9b1e3e41df31cda4080833c187120b91a7ce8327",
+  "dist": {
+    "shasum": "41ae2eeb65efa62268aebfea83ac7d79299b0887",
+    "tarball": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
+  },
+  "directories": {}
+}

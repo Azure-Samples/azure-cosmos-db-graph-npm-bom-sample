@@ -1,0 +1,81 @@
+{
+  "name": "term-size",
+  "description": "Reliably get the terminal window size (columns & rows)",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "2.0.0",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-25T12:04:52.097Z",
+    "created": "2016-09-09T16:31:12.110Z",
+    "0.1.0": "2016-09-09T16:31:12.110Z",
+    "0.1.1": "2017-02-03T07:17:01.084Z",
+    "1.0.0": "2017-05-06T17:24:00.896Z",
+    "1.1.0": "2017-05-07T09:33:42.445Z",
+    "1.2.0": "2017-06-26T16:42:25.267Z",
+    "2.0.0": "2019-04-28T15:28:16.470Z",
+    "2.1.0": "2019-05-25T12:04:49.572Z"
+  },
+  "homepage": "https://github.com/sindresorhus/term-size#readme",
+  "keywords": [
+    "terminal",
+    "size",
+    "console",
+    "window",
+    "width",
+    "height",
+    "columns",
+    "rows",
+    "lines",
+    "tty",
+    "redirected"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/term-size.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/term-size/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true,
+    "hugojosefson": true
+  },
+  "version": "2.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "execa": "^1.0.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "c676a8973fda2ec82e9f2781b5f59d3be5fc71d8",
+  "dist": {
+    "integrity": "sha512-I42EWhJ+2aeNQawGx1VtpO0DFI9YcfuvAMNIdKyf/6sRbHJ4P+ZQ/zIT87tE+ln1ymAGcCJds4dolfSAS0AcNg==",
+    "shasum": "3aec444c07a7cf936e157c1dc224b590c3c7eef2",
+    "tarball": "https://registry.npmjs.org/term-size/-/term-size-2.1.0.tgz",
+    "fileCount": 9,
+    "unpackedSize": 45343,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc6S9iCRA9TVsSAnZWagAATdIQAJx5oVlvrLbI2w+Jrmzh\nHqOa54BqFze4Bkw6C+mzsptApThpWyuZhfBiMkmyF1c4wAPhkrVnr838mvla\n8V/ItSMvTLBXPO3r+cxGfcugeTMueEY2b52ofU3p0ByuwmRuAhrZGNtHcBwO\nksMaL34vx/wouQNWRZOy5cU9b5nVUnZLk+9BPzJkvtQ/VYKnCGScarHxqa6y\nBzOnrZOh0rpLAnGLcWBA4nghP6pyj82wNiiMdnXCMR4YLywD/sp4zHBspvtP\nVsEa91PVLisom0rTz/NMDkjfKefOA2peVxbPfn4yRTkoXcHVYVQYfU0a8zdR\ncgXrtcIwt9XRH1gqsh56uVAnJ8IHbSsYTZj7gyf1/1tElukFK15NEugVX2PQ\nUbdGjBQOL2IgqopDStDpBhS0ck6ezTPuTY1RbcGtsux5Bf2RX/vTtBV7Hy04\nkzSJnoe5HdMKW4g7xGZZsvDG1xcCuf+zToo3dnXetEIJYsKzEtcAW1DHiEk6\ndP1QhdjypjY4pw/V4XUtSa0QZaBq/mEXxG2k3seojF7KnW09KMFuvrCkPm/B\n88qYUsV6KiKHTG7wD7lcfHKIEpME+IHY65539HwR6IyuZ5o8NdE2TajNG6WQ\nYVb2YMu8CMZLJDtT+b3qyEYyPKisw87O6hHmod4zqWeYcguiWgf228Kbn22Y\nqFgs\r\n=nqMa\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

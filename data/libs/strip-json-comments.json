@@ -1,0 +1,119 @@
+{
+  "name": "strip-json-comments",
+  "description": "Strip comments from JSON. Lets you use comments in your JSON files!",
+  "dist-tags": {
+    "latest": "3.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "2.0.0",
+    "2.0.1",
+    "3.0.0",
+    "3.0.1"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-30T17:11:22.128Z",
+    "created": "2013-11-17T15:19:04.627Z",
+    "0.1.0": "2013-11-17T15:19:07.474Z",
+    "0.1.1": "2013-11-17T15:22:21.059Z",
+    "0.1.2": "2014-04-29T19:52:43.968Z",
+    "0.1.3": "2014-05-28T10:38:42.692Z",
+    "1.0.0": "2014-07-26T00:26:03.567Z",
+    "1.0.1": "2014-07-26T00:34:50.278Z",
+    "1.0.2": "2014-10-16T13:25:20.301Z",
+    "1.0.3": "2015-08-01T01:15:27.783Z",
+    "1.0.4": "2015-08-02T00:37:05.861Z",
+    "2.0.0": "2015-11-18T14:23:05.438Z",
+    "2.0.1": "2016-02-09T08:30:06.455Z",
+    "3.0.0": "2019-04-30T12:23:05.813Z",
+    "3.0.1": "2019-04-30T17:11:19.115Z"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/strip-json-comments.git"
+  },
+  "users": {
+    "forivall": true,
+    "beatak": true,
+    "prabhash1785": true,
+    "martl": true,
+    "calmwinds": true,
+    "yyscamper": true,
+    "backnight": true,
+    "dominik.palo": true,
+    "ianvanness": true,
+    "mojaray2k": true,
+    "mikestaub": true,
+    "joaquin.briceno": true,
+    "haihepeng": true,
+    "xngiser": true,
+    "usex": true,
+    "erikvold": true,
+    "becomethegamer": true,
+    "raycharles": true,
+    "mysticatea": true,
+    "tdmalone": true,
+    "gamersdelight": true,
+    "pftom": true,
+    "kwpeters": true,
+    "cr8tiv": true
+  },
+  "homepage": "https://github.com/sindresorhus/strip-json-comments#readme",
+  "keywords": [
+    "json",
+    "strip",
+    "comments",
+    "remove",
+    "delete",
+    "trim",
+    "multiline",
+    "parse",
+    "config",
+    "configuration",
+    "settings",
+    "util",
+    "env",
+    "environment"
+  ],
+  "bugs": {
+    "url": "https://github.com/sindresorhus/strip-json-comments/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "3.0.1",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd",
+    "bench": "matcha benchmark.js"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "matcha": "^0.7.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "7eb8be0decd8111ffcc21d2e9deec917657e220f",
+  "dist": {
+    "integrity": "sha512-VTyMAUfdm047mwKl+u79WIdrZxtFtn+nBxHeb844XBQ9uMNTuTHdx2hc5RiAJYqwTj3wc/xe5HLSdJSkJ+WfZw==",
+    "shasum": "85713975a91fb87bf1b305cca77395e40d2a64a7",
+    "tarball": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6334,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyIG3CRA9TVsSAnZWagAAoFkP/2Fg4JABehZLiTFnJiUw\n5ToGpDbTz2vg7WeG8U78uyTYEVQUfnEBnu/kpi9jzM+RWGR1JS/DBvq300kf\n2baOxBKgprjew2H+rMnuPj3eBJ0OXP+hNnzWxHQnlwmBDDHA/0CjnKdxD75z\nJV3X2KtIX/0/oK+c9rgVvcc+TUwAWMnu8J2HraEVQnUCXH0c/9foWBvKkbai\nzLyirUpRon01FzXgx7U/CII49KPFIUVALX+ME8PuAqUP4/iJQDbp8tIXSMeV\nCgcctZv26GgLXV9gyrKN+cRE4hcs2an8Ex0TVJigbd1V6mJWwsu2I8koVxSv\nPBGBDxw7jGaAad7uC0sAbp6q4kUC9Vo3WsRrL70khnfqcINhYDF9oc8xhNj5\nbAIYtp2oe3KR9vmNmKmv/wX9OhlT0fRJFmaNvRL+N0KqVQW0xYzdK+hoyCJe\nEq27Ng+ke/IXerDVv5Z9zaFDxb7Z5h+mC5FCSjlcHYb+eiESRfNzXUQuRVa5\n9Miedd+tcsoWe9EVts715PtArAlUxyy2I4qvdjERIYpG4LPnX0Rjcj6ZreI3\nE97wwEenIIVHhN8HSrCPRaI4FK9kmE3jsm1qc3T5Yy0meBrjiLTp3/6mmI8N\n0XV84neY0vC/0arYRytSZUBITysBU3KWSWzMGwMqf2IioV3hGtwySzDcylRH\n5rpw\r\n=e0gI\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

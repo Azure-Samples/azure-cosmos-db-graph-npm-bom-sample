@@ -1,0 +1,78 @@
+{
+  "name": "lcid",
+  "description": "Mapping between standard locale identifiers and Windows locale identifiers (LCID)",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-30T11:16:37.854Z",
+    "created": "2015-03-16T07:04:47.515Z",
+    "1.0.0": "2015-03-16T07:04:47.515Z",
+    "2.0.0": "2018-08-06T17:10:22.232Z",
+    "3.0.0": "2019-04-30T11:16:34.964Z"
+  },
+  "homepage": "https://github.com/sindresorhus/lcid#readme",
+  "keywords": [
+    "lcid",
+    "locale",
+    "string",
+    "id",
+    "identifier",
+    "windows",
+    "language",
+    "lang",
+    "map",
+    "mapping",
+    "convert",
+    "json",
+    "bcp47",
+    "ietf",
+    "tag"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/lcid.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/lcid/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "jeben": true
+  },
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "invert-kv": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "f33d7e0bfba7f8d821ab52d3aa6e04e9b55a5032",
+  "dist": {
+    "integrity": "sha512-cT68NXBqcByQPcYCoMArX8SI5SuzOTjF7nibqHlf24K01zYbFifLHaacZi8Ye3dvmBP9XaatbRO8uXM6YPHlSg==",
+    "shasum": "87b78ec4cdade463aa6380fd3d75972e07d0d20b",
+    "tarball": "https://registry.npmjs.org/lcid/-/lcid-3.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 7622,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyC6TCRA9TVsSAnZWagAABT0P/0cA2ZkXFffN3Dz5O1Z6\nhWeYX8zwiKiHYElOd6ODb/ZwLouw33CbpeIuD4/FDGO1yu9afahwMo1R9xLD\nDum09hlbcPDMs+ZHUXqeYCgw63q7p1th/BsbztjfnK/CKymgQCCtIcElTuh0\narCvVeREmzWB2Mucv/9eX6R1MguarYIOHNzmeefe705rq9KGOt6qmNSJzvLf\nhJJnwnnBs9volrjE4fA8NUUTEW2wQUjE78sC7X68bwF82wiD1mAOoUzkUfE4\npG27jRPj3USygOJsd5PPJLMj0hBosSr9n75JUG53J1nfFEbNnEIZnDobYv+K\n7THQ7jQYleOqO4Lmxg1gUffPG46SbVziyKwDVt+tuiKSInM6TNob/wjdWo9T\n/7m2eJWgJAp4gh64bOLEY0FA9Hjb2JTw0SptWVXPANSAStP5BnIyv7fnKpMG\nqeFEdW1zdmy90nGhxgaYSjWYcCuYKslUAAGVIiDpN6e5ZDYVg9IbwNOUeCc3\nRoqYYSzXhwkDv7NWwO2BdTG0J9vf358w5yrfmu8ZxRX64nP7eKvQj/lV5hDC\nTs0Vpj3V7PrSmfPNA6k7+kNdedU3QjDG7pFxxj3UmGFWZr2HZ3qh6IWe9O8T\nmHUK60cYgFze6O2o/XNbDr+cYOZy6Ttg/N/VWJB+UxQ5TeDNtKjl9Tkd+Pec\nyB1O\r\n=KHdF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

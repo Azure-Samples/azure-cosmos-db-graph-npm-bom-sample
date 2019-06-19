@@ -1,0 +1,72 @@
+{
+  "name": "d",
+  "description": "Property descriptor factory",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "medikoo <medikoo+npm@medikoo.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T19:57:18.476Z",
+    "created": "2013-06-20T11:13:43.686Z",
+    "0.1.0": "2013-06-20T11:13:46.851Z",
+    "0.1.1": "2014-04-24T15:41:11.066Z",
+    "1.0.0": "2015-12-04T11:39:09.506Z"
+  },
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/d.git"
+  },
+  "homepage": "https://github.com/medikoo/d#readme",
+  "keywords": [
+    "descriptor",
+    "es",
+    "ecmascript",
+    "ecma",
+    "property",
+    "descriptors",
+    "meta",
+    "properties"
+  ],
+  "bugs": {
+    "url": "https://github.com/medikoo/d/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "julien-f": true,
+    "goldenboy": true,
+    "program247365": true,
+    "estrattonbailey": true,
+    "antixrist": true,
+    "meagan": true,
+    "chiradanielp": true
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "es5-ext": "^0.10.9"
+  },
+  "devDependencies": {
+    "tad": "^0.2.4",
+    "xlint": "^0.2.2",
+    "xlint-jslint-medikoo": "^0.1.4"
+  },
+  "scripts": {
+    "lint": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
+    "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
+    "test": "node node_modules/tad/bin/tad"
+  },
+  "gitHead": "f9031455a5012c23bb85a3eec93007df302b3a64",
+  "dist": {
+    "shasum": "754bb5bfe55451da69a58b94d45f4c5b0462d58f",
+    "tarball": "https://registry.npmjs.org/d/-/d-1.0.0.tgz"
+  },
+  "directories": {}
+}

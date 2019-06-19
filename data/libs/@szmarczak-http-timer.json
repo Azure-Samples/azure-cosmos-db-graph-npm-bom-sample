@@ -1,0 +1,110 @@
+{
+  "name": "@szmarczak/http-timer",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0"
+  ],
+  "time": {
+    "created": "2018-08-24T19:38:41.369Z",
+    "1.0.0": "2018-08-24T19:38:41.692Z",
+    "modified": "2019-04-20T19:15:02.413Z",
+    "1.0.1": "2018-08-24T19:54:03.960Z",
+    "1.0.2": "2018-08-25T08:12:32.976Z",
+    "1.1.0": "2018-08-31T10:50:40.690Z",
+    "1.1.1": "2018-08-31T17:09:36.011Z",
+    "1.1.2": "2019-01-04T16:38:57.153Z",
+    "2.0.0": "2019-04-20T19:14:59.810Z"
+  },
+  "maintainers": [
+    "szmarczak <sz.marczak@gmail.com>"
+  ],
+  "description": "Timings for HTTP requests",
+  "homepage": "https://github.com/szmarczak/http-timer#readme",
+  "keywords": [
+    "http",
+    "https",
+    "timer",
+    "timings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szmarczak/http-timer.git"
+  },
+  "author": "Szymon Marczak",
+  "bugs": {
+    "url": "https://github.com/szmarczak/http-timer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.0",
+  "main": "dist",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && nyc ava",
+    "build": "del-cli dist && tsc",
+    "prepublishOnly": "npm run build",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "defer-to-connect": "^1.0.2"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^0.3.0",
+    "@types/node": "^11.13.6",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "ava": "^1.4.1",
+    "coveralls": "^3.0.3",
+    "del-cli": "^1.1.0",
+    "eslint-config-xo-typescript": "^0.9.0",
+    "nyc": "^14.0.0",
+    "p-event": "^4.1.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4",
+    "xo": "^0.24.0"
+  },
+  "types": "dist",
+  "xo": {
+    "extends": "xo-typescript",
+    "extensions": [
+      "ts"
+    ],
+    "rules": {
+      "ava/no-ignored-test-files": "off"
+    }
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ]
+  },
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "gitHead": "421d049829f706a52a92c287e404007a74ee47eb",
+  "dist": {
+    "integrity": "sha512-HpfsZs19JAfp0oEP5DnZU1tdQrEAjdQXKE5uV+pK/rBrOk8oKB9TPKthSr+SM3LrF3EhH8FROfgy9ggDNNcDFA==",
+    "shasum": "445091dd074dfd9360b4e26ef9b860c4500027f3",
+    "tarball": "https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-2.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 11284,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcu2+0CRA9TVsSAnZWagAA414P+gP256njW44wWr1a2t7M\nnApY74ayprjXFFOleSp05Tf4KunxzP9OcfVo3Hnd82RLOq0qzLuQmx+i84ng\nEGKyEEChiyVMIdSVXVGYnm/LahBr5Cg9yuGYb27gnvx+ns7d3c5uJMR1TV+t\n/oWpxaJq41uy6g3/Ye4qqQ0D4a4ffL3rOlIDJffrs77c1bH/jdu+JeSSxG2H\nGE38WNAxfCfjIk2DZ7ywv/DHOEmj6kf+Xf/QXtKJ9iiIReccKL2ScnvM0QCL\nE+27ssfZNdPJVLicXyfnJ+OzXELfSRqXgMVYQqaMEUHFs0aPQSCtcFXUVcqx\n2IPr0zWkbnmy0uHU4KSoTDVg2hE/dD2fxH6xo8uMXocutYB9eemCSSaZWNun\nUJrGf8dQxxqAiVifaoVmDD70lXxpwmX/WGifOTJk9AwnQ3KKGtWYT64Arxwl\nWxkepJiAgltRG1LpUVi7ypJ4+K1t/TioRt3V0goJnmbNjZPy8BA8V+h2JU0L\nZfXYfpiQTe2L0AAclQGv/hwudbI1bupRFCEF/ML3Ktvc7H0NqfTS0yeNaR9e\nHKfG5CuG1ry6J9ElvTDCasHnP6oYnSb9qGDvoAi2lBEPJEVJKy7gc1rHD1oz\n8HAf9qRTI3U1CJFU4G7DWWxeRh7PwTHwShnhdMzKF1cT17rsnAgJU4Dz4Wh7\nzPAw\r\n=DcJ/\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

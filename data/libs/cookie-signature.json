@@ -1,0 +1,85 @@
+{
+  "name": "cookie-signature",
+  "description": "Sign and unsign cookies",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>",
+    "natevw <natevw@yahoo.com>"
+  ],
+  "time": {
+    "modified": "2018-08-03T00:40:07.759Z",
+    "created": "2012-10-15T15:53:32.007Z",
+    "0.0.1": "2012-10-15T15:53:33.933Z",
+    "1.0.0": "2013-04-12T19:07:28.737Z",
+    "1.0.1": "2013-04-15T19:29:17.362Z",
+    "1.0.2": "2014-01-29T00:00:59.981Z",
+    "1.0.3": "2014-01-29T01:15:41.790Z",
+    "1.0.4": "2014-06-25T22:14:18.119Z",
+    "1.0.5": "2014-09-05T23:22:06.935Z",
+    "1.0.6": "2015-02-03T22:23:15.095Z",
+    "1.1.0": "2018-01-19T04:32:35.808Z"
+  },
+  "author": "TJ Holowaychuk <tj@learnboost.com>",
+  "users": {
+    "285858315": true,
+    "haiyang5210": true,
+    "dgarlitt": true,
+    "simplyianm": true,
+    "ivansky": true,
+    "awangxh": true,
+    "panlw": true,
+    "qbylucky": true,
+    "milfromoz": true,
+    "nickeltobias": true,
+    "giussa_dan": true,
+    "yong_a": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionmedia/node-cookie-signature.git"
+  },
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/visionmedia/node-cookie-signature#readme",
+  "keywords": [
+    "cookie",
+    "sign",
+    "unsign"
+  ],
+  "bugs": {
+    "url": "https://github.com/visionmedia/node-cookie-signature/issues"
+  },
+  "license": "MIT",
+  "version": "1.1.0",
+  "dependencies": {},
+  "engines": {
+    "node": ">=6.6.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --require should --reporter spec"
+  },
+  "main": "index",
+  "gitHead": "1e5f40d6c1f631a7fa43992e82918c1d78dbdb89",
+  "dist": {
+    "integrity": "sha512-Alvs19Vgq07eunykd3Xy2jF0/qSNv2u7KDbAek9H5liV1UMijbqFs5cycZvv5dVsvseT/U4H8/7/w8Koh35C4A==",
+    "shasum": "cc94974f91fb9a9c1bb485e95fc2b7f4b120aff2",
+    "tarball": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.1.0.tgz"
+  },
+  "directories": {}
+}

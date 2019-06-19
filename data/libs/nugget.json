@@ -1,0 +1,107 @@
+{
+  "name": "nugget",
+  "description": "minimalist wget clone written in node. HTTP GETs a file and saves it to the current working directory",
+  "dist-tags": {
+    "latest": "2.0.1",
+    "1x": "1.6.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1",
+    "1.5.0",
+    "1.5.1",
+    "1.5.2",
+    "1.5.3",
+    "1.5.4",
+    "1.5.5",
+    "1.6.0",
+    "1.6.1",
+    "1.6.2",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "maintainers": [
+    "maxogden <max@maxogden.com>",
+    "mafintosh <mathiasbuus@gmail.com>",
+    "grncdr <glurgle@gmail.com>",
+    "jlord <to.jlord@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-10-22T14:18:13.743Z",
+    "created": "2014-10-18T12:31:53.000Z",
+    "1.0.0": "2014-10-18T12:31:53.000Z",
+    "1.1.0": "2014-10-20T03:01:52.783Z",
+    "1.1.1": "2014-10-20T03:28:53.705Z",
+    "1.1.2": "2014-10-20T04:02:50.902Z",
+    "1.1.3": "2014-10-20T04:42:39.033Z",
+    "1.2.0": "2014-10-21T05:42:22.476Z",
+    "1.3.0": "2014-10-21T06:49:04.610Z",
+    "1.4.0": "2015-02-03T20:56:59.641Z",
+    "1.4.1": "2015-02-03T21:16:58.516Z",
+    "1.5.0": "2015-04-14T00:34:36.986Z",
+    "1.5.1": "2015-04-14T01:54:14.166Z",
+    "1.5.2": "2015-05-14T23:10:47.292Z",
+    "1.5.3": "2015-07-26T19:16:43.699Z",
+    "1.5.4": "2015-07-27T11:43:15.662Z",
+    "1.6.0": "2015-10-13T20:40:19.671Z",
+    "1.5.5": "2016-02-10T05:09:29.375Z",
+    "1.6.1": "2016-02-10T05:11:24.107Z",
+    "2.0.0": "2016-02-10T05:18:04.480Z",
+    "1.6.2": "2016-02-10T05:25:33.564Z",
+    "2.0.1": "2016-09-12T09:24:21.100Z"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "readmeFilename": "readme.md",
+  "homepage": "https://github.com/maxogden/nugget",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxogden/nugget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/nugget/issues"
+  },
+  "users": {
+    "ngoldman": true,
+    "supersha": true,
+    "imaginary": true,
+    "heartnett": true
+  },
+  "version": "2.0.1",
+  "main": "index.js",
+  "bin": {
+    "nugget": "bin.js"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "dependencies": {
+    "debug": "^2.1.3",
+    "minimist": "^1.1.0",
+    "pretty-bytes": "^1.0.2",
+    "progress-stream": "^1.1.0",
+    "request": "^2.45.0",
+    "single-line-log": "^1.1.2",
+    "throttleit": "0.0.2"
+  },
+  "devDependencies": {
+    "standard": "^6.0.5",
+    "tape": "^3.0.1",
+    "tape-spawn": "^1.4.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "gitHead": "2932a1852ff0f3c1306080d969e6b41266d007dd",
+  "dist": {
+    "shasum": "201095a487e1ad36081b3432fa3cada4f8d071b0",
+    "tarball": "https://registry.npmjs.org/nugget/-/nugget-2.0.1.tgz"
+  }
+}

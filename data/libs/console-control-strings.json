@@ -1,0 +1,56 @@
+{
+  "name": "console-control-strings",
+  "description": "A library of cross-platform tested terminal/console command strings for doing things like color and cursor positioning.  This is a subset of both ansi and vt100.  All control codes included work on both Windows & Unix-like OSes, except where noted.",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "iarna <me@re-becca.org>"
+  ],
+  "time": {
+    "modified": "2016-06-15T23:29:58.743Z",
+    "created": "2016-06-15T21:15:45.301Z",
+    "1.0.0": "2016-06-15T21:15:45.301Z",
+    "1.1.0": "2016-06-15T23:29:58.743Z"
+  },
+  "homepage": "https://github.com/iarna/console-control-strings#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarna/console-control-strings.git"
+  },
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "bugs": {
+    "url": "https://github.com/iarna/console-control-strings/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "iarna": true
+  },
+  "version": "1.1.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && tap test/*.js"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "tap": "^5.7.2"
+  },
+  "gitHead": "722439b4998d2964ac3d3f9ec175c008aa9b7b4b",
+  "dist": {
+    "shasum": "3d7cf4464db6446ea644bf4b39507f9851008e8e",
+    "tarball": "https://registry.npmjs.org/console-control-strings/-/console-control-strings-1.1.0.tgz"
+  }
+}

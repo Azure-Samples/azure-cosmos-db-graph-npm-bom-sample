@@ -1,0 +1,116 @@
+{
+  "name": "wrap-ansi",
+  "description": "Wordwrap a string with ANSI escape codes",
+  "dist-tags": {
+    "latest": "5.1.0",
+    "next": "2.1.0-candidate"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "1.0.0",
+    "2.0.0",
+    "2.1.0-candidate",
+    "2.1.0",
+    "3.0.0",
+    "3.0.1",
+    "4.0.0",
+    "5.0.0",
+    "5.1.0"
+  ],
+  "maintainers": [
+    "bcoe <ben@npmjs.com>",
+    "qix <i.am.qix@gmail.com>",
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-02T14:36:18.359Z",
+    "created": "2015-08-19T18:56:22.141Z",
+    "0.1.0": "2015-08-19T18:56:22.141Z",
+    "0.2.0": "2015-08-28T07:07:49.929Z",
+    "0.3.0": "2015-10-10T14:31:14.973Z",
+    "1.0.0": "2015-10-13T05:08:13.341Z",
+    "2.0.0": "2015-12-01T17:27:23.410Z",
+    "2.1.0-candidate": "2016-11-04T06:34:16.631Z",
+    "2.1.0": "2016-11-29T17:21:24.416Z",
+    "3.0.0": "2017-07-23T11:27:48.128Z",
+    "3.0.1": "2017-07-23T19:58:53.494Z",
+    "4.0.0": "2018-08-31T20:09:07.083Z",
+    "5.0.0": "2019-03-03T06:38:34.939Z",
+    "5.1.0": "2019-04-02T14:36:15.008Z"
+  },
+  "homepage": "https://github.com/chalk/wrap-ansi#readme",
+  "keywords": [
+    "wrap",
+    "break",
+    "wordwrap",
+    "wordbreak",
+    "linewrap",
+    "ansi",
+    "styles",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "cli",
+    "string",
+    "tty",
+    "escape",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalk/wrap-ansi.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/chalk/wrap-ansi/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "scottfreecode": true,
+    "penglu": true,
+    "michaelyurin": true
+  },
+  "version": "5.1.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "dependencies": {
+    "ansi-styles": "^3.2.0",
+    "string-width": "^3.0.0",
+    "strip-ansi": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "chalk": "^2.4.2",
+    "coveralls": "^3.0.3",
+    "has-ansi": "^3.0.0",
+    "nyc": "^13.3.0",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "2a1a55446d67c55a29e84173e99eb6abc91c937c",
+  "dist": {
+    "integrity": "sha512-QC1/iN/2/RPVJ5jYK8BGttj5z83LmSKmvbvrXPNCLZSEb32KKVDJDl/MOt2N01qU2H/FkzEa9PKto1BqDjtd7Q==",
+    "shasum": "1fd1f67235d5b6d0fee781056001bfb694c03b09",
+    "tarball": "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-5.1.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 9624,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJco3NgCRA9TVsSAnZWagAANkMP/1dLcbFDrPlZw4UNK/ew\n7jqKwOmMkxslxJNQSXTWAFuQhjSyL4Z14ht32rE4oAmjCiWYvVl8CS7N4XFw\nqq6ziZ/fXmu3CgRAuTN/RUA1LAgF7Z0aPOdWpKUHwLoN4//oR3SjmVhQIuIE\neEqwF+J1sywFS+Lme9OGSixEHgXzfIlMW6LwPinesp5b0HsbP2xN+WNi/zrW\n388wosnle1fxgG+NIgyziiE6YHJ/NCjBwKWpD//ruM1g3ozPv3neRKCpqX3I\n0VxdFsuNF1YWrMj8VDsuYWf6056HBfulMLnhUz6cN/azBnaT6V3h8BKk+aqf\no350frloEPQjG7g6RnGnVp2i/8fED0TqughaNV7h0BEXpFJJRs6N2PToh58v\nFhaUnNJ25qpWHLS1+czhCTx/xSf42ZylZ63r7NyK+6w5v1LvtvPo+QrxieFr\nKRLHe2Kr40KyV0fTbXGjrdZBrDGfN013JuTALRKh0C00sdWx213ECpWi2tw2\nlIEn6e7WALtKVqUeiQXCU8C3w/5HexgjYX41Klbdt/N5leiE3gXGxDHonO/8\nppqp8m5777IZQgfLQXd0Ph44a8w083/5a6nNE/1C9lbjMPRnoLiueMO3YLeY\nnzdgk95Wz9rsd2XKXcb3NQcbe/oUAMx7S8X7HcG6cIcEdWWcZNmp0hHgYeRn\nVBQ9\r\n=YpBI\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

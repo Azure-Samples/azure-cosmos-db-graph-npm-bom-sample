@@ -1,0 +1,73 @@
+{
+  "name": "postgres-interval",
+  "description": "Parse Postgres interval columns",
+  "dist-tags": {
+    "latest": "1.2.0"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0"
+  ],
+  "maintainers": [
+    "bendrucker <bvdrucker@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-02-23T00:06:54.511Z",
+    "created": "2015-06-14T00:50:17.058Z",
+    "1.0.0": "2015-06-14T00:50:17.058Z",
+    "0.0.1": "2015-10-26T16:21:10.732Z",
+    "1.0.1": "2015-12-03T18:44:13.913Z",
+    "1.0.2": "2016-04-12T19:30:00.305Z",
+    "1.1.0": "2017-03-10T23:19:18.887Z",
+    "1.1.1": "2017-07-21T04:37:13.436Z",
+    "1.1.2": "2018-07-11T22:12:21.388Z",
+    "1.2.0": "2019-02-23T00:06:51.959Z"
+  },
+  "homepage": "https://github.com/bendrucker/postgres-interval#readme",
+  "keywords": [
+    "postgres",
+    "interval",
+    "parser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendrucker/postgres-interval.git"
+  },
+  "author": "Ben Drucker <bvdrucker@gmail.com> (bendrucker.me)",
+  "bugs": {
+    "url": "https://github.com/bendrucker/postgres-interval/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "main": "index.js",
+  "version": "1.2.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^12.0.1"
+  },
+  "gitHead": "c92e936bf6383691b1572f3e85597fb4d0518e96",
+  "dist": {
+    "integrity": "sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==",
+    "shasum": "b460c82cb1587507788819a06aa0fffdb3544695",
+    "tarball": "https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6727,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJccI6cCRA9TVsSAnZWagAAnmgP/2Dh0iWFe0J8D+0dm8X9\nVpVe7tNKiXro7uQMjqDzQ0lOP2Um3q5PfLOwMU6+KZ1y04Yt8VJPo+9B3evz\n/UscKtW+ALMNXNoDI3uUrcmvr5MmftuiqqrRGIRa397rj6bY6EUBFcMmDy6m\nS+9nWRycF0ak6mDCdJikMshMHauH36mMdhSe4A+NDmQ3rTV891EccWixuzRH\nLVvSbzKO0fc0IM3ZOdQ5i+WRvmSXMx0g7DWkhk00upYd7l3KikL6d5SO4CQ8\n3k42uYi8JJLcylXFaLbFSrs3zUliJTmIw22xSRx0R3ojBO+CTBW36M+z0IY/\nGotDvjo6UDHhTEW775OaLEnPKd0dPuE93RqPGccR5ZE9ekX12QtBiSDEnVdZ\n+UP4Tpf6AxQLM9rdurlSUfDkjLMNSqAiJqsOA7Tcvp7XqlLG/4TD9RcADJdF\nPXGcIdWfoorLPjsxbia9WbsvMIMk9TXhlmJ6AK9XarmK2qyTFjl925nYn0KU\n1Jm5GaTdwop6cCD+DL+pRw6RV2bCMC8j8UNVvDPEoilrY1kJ1kuWr8v8V3bA\n1yRUXGiJF8NE+Kr76GhKDT+wGHx9vrnyJ5HbX0J5R9Q5ZP96UvQj0zv3RxOW\nIOf/ytVrbpVHrtGD8K7pkymb8vktQAkkoFTmUM6imLFnjiEHJEfBTcuXkwxj\n6zOn\r\n=XLMY\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

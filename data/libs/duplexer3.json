@@ -1,0 +1,56 @@
+{
+  "name": "duplexer3",
+  "description": "Like duplexer but using streams3",
+  "dist-tags": {
+    "latest": "0.1.4"
+  },
+  "versions": [
+    "0.1.4"
+  ],
+  "maintainers": [
+    "floatdrop <floatdrop@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-01-11T02:23:57.067Z",
+    "created": "2016-01-11T12:09:25.153Z",
+    "0.1.4": "2016-01-11T12:09:25.153Z"
+  },
+  "homepage": "https://github.com/floatdrop/duplexer3",
+  "keywords": [
+    "duplex",
+    "duplexer",
+    "stream",
+    "stream3",
+    "join",
+    "combine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatdrop/duplexer3"
+  },
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "bugs": {
+    "url": "https://github.com/floatdrop/duplexer3/issues"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "version": "0.1.4",
+  "engine": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "gitHead": "810f45fd7216a4ec4585e673ad28f05852ed05a6",
+  "dist": {
+    "shasum": "ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2",
+    "tarball": "https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.4.tgz"
+  },
+  "directories": {}
+}

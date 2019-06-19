@@ -1,0 +1,146 @@
+{
+  "name": "browser-resolve",
+  "description": "resolve which handles browser field support in package.json",
+  "dist-tags": {
+    "latest": "1.11.3"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.4.0",
+    "1.4.1",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.7.1",
+    "1.7.2",
+    "1.8.0",
+    "1.8.1",
+    "1.8.2",
+    "1.9.0",
+    "1.9.1",
+    "1.10.0",
+    "1.10.1",
+    "1.11.0",
+    "1.11.1",
+    "1.11.2",
+    "1.11.3"
+  ],
+  "maintainers": [
+    "defunctzombie <shtylman@gmail.com>",
+    "substack <substack@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-06-19T03:32:56.416Z",
+    "created": "2013-02-18T04:34:39.731Z",
+    "0.0.0": "2013-02-18T04:34:40.562Z",
+    "0.0.1": "2013-02-19T03:13:58.685Z",
+    "0.0.2": "2013-02-20T02:13:47.113Z",
+    "0.0.3": "2013-02-24T16:38:25.971Z",
+    "0.0.4": "2013-02-28T19:30:56.504Z",
+    "0.0.5": "2013-03-26T04:47:59.475Z",
+    "0.1.0": "2013-03-28T02:19:09.586Z",
+    "0.1.1": "2013-03-29T20:16:40.090Z",
+    "1.0.0": "2013-04-30T15:29:02.902Z",
+    "1.0.1": "2013-05-03T14:43:38.124Z",
+    "1.1.0": "2013-06-12T03:23:51.456Z",
+    "1.1.1": "2013-07-24T21:41:48.703Z",
+    "1.1.2": "2013-08-03T22:41:21.199Z",
+    "1.1.3": "2013-08-05T03:45:14.467Z",
+    "1.1.4": "2013-09-23T01:06:20.620Z",
+    "1.2.0": "2013-11-26T22:22:21.672Z",
+    "1.2.1": "2013-12-04T15:54:49.386Z",
+    "1.2.2": "2014-01-04T04:12:55.311Z",
+    "1.2.3": "2014-04-17T03:24:17.145Z",
+    "1.2.4": "2014-04-17T22:19:24.258Z",
+    "1.3.0": "2014-06-11T05:55:52.294Z",
+    "1.3.1": "2014-07-08T00:52:02.130Z",
+    "1.3.2": "2014-07-30T00:08:02.268Z",
+    "1.4.0": "2014-10-27T00:34:05.014Z",
+    "1.4.1": "2014-10-27T17:45:45.581Z",
+    "1.5.0": "2014-12-06T02:24:28.670Z",
+    "1.6.0": "2015-01-20T22:36:58.470Z",
+    "1.7.0": "2015-02-08T02:22:29.069Z",
+    "1.7.1": "2015-02-21T00:04:02.863Z",
+    "1.7.2": "2015-02-21T19:54:23.191Z",
+    "1.8.0": "2015-03-09T21:58:29.094Z",
+    "1.8.1": "2015-03-17T04:40:01.229Z",
+    "1.8.2": "2015-03-28T02:20:00.505Z",
+    "1.9.0": "2015-05-14T22:57:21.744Z",
+    "1.9.1": "2015-08-06T22:56:44.417Z",
+    "1.10.0": "2015-10-15T01:12:32.504Z",
+    "1.10.1": "2015-10-22T17:04:25.512Z",
+    "1.11.0": "2015-12-06T00:51:59.180Z",
+    "1.11.1": "2016-01-25T01:53:10.036Z",
+    "1.11.2": "2016-05-25T15:30:22.484Z",
+    "1.11.3": "2018-06-19T03:32:53.018Z"
+  },
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/node-browser-resolve.git"
+  },
+  "homepage": "https://github.com/shtylman/node-browser-resolve#readme",
+  "keywords": [
+    "resolve",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/shtylman/node-browser-resolve/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "simplyianm": true,
+    "cycomachead": true,
+    "wenbing": true,
+    "yuxin": true,
+    "j.su": true
+  },
+  "version": "1.11.3",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "empty.js"
+  ],
+  "scripts": {
+    "test": "mocha --reporter list test/*.js"
+  },
+  "dependencies": {
+    "resolve": "1.1.7"
+  },
+  "devDependencies": {
+    "mocha": "1.14.0"
+  },
+  "gitHead": "427bb886cc22cc773651d3f2a51d4c5ea455870e",
+  "dist": {
+    "integrity": "sha512-exDi1BYWB/6raKHmDTCicQfTkqwN5fioMFV4j8BsfMU4R2DK/QfZfK7kOVkmWCNANf0snkBzqGqAJBao9gZMdQ==",
+    "shasum": "9b7cbb3d0f510e4cb86bdbd796124d28b5890af6",
+    "tarball": "https://registry.npmjs.org/browser-resolve/-/browser-resolve-1.11.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 14998,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbKHlmCRA9TVsSAnZWagAAWcIP/1ZrXB7Nhom8YrcnFC6i\n/aCucQXcs3YePv4RRGe9o7foDpkRkDzceWBGtQiUPPvFbCkHuaiVgpiHQIOC\n+UGMLsk6FmbGcUIQf1+TwHL/jyGQf9SZ+KECxi66GikA92b2NmadOJa05QMk\nyGiymcfBqky7kKJs8e9arjwgMQltU9jOZsllLE2duGu0P8gnJlGTebsU9tGM\nc+Il1aysrAZmBpIKra1XBoXdIHIJ4L+ydch2FfSybioqcBNepBLIaWc52iXk\n+OZJwwq3XHqpdSr27DLHL+WU0FIHsT1m0hoeJQPIZmfWjMpsOVAHRBYyMcb+\n1626wcGpQCZZ2/QWxCWCRIQzRwNyp0bBO/+Pv6HrgqEX6NzdLy/y/971lImB\nOeTo1pUeimK9RnO6/z1Tm/PG33nGUJo1KnY58V9QjttJdlsC6HmqMCh/ct3a\nUodPfQdSs1Suxc5i+rQnxVqNMOx8vHPFYCnPDMpaXZEoVfzRbCwBP5T2Sj+o\ngYoDUBIdi1JWxHVDvtY7J+ybsb6imWidqqEDkWagNMpUx/0GlCxm8LVZ2Vgj\na0rcNNZAh4CDghXCFDSs3IgcarC4rE50/HAb10hUGyjEc9uzaqPrCBJGSSKM\n940OTHZLtF9akvWG8cn4VxTm09F3H/YBzhhfRzMGxAALJ3XKK03LwPViNkIC\nRDHd\r\n=O6EA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

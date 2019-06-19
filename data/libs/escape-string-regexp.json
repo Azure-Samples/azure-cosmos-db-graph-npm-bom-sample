@@ -1,0 +1,113 @@
+{
+  "name": "escape-string-regexp",
+  "description": "Escape RegExp special characters",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-17T07:49:12.245Z",
+    "created": "2014-06-24T15:06:23.496Z",
+    "1.0.0": "2014-06-24T15:06:23.496Z",
+    "1.0.1": "2014-07-12T00:34:58.761Z",
+    "1.0.2": "2014-09-13T15:50:57.511Z",
+    "1.0.3": "2015-02-22T09:22:10.197Z",
+    "1.0.4": "2015-12-19T22:16:02.473Z",
+    "1.0.5": "2016-02-21T12:55:17.074Z",
+    "2.0.0": "2019-04-17T07:49:09.559Z"
+  },
+  "homepage": "https://github.com/sindresorhus/escape-string-regexp#readme",
+  "keywords": [
+    "escape",
+    "regex",
+    "regexp",
+    "re",
+    "regular",
+    "expression",
+    "string",
+    "str",
+    "special",
+    "characters"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/escape-string-regexp.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/escape-string-regexp/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "julien-f": true,
+    "jbnicolai": true,
+    "zhangyaochun": true,
+    "voxpelli": true,
+    "mlm": true,
+    "stretchgz": true,
+    "koulmomo": true,
+    "bsara": true,
+    "princetoad": true,
+    "ex-machine": true,
+    "eliranmal": true,
+    "danielbankhead": true,
+    "mojaray2k": true,
+    "arteffeckt": true,
+    "kael": true,
+    "fleischer": true,
+    "asaupup": true,
+    "bplok20010": true,
+    "jaeger": true,
+    "fatelei": true,
+    "sidwood": true,
+    "infernocloud": true,
+    "bart1208": true,
+    "giovannif23": true,
+    "zhenguo.zhao": true,
+    "heineiuo": true,
+    "nuwaio": true,
+    "chrisyipw": true,
+    "kodekracker": true,
+    "shuoshubao": true,
+    "tedyhy": true,
+    "hugovila": true,
+    "sherylhohman": true,
+    "tommytroylin": true,
+    "kvrao": true,
+    "71emj1": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "21c557c7f14a112eebe196abd98d085f5fcfcf5e",
+  "dist": {
+    "integrity": "sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==",
+    "shasum": "a30304e99daa32e23b2fd20f51babd07cffca344",
+    "tarball": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3259,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcttp2CRA9TVsSAnZWagAAH+gP/0jUFye+8JcZ4PlzibdD\nCYz15d9ULMk4brKKIDF8WvOSx+qrkGmQ9ryeyc5pIviaAUmU/gVim8G5vRiB\n8Osea8MHVebWkZNctNpYqS7zqb79RVUVbWDOP/VSr7Se0qdg+4VMo4LwQ1QN\nJ6QhswG5gON4uyWjR6Bpak5LGylVZf4WZLpaFho3LuScSOhnzvCEgFLwtKCf\nMJEnyZEiKB+ZJpJQzm0r3kGw8m8/4v7PjvVGg+lHCn+z5xEZlW0gNrUlrUnB\nMNkGsLDUv2gV3x3AnOeN2JtAOI0M4XWrp5XyiMF+KXTmYmItrx3PpRSOoVKs\nNwrTYpZK3LeqEKf6fsr0wTw/GW1BocBe4qAf+zVJ/se1txnM1YY2OkA+Mk3i\nBUvUCZN1GYkwuqbrhr1iPNv5ln9NbUHS9igHAuo49RlJ3khB0+MvNq4+7Hl2\nd4LdE9D+NW5qRyUfBGwbOdCkz/nFRGB/Ty38IqSPDYTta0gvnFVF0OiCFd6s\n6gF94/kgrIs18+wIpn1qmQOFXRyQAtaZF+T53+PG3XCQ4niBmakXjCl2QLpS\nQSjXAB+dNyYPl2pK1aVmtfclRBmFHXKHbfF6cr7eMJdte2LsTt9DL9l+HXL+\nGMf3gm9sURzxTxJp3udwyD5/c+P782djgu3X/gXTcMneRHnFjL59wgY4KVDN\n4OBO\r\n=x82n\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,75 @@
+{
+  "name": "wordwrap",
+  "description": "Wrap those words. Show them at what columns to start and stop.",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "substack <mail@substack.net>"
+  ],
+  "time": {
+    "modified": "2017-11-06T05:05:18.622Z",
+    "created": "2011-05-30T01:46:34.229Z",
+    "0.0.1": "2011-05-30T01:46:34.944Z",
+    "0.0.2": "2011-08-26T10:17:09.949Z",
+    "0.0.3": "2015-05-07T17:04:58.219Z",
+    "1.0.0": "2015-05-07T17:07:25.416Z"
+  },
+  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/node-wordwrap.git"
+  },
+  "users": {
+    "fgribreau": true,
+    "macmac": true,
+    "ericnelson": true,
+    "vsemozhetbyt": true,
+    "diroru": true,
+    "nickeltobias": true,
+    "emyann": true,
+    "mojaray2k": true,
+    "davidnyhuis": true,
+    "arsari": true,
+    "chinawolf_wyp": true,
+    "dm7": true,
+    "justjavac": true
+  },
+  "homepage": "https://github.com/substack/node-wordwrap#readme",
+  "keywords": [
+    "word",
+    "wrap",
+    "rule",
+    "format",
+    "column"
+  ],
+  "bugs": {
+    "url": "https://github.com/substack/node-wordwrap/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.markdown",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "directories": {
+    "lib": ".",
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "expresso"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "gitHead": "9f02667e901f2f10d87c33f7093fcf94788ab2f8",
+  "dist": {
+    "shasum": "27584810891456a4171c8d0226441ade90cbcaeb",
+    "tarball": "https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz"
+  }
+}

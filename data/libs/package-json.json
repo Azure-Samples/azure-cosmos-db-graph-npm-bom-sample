@@ -1,0 +1,132 @@
+{
+  "name": "package-json",
+  "description": "Get metadata of a package from the npm registry",
+  "dist-tags": {
+    "latest": "6.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.2.0",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "2.2.0",
+    "2.2.1",
+    "2.3.0",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "2.4.0",
+    "3.0.0",
+    "3.1.0",
+    "4.0.0",
+    "4.0.1",
+    "5.0.0",
+    "6.0.0",
+    "6.1.0",
+    "6.2.0",
+    "6.3.0"
+  ],
+  "maintainers": [
+    "rexxars <rexxars@gmail.com>",
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-31T12:05:39.852Z",
+    "created": "2014-06-15T17:37:21.782Z",
+    "0.1.0": "2014-06-15T17:37:21.782Z",
+    "0.2.0": "2014-06-15T19:05:16.179Z",
+    "1.0.0": "2014-08-14T09:27:13.323Z",
+    "1.0.1": "2014-10-10T15:24:55.200Z",
+    "1.0.2": "2015-02-12T07:27:40.657Z",
+    "1.1.0": "2015-02-23T05:46:18.803Z",
+    "1.2.0": "2015-06-04T13:43:03.228Z",
+    "2.0.0": "2015-10-09T19:49:01.197Z",
+    "2.0.1": "2015-10-15T14:44:26.881Z",
+    "2.1.0": "2015-10-18T18:48:56.026Z",
+    "2.2.0": "2015-10-25T19:10:36.902Z",
+    "2.2.1": "2015-10-31T11:52:32.699Z",
+    "2.3.0": "2015-12-09T16:32:41.431Z",
+    "2.3.1": "2016-02-13T14:51:24.543Z",
+    "2.3.2": "2016-04-04T17:21:01.024Z",
+    "2.3.3": "2016-07-03T21:04:31.841Z",
+    "2.4.0": "2016-08-25T20:58:45.209Z",
+    "3.0.0": "2017-02-13T09:40:55.099Z",
+    "3.1.0": "2017-02-18T06:31:59.978Z",
+    "4.0.0": "2017-03-26T10:43:27.660Z",
+    "4.0.1": "2017-04-17T07:19:55.982Z",
+    "5.0.0": "2018-05-17T08:43:28.280Z",
+    "6.0.0": "2019-01-29T05:47:05.080Z",
+    "6.1.0": "2019-03-12T11:44:40.831Z",
+    "6.2.0": "2019-03-23T08:49:16.730Z",
+    "6.3.0": "2019-03-31T12:05:37.287Z"
+  },
+  "homepage": "https://github.com/sindresorhus/package-json#readme",
+  "keywords": [
+    "npm",
+    "registry",
+    "package",
+    "pkg",
+    "package.json",
+    "json",
+    "module",
+    "scope",
+    "scoped"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/package-json.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/package-json/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "goliatone": true,
+    "rsp": true,
+    "huhgawz": true,
+    "jowanhelmax": true,
+    "dekatron": true,
+    "shuoshubao": true,
+    "evocateur": true,
+    "nraibaud": true,
+    "jochemstoel": true
+  },
+  "version": "6.3.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "registry-auth-token": "^3.4.0",
+    "registry-url": "^5.0.0",
+    "semver": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.12.2",
+    "ava": "^1.4.1",
+    "mock-private-registry": "^1.1.2",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "4c6f03d42cba89ce99133f788249579db8f0ff3f",
+  "dist": {
+    "integrity": "sha512-XO7WS3EEXd48vmW633Y97Mh9xuENFiOevI9G+ExfTG/k6xuY9cBd3fxkAoDMSEsNZXasaVJIJ1rD/n7GMf18bA==",
+    "shasum": "5ed793418b8322af7abfb985a19a20c2f40c2fb0",
+    "tarball": "https://registry.npmjs.org/package-json/-/package-json-6.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 13923,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoK0RCRA9TVsSAnZWagAApYsP/A89gdtBtMMpZetYARLF\nLfF4Akx/dofW00cNg0jc/LEFOI0R3IIINXPXWQTxZRtLaOIVxP+tCuBDhXnA\np0W53mn/tPrXftTsWciRFOUD4Ngm+3uKeOJ30cm6bSqDkQ+w5hd1YW+xt7ym\nUN5DlC9HKjrsXPr/jxk6GO8s6zqO3ZTcT2rG1TqM8+GkHv2HaMDaUoahScAo\nAbOkiG35kE6PGISySwvI4uJMReSiGN4fL9xgR3y7vB/QWlf8Rr0Tq/vob3Wh\nskAyV/gcDvYNXHrtKbXd2+il3NpKAxlFJfID1TKmLr8S3oZE72XFsPNlcRsa\nQVx5C4qyEXXt4Rvrljyuu5oPXX7zh0xX1ajkPzWl13kIVHjx4GA9UOWFO2Xv\nAmTFi4+y1LwtcjrbvUK0wkG573MYl1+b+J7MNLK0cio/Aiel5yyrZBquDACS\nGA6yioGPVCCO05nH2VxHgjKwXMOh8inNgvpxUP1SpfZzWgXpvjK1L6Y0Tq+G\ng3boFis59K3yQOvvgKRd7Gu9bQn7RtgAaVNri7htx7MagEn4fdNtilnfz0NW\nldBLd7AKcMV+ZoqP+6JnlMtRpWiTb9u4YND2iGU9faY2/y0dEF3MF70ydfNO\nx+uRl0P4KRBzQtmnE25bBxyPD8yktHkkSHv+OOwcK+VK6vfsTlT5nZmsaGLh\nWqJ2\r\n=UrhT\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

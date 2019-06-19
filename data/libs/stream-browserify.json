@@ -1,0 +1,143 @@
+{
+  "name": "stream-browserify",
+  "description": "the stream module from node core for browsers",
+  "dist-tags": {
+    "latest": "2.0.2"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2"
+  ],
+  "maintainers": [
+    "ahdinosaur <michael.williams@enspiral.com>",
+    "anandthakker <vestibule@anandthakker.net>",
+    "ashaffer88 <darawk@gmail.com>",
+    "balupton <b@lupton.cc>",
+    "bpostlethwaite <post.ben.here@gmail.com>",
+    "bret <bcomnes@gmail.com>",
+    "cwmma <calvin.metcalf@gmail.com>",
+    "dominictarr <dominic.tarr@gmail.com>",
+    "elnounch <contact@elnounch.net>",
+    "emilbayes <github@tixz.dk>",
+    "feross <feross@feross.org>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "fpereira1 <pereira.filype@gmail.com>",
+    "garann <garann@gmail.com>",
+    "gkatsev <me@gkatsev.com>",
+    "goto-bus-stop <renee@kooi.me>",
+    "hughsk <hughskennedy@gmail.com>",
+    "indutny <fedor@indutny.com>",
+    "jmm <npm-public@jessemccarthy.net>",
+    "jprichardson <jprichardson@gmail.com>",
+    "jryans <jryans@gmail.com>",
+    "leichtgewicht <martin.heidegger@gmail.com>",
+    "mafintosh <mathiasbuus@gmail.com>",
+    "mattdesl <dave.des@gmail.com>",
+    "maxogden <max@maxogden.com>",
+    "mellowmelon <palmermebane@gmail.com>",
+    "parshap <parshap+npm@gmail.com>",
+    "pkrumins <peteris.krumins@gmail.com>",
+    "sethvincent <sethvincent@gmail.com>",
+    "stevemao <maochenyan@gmail.com>",
+    "substack <substack@gmail.com>",
+    "tehshrike <me@JoshDuff.com>",
+    "terinjokes <terinjokes@gmail.com>",
+    "thlorenz <thlorenz@gmx.de>",
+    "ungoldman <ungoldman@gmail.com>",
+    "yerkopalma <yerko.palma@usach.cl>",
+    "yoshuawuyts <yoshuawuyts@gmail.com>",
+    "zertosh <zertosh@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-11T10:51:50.082Z",
+    "created": "2013-12-03T20:09:52.968Z",
+    "0.0.0": "2013-12-03T20:09:54.660Z",
+    "0.0.1": "2013-12-08T06:32:04.039Z",
+    "0.0.2": "2013-12-08T06:48:59.824Z",
+    "0.0.3": "2013-12-12T02:41:00.204Z",
+    "0.0.4": "2013-12-12T06:59:34.105Z",
+    "0.1.0": "2013-12-20T08:43:31.762Z",
+    "0.1.1": "2013-12-20T08:53:43.481Z",
+    "0.1.2": "2013-12-22T19:15:32.003Z",
+    "0.1.3": "2014-01-25T08:13:36.457Z",
+    "1.0.0": "2014-05-10T05:48:14.652Z",
+    "2.0.0": "2015-06-25T19:16:29.161Z",
+    "2.0.1": "2015-08-27T00:15:57.850Z",
+    "2.0.2": "2019-01-22T15:03:19.918Z"
+  },
+  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/browserify/stream-browserify.git"
+  },
+  "readmeFilename": "readme.markdown",
+  "homepage": "https://github.com/browserify/stream-browserify",
+  "keywords": [
+    "stream",
+    "browser",
+    "browserify"
+  ],
+  "bugs": {
+    "url": "https://github.com/browserify/stream-browserify/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "wenbing": true,
+    "ryanj": true,
+    "simplyianm": true,
+    "bigdoods": true
+  },
+  "version": "2.0.2",
+  "main": "index.js",
+  "dependencies": {
+    "inherits": "~2.0.1",
+    "readable-stream": "^2.0.2"
+  },
+  "devDependencies": {
+    "safe-buffer": "^5.1.2",
+    "tape": "^4.2.0",
+    "typedarray": "~0.0.6"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/3.5",
+      "firefox/10",
+      "firefox/nightly",
+      "chrome/10",
+      "chrome/latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "gitHead": "1d006a94cac968a4347e0dafaecc9aeb2263f4d8",
+  "dist": {
+    "integrity": "sha512-nX6hmklHs/gr2FuxYDltq8fJA1GDlxKQCz8O/IM4atRqBH8OORmBNgfvW5gG10GT/qQ9u0CzIvr2X5Pkt6ntqg==",
+    "shasum": "87521d38a44aa7ee91ce1cd2a47df0cb49dd660b",
+    "tarball": "https://registry.npmjs.org/stream-browserify/-/stream-browserify-2.0.2.tgz",
+    "fileCount": 6,
+    "unpackedSize": 7536,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcRzC4CRA9TVsSAnZWagAAlp8P/i1A0T6m5KdfftG3JTcx\nuqsj1YYtBSAlm8BTdOvR6kc7c8oR3fcMAUncnrER7celxrfOgPGxMaDlZGNA\nakIqanvA9dum43xdyb/4GfOyYtnG2m0kwDCTLdhB757fJArxlVyTqFnrGOyK\nRBeqcXisO8MhBoyGrpIgwiPawNdoAjrb2uIm5gQel+9oElG8rIHsVDqQH9sS\n8jx4JV+YCpjFo4cUBlHfbEOxyTyw3j5yGN9bjUkVk468D3pdcdREPeoZrkhi\nSwBUC0rfzbywQ9xthFq5rug4rsiS1PU60OUuYI01dIkKht6kxX6XNwb9Xob1\nOHANldgugScyt7EKFFIO/RhigWIlubUhlfg7s/WJAnbUNivb1Cuq3vU8fnAj\nCItKO5PJnd98SI3JDeisVUlAj1c+a9yRj6NBRMDZwMPLU5Pq9iKmGNx8GJxr\ncWTmv9TZE1M/ChBTpa1CTc3ztUhePDdgRV2FHMRKSkEHmIQFAiohV0SRMW2m\nmGG6pl8KNwY8c2Vi9eGzFQybb/CIv8xTLZH/1OMRUE713ti/l/nzx0ceANpO\nZgepCFdSeOl43MSkAdj4wHxRiSH4FQg8xclgIwj1sicJVTNdiQsdQsfC9hWh\nDnDRhiN3vbLM7Sm4gpdqz40MDSZOxDz4XRxqjwUni1X7pnGNgZkfq9s4v0m5\ntRQl\r\n=A68Q\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

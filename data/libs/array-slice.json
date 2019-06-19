@@ -1,0 +1,97 @@
+{
+  "name": "array-slice",
+  "description": "Array-slice method. Slices `array` from the `start` index up to, but not including, the `end` index.",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2018-01-13T09:34:03.329Z",
+    "created": "2014-07-04T05:49:17.338Z",
+    "0.1.0": "2014-07-04T05:49:17.338Z",
+    "0.1.1": "2014-07-04T05:51:35.964Z",
+    "0.2.0": "2014-09-23T18:54:58.899Z",
+    "0.2.1": "2014-10-06T07:38:19.801Z",
+    "0.2.2": "2014-10-06T07:38:36.390Z",
+    "0.2.3": "2015-04-07T09:00:11.643Z",
+    "1.0.0": "2017-03-02T19:21:40.644Z",
+    "1.1.0": "2017-11-30T13:12:23.160Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/array-slice",
+  "keywords": [
+    "array",
+    "javascript",
+    "js",
+    "slice",
+    "util",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/array-slice.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/array-slice/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "users": {
+    "wolfram77": true
+  },
+  "version": "1.1.0",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "arr-flatten",
+        "array-unique",
+        "array-xor"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "984db8fff30ec5f71f3ce308c320cf3e1fd89c41",
+  "dist": {
+    "integrity": "sha512-B1qMD3RBP7O8o0H2KbrXDyB0IccejMF15+87Lvlor12ONPRHP6gTjXMNkt/d3ZuOGbAe66hFmaCfECI24Ufp6w==",
+    "shasum": "e368ea15f89bc7069f7ffb89aec3a6c7d4ac22d4",
+    "tarball": "https://registry.npmjs.org/array-slice/-/array-slice-1.1.0.tgz"
+  },
+  "directories": {}
+}

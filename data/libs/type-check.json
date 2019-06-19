@@ -1,0 +1,83 @@
+{
+  "name": "type-check",
+  "description": "type-check allows you to check the types of JavaScript values at runtime with a Haskell like type syntax.",
+  "dist-tags": {
+    "latest": "0.3.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2"
+  ],
+  "maintainers": [
+    "gkz <z@georgezahariev.com>"
+  ],
+  "time": {
+    "modified": "2018-02-08T17:52:53.222Z",
+    "created": "2013-09-29T18:38:27.392Z",
+    "0.1.0": "2013-09-29T18:38:30.708Z",
+    "0.2.0": "2013-10-02T23:07:23.499Z",
+    "0.3.0": "2013-10-29T23:11:33.218Z",
+    "0.3.1": "2014-04-08T05:55:00.320Z",
+    "0.3.2": "2015-12-29T05:46:21.672Z"
+  },
+  "author": "George Zahariev <z@georgezahariev.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkz/type-check.git"
+  },
+  "homepage": "https://github.com/gkz/type-check",
+  "keywords": [
+    "type",
+    "check",
+    "checking",
+    "library"
+  ],
+  "bugs": {
+    "url": "https://github.com/gkz/type-check/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "jay3sh": true,
+    "michaelchance": true,
+    "chocolateboy": true,
+    "mzagorny": true,
+    "matthewh": true,
+    "kevin_11": true,
+    "kevin_xi": true,
+    "cr8tiv": true,
+    "ganeshkbhat": true,
+    "danday74": true
+  },
+  "license": "MIT",
+  "version": "0.3.2",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./lib/",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "prelude-ls": "~1.1.2"
+  },
+  "devDependencies": {
+    "livescript": "~1.4.0",
+    "mocha": "~2.3.4",
+    "istanbul": "~0.4.1",
+    "browserify": "~12.0.1"
+  },
+  "gitHead": "0ab04e7a660485d0cc3aa87e95f2f9a6464cf8e6",
+  "dist": {
+    "shasum": "5884cab512cf1d355e3fb784f30804b2b520db72",
+    "tarball": "https://registry.npmjs.org/type-check/-/type-check-0.3.2.tgz"
+  },
+  "directories": {}
+}

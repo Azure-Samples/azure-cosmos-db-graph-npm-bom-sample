@@ -1,0 +1,85 @@
+{
+  "name": "concat-map",
+  "description": "concatenative mapdashery",
+  "dist-tags": {
+    "latest": "0.0.1"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1"
+  ],
+  "maintainers": [
+    "substack <mail@substack.net>"
+  ],
+  "time": {
+    "modified": "2014-01-30T03:06:35.982Z",
+    "created": "2012-06-08T04:31:26.867Z",
+    "0.0.0": "2012-06-08T04:31:28.515Z",
+    "0.0.1": "2014-01-30T03:06:35.982Z"
+  },
+  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/node-concat-map.git"
+  },
+  "readmeFilename": "README.markdown",
+  "users": {
+    "markthethomas": true,
+    "klap-webdevelopment": true,
+    "wenbing": true
+  },
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "concat",
+    "concatMap",
+    "map",
+    "functional",
+    "higher-order"
+  ],
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "devDependencies": {
+    "tape": "~2.4.0"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "ff": [
+        3.5,
+        10,
+        15
+      ],
+      "chrome": [
+        10,
+        22
+      ],
+      "safari": [
+        5.1
+      ],
+      "opera": [
+        12
+      ]
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/substack/node-concat-map/issues"
+  },
+  "homepage": "https://github.com/substack/node-concat-map",
+  "dist": {
+    "shasum": "d8a96bd77fd68df7793a73036a3ba0d5405d477b",
+    "tarball": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+  }
+}

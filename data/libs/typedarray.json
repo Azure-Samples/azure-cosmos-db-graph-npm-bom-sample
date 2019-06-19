@@ -1,0 +1,86 @@
+{
+  "name": "typedarray",
+  "description": "TypedArray polyfill for old browsers",
+  "dist-tags": {
+    "latest": "0.0.6"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "maintainers": [
+    "substack <mail@substack.net>"
+  ],
+  "time": {
+    "modified": "2014-05-17T02:52:49.854Z",
+    "created": "2013-12-10T03:47:02.422Z",
+    "0.0.0": "2013-12-10T03:47:04.285Z",
+    "0.0.1": "2013-12-10T18:28:05.085Z",
+    "0.0.2": "2013-12-11T02:48:58.496Z",
+    "0.0.3": "2013-12-11T16:26:31.308Z",
+    "0.0.4": "2013-12-11T16:26:44.325Z",
+    "0.0.5": "2013-12-12T23:49:44.956Z",
+    "0.0.6": "2014-05-17T02:52:49.854Z"
+  },
+  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/typedarray.git"
+  },
+  "homepage": "https://github.com/substack/typedarray",
+  "keywords": [
+    "ArrayBuffer",
+    "DataView",
+    "Float32Array",
+    "Float64Array",
+    "Int8Array",
+    "Int16Array",
+    "Int32Array",
+    "Uint8Array",
+    "Uint8ClampedArray",
+    "Uint16Array",
+    "Uint32Array",
+    "typed",
+    "array",
+    "polyfill"
+  ],
+  "bugs": {
+    "url": "https://github.com/substack/typedarray/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.markdown",
+  "version": "0.0.6",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js test/server/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "dist": {
+    "shasum": "867ac74e3864187b1d3d47d996a78ec5c8830777",
+    "tarball": "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
+  },
+  "directories": {}
+}

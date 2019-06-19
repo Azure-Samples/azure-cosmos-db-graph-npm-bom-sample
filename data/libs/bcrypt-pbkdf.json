@@ -1,0 +1,50 @@
+{
+  "name": "bcrypt-pbkdf",
+  "description": "Port of the OpenBSD bcrypt_pbkdf function to pure JS",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "arekinath <alex@cooperi.net>",
+    "dap <dap@cs.brown.edu>",
+    "jclulow <josh@sysmgr.org>",
+    "trentm <trentm@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-06-29T00:33:59.043Z",
+    "created": "2016-08-16T21:10:29.470Z",
+    "1.0.0": "2016-08-16T21:10:29.470Z",
+    "1.0.1": "2017-02-02T03:54:49.593Z",
+    "1.0.2": "2018-06-29T00:33:59.042Z"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/joyent/node-bcrypt-pbkdf#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joyent/node-bcrypt-pbkdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joyent/node-bcrypt-pbkdf/issues"
+  },
+  "version": "1.0.2",
+  "main": "index.js",
+  "dependencies": {
+    "tweetnacl": "^0.14.3"
+  },
+  "devDependencies": {},
+  "gitHead": "15fa7399a1090ba70d855764f7ace23003bf45f3",
+  "scripts": {},
+  "dist": {
+    "shasum": "a4301d389b6a43f9b67ff3ca11a3f6637e360e9e",
+    "tarball": "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 28994
+  },
+  "directories": {}
+}

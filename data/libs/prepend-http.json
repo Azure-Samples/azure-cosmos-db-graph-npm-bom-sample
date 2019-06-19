@@ -1,0 +1,78 @@
+{
+  "name": "prepend-http",
+  "description": "Prepend `https://` to humanized URLs like sindresorhus.com and localhost",
+  "dist-tags": {
+    "latest": "3.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "2.0.0",
+    "3.0.0",
+    "3.0.1"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-01T08:31:47.392Z",
+    "created": "2014-11-16T08:38:38.635Z",
+    "1.0.0": "2014-11-16T08:38:38.635Z",
+    "1.0.1": "2015-01-11T16:28:57.710Z",
+    "1.0.2": "2015-07-23T13:33:23.201Z",
+    "1.0.3": "2015-09-02T08:46:10.020Z",
+    "1.0.4": "2016-05-10T05:21:23.363Z",
+    "2.0.0": "2017-09-23T07:58:58.111Z",
+    "3.0.0": "2019-05-01T06:33:04.002Z",
+    "3.0.1": "2019-05-01T08:31:43.839Z"
+  },
+  "homepage": "https://github.com/sindresorhus/prepend-http#readme",
+  "keywords": [
+    "prepend",
+    "protocol",
+    "scheme",
+    "url",
+    "uri",
+    "http",
+    "https",
+    "humanized"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/prepend-http.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/prepend-http/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "detj": true
+  },
+  "version": "3.0.1",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "f4a79ceb9b51a622026e309e60bca987d4775cda",
+  "dist": {
+    "integrity": "sha512-BLxfZh+m6UiAiCPZFJ4+vYoL7NrRs5XgCTRrjseATAggXhdZKKxn+JUNmuVYWY23bDHgaEHodxw8mnmtVEDtHw==",
+    "shasum": "3e724d58fd5867465b300bb9615009fa2f8ee3b6",
+    "tarball": "https://registry.npmjs.org/prepend-http/-/prepend-http-3.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3634,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyVlwCRA9TVsSAnZWagAAOEIP/2AsFUT+8sKp2RYOb9um\nndg0pYcLgRUDVBt58xtopRtRUiSz2lzkdtcD8gqviF/RjhgqryL7u39vuOtn\n6/zckSkz/B4+PH8jU6j7vjUr7adAycge5hs3M2xqSBYIBopfgP7dyb3Rkh9z\nNkjR2p7bURHVTOtEc3T+8iijkCRvJVg+3kkCFLP1YETN9tBeI2wsFiSMwVrH\nKwDOKJRvOqIDNFnCnWpSdqHF46GvhOTAa4kRUKPe+scXvpFj4P1/2St1CJt6\naSgtJpM1EUQFATWW07lKOunHOlJK56fvT5ct0Z2HlYQMK9H6P0u+VFzgqolf\nO1Uo/4fZ0H7KQarZHuNHWunlCQpDqUn3pbukv4dAQ2YoEuX4RQUYPVjwkwz+\n4k+naPBkCD08OdeI6nnxRk9x6fTbSjw4E8nqa7CDpL+zT78Um1Ptp2z34UFV\nmbhw6jLYZAyBtYMRtAcJQYyGpOuudlM1NJ4pCQMhdO7/HNYocrviXh2K8Dsf\nKOWTrCyFxOlhj+f4QTuC1sVeTT7wgYJ+dYYvYJ3o2tTHDK/ZX4uAX2jfeZy7\nj8YrIFwXN1IeTOlWPmz8BpHgUWYgpG38/oK4Ucoj/aC2Hp5I4aYZBCMcBiWs\nf3nZVSPWjy7ncYWy6+le/b697moIqw9tAddef7khQ3dMulJiKlE5j3bLGRNC\n72Q+\r\n=B+Hl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

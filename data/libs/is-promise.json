@@ -1,0 +1,58 @@
+{
+  "name": "is-promise",
+  "description": "Test whether an object looks like a promises-a+ promise",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>"
+  ],
+  "time": {
+    "modified": "2018-01-11T06:07:44.762Z",
+    "created": "2012-12-23T16:25:38.676Z",
+    "1.0.0": "2012-12-23T16:25:41.263Z",
+    "1.0.1": "2014-05-20T13:38:55.043Z",
+    "2.0.0": "2015-02-10T10:06:19.012Z",
+    "2.1.0": "2015-09-06T18:06:36.412Z"
+  },
+  "author": "ForbesLindesay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/then/is-promise.git"
+  },
+  "homepage": "https://github.com/then/is-promise",
+  "bugs": {
+    "url": "https://github.com/then/is-promise/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "medikoo": true,
+    "j.su": true,
+    "nickeltobias": true,
+    "rocket0191": true,
+    "71emj1": true,
+    "rioli": true
+  },
+  "version": "2.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "better-assert": "~0.1.0",
+    "mocha": "~1.7.4"
+  },
+  "gitHead": "056f8ac12eed91886ac4f0f7d872a176f6ed698f",
+  "dist": {
+    "shasum": "79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa",
+    "tarball": "https://registry.npmjs.org/is-promise/-/is-promise-2.1.0.tgz"
+  },
+  "directories": {}
+}

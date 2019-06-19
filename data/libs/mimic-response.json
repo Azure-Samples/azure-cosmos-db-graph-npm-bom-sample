@@ -1,0 +1,66 @@
+{
+  "name": "mimic-response",
+  "description": "Mimic a Node.js HTTP response stream",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-20T10:31:56.680Z",
+    "created": "2017-06-02T17:46:00.485Z",
+    "1.0.0": "2017-06-02T17:46:00.485Z",
+    "1.0.1": "2018-07-11T11:25:07.279Z",
+    "2.0.0": "2019-01-20T10:31:54.203Z"
+  },
+  "homepage": "https://github.com/sindresorhus/mimic-response#readme",
+  "keywords": [
+    "mimic",
+    "response",
+    "stream",
+    "http",
+    "https",
+    "request",
+    "get",
+    "core"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/mimic-response.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/mimic-response/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^1.1.0",
+    "create-test-server": "^2.4.0",
+    "pify": "^4.0.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "bffa6bf1a91dc8bbede268948fdfa16af214f504",
+  "dist": {
+    "integrity": "sha512-8ilDoEapqA4uQ3TwS0jakGONKXVJqpy+RpM+3b7pLdOjghCrEiGp9SRkFbUHAmZW9vdnrENWHjaweIoTIJExSQ==",
+    "shasum": "996a51c60adf12cb8a87d7fb8ef24c2f3d5ebb46",
+    "tarball": "https://registry.npmjs.org/mimic-response/-/mimic-response-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3596,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcRE4aCRA9TVsSAnZWagAA2DEP/3fTjr0sQOf98GM1H6s+\nR5gk2+ABDSFs98EY79aJc4LfBMgmH7udH7hl1uZTZIyXaB5zjiAWvQ8435wp\nmQb9u3NN9CA9LTq2S8eFvCfkPVWrDRQG1fD/xhj15Srj38evVEuHH40RsTDE\nvCloJUnFdEL76hPp/+SY89pCKppp7iTfDhICTqGjDvDXS/TDhflY9y1qT1Js\nx+iKPV8K2a1ttT4XVHofop7mAPyT5cmNIn1TRT5dUSrQi2QYQ+AwnTFN96Cy\nCPLwobKTl+YubOkUEIcO9y4SHxMQGodqGUO/KQiiU5wDOOPDEbBIXIW7r8Kh\nqjxJ9gTnnX7JEifmG5KurjyMo5HIDuYLIY58V4zmxolo4rHJk8DIwIhV0DN6\na1OLjgnv7L9W8v+BnF/eu4d5+lWnsoYolX0fQKpuxiK13phXL9FyjGswBug0\nQqVViMXz7tRFqKG8uBO+ARX3eYN43/+SBJYAuf1SsCHMmLuQS+mcbnrbE18J\nYi8Zs/W7d6njyrYdr19a0nu0kXNxtwMmzt0ceBl3jowgSv1KxLbRCz2gcVHU\nr3KdHIDkfKgKrlzi4/pbBrmKo389MRxSP5qK8kesb5dq1/3uD1zWxwiSPcQb\ntW1JRH2CQKufIg12nHpjqASz06QHD/0Gj4eYMaB9QLdu5uu0x3uMnk/KLiLs\nwjSG\r\n=Qhei\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

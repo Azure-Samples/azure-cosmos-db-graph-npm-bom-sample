@@ -1,0 +1,135 @@
+{
+  "name": "tweetnacl",
+  "time": {
+    "modified": "2019-01-24T14:52:39.535Z",
+    "created": "2014-07-08T17:17:59.887Z",
+    "0.9.0": "2014-07-08T17:17:59.887Z",
+    "0.9.1": "2014-07-08T17:27:03.089Z",
+    "0.9.2": "2014-07-22T11:51:50.399Z",
+    "0.10.0": "2014-07-26T14:13:21.181Z",
+    "0.10.1": "2014-07-31T08:56:22.521Z",
+    "0.11.0": "2014-08-03T12:57:58.614Z",
+    "0.11.1": "2014-08-06T09:51:16.595Z",
+    "0.11.2": "2014-08-08T11:33:58.342Z",
+    "0.12.0": "2014-09-03T12:53:37.141Z",
+    "0.12.1": "2014-09-09T19:10:37.958Z",
+    "0.12.2": "2014-09-18T16:07:52.210Z",
+    "0.13.0": "2014-12-26T16:18:57.757Z",
+    "0.13.1": "2015-04-15T16:16:46.594Z",
+    "0.13.2": "2015-09-17T14:24:35.137Z",
+    "0.13.3": "2016-01-06T23:08:59.717Z",
+    "0.14.0": "2016-02-20T16:07:29.491Z",
+    "0.14.1": "2016-02-25T00:35:25.704Z",
+    "0.14.2": "2016-03-28T17:49:52.954Z",
+    "0.14.3": "2016-03-29T04:15:52.637Z",
+    "0.14.4": "2016-12-02T18:10:24.264Z",
+    "0.14.5": "2016-12-13T11:11:56.945Z",
+    "1.0.0-rc.1": "2017-02-22T11:39:29.982Z",
+    "1.0.0": "2017-05-22T18:43:50.045Z",
+    "1.0.1": "2019-01-24T14:52:36.909Z"
+  },
+  "maintainers": [
+    "dchest <dmitry@codingrobots.com>"
+  ],
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "description": "Port of TweetNaCl cryptographic library to JavaScript",
+  "versions": [
+    "0.9.1",
+    "0.9.2",
+    "0.10.0",
+    "0.10.1",
+    "0.11.0",
+    "0.11.1",
+    "0.11.2",
+    "0.12.0",
+    "0.12.1",
+    "0.12.2",
+    "0.13.0",
+    "0.13.1",
+    "0.13.2",
+    "0.13.3",
+    "0.14.0",
+    "0.14.1",
+    "0.14.2",
+    "0.14.3",
+    "0.14.4",
+    "0.14.5",
+    "1.0.0-rc.1",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "homepage": "https://tweetnacl.js.org",
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "curve25519",
+    "ed25519",
+    "encrypt",
+    "hash",
+    "key",
+    "nacl",
+    "poly1305",
+    "public",
+    "salsa20",
+    "signatures"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchest/tweetnacl-js.git"
+  },
+  "author": "TweetNaCl-js contributors",
+  "bugs": {
+    "url": "https://github.com/dchest/tweetnacl-js/issues"
+  },
+  "license": "Unlicense",
+  "readmeFilename": "README.md",
+  "users": {
+    "dchest": true,
+    "tcrowe": true,
+    "antanst": true,
+    "kerwyn": true,
+    "mojaray2k": true,
+    "anoubis": true,
+    "meeh": true,
+    "dogun098": true
+  },
+  "version": "1.0.1",
+  "main": "nacl-fast.js",
+  "types": "nacl.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "uglifyjs nacl.js -c -m -o nacl.min.js && uglifyjs nacl-fast.js -c -m -o nacl-fast.min.js",
+    "test-node": "tape test/*.js | faucet",
+    "test-node-all": "make -C test/c && tape test/*.js test/c/*.js | faucet",
+    "build-test-browser": "browserify test/browser/init.js test/*.js | uglifyjs -c -m -o test/browser/_bundle.js 2>/dev/null && browserify test/browser/init.js test/*.quick.js | uglifyjs -c -m -o test/browser/_bundle-quick.js 2>/dev/null",
+    "test": "npm run test-node-all",
+    "bench": "node test/benchmark/bench.js",
+    "lint": "eslint nacl.js nacl-fast.js test/*.js test/benchmark/*.js"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "eslint": "^3.12.1",
+    "faucet": "^0.0.1",
+    "tap-browser-color": "^0.1.2",
+    "tape": "^4.6.3",
+    "tweetnacl-util": "^0.13.5",
+    "uglify-js": "^2.7.5"
+  },
+  "browser": {
+    "buffer": false,
+    "crypto": false
+  },
+  "gitHead": "acab4d4883e7a0be0b230df7b42c0bbd25210d39",
+  "dist": {
+    "integrity": "sha512-kcoMoKTPYnoeS50tzoqjPY3Uv9axeuuFAZY9M/9zFnhoVvRfxz9K29IMPD7jGmt2c8SW7i3gT9WqDl2+nV7p4A==",
+    "shasum": "2594d42da73cd036bd0d2a54683dd35a6b55ca17",
+    "tarball": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-1.0.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 174133,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcSdE1CRA9TVsSAnZWagAAMd4P/jpUtuLLm3oh5982OTgS\nAKBPCOMPJ1ueiNwFIgvfHTpt1mSRg5NFnVZELLkks9apvaiuGUbL47DXIacn\nA+EHYf2uhmWbQltjQvxb5APr8C4VDJDyjdu9ixAmoN3mqSYgva1BEuxz/4LN\nvnABgNxO6jNiM3pZbJ2LRDbe1N0Bnjjv7mYbcmfAK8ittPkEXiXMbKyZBLay\nhZal8Ih+oZP1MhyyBrjLJvTpJu2WrT48gUUUZk9gXhMtFL4QaViufOW3CLy3\nOSlug2DYTY9CkouUxaLibYQN+fTIATinJoq0NDXg+97SKEplS1I/J9Atv54W\nvt5ZYt8goUAg+tpyC8zYHXNZp5XPLqT3aVbmTn6xMYUtCVkW+IeqwUQpT+Y3\nYwraC0qVVTWEp5tEmXI07+FJAH6aF8dJ8hyT4AxtL0ndoNOo6iyhPpp2+LYH\nUgY1orXVbxAr5Roz5wk4ej10SvqjFVrETJeR6Avtm6d9bkytLsrJr6N8Q2MK\n2xy7Ik1PA1S7yNkCVhDn9AocdhmcAXRWtV2qib4ySqtQ6vevJtKndJOVMFlP\nue4qSieg2vH1S9K+qwzLSil8Y3gMWrXpmaQ2YmR6S1uxfA1aHDRFHHHt5WFQ\n+AtJe9l5Q/N7FTw+w3YJvOmVLl+RZRKicKlZOMMwEwWFKKrbHFEQnW06A1TW\nAyz5\r\n=dIRt\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

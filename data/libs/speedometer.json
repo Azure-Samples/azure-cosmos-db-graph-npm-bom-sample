@@ -1,0 +1,67 @@
+{
+  "name": "speedometer",
+  "description": "simple speed measurement in javascript",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "1.0.0",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "mafintosh <mathiasbuus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-06-18T10:15:16.446Z",
+    "created": "2013-03-20T19:16:23.317Z",
+    "0.1.0": "2013-03-20T19:16:27.510Z",
+    "0.1.1": "2013-04-16T21:26:04.045Z",
+    "0.1.2": "2013-07-20T19:06:03.883Z",
+    "0.1.3": "2014-06-30T19:35:40.910Z",
+    "0.1.4": "2014-12-24T09:52:07.307Z",
+    "1.0.0": "2015-10-16T11:50:15.376Z",
+    "1.1.0": "2018-06-18T10:15:13.535Z"
+  },
+  "author": "Mathias Buus Madsen <mathiasbuus@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mafintosh/speedometer.git"
+  },
+  "homepage": "https://github.com/mafintosh/speedometer#readme",
+  "keywords": [
+    "speed",
+    "bytes",
+    "per",
+    "second",
+    "transfer"
+  ],
+  "bugs": {
+    "url": "https://github.com/mafintosh/speedometer/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "chamerling": true,
+    "wenbing": true,
+    "ahme-t": true,
+    "pedromsilva": true,
+    "wayn": true,
+    "heartnett": true
+  },
+  "license": "MIT",
+  "version": "1.1.0",
+  "gitHead": "a7b53aca2cf17c1bfd4daeadcba99881fb5dc09e",
+  "dist": {
+    "integrity": "sha512-z/wAiTESw2XVPssY2XRcme4niTc4S5FkkJ4gknudtVoc33Zil8TdTxHy5torRcgqMqksJV2Yz8HQcvtbsnw0mQ==",
+    "shasum": "a30b13abda45687a1a76977012c060f2ac8a7934",
+    "tarball": "https://registry.npmjs.org/speedometer/-/speedometer-1.1.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3034,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbJ4YxCRA9TVsSAnZWagAAhUYP/3kQZVjftT0/4XtmRIBs\nAyJtWVzlwFmzgtIyAx6y+I6huGUJapVqs6nCVweTifnmZ7E1Jco6hf4aSeOF\nbJuBhQS2rYy0VPcELQCDXwWUQ3mg5+82onkqjQhWJnG8ywMPXYaH1TAwEdmR\n0jiEZtEulNg2qTszwj3VEhZNJqMRNCDtfugN20HlzyFnGVCPGp9yQ64/P3mT\nTtEQPhf8v+LgeSg4Y+j3bLQ6WIru2oEJlmcMLgLchOPxbdKmJeR3I09lPprE\nMTDEXnSJjiPur6X6oR9ZqAyGn41sm6RTEZYGn7510rDDt2BRdw3kwYxzdWp6\ntgusxOGEW2xuIC8HN8K1Uk91dae/+bpLnpdXTPzmrZAEmqJl39Gz3fe5JZkO\nKSCDMJjv+4sm7jZ7CvZ3RrdzZZhQ2UoaBMEDn6aBjauhetaH27NXVzgplBlH\n5fkLZ01Dee1CQ+50hRmU/k9oUtNekHpnB6Ty0/VJus6Dya/ja3lUkNwW7B/T\n2Ez7m3VuglXwM5/iwdPgneusS4skZR9rsqOEc8duzPG1kSjWpbarSU5Ir93S\nEd7FVmLdDMt8/BvENhGsqtxjaLKug2776wjpQpl8lH607lb2KUEfNGlFIL0c\nQVNaOq+5DPtrJjH8CJIY6S39LzOdOfWQ2o0C3GRgtZbXP03ZdTSjiN3fOJ7P\nIzt4\r\n=x7jv\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

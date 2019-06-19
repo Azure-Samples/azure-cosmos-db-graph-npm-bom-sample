@@ -1,0 +1,94 @@
+{
+  "name": "js-tokens",
+  "description": "A regex that tokenizes JavaScript.",
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.4.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "lydell <simon.lydell@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-01-28T11:58:58.170Z",
+    "created": "2014-03-08T22:30:50.672Z",
+    "0.1.0": "2014-03-08T22:30:50.672Z",
+    "0.2.0": "2014-06-19T20:20:22.938Z",
+    "0.3.0": "2014-12-19T17:50:28.104Z",
+    "0.3.1": "2015-01-06T21:17:50.696Z",
+    "0.4.0": "2015-02-21T19:00:41.297Z",
+    "0.4.1": "2015-02-21T20:20:20.154Z",
+    "1.0.0": "2015-02-26T09:34:56.843Z",
+    "1.0.1": "2015-06-20T06:38:03.183Z",
+    "1.0.2": "2015-10-18T15:00:47.347Z",
+    "1.0.3": "2016-03-27T10:52:26.157Z",
+    "2.0.0": "2016-06-19T07:38:11.688Z",
+    "3.0.0": "2017-01-11T20:38:15.672Z",
+    "3.0.1": "2017-01-30T18:28:23.511Z",
+    "3.0.2": "2017-06-28T20:54:17.623Z",
+    "4.0.0": "2018-01-28T11:58:58.170Z"
+  },
+  "homepage": "https://github.com/lydell/js-tokens#readme",
+  "keywords": [
+    "JavaScript",
+    "js",
+    "token",
+    "tokenize",
+    "regex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lydell/js-tokens.git"
+  },
+  "author": "Simon Lydell",
+  "bugs": {
+    "url": "https://github.com/lydell/js-tokens/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "roboterhund87": true,
+    "geofftech": true,
+    "qingleili": true,
+    "shuoshubao": true,
+    "nraibaud": true
+  },
+  "version": "4.0.0",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha --ui tdd",
+    "esprima-compare": "node esprima-compare ./index.js everything.js/es5.js",
+    "build": "node generate-index.js",
+    "dev": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "coffeescript": "2.1.1",
+    "esprima": "4.0.0",
+    "everything.js": "1.0.3",
+    "mocha": "5.0.0"
+  },
+  "gitHead": "0eb6e9daee32160ab0fca979b6dc91a1991b720c",
+  "dist": {
+    "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+    "shasum": "19203fb59991df98e3a287050d4647cdeaf32499",
+    "tarball": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+  },
+  "directories": {}
+}

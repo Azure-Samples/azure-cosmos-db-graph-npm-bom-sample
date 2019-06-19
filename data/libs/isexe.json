@@ -1,0 +1,61 @@
+{
+  "name": "isexe",
+  "description": "Minimal module to check if a file is executable.",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2017-03-23T00:53:16.356Z",
+    "created": "2016-01-17T05:25:47.501Z",
+    "1.0.0": "2016-01-17T05:25:47.501Z",
+    "1.0.1": "2016-01-20T01:35:20.406Z",
+    "1.1.0": "2016-01-26T02:03:38.497Z",
+    "1.1.1": "2016-01-26T02:05:55.873Z",
+    "1.1.2": "2016-02-09T04:39:57.031Z",
+    "2.0.0": "2017-03-23T00:53:16.356Z"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/isaacs/isexe#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/isexe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacs/isexe/issues"
+  },
+  "version": "2.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.0",
+    "tap": "^10.3.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js --100",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "gitHead": "10f8be491aab2e158c7e20df64a7f90ab5b5475c",
+  "dist": {
+    "shasum": "e8fbf374dc556ff8947a10dcb0572d633f2cfa10",
+    "tarball": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+  }
+}

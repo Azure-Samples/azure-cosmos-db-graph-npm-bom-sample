@@ -1,0 +1,87 @@
+{
+  "name": "es6-iterator",
+  "description": "Iterator abstraction based on ES6 specification",
+  "dist-tags": {
+    "latest": "2.0.3"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3"
+  ],
+  "maintainers": [
+    "medikoo <medikoo+npm@medikoo.com>"
+  ],
+  "time": {
+    "modified": "2017-10-17T11:01:55.570Z",
+    "created": "2013-10-12T09:58:13.545Z",
+    "0.0.0": "2013-10-12T09:58:21.924Z",
+    "0.1.0": "2014-04-29T11:27:36.995Z",
+    "0.1.1": "2014-04-29T11:32:11.236Z",
+    "0.1.2": "2014-11-19T14:11:17.077Z",
+    "0.1.3": "2015-02-02T12:02:06.350Z",
+    "1.0.0": "2015-06-23T15:03:49.041Z",
+    "2.0.0": "2015-10-02T13:24:27.968Z",
+    "2.0.1": "2017-03-15T14:55:48.048Z",
+    "2.0.2": "2017-10-17T11:00:13.111Z",
+    "2.0.3": "2017-10-17T11:01:55.570Z"
+  },
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/es6-iterator.git"
+  },
+  "homepage": "https://github.com/medikoo/es6-iterator#readme",
+  "keywords": [
+    "iterator",
+    "array",
+    "list",
+    "set",
+    "map",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/medikoo/es6-iterator/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mcharytoniuk": true
+  },
+  "version": "2.0.3",
+  "dependencies": {
+    "d": "1",
+    "es5-ext": "^0.10.35",
+    "es6-symbol": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.9",
+    "eslint-config-medikoo-es5": "^1.4.4",
+    "event-emitter": "^0.3.5",
+    "tad": "^0.2.7"
+  },
+  "eslintConfig": {
+    "extends": "medikoo-es5",
+    "root": true,
+    "rules": {
+      "no-extend-native": "off"
+    }
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path=.gitignore .",
+    "test": "node ./node_modules/tad/bin/tad"
+  },
+  "gitHead": "ae56bb258cf47c62f9b9a1b4bec29bee0e676fb1",
+  "dist": {
+    "shasum": "a7de889141a05a94b0854403b2d0a0fbfa98f3b7",
+    "tarball": "https://registry.npmjs.org/es6-iterator/-/es6-iterator-2.0.3.tgz"
+  },
+  "directories": {}
+}

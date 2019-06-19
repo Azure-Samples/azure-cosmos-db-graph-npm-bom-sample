@@ -1,0 +1,97 @@
+{
+  "name": "signal-exit",
+  "description": "when you want to fire an event no matter how a process exits.",
+  "dist-tags": {
+    "latest": "3.0.2",
+    "next": "3.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.3.1",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2",
+    "3.0.0-candidate",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2"
+  ],
+  "maintainers": [
+    "bcoe <ben@npmjs.com>",
+    "isaacs <isaacs@npmjs.com>"
+  ],
+  "time": {
+    "modified": "2017-11-20T10:57:37.358Z",
+    "created": "2015-05-16T06:45:54.221Z",
+    "1.0.0": "2015-05-16T06:45:54.221Z",
+    "1.0.1": "2015-05-16T07:06:50.535Z",
+    "1.1.0": "2015-05-16T19:20:17.735Z",
+    "1.2.0": "2015-05-18T01:45:01.230Z",
+    "1.3.0": "2015-05-19T04:50:16.726Z",
+    "1.3.1": "2015-05-20T15:48:08.812Z",
+    "2.1.0": "2015-05-25T02:45:00.437Z",
+    "2.1.1": "2015-05-25T06:01:08.097Z",
+    "2.0.0": "2015-05-25T09:53:31.879Z",
+    "2.1.2": "2015-05-25T10:07:11.052Z",
+    "3.0.0-candidate": "2016-06-10T16:14:07.934Z",
+    "3.0.0": "2016-06-13T22:35:49.825Z",
+    "3.0.1": "2016-09-08T17:13:05.740Z",
+    "3.0.2": "2016-12-04T03:21:02.792Z"
+  },
+  "homepage": "https://github.com/tapjs/signal-exit",
+  "keywords": [
+    "signal",
+    "exit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapjs/signal-exit.git"
+  },
+  "author": "Ben Coe <ben@npmjs.com>",
+  "bugs": {
+    "url": "https://github.com/tapjs/signal-exit/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "lukekarrys": true,
+    "maxogden": true,
+    "jgabra": true,
+    "scottfreecode": true,
+    "evocateur": true,
+    "hifaraz": true,
+    "zhenguo.zhao": true,
+    "heartnett": true
+  },
+  "version": "3.0.2",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap --timeout=240 ./test/*.js --cov",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "release": "standard-version"
+  },
+  "files": [
+    "index.js",
+    "signals.js"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.10",
+    "nyc": "^8.1.0",
+    "standard": "^7.1.2",
+    "standard-version": "^2.3.0",
+    "tap": "^8.0.1"
+  },
+  "gitHead": "9c5ad9809fe6135ef22e2623989deaffe2a4fa8a",
+  "dist": {
+    "shasum": "b5fdc08f1287ea1178628e415e25132b73646c6d",
+    "tarball": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.2.tgz"
+  },
+  "directories": {}
+}

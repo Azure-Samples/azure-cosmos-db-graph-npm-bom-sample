@@ -1,0 +1,74 @@
+{
+  "name": "cli-boxes",
+  "description": "Boxes for use in the terminal",
+  "dist-tags": {
+    "latest": "2.2.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-30T11:29:50.778Z",
+    "created": "2016-03-01T08:20:51.642Z",
+    "1.0.0": "2016-03-01T08:20:51.642Z",
+    "2.0.0": "2019-02-03T10:26:04.182Z",
+    "2.1.0": "2019-04-05T22:35:57.443Z",
+    "2.2.0": "2019-04-30T11:29:45.967Z"
+  },
+  "homepage": "https://github.com/sindresorhus/cli-boxes#readme",
+  "keywords": [
+    "cli",
+    "box",
+    "boxes",
+    "terminal",
+    "term",
+    "console",
+    "ascii",
+    "unicode",
+    "border",
+    "text",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/cli-boxes.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/cli-boxes/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "alfeo92": true,
+    "bsdprojects": true
+  },
+  "version": "2.2.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "ac02ac64d2822e935b74ff945932cd3d04e3ce78",
+  "dist": {
+    "integrity": "sha512-gpaBrMAizVEANOpfZp/EEUixTXDyGt7DFzdK5hU+UbWt/J0lB0w20ncZj59Z9a93xHb9u12zF5BS6i9RKbtg4w==",
+    "shasum": "538ecae8f9c6ca508e3c3c95b453fe93cb4c168d",
+    "tarball": "https://registry.npmjs.org/cli-boxes/-/cli-boxes-2.2.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 5692,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyDGqCRA9TVsSAnZWagAAL/IP/325CmvB89Pgzieb73MH\n0mXAGm+wiXwrlclx5LiWKFiKLYGSXScceKPXxoMncKw0Jb+pcKeL86DewkcO\nFB9VbpuH6oqg6FcKRmA4x03m9t97PMorsN5fW8F9yQr/Qif0AuuOfLFbqPxs\njfFwydPGK2vu9P/n7ltvuFsisaBv3XMhtPEQZMBw7yhn0ZllB5+t5pTkUMY8\nfPjGXuEJtutPeVpebyuOnluwhKG5L8mrFa4Gym9lmfIkuk8pgzB6bzcmIb8Z\n5p/EK18akcQylIWaS47rQpsTUhnoCAm3qhyWoXTavosUioTaYbBpeEklfG9H\nMs1GPepyenskf1lABJb+obBPwj91rD9/yastCNwRH34jv2ozqIegbvuHL5kf\nvwWX6wTKzJTlpJrk9JQU/oIlpxu9/iNav1ruYYkjJ1TRsa80HjeIJK6N2Vqe\naLlkqctMaj3sdh+NHjhb7r44R/VrcF54HNDwPmT+cYneHhUk2LfsUnhTOlPL\nOg4Ghk1pAJJ4zivx8NP0TFIJ7UxV9XXsCfDdAEjHom3y4YWmr5DY0/3aukzP\nMc5WsFO+0T0i8bho1PqYuJzUvnkFdU1TA+U7UtcqnTKyhGGF+cyH8V7VNjko\nDLud1VtHDnd33H74h2ZYjTl9fRid0seUb4WRMWwA7HJCL24LXoGgKGS0gHjT\neVvd\r\n=NXJo\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

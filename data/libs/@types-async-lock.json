@@ -1,0 +1,102 @@
+{
+  "name": "@types/async-lock",
+  "description": "TypeScript definitions for async-lock",
+  "dist-tags": {
+    "latest": "1.1.1",
+    "ts2.0": "0.0.20",
+    "ts2.1": "1.1.1",
+    "ts2.2": "1.1.1",
+    "ts2.3": "1.1.1",
+    "ts2.4": "1.1.1",
+    "ts2.5": "1.1.1",
+    "ts2.6": "1.1.1",
+    "ts2.7": "1.1.1",
+    "ts2.8": "1.1.1",
+    "ts2.9": "1.1.1",
+    "ts3.0": "1.1.1",
+    "ts3.1": "1.1.1",
+    "ts3.2": "1.1.1",
+    "ts3.3": "1.1.1",
+    "ts3.4": "1.1.1",
+    "ts3.5": "1.1.1",
+    "ts3.6": "1.1.1"
+  },
+  "versions": [
+    "0.0.5-alpha",
+    "0.0.6-alpha",
+    "0.0.11-alpha",
+    "0.0.12-alpha",
+    "0.0.13-alpha",
+    "0.0.14-alpha",
+    "0.0.15-alpha",
+    "0.0.16-alpha",
+    "0.0.17-alpha",
+    "0.0.18",
+    "0.0.19",
+    "0.0.20",
+    "0.0.21",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "maintainers": [
+    "types <ts-npm-types@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2019-05-29T21:52:12.346Z",
+    "created": "2016-05-17T04:27:34.463Z",
+    "0.0.5-alpha": "2016-05-17T04:27:34.463Z",
+    "0.0.6-alpha": "2016-05-19T20:16:30.358Z",
+    "0.0.11-alpha": "2016-05-20T19:10:22.874Z",
+    "0.0.12-alpha": "2016-05-25T04:29:13.866Z",
+    "0.0.13-alpha": "2016-07-01T18:54:42.935Z",
+    "0.0.14-alpha": "2016-07-01T22:14:45.459Z",
+    "0.0.15-alpha": "2016-07-02T02:04:04.967Z",
+    "0.0.16-alpha": "2016-07-03T23:50:14.091Z",
+    "0.0.17-alpha": "2016-07-08T19:39:30.473Z",
+    "0.0.18": "2016-07-14T14:04:34.380Z",
+    "0.0.19": "2016-09-19T16:18:56.933Z",
+    "0.0.20": "2017-08-21T21:47:46.206Z",
+    "0.0.21": "2018-01-29T21:16:25.506Z",
+    "1.1.0": "2018-02-26T22:52:11.691Z",
+    "1.1.1": "2019-02-13T16:27:26.944Z"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "contributors": [
+    {
+      "name": "Elisée MAURER",
+      "url": "https://github.com/elisee",
+      "githubUsername": "elisee"
+    },
+    {
+      "name": "Alejandro",
+      "url": "https://github.com/afharo",
+      "githubUsername": "afharo"
+    },
+    {
+      "name": "Anatoly",
+      "url": "https://github.com/rhymmor",
+      "githubUsername": "rhymmor"
+    }
+  ],
+  "version": "1.1.1",
+  "main": "",
+  "types": "index",
+  "scripts": {},
+  "dependencies": {},
+  "typesPublisherContentHash": "3ddfeb35cddddea6005a01ee814fbd5c99b1b39a4043bf8a9b24abc44a20e664",
+  "typeScriptVersion": "2.1",
+  "dist": {
+    "integrity": "sha512-TU1X8jmAU2BjwKryBFV/GDezz7Ge0xu9ZuYC7dy6wKj4hnL0JcxeseCOr/G2JkGylff6hdUBrR+Ee5ApAQeU5g==",
+    "shasum": "81f218213bebcc5f740efe9648272c774a2e4b4b",
+    "tarball": "https://registry.npmjs.org/@types/async-lock/-/async-lock-1.1.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3829,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZEVvCRA9TVsSAnZWagAA6bcP/RbfHoRWoie1GOgVuXqN\n/JL3jYqpVrq/D3Z8YCJ9uE9VhaIgafPoU76tdKBReyCP2nJ+T5/lxL+dIBem\nms6OR1qwrGHKH/OLHCMpzUiMr3+dl0JlaEK7UV1Mo6PY8p1O3fs7HS+T3ard\nIVg5oXi7PfQTo1mJ8YPSEzVolFdrstCkcxmeeDs0WzZOFF+p6AP8gLo7jo2J\n/2v2rS7TH3Yju8DfnHPJ0S2M4WKPXfusoI5iwSQtthfTJzQ4q/ZXV7arOPlY\nlr6DlFMB3aErVPb0PU4Bii03TsabdN7Z2ZJQmVe4h1EzeJCiXiHWEfuZfoTH\nYC387/4gDfZi3yIIohOjbPGjQBzQuAKlFt/i1C3iPehvM16PC7JBM6Jw01i8\nbuwEjDWYZhmIy6YSfSJ4gxrs+3fel3gDgfkENP6IkoRB0IBO8Vp88dn6ymq1\ninwtoyXsY+MCP2pMl7lbqO3nb8TqzFL2OYG5L0zbnjzz2VM241fsY2s3ierZ\nWBgxEskNJCPWtVpmBvy1mhA8cYq9kYpBnzM0KormNArKld7TMj2IZXkDH9rH\nBwQntgVP3SfTKN5l3wvsxtOeoq6rlyLDq1FHGEyuDuEhlLsuU6Fe/Mpx4xEI\n3YLuAe6gYPF3AIS5eKUX/Cy/4/w3cOh1Qq8W58D59o6aXYAQJv4xsAw1qXYc\nOR3G\r\n=NzK3\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

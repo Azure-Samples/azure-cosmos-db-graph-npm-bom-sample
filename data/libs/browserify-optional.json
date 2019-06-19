@@ -1,0 +1,59 @@
+{
+  "name": "browserify-optional",
+  "description": "A browserify transform that allows optional dependencies in try..catch blocks",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "devongovett <devongovett@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-08-28T23:09:20.794Z",
+    "created": "2015-03-23T04:54:33.099Z",
+    "1.0.0": "2015-03-23T04:54:33.099Z",
+    "1.0.1": "2017-08-28T23:09:20.794Z"
+  },
+  "homepage": "https://github.com/devongovett/browserify-optional",
+  "keywords": [
+    "browserify",
+    "transform",
+    "optional"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devongovett/browserify-optional.git"
+  },
+  "author": "Devon Govett <devongovett@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/devongovett/browserify-optional/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "brandonpapworth": true
+  },
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.7",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "ast-transform": "0.0.0",
+    "ast-types": "^0.7.0",
+    "browser-resolve": "^1.8.1"
+  },
+  "gitHead": "8791cc55139d8669905bd151346408a4b935d3bc",
+  "dist": {
+    "shasum": "1e13722cfde0d85f121676c2a72ced533a018869",
+    "tarball": "https://registry.npmjs.org/browserify-optional/-/browserify-optional-1.0.1.tgz"
+  },
+  "directories": {}
+}

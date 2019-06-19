@@ -1,0 +1,91 @@
+{
+  "name": "ci-info",
+  "description": "Get details about the current Continuous Integration environment",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.2.0",
+    "1.3.0",
+    "1.3.1",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "1.6.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "watson <w@tson.dk>"
+  ],
+  "time": {
+    "modified": "2019-01-08T05:32:48.012Z",
+    "created": "2016-10-20T16:01:20.750Z",
+    "1.0.0": "2016-10-20T16:01:20.750Z",
+    "1.0.1": "2017-09-04T15:30:55.785Z",
+    "1.1.0": "2017-09-05T11:33:34.768Z",
+    "1.1.1": "2017-09-05T11:53:11.571Z",
+    "1.1.2": "2017-11-17T19:11:56.371Z",
+    "1.1.3": "2018-03-12T19:51:17.183Z",
+    "1.2.0": "2018-08-14T08:28:13.186Z",
+    "1.3.0": "2018-08-14T21:20:19.004Z",
+    "1.3.1": "2018-08-16T15:47:09.554Z",
+    "1.4.0": "2018-08-20T09:57:24.747Z",
+    "1.5.0": "2018-09-08T23:59:16.943Z",
+    "1.5.1": "2018-09-09T10:36:26.599Z",
+    "1.6.0": "2018-09-20T08:37:01.113Z",
+    "2.0.0": "2018-12-05T21:18:28.926Z"
+  },
+  "homepage": "https://github.com/watson/ci-info",
+  "keywords": [
+    "ci",
+    "continuous",
+    "integration",
+    "test",
+    "detect"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/ci-info.git"
+  },
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "bugs": {
+    "url": "https://github.com/watson/ci-info/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "vdsabev": true,
+    "hualei": true
+  },
+  "version": "2.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clear-require": "^1.0.1",
+    "standard": "^12.0.1",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "coordinates": [
+    55.778231,
+    12.593179
+  ],
+  "gitHead": "18fe88088b626a6dcefc66e66fb32badb05ea216",
+  "dist": {
+    "integrity": "sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==",
+    "shasum": "67a9e964be31a51e15e5010d58e6f12834002f46",
+    "tarball": "https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 12808,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCEClCRA9TVsSAnZWagAAew4P/32dPsJ9LK3e9rXxaZtj\n32KCjxPFBFTCTNQT0CYdSU0plsSDuyc0WLM+CXmlVHUDp9nSkqayo6prPQhV\n9qjDh7y0YPRSgQF+QXzMhlGafHTdkMXy3OVE/2DLSLD7DkeEe+4XL1H0sSke\n4rS/y2EtanHtkp0L7wdIrkdVveBqSMk952vkIjyT6ehqOQoz22n5HGZOJ2aD\nxkkDemY0tZwDFOcGRNMPj+3D6bvppIPt+daZEK2jCVk2rAIeTCV8UIvwpoPR\nNt+49d0q84iiV9Q1sYg6VYv7qGjLgDPXoZwFw1NEnp6bOccT5mvCV7+jPeup\nw6S92VLOFP1ovGYX8EwvYXXOzw+bjCoqGUUSNf4IuMOA736G+nWXFkIVEi4M\n+jZSr8LYLo+ehabsqseDqlCLtKrWG7hXreqSgUaFuXn+qbu3LSicaWVs2VUs\nUeddGWOVcYJuJpoVy+emVbqH9MN9rRDm18/FI6We+u6u+ES9MtxRV6wcefaM\nHOaUUKI7phseccZUIIlu5EdFAE8pnCaBB9q7yTSva7DvtaesSEH4IS99dvzQ\ndIx6ASWwq4Djkse4dybrXIMQTSMy2FSKQDabHVFG1WC7RuckSg6T4im8cN7E\nHWwBEf1SivrkTUCoJ8UsWmnZA1A0R/0MiiN2q5/DUtEq6G2BDLs914AjCgrV\npShr\r\n=Du3l\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

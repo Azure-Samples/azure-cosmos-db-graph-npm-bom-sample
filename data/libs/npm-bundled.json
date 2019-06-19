@@ -1,0 +1,66 @@
+{
+  "name": "npm-bundled",
+  "description": "list things in node_modules that are bundledDependencies, or transitive dependencies thereof",
+  "dist-tags": {
+    "latest": "1.0.6"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>",
+    "zkat <kat@sykosomatic.org>"
+  ],
+  "time": {
+    "modified": "2019-02-05T04:52:30.062Z",
+    "created": "2017-05-29T04:46:55.130Z",
+    "1.0.0": "2017-05-29T04:46:55.130Z",
+    "1.0.1": "2017-05-29T04:49:13.072Z",
+    "1.0.2": "2017-05-29T16:14:23.049Z",
+    "1.0.3": "2017-05-29T18:31:14.332Z",
+    "1.0.4": "2018-08-10T00:13:20.647Z",
+    "1.0.5": "2018-08-10T16:44:13.386Z",
+    "1.0.6": "2019-02-05T04:52:27.458Z"
+  },
+  "homepage": "https://github.com/npm/npm-bundled#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/npm-bundled.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/npm/npm-bundled/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "version": "1.0.6",
+  "main": "index.js",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "mutate-fs": "^1.1.0",
+    "rimraf": "^2.6.1",
+    "tap": "^12.0.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js -J --100",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "gitHead": "59c71778359f7801b8fe5070f2c87a5a31974304",
+  "dist": {
+    "integrity": "sha512-8/JCaftHwbd//k6y2rEWp6k1wxVfpFzB6t1p825+cUb7Ym2XQfhwIC5KwhrvzZRJu+LtDE585zVaS32+CGtf0g==",
+    "shasum": "e7ba9aadcef962bb61248f91721cd932b3fe6bdd",
+    "tarball": "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.0.6.tgz",
+    "fileCount": 4,
+    "unpackedSize": 9327,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcWRaMCRA9TVsSAnZWagAAtX4QAJQv0jq70BjU+G8WLeHM\nTc5gjvPIAK/TIVzBxvNU9CynwajjOXT5p2VT4K1+uWV/7hyw5WAECU6ZZVW9\nGh9wngFi6ppo5XpDwGn7G5CP7n3pd9PZNc/cQ7HG3IiJkRGfVt6Vd1EbMBoK\nlSPFsopcbvaJTbO9gaeZEnp7bXiS2Mejyg+mquIH0nEXFhVmdLereVWHMExg\nyD3EBCla2UZXZYgZLn107jaW4Roy2pDhp2ARsEJa6GwtjI7GG8qTozYjuaU6\nx1x/D7JzL+qWyupPVbkzyKJ0+rXs5MD6CfwD6/4d42oryu4hoPsobxbH5ver\nmGZvNTFen2a0yloEVwUijb/qemhoKpZpfpEQfjSuh4wu1zg6MIxPVtWz23gC\nnex4raRud8+5IoZ5mdKJkQ+uUiJBbA552dPbXWxNzz0CKjRcoB+2FTdf+4Dw\nv8vz7Dc8Ci3oWDY5+5ezSbC/VD5LfsiuluQm5bfv9PWEUOSyRhe/SGuOQW2J\nxtyIXz9ah0galsVdgmgFDIFudL6UGwSW13T+3vAeEXu+i6lPUDZ2ZYqW9/Oc\nEWIPbkJhTegugbkwVFW5BHbYlV8E7+wSvH7CtFW3A8AYalonfQVotCdfocfe\niRkvC9APP3EVNcIcgnj7pCvhLO1+XbD+oxPtyQWxwucUm915Q3HHTixlnA18\nNIVZ\r\n=oAdJ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

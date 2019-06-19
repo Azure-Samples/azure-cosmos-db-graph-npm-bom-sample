@@ -1,0 +1,100 @@
+{
+  "name": "json-stringify-safe",
+  "description": "Like JSON.stringify, but doesn't blow up on circular refs.",
+  "dist-tags": {
+    "latest": "5.0.1"
+  },
+  "versions": [
+    "2.0.0",
+    "3.0.0",
+    "4.0.0",
+    "5.0.0",
+    "5.0.1"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>",
+    "moll <andri@dot.ee>"
+  ],
+  "time": {
+    "modified": "2018-03-01T20:29:36.063Z",
+    "created": "2013-02-19T19:01:58.271Z",
+    "2.0.0": "2013-02-19T19:02:04.205Z",
+    "3.0.0": "2013-02-19T19:22:41.788Z",
+    "4.0.0": "2013-03-13T06:31:31.741Z",
+    "5.0.0": "2013-08-02T20:28:17.007Z",
+    "5.0.1": "2015-05-19T01:42:09.719Z"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/json-stringify-safe.git"
+  },
+  "users": {
+    "dbrockman": true,
+    "dubban": true,
+    "fotomut": true,
+    "boustanihani": true,
+    "thethomaseffect": true,
+    "oceanswave": true,
+    "morlay": true,
+    "mastayoda": true,
+    "warapitiya": true,
+    "kurt.pattyn": true,
+    "koulmomo": true,
+    "nickeltobias": true,
+    "tobiasnickel": true,
+    "calmwinds": true,
+    "nukisman": true,
+    "jsumners": true,
+    "srokap": true,
+    "hasithaishere": true,
+    "t2ym": true,
+    "troygizzi": true,
+    "deadratfink": true,
+    "magicmind": true,
+    "mojaray2k": true,
+    "dzhou777": true,
+    "froguard": true,
+    "wukaidong": true,
+    "456wyc": true,
+    "anoubis": true,
+    "lunaroyster": true,
+    "alexxnica": true,
+    "ivan.sh": true,
+    "kontrax": true,
+    "shuoshubao": true,
+    "zhenguo.zhao": true,
+    "d3ck": true
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "circular",
+    "safe"
+  ],
+  "bugs": {
+    "url": "https://github.com/isaacs/json-stringify-safe/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/isaacs/json-stringify-safe",
+  "contributors": [
+    "Andri Möll <andri@dot.ee> (http://themoll.com)"
+  ],
+  "version": "5.0.1",
+  "main": "stringify.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "mocha": ">= 2.1.0 < 3",
+    "must": ">= 0.12 < 0.13",
+    "sinon": ">= 1.12.2 < 2"
+  },
+  "gitHead": "3890dceab3ad14f8701e38ca74f38276abc76de5",
+  "dist": {
+    "shasum": "1296a2d58fd45f19a0f6ce01d65701e2c735b6eb",
+    "tarball": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz"
+  },
+  "directories": {}
+}

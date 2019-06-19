@@ -1,0 +1,66 @@
+{
+  "name": "chownr",
+  "description": "like `chown -R`",
+  "dist-tags": {
+    "latest": "1.1.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2019-01-01T13:16:27.932Z",
+    "created": "2012-06-04T04:01:25.807Z",
+    "0.0.1": "2012-06-04T04:01:28.039Z",
+    "0.0.2": "2015-05-20T07:04:02.130Z",
+    "1.0.0": "2015-08-09T22:22:45.361Z",
+    "1.0.1": "2015-08-09T22:24:36.640Z",
+    "1.1.0": "2018-09-16T00:23:19.205Z",
+    "1.1.1": "2018-09-16T03:14:08.990Z"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/chownr.git"
+  },
+  "users": {
+    "jswartwood": true,
+    "brandonpapworth": true
+  },
+  "homepage": "https://github.com/isaacs/chownr#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/chownr/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "version": "1.1.1",
+  "main": "chownr.js",
+  "devDependencies": {
+    "mkdirp": "0.3",
+    "rimraf": "",
+    "tap": "^12.0.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js --cov",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "gitHead": "7a5c3d57c3691eebb9c66fa00fa6003d02ef9440",
+  "dist": {
+    "integrity": "sha512-j38EvO5+LHX84jlo6h4UzmOwi0UgW61WRyPtJz4qaadK5eY3BTS5TY/S1Stc3Uk2lIM6TPevAlULiEJwie860g==",
+    "shasum": "54726b8b8fff4df053c42187e801fb4412df1494",
+    "tarball": "https://registry.npmjs.org/chownr/-/chownr-1.1.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3901,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbncqBCRA9TVsSAnZWagAAzhUP/1pR2jFff+rVryKPm7jF\nc+IGuZPRxl4qLEjUSNSuVmq+eSWK3zMwSm+59eyI/+ArsjZvtIEi9TUo5ddV\n9vwa64C57bjTcbsSJgHUK+N+8qWggo3nXHYUhFUyVgaVihvVt4LUYPhWFpp2\nzjDdysskuD3hIkcsRPN7123OZwvl9NXU5E/DFmZJ95Jz0tVrABhE5GptOSab\nK69de/oz7tK+3tFAcApq1xNYfzkPSEQscQum+sleV56SEaEUQJfQzJC4iccM\nK7DjBNGkdH+japMi2vD9je2Jo5949wXBgOgjcZmoSgzb2gWivB4HcGeYh/fS\n5yX2CLCy0VOFdkK6C1bxIzxHQEqALY1pnPos1HkXSJMvzWdhNnq+n62IPOh9\n8MXEf0fUOdDfKSwAyOphtWmfu7Wy9gUrYDg4rHPDTQjGDM+mvIIMxMIwmQ0k\nsOOZMdXaaKf3tXtqNUT1j96hgVBTQ7X8/HrXxPuQI9hBrh4CdR7TekZFZ0NG\nrkiNT5fEGwpEz0EeiNlMkaNPkw+hvg6nTFp+0tePyWPC1weMlNCbhm4jipHt\nKl9t8ox+bsoKH/UviCYjC3XfJSEGqBpaox7i8Pjvcp25s4p9FwNiExE0pe2I\nvbWrbGEVL8lsoCJi84uI2n5PBcOyN51srZmWI6P9EU1nYzDPF/B2Z0N8yw5K\n8ks4\r\n=wIis\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

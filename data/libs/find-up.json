@@ -1,0 +1,105 @@
+{
+  "name": "find-up",
+  "description": "Find a file or directory by walking up parent directories",
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-12T15:28:47.611Z",
+    "created": "2015-09-01T07:15:16.509Z",
+    "1.0.0": "2015-09-01T07:15:16.509Z",
+    "1.1.0": "2015-11-14T19:05:49.453Z",
+    "1.1.1": "2016-03-02T09:24:19.277Z",
+    "1.1.2": "2016-03-05T17:45:57.070Z",
+    "2.0.0": "2016-09-20T16:13:51.109Z",
+    "2.1.0": "2016-12-02T13:21:51.615Z",
+    "3.0.0": "2018-06-18T09:19:21.364Z",
+    "4.0.0": "2019-05-12T15:28:45.148Z"
+  },
+  "homepage": "https://github.com/sindresorhus/find-up#readme",
+  "keywords": [
+    "find",
+    "up",
+    "find-up",
+    "findup",
+    "look-up",
+    "look",
+    "file",
+    "search",
+    "match",
+    "package",
+    "resolve",
+    "parent",
+    "parents",
+    "folder",
+    "directory",
+    "walk",
+    "walking",
+    "path"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/find-up.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/find-up/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "ierceg": true,
+    "mrzmmr": true,
+    "bryan.ygf": true,
+    "pmbenjamin": true,
+    "garthk": true,
+    "xrush": true,
+    "alexreg": true,
+    "soenkekluth": true,
+    "jalcine": true,
+    "monkbroc": true,
+    "losymear": true,
+    "djblue": true,
+    "danday74": true
+  },
+  "version": "4.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "locate-path": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "is-path-inside": "^2.1.0",
+    "tempy": "^0.3.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "a2841237562d1f9996084d16c1bc6b471143892a",
+  "dist": {
+    "integrity": "sha512-zoH7ZWPkRdgwYCDVoQTzqjG8JSPANhtvLhh4KVUHyKnaUJJrNeFmWIkTcNuJmR3GLMEmGYEf2S2bjgx26JTF+Q==",
+    "shasum": "c367f8024de92efb75f2d4906536d24682065c3a",
+    "tarball": "https://registry.npmjs.org/find-up/-/find-up-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10221,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2DutCRA9TVsSAnZWagAAH8kP/jsZxV5KNq5u/5HSXNUA\n3zyTzFjRSRSxgzDv7MyjqkZDZVGaJxoQjXpwC/RS5pHM2R442RQR52xq/CHD\nGvCzTnUe51+XgNJ46pEcwA/t+PRQF2gGHxv7Sp/GbUwVLlXkTjPZpKr7Mzix\nSrB0wWZ97vB+xvr24FAp3T9c8gU0Lr6VpvA1hiLo3ecAWq984aPG2iOnFco1\nQVh2yp5ovblESCyElPNl5ZMPLHeH9ovroOBOs9B3J4yKm4EF/b8YTFlgIuGI\nDD5fDH076ql7pUEqEJKQvijt7W3uIHs8vh3ZLy3ModwN28ix2lzEQt70T+k1\nvjvDm+ZJXSYK88Owhe4qqVmaYkB5sTnChJTunid3wHN4Me3pusuhayIrLddd\nObiq7BHAvmFiqcFfrjtGxWLXnzhybkPAof0ENceSd288+NEY5N201OSsLAiB\naLj2/saDpJm4+FRQkQwj3su9a/dfhBLt2gucpiFkq8Ca4yWagSu2FU1r6fV2\n1hHp8bAALOJNmb+uDcxsdGSaYjXX9ESsLH1hRI+ROqrhOonY6qmgtO0pUUkv\n1VlqgdW7JSKYbafpVPqH4yrC4wPAq4S1XAn3k0GEnS2TrO6sURWZllF+xdPp\nbRi0E77GE3kYr02cOSowEfz6DvonQBkD1Y0A1bKnj3sMc4iaa0twtIXnJmGv\nTAmJ\r\n=wBb5\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,139 @@
+{
+  "name": "fraction.js",
+  "time": {
+    "modified": "2019-01-03T22:10:43.351Z",
+    "created": "2014-03-12T01:46:09.440Z",
+    "1.0.0": "2014-03-12T01:46:09.440Z",
+    "1.1.0": "2014-03-21T19:04:46.856Z",
+    "1.2.0": "2014-04-17T01:27:50.505Z",
+    "1.2.1": "2014-06-20T09:39:39.099Z",
+    "1.3.0": "2014-06-29T13:27:22.836Z",
+    "1.5.0": "2015-02-08T18:40:22.146Z",
+    "1.6.0": "2015-02-14T12:29:02.844Z",
+    "1.7.0": "2015-03-25T19:19:20.808Z",
+    "1.9.0": "2015-05-15T08:32:41.163Z",
+    "2.0.0": "2015-05-30T23:53:50.352Z",
+    "2.2.0": "2015-06-04T23:30:52.206Z",
+    "2.3.0": "2015-06-23T11:16:00.181Z",
+    "2.4.0": "2015-07-03T14:52:32.554Z",
+    "2.4.1": "2015-07-07T12:56:03.869Z",
+    "2.5.0": "2015-07-29T17:06:31.269Z",
+    "2.6.0": "2015-08-23T01:26:16.843Z",
+    "2.7.0": "2015-08-23T20:20:46.533Z",
+    "2.8.0": "2015-09-04T16:48:58.496Z",
+    "2.9.0": "2015-09-06T11:01:45.144Z",
+    "3.0.0": "2015-09-09T11:09:48.253Z",
+    "3.1.0": "2016-01-18T02:09:43.567Z",
+    "3.2.0": "2016-01-18T05:20:54.892Z",
+    "3.2.5": "2016-02-06T12:29:12.803Z",
+    "3.3.0": "2016-03-24T22:53:31.838Z",
+    "3.3.1": "2016-04-07T15:33:59.598Z",
+    "4.0.0": "2017-02-08T23:10:46.386Z",
+    "4.0.1": "2017-06-13T18:26:16.076Z",
+    "4.0.2": "2017-06-30T14:13:13.628Z",
+    "4.0.3": "2017-07-26T15:13:26.259Z",
+    "4.0.4": "2017-12-09T00:17:01.366Z",
+    "4.0.5": "2018-03-29T19:56:15.986Z",
+    "4.0.6": "2018-03-29T21:06:17.877Z",
+    "4.0.7": "2018-03-29T21:23:13.612Z",
+    "4.0.8": "2018-04-13T22:54:19.936Z",
+    "4.0.9": "2018-07-18T22:59:48.780Z",
+    "4.0.10": "2018-10-15T15:29:52.668Z",
+    "4.0.11": "2018-11-09T13:29:31.527Z",
+    "4.0.12": "2019-01-03T09:44:05.252Z"
+  },
+  "maintainers": [
+    "infusion <robert@xarg.org>"
+  ],
+  "dist-tags": {
+    "latest": "4.0.12"
+  },
+  "description": "A rational number library",
+  "versions": [
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.9.0",
+    "2.0.0",
+    "2.2.0",
+    "2.3.0",
+    "2.4.0",
+    "2.4.1",
+    "2.5.0",
+    "2.6.0",
+    "2.7.0",
+    "2.8.0",
+    "2.9.0",
+    "3.0.0",
+    "3.1.0",
+    "3.2.0",
+    "3.2.5",
+    "3.3.0",
+    "3.3.1",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "4.0.4",
+    "4.0.5",
+    "4.0.6",
+    "4.0.7",
+    "4.0.8",
+    "4.0.9",
+    "4.0.10",
+    "4.0.11",
+    "4.0.12"
+  ],
+  "homepage": "http://www.xarg.org/2014/03/rational-numbers-in-javascript/",
+  "keywords": [
+    "math",
+    "fraction",
+    "rational",
+    "rationals",
+    "number",
+    "parser",
+    "rational numbers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/infusion/Fraction.js.git"
+  },
+  "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+  "bugs": {
+    "url": "https://github.com/infusion/Fraction.js/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT OR GPL-2.0",
+  "users": {
+    "snowdream": true
+  },
+  "title": "fraction.js",
+  "version": "4.0.12",
+  "main": "fraction",
+  "private": false,
+  "directories": {
+    "example": "examples"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "gitHead": "3ae4f0a42eb279d47cf6aa2c6f6dc90d1513a143",
+  "dist": {
+    "integrity": "sha512-8Z1K0VTG4hzYY7kA/1sj4/r1/RWLBD3xwReT/RCrUCbzPszjNQCCsy3ktkU/eaEqX3MYa4pY37a52eiBlPMlhA==",
+    "shasum": "0526d47c65a5fb4854df78bc77f7bec708d7b8c3",
+    "tarball": "https://registry.npmjs.org/fraction.js/-/fraction.js-4.0.12.tgz",
+    "fileCount": 7,
+    "unpackedSize": 62486,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLdllCRA9TVsSAnZWagAAfKgP/0AVDT4Kr4l64zrgMIyx\nd2bixEuav0Lbk6qUC5Jhp0ZXF6CLkAuVziT/yY2X9bXASqMO9qMvZnsq/C7h\nkZsFs4BfxtjdNXUlONoHMf8J0dXOOK4n3AAkGUcCpuWqlUfBFZlA48iMLi0P\nodNgtj2ssmhT32GL9D+PV1gbx59IQUDkyf4nvYOu//HSqHtK4+u+JCvXGSBx\nwZTddB8WOaOOSI/VLBWiJhUxH3FUgEtDa6i/SvyxmjhNpQqacb4vANzVvEVa\nW0DZaCNK4pVHkNOvXRmGmTYY3cJHVmtF50+lhsQdbnvDB6w29NFT4heVm4fJ\nS1fw7D52hAr+dzVu/awT+3skAT4AEWeUT5F4FPaKxV6OTfkmJAdYNs92LfMN\nqHbzJxOXoPuvz9MLRob77x+6gPC5hhbmbheZXJ10iQLFP2EIppKHPKajcBFF\nU9a8A21xgBNjLDcyUU0MA1THSKJmEDVsTVmY48X7oFgFSt69Rq9gFS+3xbZO\nlDZbt2aJ+XTnteUF1GhFmK1jf+F8gJDuKKh8TF+dX2KqEY+zSaOww2pQiy/f\nTzjGJmHyOcfT9zwhlOO+eN90yaMnVkkLAcWNufj+1IJ7R7rCR/8RarNlvkKQ\ntpPcErXFfd7tEmDfp+RzU7j/EBIDJiuSivm3J91XsFuwAXfOV1eCTXhf9rBM\nhQ2m\r\n=bULN\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

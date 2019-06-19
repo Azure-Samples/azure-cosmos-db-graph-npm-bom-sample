@@ -1,0 +1,94 @@
+{
+  "name": "map-cache",
+  "description": "Basic cache object for storing key-value pairs.",
+  "dist-tags": {
+    "latest": "0.2.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2019-02-19T08:16:44.327Z",
+    "created": "2015-02-25T10:54:58.270Z",
+    "0.1.0": "2015-02-25T10:54:58.270Z",
+    "0.1.1": "2015-03-18T09:51:35.113Z",
+    "0.2.0": "2015-06-23T17:07:33.511Z",
+    "0.2.1": "2016-04-11T12:34:24.070Z",
+    "0.2.2": "2016-05-10T10:51:16.518Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/map-cache",
+  "keywords": [
+    "cache",
+    "get",
+    "has",
+    "object",
+    "set",
+    "storage",
+    "store"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/map-cache.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/map-cache/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "daizch": true
+  },
+  "version": "0.2.2",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.9",
+    "should": "^8.3.1"
+  },
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "config-cache",
+        "option-cache",
+        "cache-base"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "f36c7567cb85b50824db25a2a588c5f7b858823b",
+  "dist": {
+    "shasum": "c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf",
+    "tarball": "https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz"
+  },
+  "directories": {}
+}

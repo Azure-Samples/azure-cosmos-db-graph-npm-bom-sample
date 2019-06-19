@@ -1,0 +1,93 @@
+{
+  "name": "flagged-respawn",
+  "description": "A tool for respawning node binaries when special flags are present.",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "contra <yo@contra.io>",
+    "phated <blaine.bublitz@gmail.com>",
+    "sttk <sttk.xslet@gmail.com>",
+    "tkellen <tyler@sleekcode.net>"
+  ],
+  "time": {
+    "modified": "2019-01-03T21:43:43.260Z",
+    "created": "2014-09-04T07:44:33.190Z",
+    "0.1.0": "2014-09-04T07:44:33.190Z",
+    "0.1.1": "2014-09-04T07:46:08.122Z",
+    "0.1.2": "2014-09-04T17:17:38.651Z",
+    "0.2.0": "2014-09-11T14:55:26.359Z",
+    "0.3.0": "2014-09-11T16:11:59.568Z",
+    "0.3.1": "2014-09-12T16:11:17.435Z",
+    "0.3.2": "2016-03-22T09:26:17.440Z",
+    "1.0.0": "2017-12-16T23:49:47.568Z",
+    "1.0.1": "2018-12-11T19:14:09.801Z"
+  },
+  "homepage": "https://github.com/gulpjs/flagged-respawn#readme",
+  "keywords": [
+    "respawn",
+    "flags"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulpjs/flagged-respawn.git"
+  },
+  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "bugs": {
+    "url": "https://github.com/gulpjs/flagged-respawn/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "contributors": [
+    "Takayuki Sato <sttk.xslet@gmail.com>",
+    "Bertrand Marron <bertrand.marron@ionisx.com>",
+    "Tyler Kellen <tyler@sleekcode.net>",
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "version": "1.0.1",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha --async-only",
+    "cover": "nyc --reporter=lcov --reporter=text-summary npm test",
+    "coveralls": "npm run cover && istanbul-coveralls",
+    "respawn": "node test/bin/respawner --harmony test",
+    "nospawn": "node test/bin/respawner test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.13.0",
+    "eslint-config-gulp": "^3.0.1",
+    "expect": "^1.20.2",
+    "istanbul": "^0.4.3",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^3.5.3",
+    "nyc": "^11.3.0",
+    "v8flags": "^3.0.1"
+  },
+  "gitHead": "2640711d748a1bea801b502d4861277425706721",
+  "dist": {
+    "integrity": "sha512-lNaHNVymajmk0OJMBn8fVUAU1BtDeKIqKoVhk4xAALB57aALg6b4W0MfJ/cUE0g9YBXy5XhSlPIpYIJ7HaY/3Q==",
+    "shasum": "e7de6f1279ddd9ca9aac8a5971d618606b3aab41",
+    "tarball": "https://registry.npmjs.org/flagged-respawn/-/flagged-respawn-1.0.1.tgz",
+    "fileCount": 8,
+    "unpackedSize": 10361,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcEAyCCRA9TVsSAnZWagAAhsYP/2AY4Pl0bYf+9yQcpER9\nNCMnLhkopAYRi5jJwsXm5V6BsAQRO4dWgmUwN4cxHx9BbaKaA0kcnrCyohiW\nrcPODIT2oEip6FAJPfgsp0JFuDDTN8YW0ieKDP3f5IkL70RqHZjaCLRLVPCI\n3vpYIqQcvkCupqCNyB0aaYIZRFVqAK/oB5Vps3w2Bt0L67EnD63mV5I5e3HS\n5BOGROpxJms9KK6r4QPoCquGhe9UuwzCA2sbNcgdkz2LIykyixgO5tGpY6hQ\nq27t0GNw8zmZv+NNo0/3BFtb1MdDFj2PaUEVkFQjeLSGpoxEt4AYwzixx8jk\nNTh6hDVV9JKOeMeXhqpTYftnMfUDrVsKs28OEGr38e9CjAyTEMDEPyTmPLyO\nkT4cV8OktbGu9me3cbSLOrofTeE1YjLGFP9arAkdQX076JFM8bU49YRoH7f0\ngySuqY526bBdtwasGwGlKHvvXP61IE1La6Q187pyDi6RjFH8sBwfQuhP1AwG\nKZc43eoRplWu8G0KJQ1KmHiVbf4nU20fb9enTyeRM0WEUvp4YJHmJYxB/VxH\nkrvz7xZaaKRcI9r2qzxBxDC4jGdT0nbjc82e409UC7SP9IvvgmQbPnYi75Gu\nXZ+EgPFg4XEKl/yLvdWCLB2lUzv5iIC/z45RYMqp6ovbR7L9QrnBHezEwKM4\nWnvN\r\n=pTd5\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

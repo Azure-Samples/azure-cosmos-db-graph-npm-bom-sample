@@ -1,0 +1,65 @@
+{
+  "name": "path-is-inside",
+  "description": "Tests whether one path is inside another path",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "domenic <domenic@domenicdenicola.com>"
+  ],
+  "time": {
+    "modified": "2017-04-24T02:30:58.548Z",
+    "created": "2013-12-14T20:22:09.795Z",
+    "1.0.0": "2013-12-14T20:22:11.015Z",
+    "1.0.1": "2014-03-01T01:23:46.147Z",
+    "1.0.2": "2016-09-10T23:35:10.802Z"
+  },
+  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domenic/path-is-inside.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/domenic/path-is-inside#readme",
+  "keywords": [
+    "path",
+    "directory",
+    "folder",
+    "inside",
+    "relative"
+  ],
+  "bugs": {
+    "url": "https://github.com/domenic/path-is-inside/issues"
+  },
+  "license": "(WTFPL OR MIT)",
+  "users": {
+    "sbruchmann": true,
+    "mattmcfarland": true,
+    "scottfreecode": true,
+    "kontrax": true
+  },
+  "version": "1.0.2",
+  "main": "lib/path-is-inside.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint lib"
+  },
+  "devDependencies": {
+    "jshint": "~2.3.0",
+    "mocha": "~1.15.1"
+  },
+  "gitHead": "05a9bf7c5e008505539e14e96c4d2fc8b2c6d058",
+  "dist": {
+    "shasum": "365417dede44430d1c11af61027facf074bdfc53",
+    "tarball": "https://registry.npmjs.org/path-is-inside/-/path-is-inside-1.0.2.tgz"
+  },
+  "directories": {}
+}

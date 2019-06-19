@@ -1,0 +1,68 @@
+{
+  "name": "pug-parser",
+  "description": "The pug parser (takes an array of tokens and converts it to an abstract syntax tree)",
+  "dist-tags": {
+    "latest": "5.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "3.0.0",
+    "3.0.1",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "5.0.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-08T16:39:11.297Z",
+    "created": "2015-12-12T00:04:44.499Z",
+    "0.0.0": "2015-12-12T00:04:44.499Z",
+    "1.0.0": "2015-12-23T03:45:42.583Z",
+    "2.0.0": "2016-05-14T17:31:59.453Z",
+    "2.0.1": "2016-06-01T05:27:17.007Z",
+    "2.0.2": "2017-01-24T01:07:18.800Z",
+    "3.0.0": "2017-06-02T12:33:32.435Z",
+    "3.0.1": "2017-08-01T15:53:46.637Z",
+    "4.0.0": "2017-09-06T15:28:13.416Z",
+    "4.0.1": "2018-03-06T13:12:30.161Z",
+    "5.0.0": "2018-03-08T16:32:32.089Z",
+    "4.0.2": "2018-03-08T16:36:06.732Z"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pugjs/pug-parser.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mysticatea": true
+  },
+  "version": "5.0.0",
+  "dependencies": {
+    "pug-error": "^1.3.2",
+    "token-stream": "0.0.1"
+  },
+  "devDependencies": {
+    "get-repo": "^1.0.0"
+  },
+  "licenseText": "Copyright (c) 2014 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+  "dist": {
+    "shasum": "e394ad9b3fca93123940aff885c06e44ab7e68e4",
+    "tarball": "https://registry.npmjs.org/pug-parser/-/pug-parser-5.0.0.tgz",
+    "fileCount": 133,
+    "unpackedSize": 1031000
+  },
+  "directories": {}
+}

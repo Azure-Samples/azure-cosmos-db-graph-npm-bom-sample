@@ -1,0 +1,69 @@
+{
+  "name": "which-module",
+  "description": "Find the module object for something that was require()d",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "nexdrew <andrew@npmjs.com>"
+  ],
+  "time": {
+    "modified": "2018-01-23T08:55:31.744Z",
+    "created": "2016-06-06T05:54:13.093Z",
+    "1.0.0": "2016-06-06T05:54:13.093Z",
+    "2.0.0": "2017-05-01T20:24:20.945Z"
+  },
+  "homepage": "https://github.com/nexdrew/which-module#readme",
+  "keywords": [
+    "which",
+    "module",
+    "exports",
+    "filename",
+    "require",
+    "reverse",
+    "lookup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/which-module.git"
+  },
+  "author": "nexdrew",
+  "bugs": {
+    "url": "https://github.com/nexdrew/which-module/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "zhenguo.zhao": true,
+    "shuoshubao": true,
+    "losymear": true
+  },
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "release": "standard-version"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "coveralls": "^2.13.1",
+    "nyc": "^10.3.0",
+    "standard": "^10.0.2",
+    "standard-version": "^4.0.0"
+  },
+  "gitHead": "7f78f42d0761133263c3947a3b24dde324a467ce",
+  "dist": {
+    "shasum": "d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a",
+    "tarball": "https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz"
+  },
+  "directories": {}
+}

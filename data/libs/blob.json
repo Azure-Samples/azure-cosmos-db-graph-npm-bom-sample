@@ -1,0 +1,65 @@
+{
+  "name": "blob",
+  "description": "Abstracts out Blob and uses BlobBulder in cases where it is supported with any vendor prefix.",
+  "dist-tags": {
+    "latest": "0.0.5"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "maintainers": [
+    "amitport <amit.portnoy@gmail.com>",
+    "rase- <tonykovanen@hotmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T09:37:58.728Z",
+    "created": "2014-03-04T02:02:46.630Z",
+    "0.0.1": "2014-03-04T02:02:48.154Z",
+    "0.0.2": "2014-03-06T22:18:12.163Z",
+    "0.0.3": "2014-04-13T09:58:35.223Z",
+    "0.0.4": "2014-04-13T18:55:48.603Z",
+    "0.0.5": "2018-10-31T19:26:51.006Z"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/webmodules/blob",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmodules/blob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webmodules/blob/issues"
+  },
+  "users": {
+    "princetoad": true,
+    "shakakira": true,
+    "zuizuihao": true,
+    "heineiuo": true,
+    "psbolden": true
+  },
+  "license": "MIT",
+  "version": "0.0.5",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.17.1",
+    "expect.js": "0.2.0",
+    "zuul": "1.10.2",
+    "browserify": "4.2.3"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "gitHead": "90ef5685dcd14000ce7a54a005d596633c2726b9",
+  "dist": {
+    "integrity": "sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==",
+    "shasum": "d680eeef25f8cd91ad533f5b01eed48e64caf683",
+    "tarball": "https://registry.npmjs.org/blob/-/blob-0.0.5.tgz",
+    "fileCount": 15,
+    "unpackedSize": 30611,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb2gH7CRA9TVsSAnZWagAA2+8QAIOaj9HrrWfIC+FLmbuo\nJB+vwGPeRC0erCaddsVU4q1B122bdEheKNFPPfNrXTMbHMHASoFoOahrUNiY\nPqj/xRYNgirIyFCpzc9wjk2hLJkNY1C2hftpUwWDdfv1z6ygfIAZXqWkVy42\nqgVloGzU/4WVuL5mOVv6CA8XjovnTkuetDjyR9quBGeNqHBXdXnhs9DvYL1R\npa8IBZa4yqE+MPqJcRwDVqw3knFnQwprrcseWCXg5LFh474ufRIgLIFN/vLz\nf9OgKfUcot8suI1UtRcEFDABBTacQTJGtAPji1XD48tHPKQ401ELU0ZJ6p92\nS5BH4e0bqo6HvTApAs7UoEFDVHASb8Jo1VKXf9BfcO0mJ4g+fSIDuLzxkZoO\nmehRRi07MBF3JvjXKpylgKdCdKwh4lkqBuM1TUCY5WUti/10UGfFNl+jiqDt\nH8B5h7CqXchycCfRBno5v3XzRKZDhZIaaVv7CJVUPyAuAQ6wCIwVQTLrYqci\nXcbmwcEnk1R5JCVDrMEz2Vr3qWR7ANf5tZSk+24M3Nsn23RHEb6Pnp7Bw/TC\nZBd5ftkwSuh3/Vr3BdIoS9chPzqYhXjL+5ejVhjHRT+8KEtHR/C/aFIgEmka\nbskmaWN0DQXGWFUsmBrT97OW8oi46L/2pi/EPeysR810gpfogOSOFcMsZrUB\nMWv6\r\n=SKon\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

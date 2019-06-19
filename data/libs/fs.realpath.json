@@ -1,0 +1,57 @@
+{
+  "name": "fs.realpath",
+  "description": "Use node's fs.realpath, but fall back to the JS implementation if the native one fails",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2016-11-01T17:25:20.989Z",
+    "created": "2016-06-15T18:38:49.471Z",
+    "0.0.0": "2016-06-15T18:38:49.471Z",
+    "1.0.0": "2016-06-15T18:39:05.978Z"
+  },
+  "homepage": "https://github.com/isaacs/fs.realpath#readme",
+  "keywords": [
+    "realpath",
+    "fs",
+    "polyfill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/fs.realpath.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/isaacs/fs.realpath/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "scottfreecode": true,
+    "mojaray2k": true
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
+  "files": [
+    "old.js",
+    "index.js"
+  ],
+  "gitHead": "03e7c884431fe185dfebbc9b771aeca339c1807a",
+  "dist": {
+    "shasum": "1504ad2523158caa40db4a2787cb01411994ea4f",
+    "tarball": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+  },
+  "directories": {}
+}

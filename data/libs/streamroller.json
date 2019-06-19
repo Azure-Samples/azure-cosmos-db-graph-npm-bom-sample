@@ -1,0 +1,151 @@
+{
+  "name": "streamroller",
+  "description": "file streams that roll over when size limits, or dates are reached",
+  "dist-tags": {
+    "latest": "1.0.5"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.5.1",
+    "0.5.2",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.8.1",
+    "0.8.2",
+    "0.8.3",
+    "0.8.4",
+    "0.8.5",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5"
+  ],
+  "maintainers": [
+    "csausdev <gareth.jones@sensis.com.au>"
+  ],
+  "time": {
+    "modified": "2019-05-14T03:54:19.108Z",
+    "created": "2013-08-29T12:05:31.288Z",
+    "0.0.0": "2013-08-29T12:05:54.235Z",
+    "0.0.1": "2013-08-29T12:33:42.949Z",
+    "0.1.0": "2016-10-23T00:25:51.844Z",
+    "0.1.1": "2016-10-23T00:58:57.032Z",
+    "0.2.0": "2016-10-31T09:34:36.669Z",
+    "0.2.1": "2016-10-31T10:22:59.018Z",
+    "0.2.2": "2016-12-12T21:07:49.761Z",
+    "0.3.0": "2016-12-22T21:39:13.126Z",
+    "0.4.0": "2017-02-27T21:19:28.773Z",
+    "0.4.1": "2017-05-12T03:20:52.281Z",
+    "0.5.0": "2017-06-20T22:42:38.664Z",
+    "0.5.1": "2017-07-01T06:57:57.654Z",
+    "0.5.2": "2017-08-02T21:39:56.302Z",
+    "0.6.0": "2017-10-23T21:04:30.228Z",
+    "0.7.0": "2017-11-14T20:24:22.858Z",
+    "0.8.0": "2018-03-25T21:24:43.364Z",
+    "0.8.1": "2018-04-10T06:11:48.340Z",
+    "0.8.2": "2018-04-11T02:57:41.176Z",
+    "0.8.3": "2018-05-15T10:21:06.687Z",
+    "0.8.4": "2018-08-15T21:58:22.463Z",
+    "0.8.5": "2018-08-15T22:23:45.005Z",
+    "1.0.0": "2019-01-20T21:22:53.744Z",
+    "1.0.1": "2019-01-21T21:28:16.229Z",
+    "1.0.2": "2019-02-20T21:55:45.006Z",
+    "1.0.3": "2019-02-20T22:23:13.122Z",
+    "1.0.4": "2019-03-25T21:21:51.549Z",
+    "1.0.5": "2019-05-14T03:54:16.474Z"
+  },
+  "author": "Gareth Jones <gareth.nomiddlename@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomiddlename/streamroller.git"
+  },
+  "homepage": "https://github.com/nomiddlename/streamroller#readme",
+  "keywords": [
+    "stream",
+    "rolling"
+  ],
+  "bugs": {
+    "url": "https://github.com/nomiddlename/streamroller/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "josudoey": true
+  },
+  "version": "1.0.5",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "codecheck": "eslint 'src/**/*.js'",
+    "prepublishOnly": "npm test",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "pretest": "npm run codecheck",
+    "clean": "rm -rf node_modules/",
+    "test": "nyc --check-coverage --lines 100 --branches 100 --functions 100 mocha",
+    "html-report": "nyc report --reporter=html"
+  },
+  "gitHead": "ece35d7d86c87c04ff09e8604accae81cf36a0ce",
+  "devDependencies": {
+    "@commitlint/cli": "^6.2.0",
+    "@commitlint/config-conventional": "^6.1.3",
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "mocha": "^4.0.1",
+    "nyc": "^11.9.0",
+    "proxyquire": "^2.1.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "date-format": "^2.0.0",
+    "debug": "^3.2.6",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": false,
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "off"
+    }
+  },
+  "dist": {
+    "integrity": "sha512-iGVaMcyF5PcUY0cPbW3xFQUXnr9O4RZXNBBjhuLZgrjLO4XCLLGfx4T2sGqygSeylUjwgWRsnNbT9aV0Zb8AYw==",
+    "shasum": "71660c20b06b1a7b204d46085731ad13c10a562d",
+    "tarball": "https://registry.npmjs.org/streamroller/-/streamroller-1.0.5.tgz",
+    "fileCount": 13,
+    "unpackedSize": 87546,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2jvpCRA9TVsSAnZWagAAmroQAIB87j/k8EWLkWG8YMdA\nsa9Cub0WJK6WZOOs+piOC7SK7D1wIfZbB+z5RWkC6WigTWQswOcCBURHNfEt\nzSHX5/mHH5z92H9z+UHFf5NItzmzw3sNhyhc6VqUxIfINWMyrrXErJLBvM5l\nUAOqT3O27X2BNIv9tPJRE1UXlXGr3m67xduURcHjWZN6vNlsPziU5g1kjgB0\nlId3QX50D5nHKXi8SqiWwrvdTicJCi17fLmt5lacYxqmt+0e2nMieIv8TRKk\nMH9pVS3oesTf+ay2HnsvWyKUmJQ6boeNaJ9ydEN+TIz20iEq4DW4qavXPfi1\nZGFRdaLkkbv7CVmCY7cbIpDTtlTF9w2iQ3x6jFf0y25ufwa+Soow2SSBBnd2\ns0/sYXYfU9xTpCib2RWomEgFh4hm8yBiBLvqmCwG2HI+pJu1ULD9RCzqz3Hr\nw1VhnRD/lj2nlSbcZG5Eo6irB60nE4JvTPfvbQDiZNqPD0nK51qY/fz16Bd4\nxFz/f+TtbvaCxEoJRmTiYjwpeifGk1Vh3cEdwh+QNEpRYFb665jLmY7Ywv1a\nY79M8ebxizri8djYSmHeT4xgiD+bBj61fFdByiHyeFnhLt2kZ/hZZ+twNI0C\nrpaxIhxxnuXtuELRvhgl6fXGvwkW16gYHuLoOaOzeq64+WgiXaPNff9y/W7t\no6bc\r\n=L4vc\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

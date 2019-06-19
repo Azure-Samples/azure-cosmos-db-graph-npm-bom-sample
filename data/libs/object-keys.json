@@ -1,0 +1,165 @@
+{
+  "name": "object-keys",
+  "description": "An Object.keys replacement, in case Object.keys is not available. From https://github.com/es-shims/es5-shim",
+  "dist-tags": {
+    "latest": "1.1.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.5.1",
+    "0.6.0",
+    "0.6.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.0.11",
+    "1.0.12",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-07T02:30:21.193Z",
+    "created": "2013-03-29T20:44:12.281Z",
+    "0.0.1": "2013-03-29T20:44:12.881Z",
+    "0.0.2": "2013-03-30T16:13:52.880Z",
+    "0.1.0": "2013-03-30T20:58:48.065Z",
+    "0.1.1": "2013-04-02T06:16:54.290Z",
+    "0.1.2": "2013-04-03T16:43:21.243Z",
+    "0.1.3": "2013-04-08T01:18:51.713Z",
+    "0.1.4": "2013-04-09T00:47:37.900Z",
+    "0.1.5": "2013-04-14T12:27:20.913Z",
+    "0.1.6": "2013-04-17T07:18:02.522Z",
+    "0.1.7": "2013-04-18T02:23:24.367Z",
+    "0.1.8": "2013-05-10T17:32:12.476Z",
+    "0.2.0": "2013-05-10T18:52:03.655Z",
+    "0.3.0": "2013-05-18T22:06:13.036Z",
+    "0.4.0": "2013-08-14T08:10:10.483Z",
+    "0.5.0": "2014-01-30T09:28:17.465Z",
+    "0.5.1": "2014-03-10T06:43:32.469Z",
+    "0.6.0": "2014-08-01T07:22:33.482Z",
+    "0.6.1": "2014-08-26T05:51:23.007Z",
+    "1.0.0": "2014-08-26T19:21:11.757Z",
+    "1.0.1": "2014-09-03T07:19:08.654Z",
+    "1.0.2": "2014-12-28T09:03:12.859Z",
+    "1.0.3": "2015-01-06T22:27:00.343Z",
+    "1.0.4": "2015-05-23T20:19:48.735Z",
+    "1.0.5": "2015-07-03T23:43:33.872Z",
+    "1.0.6": "2015-07-09T15:41:54.153Z",
+    "1.0.7": "2015-07-18T19:23:11.235Z",
+    "1.0.8": "2015-10-14T22:21:16.304Z",
+    "1.0.9": "2015-10-19T22:07:23.370Z",
+    "1.0.10": "2016-07-04T18:01:59.134Z",
+    "1.0.11": "2016-07-05T17:49:39.399Z",
+    "1.0.12": "2018-06-18T21:47:14.916Z",
+    "1.1.0": "2019-02-11T05:21:09.393Z",
+    "1.1.1": "2019-04-07T02:30:18.674Z"
+  },
+  "author": "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/object-keys.git"
+  },
+  "users": {
+    "claudiopro": true,
+    "brostoch": true,
+    "rocket0191": true
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/ljharb/object-keys#readme",
+  "keywords": [
+    "Object.keys",
+    "keys",
+    "ES5",
+    "shim"
+  ],
+  "bugs": {
+    "url": "https://github.com/ljharb/object-keys/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+    "Raynos <raynos2@gmail.com>",
+    "Nathan Rajlich <nathan@tootallnate.net>",
+    "Ivan Starkov <istarkov@gmail.com>",
+    "Gary Katsevman <git@gkatsev.com>"
+  ],
+  "version": "1.1.1",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run --silent lint",
+    "test": "npm run --silent tests-only",
+    "posttest": "npm run --silent audit",
+    "tests-only": "node test/index.js",
+    "coverage": "covert test/*.js",
+    "coverage-quiet": "covert test/*.js --quiet",
+    "lint": "eslint .",
+    "preaudit": "npm install --package-lock --package-lock-only",
+    "audit": "npm audit",
+    "postaudit": "rm package-lock.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ljharb/eslint-config": "^13.1.1",
+    "covert": "^1.1.1",
+    "eslint": "^5.13.0",
+    "foreach": "^2.0.5",
+    "indexof": "^0.0.1",
+    "is": "^3.3.0",
+    "tape": "^4.9.2"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "gitHead": "ba2c1989270c7de969aa8498fc3b7c8e677806f3",
+  "dist": {
+    "integrity": "sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==",
+    "shasum": "1c47f272df277f3b1daf061677d9c82e2322c60e",
+    "tarball": "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 26544,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqWC7CRA9TVsSAnZWagAApOoQAIGgpq1xnaDCEe3hqJFt\n1fjwFbEKHTyK59hA/zVmvvR4ikMeltZc5KAIKNt5XyDBO4NtuRcA7E1b3D7C\nFX/IMtPwIq5OvZLWhEnGBNTmwlVq8PI9DwZ6AE2hWM4JAmkT5tay7QtjDAur\nYRdTEEB3eqWETNiaybnF9d1GLKuH4dKcM/v9yiHMp+qa9Ivpe9VtWRj7WTr+\nkxc39JZdSVGFbVYNCFkZ8oyj5VbLOtyMB++6JxbR9fYlZ06ibmT+XrFsz7CF\nr7hQ/XFHlyodg0pi34+YhlyDAsPIvk8DOxDoKGs4aFZ6EqZm3hVnWaAlKqgX\n3ikZAT9Z/4d9icoRkEhVMj7INySL4bSd7lFDIlwGruc4j6U6b6phhwgIlhQE\nMsnWmnLL7/AAaPB8oiNhb8Lt/9/jRJsAHwRBRH9NN/DH2VyP0F2hzp66L5dF\niIVw9YUIBCOzfRg5Gr0qd0GCGbIefcq4AomxsJEdBbV+3AFkJvj7dibMrSb7\nJcBVC/TwJCjNv+Ols7VZE+Yj6ZYbNrsuh5KbPkdFchg6qNgds1Dh1tH8GwrJ\nULdSyACz/0stHNGr8p+Boa85mDseApgozr42UUHdEQyohO1/meNonjDGJl9w\ncLlcHMcR7hnLzp4v54jcv+q74EDZa15iEk/ckLdYFoUXXhRhBJo0XyG43zf8\nEO6O\r\n=PzOq\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,84 @@
+{
+  "name": "grunt-legacy-log",
+  "description": "The Grunt 0.4.x logger.",
+  "dist-tags": {
+    "latest": "2.0.0",
+    "rc1": "1.0.0-rc1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "1.0.0-rc1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "cowboy <cowboy@rj3.net>",
+    "shama <kyle@dontkry.com>",
+    "tkellen <tyler@sleekcode.net>",
+    "vladikoff <vlad@vladikoff.com>"
+  ],
+  "time": {
+    "modified": "2018-05-19T20:25:32.047Z",
+    "created": "2014-05-01T18:12:06.581Z",
+    "0.1.0": "2014-05-01T18:12:06.581Z",
+    "0.1.1": "2014-05-12T19:35:38.833Z",
+    "0.1.2": "2015-05-27T02:03:15.708Z",
+    "0.1.3": "2015-12-23T16:07:51.252Z",
+    "1.0.0-rc1": "2016-02-11T17:01:05.855Z",
+    "1.0.0": "2016-04-03T23:23:49.202Z",
+    "1.0.1": "2018-03-02T01:54:21.971Z",
+    "1.0.2": "2018-04-26T16:22:43.321Z",
+    "2.0.0": "2018-05-19T20:25:28.287Z"
+  },
+  "homepage": "http://gruntjs.com/",
+  "keywords": [
+    "grunt",
+    "legacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-legacy-log.git"
+  },
+  "author": "\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "bugs": {
+    "url": "http://github.com/gruntjs/grunt-legacy-log/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "colors": "~1.1.2",
+    "grunt-legacy-log-utils": "~2.0.0",
+    "hooker": "~0.2.3",
+    "lodash": "~4.17.5"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "gitHead": "f62cc614575cda6d561d593d72df480280e8bee3",
+  "dist": {
+    "integrity": "sha512-1m3+5QvDYfR1ltr8hjiaiNjddxGdQWcH0rw1iKKiQnF0+xtgTazirSTGu68RchPyh1OBng1bBUjLmX8q9NpoCw==",
+    "shasum": "c8cd2c6c81a4465b9bbf2d874d963fef7a59ffb9",
+    "tarball": "https://registry.npmjs.org/grunt-legacy-log/-/grunt-legacy-log-2.0.0.tgz",
+    "fileCount": 16,
+    "unpackedSize": 42162,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbAIg5CRA9TVsSAnZWagAAxJ4QAJJ6yBCSCWeAWNMahkOX\n6wMNh9qlLWFGMNw4hZfXGA4H2J9hP/kVp8J4N4SjGg54Eu8GybPxCrpXd+yM\nMWNBkT4moNsOKJLhDbi1hRgcrqaxCC1TYvEl3hyCQmu1rJXO5BWtcFTq4S7k\njVyWYLWcFk1gt6YqkEdudhsjiivHNLtz0rEe7UZwtdpDnFQpZLQqywBOMHrP\nGP5uu38Uc/8PUHc04yj9aWbVQXOvekT+LDb9hXFB/Qhs+vcpa/IjOuKVGe8H\nqZNPJIxI05qJIWyFo6dRMiSXzliDm72LuNWBbH8lm+7m0WjiSABmoAYTPjgH\nt6T65KWikEZb9oo52KyInhGUmLSjLjX/d2SP5d7tnBumBMowGsdvEvUEAgCr\ndkCPQtgnMza8lxGnWQIMdJAArwrtcWYUG0KsWEvXg/QrgQQMGPIDEL/2jNH7\ncdkXA+L0sMeEEFM4x4rV/Kg3vtWmL4DUKnWbT2bM2PHlYCmLmr5RREClvzna\nuR8+9pIXOXUG+hNbFE+5Vvw1uaMe23G83/lUNx9p8MwV14r62qPH+LhKOdc4\ngl+ddzKf9wJRYAjqfqcI89ngMqGEjDfHdokkzgvXsHI/27VNNvbZX7qL0dbx\nL3QXJhscbwm2PTNIxnN07RdLYKhyUEg7FwzV0XtBGvD+mDFB1Ro1g9tBbbN+\n0Iti\r\n=2DJR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}
