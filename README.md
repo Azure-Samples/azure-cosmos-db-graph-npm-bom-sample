@@ -5,8 +5,51 @@ An example Bill-of-Material application with NPM data using Azure CosmosDB Graph
 ![cosmosgraph](img/cosmosgraph.png)
 
 ## Created by:
-- Chris Joakim, Microsoft, Cloud Solution Architect
-- Luis Bosquez, Microsoft, CosmosDB Program Manager
+
+- Chris Joakim, Microsoft, Azure Cloud Solution Architect, Charlotte
+- Luis Bosquez, Microsoft, Azure CosmosDB Program Manager, Redmond
+
+## NPM as the Data Source
+
+In our work with Azure CosmosDB we've seen that **Bill-of-Materials (BOM)** is a common use-case for companies,
+especially in the manufacturing sector.  The graph of their manufactured products and their many nested components
+is perfectly suited for CosmosDB with the Gremlin API.
+
+Industry and company-specific product and component data, however, is both proprietary as well as not relatable
+to most readers.  We wanted to create a sample application with data that was **immediately relatable** to most
+Information Technology audiences.  Therefore, we chose the domain of **software**, since software end-products are
+typically composed of a nested sofware libraries (i.e. - manufacturing components), and IT audiences innately
+understand this.
+
+We considered using NuGet (DotNet), MavenCentral (Java), and PyPI (Python) as the datasource.  But we chose  
+[npm (Node Package Manager)](https://www.npmjs.com) in the Node.js and JavaScript ecosystem as Node.js is
+fast-growing, appeals to a wide-audience, has great CLI tooling, and CosmosDB itself is JavaScript and JSON oriented.
+
+## Architecture
+
+This application uses Azure CosmosDB, with the Gremlin API, as its sole datasource.  There is a batch process
+which "spiders" npm for information about npm libraries, wrangles this data, and then loads it into CosmosDB.
+There is also a web application, in the webapp/ directory. built with Node.js and Express which quereis and
+displays the CosmosDB data.
+
+The database design includes two graphs, or containers.  One contains the Graph data, with the Vertices being the
+NPM Libraries and their Maintainers, with Edges connecting libraries to their dependent libraries.
+
+The second container in an implementation of the concept of a **materialized view**; a set of data pre-aggregated
+and persisted so as to enable faster queries at runtime.  What's very interesting about the materialized view
+in this project is that it is accessed via the **CosmosDB SQL API** rather than the **Gremlin API**.  The materialized
+views are queried efficiently in this project via their **partition key attribute** whose name is simply 'pk'.
+This is actually a best practice - to name your partition key attributes with a generic name like 'pk' or 
+'partition_key' rather than a given business-oriented attribute name.
+
+This is currently the only case where a single CosmosDB account can be accessed via two programatic APIs;
+in this case Gremlin and SQL.
+
+The advantage of this approach is that your BOM data is in one database, with independent and independently scalable
+graph and view collections.  It enables expressive graph traversal via the Gremlin API, and also very effiecient 
+queries via the SQL API.
+
+See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Pattern** for both the Gremlin and SQL APIs.
 
 ## Links
 
