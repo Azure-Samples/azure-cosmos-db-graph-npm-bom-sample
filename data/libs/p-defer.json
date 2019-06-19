@@ -1,0 +1,73 @@
+{
+  "name": "p-defer",
+  "description": "Create a deferred promise",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-03T05:21:24.104Z",
+    "created": "2016-10-21T05:14:31.906Z",
+    "1.0.0": "2016-10-21T05:14:31.906Z",
+    "2.0.0": "2019-03-17T12:27:03.960Z",
+    "2.0.1": "2019-03-23T08:56:36.724Z",
+    "2.1.0": "2019-04-03T05:21:21.381Z"
+  },
+  "homepage": "https://github.com/sindresorhus/p-defer#readme",
+  "keywords": [
+    "promise",
+    "defer",
+    "deferred",
+    "resolve",
+    "reject",
+    "lazy",
+    "later",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-defer.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-defer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true
+  },
+  "version": "2.1.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "267600324e63a3e298c0d5a3cbd2d316bb4d1225",
+  "dist": {
+    "integrity": "sha512-xMwL9id1bHn/UfNGFEMFwlULOprQUEOg6vhqSfr6oKxPFB0oSh0zhGq/9/tPSE+cyij2+RW6H8+0Ke4xsPdZ7Q==",
+    "shasum": "d9c97b40f8fb5c256a70b4aabec3c1c8c42f1fae",
+    "tarball": "https://registry.npmjs.org/p-defer/-/p-defer-2.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4304,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpELSCRA9TVsSAnZWagAAKIwP/1fX1BG+MisBP1K6j8Tu\nQCpE76Mh7dWEJrKRiVdErFd2727ai72v/n8CnY1M4nz/2XTx0fkTh/1bh6Js\nzMeV2uKe86wKHJPQlYAk2l1/JClJSfbwbuHS/7hRne4gwGSlaO/+ot2luPkR\nS/y9tRD77dfPG2hNNUPVVlAyYA2/C1Aw5SKm4I+2wfzZkee1ZvzgPQiqGfnx\nufCOYeP9Dj9hGVwgRJHGv32dKvbbwzxqE/elciL7/uCxE+ZUa076kHCsMqlB\nbm1vtgN1rqxVBLvdq4T/RABQTnhowq4P1Z0Fx5x+BQv+ufaBRLHWkmIOzE6P\ngPU5DHnDZUVMm0xlXm9h833v1vRLvaTQMjjuu0s6qVO0XiEk7cCun3Bm28LA\nLvG8GrzvtaiRFemT13idMCsrjrPr2JyemsM6VogoKKmN9jHH/jZye90RqlXZ\niH0VSgy/HVBQ5RgCF7qt5WN7eIOpsqgXek+nwXAb52ZzwsDEygq1lmVUKO0W\nfFDJ4WIUJfJ6fGwrBQGPei9+Ivx43zJkiJNaO4emvp5sxVfFnvMBSTRS51qL\nui3qWAKdfSOEsCiADIxtt4I+9bmGXUd0IiTsWJrXEo2VubsTS6kguniTl5YI\n1Rc5MB6wzwfycwrRC7Qa5saaK8r7DxMiqPjEtEJuVtUXEFXuLBcIK1uTCzhW\nLCAK\r\n=6B4k\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

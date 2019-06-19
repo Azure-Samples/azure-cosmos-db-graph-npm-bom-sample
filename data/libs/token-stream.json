@@ -1,0 +1,53 @@
+{
+  "name": "token-stream",
+  "description": "Take an array of token and produce a more useful API to give to a parser",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "alubbe <npm@lubbe.org>",
+    "bloodyowl <mlbli@me.com>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "jbnicolai <jappelman@xebia.com>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-09-05T09:28:31.971Z",
+    "created": "2014-11-20T13:28:14.796Z",
+    "0.0.1": "2014-11-20T13:28:14.796Z",
+    "1.0.0": "2016-06-01T05:34:32.722Z"
+  },
+  "homepage": "https://github.com/pugjs/token-stream#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pugjs/token-stream.git"
+  },
+  "author": "ForbesLindesay",
+  "bugs": {
+    "url": "https://github.com/pugjs/token-stream/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "robinblomberg": true
+  },
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "*"
+  },
+  "scripts": {
+    "test": "node test && npm run coverage",
+    "coverage": "istanbul cover test"
+  },
+  "gitHead": "a0a9100a450c5e0db9ead52cdd4455da376d8ce5",
+  "dist": {
+    "shasum": "cc200eab2613f4166d27ff9afc7ca56d49df6eb4",
+    "tarball": "https://registry.npmjs.org/token-stream/-/token-stream-1.0.0.tgz"
+  },
+  "directories": {}
+}

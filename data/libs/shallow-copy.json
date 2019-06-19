@@ -1,0 +1,68 @@
+{
+  "name": "shallow-copy",
+  "description": "make a shallow copy of an object or array",
+  "dist-tags": {
+    "latest": "0.0.1"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1"
+  ],
+  "maintainers": [
+    "substack <mail@substack.net>"
+  ],
+  "time": {
+    "modified": "2015-03-05T18:27:15.577Z",
+    "created": "2013-07-25T04:34:57.810Z",
+    "0.0.0": "2013-07-25T04:34:59.273Z",
+    "0.0.1": "2013-07-25T06:24:34.297Z"
+  },
+  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/shallow-copy.git"
+  },
+  "users": {
+    "simplyianm": true
+  },
+  "homepage": "https://github.com/substack/shallow-copy",
+  "keywords": [
+    "shallow",
+    "copy",
+    "data",
+    "object",
+    "array"
+  ],
+  "bugs": {
+    "url": "https://github.com/substack/shallow-copy/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.markdown",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "ff/latest",
+      "chrome/latest",
+      "safari/latest",
+      "opera/latest",
+      "android/latest",
+      "iphone/latest",
+      "ipad/latest"
+    ]
+  },
+  "dist": {
+    "shasum": "415f42702d73d810330292cc5ee86eae1a11a170",
+    "tarball": "https://registry.npmjs.org/shallow-copy/-/shallow-copy-0.0.1.tgz"
+  },
+  "directories": {}
+}

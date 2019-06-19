@@ -1,0 +1,119 @@
+{
+  "name": "fast-levenshtein",
+  "description": "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+  "dist-tags": {
+    "latest": "2.0.6"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.1.0",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6"
+  ],
+  "maintainers": [
+    "hiddentao <ram@hiddentao.com>"
+  ],
+  "time": {
+    "modified": "2018-02-24T02:09:56.948Z",
+    "created": "2013-04-18T05:57:10.372Z",
+    "1.0.0": "2013-04-18T05:57:15.181Z",
+    "1.0.1": "2014-07-10T03:39:50.757Z",
+    "1.0.2": "2014-07-10T04:19:05.817Z",
+    "1.0.3": "2014-07-10T05:07:35.370Z",
+    "1.0.4": "2014-09-15T06:06:35.043Z",
+    "1.0.5": "2014-12-06T03:04:03.113Z",
+    "1.0.6": "2014-12-17T16:32:54.020Z",
+    "1.0.7": "2015-08-13T01:08:40.011Z",
+    "1.1.0": "2015-12-29T10:52:41.779Z",
+    "1.1.2": "2016-01-26T10:27:10.654Z",
+    "1.1.3": "2016-01-26T19:21:05.750Z",
+    "1.1.4": "2016-07-22T06:27:22.895Z",
+    "2.0.0": "2016-08-26T06:23:35.146Z",
+    "2.0.1": "2016-08-26T08:54:04.982Z",
+    "2.0.2": "2016-08-26T09:25:13.798Z",
+    "2.0.3": "2016-08-26T09:27:04.507Z",
+    "2.0.4": "2016-09-07T04:40:37.975Z",
+    "2.0.5": "2016-09-28T22:36:57.195Z",
+    "2.0.6": "2016-12-27T21:15:07.820Z"
+  },
+  "author": "Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiddentao/fast-levenshtein.git"
+  },
+  "homepage": "https://github.com/hiddentao/fast-levenshtein#readme",
+  "keywords": [
+    "levenshtein",
+    "distance",
+    "string"
+  ],
+  "bugs": {
+    "url": "https://github.com/hiddentao/fast-levenshtein/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "morphar": true,
+    "zambon": true,
+    "kreshikhin": true,
+    "mimmo1": true,
+    "fernando_fr": true,
+    "christangga": true,
+    "seangenabe": true,
+    "rocket0191": true,
+    "heartnett": true,
+    "cgraff": true,
+    "hasyee": true,
+    "nskondratev": true,
+    "wolfram77": true,
+    "ganeshkbhat": true,
+    "keenwon": true,
+    "karbunkul": true,
+    "dwayneford": true
+  },
+  "version": "2.0.6",
+  "main": "levenshtein.js",
+  "files": [
+    "levenshtein.js"
+  ],
+  "scripts": {
+    "build": "grunt build",
+    "prepublish": "npm run build",
+    "benchmark": "grunt benchmark",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "grunt": "~0.4.1",
+    "grunt-benchmark": "~0.2.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-mocha-test": "~0.2.2",
+    "grunt-npm-install": "~0.1.0",
+    "load-grunt-tasks": "~0.6.0",
+    "lodash": "^4.0.1",
+    "mocha": "~1.9.0"
+  },
+  "gitHead": "5bffe7151f99fb02f319f70a004e653105a760fb",
+  "dist": {
+    "shasum": "3d8a5c66883a16a30ca8643e851f19baa7797917",
+    "tarball": "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
+  },
+  "directories": {}
+}

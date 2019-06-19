@@ -1,0 +1,87 @@
+{
+  "name": "has",
+  "description": "Object.prototype.hasOwnProperty.call shortcut",
+  "dist-tags": {
+    "latest": "1.0.3"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "maintainers": [
+    "tarruda <tpadilha84@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-06-12T16:54:16.415Z",
+    "created": "2013-10-08T00:54:01.609Z",
+    "0.0.1": "2013-10-08T00:54:07.309Z",
+    "1.0.0": "2014-10-07T18:41:58.615Z",
+    "1.0.1": "2015-07-24T08:49:30.633Z",
+    "1.0.2": "2018-06-02T21:04:36.393Z",
+    "1.0.3": "2018-06-04T16:23:29.998Z"
+  },
+  "author": "Thiago de Arruda <tpadilha84@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarruda/has.git"
+  },
+  "users": {
+    "substack": true,
+    "getify": true,
+    "bradleymeck": true,
+    "akiva": true,
+    "rsp": true,
+    "nickeltobias": true,
+    "tobiasnickel": true,
+    "ahmed-dinar": true,
+    "maximusx": true,
+    "tjfwalker": true,
+    "iori20091101": true
+  },
+  "homepage": "https://github.com/tarruda/has",
+  "bugs": {
+    "url": "https://github.com/tarruda/has/issues"
+  },
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)"
+  ],
+  "license": "MIT",
+  "version": "1.0.3",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tarruda/has/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./src",
+  "dependencies": {
+    "function-bind": "^1.1.1"
+  },
+  "devDependencies": {
+    "@ljharb/eslint-config": "^12.2.1",
+    "eslint": "^4.19.1",
+    "tape": "^4.9.0"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "tape test"
+  },
+  "gitHead": "4edf96f2dec87ad6b6e68482e8f6d7c8eb7e07e6",
+  "dist": {
+    "integrity": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
+    "shasum": "722d7cbfc1f6aa8241f16dd814e011e1f41e8796",
+    "tarball": "https://registry.npmjs.org/has/-/has-1.0.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2770,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbFWeCCRA9TVsSAnZWagAAGqoP/3/GpNmBbr2IzYG0v9Rg\n0jDcyA0p95I8Tc1GbOsB0YWMY+VMs5I3tggHG4yjB8OskeR7GyItfcZpe9b5\nEGNr2Yq/eOKI602MTnWzHaAczxF887EVcXDISg1qDlzjTYWFMNms5jDxH6OT\nKD0SLHE1qRCASPxNZsJLoxT/dPaVfRC5QMIz8msEaI+qUu8p54cO0/DSLSlT\n5kCGKA5CfbfIODAmyvddsKgOW0at16XJ97f+qHhrI5q6HoYdM2jcLzPXxPiw\nSgPKXICus5TjFvRdBoOXa2diz9urPjQGzVsGoKs8W0Z9EeoxpiJInVRN1Hec\nabW1NzLvINbuFcG1I/CvNVXKGKwIafKg25ba/T/PHa/5rHY2+S4Y9Mj0SLFv\n8V7HWSQMGaG86kZjH9vgd7MPP39lBZXw5msjftiRVxiDiZYutbGzBymwHcYd\nzPVrzCfdNg9o2OsG8mjIBGntCwz9/Yrx7npK9mP97nZQ4EDDoDoCga5efkMP\nmT02Vru1cCdHOfRnM/tlr4Onf0umRhgzUfsbjdSsrGapGCTeVvBvnm6XKznZ\nw9HWfGyNaZiT1J0/pmnRMwxEp/xcKMaAOa1c2pisTGpjkbQloGQx77IwfBiO\nAVBfV3yBDWCgutiwEb4zg0RPPjlS1RCJDMzg+CsXT1u9H6St8MUtuBikkNr4\ndlxV\r\n=Dlp+\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,68 @@
+{
+  "name": "is-expression",
+  "description": "Check if a string is a valid JavaScript expression",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-04-13T05:35:38.348Z",
+    "created": "2015-11-12T01:39:00.612Z",
+    "1.0.0": "2015-11-12T01:39:00.612Z",
+    "1.0.1": "2015-11-12T16:57:36.341Z",
+    "1.0.2": "2016-01-07T01:37:50.414Z",
+    "2.0.0": "2016-02-13T01:21:16.927Z",
+    "2.0.1": "2016-06-04T01:14:50.531Z",
+    "2.1.0": "2016-07-26T18:43:55.226Z",
+    "3.0.0": "2016-09-12T00:03:26.635Z"
+  },
+  "homepage": "https://github.com/pugjs/is-expression#readme",
+  "keywords": [
+    "javascript",
+    "expression"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pugjs/is-expression.git"
+  },
+  "author": "Timothy Gu <timothygu99@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pugjs/is-expression/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "rocket0191": true
+  },
+  "version": "3.0.0",
+  "dependencies": {
+    "acorn": "~4.0.2",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "*",
+    "testit": "^2.0.2"
+  },
+  "scripts": {
+    "test": "node test && npm run coverage",
+    "coverage": "istanbul cover test.js"
+  },
+  "gitHead": "fc635340548d1114707497e39babe8dc476326c8",
+  "dist": {
+    "shasum": "39acaa6be7fd1f3471dc42c7416e61c24317ac9f",
+    "tarball": "https://registry.npmjs.org/is-expression/-/is-expression-3.0.0.tgz"
+  },
+  "directories": {}
+}

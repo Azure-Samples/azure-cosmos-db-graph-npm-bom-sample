@@ -1,0 +1,82 @@
+{
+  "name": "npm-run-path",
+  "description": "Get your PATH prepended with locally installed binaries",
+  "dist-tags": {
+    "latest": "3.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-05T06:35:22.673Z",
+    "created": "2015-12-28T18:54:14.293Z",
+    "1.0.0": "2015-12-28T18:54:14.293Z",
+    "2.0.0": "2016-09-25T06:34:49.794Z",
+    "2.0.1": "2016-09-28T05:02:34.870Z",
+    "2.0.2": "2016-09-29T08:10:39.751Z",
+    "3.0.0": "2019-03-10T15:25:34.328Z",
+    "3.1.0": "2019-04-05T06:35:19.707Z"
+  },
+  "homepage": "https://github.com/sindresorhus/npm-run-path#readme",
+  "keywords": [
+    "npm",
+    "run",
+    "path",
+    "package",
+    "bin",
+    "binary",
+    "binaries",
+    "script",
+    "cli",
+    "command-line",
+    "execute",
+    "executable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/npm-run-path.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/npm-run-path/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "aretecode": true,
+    "yikuo": true
+  },
+  "version": "3.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "path-key": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "1f745c451448a8bbf2044211071793a1444edc31",
+  "dist": {
+    "integrity": "sha512-Dbl4A/VfiVGLgQv29URL9xshU8XDY1GeLy+fsaZ1AA8JDSfjvr5P5+pzRbWqRSBxk6/DW7MIh8lTM/PaGnP2kg==",
+    "shasum": "7f91be317f6a466efed3c9f2980ad8a4ee8b0fa5",
+    "tarball": "https://registry.npmjs.org/npm-run-path/-/npm-run-path-3.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6583,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpvcoCRA9TVsSAnZWagAA150P/iIbvxbp73CDQ1XgmbAs\nkvNvUNhWqmHQ1wpfCde9qkIrCcrvYjn1p6tDXCL3HZXZQZATkB9KSOn5XlZd\nZmpfnHZvvoUu4hfVTQXIZjHoNvO2VvxOj+D+9Og/wzM6cJtAOmz/C3XBXR2B\nI8nWdzq1typyfJjVCYruvlVh6OuxX/Fx+9aGveNhSPXeCklDdqyOjgr9iR+W\nXsD48hHc7EfMr2N+vE5c0ErC/Y63segd3H+Q85RN3yVSFAWGlvjlUyL54t5S\nyPe7KBdmk8lprre4rVlaHlM7X1w5N5MmGZW7uYH3v/c6y0ZObXYZ+jBU/TRp\ncihsdaCnr2rtx3s8R8q21MVqUAWBxg9CdBrvTA5PRIH0V0+mlZGUk7bf7PIO\nD/n3rALpnchlPj8qmNgp1F5+CCPcHFQx+qrLEDH9FRDjrqOdHIgUDAsNIMd4\nlNsI/4p86ypVPq2w6h5J8IB9MNkLxYIj+Z5ClVv+toYoc9hB0go7rvYB6S8Z\nxSp+e9f24ZxlI+6fEpv7nzONq2R4TujY6ZQii+kFMnQ0FJGfe+TYhcyXW09W\n/VEZw757MV1BMfvItTCuMwEtpm6PN2XxVj0z5IPKiqG627NsFhEoe7GTLtyF\n2I2kBGlaNgxD/zWOGV5j2i0UpXph5G8SLDTFW6eBnNbIGzlPfH9RxbKfqhdd\nW2Gl\r\n=1jCu\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "ignore-by-default",
+  "description": "A list of directories you should ignore by default",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "novemberborn <mark@novemberborn.net>"
+  ],
+  "time": {
+    "modified": "2016-02-26T14:48:47.510Z",
+    "created": "2016-02-05T18:06:20.388Z",
+    "1.0.0": "2016-02-05T18:06:20.388Z",
+    "1.0.1": "2016-02-26T14:48:47.510Z"
+  },
+  "homepage": "https://github.com/novemberborn/ignore-by-default#readme",
+  "keywords": [
+    "ignore",
+    "chokidar",
+    "watcher",
+    "exclude",
+    "glob",
+    "pattern"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novemberborn/ignore-by-default.git"
+  },
+  "author": "Mark Wubben (https://novemberborn.net/)",
+  "bugs": {
+    "url": "https://github.com/novemberborn/ignore-by-default/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "novemberborn": true
+  },
+  "version": "1.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "devDependencies": {
+    "figures": "^1.4.0",
+    "standard": "^6.0.4"
+  },
+  "gitHead": "fa7ec97d8249ab6aab63cc1e46d14dd30fcb11ee",
+  "dist": {
+    "shasum": "48ca6d72f6c6a3af00a9ad4ae6876be3889e2b09",
+    "tarball": "https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz"
+  },
+  "directories": {}
+}

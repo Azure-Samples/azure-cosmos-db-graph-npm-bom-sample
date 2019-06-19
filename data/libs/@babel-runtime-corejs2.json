@@ -1,0 +1,87 @@
+{
+  "name": "@babel/runtime-corejs2",
+  "dist-tags": {
+    "latest": "7.4.5"
+  },
+  "versions": [
+    "7.0.0-beta.56",
+    "7.0.0-rc.0",
+    "7.0.0-rc.1",
+    "7.0.0-rc.2",
+    "7.0.0-rc.3",
+    "7.0.0-rc.4",
+    "7.0.0",
+    "7.1.1",
+    "7.1.2",
+    "7.1.5",
+    "7.2.0",
+    "7.3.0",
+    "7.3.1",
+    "7.3.4",
+    "7.4.0",
+    "7.4.2",
+    "7.4.3",
+    "7.4.4",
+    "7.4.5"
+  ],
+  "time": {
+    "created": "2018-08-04T01:03:15.050Z",
+    "7.0.0-beta.56": "2018-08-04T01:03:15.170Z",
+    "modified": "2019-05-21T17:45:47.551Z",
+    "7.0.0-rc.0": "2018-08-09T15:56:32.045Z",
+    "7.0.0-rc.1": "2018-08-09T20:06:28.524Z",
+    "7.0.0-rc.2": "2018-08-21T19:22:29.625Z",
+    "7.0.0-rc.3": "2018-08-24T18:06:27.392Z",
+    "7.0.0-rc.4": "2018-08-27T16:42:32.110Z",
+    "7.0.0": "2018-08-27T21:41:49.710Z",
+    "7.1.1": "2018-09-28T20:02:51.646Z",
+    "7.1.2": "2018-09-28T22:19:45.932Z",
+    "7.1.5": "2018-11-06T22:21:29.707Z",
+    "7.2.0": "2018-12-03T19:01:57.401Z",
+    "7.3.0": "2019-01-21T21:41:48.486Z",
+    "7.3.1": "2019-01-22T07:13:49.800Z",
+    "7.3.4": "2019-02-25T18:35:29.924Z",
+    "7.4.0": "2019-03-19T20:44:44.961Z",
+    "7.4.2": "2019-03-21T10:17:29.516Z",
+    "7.4.3": "2019-04-02T19:56:00.311Z",
+    "7.4.4": "2019-04-26T21:04:15.911Z",
+    "7.4.5": "2019-05-21T17:45:44.993Z"
+  },
+  "maintainers": [
+    "danez <daniel@tschinder.de>",
+    "existentialism <bng412@gmail.com>",
+    "hzoo <hi@henryzoo.com>",
+    "loganfsmyth <loganfsmyth@gmail.com>",
+    "nicolo-ribaudo <nicolo.ribaudo@gmail.com>"
+  ],
+  "description": "babel's modular runtime helpers with core-js@2 polyfilling",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-runtime-corejs2"
+  },
+  "author": "Sebastian McKenzie <sebmck@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "7.4.5",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "regenerator-runtime": "^0.13.2"
+  },
+  "devDependencies": {
+    "@babel/helpers": "^7.4.4"
+  },
+  "gitHead": "33ab4f166117e2380de3955a0842985f578b01b8",
+  "licenseText": "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "dist": {
+    "shasum": "3d892f0560df21bafb384dd7727e33853e95d3c9",
+    "integrity": "sha512-5yLuwzvIDecKwYMzJtiarky4Fb5643H3Ao5jwX0HrMR5oM5mn2iHH9wSZonxwNK0oAjAFUQAiOd4jT7/9Y2jMQ==",
+    "tarball": "https://registry.npmjs.org/@babel/runtime-corejs2/-/runtime-corejs2-7.4.5.tgz",
+    "fileCount": 237,
+    "unpackedSize": 100213,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5DlJCRA9TVsSAnZWagAAjH8P/R8uXSLB7f3FAPCLgnG5\nQ/d9h1qNQiTebHxkW3QFRS4L9g6PVZUE4zOpdYJ4cG5I3nLwUBIo7bIyRabX\n7ecPRxzvzS2qWuFZ5UK6hidhzHDcRGWHNwh9o4byeVHNeizAM7GruL9iiD3h\nCdXL4Fekk3ezehnWgvpGUQn/ILPqQj3lScOYcOCTNzO/kqmf8QL55xh7DJrk\nvdFsL74wAle76mFJ33eMZz85mU60NrAtvmuclwU0YywolUHoCCHmXnS47Hbv\ntKzeA9+LSYXiQHC+yLp0d4Q4205oz7p6iDmEebLyb0qZ2Qlaz21cNAzR2Kh6\nsLNwXjOC1OAgOEQxgTRswktKobyn0s+KqXp0hfBjxhprgfGaKjdzyZXmsQam\nFtteQyTq7J8UpH6yTrxI6Sh+dnon/q1sCD6byxzzPLrkUeHuOj15LqNn6KtQ\n7o4htl01PjRngVR2JIxVLUggcTws4ZWN1YcX2OU00efkzQBLeZCu5Of+cf+6\nvy9e5KzHWoQBI58mFIv4hMHhU/Fo32iU6bRLN/PDxdGoGnSAdXLBvkUAly9b\nlKWIOIe7pOmS9tLMJrAu/8bbV2D+AXkqK2gotB1IXJPiBkzr5WBz5v6/q2Nz\nbGNi988bn+mckGP3Yq9GPQcAyp9/QgoBJ7v/fJzJ7mosFpIF0tjvghN32+wW\nExca\r\n=CHmY\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

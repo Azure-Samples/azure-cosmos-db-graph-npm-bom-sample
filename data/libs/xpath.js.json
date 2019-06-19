@@ -1,0 +1,75 @@
+{
+  "name": "xpath.js",
+  "description": "Xpath pure javascript implementation for node.js",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "yaron <yaronn01@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-25T13:28:47.438Z",
+    "created": "2012-06-28T12:36:13.159Z",
+    "0.0.1": "2012-06-28T12:36:14.134Z",
+    "0.0.2": "2012-08-25T22:51:57.977Z",
+    "0.0.3": "2012-08-25T22:55:02.450Z",
+    "0.0.4": "2014-06-11T17:50:56.383Z",
+    "1.0.4": "2014-08-16T09:32:52.705Z",
+    "1.0.5": "2014-09-04T13:53:18.482Z",
+    "1.0.6": "2015-05-25T13:04:08.323Z",
+    "1.0.7": "2016-11-21T17:50:24.875Z",
+    "1.1.0": "2018-01-04T06:32:57.868Z"
+  },
+  "author": "Cameron McCormack (http://mcc.id.au/xpathjs)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaronn/xpath.js.git"
+  },
+  "users": {
+    "jindw": true,
+    "jonaswebdev": true,
+    "dofy": true,
+    "daffyfeng": true,
+    "jochemstoel": true
+  },
+  "homepage": "https://github.com/yaronn/xpath.js#readme",
+  "keywords": [
+    "xpath",
+    "xml"
+  ],
+  "bugs": {
+    "url": "https://github.com/yaronn/xpath.js/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "1.1.0",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": ">=0.6.4"
+  },
+  "main": "./xpath.js",
+  "directories": {},
+  "scripts": {
+    "test": "nodeunit tests/test.js"
+  },
+  "gitHead": "e1e57637f1dc7ab1f415bb2f8980a18354261c88",
+  "dist": {
+    "integrity": "sha512-jg+qkfS4K8E7965sqaUl8mRngXiKb3WZGfONgE18pr03FUQiuSV6G+Ej4tS55B+rIQSFEIw3phdVAQ4pPqNWfQ==",
+    "shasum": "3816a44ed4bb352091083d002a383dd5104a5ff1",
+    "tarball": "https://registry.npmjs.org/xpath.js/-/xpath.js-1.1.0.tgz"
+  }
+}

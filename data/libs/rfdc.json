@@ -1,0 +1,105 @@
+{
+  "name": "rfdc",
+  "dist-tags": {
+    "latest": "1.1.4"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4"
+  ],
+  "time": {
+    "created": "2018-05-19T05:31:58.910Z",
+    "1.0.0": "2018-05-19T05:31:58.976Z",
+    "modified": "2019-05-12T18:23:25.608Z",
+    "1.0.1": "2018-05-19T05:36:28.379Z",
+    "1.0.2": "2018-05-19T05:45:14.860Z",
+    "1.0.3": "2018-05-19T20:11:43.799Z",
+    "1.1.0": "2018-05-19T20:40:48.640Z",
+    "1.0.4": "2018-05-19T21:18:14.405Z",
+    "1.1.1": "2018-05-20T11:27:42.463Z",
+    "1.1.2": "2018-05-20T11:46:53.119Z",
+    "1.1.3": "2019-05-12T18:03:58.454Z",
+    "1.1.4": "2019-05-12T18:23:23.130Z"
+  },
+  "maintainers": [
+    "bridgear <ruben@bridgewater.de>",
+    "davidmarkclements <huperekchuno@googlemail.com>"
+  ],
+  "description": "Really Fast Deep Clone",
+  "homepage": "https://github.com/davidmarkclements/rfdc#readme",
+  "keywords": [
+    "object",
+    "obj",
+    "properties",
+    "clone",
+    "copy",
+    "deep",
+    "recursive",
+    "key",
+    "keys",
+    "values",
+    "prop",
+    "deep-clone",
+    "deepclone",
+    "deep-copy",
+    "deepcopy",
+    "fast",
+    "performance",
+    "performant",
+    "fastclone",
+    "fastcopy",
+    "fast-clone",
+    "fast-deep-clone",
+    "fast-copy",
+    "fast-deep-copy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/rfdc.git"
+  },
+  "author": "David Mark Clements <david.clements@nearform.com>",
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/rfdc/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "1.1.4",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap -R min test && npm run lint",
+    "bench": "node benchmark",
+    "lint": "standard --fix",
+    "cov": "tap --100 test",
+    "cov-ui": "tap --coverage-report=html test",
+    "ci": "standard && tap --100 --coverage-report=text-lcov test | codecov --pipe"
+  },
+  "devDependencies": {
+    "codecov": "^3.4.0",
+    "deep-copy": "^1.4.2",
+    "fast-copy": "^1.2.1",
+    "fastbench": "^1.0.1",
+    "lodash.clonedeep": "^4.5.0",
+    "standard": "^11.0.1",
+    "tap": "^12.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "gitHead": "a9fa9599a86ad7949beaf740c150138614d1f5ae",
+  "dist": {
+    "integrity": "sha512-5C9HXdzK8EAqN7JDif30jqsBzavB7wLpaubisuQIGHWf2gUXSpzy6ArX/+Da8RjFpagWsCn+pIgxTMAmKw9Zug==",
+    "shasum": "ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2",
+    "tarball": "https://registry.npmjs.org/rfdc/-/rfdc-1.1.4.tgz",
+    "fileCount": 5,
+    "unpackedSize": 16273,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2GSbCRA9TVsSAnZWagAAIv8QAII+ckCgodthpnGHfUjR\nYChQbewnlfIrpai0aOTDM35bp0LPFAvtxf1m4Thxqy901b8t2mwl/P1vAyJ6\nS52NR2Uq1+WHJyXcaZGek+xQYheQorhobk9320e4nCqwEmHbrzX4JoBhWk8c\nS0P+wIJYq+bqh77GsG+LEhuXpBCMyORhIru9+HULl0cmB52qoZKK4zIlgAav\nKww8asDq7/PEzbe4afknWw4eIikzQtVg3lVbf3zCIU8cIL02kEyKf5tASZ8/\nO1CjTrx7iIgVHzZB6fx8qakif5RfKTxwwM1NaRnYDdLysqsrrBKQK1yCDsTh\nnx5Q7NE5HR+jNyPWqz+Rv4u7wjNfYgyC4GJBrG69In4Pwet/GDHE1jbJjMP0\n3sdHx7wPG/+Vn5U5k1CcBzzyTnQyNdisTXUa/77yzjxSFmx4vDC8k8ULC/Vx\nJ6yZ1qZmJH6wOgFqYcWvHGK6X0J6vFb7CYwhpaUFNpkdd8L4HlU5qj4361Em\niAeNU9N4r37ZmadnzV78T6gWwB9gb1wmZG1tfm9/puDopLCoJllMSTNHRfQf\nGzMDT+sqR2JP/AL1DWmGOMQgjIcj8YtFd1bL6qddvz0qqlvpDHfmDGc29kmO\nOyPB/KEOWytMbJumar0smlU8SGmgwWmqYeN9TJSZx64ZHThCJBDiAHsvkU5N\nAJ6q\r\n=p2DB\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

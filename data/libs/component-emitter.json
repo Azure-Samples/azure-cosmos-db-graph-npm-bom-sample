@@ -1,0 +1,100 @@
+{
+  "name": "component-emitter",
+  "description": "Event emitter",
+  "dist-tags": {
+    "latest": "1.3.0"
+  },
+  "versions": [
+    "1.1.2",
+    "1.1.3",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0"
+  ],
+  "maintainers": [
+    "amasad <amjad.masad@gmail.com>",
+    "anthonyshort <antshort@gmail.com>",
+    "blakeembrey <hello@blakeembrey.com>",
+    "calvinfo <calvin@calv.info>",
+    "clintwood <clint@anotherway.co.za>",
+    "coreh <thecoreh@gmail.com>",
+    "cristiandouce <cristiandouce@gmail.com>",
+    "defunctzombie <shtylman@gmail.com>",
+    "dfcreative <df.creative@gmail.com>",
+    "dominicbarnes <dominic@dbarnes.info>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "hughsk <hughskennedy@gmail.com>",
+    "ianstormtaylor <ian@ianstormtaylor.com>",
+    "jonathanong <jonathanrichardong@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "juliangruber <julian@juliangruber.com>",
+    "kelonye <kelonyemitchel@gmail.com>",
+    "mattmueller <mattmuelle@gmail.com>",
+    "nami-doc <vendethiel@hotmail.fr>",
+    "queckezz <fabian.eichenberger@gmail.com>",
+    "rauchg <rauchg@gmail.com>",
+    "retrofox <rdsuarez@gmail.com>",
+    "stagas <gstagas@gmail.com>",
+    "stephenmathieson <me@stephenmathieson.com>",
+    "swatinem <arpad.borsos@googlemail.com>",
+    "thehydroimpulse <dnfagnan@gmail.com>",
+    "timaschew <timaschew@gmail.com>",
+    "timoxley <secoif@gmail.com>",
+    "tjholowaychuk <tj@vision-media.ca>",
+    "tootallnate <nathan@tootallnate.net>",
+    "trevorgerhardt <trevorgerhardt@gmail.com>",
+    "yields <yields@icloud.com>"
+  ],
+  "time": {
+    "modified": "2019-04-15T20:48:14.119Z",
+    "created": "2014-02-11T02:15:29.076Z",
+    "1.1.2": "2014-02-11T02:15:29.076Z",
+    "1.1.3": "2014-06-20T06:24:49.737Z",
+    "1.2.0": "2015-02-12T18:37:13.945Z",
+    "1.2.1": "2016-04-18T18:55:09.978Z",
+    "1.3.0": "2019-04-15T20:48:08.367Z"
+  },
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/component/emitter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/component/emitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/component/emitter/issues"
+  },
+  "users": {
+    "h02e56": true,
+    "kontrax": true,
+    "tommyzzm": true,
+    "monjer": true,
+    "alexsasharegan": true,
+    "dwqs": true,
+    "heartnett": true
+  },
+  "license": "MIT",
+  "version": "1.3.0",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "emitter/index.js": "index.js"
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "gitHead": "6bd7817e8a444cb16e8abdf7dd2d7f04d5ca3dc8",
+  "dist": {
+    "integrity": "sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==",
+    "shasum": "16e4070fba8ae29b679f2215853ee181ab2eabc0",
+    "tarball": "https://registry.npmjs.org/component-emitter/-/component-emitter-1.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8001,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctO4ICRA9TVsSAnZWagAAIwkP/2seJl5R6k04DzjI2I4D\ns/OxuiaQjcjhXseLkEuSdRNzJKdeGdL9nujc6/zYzbhWfIyUpes9FetRnsut\nGMpM2ClspSTxKGIxkHyvTFzYEM/nBHjwfxlDuiT2siCpCIoRvRV5440MyrBU\nNio6j/uAlAVSPUDzXYNUvzdsMl+2mAJUcgXmrFFvn2hI2tJbDJ8UuMdZ9++R\nk8vPm5Dm7XL7b3LmZZZ9Y5JndyZuISGeAPL2bbRYOm+0p9ozA4FGtpJysVIe\ntOTuiXZfvMSgXVYgGP0avYXbx40L6X+Kcwmm1W2P7Owz3T6r7oVmtnvk4Z8/\nZbWLeJ5Pbq61e+1udRLidmCtKz6X5oafK4bElnQ4Oa1zrjP/bwLlkmfaLPOc\n3dZiPnOZ8TwbLFmH7Fc2yL2Vx3mcYQ7p+e4wcWcxlAVJA74GXzg/7+a79GSq\nl5b62nbeU7dvU831b375PZaa5RpGs7Tbw4hsOV14kCLd2khmOLwF4u1xmMTZ\n8r45Qjb2ZO+3rGSWOM2SGdl6Biw4SGXeC1WalAY1PaY1Bd1MDjCqqqNeKGC8\nwrKD/koSSGKzcKi54OffLLi63Rwk7rLeu4/kF+RKw5EzI/eQcB/EK6gSfJOP\nm/ErUTK3436UgHhg6/XHyj1JVM6zrOJnaEHwyqVtd6xkXF/Nm0FhsvXOxyA4\n0xVL\r\n=o9Hs\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,65 @@
+{
+  "name": "is-npm",
+  "description": "Check if your code is running as an npm script",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-11T06:39:09.290Z",
+    "created": "2014-07-20T09:36:12.205Z",
+    "1.0.0": "2014-07-20T09:36:12.205Z",
+    "2.0.0": "2018-03-22T15:06:02.269Z",
+    "3.0.0": "2019-03-11T06:39:05.582Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is-npm#readme",
+  "keywords": [
+    "npm",
+    "is",
+    "check",
+    "detect",
+    "env",
+    "environment",
+    "run",
+    "script"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is-npm.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-npm/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd-check"
+  },
+  "devDependencies": {
+    "ava": "^1.3.1",
+    "tsd-check": "^0.3.0",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "5e207a26760f883d91923e3bbfe4a1ed7a9f6a5a",
+  "dist": {
+    "integrity": "sha512-wsigDr1Kkschp2opC4G3yA6r9EgVA6NjRpWzIi9axXqeIaAATPRJc4uLujXe3Nd9uO8KoDyA4MD6aZSeXTADhA==",
+    "shasum": "ec9147bfb629c43f494cf67936a961edec7e8053",
+    "tarball": "https://registry.npmjs.org/is-npm/-/is-npm-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2816,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJchgKKCRA9TVsSAnZWagAAlaIP/0yWMiijYVl6mBwXaafP\nfBVdF30qK8BfYe9AgMmFm/vEDTYL9UIPSWKsKVfYSwXOSGn/Lq/NUCHuaP4h\nUxv/NQ44Z1APFFffFEkR2lOiXCDx3iAmMGUUNibOQ3PD+f1CnsEUvu560x7j\n6GsfXlNW8iX+hExhqUkvuR5RvYs8IfTNP5WlGsHHsodPc9f+F3zI0lw6/MOP\ndU8Kn4hQA7K77h2uRF/fecDSEhdBhrKvgbYP7Ue2OSDPLxiHSHUgff45qVvr\n4TFMSagrRyj7lHouI2t9IwtIU5GBVCFgDiMfyK7zUFAIo7B6XK2oD4OkkF9q\nfabQLOQr1SeXZcaM+tp8TopWnumFkVsvkCp+Y+Feqd8kP/C9OUPcpethMzMx\nnsunHQg44f99cl1tevFhDVx4Ju6jgYUNvCGn405qhx8+P787foycWzVU7I67\nEecGPm6dHPjgkzNTH0z1YksdfZw+NOZqLuUvTFzeLhafNuTQeMRja6Nub0tw\n6BXN/5UIx2wwGAvoSu4/ELrkKiTst+ZG5pakhyWURYn2UMkKScmi4AhrTE2N\nLD7vNlZeJs5fxqcnDZ8CwcbD0sN9mOAVob+HTIkqXKnSamxrzC7x0+yapj82\nixsatyZGCqq4WwY4Q7q2c56op9ZTpoA79zfypB3QMiSuAymW7yTvXQK84zk4\naILq\r\n=47IG\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

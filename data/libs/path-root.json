@@ -1,0 +1,84 @@
+{
+  "name": "path-root",
+  "description": "Get the root of a posix or windows filepath.",
+  "dist-tags": {
+    "latest": "0.1.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2016-03-29T07:14:27.534Z",
+    "created": "2016-03-29T06:58:41.555Z",
+    "0.1.0": "2016-03-29T06:58:41.555Z",
+    "0.1.1": "2016-03-29T07:14:27.534Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/path-root",
+  "keywords": [
+    "path",
+    "root"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/path-root.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/path-root/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.1.1",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "path-root-regex": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
+  },
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "highlight": "parse-filepath",
+      "list": [
+        "path-root-regex",
+        "parse-filepath",
+        "is-absolute"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "2f1a3929dece0f8bb645b8eb6123dd53f05cd503",
+  "dist": {
+    "shasum": "9a4a6814cac1c0cd73360a95f32083c8ea4745b7",
+    "tarball": "https://registry.npmjs.org/path-root/-/path-root-0.1.1.tgz"
+  },
+  "directories": {}
+}

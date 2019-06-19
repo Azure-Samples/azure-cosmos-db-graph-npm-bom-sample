@@ -1,0 +1,128 @@
+{
+  "name": "depd",
+  "description": "Deprecate all the things",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "0.4.3",
+    "0.4.4",
+    "0.4.5",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2019-01-02T20:56:15.578Z",
+    "created": "2014-06-15T05:36:40.048Z",
+    "0.0.0": "2014-06-15T05:36:40.048Z",
+    "0.0.1": "2014-06-15T06:45:56.017Z",
+    "0.1.0": "2014-06-15T23:00:43.255Z",
+    "0.2.0": "2014-06-16T03:10:42.166Z",
+    "0.3.0": "2014-06-17T05:12:24.584Z",
+    "0.4.0": "2014-07-20T00:44:09.734Z",
+    "0.4.1": "2014-07-20T01:00:25.153Z",
+    "0.4.2": "2014-07-20T01:50:35.874Z",
+    "0.4.3": "2014-07-26T20:16:57.765Z",
+    "0.4.4": "2014-07-27T16:58:38.606Z",
+    "0.4.5": "2014-09-09T23:35:40.588Z",
+    "1.0.0": "2014-09-18T06:42:35.900Z",
+    "1.0.1": "2015-04-07T17:50:07.601Z",
+    "1.1.0": "2015-09-14T15:59:06.622Z",
+    "1.1.1": "2017-07-27T23:10:29.750Z",
+    "1.1.2": "2018-01-12T05:47:03.858Z",
+    "2.0.0": "2018-10-26T17:52:55.936Z"
+  },
+  "homepage": "https://github.com/dougwilson/nodejs-depd#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougwilson/nodejs-depd.git"
+  },
+  "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "bugs": {
+    "url": "https://github.com/dougwilson/nodejs-depd/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "keywords": [
+    "deprecate",
+    "deprecated"
+  ],
+  "users": {
+    "306766053": true,
+    "zhangyaochun": true,
+    "forivall": true,
+    "bacra": true,
+    "cshao": true,
+    "simplyianm": true,
+    "yasinaydin": true,
+    "moimikey": true,
+    "zhanghaili": true,
+    "wangnan0610": true,
+    "lgh06": true,
+    "ahmed-dinar": true,
+    "mojaray2k": true,
+    "danielrhayes": true,
+    "leonzhao": true,
+    "programmer.severson": true,
+    "abhisekp": true,
+    "daizch": true,
+    "eyson": true,
+    "tedyhy": true,
+    "zuojiang": true,
+    "zhenguo.zhao": true,
+    "xgheaven": true,
+    "isayme": true
+  },
+  "version": "2.0.0",
+  "browser": "lib/browser/index.js",
+  "devDependencies": {
+    "benchmark": "2.1.4",
+    "beautify-benchmark": "0.2.4",
+    "eslint": "5.7.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-markdown": "1.0.0-beta.7",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0",
+    "safe-buffer": "5.1.2",
+    "uid-safe": "2.1.5"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "bench": "node benchmark/index.js",
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --bail test/",
+    "test-ci": "istanbul cover --print=none node_modules/mocha/bin/_mocha -- --reporter spec test/ && istanbul report lcovonly text-summary",
+    "test-cov": "istanbul cover --print=none node_modules/mocha/bin/_mocha -- --reporter dot test/ && istanbul report lcov text-summary"
+  },
+  "gitHead": "6d59c85d093092e65ec77033576417d743079fa0",
+  "dist": {
+    "integrity": "sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==",
+    "shasum": "b696163cc757560d09cf22cc8fad1571b79e76df",
+    "tarball": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 27117,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb01R4CRA9TVsSAnZWagAArWcP/jPqhJPVwB4A7UlP7Z79\nKmkIJRegTXb8sBTkFdL8t5TDikX47CViz3qWSktGdJnwY4q/GnLHeOr/+eq6\nXVvkSKLrpOdmDBYbf7DxVepxbWOLVSCAshlnw6XPXhcqOKd2smn1CPA/hgRj\n26YvwMECmyIlcE5RgubUvN4qqOyMhGF7muWjCbqRq3qcGK7hXUqEnrlHxHsY\ndKCnzRw0HbfxYX2QynmyRL1Y9ynQuq2ucTDxuhQf78ElkHAsbSYaEks9unYG\nWGhU8zH4TGOcLrmJ6GsKhZk22JvnxCg3zwgqLwks2EFiG1iojPD4EkjZgcnJ\nt8meOu2nT8JCa6fNpPMWUpYO1aUKmhoOb5KGyMhSsNX/DND+ndSu0kOP9gU1\nCetsBqRTHHH3jUK/NmyAvzMO0X8mk/FxzI+NTqKQKt8r2/Y5IW4A6oDkaRkr\nPSu1s1DpT5mw9gHBA7K0YKuVr6HwQVnd/1io+OyUmNarjXm2lMaXucpZG3+Q\ncWpj4FyrD0vf+/bV9LKTXee3qAJ9UEGNvhJAKUrGTR8vtdM6uMxLnsBe42hR\nsRM2dJ8KnMujdw+lH+sgjtqcYP/G1Gz2cRtfbVWTrc/olODQPBpu2ycIY0nc\ncejka3bMbVHzYaY7+ho/9SfbE/6x9LRlmcHSEiPzUHRSpYY3pskktQDM0bBo\nm15/\r\n=BUpb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

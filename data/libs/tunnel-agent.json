@@ -1,0 +1,73 @@
+{
+  "name": "tunnel-agent",
+  "description": "HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.",
+  "dist-tags": {
+    "latest": "0.6.0"
+  },
+  "versions": [
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "0.4.3",
+    "0.5.0",
+    "0.6.0"
+  ],
+  "maintainers": [
+    "mikeal <mikeal.rogers@gmail.com>",
+    "nylen <jnylen@gmail.com>",
+    "fredkschott <fkschott@gmail.com>",
+    "simov <simeonvelichkov@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-28T04:55:39.581Z",
+    "created": "2013-03-01T20:43:54.074Z",
+    "0.2.0": "2013-03-01T20:43:54.791Z",
+    "0.3.0": "2013-04-22T05:11:34.229Z",
+    "0.4.0": "2014-02-04T19:33:08.224Z",
+    "0.4.1": "2015-07-02T16:27:22.528Z",
+    "0.4.2": "2015-12-08T14:31:54.613Z",
+    "0.4.3": "2016-05-04T21:14:31.757Z",
+    "0.5.0": "2017-03-04T19:32:51.786Z",
+    "0.6.0": "2017-03-05T00:30:01.500Z"
+  },
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)",
+  "repository": {
+    "url": "git+https://github.com/mikeal/tunnel-agent.git"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "fgribreau": true,
+    "program247365": true,
+    "wfcookie": true,
+    "mojaray2k": true,
+    "manikantag": true,
+    "ganeshkbhat": true
+  },
+  "homepage": "https://github.com/mikeal/tunnel-agent#readme",
+  "bugs": {
+    "url": "https://github.com/mikeal/tunnel-agent/issues"
+  },
+  "license": "Apache-2.0",
+  "version": "0.6.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "safe-buffer": "^5.0.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "gitHead": "67df643033258e7cb1388f648ee5f141cd66101b",
+  "scripts": {},
+  "dist": {
+    "shasum": "27a5dea06b36b04a0a9966774b290868f0fc40fd",
+    "tarball": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz"
+  },
+  "directories": {}
+}

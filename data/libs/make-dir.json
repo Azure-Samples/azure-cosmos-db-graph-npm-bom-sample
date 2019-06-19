@@ -1,0 +1,104 @@
+{
+  "name": "make-dir",
+  "description": "Make a directory and its parents if needed - Think `mkdir -p`",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-01T09:27:34.416Z",
+    "created": "2017-05-09T18:34:33.547Z",
+    "1.0.0": "2017-05-09T18:34:33.547Z",
+    "1.1.0": "2017-10-22T06:21:08.477Z",
+    "1.2.0": "2018-02-19T07:26:44.932Z",
+    "1.3.0": "2018-05-10T13:52:55.437Z",
+    "2.0.0": "2019-02-04T05:37:29.131Z",
+    "2.1.0": "2019-03-03T19:40:20.829Z",
+    "3.0.0": "2019-04-01T09:27:30.052Z"
+  },
+  "homepage": "https://github.com/sindresorhus/make-dir#readme",
+  "keywords": [
+    "mkdir",
+    "mkdirp",
+    "make",
+    "directories",
+    "dir",
+    "dirs",
+    "folders",
+    "directory",
+    "folder",
+    "path",
+    "parent",
+    "parents",
+    "intermediate",
+    "recursively",
+    "recursive",
+    "create",
+    "fs",
+    "filesystem",
+    "file-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/make-dir.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/make-dir/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "raycharles": true,
+    "kiinlam": true,
+    "agnibrata": true,
+    "zuojiang": true,
+    "cedx": true,
+    "jhq": true,
+    "restuta": true,
+    "tztz": true
+  },
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && nyc ava && tsd"
+  },
+  "dependencies": {
+    "semver": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/graceful-fs": "^4.1.3",
+    "@types/node": "^11.12.2",
+    "ava": "^1.4.0",
+    "codecov": "^3.2.0",
+    "graceful-fs": "^4.1.15",
+    "nyc": "^13.3.0",
+    "path-type": "^4.0.0",
+    "tempy": "^0.2.1",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "b13a97d67d92b0948803bdbb9b6bfb84c21079d9",
+  "dist": {
+    "integrity": "sha512-grNJDhb8b1Jm1qeqW5R/O63wUo4UXo2v2HMic6YT9i/HBlF93S8jkMgH7yugvY9ABDShH4VZMn8I+U8+fCNegw==",
+    "shasum": "1b5f39f6b9270ed33f9f054c5c0f84304989f801",
+    "tarball": "https://registry.npmjs.org/make-dir/-/make-dir-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9481,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcodmCCRA9TVsSAnZWagAAKQAP/10hUugymOap/gUgZWJy\n6U4M07o7Vdm8gw2BZ6ulftR9p7r9DuV7ohDJUYHhQCc8F0lMWzqq8uFVsotK\njuzk1G1v6qJPwqEpinjolVtLgNyXLHKoSUKYsIIgeqt5nfCndG7uNbwlAVd9\nSxh5dBK1cycKEcHKNGqKqTRc8qfsGN1V3LxOBdZ6++dgktWMkvczaT/7fGw2\nZRNoIBt0cnGG6ws2s7Je9FEYjt3ubcQ5KmEwmKOtzv7opF0yvz6ZCStVHgVm\n0QuvgF0zp6wJo9Nk76jz/HzjLgcl8IBtBRcrvXr5xjWoCQmX4hRBemYtTIMQ\n0ABtuwcvJvrOCTeJH7UoRB3gu7niNX//wA4xMFbMTZbVmBHq3BodsghF1HVC\neHZNI9K9SSmwWtxr/yFwx98UuS2QX5NlQ3iFaouugIqT/1zWEURO5VfAH81W\nGcQLyxZJJ2K8hQAk3ipa4Tvp7iRdPlCuV85bW9xMK7u8HkpOk/fmYOC3232u\nc44iH1e9R7wKTprzQ+aWcNUfwnnfb/nw1fA89KaL+YQg8qXInNiyzVF7C9Ik\nWeoHGPrQ5jebnZkgTJjubABHqohcezPVb19P365y/EIYULbVCyvy9i/gO3um\nClIEFGlm1P2Vj+68kYp2K255i85w8gjYhFvdGyILRDkZhrZDDGf3UAxDqmjL\nOEuR\r\n=Cuni\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

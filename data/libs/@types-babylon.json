@@ -1,0 +1,106 @@
+{
+  "name": "@types/babylon",
+  "description": "TypeScript definitions for babylon",
+  "dist-tags": {
+    "latest": "6.16.5",
+    "ts2.0": "6.16.1",
+    "ts2.1": "6.16.1",
+    "ts2.2": "6.16.1",
+    "ts2.3": "6.16.2",
+    "ts2.4": "6.16.2",
+    "ts2.5": "6.16.2",
+    "ts2.6": "6.16.2",
+    "ts2.7": "6.16.2",
+    "ts2.8": "6.16.5",
+    "ts2.9": "6.16.5",
+    "ts3.0": "6.16.5",
+    "ts3.1": "6.16.5",
+    "ts3.2": "6.16.5",
+    "ts3.3": "6.16.5",
+    "ts3.4": "6.16.5",
+    "ts3.5": "6.16.5",
+    "ts3.6": "6.16.5"
+  },
+  "versions": [
+    "6.7.1-alpha",
+    "6.7.2-alpha",
+    "6.7.7-alpha",
+    "6.7.8-alpha",
+    "6.7.9-alpha",
+    "6.7.10-alpha",
+    "6.7.11-alpha",
+    "6.7.12-alpha",
+    "6.7.13",
+    "6.7.14",
+    "6.7.15",
+    "6.16.0",
+    "6.16.1",
+    "6.16.2",
+    "6.16.3",
+    "6.16.4",
+    "6.16.5"
+  ],
+  "maintainers": [
+    "types <ts-npm-types@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2019-05-29T21:52:41.105Z",
+    "created": "2016-05-17T04:29:20.447Z",
+    "6.7.1-alpha": "2016-05-17T04:29:20.447Z",
+    "6.7.2-alpha": "2016-05-19T20:18:55.734Z",
+    "6.7.7-alpha": "2016-05-20T19:12:03.314Z",
+    "6.7.8-alpha": "2016-05-25T04:30:51.915Z",
+    "6.7.9-alpha": "2016-07-01T22:19:19.899Z",
+    "6.7.10-alpha": "2016-07-02T02:05:07.099Z",
+    "6.7.11-alpha": "2016-07-03T23:47:43.715Z",
+    "6.7.12-alpha": "2016-07-08T19:37:04.795Z",
+    "6.7.13": "2016-07-14T14:06:45.020Z",
+    "6.7.14": "2016-09-19T16:20:58.643Z",
+    "6.7.15": "2016-11-29T20:54:58.165Z",
+    "6.16.0": "2017-03-09T23:51:15.548Z",
+    "6.16.1": "2017-05-04T17:05:16.011Z",
+    "6.16.2": "2017-07-20T13:52:02.038Z",
+    "6.16.3": "2018-06-12T03:37:51.797Z",
+    "6.16.4": "2018-11-05T22:53:50.558Z",
+    "6.16.5": "2019-02-13T16:31:26.159Z"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "contributors": [
+    {
+      "name": "Troy Gerwien",
+      "url": "https://github.com/yortus",
+      "githubUsername": "yortus"
+    },
+    {
+      "name": "Marvin Hagemeister",
+      "url": "https://github.com/marvinhagemeister",
+      "githubUsername": "marvinhagemeister"
+    }
+  ],
+  "users": {
+    "azertypow": true
+  },
+  "version": "6.16.5",
+  "main": "",
+  "types": "index",
+  "scripts": {},
+  "dependencies": {
+    "@types/babel-types": "*"
+  },
+  "typesPublisherContentHash": "d6861e06508c0c54a6a46d7b72e96db7907de3621ac44aab8a3e647b8431cddd",
+  "typeScriptVersion": "2.8",
+  "dist": {
+    "integrity": "sha512-xH2e58elpj1X4ynnKp9qSnWlsRTIs6n3tgLGNfwAGHwePw0mulHQllV34n0T25uYSu1k0hRKkWXF890B1yS47w==",
+    "shasum": "1c5641db69eb8cdf378edd25b4be7754beeb48b4",
+    "tarball": "https://registry.npmjs.org/@types/babylon/-/babylon-6.16.5.tgz",
+    "fileCount": 4,
+    "unpackedSize": 4377,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZEZeCRA9TVsSAnZWagAA2ZEP/jMycoTJmtehSACTNH9w\nDxaXXw5aVXgkOc3s3ikbTHLw1i8srn1zDn27bY6HoNjNrgxoX+dwWWG4tPtE\n4Xf81VGK6zYUplYqO0RCcvjHyAklWec0E72ey8wajJPslf0oNXogdjnMm7v2\nEKwRK4h/Jez9qslX1RgOkYYgr3TX9D1Ekj1yK08hxa11jctdI8mu529vVV4W\nrUmD/qq2p0ieBdM0FUamkg0A/f03I1sdyocqCTn6CLJqt89Zfxx4XfV8rVxb\nT/GAwzKQvulDWrOs7FgHx2HYlkEBx9/M3IbER7u9gdc6NeUobvQgMRdoqC0H\nQEK3+jVz59qEsSIUp7I9yhMYiKRRgzacYorBgoWoI0fSVZt29McVeG1aeDxR\nVoCjCUJeyU7rgnJy5J1un2ufLcJIB6tJoa3DGvShUSN7JJTjdWsOhIRaN5zb\nwLcffLGie2ImevX31g8Uwfyqn8Yt0P4yMmuRE2w3Ckrgf20CH45n8UKmr3c3\n6awSCVkzm80/t7+u+VMvgUaCYhPpdbVzsc7vZY44rF65Nbs/gpxU/qUynssZ\nNdkZsmvZNaN1olFR68xiwtZSnaGatO9AHmj+UgC0A+A30rY+Y5k7UY8O90D3\nf01BVWLS5B1GzBhWUuEwSJp8ndp9+7KMotR3f5J2XtrwHz2Oy5OokHBuFNMd\nyx54\r\n=Ie7k\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

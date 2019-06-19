@@ -1,0 +1,90 @@
+{
+  "name": "type-fest",
+  "dist-tags": {
+    "latest": "0.5.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.5.1",
+    "0.5.2"
+  ],
+  "time": {
+    "created": "2019-03-13T10:40:42.413Z",
+    "0.1.0": "2019-03-13T10:40:42.590Z",
+    "modified": "2019-05-26T09:21:14.965Z",
+    "0.2.0": "2019-03-15T06:35:29.482Z",
+    "0.3.0": "2019-03-18T06:33:16.591Z",
+    "0.3.1": "2019-04-10T03:05:13.549Z",
+    "0.4.0": "2019-04-21T15:24:32.686Z",
+    "0.4.1": "2019-04-22T01:46:41.345Z",
+    "0.5.0": "2019-05-12T14:59:04.767Z",
+    "0.5.1": "2019-05-15T11:41:07.237Z",
+    "0.5.2": "2019-05-26T09:21:12.232Z"
+  },
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "description": "A collection of essential TypeScript types",
+  "homepage": "https://github.com/sindresorhus/type-fest#readme",
+  "keywords": [
+    "typescript",
+    "ts",
+    "types",
+    "utility",
+    "util",
+    "utilities",
+    "omit",
+    "merge",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/type-fest.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/type-fest/issues"
+  },
+  "license": "(MIT OR CC0-1.0)",
+  "readmeFilename": "readme.md",
+  "version": "0.5.2",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && tsd"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^0.3.0",
+    "@typescript-eslint/eslint-plugin": "^1.8.0",
+    "eslint-config-xo-typescript": "^0.11.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "extends": "xo-typescript",
+    "extensions": [
+      "ts"
+    ],
+    "rules": {
+      "import/no-unresolved": "off",
+      "@typescript-eslint/indent": "off"
+    }
+  },
+  "gitHead": "70e90a11b326275e9a1176efb450594d2df1115f",
+  "dist": {
+    "integrity": "sha512-DWkS49EQKVX//Tbupb9TFa19c7+MK1XmzkrZUR8TAktmE/DizXoaoJV6TZ/tSIPXipqNiRI6CyAe7x69Jb6RSw==",
+    "shasum": "d6ef42a0356c6cd45f49485c3b6281fc148e48a2",
+    "tarball": "https://registry.npmjs.org/type-fest/-/type-fest-0.5.2.tgz",
+    "fileCount": 13,
+    "unpackedSize": 26892,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc6lqICRA9TVsSAnZWagAARboQAIx/JQMSr5pdhv6RQ/QV\nvb5K9wh7aJqJshtUkvCLqyYWAdTEN/4Oy7RWhMm0KVjxRTRJS86wrt7KsAE3\nbllT4mWbEMSyQgHy8IbBhS/hrju+r/5NTL5MgN7QZl3o6C5J5LT81EoxF6w/\nmXlGdPiqjtqELDYRCXZ4dgsC6piKi57poaxIZhaYRUywEeZU6dky4UMXSwCr\nObQ24K150zjRS+c07nn8EcsDpCE+Y7WHF5LrA/3eHJoXhIKr43iNjSCT+gyJ\nio6pVBkdH7PcpyBzhWX/OH48ixdmK7aVV0v8eaSJFTzjUIKhV2Ot2iFdQR3o\nEUgmSKy9a/DLZHpWiGP/LHLl98d55vbfe4Rq0ZB0XBwnWGi5J0+ekg1b+NDN\nK3rsR/7d9NYefVqOuBQx7c5aNAezL354juQfI5qruSDBFBY72IdBcCDIWPft\nk6BKbQlVqHy1C2e8rAZYgY1gNHMKUMreM0qInRh1BgywHMqk3YO0Rvl1yThr\ngVRgqcPmrGZuX41JgNrtMNeZdZbC+69qs5K87ei0MgfDT6H53GpR/caBjooV\n8/bYQmKxgFpI/X4+mgRGan/7gqQLdBjHY3/SPCPq1mJGwOQVtdZr9HwK2Ihq\ntu604ZayJurm1+MxTgnrapM2Tmxj/jxVZBS0n7z77HOzb6oZE38WiDHORdJt\nY918\r\n=tf4t\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,53 @@
+{
+  "name": "defer-to-connect",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "time": {
+    "created": "2018-08-13T16:19:44.826Z",
+    "1.0.0": "2018-08-13T16:19:44.937Z",
+    "modified": "2019-01-18T15:55:44.320Z",
+    "1.0.1": "2018-08-25T08:05:15.317Z",
+    "1.0.2": "2019-01-18T15:55:41.680Z"
+  },
+  "maintainers": [
+    "szmarczak <sz.marczak@gmail.com>"
+  ],
+  "description": "The safe way to handle the `connect` socket event",
+  "keywords": [
+    "socket",
+    "connect",
+    "event"
+  ],
+  "author": "Szymon Marczak",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/szmarczak/defer-to-connect#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szmarczak/defer-to-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szmarczak/defer-to-connect/issues"
+  },
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "gitHead": "26f12345d47d67d82e3c1af5d0dfefca756c9e2a",
+  "dist": {
+    "integrity": "sha512-k09hcQcTDY+cwgiwa6PYKLm3jlagNzQ+RSvhjzESOGOx+MNOuXkxTfEvPrO1IOQ81tArCFYQgi631clB70RpQw==",
+    "shasum": "4bae758a314b034ae33902b5aac25a8dd6a8633e",
+    "tarball": "https://registry.npmjs.org/defer-to-connect/-/defer-to-connect-1.0.2.tgz",
+    "fileCount": 4,
+    "unpackedSize": 2327,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcQfb+CRA9TVsSAnZWagAAqNoP/AyR7alKoClgj2lT4djS\nGY8RP4PO5OreMTqw/OfK4axn+kbOtHFIDZ6oSkGSNh4UluzPBUme7PLa9/+t\nhWwzDkP258idAzIHdz0hdg0dJU4VH379wnh4vgXrSR9pPze40tEn9LOi227s\n98KrIAiydifg7Z4IX5rswFop5JV+NqOIOEktBpd1OQfZa5jWz0yckwS64rgx\n991h97zhbbL4rjgTxS4LapM5ZZsDQmHybcj+xTjFwKUBJwuB2GkCYVdW7hs0\nHaQd8fm7uZBZVnUKgl/xkpVsgp8u2n3V4DzW6fii46WMGyjVT8jxgvoY0N2f\n2X0hs6vcGENCIbnb0t7Ju3zU4qXPy7NTYNEBM7qY6t1SKNNDtgJ9pGWNpBBD\ny5nUEXTFSJaKVJkUszr9rRuTpNRGx6eyocmjhmf0vRiMGwCbsgLBRGIQUU1f\nRThCa9wu1dkOFRTY5yTvunE+HehNZgkfMWuv+oea49xjjVQ3GReCiAD1u0Y0\nO9H/6Igr/rTGa8UUEBzVZ5RRtS9n+06NQgw2Bjys+hxih5BCDH+LClQtuPA2\nIbSHqWGd0WEaC93FTmuFsmV4NlMxAREmag5vuY4ZnpLx4eLpVzTnBZIMsDvJ\nPUDuxtLfZpLxKEe0mdRVuGMJs0bv4C9xTEBSc2/ESILGdVNvxbYNVrqsbO2s\nzozf\r\n=J1UA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

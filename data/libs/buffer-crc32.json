@@ -1,0 +1,92 @@
+{
+  "name": "buffer-crc32",
+  "description": "A pure javascript CRC32 algorithm that plays nice with binary data",
+  "dist-tags": {
+    "latest": "0.2.13"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.2.6",
+    "0.2.7",
+    "0.2.8",
+    "0.2.9",
+    "0.2.10",
+    "0.2.11",
+    "0.2.12",
+    "0.2.13"
+  ],
+  "maintainers": [
+    "brianloveswords <brian@nyhacker.org>"
+  ],
+  "time": {
+    "modified": "2017-12-20T21:49:10.325Z",
+    "created": "2012-07-11T17:53:46.260Z",
+    "0.1.0": "2012-07-11T17:53:46.688Z",
+    "0.1.1": "2012-07-11T18:52:29.048Z",
+    "0.2.0": "2013-01-09T16:54:40.660Z",
+    "0.2.1": "2013-01-09T17:04:09.173Z",
+    "0.2.3": "2014-06-17T14:37:36.527Z",
+    "0.2.4": "2014-11-26T15:20:39.348Z",
+    "0.2.5": "2014-12-07T19:19:44.403Z",
+    "0.2.6": "2016-11-18T16:17:49.845Z",
+    "0.2.7": "2016-11-21T17:07:13.025Z",
+    "0.2.8": "2016-11-21T17:11:37.544Z",
+    "0.2.9": "2016-11-21T18:41:12.530Z",
+    "0.2.10": "2016-11-21T18:51:19.620Z",
+    "0.2.11": "2016-11-21T21:28:13.830Z",
+    "0.2.12": "2016-11-21T22:12:37.901Z",
+    "0.2.13": "2016-11-22T01:28:28.865Z"
+  },
+  "author": "Brian J. Brennan <brianloveswords@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianloveswords/buffer-crc32.git"
+  },
+  "homepage": "https://github.com/brianloveswords/buffer-crc32",
+  "contributors": [
+    "Vladimir Kuznetsov"
+  ],
+  "bugs": {
+    "url": "https://github.com/brianloveswords/buffer-crc32/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "users": {
+    "heineiuo": true,
+    "faraoman": true
+  },
+  "version": "0.2.13",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brianloveswords/buffer-crc32/raw/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.2.5"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "e9b66c7356f4ea6f7c2f89d51160a1ef6117849f",
+  "dist": {
+    "shasum": "0d333e3f00eac50aa1454abd30ef8c2a5d9a7242",
+    "tarball": "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz"
+  },
+  "directories": {}
+}

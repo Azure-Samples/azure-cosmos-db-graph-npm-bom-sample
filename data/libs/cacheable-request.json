@@ -1,0 +1,142 @@
+{
+  "name": "cacheable-request",
+  "description": "Wrap native HTTP requests with RFC compliant cache support",
+  "dist-tags": {
+    "latest": "6.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2",
+    "2.1.3",
+    "2.1.4",
+    "3.0.0",
+    "4.0.0",
+    "4.0.1",
+    "5.0.0",
+    "5.1.0",
+    "5.2.0",
+    "5.2.1",
+    "6.0.0"
+  ],
+  "maintainers": [
+    "lukechilds <lukechilds123@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-04T07:37:45.926Z",
+    "created": "2017-06-02T12:36:50.988Z",
+    "0.0.0": "2017-06-02T12:36:50.988Z",
+    "0.1.0": "2017-06-09T14:06:47.087Z",
+    "0.2.0": "2017-06-10T03:58:44.270Z",
+    "0.3.0": "2017-06-10T07:21:16.883Z",
+    "0.4.0": "2017-08-12T00:12:18.953Z",
+    "0.5.0": "2017-08-13T12:02:33.299Z",
+    "1.0.0": "2017-08-13T13:31:44.524Z",
+    "1.0.1": "2017-08-13T13:59:47.583Z",
+    "1.0.2": "2017-08-13T16:07:07.348Z",
+    "1.1.0": "2017-08-13T16:50:11.531Z",
+    "1.1.1": "2017-08-13T18:08:59.153Z",
+    "1.1.2": "2017-08-17T16:38:22.801Z",
+    "1.1.3": "2017-08-17T16:42:04.020Z",
+    "2.0.0": "2017-10-03T13:58:46.286Z",
+    "2.0.1": "2017-10-12T16:26:06.084Z",
+    "2.1.0": "2017-11-12T11:42:04.930Z",
+    "2.1.1": "2017-11-16T09:35:09.462Z",
+    "2.1.2": "2017-12-01T13:08:56.165Z",
+    "2.1.3": "2017-12-02T11:49:07.190Z",
+    "2.1.4": "2017-12-26T20:09:56.307Z",
+    "3.0.0": "2018-07-06T01:52:46.696Z",
+    "4.0.0": "2018-07-20T10:37:01.341Z",
+    "4.0.1": "2018-07-22T15:44:42.793Z",
+    "5.0.0": "2018-09-05T14:53:42.689Z",
+    "5.1.0": "2018-10-17T14:41:19.627Z",
+    "5.2.0": "2018-11-13T08:25:02.628Z",
+    "5.2.1": "2018-12-22T05:27:47.866Z",
+    "6.0.0": "2019-01-04T07:37:43.357Z"
+  },
+  "homepage": "https://github.com/lukechilds/cacheable-request#readme",
+  "keywords": [
+    "HTTP",
+    "HTTPS",
+    "cache",
+    "caching",
+    "layer",
+    "cacheable",
+    "RFC 7234",
+    "RFC",
+    "7234",
+    "compliant"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukechilds/cacheable-request.git"
+  },
+  "author": "Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk)",
+  "bugs": {
+    "url": "https://github.com/lukechilds/cacheable-request/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "shanewholloway": true
+  },
+  "version": "6.0.0",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "clone-response": "^1.0.2",
+    "get-stream": "^4.0.0",
+    "http-cache-semantics": "^4.0.0",
+    "keyv": "^3.0.0",
+    "lowercase-keys": "^1.0.1",
+    "normalize-url": "^3.1.0",
+    "responselike": "^1.0.2"
+  },
+  "devDependencies": {
+    "@keyv/sqlite": "^2.0.0",
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
+    "create-test-server": "2.1.1",
+    "delay": "^4.0.0",
+    "eslint-config-xo-lukechilds": "^1.0.0",
+    "nyc": "^13.0.1",
+    "pify": "^4.0.0",
+    "sqlite3": "^4.0.2",
+    "this": "^1.0.2",
+    "xo": "^0.22.0"
+  },
+  "xo": {
+    "extends": "xo-lukechilds"
+  },
+  "gitHead": "ea92da1fb1e44e795fbe51d39f86630c2015e5fe",
+  "dist": {
+    "integrity": "sha512-2N7AmszH/WPPpl5Z3XMw1HAP+8d+xugnKQAeKvxFZ/04dbT/CAznqwbl+7eSr3HkwdepNwtb2yx3CAMQWvG01Q==",
+    "shasum": "4a1727414e02ac4af82560c4da1b61daa3fa2b63",
+    "tarball": "https://registry.npmjs.org/cacheable-request/-/cacheable-request-6.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 16525,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLw1HCRA9TVsSAnZWagAA/eYP/iZd3/dcO8tPXlALoQ0M\nGdNAZBpRHZQIzgRmY+q4Ehv969PeeZCyzqc3MlTOhobXvPcQP45AnzpskYG4\n1gVxSJewP1rGFFd0XJcd9IlrREkt2uxqT97INl/sNJLPDy0x84cemPfcLDsl\naYhTFDXFRkKQ4LC7OfqNBlQUhRqTrG71DbGC8wu7DG2RcqMWOPciYf4yxIU0\nEqEx2ZtOcGhPNRPsp+1OsyjndunsGfUi7xnuTiXuVjEc2o1/jVgFYVHzpy92\nVyPXjHHngW3GqpKz9Wtj4qKVB2MLk43qzgOeYW+lBSUoBd1C5p56hvuCmMK+\nP2Pohwuqz7ouFW5AV73eVXLt9XD65Yqheeydh52skB811Gz+9LViQwdn+nwL\nj1XF8D6RcgGFLh4B5H5DNAro5R1fOjp8OOidnaVHv7zxhhBQw3U6sA4DlwTE\nJiRqhT7M77MoYit6g1CpVWSnwEBb1mQ/oWGY3JLwfoO8LqBTamnEg4UIP5Qm\nFbhhoJ4TFyguyny2BfpK+eNtGwmDZFbi35wU8P+5VKyIT/XudQyUD+N3ZR6i\ni9wi/VfwXHhC7XA2eH/LuQp56gyRyOYxbLE4c4iJ2reXt0bgshZDhzRpzkR3\nkhZjpDgBKV7aUPT72IGceusJmzSI9NI9uG6QK5JEMwZh/AKuqk074TM7lmp6\nueKC\r\n=9djW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

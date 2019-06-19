@@ -1,0 +1,78 @@
+{
+  "name": "is-binary-path",
+  "description": "Check if a file path is a binary file",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "es128 <elan.shanker+npm@gmail.com>",
+    "paulmillr <paul@paulmillr.com>",
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-19T04:42:48.507Z",
+    "created": "2015-01-24T09:13:13.344Z",
+    "1.0.0": "2015-01-24T09:13:13.344Z",
+    "1.0.1": "2015-05-25T11:32:32.616Z",
+    "2.0.0": "2016-09-14T11:52:57.308Z",
+    "2.0.1": "2019-03-27T12:14:17.036Z",
+    "2.1.0": "2019-04-19T04:42:45.772Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is-binary-path#readme",
+  "keywords": [
+    "binary",
+    "extensions",
+    "extension",
+    "file",
+    "path",
+    "check",
+    "detect",
+    "is"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is-binary-path.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-binary-path/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "youstrive": true,
+    "faraoman": true
+  },
+  "version": "2.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "binary-extensions": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "efe99d8b3d0ef825925e8b986d047e39bee173c3",
+  "dist": {
+    "integrity": "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==",
+    "shasum": "ea1f7f3b80f064236e83470f86c09c254fb45b09",
+    "tarball": "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3078,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcuVHGCRA9TVsSAnZWagAAHJYP/irfvd3+BqqznmABffxg\ndlp7QJa0mBx4VkvLKisN/YYsDCy6favbB4vekifA36+krW/euGG9pDgBox2w\nmihOsa0/WkQ342d1+CUi//entVtm5EsiovpUhpLBKQVF7RTUTR8zjd2PPRAQ\nhx0nYjudHFm/80m3IF7gUXrzponFPr+chhsv+lSJBLs1Rb6nRof8K65yXGa5\nvVUWuNo2EekgvFBn6+IvjFfb6e0nTtt9j165e+Vs9YToaqDBw3bc9RbUNOen\n0mInZbBz51ck9SbsB1eHbG/YesuxOhoazRXwE9rjZbMvX0G+riilAjtsPgrt\nRdHB7wyN7kAdXdGuQ/ATIRgSMH7fCLD5KCT0CVR/0I8epNRTj4/Vf4oDNYyX\nayPm81PG82Jlyz58SwaGSTot5gRr3EVKiUpW+55HhWkOvFbA4K0512dStYst\n8b/U66G6Hd0cwkg7SOZixkdzd2z0ngesoNNzQUvUds8ED3M02WeQeAnBD+WO\nWRlFVRWKd7cdC41ouEjOWW4SZ5KFtzUmO8+UCrR/y5huBtlsyimVixu8dOdW\nGWJzKGBqO+Y6wxg3mNVjnkl1iQSHbJaqlBR7xpnZKg9IIGDYprT/GE3LaM0K\nMTOBla6R8PZp/VYhY+BZg8nJyYniO2E0Qx/WOZMiUBmKiJXllsiqkac1AAdP\ncfPH\r\n=sZyR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

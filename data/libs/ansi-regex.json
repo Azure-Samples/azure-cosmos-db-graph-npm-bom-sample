@@ -1,0 +1,109 @@
+{
+  "name": "ansi-regex",
+  "description": "Regular expression for matching ANSI escape codes",
+  "dist-tags": {
+    "latest": "4.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.1.1",
+    "3.0.0",
+    "4.0.0",
+    "4.1.0"
+  ],
+  "maintainers": [
+    "qix <i.am.qix@gmail.com>",
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-08T06:14:42.908Z",
+    "created": "2014-06-03T16:59:22.332Z",
+    "0.1.0": "2014-06-03T16:59:22.332Z",
+    "0.2.0": "2014-06-14T01:12:53.550Z",
+    "0.2.1": "2014-06-20T16:44:03.241Z",
+    "1.0.0": "2014-08-13T13:29:14.050Z",
+    "1.1.0": "2014-08-30T12:38:30.166Z",
+    "1.1.1": "2015-02-22T09:24:51.185Z",
+    "2.0.0": "2015-06-30T16:07:19.279Z",
+    "2.1.1": "2017-01-14T03:09:39.887Z",
+    "3.0.0": "2017-06-20T19:03:33.464Z",
+    "4.0.0": "2018-09-18T08:18:58.129Z",
+    "4.1.0": "2019-03-08T06:14:40.169Z"
+  },
+  "homepage": "https://github.com/chalk/ansi-regex#readme",
+  "keywords": [
+    "ansi",
+    "styles",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "cli",
+    "string",
+    "tty",
+    "escape",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "command-line",
+    "text",
+    "regex",
+    "regexp",
+    "re",
+    "match",
+    "test",
+    "find",
+    "pattern"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalk/ansi-regex.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/chalk/ansi-regex/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "nfd": true,
+    "scottfreecode": true,
+    "kailash.yogeshwar": true,
+    "usex": true,
+    "edwardxyt": true,
+    "qddegtya": true,
+    "justjavac": true,
+    "hualei": true
+  },
+  "version": "4.1.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "view-supported": "node fixtures/view-codes.js"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.23.0"
+  },
+  "gitHead": "a079ab2d30cfb752a3f247dcf358d0a591c288c5",
+  "dist": {
+    "integrity": "sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==",
+    "shasum": "8b9f8f08cf1acb843756a839ca8c7e3168c51997",
+    "tarball": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 5139,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcgghQCRA9TVsSAnZWagAAkicP/A0YuAuK50ptS+EZeV8x\nNdxf9AYCNd3FSMq/0MeHHbSFb/ofI8CKKGuru3zVPFV/KfVhddUsnqv45Z/y\nNRxrXDkUd0LpUtCZW8QcPOQReuUshJ1n4XvSngt6753R95YbGzqVbDkORvvH\nfOjl/eIiTd3J2amW4LcOsiqTRkNCahD1AA+dEHiYVJ3dpymihWH5vTWWPmll\nGVzb6oUpIb2YtusNlma5ALRPFXYv4kxMVuTV5LXrdxeZyOyhytShYDJX6/DK\n7eaHDjB3TJT3lGq8emq4xI5xLn1pXceZOhd4iusPCvToG3uwu5DMKSuoLYF0\nEzKPyi1D78oUPgZ+mzDSgU3KobiEtMckHatyUSMS2LwBW1Xdz+LEX4mrt6Jn\ni6hSmJQjhlEeYgFlWKpxYgx/B95G+ckCEqDcSlhrLqwcw6VQhEWd8X7RWfOv\nyLJ9rwja7ILbMHIgQHl1NYGqW6+n3Qe/5MtZdwC5OmZaVwbiSpesDOcJXsEM\nD1JqCLZxQTrKwVzlUbj2FJbKjGls5V0RupMKqr4hSftxUIa4PZZ5Aaekt7XX\nVt0EkP6NZ4hRkFYzutsvNOK37slo948zb6Xp8e0ymeMjTIhISCz+k0R0KgmM\nP4o4nK1zyz1VPqzVvKOp0n6VjYABlRe1d1A2ui42LWy5E7I7F081QqpCUkCJ\nVJP2\r\n=TkVA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

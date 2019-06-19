@@ -1,0 +1,80 @@
+{
+  "name": "pug-lexer",
+  "description": "The pug lexer (takes a string and converts it to an array of tokens)",
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0",
+    "1.0.1",
+    "1.2.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.1.0",
+    "2.2.0",
+    "2.2.1",
+    "2.2.2",
+    "2.3.0",
+    "2.3.1",
+    "2.3.2",
+    "3.0.0",
+    "3.1.0",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-06T13:12:27.915Z",
+    "created": "2015-12-11T23:59:31.325Z",
+    "0.0.0": "2015-12-11T23:59:31.325Z",
+    "1.0.0": "2015-12-23T03:37:38.178Z",
+    "1.0.1": "2016-04-18T06:09:30.558Z",
+    "1.2.0": "2016-05-14T17:03:24.961Z",
+    "2.0.0": "2016-05-14T17:14:43.302Z",
+    "2.0.1": "2016-06-01T02:41:21.163Z",
+    "2.0.2": "2016-06-02T17:08:24.003Z",
+    "2.0.3": "2016-08-07T08:23:36.642Z",
+    "2.1.0": "2016-08-22T17:32:54.233Z",
+    "2.2.0": "2016-08-26T20:10:10.060Z",
+    "2.2.1": "2016-08-29T08:19:27.764Z",
+    "2.2.2": "2016-09-07T11:18:13.449Z",
+    "2.3.0": "2016-09-12T00:07:31.387Z",
+    "2.3.1": "2017-01-24T01:07:15.325Z",
+    "2.3.2": "2017-01-29T10:47:51.383Z",
+    "3.0.0": "2017-02-04T12:40:35.582Z",
+    "3.1.0": "2017-04-18T00:36:27.106Z",
+    "4.0.0": "2018-03-06T13:12:27.538Z"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pugjs/pug-lexer.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "4.0.0",
+  "dependencies": {
+    "character-parser": "^2.1.1",
+    "is-expression": "^3.0.0",
+    "pug-error": "^1.3.2"
+  },
+  "devDependencies": {
+    "acorn": "^3.0.4"
+  },
+  "licenseText": "Copyright (c) 2014 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+  "dist": {
+    "shasum": "210c18457ef2e1760242740c5e647bd794cec278",
+    "tarball": "https://registry.npmjs.org/pug-lexer/-/pug-lexer-4.0.0.tgz",
+    "fileCount": 158,
+    "unpackedSize": 1028311
+  },
+  "directories": {}
+}

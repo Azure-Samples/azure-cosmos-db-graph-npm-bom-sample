@@ -1,0 +1,79 @@
+{
+  "name": "crypto-random-string",
+  "description": "Generate a cryptographically strong random string",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-08T13:01:14.589Z",
+    "created": "2016-11-14T04:14:44.263Z",
+    "1.0.0": "2016-11-14T04:14:44.263Z",
+    "2.0.0": "2019-04-09T19:49:44.165Z",
+    "3.0.0": "2019-05-08T13:01:11.451Z"
+  },
+  "homepage": "https://github.com/sindresorhus/crypto-random-string#readme",
+  "keywords": [
+    "random",
+    "string",
+    "text",
+    "id",
+    "identifier",
+    "slug",
+    "salt",
+    "crypto",
+    "strong",
+    "secure",
+    "hex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/crypto-random-string.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/crypto-random-string/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true,
+    "heartnett": true,
+    "jon_shen": true,
+    "ackhub": true,
+    "shivayl": true,
+    "td3": true
+  },
+  "version": "3.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "type-fest": "^0.4.1"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "32365366245e602a58a2a38c4d6fc2edd30355d7",
+  "dist": {
+    "integrity": "sha512-HJJQbkbJmYRCBDhgmEoU9Z0tseO2Xlbyg3bV56wShnCWnhnoAyhF2qwy1SBlhOcILkZeEUNzrrAcQQKK/JGFkw==",
+    "shasum": "b173d4228bf42a6cd38447129f579133438c50d4",
+    "tarball": "https://registry.npmjs.org/crypto-random-string/-/crypto-random-string-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8133,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0tMYCRA9TVsSAnZWagAA+r4P/3CdNCkoJIMekyeVxOMP\nyLTtF4Yxmq7Z0PyzjqL9o8nO56o+R4ftByqxsoJuADRhkninxpAtGEQ3vlW1\nlXuAbOGfARn3o4kzoju/hsYwZ+Mg8a/NAoAl+NV7sOUJoZNqFaQHbD7mqGWh\nSgQUDEe9DPQT+K9LVhX9pej6HCJMfzuUvj4+Tt8NTNUMthZgjyAjDa1Fwz6u\nbdHaxXhfEwanJG9OqUrr5bBiFLtbLQ0mtbvZkCILZgBKEbcF2Xhv6QxmO1r7\nYDFjOtmuI6SpSliLJQaSm1w0iWi2mwCvj/ocO3XmFtesJ492IlOpUZ+HuNG6\nNmX8mN5aPqC0r5dKoT7OfEMnFirwgd9KI3n9SYGMRC7BgZsSj9N3PyQhTXka\nT63yaQpnPtT1fWXxcCySIKrR6XpHdJYrkXVE+DsS3Z9zJvbPYsk/4mC13F1j\n3WiTjfMwuOObDwbO7j0Q2Tow940+GrQDA7rkgkgyyROI2s/6bkF27edh/pFj\nUfFIt+yyH+1QeUY8slx8RLwVoUWURhhJeJEcTM5VOIV5OX0n00bgktWSqRmO\n2UD1WdrTYPozjSgsA1LQD2qSPEZ/wzfaMAlY8nZZ3j+QzcNoNdvKw26HYkoi\nenpMxrmc9suokJ60WUJQENG71XF6VvHVVvavzE9QeUSmkgx8IZIs2xE2aF3f\nE8eD\r\n=3+Ok\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

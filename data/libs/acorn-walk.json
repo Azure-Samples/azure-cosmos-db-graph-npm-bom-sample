@@ -1,0 +1,52 @@
+{
+  "name": "acorn-walk",
+  "dist-tags": {
+    "latest": "6.1.1"
+  },
+  "versions": [
+    "6.0.0",
+    "6.0.1",
+    "6.1.0",
+    "6.1.1"
+  ],
+  "time": {
+    "created": "2018-09-14T07:21:03.063Z",
+    "6.0.0": "2018-09-14T07:21:12.347Z",
+    "modified": "2018-11-13T08:53:53.018Z",
+    "6.0.1": "2018-09-14T07:23:40.533Z",
+    "6.1.0": "2018-09-28T06:28:40.772Z",
+    "6.1.1": "2018-11-13T08:53:49.083Z"
+  },
+  "maintainers": [
+    "marijn <marijnh@gmail.com>"
+  ],
+  "description": "ECMAScript (ESTree) AST walker",
+  "homepage": "https://github.com/acornjs/acorn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acornjs/acorn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acornjs/acorn/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "dist/walk.js",
+  "module": "dist/walk.mjs",
+  "version": "6.1.1",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
+    "prepare": "cd ..; npm run build:walk"
+  },
+  "dist": {
+    "integrity": "sha512-OtUw6JUTgxA2QoqqmrmQ7F2NYqiBPi/L2jqHyFtllhOUvXYQXf0Z1CYUinIfyT4bTCGmrA7gX9FvHA81uzCoVw==",
+    "shasum": "d363b66f5fac5f018ff9c3a1e7b6f8e310cc3913",
+    "tarball": "https://registry.npmjs.org/acorn-walk/-/acorn-walk-6.1.1.tgz",
+    "fileCount": 8,
+    "unpackedSize": 95740,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb6pEdCRA9TVsSAnZWagAA3v0QAIl5YksIo1U0+joKuD/2\n2W8TTBIwK2prDL+PpnP9bp7eCMFkh3oMip82ENzApni/Cjq/QejQZaOXW1Xv\n/opEPCvGYH4YCB4ykqWccfQBMu/ihZyG4DJHzsDyJ552isWkRbHgI8vZnb6V\ndEdzcyuZ1b0X/+40Blo1LQCPlE1cmUS0aMjAESeCS7VmjkzSbo1n9/20LgIf\nUNAvBcYtC/NGQ31z5ZSzhBLjr9E42bpJfKRKxUT1iNl3TUdzh+a/f5yyrof3\njE2F38/isziXHJu2QsVSmhBVqIxHqM0mz/RI1q6Yh/3yIIQU/0DvX9Eu5qc3\nZ87P674eGw1/pzkV2a5pm405tw9W6YIV0UNj//SLxWoeveLVl5X7WmLB2MTt\na69E3dUAk2HdlH+tc4M0Cqw2Ku6yu7vmrrs5OwZHJIt407iKX9anDHWWa2P/\n69Whc2idmizspsqJadciqXjXATNzMT1PBMj81cp03tWdBh78Yoq2EVts4hS6\nGg6uwMDwIw/9XD4DB/tLUTrBWEuN0Xk4R61J43Uh71Gr5SCXy/3FhKz21Aax\nSBNAWca4Hy8eO6g2awY7nKhvFkNXtciLJOhorrDVf1DQhiAocPIAXGVviwVx\nLw/2nxF2ClMXSNwgZIhYoiXRAJswxxwhsLIOuvMNudpWweCuPP3cbOBHAVkV\n/KrY\r\n=7LVC\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

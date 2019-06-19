@@ -1,0 +1,99 @@
+{
+  "name": "merge-descriptors",
+  "description": "Merge objects using descriptors",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "anthonyshort <antshort@gmail.com>",
+    "clintwood <clint@anotherway.co.za>",
+    "dfcreative <df.creative@gmail.com>",
+    "dominicbarnes <dominic@dbarnes.info>",
+    "dougwilson <doug@somethingdoug.com>",
+    "ianstormtaylor <ian@ianstormtaylor.com>",
+    "jonathanong <jonathanrichardong@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "juliangruber <julian@juliangruber.com>",
+    "mattmueller <mattmuelle@gmail.com>",
+    "queckezz <fabian.eichenberger@gmail.com>",
+    "stephenmathieson <me@stephenmathieson.com>",
+    "thehydroimpulse <dnfagnan@gmail.com>",
+    "timaschew <timaschew@gmail.com>",
+    "timoxley <secoif@gmail.com>",
+    "tjholowaychuk <tj@vision-media.ca>",
+    "tootallnate <nathan@tootallnate.net>",
+    "trevorgerhardt <trevorgerhardt@gmail.com>",
+    "yields <yields@icloud.com>"
+  ],
+  "time": {
+    "modified": "2018-01-05T19:10:02.085Z",
+    "created": "2013-10-29T20:29:05.974Z",
+    "0.0.1": "2013-10-29T20:29:06.954Z",
+    "0.0.2": "2013-12-14T05:10:12.691Z",
+    "1.0.0": "2015-03-01T21:30:01.609Z",
+    "1.0.1": "2016-01-17T23:50:26.636Z"
+  },
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/merge-descriptors"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/component/merge-descriptors",
+  "bugs": {
+    "url": "https://github.com/component/merge-descriptors/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "fatelei": true,
+    "simplyianm": true,
+    "wangnan0610": true,
+    "joshperry": true,
+    "nanhualyq": true,
+    "liushoukai": true,
+    "aitorllj93": true,
+    "456wyc": true,
+    "xu_q90": true,
+    "mojaray2k": true,
+    "magicxiao": true,
+    "leonzhao": true,
+    "duartemendes": true,
+    "ghettovoice": true,
+    "kodekracker": true,
+    "bhaskarmelkani": true,
+    "damon.huang": true,
+    "srksumanth": true
+  },
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Mike Grabowski <grabbou@gmail.com>"
+  ],
+  "version": "1.0.1",
+  "devDependencies": {
+    "istanbul": "0.4.1",
+    "mocha": "1.21.5"
+  },
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+  },
+  "gitHead": "f26c49c3b423b0b2ac31f6e32a84e1632f2d7ac2",
+  "dist": {
+    "shasum": "b00aaa556dd8b44568150ec9d1b953f3f90cbb61",
+    "tarball": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz"
+  },
+  "directories": {}
+}

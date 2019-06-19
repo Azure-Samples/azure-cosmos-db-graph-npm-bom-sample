@@ -1,0 +1,76 @@
+{
+  "name": "grunt-legacy-log-utils",
+  "description": "Static methods for the Grunt 0.4.x logger.",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "maintainers": [
+    "cowboy <cowboy@rj3.net>",
+    "shama <kyle@dontkry.com>",
+    "tkellen <tyler@sleekcode.net>",
+    "vladikoff <vlad@vladikoff.com>"
+  ],
+  "time": {
+    "modified": "2018-05-19T20:01:18.301Z",
+    "created": "2015-05-26T20:16:03.450Z",
+    "0.1.0": "2015-05-26T20:16:03.450Z",
+    "0.1.1": "2015-05-26T21:29:53.270Z",
+    "1.0.0": "2016-02-17T19:20:06.763Z",
+    "2.0.0": "2018-05-17T15:12:07.290Z",
+    "2.0.1": "2018-05-19T20:01:14.663Z"
+  },
+  "homepage": "http://gruntjs.com/",
+  "keywords": [
+    "grunt",
+    "legacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-legacy-log-utils.git"
+  },
+  "author": "\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "bugs": {
+    "url": "http://github.com/gruntjs/grunt-legacy-log-utils/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "2.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "chalk": "~2.4.1",
+    "lodash": "~4.17.10"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.2",
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-nodeunit": "~2.0.0",
+    "grunt-contrib-watch": "~1.1.0"
+  },
+  "gitHead": "94e472a37f5e129d119765685aacd94b310be998",
+  "dist": {
+    "integrity": "sha512-o7uHyO/J+i2tXG8r2bZNlVk20vlIFJ9IEYyHMCQGfWYru8Jv3wTqKZzvV30YW9rWEjq0eP3cflQ1qWojIe9VFA==",
+    "shasum": "d2f442c7c0150065d9004b08fd7410d37519194e",
+    "tarball": "https://registry.npmjs.org/grunt-legacy-log-utils/-/grunt-legacy-log-utils-2.0.1.tgz",
+    "fileCount": 3,
+    "unpackedSize": 4807,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbAIKLCRA9TVsSAnZWagAAUFEQAJOgFUIryyPV4srkUPlU\nRb4Ktm2tVQtWgbrljBJxFeHH/MoIXWdEpDJnM2lcxa7ymKsAp85x3jh7xfo1\nlbgDSGKxiTSUlkNtpPlWwxdlP7yz57FagakSfWXMOThnSsEJBkLDWlCvJM3x\nF7HGT16Z8CFpHF5/ulXtpz32YcUGJZGh95VtI8Tfm/bYTczvrUoppdA9FjLN\nPa03JCFN2Sv3xx6lO9PNAHrD5eNaKTlNaHeyGLUzrBxVM2eFo5wwBDMm2T8L\nXV1oKIPs0GclqbcOI2FOegE2KuET7fLKD/EOa0l3Yjeys7N8iomsAjjIJ9TH\npgX5j+13NIXJpZa88utuEQhTCHMTTB3y8NzZkZl16B4G0mA6DX4esEMtAI9I\nbz356FNa1wnbl/5ITVpcCe3YEia6DxgdEkRxiOh8f4iTQdwBWMZSJr2acQVw\n4UL4ZTkDI/HNIG8twrEx5G+nE8iWJsr8BYfZcNwFHEIw6f98GImvYZf5b01J\nk69U7w9KXdk+1wDoRkxT0ebGOBOGS2hZukrwX+0G4TPCGoPRobVtBikGN9oE\nytv07ilGkIpCu6U9z/I1SoyJiuTqAihwLc713QuiJEcu/v6GO8p4bSrr/PI3\nK+1lnIHBho8nSgPq9BhOgFFYwcGsuA6B98/X9nxovmnEo7dGCofRoFzILmZd\nPR76\r\n=4HL7\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

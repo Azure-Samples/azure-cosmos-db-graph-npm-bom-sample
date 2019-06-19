@@ -1,0 +1,114 @@
+{
+  "name": "sql-template-strings",
+  "time": {
+    "modified": "2018-01-19T10:18:29.672Z",
+    "created": "2015-09-19T19:01:26.902Z",
+    "1.0.0": "2015-09-19T19:01:26.902Z",
+    "1.0.1": "2015-09-19T20:38:52.997Z",
+    "1.0.2": "2015-09-19T20:45:07.793Z",
+    "1.1.0": "2015-09-29T02:15:36.123Z",
+    "1.1.1": "2015-10-16T09:11:54.519Z",
+    "1.1.2": "2016-01-17T22:36:48.341Z",
+    "2.0.0": "2016-05-03T16:31:17.254Z",
+    "2.0.1": "2016-05-12T12:58:49.950Z",
+    "2.0.2": "2016-05-12T13:04:28.912Z",
+    "2.0.3": "2016-06-28T10:19:14.653Z",
+    "2.0.4": "2016-07-17T17:00:18.401Z",
+    "2.1.0": "2016-08-10T13:24:25.699Z",
+    "2.1.1": "2016-08-10T13:30:28.385Z",
+    "2.2.0": "2016-08-11T12:56:26.490Z",
+    "2.2.1": "2016-09-16T20:53:18.507Z",
+    "2.2.2": "2016-09-17T02:07:02.404Z"
+  },
+  "maintainers": [
+    "felixfbecker <felix.b@outlook.com>"
+  ],
+  "dist-tags": {
+    "latest": "2.2.2"
+  },
+  "description": "ES6 tagged template strings for prepared statements with mysql and postgres",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.1.0",
+    "2.1.1",
+    "2.2.0",
+    "2.2.1",
+    "2.2.2"
+  ],
+  "homepage": "https://github.com/felixfbecker/node-sql-template-strings#readme",
+  "keywords": [
+    "mysql",
+    "mysql2",
+    "postgres",
+    "pg",
+    "prepared",
+    "statements",
+    "placeholder",
+    "es6",
+    "tagged",
+    "template",
+    "strings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixfbecker/node-sql-template-strings.git"
+  },
+  "author": "Felix Becker",
+  "bugs": {
+    "url": "https://github.com/felixfbecker/node-sql-template-strings/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "kerimdzhanov": true,
+    "elussich": true,
+    "djviolin": true,
+    "eshenbrener": true,
+    "sparebytes": true,
+    "writech": true,
+    "sidwood": true,
+    "vparaskevas": true,
+    "jasonwang1888": true
+  },
+  "version": "2.2.2",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "lint": "eslint index.js test",
+    "test": "mocha test",
+    "cover": "nyc --all mocha test",
+    "typedoc": "typedoc --module es2015 --target es2015 --includeDeclarations --mode file --readme none --out typedoc index.d.ts"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "mocha": "^3.0.2",
+    "nyc": "^8.1.0",
+    "typedoc": "^0.4.4"
+  },
+  "nyc": {
+    "include": [
+      "index.js"
+    ],
+    "exclude": [
+      "test/**/*.js"
+    ]
+  },
+  "gitHead": "84ff820160e6d8b1a06d1e7c408a79b3843e5493",
+  "dist": {
+    "shasum": "3f11508a25addfce217a3042a9d300c3193b96ff",
+    "tarball": "https://registry.npmjs.org/sql-template-strings/-/sql-template-strings-2.2.2.tgz"
+  },
+  "directories": {}
+}

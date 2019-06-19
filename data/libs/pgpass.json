@@ -1,0 +1,81 @@
+{
+  "name": "pgpass",
+  "description": "Module for reading .pgpass",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.5",
+    "0.0.6",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "hoegaarden <hannes.hoerl+npm@snowreporter.com>"
+  ],
+  "time": {
+    "modified": "2017-05-21T11:07:09.407Z",
+    "created": "2013-12-17T23:03:54.413Z",
+    "0.0.1": "2013-12-17T23:03:58.091Z",
+    "0.0.2": "2014-03-09T08:28:32.129Z",
+    "0.0.3": "2014-04-09T21:34:50.739Z",
+    "0.0.5": "2016-06-06T06:37:49.615Z",
+    "0.0.6": "2016-06-06T19:46:46.398Z",
+    "1.0.0": "2016-07-30T09:03:46.956Z",
+    "1.0.1": "2016-08-01T18:53:35.827Z",
+    "1.0.2": "2017-05-21T11:07:09.407Z"
+  },
+  "author": "Hannes Hörl <hannes.hoerl+pgpass@snowreporter.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoegaarden/pgpass.git"
+  },
+  "homepage": "https://github.com/hoegaarden/pgpass#readme",
+  "keywords": [
+    "postgres",
+    "pg",
+    "pgpass",
+    "password",
+    "postgresql"
+  ],
+  "bugs": {
+    "url": "https://github.com/hoegaarden/pgpass/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "i-erokhin": true
+  },
+  "version": "1.0.2",
+  "main": "lib/index",
+  "scripts": {
+    "pretest": "chmod 600 ./test/_pgpass",
+    "test": "npm run hint && mocha --recursive -R list && npm run coverage",
+    "coverage": "rm -rf -- lib-cov ; jscoverage lib lib-cov && mocha --recursive -R html-cov > coverage.html",
+    "hint": "jshint --verbose lib test"
+  },
+  "dependencies": {
+    "split": "^1.0.0"
+  },
+  "devDependencies": {
+    "jscoverage": "^0.6.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3",
+    "pg": "^4.5.6",
+    "pg-escape": "^0.2.0",
+    "pg-native": "^1.10.0",
+    "resumer": "0.0.0",
+    "tmp": "0.0.28",
+    "which": "^1.2.10"
+  },
+  "gitHead": "d1ccb8e99efcea8dce6036fd06ee9f48a85b96d0",
+  "dist": {
+    "shasum": "2a7bb41b6065b67907e91da1b07c1847c877b306",
+    "tarball": "https://registry.npmjs.org/pgpass/-/pgpass-1.0.2.tgz"
+  },
+  "directories": {}
+}

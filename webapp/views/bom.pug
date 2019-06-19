@@ -1,0 +1,31 @@
+extends layout
+block content
+  style
+    include ../public/css/d3bom.css
+
+  form(id="bom_form", method="POST", action="/bom")
+
+  div.container-fluid
+    table(align="center", width="100%", border='0')
+      tr(style="vertical-align:top")
+        td
+          a(href='/')
+            img(src='../img/montage.png', height='80px')
+
+  div.container-fluid
+    table(align="center", width="100%", border='0')
+      tr
+        td(align="left", width="30%")
+          input(type="text", form="bom_form", id="bom_id", name='bom_id', placeholder="BOM Id", width="60px", value=(undefined===bom_id ? '' : bom_id))
+          button.btn.btn-sm.btn-primary(type="button", form="bom_form", id="bom_btn", onclick="bom_btn_click()") BOM
+        td(align="center")
+          h3 Bill-of-Material View
+        td(align="center", width="30%")
+          p(id="lib_info")
+
+    hr
+    svg(width="1000" height="1500" align="center")
+    hr
+
+  script(src='https://d3js.org/d3.v4.min.js')
+  script(src='js/bom_view.js')

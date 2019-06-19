@@ -1,0 +1,142 @@
+{
+  "name": "yauzl",
+  "description": "yet another unzip library for node",
+  "dist-tags": {
+    "latest": "2.10.0"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.1.0",
+    "2.2.0",
+    "2.2.1",
+    "2.3.0",
+    "2.3.1",
+    "2.4.0",
+    "2.4.1",
+    "2.4.2",
+    "2.4.3",
+    "2.5.0",
+    "2.6.0",
+    "2.7.0",
+    "2.8.0",
+    "2.9.0",
+    "2.9.1",
+    "2.9.2",
+    "2.10.0"
+  ],
+  "maintainers": [
+    "superjoe <superjoe30@gmail.com>",
+    "thejoshwolfe <thejoshwolfe@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-07-03T04:00:33.361Z",
+    "created": "2014-08-22T05:43:04.937Z",
+    "0.0.0": "2014-08-22T05:43:04.937Z",
+    "1.0.0": "2014-08-27T08:55:05.424Z",
+    "1.1.0": "2014-08-27T09:44:14.077Z",
+    "1.1.1": "2014-09-03T03:17:05.930Z",
+    "2.0.0": "2014-09-20T08:04:05.875Z",
+    "2.0.1": "2014-09-29T19:26:01.654Z",
+    "2.0.2": "2014-10-13T04:57:22.130Z",
+    "2.0.3": "2014-10-16T00:12:41.642Z",
+    "2.1.0": "2014-10-16T09:51:30.706Z",
+    "2.2.0": "2014-12-03T23:41:36.343Z",
+    "2.2.1": "2015-01-12T16:35:37.427Z",
+    "2.3.0": "2015-04-29T23:30:17.362Z",
+    "2.3.1": "2015-05-15T22:56:34.901Z",
+    "2.4.0": "2015-12-31T19:04:12.173Z",
+    "2.4.1": "2015-12-31T20:01:42.865Z",
+    "2.4.2": "2016-05-09T18:40:01.386Z",
+    "2.4.3": "2016-06-04T15:44:04.466Z",
+    "2.5.0": "2016-06-08T06:08:25.517Z",
+    "2.6.0": "2016-06-18T09:14:34.970Z",
+    "2.7.0": "2016-10-25T03:32:01.720Z",
+    "2.8.0": "2017-04-22T18:50:23.563Z",
+    "2.9.0": "2017-10-28T20:54:15.543Z",
+    "2.9.1": "2017-10-30T11:56:13.119Z",
+    "2.9.2": "2018-06-03T23:29:57.055Z",
+    "2.10.0": "2018-07-03T04:00:33.361Z"
+  },
+  "homepage": "https://github.com/thejoshwolfe/yauzl",
+  "keywords": [
+    "unzip",
+    "zip",
+    "stream",
+    "archive",
+    "file"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejoshwolfe/yauzl.git"
+  },
+  "author": "Josh Wolfe <thejoshwolfe@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/thejoshwolfe/yauzl/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "306766053": true,
+    "erikvold": true,
+    "superjoe": true,
+    "jswartwood": true,
+    "maxogden": true,
+    "fishrock123": true,
+    "timdream": true,
+    "nycdotnet": true,
+    "elisee": true,
+    "chriszs": true,
+    "nickeljew": true,
+    "bret": true,
+    "surfdude": true,
+    "wenhsiaoyi": true,
+    "anchnk": true,
+    "nate-river": true,
+    "shuoshubao": true,
+    "ramyabot": true,
+    "strawhat": true,
+    "matthiasg": true,
+    "d-band": true,
+    "arichiardi": true,
+    "raycharles": true,
+    "shiva127": true,
+    "alex_giannis": true,
+    "adobnikar": true,
+    "mnew": true,
+    "morewry": true
+  },
+  "version": "2.10.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "test-cov": "istanbul cover test/test.js",
+    "test-travis": "istanbul cover --report lcovonly test/test.js"
+  },
+  "dependencies": {
+    "fd-slicer": "~1.1.0",
+    "buffer-crc32": "~0.2.3"
+  },
+  "devDependencies": {
+    "bl": "~1.0.0",
+    "istanbul": "~0.3.4",
+    "pend": "~1.2.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "51010ce4e8c7e6345efe195e1b4150518f37b393",
+  "dist": {
+    "shasum": "c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9",
+    "tarball": "https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 66204
+  },
+  "directories": {}
+}

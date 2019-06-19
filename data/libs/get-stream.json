@@ -1,0 +1,108 @@
+{
+  "name": "get-stream",
+  "description": "Get a stream as a string, buffer, or array",
+  "dist-tags": {
+    "latest": "5.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0",
+    "2.2.1",
+    "2.3.0",
+    "2.3.1",
+    "3.0.0",
+    "4.0.0",
+    "4.1.0",
+    "5.0.0",
+    "5.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-05T06:56:50.550Z",
+    "created": "2015-10-14T17:28:21.024Z",
+    "1.0.0": "2015-10-14T17:28:21.024Z",
+    "1.1.0": "2015-11-20T18:41:32.705Z",
+    "2.0.0": "2016-03-03T05:25:15.334Z",
+    "2.1.0": "2016-04-28T15:33:42.239Z",
+    "2.2.0": "2016-04-30T20:50:42.753Z",
+    "2.2.1": "2016-06-06T17:54:54.123Z",
+    "2.3.0": "2016-06-07T01:31:47.069Z",
+    "2.3.1": "2016-09-14T17:13:47.014Z",
+    "3.0.0": "2016-11-23T02:49:47.220Z",
+    "4.0.0": "2018-08-10T07:59:07.810Z",
+    "4.1.0": "2018-10-02T09:11:43.738Z",
+    "5.0.0": "2019-03-11T05:00:57.346Z",
+    "5.1.0": "2019-04-05T06:56:47.933Z"
+  },
+  "homepage": "https://github.com/sindresorhus/get-stream#readme",
+  "keywords": [
+    "get",
+    "stream",
+    "promise",
+    "concat",
+    "string",
+    "text",
+    "buffer",
+    "read",
+    "data",
+    "consume",
+    "readable",
+    "readablestream",
+    "array",
+    "object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/get-stream.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/get-stream/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rubiadias": true,
+    "rocket0191": true,
+    "j3kz": true,
+    "oleg_tsyba": true,
+    "roccomuso": true,
+    "seangenabe": true,
+    "paraself": true,
+    "zhenguo.zhao": true,
+    "bluelovers": true,
+    "pftom": true
+  },
+  "version": "5.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "ava": "^1.4.1",
+    "into-stream": "^5.0.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "7ce032d306373500e1f4557b3c7a31390a005da6",
+  "dist": {
+    "integrity": "sha512-EXr1FOzrzTfGeL0gQdeFEvOMm2mzMOglyiOXSTpPC+iAjAKftbr3jpCMWynogwYnM+eSj9sHGc6wjIcDvYiygw==",
+    "shasum": "01203cdc92597f9b909067c3e656cc1f4d3c4dc9",
+    "tarball": "https://registry.npmjs.org/get-stream/-/get-stream-5.1.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 11825,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpvwwCRA9TVsSAnZWagAAtEQP/2VH3Kis67GQUXZ63DqV\nnJj0xObsaInebSdGskLhML4IrPdhLEPew3udOugkRzDdT18Mq7uK2ynBQDCD\ncIWTDKbyk0x1cipGRosgkYAyNepC7toB9Jwfd7Nynkp+g4ca1NUtMr+FqzYz\nIfzpmJ1sW0lydV0hQWf9wxpHPDaZeQvmGzYX6VIXD748uQC3W5ix2VWF/kAv\nmctm2BtEsxRJBPOtcnGcFzeYrJy9C2zhxl21s0dJvxTbOoVRr+UlWVmTPeYG\ncQf4DC2vmlSBoSXvEIfo7Pw9MWWA2F2DGTuLrciGoswFCDYrJsFbfTLYKMxW\naGNNZjgWM1lrU0nxW/2RCE8kVDysc6GY9yxEXHSs2ZTzHNnqhnW9ZI+LMYpB\nLHBQGzsgzNc3pPomIi/Iu+A/2Ui3dgXhOtuFwOJPQz9+tdcWcxgh1++bKltV\nROnXIGMTJ89MH/G6QVrEAvJ9xulMFYwuz39vgI/0HbHeu0PNDKWq/fMxaaWV\nCZS6VuHUP4pzyht5cORDLchDXbSlcnbNSHvQfWYohjjaRMwbICGVlQXzaa8c\nmEVoWwKYZsiidHJmzTfov6EDTaBf0b1hkgF509FaL5pVjKwgKjVZqjuyLcAY\nJHkADXXuPQtFVtRXVjpD8Cm2txKr7WdsSHJyQncK9kwrjSqVu/Qb5KTDknV4\nmGb1\r\n=OslP\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,166 @@
+{
+  "name": "fill-range",
+  "description": "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`",
+  "dist-tags": {
+    "latest": "7.0.1",
+    "patch": "2.2.4"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.7.1",
+    "1.8.0",
+    "1.9.0",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.4",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2",
+    "3.0.3",
+    "3.1.0",
+    "3.1.1",
+    "4.0.0",
+    "5.0.0",
+    "6.0.0",
+    "7.0.0",
+    "7.0.1"
+  ],
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "es128 <elan.shanker+npm@gmail.com>",
+    "jonschlinkert <github@sellside.com>",
+    "paulmillr <paul@paulmillr.com>"
+  ],
+  "time": {
+    "modified": "2019-04-08T13:42:40.764Z",
+    "created": "2014-11-25T07:08:17.514Z",
+    "0.1.0": "2014-11-25T07:08:17.514Z",
+    "0.1.1": "2014-11-25T07:26:24.847Z",
+    "0.2.0": "2014-11-25T18:38:44.757Z",
+    "1.0.0": "2015-01-04T18:00:33.433Z",
+    "1.1.0": "2015-01-09T02:51:52.156Z",
+    "1.2.0": "2015-01-09T16:21:12.863Z",
+    "1.3.0": "2015-01-12T00:23:30.192Z",
+    "1.4.0": "2015-01-14T22:03:45.204Z",
+    "1.5.0": "2015-01-24T10:56:51.026Z",
+    "1.6.0": "2015-01-24T11:06:24.383Z",
+    "1.7.0": "2015-01-24T23:27:49.974Z",
+    "1.7.1": "2015-01-24T23:39:53.337Z",
+    "1.8.0": "2015-01-25T05:31:07.083Z",
+    "1.9.0": "2015-01-25T06:03:42.536Z",
+    "2.0.0": "2015-01-26T16:56:12.970Z",
+    "2.1.0": "2015-01-30T13:33:09.891Z",
+    "2.2.0": "2015-02-25T16:21:11.297Z",
+    "2.2.1": "2015-04-07T08:43:18.684Z",
+    "2.2.2": "2015-04-07T08:50:55.860Z",
+    "2.2.3": "2015-12-06T22:15:02.623Z",
+    "3.0.0": "2016-09-15T06:51:38.296Z",
+    "3.0.1": "2016-09-15T06:53:31.812Z",
+    "3.0.2": "2016-09-15T06:59:54.132Z",
+    "3.0.3": "2016-09-15T07:46:33.372Z",
+    "3.1.0": "2017-02-13T05:22:15.663Z",
+    "3.1.1": "2017-02-13T05:29:51.800Z",
+    "4.0.0": "2017-04-23T06:17:15.434Z",
+    "5.0.0": "2017-11-01T05:14:07.216Z",
+    "2.2.4": "2018-05-08T17:10:51.757Z",
+    "6.0.0": "2018-07-05T04:32:30.450Z",
+    "7.0.0": "2019-04-08T13:18:28.205Z",
+    "7.0.1": "2019-04-08T13:42:36.186Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/fill-range",
+  "keywords": [
+    "alpha",
+    "alphabetical",
+    "array",
+    "bash",
+    "brace",
+    "expand",
+    "expansion",
+    "fill",
+    "glob",
+    "match",
+    "matches",
+    "matching",
+    "number",
+    "numerical",
+    "range",
+    "ranges",
+    "regex",
+    "sh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/fill-range.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/fill-range/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "contributors": [
+    "Edo Rivai (edo.rivai.nl)",
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Paul Miller (paulmillr.com)",
+    "Rouven Weßling (www.rouvenwessling.de)",
+    {
+      "url": "https://github.com/wtgtybhertgeghgtwtg"
+    }
+  ],
+  "users": {
+    "cbosco": true,
+    "xiaobing": true
+  },
+  "version": "7.0.1",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "to-regex-range": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^6.1.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "39f421b499d5c97b62e955c179fa34c062aab2a5",
+  "dist": {
+    "integrity": "sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==",
+    "shasum": "1919a6a7c75fe38b2c7c77e5198535da9acdda40",
+    "tarball": "https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 16351,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq0/MCRA9TVsSAnZWagAA2QoP/jm9y3QOxMY/yATtThb8\n/26EJkG/jUniHQgwcQS0/pDiqAdoY2Lu1paa78TVbTxyT02NtVb8J+uCRl1g\nF77E2GqbOin8ZnNZtxejW6pcl7STljitZZhsSfjMerQ/0VZJUAMy3v7bScM1\np4Beu7KvuYfhSM2PsP7vK0To4K+y+79FAu+6uUiomvSFVEBC80aZ344pKTu+\nnwoYTq6sf9VluazV0MyYrexPCcumIOh3PB/hvmHuG6yOxt41Z1m297Re7WHr\nn074IsouoOa5AQudgc+mKMSe3B1Sw5XhYWwwVAdfEGnmo9bPBGjbLjff99LF\nUv4JpkZX41n+hVGEIGS3SGWqJnNzA+xZtP6hcv6oJ82KtbynlHqJcmPyxlLS\nQ677HCNtP7CcqU7mCzjfJj36GAd0CkYdIeC0GnPUNRTTv/sU3mvUMeFLfXy/\n892Fc8+nELi3RLl2wj3vQRScpJqjMGRWU8sBN4YgplHF27to9aQgs52SlN+p\nfFVftQ4Tf/x5XCZ4G20ZgG2zJ+XiyCU/YAVyRwZSfbiiH8h/QLSqTi4HWev2\n1khy8c5VywCSlLRvWIuq5my9Blzqq4Uqax9AwqOtoxXBDpCCGcooIPXN6+v5\nRJpVw4A6pT5zi6NWkjSYCh9QSuCus2Pa/E0K21JfD9NeEYVqAbp0Mw9GgasV\nHv5J\r\n=06fX\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,70 @@
+{
+  "name": "import-lazy",
+  "description": "Import a module lazily",
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "versions": [
+    "2.1.0",
+    "3.0.0",
+    "3.1.0",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-27T10:42:14.005Z",
+    "created": "2017-05-21T09:49:08.163Z",
+    "2.1.0": "2017-05-21T09:49:08.163Z",
+    "3.0.0": "2017-06-14T18:50:44.279Z",
+    "3.1.0": "2017-11-03T14:30:53.408Z",
+    "4.0.0": "2019-04-27T10:42:11.495Z"
+  },
+  "homepage": "https://github.com/sindresorhus/import-lazy#readme",
+  "keywords": [
+    "import",
+    "require",
+    "load",
+    "module",
+    "modules",
+    "lazy",
+    "lazily",
+    "defer",
+    "deferred",
+    "proxy",
+    "proxies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/import-lazy.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/import-lazy/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "4.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "eb40edcf6242280c68289758db9c22c5ecb455d6",
+  "dist": {
+    "integrity": "sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==",
+    "shasum": "e8eb627483a0a43da3c03f3e35548be5cb0cc153",
+    "tarball": "https://registry.npmjs.org/import-lazy/-/import-lazy-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4898,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcxDIECRA9TVsSAnZWagAAl9QQAKTyAOspwQDeUAfngBFV\n1l4bOvKuO99sx6jtR3l6SRbpQr5eo1wGO2OtnM3s+rsEb6O7iK7AN9tSWXhy\nbSrCm5gwU22sjqYWkUfamrouubYpP6Q5OZ7caBZVITFtfUSfOhXYNLktIdVp\nccMN7Wwh2yrw7cAcF6g7oGpvON+aifJ8tXErp9DV1z6Db5shWWdBBIDUbVfj\nnW+wnlC8TV6oDkwdasbKOCHSU4Yo7iD/PzzQC3sd9/3hHA9u8PjIrz916WPS\nHD3wBJsvMcxYIYd3bmNaP0zvIe6VtFRZYiTU+j4NkvhlQ4+kiAVMVhotqtzM\ntBiLK21Fs7iPILHW/lUOAyCqWjBJbmFRIInlaruhh9+btvHHqt2znqidJT0G\nhXRiLnbR4kKnW2xzmN43+JJKEWno26s/axVF/EMHT+EA7do/zEjk5Mo10atM\nk0Io9h4L2Ll9PYT1GR1SP8TWHXsRMjihEaVWHC64a2XcucHlzorUQeToww7m\nVVc1+oLA3qGw9r/UxiLg8QXVbdBlpoaMUtoPc6jbymiFTXzaRKaC9Yzo2vUm\nIWlzVS5lDc11Ak9+478wfrzojzOD5vFnFVK6GB3WYJYU7GrxPxAGHhs+QNS2\nkFI3n4Gd4dFrvvD4Qvhnl6CNst7B2MN+xY6W7L/vRR2Q9KhZMINVODDCG6ZV\nrZ8/\r\n=+VI4\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

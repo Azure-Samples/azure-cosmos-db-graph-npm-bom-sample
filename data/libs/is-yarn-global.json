@@ -1,0 +1,50 @@
+{
+  "name": "is-yarn-global",
+  "description": "Check if installed by yarn globally without any `fs` calls",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "maintainers": [
+    "litomore <litomore@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-15T09:02:42.689Z",
+    "created": "2018-01-12T07:08:12.612Z",
+    "0.1.0": "2018-01-12T07:08:12.612Z",
+    "0.2.0": "2018-01-23T04:53:58.725Z",
+    "0.3.0": "2018-02-15T09:02:41.624Z"
+  },
+  "homepage": "https://github.com/LitoMore/is-yarn-global#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LitoMore/is-yarn-global.git"
+  },
+  "author": "LitoMore (litomore@gmail.com)",
+  "bugs": {
+    "url": "https://github.com/LitoMore/is-yarn-global/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.3.0",
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "xo": "^0.18.2"
+  },
+  "gitHead": "8f327b0ed2c3a22d213cf372074ae9fdda0687e6",
+  "dist": {
+    "integrity": "sha512-VjSeb/lHmkoyd8ryPVIKvOCn4D1koMqY+vqyjjUfc3xyKtP4dYOxM44sZrnqQSzSds3xyOrUTLTC9LVCVgLngw==",
+    "shasum": "d502d3382590ea3004893746754c89139973e232",
+    "tarball": "https://registry.npmjs.org/is-yarn-global/-/is-yarn-global-0.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2552
+  },
+  "directories": {}
+}

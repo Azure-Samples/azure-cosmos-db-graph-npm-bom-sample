@@ -1,0 +1,76 @@
+{
+  "name": "double-ended-queue",
+  "description": "Extremely fast double-ended queue implementation",
+  "dist-tags": {
+    "latest": "2.1.0-0"
+  },
+  "versions": [
+    "0.9.7",
+    "2.0.0-0",
+    "2.1.0-0"
+  ],
+  "maintainers": [
+    "esailija <petka_antonov@hotmail.com>"
+  ],
+  "time": {
+    "modified": "2017-09-19T01:25:55.776Z",
+    "created": "2013-12-25T16:19:02.685Z",
+    "0.9.7": "2013-12-25T16:19:07.751Z",
+    "2.0.0-0": "2013-12-25T16:49:14.322Z",
+    "2.1.0-0": "2015-01-05T15:12:03.596Z"
+  },
+  "author": "Petka Antonov <petka_antonov@hotmail.com> (http://github.com/petkaantonov/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/petkaantonov/deque.git"
+  },
+  "users": {
+    "strathausen": true,
+    "julien-f": true,
+    "elrolito": true,
+    "bsnote": true,
+    "zoomyzoom": true,
+    "mojaray2k": true,
+    "hibrahimsafak": true,
+    "jentam": true,
+    "doxy": true,
+    "shanewholloway": true
+  },
+  "homepage": "https://github.com/petkaantonov/deque",
+  "keywords": [
+    "data-structure",
+    "data-structures",
+    "queue",
+    "deque",
+    "double-ended-queue"
+  ],
+  "bugs": {
+    "url": "http://github.com/petkaantonov/deque/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.1.0-0",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "jshint-stylish": "latest",
+    "acorn": "~0.3.1",
+    "mocha": "~1.12.1",
+    "grunt-cli": "~0.1.9",
+    "bluebird": "~0.11",
+    "benchmark": "~1.0.0",
+    "deque": "0.0.4",
+    "q": "~0.9.7",
+    "semver-utils": "~1.1.0"
+  },
+  "main": "./js/deque.js",
+  "gitHead": "51eada75cea686f1eb0c8bb5be486ac630e9b7ee",
+  "dist": {
+    "shasum": "103d3527fd31528f40188130c841efdd78264e5c",
+    "tarball": "https://registry.npmjs.org/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz"
+  },
+  "directories": {}
+}

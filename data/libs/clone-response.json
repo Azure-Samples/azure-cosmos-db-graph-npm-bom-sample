@@ -1,0 +1,81 @@
+{
+  "name": "clone-response",
+  "description": "Clone a Node.js HTTP response stream",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "lukechilds <lukechilds123@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-08-17T16:44:35.584Z",
+    "created": "2017-06-01T10:33:32.704Z",
+    "0.0.0": "2017-06-01T10:33:32.704Z",
+    "0.1.0": "2017-06-02T08:04:30.901Z",
+    "0.1.1": "2017-06-02T08:09:53.625Z",
+    "0.2.0": "2017-06-02T08:29:13.105Z",
+    "0.2.1": "2017-06-03T03:28:21.554Z",
+    "0.2.2": "2017-06-03T05:34:40.172Z",
+    "1.0.0": "2017-06-16T12:11:29.393Z",
+    "1.0.1": "2017-06-30T13:02:24.398Z",
+    "1.0.2": "2017-08-17T16:44:35.584Z"
+  },
+  "homepage": "https://github.com/lukechilds/clone-response",
+  "keywords": [
+    "clone",
+    "duplicate",
+    "copy",
+    "response",
+    "HTTP",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukechilds/clone-response.git"
+  },
+  "author": "Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk)",
+  "bugs": {
+    "url": "https://github.com/lukechilds/clone-response/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "xo": {
+    "extends": "xo-lukechilds"
+  },
+  "dependencies": {
+    "mimic-response": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "coveralls": "^2.13.1",
+    "create-test-server": "^2.0.1",
+    "eslint-config-xo-lukechilds": "^1.0.0",
+    "get-stream": "^3.0.0",
+    "nyc": "^11.0.2",
+    "pify": "^3.0.0",
+    "xo": "^0.19.0"
+  },
+  "gitHead": "857094916c5393a7ce78838a4e447fa944263cca",
+  "dist": {
+    "shasum": "d1dc973920314df67fbeb94223b4ee350239e96b",
+    "tarball": "https://registry.npmjs.org/clone-response/-/clone-response-1.0.2.tgz"
+  },
+  "directories": {}
+}

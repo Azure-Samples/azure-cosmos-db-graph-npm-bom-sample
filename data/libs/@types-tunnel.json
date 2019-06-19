@@ -1,0 +1,59 @@
+{
+  "name": "@types/tunnel",
+  "description": "TypeScript definitions for tunnel",
+  "dist-tags": {
+    "latest": "0.0.0",
+    "ts2.0": "0.0.0",
+    "ts2.1": "0.0.0",
+    "ts2.2": "0.0.0",
+    "ts2.3": "0.0.0",
+    "ts2.4": "0.0.0",
+    "ts2.5": "0.0.0",
+    "ts2.6": "0.0.0",
+    "ts2.7": "0.0.0",
+    "ts2.8": "0.0.0",
+    "ts2.9": "0.0.0",
+    "ts3.0": "0.0.0",
+    "ts3.1": "0.0.0",
+    "ts3.2": "0.0.0",
+    "ts3.3": "0.0.0",
+    "ts3.4": "0.0.0",
+    "ts3.5": "0.0.0",
+    "ts3.6": "0.0.0"
+  },
+  "versions": [
+    "0.0.0"
+  ],
+  "maintainers": [
+    "types <ts-npm-types@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2019-05-29T22:29:21.908Z",
+    "created": "2017-07-24T18:26:09.373Z",
+    "0.0.0": "2017-07-24T18:26:09.373Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "contributors": [
+    "BendingBender (https://github.com/BendingBender)"
+  ],
+  "license": "MIT",
+  "readmeFilename": "",
+  "version": "0.0.0",
+  "main": "",
+  "scripts": {},
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "peerDependencies": {},
+  "typesPublisherContentHash": "841738a8f7c86d19eb07cfd5de7f11d53069df9e33d6341a58c94e94644df587",
+  "typeScriptVersion": "2.0",
+  "dist": {
+    "integrity": "sha512-FGDp0iBRiBdPjOgjJmn1NH0KDLN+Z8fRmo+9J7XGBhubq1DPrGrbmG4UTlGzrpbCpesMqD0sWkzi27EYkOMHyg==",
+    "shasum": "c2a42943ee63c90652a5557b8c4e56cda77f944e",
+    "tarball": "https://registry.npmjs.org/@types/tunnel/-/tunnel-0.0.0.tgz"
+  },
+  "directories": {}
+}

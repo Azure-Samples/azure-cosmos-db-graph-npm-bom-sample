@@ -1,0 +1,95 @@
+{
+  "name": "p-cancelable",
+  "description": "Create a promise that can be canceled",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.5.1",
+    "1.0.0",
+    "1.1.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-31T20:02:02.855Z",
+    "created": "2016-11-28T10:56:08.946Z",
+    "0.1.0": "2016-11-28T10:56:08.946Z",
+    "0.2.0": "2017-05-05T05:39:17.492Z",
+    "0.3.0": "2017-06-30T15:48:55.134Z",
+    "0.4.0": "2018-03-06T15:01:51.923Z",
+    "0.4.1": "2018-04-01T11:22:59.190Z",
+    "0.5.0": "2018-07-04T06:21:35.707Z",
+    "0.5.1": "2018-09-10T16:32:13.688Z",
+    "1.0.0": "2018-10-22T07:29:51.952Z",
+    "1.1.0": "2019-03-08T08:43:07.840Z",
+    "2.0.0": "2019-03-31T20:02:00.172Z"
+  },
+  "homepage": "https://github.com/sindresorhus/p-cancelable#readme",
+  "keywords": [
+    "promise",
+    "cancelable",
+    "cancel",
+    "canceled",
+    "canceling",
+    "cancellable",
+    "cancellation",
+    "abort",
+    "abortable",
+    "aborting",
+    "cleanup",
+    "task",
+    "token",
+    "async",
+    "function",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-cancelable.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-cancelable/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true,
+    "drewigg": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "delay": "^4.1.0",
+    "promise.prototype.finally": "^3.1.0",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "5bcb7bcf966fc416755b50c24c4d7eb2fbf44b0e",
+  "dist": {
+    "integrity": "sha512-wvPXDmbMmu2ksjkB4Z3nZWTSkJEb9lqVdMaCKpZUGJG9TMiNp9XcbG3fn9fPKjem04fJMJnXoyFPk2FmgiaiNg==",
+    "shasum": "4a3740f5bdaf5ed5d7c3e34882c6fb5d6b266a6e",
+    "tarball": "https://registry.npmjs.org/p-cancelable/-/p-cancelable-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 12795,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoRy4CRA9TVsSAnZWagAA1KYP/iZN1N2lQelTHAi8CMUK\np4nnbIq/6g/2rJddpmptDgiPRdV24nqonvc+6NRC7oFRzFfdyWqwh6PYyHDo\nTckiL/+1mVtwh6g61dyX6X3ddOIwfUSjxMdCAsdw4lFUknH9oANotcwuYEhH\ni/h+jiNQvXA2FjpeFy7uNAbx5nMCn5RAGVxXuZlnh+5zA/0RoAzKD2A1UbPm\nFHYM0eVyjhggG0dWO12doO2WjrIVAZHJ3Q/pYr6s5e02/ZUXeihaBlzHyWNJ\ngqQpyiDRwF7FpHLx6h6Hn1zZu45Udq9FyAC+Mzx0syd5iLTH/bdQrSJwmnkz\ntY9ygsgWZ9WhsO0CPe7A6Nb71ZT33BeqMsRswxw8lThB98yM7bqTxWEqEBq0\nUtnBK9DxTDW5a1mBdyMwzpe2mxcaLwjsSFZOKLIDOQqDWMN94yH/JgU0o2Nb\n9wYeBFqPYkCu2Xm3uhNdaaC3EVGy5USc5XbyXjNDfkeueYfyNxpaudWITcQM\ng6c6iRLtkbtWSVDA0hTGxGMwnLEaORa1EL7wmyg4tZwcafOyHF6HY2yaloI4\nPPTCJagqbqPPiX8Ze5frad0F+s+wQRFX32YrWWl80G83QGphwBBwF9sCMrKw\nQGymS1nBIo23PtJkKX3gtLetw390gBBtiicJ6AAZvnMG/EAeFMgluuxiCa6o\noOC3\r\n=Gugh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

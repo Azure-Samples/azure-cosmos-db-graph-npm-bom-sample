@@ -1,0 +1,95 @@
+{
+  "name": "decamelize",
+  "description": "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow",
+  "dist-tags": {
+    "latest": "3.2.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "2.0.0",
+    "3.0.0",
+    "3.1.0",
+    "3.1.1",
+    "3.2.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-05T21:30:06.362Z",
+    "created": "2015-01-24T11:12:51.863Z",
+    "1.0.0": "2015-01-24T11:12:51.863Z",
+    "1.1.0": "2015-10-25T19:24:49.953Z",
+    "1.1.1": "2015-10-29T16:21:25.393Z",
+    "1.1.2": "2015-12-23T01:05:36.047Z",
+    "1.2.0": "2016-03-05T08:49:10.462Z",
+    "2.0.0": "2018-01-08T19:09:45.730Z",
+    "3.0.0": "2019-03-06T16:08:07.750Z",
+    "3.1.0": "2019-03-21T15:48:18.366Z",
+    "3.1.1": "2019-03-22T10:46:31.564Z",
+    "3.2.0": "2019-04-05T21:30:03.548Z"
+  },
+  "homepage": "https://github.com/sindresorhus/decamelize#readme",
+  "keywords": [
+    "decamelize",
+    "decamelcase",
+    "camelcase",
+    "lowercase",
+    "case",
+    "dash",
+    "hyphen",
+    "string",
+    "str",
+    "text",
+    "convert"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/decamelize.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/decamelize/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "bret": true,
+    "galenandrew": true,
+    "xiechao06": true,
+    "mojaray2k": true,
+    "mrzmmr": true,
+    "arefm": true,
+    "esenor": true,
+    "xhou": true
+  },
+  "version": "3.2.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "xregexp": "^4.2.4"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "8e6c4d82ebae2c60323b34c59e11f5d6ec35268e",
+  "dist": {
+    "integrity": "sha512-4TgkVUsmmu7oCSyGBm5FvfMoACuoh9EOidm7V5/J2X2djAwwt57qb3F2KMP2ITqODTCSwb+YRV+0Zqrv18k/hw==",
+    "shasum": "84b8e8f4f8c579f938e35e2cc7024907e0090851",
+    "tarball": "https://registry.npmjs.org/decamelize/-/decamelize-3.2.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4293,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcp8jcCRA9TVsSAnZWagAA+D4P/0qqHMuIFa0gPgXXeUT9\nR1oiaIzWwmhJ+py48D9UUg5rmZqAIRC7JBlJ7jyl9z/DwY/aDSk+ZqFoAHuf\n8F6Z4jzGRPKYCA14g05vmlkDzuj+0lwmjnkVQvVEW5ok5uqAA6FUqQzc/HoN\nPiYHNDT86IgWCGZKkvvAA0bvsUcSHWTKFWguDSP8u+UYqV1+p0fCTz6LMWUj\nJS4LAx2i+JL5StHK+ffaQ2cf4B+4QFOdMWdp3gWEpIymEcMT7eFQTpqrn22X\nEuwV7ok4xMB/nG/WOtvi/ksyZG4yT2b5ACGCoQ5hJuRegCj3bx1wUzWIz1ZM\nkg97W1MzG9tCEo/IvWEsyeWTfcu0YPLBAvy6ox9GHHHJqyiCetG4uhNNaVDQ\n6yFWpA2A+1Pre/YZxq16SalrnY2n2fE1PCJyN72W6npFHQ/wKj8a0u6fYFuu\n7BulTqUo0cFgrrSqnSkD6w2QYSFgkM/aNS9Sk8yakdR4/063WyV8QK1eREdG\nh/cuVLsoHeknLON+KMhkb195qo3GVGhoeq2z9HGAw9CzpfZhBuqVmKHBdj3C\nRx/8FKEZe3AC5+UwthCdPotnlf3CnlBdXC05836Ffrr1cHazZg6yXPbITF0u\n+19iGkQ8n5uPm5+SRxsBBuxHRxeBgCcX/TvmPPvqCHzDE0FeBxAPOFQsUeOj\nopfn\r\n=XBFt\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

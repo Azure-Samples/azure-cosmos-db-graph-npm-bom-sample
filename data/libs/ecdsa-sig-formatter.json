@@ -1,0 +1,89 @@
+{
+  "name": "ecdsa-sig-formatter",
+  "description": "Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation",
+  "dist-tags": {
+    "latest": "1.0.11"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.0.11"
+  ],
+  "maintainers": [
+    "d2l-travis-deploy <d2ltravisdeploy@d2l.com>"
+  ],
+  "time": {
+    "modified": "2019-01-25T21:32:16.022Z",
+    "created": "2015-06-10T19:40:01.611Z",
+    "1.0.0": "2015-06-10T19:40:01.611Z",
+    "1.0.1": "2015-06-10T20:54:59.800Z",
+    "1.0.2": "2015-06-12T20:39:55.056Z",
+    "1.0.5": "2016-01-20T01:20:23.559Z",
+    "1.0.6": "2016-06-17T15:08:45.103Z",
+    "1.0.7": "2016-06-18T15:26:07.961Z",
+    "1.0.8": "2016-11-15T15:50:08.273Z",
+    "1.0.9": "2016-12-05T15:40:24.823Z",
+    "1.0.10": "2018-05-14T14:40:42.729Z",
+    "1.0.11": "2019-01-25T21:32:13.447Z"
+  },
+  "homepage": "https://github.com/Brightspace/node-ecdsa-sig-formatter#readme",
+  "keywords": [
+    "ecdsa",
+    "der",
+    "asn.1",
+    "jwt",
+    "jwa",
+    "jsonwebtoken",
+    "jose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Brightspace/node-ecdsa-sig-formatter.git"
+  },
+  "author": "D2L Corporation",
+  "bugs": {
+    "url": "https://github.com/Brightspace/node-ecdsa-sig-formatter/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "version": "1.0.11",
+  "main": "src/ecdsa-sig-formatter.js",
+  "scripts": {
+    "check-style": "eslint .",
+    "pretest": "npm run check-style",
+    "test": "istanbul cover --root src _mocha -- spec",
+    "report-cov": "cat ./coverage/lcov.info | coveralls"
+  },
+  "typings": "./src/ecdsa-sig-formatter.d.ts",
+  "dependencies": {
+    "safe-buffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "bench": "^0.3.6",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.12.0",
+    "eslint-config-brightspace": "^0.2.1",
+    "istanbul": "^0.4.3",
+    "jwk-to-pem": "^1.2.5",
+    "mocha": "^2.5.3",
+    "native-crypto": "^1.7.0"
+  },
+  "gitHead": "c730235f4a54526f33f5309d80beb12ee298db6b",
+  "dist": {
+    "integrity": "sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==",
+    "shasum": "ae0f0fa2d85045ef14a817daa3ce9acd0489e5bf",
+    "tarball": "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz",
+    "fileCount": 7,
+    "unpackedSize": 20588,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcS4BeCRA9TVsSAnZWagAAQHgQAJsWXbsQEgHH9CO915pO\nuosLqkOVmPVXT34pulC2fOjiiD3IAr9gCFrup/pfO26c2AInJh8BxCmfEm7z\nbS4QX8d4PUOHhoMDYoTOZnuRT5yiis0nynycjRF1ajexCtU+8jOovmQBo5dn\nfUK0odtULQg/bi84vinmGGK3s57lcD5PxHuzvR45io41wszJB90Pdv2vFMGf\nJUYDybFKHKZJbpbQ93VMvfTWDlFNnlRn4Bz/jrV4uGgDgkHJHlNARZSp/TLa\nwTyRzW98c2PQzMdZJZTnFz6b9hG2Cj0d0lIY1hxX+XQ422lEvaa6nQgKqVb6\nA0qkFRJoP/43/gjt0ZXVu0y09qdQCsnRzN2uxDyUK87QfZcuWPYxmiv1XEfX\n+aDtu1lKLgxT/1r01QleQtN2fw5FZSU57/Zw0KC9uUWDEvTcLMJDT447hvk2\n2cVt5XWOAtFwxAfdtYlGjq0qLSIM/vm8JwNjdaTfbDsLXMSwZrp/7egpZFX6\nsE/XJ4hxC0niiXP6QrrRFKynXm6ZWnzB49dAeDkzCiB4iJao8WKYptdV9F7W\n1dpuWrb28hHY4jaDI/7dumP/fvmCvsGLay9nRH5iE5ePU4JXyJp0AujvqV+c\noDM8h2/+zHkPYffosqmEZf2NxeB5rIAzFZrcBQHKYp7rKqCvztowBC6730Jb\n6eYG\r\n=3ns0\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

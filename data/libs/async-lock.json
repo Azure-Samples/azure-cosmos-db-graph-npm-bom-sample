@@ -1,0 +1,134 @@
+{
+  "name": "async-lock",
+  "description": "Lock on asynchronous code",
+  "dist-tags": {
+    "latest": "1.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.3.4",
+    "0.3.5",
+    "0.3.6",
+    "0.3.7",
+    "0.3.8",
+    "0.3.9",
+    "0.3.10",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.2.0"
+  ],
+  "maintainers": [
+    "rogierschouten <rogier.schouten@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-13T13:11:12.810Z",
+    "created": "2015-01-13T10:24:34.925Z",
+    "0.1.0": "2015-01-13T10:24:34.925Z",
+    "0.1.1": "2015-01-13T10:36:31.707Z",
+    "0.1.2": "2015-01-13T10:43:42.796Z",
+    "0.2.0": "2015-02-21T09:24:40.181Z",
+    "0.2.1": "2015-02-21T09:36:44.013Z",
+    "0.3.0": "2015-03-06T16:03:34.352Z",
+    "0.3.1": "2015-04-15T06:41:05.705Z",
+    "0.3.2": "2015-05-08T03:51:50.246Z",
+    "0.3.3": "2015-05-19T07:47:23.501Z",
+    "0.3.4": "2015-06-09T08:58:49.408Z",
+    "0.3.5": "2015-06-15T09:52:01.825Z",
+    "0.3.6": "2015-09-07T06:39:22.470Z",
+    "0.3.7": "2015-09-25T15:13:14.214Z",
+    "0.3.8": "2015-09-25T19:27:19.169Z",
+    "0.3.9": "2016-11-30T20:36:35.579Z",
+    "0.3.10": "2017-06-27T18:39:47.974Z",
+    "1.0.0": "2017-06-29T21:34:37.906Z",
+    "1.1.0": "2017-10-17T06:32:32.144Z",
+    "1.1.1": "2018-02-13T23:33:26.576Z",
+    "1.1.2": "2018-02-26T19:21:10.636Z",
+    "1.1.3": "2018-06-08T06:19:45.790Z",
+    "1.1.4": "2019-02-02T11:00:31.792Z",
+    "1.2.0": "2019-03-13T13:11:10.182Z"
+  },
+  "homepage": "https://github.com/rogierschouten/async-lock",
+  "keywords": [
+    "lock",
+    "async",
+    "concurrency",
+    "critical",
+    "section",
+    "mutex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogierschouten/async-lock.git"
+  },
+  "contributors": [
+    "rain1017 (https://github.com/rain1017)",
+    "JonathanPicques (https://github.com/JonathanPicques)",
+    "Rogier Schouten (https://github.com/rogierschouten)",
+    "erikvold (https://github.com/erikvold)",
+    "Christian Passet (https://github.com/thePunIssuer)",
+    "Tanguy Krotoff (https://github.com/tkrotoff)",
+    "jtyers (https://github.com/jtyers)",
+    "Paul Roub (https://github.com/paulroub)"
+  ],
+  "author": "Rogier Schouten <github@workingcode.ninja> (https://github.com/rogierschouten/)",
+  "bugs": {
+    "url": "https://github.com/rogierschouten/async-lock/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "rain1017": true,
+    "jimmykuo": true,
+    "erikvold": true,
+    "sopepos": true,
+    "serge-nikitin": true,
+    "koskokos": true,
+    "adobnikar": true,
+    "anypossible.w": true
+  },
+  "license": "MIT",
+  "version": "1.2.0",
+  "private": false,
+  "engines": {},
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test",
+    "postinstall": ""
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-env": "^0.4.4",
+    "grunt-mocha-test": "^0.13.3",
+    "load-grunt-tasks": "^4.0.0",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
+    "q": "^1.5.1",
+    "should": "^13.2.1"
+  },
+  "gitHead": "6fb63444b25c42c5455de96118ae03885a8f237b",
+  "dist": {
+    "integrity": "sha512-81HzTQm4+qMj6PwNlnR+y9g7pDdGGzd/YBUrQnHk+BhR28ja2qv497NkQQc1KcKEqh/RShm07di2b0cIWVFrNQ==",
+    "shasum": "cd6a53cb1ec3f86af25eafdeb6bc7c6e317258b8",
+    "tarball": "https://registry.npmjs.org/async-lock/-/async-lock-1.2.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 13841,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJciQFuCRA9TVsSAnZWagAAOoQQAI8AGMTiyVYgbHO4LWUa\nJjmwSrwiMRd/DY2w6Y2vsPLIkVLWj1lJRj9IOuqhmkDNt6Ijv9lC+4ysyhLZ\n0aZgM+gDzAnQoS4zKcMT6OK/Sz2npmMMdyV/BesEuW1uelpmurPqVWp5XaKS\nmbG3hxRjiIQyuWx/k2bLJYd5Zgnpz5IhwW322R2e8bzx6CzCtOQLPHlz/b99\nS4ACUlYSrInKWyc50EoloCMy5B2UwsNK3dsK2myb8RXLa4CQQx1l1gpdy4+q\nbjQkhmwsT9TMw24oXR7pIOKMd5AsPiq6RD9BhL6xUEiGkKMJ0poKmw4cqFbI\nwRTDB5HCZO4/g7Y2kBC46Abw3GyGR0b8zb4ciyf6HmUitjoy0eOnYKxUwBU3\nGAU0A3L4z/2Zf0xzDRHSZ7Ph+E3vWM1QzmFduuUxBy0nFZ9OsduqU6Geez8P\nWXibSbHnc+KTScDD5O3coxaNtBuFJclKUv4k2Zj8cnconXxHMKh7VMBQpASe\nx25QVc72s1PSDuVqNlETMCwtF/24CTRYrmJgFwJSxR9SO1C2Z4YZ+GhnqXth\n6qkFdv7UAbR4WVKs8ehp0VIWeWPucNEYEvwe1NHSFWqGjodHtf3LNmfoDDAi\nzDXSxfGNwAv9SHyIuo5HOFOmjUpUIQOsbQlvbT3aiFv1QT8Juu2VH/RJOsPw\n/yH2\r\n=ALtq\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

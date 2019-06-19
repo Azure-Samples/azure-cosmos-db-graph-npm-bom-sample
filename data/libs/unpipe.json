@@ -1,0 +1,55 @@
+{
+  "name": "unpipe",
+  "description": "Unpipe a stream from all destinations",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "1.0.0"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2016-02-04T18:32:34.452Z",
+    "created": "2015-06-14T20:30:19.934Z",
+    "1.0.0": "2015-06-14T20:30:19.934Z"
+  },
+  "homepage": "https://github.com/stream-utils/unpipe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stream-utils/unpipe"
+  },
+  "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "bugs": {
+    "url": "https://github.com/stream-utils/unpipe/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "devDependencies": {
+    "istanbul": "0.3.15",
+    "mocha": "2.2.5",
+    "readable-stream": "1.1.13"
+  },
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "d2df901c06487430e78dca62b6edb8bb2fc5e99d",
+  "dist": {
+    "shasum": "b2bf4ee8514aae6165b4817829d21b2ef49904ec",
+    "tarball": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz"
+  },
+  "directories": {}
+}

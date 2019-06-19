@@ -1,0 +1,142 @@
+{
+  "name": "parse-filepath",
+  "description": "Pollyfill for node.js `path.parse`, parses a filepath into an object.",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.4.1",
+    "0.5.0",
+    "0.6.0",
+    "0.6.1",
+    "0.6.2",
+    "0.6.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "phated <blaine.bublitz@gmail.com>",
+    "doowb <brian.woodward@gmail.com>",
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2019-02-19T08:06:10.733Z",
+    "created": "2014-04-30T00:22:17.539Z",
+    "0.1.0": "2014-04-30T00:22:17.539Z",
+    "0.2.0": "2014-05-09T11:29:17.009Z",
+    "0.2.1": "2014-05-09T15:05:22.135Z",
+    "0.2.2": "2014-06-22T06:13:18.117Z",
+    "0.3.0": "2014-06-26T03:18:16.647Z",
+    "0.3.1": "2014-10-19T01:28:37.038Z",
+    "0.4.0": "2014-10-28T10:33:41.772Z",
+    "0.4.1": "2014-11-13T23:16:01.091Z",
+    "0.5.0": "2014-11-13T23:31:16.178Z",
+    "0.6.0": "2015-07-09T23:38:46.568Z",
+    "0.6.1": "2015-07-11T17:32:29.744Z",
+    "0.6.2": "2015-07-21T23:24:45.010Z",
+    "0.6.3": "2015-07-29T21:39:25.416Z",
+    "1.0.0": "2016-03-29T07:18:53.451Z",
+    "1.0.1": "2016-03-29T07:34:43.375Z",
+    "1.0.2": "2017-12-19T23:28:13.293Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/parse-filepath",
+  "keywords": [
+    "absolute",
+    "basename",
+    "dir",
+    "directory",
+    "dirname",
+    "ext",
+    "extension",
+    "extname",
+    "file",
+    "filename",
+    "filepath",
+    "is-absolute",
+    "name",
+    "object",
+    "parse",
+    "parser",
+    "parts",
+    "path",
+    "segment"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/parse-filepath.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/parse-filepath/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "jonschlinkert": true,
+    "piotrmroczek": true,
+    "marcrobinson": true,
+    "zuojiang": true,
+    "daizch": true
+  },
+  "license": "MIT",
+  "version": "1.0.2",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-absolute": "^1.0.0",
+    "map-cache": "^0.2.0",
+    "path-root": "^0.1.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  },
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "highlight": "global-prefix",
+      "list": [
+        "global-prefix",
+        "is-absolute",
+        "is-relative",
+        "relative"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "25e023748868f1da8c37eca2e91121b2c74cdec4",
+  "dist": {
+    "shasum": "a632127f53aaf3d15876f5872f3ffac763d6c891",
+    "tarball": "https://registry.npmjs.org/parse-filepath/-/parse-filepath-1.0.2.tgz"
+  },
+  "directories": {}
+}

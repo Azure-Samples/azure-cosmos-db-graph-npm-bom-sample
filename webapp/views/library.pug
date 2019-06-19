@@ -1,0 +1,99 @@
+extends layout
+block content
+
+  div.container-fluid
+    table(align="center", width="100%", border='0')
+      tr(style="vertical-align:top")
+        td
+          a(href='/')
+            img(src='../img/montage.png', height='80px')
+
+  div.container-fluid
+    table(align="center", width="100%", border='0')
+      tr
+        td(align="left", width="30%")
+        td(align="center")
+          h3 Library View
+        td(align="right", width="30%")
+          p
+
+  hr 
+
+  div.container-fluid
+    table(align="center", width="70%", border='0')
+      tr(style="vertical-align:top")
+        td(align="left", width="20%")
+          span Name:
+        td(align="left")
+          a(href='/lib/show_bom/' + name.replace("/", "|"))= name
+      tr(style="vertical-align:top")
+        td(align="left", width="20%")
+          span Description:
+        td(align="left")
+          span= desc
+      tr(style="vertical-align:top")
+        td(align="left", width="15%")
+          span Keywords:
+        td(align="left")
+          span= keywords.join(' ')
+      tr(style="vertical-align:top")
+        td(align="left", width="15%")
+          span Author:
+        td(align="left")
+          span= author
+      tr(style="vertical-align:top")
+        td(align="left", width="15%")
+          span NPM page:
+        td(align="left")
+          a(href='https://www.npmjs.com/package/' + name.replace("/", "|"))= name
+      tr(style="vertical-align:top")
+        td(align="left", width="15%")
+          span Homepage:
+        td(align="left")
+          a(href='' + homepage)= homepage
+      tr(style="vertical-align:top")
+        td(align="left", width="15%")
+          span User Count:
+        td(align="left")
+          span= user_count
+      tr(style="vertical-align:top")
+        td(align="left", width="15%")
+          span Versions:
+        td(align="left")
+          span= versions_info
+
+  hr
+
+  div.container-fluid
+    table(align="left", width="90%", border='0')
+      tr(style="vertical-align:top")
+        td(width="44%")
+          h4(align="center") Maintainers
+          table(align="center", width="90%", border='0')
+            each maintainer in maintainers
+              tr(style="vertical-align:top")
+                td(align="center")
+                  a(href='/maint/' + maintainer.split(' ')[0])= maintainer
+
+        td(width="5%")
+          p 
+        td(width="23%")
+          h4(align="center") Dependencies
+          table(align="center", width="90%", border='0')
+            each val, index in dependencies
+              tr(style="vertical-align:top")
+                td(align="center")
+                  a(href='/lib/' + index.replace("/", "|"))= index
+
+        td(width="5%")
+          p 
+        td(width="23%")
+          h4(align="center") Used-In
+          table(align="center", width="90%", border='0')
+            each lib in used_in
+              tr(style="vertical-align:top")
+                td(align="center")
+                  a(href='/lib/' + lib.replace("/", "|"))= lib
+
+  script(src='../js/library_view.js')
+  

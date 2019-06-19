@@ -1,0 +1,75 @@
+{
+  "name": "is-path-inside",
+  "description": "Check if a path is inside another path",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.0.1",
+    "2.0.0",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-15T16:33:23.337Z",
+    "created": "2014-06-20T22:19:18.874Z",
+    "0.1.0": "2014-06-20T22:19:18.874Z",
+    "1.0.0": "2014-08-14T09:47:01.189Z",
+    "1.0.1": "2017-11-30T10:34:52.892Z",
+    "2.0.0": "2018-03-22T15:30:24.655Z",
+    "2.1.0": "2019-04-15T16:33:19.419Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is-path-inside#readme",
+  "keywords": [
+    "path",
+    "inside",
+    "folder",
+    "directory",
+    "dir",
+    "file",
+    "resolve"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is-path-inside.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-path-inside/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "recursion_excursion": true,
+    "rocket0191": true
+  },
+  "version": "2.1.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "path-is-inside": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "2c712b73250b94cec65b8c815b687a0d115e5724",
+  "dist": {
+    "integrity": "sha512-wiyhTzfDWsvwAW53OBWF5zuvaOGlZ6PwYxAbPVDhpm+gM09xKQGjBq/8uYN12aDvMxnAnq3dxTyoSoRNmg5YFg==",
+    "shasum": "7c9810587d659a40d27bcdb4d5616eab059494b2",
+    "tarball": "https://registry.npmjs.org/is-path-inside/-/is-path-inside-2.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3088,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctLJPCRA9TVsSAnZWagAAaxEP/jnemeaO9y+4dl3vOLJs\nAAcUvq8FyKl3/FlmW9cJN2+C8860tLH7ESzRDlRS1AyKaMndOufSWuo5LNSR\n2ilqM8US2yzoQ0z5JuAMHHePBSHk9PH7pVp7b3pKSy2LGS+ZsoVKo+ZM8JJT\ntgBAFF6aVnwHKGzBI5uYvc1KvIx1AqR4tDT9NPai9KJwFrt0dQCxvK4ZADUy\nyxgumB5Lwu9kWQwDYMbLq8qMbj+sarKGU1pyTrRFSE9/gpxY027oWFeo/6Fr\nSm4Mnzl3JroatuobnZKjJ1EdTt9s8haHXZGmTVBhPK/hJraRgTS1qzPAlnPp\nc5T3dIICOGLQIQxdvtJ0mh6BqgJNwXPXPjBjJ1Z4ApD5EHRiKVVthV/RaenK\nQaSnCxEdlj00vnoTWyvRYMjv8tNWMJdTCBPHE4s7wm3bFdk4DssUHQ8x1IwL\nsAjRYSmFhPMjipVVOTM6ZMpmSC2eQp6hW6+eO5kTqvMMqzAKKLKvHCDLDlDf\nobxkXT+qfYKY9urTkne6/K14l46z0Z6IeWf7ApepYxG0P9L9lqgZFTiQS5m2\n8VN7cyfLVr0c/wHgSTQh4+z+Q7cSdvG8kC9t8Uj4u+mgZSC2TrfqQMNVjByv\nfpnkmzxcyYk7V1Fc+3B1Sei5vwfo395cB9jTLPtveSfc6RgiYz5nTdiAIqYH\ne9DZ\r\n=xHOY\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

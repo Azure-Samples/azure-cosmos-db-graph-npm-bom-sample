@@ -1,0 +1,124 @@
+{
+  "name": "sumchecker",
+  "description": "Checksum validator",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.3.1",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "malept <nodejs.npm.nospam@lazymalevolence.com>"
+  ],
+  "time": {
+    "modified": "2019-04-30T07:39:24.784Z",
+    "created": "2016-09-06T06:02:27.005Z",
+    "1.0.0": "2016-09-06T06:02:27.005Z",
+    "1.1.0": "2016-09-07T05:11:05.753Z",
+    "1.2.0": "2016-09-16T04:12:26.443Z",
+    "1.3.0": "2016-12-06T07:11:32.906Z",
+    "2.0.0": "2017-01-27T07:15:20.569Z",
+    "2.0.1": "2017-01-27T07:20:42.832Z",
+    "1.3.1": "2017-03-11T19:17:23.819Z",
+    "2.0.2": "2017-03-11T19:17:44.872Z",
+    "3.0.0": "2019-04-30T07:39:21.544Z"
+  },
+  "homepage": "https://github.com/malept/sumchecker#readme",
+  "keywords": [
+    "checksum",
+    "hash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malept/sumchecker.git"
+  },
+  "author": "Mark Lee",
+  "bugs": {
+    "url": "https://github.com/malept/sumchecker/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "users": {
+    "skriglitz": true
+  },
+  "version": "3.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "codecov": "^3.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-ava": "^6.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nyc": "^14.0.0",
+    "tsd": "^0.7.2"
+  },
+  "dependencies": {
+    "debug": "^4.1.0"
+  },
+  "scripts": {
+    "ava": "ava test/index.js",
+    "ci": "npm run lint && npm run coverage && npm run tsd",
+    "codecov": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage": "nyc ava test/index.js",
+    "lint": "eslint .",
+    "test": "npm run lint && npm run ava && npm run tsd",
+    "tsd": "tsd"
+  },
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:ava/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:node/recommended",
+      "plugin:promise/recommended",
+      "standard"
+    ],
+    "plugins": [
+      "ava"
+    ],
+    "rules": {
+      "node/no-unpublished-require": [
+        "error",
+        {
+          "allowModules": [
+            "ava"
+          ]
+        }
+      ],
+      "strict": [
+        "error"
+      ]
+    }
+  },
+  "gitHead": "6bd481fe8840b30ea267c3b39173d7f62796e256",
+  "dist": {
+    "integrity": "sha512-yreseuC/z4iaodVoq07XULEOO9p4jnQazO7mbrnDSvWAU/y2cbyIKs+gWJptfcGu9R+1l27K8Rkj0bfvqnBpgQ==",
+    "shasum": "da5457b4605184575c76540e5e99cc777cb8ce4c",
+    "tarball": "https://registry.npmjs.org/sumchecker/-/sumchecker-3.0.0.tgz",
+    "fileCount": 12,
+    "unpackedSize": 50562,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcx/uqCRA9TVsSAnZWagAA4OcP/3tGYLRLNz1u6k7P8Blv\nxiSaV/gxib2kMuhbZjao7EWvx3vLKkcuIo/UOXwymeKCDJ94tSACjdoJ615J\nxz69W/5syDJXooKmq8w+efX1DuHJ4HrqQVS5GZjlOrDv46K5MSVOqAld6WTU\n4+ShOS1Z/7LZRcOfpiUc4SGNQT76d+l4su1/LNSCuuXSV3vgtVgoW9lpgqhw\ny75roDrO0KkuhpiNvL9dVZOIKqawArek7E7aTCRbaZznUNar63wLTvs7n8OZ\n7wSZANFnSKCcxJejclHYHD5s46AjSvQo0kfiFLF7pGyuXeWLQQMqHvqVlj4Y\noBTP7a4khpv8D1f9zJChOTlNM6gObmgy4B2CD5I//8NDXbu70n0K7NWOyetX\nmmzyTk9vNFyAGYEUZcUjdLdO/VS3XxMYZeYLYJqhGw4bRcl/lA9ia8RgeC3n\nA4pRQOCnOASzDlsH6EZhtxs+46IZoCfUVmZ1aHbh2QCa5nZ7KKBhOUtBCVz+\nsI+fP2kqLffZl6Cz597vdYqygZZfYBkq/d0dcXDOG+u478aFeMZm0DoZzlBb\nAuN1K1WtO6NCBnkRAsPeIMkcdfYIHX8zg7zuGQPx3oJsR0fcsYlx1KiIZXF0\nSdGB5zbKBk4Jgnzcw01sNjyyNdBq56ZKhdb4SBYzlkUEwlHB13KI6tBJqfEk\nCNgX\r\n=JUTA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

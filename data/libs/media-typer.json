@@ -1,0 +1,78 @@
+{
+  "name": "media-typer",
+  "description": "Simple RFC 6838 media type parser and formatter",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2019-04-25T03:16:08.427Z",
+    "created": "2014-06-13T19:25:11.301Z",
+    "0.0.0": "2014-06-13T19:25:11.301Z",
+    "0.1.0": "2014-06-18T05:02:41.908Z",
+    "0.2.0": "2014-06-18T19:00:35.939Z",
+    "0.3.0": "2014-09-08T04:32:24.363Z",
+    "1.0.0": "2018-10-21T02:06:30.337Z",
+    "1.0.1": "2018-10-21T02:17:38.605Z",
+    "1.0.2": "2019-04-19T21:51:21.389Z",
+    "1.1.0": "2019-04-25T03:16:05.379Z"
+  },
+  "homepage": "https://github.com/jshttp/media-typer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/media-typer.git"
+  },
+  "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "bugs": {
+    "url": "https://github.com/jshttp/media-typer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "mojaray2k": true,
+    "shanewholloway": true
+  },
+  "version": "1.1.0",
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-markdown": "1.0.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "mocha": "6.1.4",
+    "nyc": "14.0.0"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --check-leaks --bail test/",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "test-travis": "nyc --reporter=text npm test"
+  },
+  "gitHead": "1332b73ed8584b7b25d556c55b6de9d64fa3ce2c",
+  "dist": {
+    "integrity": "sha512-aisnrDP4GNe06UcKFnV5bfMNPBUw4jsLGaWwWfnH3v02GnBuXX2MCVn5RbrWo0j3pczUilYblq7fQ7Nw2t5XKw==",
+    "shasum": "6ab74b8f2d3320f2064b2a87a38e7931ff3a5561",
+    "tarball": "https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9256,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcwSZ1CRA9TVsSAnZWagAAq2YP/iVhvTj/MN3o7Aq8zi5d\ncqBXtKn6MQPCQFT6MlyUSEyXZkR76fZJtpqJLuqMtaICoUcFbt2eAJDqLDY2\nFB0E/q9Fcz/3sz5Smi6q3TBeJhWiMn9VhxkE2WzLBXDl6o9LD0iWAsDgaVse\nSTKTP2wO0xxwUxJKNGWDr9KLCweldS0/5SNMUgGkk7nYfQRaBRiW9t3QI/SW\nYqEllnjxH1r4UZOGSGfX07W5oNhPmBzutKkky+VBQXo51U46qcRV3f6NAObA\nshoOzlCCreCkF3mZuLzG8gfwFULM5b6Xud3/m6Hr1JxH7kVjaa/w2BhUhj3N\nsbgHcBMPHxOqzv1TdA8LAv0J/+sF5brRTLZW8Tp5WKoPvJDp6nG46rmrPm1H\nL7xzDwXKUnL3bZ+KtrSwgXY0viF6uMQlejAjkpXVQki5pc1pOEpnnQ+nfF22\n4myltUfRq5TGBmqqAZV0+Q+vIHf3lMBi/PMVm1ZI1QspY50B08fAr1iH81bI\nCredpoZbf5Avd2eNZnDFQUbzXVh7FW3Q4+q5667AlAvb9b3rZ3wEFgSDW2bS\nnUm/VQFkvRXQl2gM0lQJWd8uOzRFInCH4S4TsPQezBBILBQtmH44qnw/Kqn2\nsDw6GU8MifAKlOfPTl7+WPlALvhmkjrZNK0HukXlowlhisxR1UMLJRGIaWDO\nzTFe\r\n=OUQb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

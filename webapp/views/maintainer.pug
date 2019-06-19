@@ -1,0 +1,56 @@
+extends layout
+block content
+
+  div.container-fluid
+    table(align="center", width="100%", border='0')
+      tr(style="vertical-align:top")
+        td
+          a(href='/')
+            img(src='../img/montage.png', height='80px')
+
+  div.container-fluid
+    table(align="center", width="100%", border='0')
+      tr
+        td(align="left", width="30%")
+        td(align="center")
+          h3 Maintainer View
+        td(align="right", width="30%")
+          p
+
+  hr 
+
+  div.container-fluid
+    table(align="center", width="30%", border='0')
+      tr
+        th
+          p(align="left") Attribute
+        th
+          p(align="right") Value
+      tr
+        td(align="left", width="30%")
+          p Id:
+        td(align="right")
+          p= pk
+      tr
+        td(align="left", width="30%")
+          p Email:
+        td(align="right")
+          p= email
+      tr
+        td(align="left", width="30%")
+          p NPM Page:
+        td(align="right")
+          a(href='https://www.npmjs.com/~' + pk)= pk
+
+  hr
+
+  div.container-fluid
+    h4(align="center") Maintained Libraries
+    table(align="center", width="30%", border='0')
+      each lib in libs
+        tr
+          td(align="center")
+            a(href='/lib/' + lib.replace("/", "|"))= lib
+
+  script(src='../js/maintainer_view.js')
+  

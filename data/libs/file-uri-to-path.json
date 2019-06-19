@@ -1,0 +1,60 @@
+{
+  "name": "file-uri-to-path",
+  "description": "Convert a file: URI to a file path",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "tootallnate <nathan@tootallnate.net>"
+  ],
+  "time": {
+    "modified": "2017-07-06T21:51:51.414Z",
+    "created": "2014-01-27T08:05:51.258Z",
+    "0.0.1": "2014-01-27T08:05:51.258Z",
+    "0.0.2": "2014-01-27T08:13:31.848Z",
+    "1.0.0": "2017-07-06T21:51:51.414Z"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "vonthar": true
+  },
+  "homepage": "https://github.com/TooTallNate/file-uri-to-path",
+  "keywords": [
+    "file",
+    "uri",
+    "convert",
+    "path"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TooTallNate/file-uri-to-path.git"
+  },
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "bugs": {
+    "url": "https://github.com/TooTallNate/file-uri-to-path/issues"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "3"
+  },
+  "gitHead": "db012b4db2c9da9f6eeb5202b4a493450482e0e4",
+  "dist": {
+    "integrity": "sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==",
+    "shasum": "553a7b8446ff6f684359c445f1e37a05dacc33dd",
+    "tarball": "https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz"
+  }
+}

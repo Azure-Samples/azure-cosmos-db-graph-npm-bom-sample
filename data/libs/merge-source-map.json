@@ -1,0 +1,75 @@
+{
+  "name": "merge-source-map",
+  "description": "Merge old source map and new source map in multi-transform flow",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "keik <k4t0.kei@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-25T00:37:22.877Z",
+    "created": "2016-03-08T10:20:32.323Z",
+    "1.0.0": "2016-03-08T10:20:32.323Z",
+    "1.0.1": "2016-03-08T15:54:51.259Z",
+    "1.0.2": "2016-06-23T13:37:40.163Z",
+    "1.0.3": "2016-09-23T02:18:05.746Z",
+    "1.0.4": "2017-06-19T14:20:10.547Z",
+    "1.1.0": "2017-12-25T00:37:22.877Z"
+  },
+  "author": "keik <k4t0.kei@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "sourcemap",
+    "source-map"
+  ],
+  "homepage": "https://github.com/keik/merge-source-map#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keik/merge-source-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keik/merge-source-map/issues"
+  },
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test/*.js",
+    "lint": "eslint index.js 'test/**/*.js'",
+    "version": "npm run lint && npm run test"
+  },
+  "dependencies": {
+    "source-map": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "coffee-script": "^1.12.6",
+    "convert-source-map": "^1.5.0",
+    "escodegen": "^1.8.1",
+    "eslint": "^3.19.0",
+    "esprima": "^3.1.3",
+    "estraverse": "^4.2.0",
+    "nyc": "^8.4.0",
+    "tape": "^4.6.3"
+  },
+  "files": [],
+  "gitHead": "987790721c7e3a36175f39de32bf060987200cc4",
+  "dist": {
+    "integrity": "sha512-Qkcp7P2ygktpMPh2mCQZaf3jhN6D3Z/qVZHSdWvQ+2Ef5HgRAPBO57A77+ENm0CPx2+1Ce/MYKi3ymqdfuqibw==",
+    "shasum": "2fdde7e6020939f70906a68f2d7ae685e4c8c646",
+    "tarball": "https://registry.npmjs.org/merge-source-map/-/merge-source-map-1.1.0.tgz"
+  },
+  "directories": {}
+}

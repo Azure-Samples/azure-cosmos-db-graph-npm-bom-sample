@@ -1,0 +1,68 @@
+{
+  "name": "semaphore",
+  "description": "semaphore for node",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.1.0"
+  ],
+  "maintainers": [
+    "addaleax <anna@addaleax.net>",
+    "abrkn <a@abrkn.com>"
+  ],
+  "time": {
+    "modified": "2018-01-31T10:24:28.180Z",
+    "created": "2012-05-25T08:24:18.558Z",
+    "1.0.0": "2012-05-25T08:24:21.263Z",
+    "1.0.1": "2012-11-05T12:43:20.133Z",
+    "1.0.2": "2015-04-01T07:58:29.412Z",
+    "1.0.3": "2015-06-11T02:29:38.204Z",
+    "1.0.4": "2016-02-18T20:03:23.362Z",
+    "1.0.5": "2016-02-27T21:29:41.335Z",
+    "1.1.0": "2017-08-08T16:22:24.146Z"
+  },
+  "users": {
+    "fgribreau": true,
+    "barwin": true,
+    "ysden123": true,
+    "swizard": true,
+    "lexon": true,
+    "haroun": true
+  },
+  "homepage": "https://github.com/abrkn/semaphore.js",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abrkn/semaphore.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abrkn/semaphore.js/issues"
+  },
+  "version": "1.1.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "./lib/semaphore.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.x.x",
+    "should": "8.x.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "gitHead": "88a33875b168cc7b5943d7fe987c36d08321d252",
+  "dist": {
+    "integrity": "sha512-O4OZEaNtkMd/K0i6js9SL+gqy0ZCBMgUvlSqHKi4IBdjhe7wB8pwztUk1BbZ1fmrvpwFrPbHzqd2w5pTcJH6LA==",
+    "shasum": "aaad8b86b20fe8e9b32b16dc2ee682a8cd26a8aa",
+    "tarball": "https://registry.npmjs.org/semaphore/-/semaphore-1.1.0.tgz"
+  },
+  "directories": {}
+}

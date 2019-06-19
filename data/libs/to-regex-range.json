@@ -1,0 +1,152 @@
+{
+  "name": "to-regex-range",
+  "description": "Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+  "dist-tags": {
+    "latest": "5.0.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "3.0.0",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "5.0.0",
+    "5.0.1"
+  ],
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2019-04-07T06:04:39.581Z",
+    "created": "2015-08-07T10:48:06.053Z",
+    "0.1.0": "2015-08-07T10:48:06.053Z",
+    "0.1.1": "2015-08-07T13:00:07.697Z",
+    "0.1.2": "2016-04-27T07:11:41.093Z",
+    "0.1.3": "2016-09-14T13:46:55.235Z",
+    "0.2.0": "2016-09-14T17:26:36.135Z",
+    "1.0.0": "2016-10-19T14:12:45.685Z",
+    "1.0.1": "2016-10-19T14:17:15.634Z",
+    "1.0.2": "2016-10-19T14:18:52.341Z",
+    "2.0.0": "2017-04-22T07:14:51.512Z",
+    "2.1.0": "2017-04-23T01:54:20.425Z",
+    "2.1.1": "2017-04-27T13:34:30.544Z",
+    "3.0.0": "2017-11-01T05:25:43.109Z",
+    "4.0.0": "2018-07-04T15:01:21.509Z",
+    "4.0.1": "2018-07-04T15:09:50.948Z",
+    "4.0.2": "2018-07-25T16:36:25.376Z",
+    "4.0.3": "2019-01-17T20:53:36.504Z",
+    "5.0.0": "2019-04-07T06:01:57.735Z",
+    "5.0.1": "2019-04-07T06:04:37.030Z"
+  },
+  "homepage": "https://github.com/micromatch/to-regex-range",
+  "keywords": [
+    "bash",
+    "date",
+    "expand",
+    "expansion",
+    "expression",
+    "glob",
+    "match",
+    "match date",
+    "match number",
+    "match numbers",
+    "match year",
+    "matches",
+    "matching",
+    "number",
+    "numbers",
+    "numerical",
+    "range",
+    "ranges",
+    "regex",
+    "regexp",
+    "regular",
+    "regular expression",
+    "sequence"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micromatch/to-regex-range.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/micromatch/to-regex-range/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "jonschlinkert": true,
+    "borax": true
+  },
+  "contributors": [
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Rouven Weßling (www.rouvenwessling.de)"
+  ],
+  "version": "5.0.1",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-number": "^7.0.0"
+  },
+  "devDependencies": {
+    "fill-range": "^6.0.0",
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^6.0.2",
+    "text-table": "^0.2.0",
+    "time-diff": "^0.3.1"
+  },
+  "verb": {
+    "layout": "default",
+    "toc": false,
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "helpers": {
+      "examples": {
+        "displayName": "examples"
+      }
+    },
+    "related": {
+      "list": [
+        "expand-range",
+        "fill-range",
+        "micromatch",
+        "repeat-element",
+        "repeat-string"
+      ]
+    }
+  },
+  "gitHead": "c05ef9ec07e7703d146467934098ecbde9d0bd95",
+  "dist": {
+    "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==",
+    "shasum": "1648c44aae7c8d988a326018ed72f5b4dd0392e4",
+    "tarball": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 22939,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqZL1CRA9TVsSAnZWagAAJuAP+wfZA2jBqNp9atPJlpCY\nu6if9owyyJmytCo1FdveRaWBnzTIVQNnQFtUiBBcn4yO85OIY4QYi+A7h61y\nJ5mJiWhE8Fd/2iHq3y7DUoKvC+JMhj7Yx1Ua5FGKymiL8YM2JkA/ZLssc3sh\nMTcnyOcj0t+FRoc/qDVFUIuAF97KEiOpCPlLfbVkBqfD/6OwcqM1630Q/Am2\n+MPl+X/WYwFUPe8DvHUM4tUs0e8PxAhtm3uWpkk9HYPTYFiznb4CLlmk0ag+\nG1i6W7YrDhWxhFlwRfHYrKzlxkNtktpg7/JqaDysJ8vhlgp+KOig4ypKMf8a\nUfXCiSsSzqGJW3ZlKYWJg/zW7eTvs9/CjqhZylEPILJyp7aTZoZ/mP1RrZWT\nHzmGIs3H+vE0nGp7kPQYNXcSSLk/wA/fWSaSSro9TgkuNB8y/uc8lBTnsLls\nzPvRmd5T2HHItfpZtiBrjLBc1KNB37mNJoQQGAjxhoDiRLvjAlSQdH/g9vvM\npgUUELBWk5IQEggivPmg2IGVb/wE+/KqJsieVFMcIVZ9K09nYZWmbio5eYPZ\n+qVo2yagj/LLHZFpRvE/KLt8OfB1zfOGPAFUFtxtJDgVvzvMPp6JsVyVKgiW\nZ/J0ykRkeCTHTSqNtuumael9bmgkZmiWnUtUidxbeMsYR4PUKYWbnW5LQJU+\nnaxh\r\n=ZLF2\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

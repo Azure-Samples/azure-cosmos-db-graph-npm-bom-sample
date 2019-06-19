@@ -1,0 +1,87 @@
+{
+  "name": "env-paths",
+  "description": "Get paths for storing things like data, config, cache, etc",
+  "dist-tags": {
+    "latest": "2.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "1.0.0",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-01T09:01:53.994Z",
+    "created": "2016-06-21T21:34:01.070Z",
+    "0.1.0": "2016-06-21T21:34:01.070Z",
+    "0.2.0": "2016-06-24T10:40:04.936Z",
+    "0.3.0": "2016-07-02T19:49:16.706Z",
+    "0.3.1": "2016-10-18T04:03:30.370Z",
+    "1.0.0": "2017-01-10T03:58:46.365Z",
+    "2.0.0": "2018-11-05T05:04:24.814Z",
+    "2.1.0": "2019-03-04T16:28:09.051Z",
+    "2.2.0": "2019-04-01T09:01:49.706Z"
+  },
+  "homepage": "https://github.com/sindresorhus/env-paths#readme",
+  "keywords": [
+    "common",
+    "user",
+    "paths",
+    "env",
+    "environment",
+    "directory",
+    "dir",
+    "appdir",
+    "path",
+    "data",
+    "config",
+    "cache",
+    "logs",
+    "temp",
+    "linux",
+    "unix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/env-paths.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/env-paths/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true,
+    "davidbwaters": true
+  },
+  "version": "2.2.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "d771ce6574cd7e4c449c40fd1cf0078f8b9d07a9",
+  "dist": {
+    "integrity": "sha512-6u0VYSCo/OW6IoD5WCLLy9JUGARbamfSavcNXry/eu8aHVFei6CD3Sw+VGX5alea1i9pgPHW0mbu6Xj0uBh7gA==",
+    "shasum": "cdca557dc009152917d6166e2febe1f039685e43",
+    "tarball": "https://registry.npmjs.org/env-paths/-/env-paths-2.2.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6607,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcodN+CRA9TVsSAnZWagAA4M8QAI1qz93V/vqAyaj+oQ1x\nJmgWDk1eGx7NpMlECCQ+SdEOWQoFhcAOr+AUTHgqRRuC7AdAGiVD0n/c5rMn\nzp/A5/hqSpn+ytneTlYSZnPdy0MmQQsqVjBm8HkgDkxVk35vQPKZ1hCIJqJz\nnu7RuftdbqtFnDCeIFlqMmw2OA0HFpXHjJOQ6WsAcyqUnkt6tmx4pb35bT+O\nO6wGWKB8MY7VegGlUmeWgJKsOfcdQXwgQG7LhdW2BwJWFXwEjNT2o/xBOpPG\nnKQOThu+q+L/uMmZvy3DvispB05repiKwrukAmmqMRNyTvVd3X7zV5ayy+N9\n8Nsb+cJi+s5hiKFa/YbG66mZwNUof2xHjf0v/JueA37so0Bq0N6vxolIPTbY\nGetxnWWjSYPP3hN7WZNPQC12Nmy9zwtQk7hYzZe35uNEp5/qyeLPg+lob0eE\ntWkKMpfVq9uYxO4kkj1n0UsZKeSEsauqB/HQmGmJVA/wKiUIEVN2OByvsVuB\n8DMO7TqsFq5nWR+6rQjiXVSWWqfFOOKGvkvwHC4efEfib35tbf4tsOlqtfTa\nO76R1KIQdd43R5XYbES2F1LRpSF3pyp1rwhz0qOXaT0slGwtAdeDnB/t7Bvv\nW6FmcS0VcaVgvKWiYwwvAAeut2An43keDkUOQ3gwn1MS+ONVDd96hA8C1LFt\nhbha\r\n=gvEA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

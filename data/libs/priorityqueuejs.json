@@ -1,0 +1,63 @@
+{
+  "name": "priorityqueuejs",
+  "description": "a simple priority queue data structure",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.1.0",
+    "0.2.0",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "janogonzalez <info@janogonzalez.com>"
+  ],
+  "time": {
+    "modified": "2015-02-23T17:22:03.717Z",
+    "created": "2013-03-02T00:55:31.294Z",
+    "0.0.1": "2013-03-02T00:55:33.194Z",
+    "0.0.2": "2013-03-02T18:47:29.866Z",
+    "0.1.0": "2013-03-04T00:17:17.328Z",
+    "0.2.0": "2014-02-06T12:02:38.749Z",
+    "1.0.0": "2015-02-23T17:22:03.717Z"
+  },
+  "author": "Jano González <info@janogonzalez.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janogonzalez/priorityqueuejs.git"
+  },
+  "readmeFilename": "Readme.md",
+  "users": {
+    "learnshiva": true
+  },
+  "homepage": "https://github.com/janogonzalez/priorityqueuejs",
+  "keywords": [
+    "heap",
+    "priority",
+    "queue",
+    "priority queue",
+    "data structure"
+  ],
+  "bugs": {
+    "url": "https://github.com/janogonzalez/priorityqueuejs/issues"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "gitHead": "9a4c0483444248e2a41b64b8a528e1371bf7299d",
+  "dist": {
+    "shasum": "2ee4f23c2560913e08c07ce5ccdd6de3df2c5af8",
+    "tarball": "https://registry.npmjs.org/priorityqueuejs/-/priorityqueuejs-1.0.0.tgz"
+  },
+  "directories": {}
+}

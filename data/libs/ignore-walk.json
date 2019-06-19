@@ -1,0 +1,89 @@
+{
+  "name": "ignore-walk",
+  "description": "Nested/recursive `.gitignore`/`.npmignore` parsing and filtering.",
+  "dist-tags": {
+    "latest": "3.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "3.0.0",
+    "3.0.1"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2017-10-20T18:19:18.727Z",
+    "created": "2017-05-22T07:05:37.126Z",
+    "1.0.0": "2017-05-22T07:05:37.126Z",
+    "1.0.1": "2017-05-22T07:07:58.102Z",
+    "1.0.2": "2017-05-22T16:42:56.183Z",
+    "1.1.0": "2017-05-26T04:21:59.744Z",
+    "2.0.0": "2017-05-26T05:59:46.956Z",
+    "2.0.1": "2017-05-27T03:43:32.929Z",
+    "2.0.2": "2017-05-27T05:13:32.548Z",
+    "2.0.3": "2017-06-02T01:50:02.186Z",
+    "2.0.4": "2017-06-02T01:55:59.532Z",
+    "2.0.5": "2017-06-02T02:01:47.154Z",
+    "3.0.0": "2017-06-02T18:23:44.953Z",
+    "3.0.1": "2017-10-20T18:19:18.727Z"
+  },
+  "homepage": "https://github.com/isaacs/ignore-walk#readme",
+  "keywords": [
+    "ignorefile",
+    "ignore",
+    "file",
+    ".gitignore",
+    ".npmignore",
+    "glob"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/ignore-walk.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/isaacs/ignore-walk/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "jimthematrix": true
+  },
+  "version": "3.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "mutate-fs": "^1.1.0",
+    "rimraf": "^2.6.1",
+    "tap": "^10.7.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js --100",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "minimatch": "^3.0.4"
+  },
+  "gitHead": "2b610fce2c19a5555d4bd74859950d086938c70e",
+  "dist": {
+    "integrity": "sha512-DTVlMx3IYPe0/JJcYP7Gxg7ttZZu3IInhuEhbchuqneY9wWe5Ojy2mXLBaQFUQmo0AW2r3qG7m1mg86js+gnlQ==",
+    "shasum": "a83e62e7d272ac0e3b551aaa82831a19b69f82f8",
+    "tarball": "https://registry.npmjs.org/ignore-walk/-/ignore-walk-3.0.1.tgz"
+  },
+  "directories": {}
+}

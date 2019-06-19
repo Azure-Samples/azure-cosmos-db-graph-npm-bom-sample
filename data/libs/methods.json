@@ -1,0 +1,97 @@
+{
+  "name": "methods",
+  "description": "HTTP methods that node supports",
+  "dist-tags": {
+    "latest": "1.1.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>",
+    "jonathanong <jonathanrichardong@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "dougwilson <doug@somethingdoug.com>"
+  ],
+  "time": {
+    "modified": "2018-01-19T08:49:26.551Z",
+    "created": "2012-06-26T18:34:52.941Z",
+    "0.0.1": "2012-06-26T18:35:02.616Z",
+    "0.1.0": "2013-10-28T19:02:02.097Z",
+    "1.0.0": "2014-05-08T19:17:32.955Z",
+    "1.0.1": "2014-06-02T14:26:09.655Z",
+    "1.1.0": "2014-07-06T02:45:33.027Z",
+    "1.1.1": "2014-12-30T23:51:21.181Z",
+    "1.1.2": "2016-01-18T02:53:56.364Z"
+  },
+  "users": {
+    "m42am": true,
+    "zhangyaochun": true,
+    "simplyianm": true,
+    "moimikey": true,
+    "junjiansyu": true,
+    "nketchum": true,
+    "pgilad": true,
+    "nickeltobias": true,
+    "tobiasnickel": true,
+    "monjer": true,
+    "wangnan0610": true,
+    "yangjiyuan": true,
+    "mojaray2k": true,
+    "daizch": true,
+    "leonzhao": true,
+    "semir2": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jshttp/methods"
+  },
+  "homepage": "https://github.com/jshttp/methods",
+  "keywords": [
+    "http",
+    "methods"
+  ],
+  "bugs": {
+    "url": "https://github.com/jshttp/methods/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)"
+  ],
+  "version": "1.1.2",
+  "devDependencies": {
+    "istanbul": "0.4.1",
+    "mocha": "1.21.5"
+  },
+  "files": [
+    "index.js",
+    "HISTORY.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "browser": {
+    "http": false
+  },
+  "gitHead": "25d257d913f1b94bd2d73581521ff72c81469140",
+  "dist": {
+    "shasum": "5529a4d67654134edcc5266656835b0f851afcee",
+    "tarball": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz"
+  },
+  "directories": {}
+}

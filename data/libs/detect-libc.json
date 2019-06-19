@@ -1,0 +1,86 @@
+{
+  "name": "detect-libc",
+  "description": "Node.js module to detect the C standard library (libc) implementation family and version",
+  "dist-tags": {
+    "latest": "1.0.3"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.1.0",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "maintainers": [
+    "lovell <npm@lovell.info>"
+  ],
+  "time": {
+    "modified": "2017-11-22T19:07:36.743Z",
+    "created": "2017-07-03T20:58:20.378Z",
+    "0.0.1": "2017-07-03T20:58:20.378Z",
+    "0.0.2": "2017-07-03T21:43:09.271Z",
+    "0.0.3": "2017-07-05T16:14:37.064Z",
+    "0.0.4": "2017-07-05T18:45:49.805Z",
+    "0.0.5": "2017-07-05T18:53:14.471Z",
+    "0.0.6": "2017-07-11T20:14:11.487Z",
+    "0.0.7": "2017-07-12T09:13:25.991Z",
+    "0.0.8": "2017-07-12T12:27:18.327Z",
+    "0.1.0": "2017-07-12T12:48:18.673Z",
+    "0.2.0": "2017-07-13T10:39:20.732Z",
+    "1.0.0": "2017-10-27T19:14:37.414Z",
+    "1.0.1": "2017-10-28T08:31:32.893Z",
+    "1.0.2": "2017-10-29T09:28:17.271Z",
+    "1.0.3": "2017-11-22T19:07:36.743Z"
+  },
+  "homepage": "https://github.com/lovell/detect-libc#readme",
+  "keywords": [
+    "libc",
+    "glibc",
+    "musl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovell/detect-libc.git"
+  },
+  "author": "Lovell Fuller <npm@lovell.info>",
+  "bugs": {
+    "url": "https://github.com/lovell/detect-libc/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Niklas Salmoukas <niklas@salmoukas.com>"
+  ],
+  "version": "1.0.3",
+  "main": "lib/detect-libc.js",
+  "bin": {
+    "detect-libc": "./bin/detect-libc.js"
+  },
+  "scripts": {
+    "test": "semistandard && nyc --reporter=lcov ava"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "nyc": "^11.3.0",
+    "proxyquire": "^1.8.0",
+    "semistandard": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "gitHead": "88df1a5950bf3cd9bffa1e0137ab6471c4546118",
+  "dist": {
+    "shasum": "fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b",
+    "tarball": "https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz"
+  },
+  "directories": {}
+}

@@ -1,0 +1,74 @@
+{
+  "name": "ansi-align",
+  "description": "align-text with ANSI support for CLIs",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "maintainers": [
+    "nexdrew <andrewbgoode@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T04:41:05.033Z",
+    "created": "2016-04-30T17:43:23.016Z",
+    "1.0.0": "2016-04-30T17:43:23.016Z",
+    "1.1.0": "2016-06-06T20:14:39.942Z",
+    "2.0.0": "2017-05-01T21:14:57.101Z",
+    "3.0.0": "2018-12-17T15:54:43.480Z"
+  },
+  "homepage": "https://github.com/nexdrew/ansi-align#readme",
+  "keywords": [
+    "ansi",
+    "align",
+    "cli",
+    "center",
+    "pad"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/ansi-align.git"
+  },
+  "author": "nexdrew",
+  "bugs": {
+    "url": "https://github.com/nexdrew/ansi-align/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "keenwon": true
+  },
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "string-width": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "chalk": "^2.4.1",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.1.0",
+    "standard": "^12.0.1",
+    "standard-version": "^4.4.0"
+  },
+  "gitHead": "7ed8748da479f9030d8036240638d5f8a56200a7",
+  "dist": {
+    "integrity": "sha512-ZpClVKqXN3RGBmKibdfWzqCY4lnjEuoNzU5T0oEFpfd/z5qJHVarukridD4juLO2FXMiwUQxr9WqQtaYa8XRYw==",
+    "shasum": "b536b371cf687caaef236c18d3e21fe3797467cb",
+    "tarball": "https://registry.npmjs.org/ansi-align/-/ansi-align-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 7371,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcF8bECRA9TVsSAnZWagAActcP/04DbqH5Fii8UkBGb/I/\nCrrW4cJtxgCB/W9xhuJ5gBbjCmat89HKBFUFGdE0WJchaWyLzAZW2LPr92Hu\n3TmYmS/4YmVPyYJBHVrv8qD2Un7YQKgd3jKie8degZJg3TxJ6ANfzgLq209X\nZSymATofjz5KgyJRlFuUfCZW1E9PrHZlF/xwNqV+JYto9xHUXgphMvns3+0Z\nzFWH1ciEpkZVsBNH9WpSsJq1u6nH8Og0spTQbpB1v00DLGl09JvyhwSVi+nY\n7SE3drDy3HhQ3JNny+ORUAeeIer115UEumFgLE9sG3U62e8nfq/c2Yc7DJe2\nQhFuHdbQH12kzAPCHsQ9t9a+/TBR84Np9K7MmECsQnBYCOpKCubLoHXQfnnk\nNZcOOeRkahwLyM/BEv8YVx9n3Iy5PaJt33i8xdyx8sKi+Z8DqrjSypr7dQaP\nfGu4V+g4VQndomjIYSlKPHXu2oJXMCwziciAI5H7VgbYJWHYLcL1HzQDKoz/\nxmjyb6QXgSO7c/7zggTCx/bLBDMqPpLPpg+mBzhQokIoaVpU2I2bvU2+Mtyb\nJOTo0NsgO0ri3CyT4gyDE0PXIVv4Ad45vq1fh9rfqwZa9p+GFSOUy/ww/WfA\ngiDv/HfSCG+vXIQDFLodiXMoXLui40jO16sVZzqGN4br1Zo4gHE0gLStanxD\ndk8a\r\n=AMOR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

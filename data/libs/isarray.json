@@ -1,0 +1,95 @@
+{
+  "name": "isarray",
+  "description": "Array#isArray for older browsers",
+  "dist-tags": {
+    "latest": "2.0.4"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4"
+  ],
+  "maintainers": [
+    "juliangruber <julian@juliangruber.com>"
+  ],
+  "time": {
+    "modified": "2018-02-10T07:41:00.981Z",
+    "created": "2013-05-22T19:10:00.756Z",
+    "0.0.0": "2013-05-22T19:10:04.137Z",
+    "0.0.1": "2013-05-27T17:40:35.695Z",
+    "1.0.0": "2015-12-10T10:05:07.067Z",
+    "2.0.0": "2016-09-24T16:47:53.485Z",
+    "2.0.1": "2016-09-28T16:27:20.434Z",
+    "2.0.2": "2017-07-12T08:52:36.536Z",
+    "2.0.3": "2018-02-09T09:53:04.544Z",
+    "2.0.4": "2018-02-10T07:40:59.507Z"
+  },
+  "author": "Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/isarray.git"
+  },
+  "users": {
+    "tunnckocore": true,
+    "billfeller": true,
+    "simplyianm": true,
+    "nickeltobias": true,
+    "monjer": true,
+    "tobiasnickel": true,
+    "joshfm821": true,
+    "mojaray2k": true
+  },
+  "homepage": "https://github.com/juliangruber/isarray",
+  "keywords": [
+    "browser",
+    "isarray",
+    "array"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/juliangruber/isarray/issues"
+  },
+  "version": "2.0.4",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.4"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "gitHead": "4a2ac854d773a8016654489dd3ce9f00ad32217d",
+  "dist": {
+    "integrity": "sha512-GMxXOiUirWg1xTKRipM0Ek07rX+ubx4nNVElTJdNLYmNO/2YrDkgJGw9CljXn+r4EWiDQg/8lsRdHyg2PJuUaA==",
+    "shasum": "38e7bcbb0f3ba1b7933c86ba1894ddfc3781bbb7",
+    "tarball": "https://registry.npmjs.org/isarray/-/isarray-2.0.4.tgz",
+    "fileCount": 3,
+    "unpackedSize": 3443
+  },
+  "directories": {}
+}

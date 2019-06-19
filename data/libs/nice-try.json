@@ -1,0 +1,70 @@
+{
+  "name": "nice-try",
+  "description": "Tries to execute a function and discards any error that occurs",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "electerious <tobias@electerious.com>"
+  ],
+  "time": {
+    "modified": "2019-01-04T22:15:59.050Z",
+    "created": "2016-07-30T15:03:26.611Z",
+    "1.0.0": "2016-07-30T15:03:26.611Z",
+    "1.0.1": "2016-08-05T20:32:14.000Z",
+    "1.0.2": "2016-08-05T20:33:06.707Z",
+    "1.0.3": "2017-06-10T19:57:46.715Z",
+    "1.0.4": "2017-08-08T19:34:36.228Z",
+    "1.0.5": "2018-08-25T19:03:09.537Z",
+    "2.0.0": "2018-10-28T15:23:25.854Z"
+  },
+  "homepage": "https://github.com/electerious/nice-try",
+  "keywords": [
+    "try",
+    "catch",
+    "error"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electerious/nice-try.git"
+  },
+  "bugs": {
+    "url": "https://github.com/electerious/nice-try/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.0",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc node_modules/mocha/bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "nyc": "^12.0.1",
+    "mocha": "^5.1.1"
+  },
+  "gitHead": "3f015226c11668df52c2c2d4799fbb684b739e52",
+  "dist": {
+    "integrity": "sha512-/o4KoXbUkEjD2NDwvBCkSzEDOfMuHPmbzSD5Pp2Bb5U/69MnEvpc4YfW2Y1BJqJpcaam04+fR0kF8n5xm8b6MQ==",
+    "shasum": "0ccb36ce82be13528f0217334adcf870c8eb3356",
+    "tarball": "https://registry.npmjs.org/nice-try/-/nice-try-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3845,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1dRuCRA9TVsSAnZWagAAJ9IP/06VtALBKUcG/fRdUT0X\nUnGpvzY/SXD/V0JFtdNYLBAVxwDMIfNKCEjHJ0dWuG++UnRThq4ZJnufYaLe\nJw3+IWX1wCs0h3h3llmAQTwuB241T7NnufLmSJumcgNIJChAYeAtXpxfB1aG\njahRNQ4Rx/6JijP4frtylkujVYMSU7gqluLK1ompZovict8koJ+xPfqJwP4b\nm9SwMlmNiIgKPHAZTL2AQ3zKXrtdX7o5ytahcWH3+g7gtaDPX+yYH/DQXSCe\nJTH7Ro+UJ1RyRwVoQVF//i7kBTPJyp2krfdkZSF+Q2HUcn+R2cy7y6qRtm4v\nGScSOEWB5fapgHblTtyVSBZx2DmvfBCEatdFLzyl0PCb0vskzkU3Z+UW9cjO\nekEUW1ipQjHVLnO0v5UD71VKK0Uu6ze20i+bKlW/qn50N6LsytNMgGVQUE6N\nKJClZozGOk+kW8UYeOYRlzKozxmBM3o/j1pDCJIB5s/yMyjU5YTp54i1hP2+\nLw7uKAwTq6cHNSZuocZF++7zbcgrV6l202C+7PobJMVvPq0UDcyih59O/PyZ\npUhjVhXq64x459V6/IeQ7gL5G+gXOO6FFF/UMjgLXiC+XwQpFs16NvT7JwhW\nd7j381LnmDuojlJ78zBhxj5jM9+erl+kScQTX+ZB8V3vSvp19hNbvO3u+bFM\nqyqV\r\n=DD28\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

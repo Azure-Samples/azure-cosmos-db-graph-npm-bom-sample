@@ -1,0 +1,136 @@
+{
+  "name": "acorn-node",
+  "description": "the acorn javascript parser, preloaded with plugins for syntax parity with recent node versions",
+  "dist-tags": {
+    "latest": "1.7.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "1.5.2",
+    "1.6.0",
+    "1.6.1",
+    "1.6.2",
+    "1.7.0"
+  ],
+  "maintainers": [
+    "ahdinosaur <michael.williams@enspiral.com>",
+    "anandthakker <vestibule@anandthakker.net>",
+    "ashaffer88 <darawk@gmail.com>",
+    "balupton <b@lupton.cc>",
+    "bpostlethwaite <post.ben.here@gmail.com>",
+    "bret <bcomnes@gmail.com>",
+    "cwmma <calvin.metcalf@gmail.com>",
+    "defunctzombie <shtylman@gmail.com>",
+    "dominictarr <dominic.tarr@gmail.com>",
+    "elnounch <contact@elnounch.net>",
+    "emilbayes <github@tixz.dk>",
+    "feross <feross@feross.org>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "fpereira1 <pereira.filype@gmail.com>",
+    "garann <garann@gmail.com>",
+    "gkatsev <me@gkatsev.com>",
+    "goto-bus-stop <renee@kooi.me>",
+    "hughsk <hughskennedy@gmail.com>",
+    "indutny <fedor@indutny.com>",
+    "jmm <npm-public@jessemccarthy.net>",
+    "jprichardson <jprichardson@gmail.com>",
+    "jryans <jryans@gmail.com>",
+    "leichtgewicht <martin.heidegger@gmail.com>",
+    "lukechilds <lukechilds123@gmail.com>",
+    "mafintosh <mathiasbuus@gmail.com>",
+    "mattdesl <dave.des@gmail.com>",
+    "maxogden <max@maxogden.com>",
+    "mellowmelon <palmermebane@gmail.com>",
+    "parshap <parshap+npm@gmail.com>",
+    "pkrumins <peteris.krumins@gmail.com>",
+    "sethvincent <sethvincent@gmail.com>",
+    "stevemao <maochenyan@gmail.com>",
+    "substack <substack@gmail.com>",
+    "tehshrike <me@JoshDuff.com>",
+    "terinjokes <terinjokes@gmail.com>",
+    "thlorenz <thlorenz@gmx.de>",
+    "ungoldman <ungoldman@gmail.com>",
+    "yerkopalma <yerko.palma@usach.cl>",
+    "yoshuawuyts <yoshuawuyts@gmail.com>",
+    "zertosh <zertosh@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-24T09:14:04.017Z",
+    "created": "2018-01-20T18:09:20.994Z",
+    "1.0.0": "2018-01-20T18:09:20.994Z",
+    "1.1.0": "2018-01-21T10:09:15.505Z",
+    "1.2.0": "2018-01-26T15:17:40.405Z",
+    "1.3.0": "2018-02-02T09:34:40.694Z",
+    "1.4.0": "2018-06-13T09:44:08.504Z",
+    "1.5.0": "2018-06-15T09:46:03.087Z",
+    "1.5.1": "2018-06-15T09:56:16.229Z",
+    "1.5.2": "2018-06-15T11:37:43.269Z",
+    "1.6.0": "2018-09-29T21:49:42.319Z",
+    "1.6.1": "2018-10-23T11:35:02.353Z",
+    "1.6.2": "2018-10-25T14:58:37.602Z",
+    "1.7.0": "2019-05-24T09:13:58.496Z"
+  },
+  "homepage": "https://github.com/browserify/acorn-node",
+  "keywords": [
+    "acorn",
+    "browserify",
+    "javascript",
+    "parser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browserify/acorn-node.git"
+  },
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/browserify/acorn-node/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "version": "1.7.0",
+  "dependencies": {
+    "acorn": "^6.1.1",
+    "acorn-dynamic-import": "^4.0.0",
+    "acorn-walk": "^6.1.1",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "acorn-bigint": "^0.3.1",
+    "acorn-class-fields": "^0.3.1",
+    "acorn-export-ns-from": "^0.1.0",
+    "acorn-import-meta": "^0.3.0",
+    "acorn-private-class-elements": "^0.1.1",
+    "acorn-static-class-features": "^0.2.0",
+    "buble": "^0.19.7",
+    "mkdirp": "^0.5.1",
+    "standard": "^11.0.1",
+    "tape": "^4.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test/index.js",
+    "prepublishOnly": "npm run build",
+    "build": "node build.js"
+  },
+  "standard": {
+    "ignore": [
+      "lib/*/*.js"
+    ]
+  },
+  "gitHead": "5a623a570fecb93de47af115697f065c01e88381",
+  "dist": {
+    "integrity": "sha512-XhahLSsCB6X6CJbe+uNu3Mn9sJBNFxtBN9NLgAOQovfS6Kh0lDUtmlclhjn9CvEK7A7YyRU13PXlNcpSiLI9Yw==",
+    "shasum": "aac6a559d27af6176b076ab6fb13c5974c213e3b",
+    "tarball": "https://registry.npmjs.org/acorn-node/-/acorn-node-1.7.0.tgz",
+    "fileCount": 16,
+    "unpackedSize": 43297,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc57XXCRA9TVsSAnZWagAAqNYP/0ftawjolcTsnJVxNe1K\npngabShCUkNnCJytV693GdKV6Rgwjg20TipS6QwVQT095+vnJ9H8tUA+dFxg\nWQJHh/kCawuya5cperdlFMkFym92f9/VJLxcyjSTWmywSq0SGIdXpMNJDWPI\nvC9zeg1eup+KDr8SkUupFkjPs1o9Z6HCAJsSURBYWtg9YiZZzuk1u/kSq3Pn\nWtBXuzi7NqecGMlD/nKaWcW4ElPTKdWLhXtwpgLRnuv3v1AdNqPgcZXGjhYq\ndpzTaaLoX3+sOiMnYTRNS3sAJZoVwqGzKgVHBNQfyxweOYIaIakQQsD8K0Q2\nyIhZyS5vGELAPZo0IVBquiOs+sCuD+iihFqpUtq+8vcigqhxsMyns8b5VaP8\nj/NvyFkPXhDTQFta/RSyHmpzjKHmw8mBQynIn0IdC/gGAPRLlQaJ4r+RSCCc\nsfr0kuH0i5gmPGXqZjueUREFujTMTdeUE8XF49TylyS/6BXvfWeRin/U5scz\nyLcfe5uHcPXuqj5NGFrP55U0gOd4cNHuEz4qgh/tvEG6d8oSPjBrkP2xJgxB\ngJSzWKJOdBW4bqsHj3Zo1y3j2pEwo5ALYCOLd4H4/6L74xdNMoCOdQOEMtBa\nFjMw7TJRUQsjm8J3tUZiwjWD1PwziN1fV5IkaR6DKwMtvWY7RjeOX4o1v0oF\nHvlb\r\n=oqvg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

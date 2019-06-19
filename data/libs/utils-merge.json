@@ -1,0 +1,73 @@
+{
+  "name": "utils-merge",
+  "description": "merge() utility function",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "jaredhanson <jaredhanson@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-09-20T00:18:39.692Z",
+    "created": "2013-07-11T19:00:16.016Z",
+    "1.0.0": "2013-07-11T19:00:17.317Z",
+    "1.0.1": "2017-09-20T00:18:39.692Z"
+  },
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/utils-merge.git"
+  },
+  "users": {
+    "cmj": true,
+    "simplyianm": true,
+    "princetoad": true,
+    "fengchenxiujisd": true,
+    "456wyc": true,
+    "iori20091101": true,
+    "mojaray2k": true,
+    "sunggun": true,
+    "chinawolf_wyp": true,
+    "wjszxli": true,
+    "wanglq80": true
+  },
+  "keywords": [
+    "util"
+  ],
+  "bugs": {
+    "url": "http://github.com/jaredhanson/utils-merge/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/jaredhanson/utils-merge#readme",
+  "license": "MIT",
+  "version": "1.0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index",
+  "dependencies": {},
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "gitHead": "680a65305312a990751fd32b83bd2c12d67809d4",
+  "dist": {
+    "shasum": "9f95710f50a267947b2ccc124741c1028427e713",
+    "tarball": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
+  },
+  "directories": {}
+}

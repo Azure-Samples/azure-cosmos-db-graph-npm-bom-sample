@@ -1,0 +1,68 @@
+{
+  "name": "isstream",
+  "description": "Determine if an object is a Stream",
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "maintainers": [
+    "rvagg <rod@vagg.org>"
+  ],
+  "time": {
+    "modified": "2017-12-28T04:27:35.979Z",
+    "created": "2014-04-07T00:03:04.615Z",
+    "0.0.0": "2014-04-07T00:03:04.615Z",
+    "0.1.0": "2014-04-07T00:38:39.891Z",
+    "0.1.1": "2014-12-08T23:11:38.322Z",
+    "0.1.2": "2015-03-07T00:15:15.512Z"
+  },
+  "homepage": "https://github.com/rvagg/isstream",
+  "keywords": [
+    "stream",
+    "type",
+    "streams",
+    "readable-stream",
+    "hippo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvagg/isstream.git"
+  },
+  "author": "Rod Vagg <rod@vagg.org>",
+  "bugs": {
+    "url": "https://github.com/rvagg/isstream/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "wenbing": true,
+    "antixrist": true,
+    "leizongmin": true,
+    "mojaray2k": true,
+    "coolhanddev": true,
+    "ganeshkbhat": true
+  },
+  "version": "0.1.2",
+  "main": "isstream.js",
+  "scripts": {
+    "test": "tar --xform 's/^package/readable-stream-1.0/' -zxf readable-stream-1.0.*.tgz && tar --xform 's/^package/readable-stream-1.1/' -zxf readable-stream-1.1.*.tgz && node test.js; rm -rf readable-stream-1.?/"
+  },
+  "devDependencies": {
+    "tape": "~2.12.3",
+    "core-util-is": "~1.0.0",
+    "isarray": "0.0.1",
+    "string_decoder": "~0.10.x",
+    "inherits": "~2.0.1"
+  },
+  "gitHead": "cd39cba6da939b4fc9110825203adc506422c3dc",
+  "dist": {
+    "shasum": "47e63f7af55afa6f92e1500e690eb8b8529c099a",
+    "tarball": "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz"
+  },
+  "directories": {}
+}

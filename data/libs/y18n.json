@@ -1,0 +1,85 @@
+{
+  "name": "y18n",
+  "description": "the bare-bones internationalization library used by yargs",
+  "dist-tags": {
+    "latest": "4.0.0",
+    "next": "4.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0",
+    "3.1.0",
+    "3.2.0",
+    "3.2.1",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "nexdrew <andrewbgoode@gmail.com>",
+    "bcoe <ben@npmjs.com>"
+  ],
+  "time": {
+    "modified": "2017-11-22T06:26:12.099Z",
+    "created": "2015-07-27T07:19:00.467Z",
+    "1.0.0": "2015-07-27T07:19:00.467Z",
+    "1.1.0": "2015-07-28T04:15:40.553Z",
+    "2.0.0": "2015-07-28T05:07:08.737Z",
+    "3.0.0": "2015-07-29T07:35:44.735Z",
+    "3.1.0": "2015-08-18T22:01:52.657Z",
+    "3.2.0": "2015-09-21T20:58:01.658Z",
+    "3.2.1": "2016-03-17T05:04:31.363Z",
+    "4.0.0": "2017-10-10T19:03:17.301Z"
+  },
+  "homepage": "https://github.com/yargs/y18n",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "yargs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yargs/y18n.git"
+  },
+  "author": "Ben Coe <ben@npmjs.com>",
+  "bugs": {
+    "url": "https://github.com/yargs/y18n/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "slurm": true,
+    "alberh": true,
+    "terrychan": true,
+    "arttse": true,
+    "metaa": true,
+    "zeligzhou": true
+  },
+  "version": "4.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "release": "standard-version"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "coveralls": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.0.1",
+    "rimraf": "^2.5.0",
+    "standard": "^10.0.0-beta.0",
+    "standard-version": "^4.2.0"
+  },
+  "gitHead": "45d2568800d6c57be045e76dc4984b2ef3432233",
+  "dist": {
+    "integrity": "sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==",
+    "shasum": "95ef94f85ecc81d007c264e190a120f0a3c8566b",
+    "tarball": "https://registry.npmjs.org/y18n/-/y18n-4.0.0.tgz"
+  },
+  "directories": {}
+}

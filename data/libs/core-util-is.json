@@ -1,0 +1,66 @@
+{
+  "name": "core-util-is",
+  "description": "The `util.is*` functions introduced in Node v0.12.",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2017-05-09T07:13:14.494Z",
+    "created": "2013-08-26T22:51:58.467Z",
+    "1.0.0": "2013-08-26T22:51:59.881Z",
+    "1.0.1": "2014-01-08T05:50:45.831Z",
+    "1.0.2": "2015-11-20T00:37:33.081Z"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/core-util-is.git"
+  },
+  "users": {
+    "tunnckocore": true,
+    "wenbing": true,
+    "cparker15": true,
+    "monjer": true,
+    "shuoshubao": true,
+    "kael": true
+  },
+  "homepage": "https://github.com/isaacs/core-util-is#readme",
+  "keywords": [
+    "util",
+    "isBuffer",
+    "isArray",
+    "isNumber",
+    "isString",
+    "isRegExp",
+    "isThis",
+    "isThat",
+    "polyfill"
+  ],
+  "bugs": {
+    "url": "https://github.com/isaacs/core-util-is/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.2",
+  "main": "lib/util.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "devDependencies": {
+    "tap": "^2.3.0"
+  },
+  "gitHead": "a177da234df5638b363ddc15fa324619a38577c8",
+  "dist": {
+    "shasum": "b5fd54220aa2bc5ab57aab7140c940754503c1a7",
+    "tarball": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
+  },
+  "directories": {}
+}

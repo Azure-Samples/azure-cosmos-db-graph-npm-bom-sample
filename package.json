@@ -1,0 +1,11 @@
+{
+  "name": "azure-cosmos-db-graph-npm-bom-sample",
+  "version": "0.2.0",
+  "description": "Node.js batch data wrangling for this NPM/BOM project",
+  "main": "main.js",
+  "dependencies": {
+    "@azure/cosmos": "^2.1.5",
+    "async": "^3.0.0",
+    "gremlin": "^3.4.2"
+  }
+}

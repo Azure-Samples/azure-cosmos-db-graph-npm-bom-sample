@@ -1,0 +1,79 @@
+{
+  "name": "big-number",
+  "description": "Light, ultra-fast javascript implementation for BigIntegers (base arithmetic operations)",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.2.5",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.4.0",
+    "1.0.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "alexbardas <alexbardas@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T09:02:53.781Z",
+    "created": "2012-11-03T22:19:00.476Z",
+    "0.2.5": "2012-11-03T22:19:04.249Z",
+    "0.3.0": "2014-07-11T20:37:44.671Z",
+    "0.3.1": "2014-08-03T03:44:14.733Z",
+    "0.3.2": "2016-02-12T14:43:31.751Z",
+    "0.4.0": "2016-02-21T04:08:50.851Z",
+    "1.0.0": "2018-06-14T11:04:36.613Z",
+    "2.0.0": "2018-12-11T18:20:09.289Z"
+  },
+  "author": "Alex Bardas <alex.bardas+github@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexbardas/bignumber.js.git"
+  },
+  "homepage": "https://github.com/alexbardas/bignumber.js#readme",
+  "keywords": [
+    "number",
+    "big",
+    "int",
+    "integer",
+    "bigint",
+    "big integer",
+    "bignumber",
+    "big-number",
+    "bignumbers",
+    "arithmetic",
+    "operations"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexbardas/bignumber.js/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "derickdsouza": true,
+    "uniquerockrz": true
+  },
+  "version": "2.0.0",
+  "main": "./index",
+  "scripts": {
+    "test": "mocha test/",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "5.10.0",
+    "mocha": "5.2.0",
+    "should": "13.2.3"
+  },
+  "gitHead": "a17195f2cb49bcd86ebaaf8f161a03e82b94d6fc",
+  "dist": {
+    "integrity": "sha512-C67Su0g+XsmXADX/UM9L/+xSbqqwq0D/qGJs2ky6Noy2FDuCZnC38ZSXODiaBvqWma2VYRZEXgm4H74PS6tCDg==",
+    "shasum": "98548eda9393b445791670a213aed6f6dcd66ee3",
+    "tarball": "https://registry.npmjs.org/big-number/-/big-number-2.0.0.tgz",
+    "fileCount": 8,
+    "unpackedSize": 32793,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcD//ZCRA9TVsSAnZWagAAVSEQAIV+6O3I9yUTzSzT7IkH\nO774gCx5uRiLpUZ6w7/TgpaQX90VDRNEMA6DKcA2eX2QtpcpAJvP9iizaZda\nG8G0Enar5cx3W00mCN1tM9C8Ddz2l58tBMt03ObMapdJRNERdwFrkkjl6E1/\n766r5anysd/XB5znTS7qh9PjtyhmKCE7SmgH4Ubi5YwvCXvGsRYUG/zcYOXG\nDT/4Zo/Xzx60mThS3FSkx0XYclGy/WxBV1snIjckYbVZYdbnHPhAunhyP2+b\niicMgauRKGmWfNZNZoAcDocfx5mNe/3Svf7BfoByMHN/Mtb7qypXqFONet8G\ndM5dG/iUbj57qel13vjWW6O0/Xy+GBxjbeY8L7MvuxSRtDeu6pwoQtcoFzi8\nszS5bnQ6jAkkt3IpwpwJmr80gM6Y1vjV7YOZ27N2SMPYQ1WBpZ1pStpli3VB\nTUPCp+kw7t67nGrscMi5DGX8dh5xdXOSOWdMkMQ3pdlt/tsrghqmkT/hsply\nWARB/ru84tGn7LlSBiRD8MqEte37NVEHq55tq+lGdXEsJwAj6PPy0UID+TUn\n9rEjJOwFtRd0FmPMJkmUQHUZHg6YhBVRywTOkF96AIN7fXqlvQ6yWyQouJJE\n0oPCmPVQTmelNyzhkV2+DtDxaGexxc3mwerjMSlb1kAV+6/T2rEqwgsJhFDG\nuadf\r\n=MGKX\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

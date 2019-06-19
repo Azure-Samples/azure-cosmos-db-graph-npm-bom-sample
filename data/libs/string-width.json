@@ -1,0 +1,104 @@
+{
+  "name": "string-width",
+  "description": "Get the visual width of a string - the number of columns required to display it",
+  "dist-tags": {
+    "latest": "4.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "3.0.0",
+    "3.1.0",
+    "4.0.0",
+    "4.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-31T12:12:28.466Z",
+    "created": "2015-07-16T22:08:17.757Z",
+    "1.0.0": "2015-07-16T22:08:17.757Z",
+    "1.0.1": "2015-07-20T01:31:09.758Z",
+    "1.0.2": "2016-08-14T15:23:54.869Z",
+    "2.0.0": "2016-09-22T06:54:45.828Z",
+    "2.1.0": "2017-06-26T16:15:09.531Z",
+    "2.1.1": "2017-07-18T11:09:15.295Z",
+    "3.0.0": "2018-12-15T14:14:40.848Z",
+    "3.1.0": "2019-03-08T08:22:47.824Z",
+    "4.0.0": "2019-03-18T08:23:48.708Z",
+    "4.1.0": "2019-03-31T12:12:25.885Z"
+  },
+  "homepage": "https://github.com/sindresorhus/string-width#readme",
+  "keywords": [
+    "string",
+    "character",
+    "unicode",
+    "width",
+    "visual",
+    "column",
+    "columns",
+    "fullwidth",
+    "full-width",
+    "full",
+    "ansi",
+    "escape",
+    "codes",
+    "cli",
+    "command-line",
+    "terminal",
+    "console",
+    "cjk",
+    "chinese",
+    "japanese",
+    "korean",
+    "fixed-width"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/string-width.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/string-width/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "vsemozhetbyt": true,
+    "scottfreecode": true,
+    "shrimpseaweed": true,
+    "gzg1500521074": true
+  },
+  "version": "4.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "emoji-regex": "^8.0.0",
+    "is-fullwidth-code-point": "^3.0.0",
+    "strip-ansi": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "272fccd2b2f90d74e0ab45299d109644bbc1751b",
+  "dist": {
+    "integrity": "sha512-NrX+1dVVh+6Y9dnQ19pR0pP4FiEIlUvdTGn8pw6CKTNq5sgib2nIhmUNT5TAmhWmvKr3WcxBcP3E8nWezuipuQ==",
+    "shasum": "ba846d1daa97c3c596155308063e075ed1c99aff",
+    "tarball": "https://registry.npmjs.org/string-width/-/string-width-4.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4871,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoK6qCRA9TVsSAnZWagAAWcgP/jVyAs1x3o6qWfpQXJR5\n+SIxdMk06A7izF3BZAZ0CGwxt49I4VZt2k6G8qDZOuex8ajxRKepGPROSUNW\n6u+R0SICrATI21i40GfV6DPhDio6f0Ps7uMachUY8+X9sA+rFhHIC4jMrY3d\ndyBXqsN+FJO4Vo1+uvO4Pl9Fjkrfa3hFIzUR7sjGZO+v7j/uw0BbdPnl3GT7\n0TPe+iwfStsQyfYYGkrOiR9S4mfwg6gKwOAZimwhV5wq7FVt0SfcoE0NfxjL\nr8NRgkMtFs5lOrK9fvRnSq+/6dOUeur5XCwuom1yyO94BzLGh6QfHwIDGKvs\nXCd8DPWvzWdanNYS3te5j6oBqlBB1hvxjrbDaHEMhAoI/8qOf1EcKRwgUw3x\nOCY33spl3Ba5l/aZzzu3zDuq8XtMwlyXIt5h8cdJTyO1+GUmpx6IafaFUUd0\n5Y8zE76gAwEsrY0sziBUrYPg8Pg7Fgdy1ZIhYJSQF3Q25TGTFveBYBOjATH9\ne8/t6mw9ILFToj9VvjQlPqli399gDujTJqo8MAQTGwjpE2xdPhB5BDd7pk2r\nJ7vH2L3iGqLlYZS2RSD5MOMWXYxtjtbjAfOJjfM6jnFW58DiMdO2HEOmtZUC\nVlkDOCjbgC1wbTTLk4Ek4psXdeEdiHib0zO0cOX0c+M6lEHkgADzZ1lMAPmu\n17lX\r\n=SM2+\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

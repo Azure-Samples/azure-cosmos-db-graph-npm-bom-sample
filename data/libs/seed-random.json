@@ -1,0 +1,49 @@
+{
+  "name": "seed-random",
+  "description": "Generate random numbers with a seed, useful for reproducible tests",
+  "dist-tags": {
+    "latest": "2.2.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.2.0"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>"
+  ],
+  "time": {
+    "modified": "2017-12-21T03:54:28.261Z",
+    "created": "2012-11-23T20:30:32.518Z",
+    "1.0.0": "2012-11-23T20:30:34.901Z",
+    "1.0.1": "2012-11-23T20:31:07.931Z",
+    "2.2.0": "2013-11-11T16:34:11.102Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/seed-random.git"
+  },
+  "author": "ForbesLindesay",
+  "users": {
+    "dazld": true,
+    "lenville": true,
+    "farskipper": true,
+    "thevikingcoder": true,
+    "noopkat": true
+  },
+  "bugs": {
+    "url": "https://github.com/ForbesLindesay/seed-random/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "version": "2.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "dist": {
+    "shasum": "2a9b19e250a817099231a5b99a4daf80b7fbed54",
+    "tarball": "https://registry.npmjs.org/seed-random/-/seed-random-2.2.0.tgz"
+  },
+  "directories": {}
+}

@@ -1,0 +1,74 @@
+{
+  "name": "semver-diff",
+  "description": "Get the diff type of two semver versions: 0.0.1 0.0.2 → patch",
+  "dist-tags": {
+    "latest": "3.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-30T07:00:53.433Z",
+    "created": "2014-05-03T13:34:00.881Z",
+    "0.1.0": "2014-05-03T13:34:00.881Z",
+    "1.0.0": "2014-08-02T21:36:24.749Z",
+    "2.0.0": "2014-09-29T10:56:46.792Z",
+    "2.1.0": "2015-11-14T12:31:30.545Z",
+    "3.0.0": "2019-04-26T05:26:36.190Z",
+    "3.1.0": "2019-05-30T07:00:49.815Z"
+  },
+  "homepage": "https://github.com/sindresorhus/semver-diff#readme",
+  "keywords": [
+    "semver",
+    "version",
+    "semantic",
+    "diff",
+    "difference"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/semver-diff.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/semver-diff/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "itonyyo": true
+  },
+  "version": "3.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "semver": "^6.1.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "14a40e312a0f3c22d01d78478b55537e2c942050",
+  "dist": {
+    "integrity": "sha512-ASrAPykxraxsdkDJzBE6P8hnp64bdWPguExRDZHv90s5/pmeQkXcR1xRjeRdzOzIu1LhahexCy7PAHeQ8ZNnzw==",
+    "shasum": "19699e14038e1f4660d1d7ca9c79bd0aa9c92b55",
+    "tarball": "https://registry.npmjs.org/semver-diff/-/semver-diff-3.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4460,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc73+iCRA9TVsSAnZWagAAtPcP/2WmpHdEnpNUnJahrjh1\nZ6pXoqt0PDhtbhvzE1iqp5xWCSAVJsib/6ACryOVN4fIlus7wJQ/qY8cEfDO\nW8zU9qIQaWEgAEedZHSoGniI4F21xd7FaA89P1fyUhII2zGtgO0xFfmC5hFZ\nfB1a26XsweDNM1MHogb2c+FGdfUdw0J4hhs2YbDLtvdkiwpKBsdYuxYrj5pZ\nliJGsQxSwvljWmQw8y83jwpn0bnJdssVb7pt2SUU1GIwk9VeBZobaZ573IKV\nD/u16uPm+9SZITYNeL2rCiMv+KxGiYafkGi+87Un6at8HqvU3i4ePj5TpAtc\nuqu905r7A8qtaREqUNrfam+XTe7QOU2QVWgnc3QWtWuTp+9dzgRv3qz6QRwU\nA+F8NR8+DPRmjizQ02tWf8CS5yIbYMv3f3UydqWPQ9yNo41nTNrpsj6PqBm4\npGBg0qPc0LVgKr396w7XRk5/EwwCMITwJuWKj/9CUa+xBNJU0GD8Ryvq6SNT\nhuAM3dLhmhd29nxNGTAlm2SL0xCNmBg0/5KiFSSVLsPLaCduEVGyzQ/PwlHV\nRPcpeHzD8cz/von/d5tq0+NmhCRkliYa9cKM/BH+K7sZQSunrXWI8BcvnoXS\nfX5a4EcpCYga6L6TFS6X09IHSEdVn4gRRVOjIIzIhl3stT0jBPfR0jOvllDh\njtJr\r\n=1zFp\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,101 @@
+{
+  "name": "glob-parent",
+  "description": "Extract the non-magic parent path from a glob string.",
+  "dist-tags": {
+    "latest": "5.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "2.0.0",
+    "3.0.0",
+    "3.0.1",
+    "3.1.0",
+    "4.0.0",
+    "5.0.0"
+  ],
+  "maintainers": [
+    "contra <yo@contra.io>",
+    "doowb <brian.woodward@gmail.com>",
+    "es128 <elan.shanker+npm@gmail.com>",
+    "jonschlinkert <github@sellside.com>",
+    "phated <blaine.bublitz@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-29T22:38:46.311Z",
+    "created": "2015-01-12T20:32:54.422Z",
+    "1.0.0": "2015-01-12T20:32:54.422Z",
+    "1.1.0": "2015-03-04T15:11:54.539Z",
+    "1.2.0": "2015-03-04T16:13:57.996Z",
+    "1.3.0": "2015-09-18T14:49:40.290Z",
+    "2.0.0": "2015-09-18T14:59:10.292Z",
+    "3.0.0": "2016-09-06T19:13:54.031Z",
+    "3.0.1": "2016-10-18T19:20:27.458Z",
+    "3.1.0": "2016-12-14T15:48:47.422Z",
+    "4.0.0": "2019-03-27T23:42:10.038Z",
+    "5.0.0": "2019-03-29T22:38:43.850Z"
+  },
+  "homepage": "https://github.com/gulpjs/glob-parent#readme",
+  "keywords": [
+    "glob",
+    "parent",
+    "strip",
+    "path",
+    "dirname",
+    "directory",
+    "base",
+    "wildcard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulpjs/glob-parent.git"
+  },
+  "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "bugs": {
+    "url": "https://github.com/gulpjs/glob-parent/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "youstrive": true
+  },
+  "contributors": [
+    "Elan Shanker (https://github.com/es128)",
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "version": "5.0.0",
+  "engines": {
+    "node": ">= 6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "nyc mocha --async-only",
+    "azure-pipelines": "nyc mocha --async-only --reporter xunit -O output=test.xunit",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "is-glob": "^4.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "github:phated/node-coveralls#2.x",
+    "eslint": "^2.13.1",
+    "eslint-config-gulp": "^3.0.1",
+    "expect": "^1.20.2",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
+  },
+  "gitHead": "d4975484222bb811c02dc2dc268ea48e2fb7ae6d",
+  "dist": {
+    "integrity": "sha512-Z2RwiujPRGluePM6j699ktJYxmPpJKCfpGA13jz2hmFZC7gKetzrWvg5KN3+OsIFmydGyZ1AVwERCq1w/ZZwRg==",
+    "shasum": "1dc99f0f39b006d3e92c2c284068382f0c20e954",
+    "tarball": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 7306,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcnp50CRA9TVsSAnZWagAAJZIP/22DpVTGanNcNxu2Zb1o\nJ3KLGAGAz2u/rMtbT0RMyJMf+yEYVL1l7++da6n1SnJTJmO8vL1emnQ6DNN5\nVlFJnNL4B0E9NyACSx7NUydO3gsPD9q4IhFBC8Duedp87v9rOZyrQznQOBM5\niCN6OBRAzJjslSkjHotGZrjutVOi2nFNipyu48RK5zJ8j9PG/zfXAkCK4Ach\nHvwkxO5BKdqcM57m3qoe79x7aAmhXpesUS2qqj9siIH+Rf4VtmBiMieog+Ln\n8Qp4eE7ico9H/hiOup0dU2dWSKbl7CmKAKCgyGjw3QQs54reh6KGW57jGByF\nOFhEVlCn53aaUext153cBfvEEW/7B1hKdj1fEqneSf4xXzp/7WmNlJLabM5h\nFzhhOh5MX4beBWm4VJd1AAW3akqTzqkSMuPjoeY/qcJh3Mf2/PN3SnalQ4rC\nKK5zbhxKXdFMokW9tqKlkAJoWpcnidU9QOo0Ljo5sGOhblZXskyi3bWHpn9s\nic9Zb0hbXUWnblbGc9GYJSRRrLUtzdQoWEvbTWWqnOVjn24QGYsNh8xiyZPE\naRHtB9R+mY/ZfOsX6XI4YEeIP3kRKKF4gS9hn5MitQZ79fhONmzl9QMK4mVg\nBQ1mq0CwMrdhMtAgE8LejSPLkCT7ZoRWS9KbzYiViR1F6GQGHv79juw7lWIS\nJHiA\r\n=YKqG\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

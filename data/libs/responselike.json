@@ -1,0 +1,71 @@
+{
+  "name": "responselike",
+  "description": "A response-like object for mocking a Node.js HTTP response stream",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "lukechilds <lukechilds123@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-08-17T16:47:15.629Z",
+    "created": "2017-05-04T07:51:15.890Z",
+    "0.1.0": "2017-05-04T07:51:15.890Z",
+    "0.2.0": "2017-06-19T11:09:12.432Z",
+    "1.0.0": "2017-06-21T07:28:07.128Z",
+    "1.0.1": "2017-06-30T13:04:39.730Z",
+    "1.0.2": "2017-08-17T16:47:15.629Z"
+  },
+  "homepage": "https://github.com/lukechilds/responselike#readme",
+  "keywords": [
+    "http",
+    "https",
+    "response",
+    "mock",
+    "request",
+    "responselike"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukechilds/responselike.git"
+  },
+  "author": "lukechilds",
+  "bugs": {
+    "url": "https://github.com/lukechilds/responselike/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "xo": {
+    "extends": "xo-lukechilds"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "coveralls": "^2.13.1",
+    "eslint-config-xo-lukechilds": "^1.0.0",
+    "get-stream": "^3.0.0",
+    "nyc": "^11.1.0",
+    "xo": "^0.19.0"
+  },
+  "dependencies": {
+    "lowercase-keys": "^1.0.0"
+  },
+  "gitHead": "69366dfd6e161b46bc4503c114d067b87e30dd60",
+  "dist": {
+    "shasum": "918720ef3b631c5642be068f15ade5a46f4ba1e7",
+    "tarball": "https://registry.npmjs.org/responselike/-/responselike-1.0.2.tgz"
+  },
+  "directories": {}
+}

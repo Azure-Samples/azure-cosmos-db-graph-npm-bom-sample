@@ -1,0 +1,98 @@
+{
+  "name": "end-of-stream",
+  "description": "Call a callback when a readable/writable/duplex stream has completed or failed.",
+  "dist-tags": {
+    "latest": "1.4.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1"
+  ],
+  "maintainers": [
+    "mafintosh <mathiasbuus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-08T09:48:41.779Z",
+    "created": "2013-11-26T23:28:55.601Z",
+    "0.1.0": "2013-11-26T23:28:59.564Z",
+    "0.1.1": "2013-11-27T01:05:45.555Z",
+    "0.1.2": "2013-11-27T01:16:00.613Z",
+    "0.1.3": "2013-12-19T10:41:25.227Z",
+    "0.1.4": "2014-02-18T10:17:56.792Z",
+    "0.1.5": "2014-06-29T07:03:54.107Z",
+    "1.0.0": "2014-07-21T11:04:32.385Z",
+    "1.1.0": "2014-09-07T18:21:10.694Z",
+    "1.2.0": "2017-03-10T16:01:28.737Z",
+    "1.3.0": "2017-03-14T09:55:55.621Z",
+    "1.4.0": "2017-03-14T10:40:44.044Z",
+    "1.4.1": "2018-01-10T16:11:28.225Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mafintosh/end-of-stream.git"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "timhudson": true,
+    "forivall": true,
+    "substack": true,
+    "nichoth": true,
+    "burl.bn": true,
+    "incendiary": true,
+    "stringparser": true,
+    "klyngbaek": true,
+    "amobiz": true,
+    "dralc": true,
+    "juangotama": true,
+    "seangenabe": true,
+    "akiva": true,
+    "mreinstein": true,
+    "panlw": true,
+    "monjer": true,
+    "level9i": true,
+    "zhenguo.zhao": true
+  },
+  "homepage": "https://github.com/mafintosh/end-of-stream",
+  "keywords": [
+    "stream",
+    "streams",
+    "callback",
+    "finish",
+    "close",
+    "end",
+    "wait"
+  ],
+  "author": "Mathias Buus <mathiasbuus@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mafintosh/end-of-stream/issues"
+  },
+  "license": "MIT",
+  "version": "1.4.1",
+  "dependencies": {
+    "once": "^1.4.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "gitHead": "8a49159ed2661ee8ddb393c2503aee489f9ae271",
+  "dist": {
+    "integrity": "sha512-1MkrZNvWTKCaigbn+W15elq2BB/L22nqrSY5DKlo3X6+vclJm8Bb5djXJBmEX6fS3+zCh/F4VBK5Z2KxJt4s2Q==",
+    "shasum": "ed29634d19baba463b6ce6b80a37213eab71ec43",
+    "tarball": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.1.tgz"
+  },
+  "directories": {}
+}

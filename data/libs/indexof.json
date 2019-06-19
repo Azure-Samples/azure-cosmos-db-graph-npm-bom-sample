@@ -1,0 +1,40 @@
+{
+  "name": "indexof",
+  "description": "Microsoft sucks",
+  "dist-tags": {
+    "latest": "0.0.1"
+  },
+  "versions": [
+    "0.0.1"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>"
+  ],
+  "time": {
+    "modified": "2015-02-15T11:58:00.609Z",
+    "created": "2012-08-31T16:20:13.243Z",
+    "0.0.1": "2012-08-31T16:20:14.894Z"
+  },
+  "users": {
+    "pnevares": true,
+    "synchronous": true
+  },
+  "keywords": [
+    "index",
+    "array",
+    "indexOf"
+  ],
+  "readmeFilename": "",
+  "version": "0.0.1",
+  "dependencies": {},
+  "component": {
+    "scripts": {
+      "indexof/index.js": "index.js"
+    }
+  },
+  "dist": {
+    "shasum": "82dc336d232b9062179d05ab3293a66059fd435d",
+    "tarball": "https://registry.npmjs.org/indexof/-/indexof-0.0.1.tgz"
+  },
+  "directories": {}
+}

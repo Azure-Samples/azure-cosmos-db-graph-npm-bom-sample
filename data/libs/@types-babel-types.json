@@ -1,0 +1,124 @@
+{
+  "name": "@types/babel-types",
+  "description": "TypeScript definitions for babel-types",
+  "dist-tags": {
+    "latest": "7.0.7",
+    "ts2.0": "6.25.0",
+    "ts2.1": "6.25.0",
+    "ts2.2": "6.25.0",
+    "ts2.3": "7.0.2",
+    "ts2.4": "7.0.2",
+    "ts2.5": "7.0.2",
+    "ts2.6": "7.0.2",
+    "ts2.7": "7.0.2",
+    "ts2.8": "7.0.7",
+    "ts2.9": "7.0.7",
+    "ts3.0": "7.0.7",
+    "ts3.1": "7.0.7",
+    "ts3.2": "7.0.7",
+    "ts3.3": "7.0.7",
+    "ts3.4": "7.0.7",
+    "ts3.5": "7.0.7",
+    "ts3.6": "7.0.7"
+  },
+  "versions": [
+    "6.7.1-alpha",
+    "6.7.2-alpha",
+    "6.7.7-alpha",
+    "6.7.8-alpha",
+    "6.7.9-alpha",
+    "6.7.10-alpha",
+    "6.7.11-alpha",
+    "6.7.12-alpha",
+    "6.7.13",
+    "6.7.14",
+    "6.7.15",
+    "6.7.16",
+    "6.25.0",
+    "6.25.1",
+    "6.25.2",
+    "7.0.0",
+    "7.0.1",
+    "7.0.2",
+    "7.0.3",
+    "7.0.4",
+    "7.0.5",
+    "7.0.6",
+    "7.0.7"
+  ],
+  "maintainers": [
+    "types <ts-npm-types@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2019-05-29T21:52:39.252Z",
+    "created": "2016-05-17T04:29:17.494Z",
+    "6.7.1-alpha": "2016-05-17T04:29:17.494Z",
+    "6.7.2-alpha": "2016-05-19T20:18:49.310Z",
+    "6.7.7-alpha": "2016-05-20T19:12:00.702Z",
+    "6.7.8-alpha": "2016-05-25T04:30:48.994Z",
+    "6.7.9-alpha": "2016-07-01T22:19:35.079Z",
+    "6.7.10-alpha": "2016-07-02T02:05:02.538Z",
+    "6.7.11-alpha": "2016-07-03T23:53:24.111Z",
+    "6.7.12-alpha": "2016-07-08T19:36:27.379Z",
+    "6.7.13": "2016-07-14T14:06:39.819Z",
+    "6.7.14": "2016-09-19T16:20:48.924Z",
+    "6.7.15": "2017-05-05T01:12:31.799Z",
+    "6.7.16": "2017-05-05T01:18:56.630Z",
+    "6.25.0": "2017-07-18T19:27:05.488Z",
+    "6.25.1": "2017-07-20T13:51:07.739Z",
+    "6.25.2": "2017-11-28T00:41:44.563Z",
+    "7.0.0": "2017-12-18T15:46:47.210Z",
+    "7.0.1": "2018-02-26T19:08:16.788Z",
+    "7.0.2": "2018-05-08T16:35:59.714Z",
+    "7.0.3": "2018-06-12T03:37:37.075Z",
+    "7.0.4": "2018-06-18T22:47:11.957Z",
+    "7.0.5": "2019-02-13T16:31:13.660Z",
+    "7.0.6": "2019-02-27T09:56:20.569Z",
+    "7.0.7": "2019-04-24T17:31:19.489Z"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/babel-types"
+  },
+  "contributors": [
+    {
+      "name": "Troy Gerwien",
+      "url": "https://github.com/yortus",
+      "githubUsername": "yortus"
+    },
+    {
+      "name": "Sam Baxter",
+      "url": "https://github.com/baxtersa",
+      "githubUsername": "baxtersa"
+    },
+    {
+      "name": "Marvin Hagemeister",
+      "url": "https://github.com/marvinhagemeister",
+      "githubUsername": "marvinhagemeister"
+    },
+    {
+      "name": "Boris Cherny",
+      "url": "https://github.com/bcherny",
+      "githubUsername": "bcherny"
+    }
+  ],
+  "version": "7.0.7",
+  "main": "",
+  "types": "index",
+  "scripts": {},
+  "dependencies": {},
+  "typesPublisherContentHash": "c122ea7d3e140cb66493cf81db0d08d0d35d723c5a9fd0be9b29e7761609f366",
+  "typeScriptVersion": "2.8",
+  "dist": {
+    "integrity": "sha512-dBtBbrc+qTHy1WdfHYjBwRln4+LWqASWakLHsWHR2NWHIFkv4W3O070IGoGLEBrJBvct3r0L1BUPuvURi7kYUQ==",
+    "shasum": "667eb1640e8039436028055737d2b9986ee336e3",
+    "tarball": "https://registry.npmjs.org/@types/babel-types/-/babel-types-7.0.7.tgz",
+    "fileCount": 4,
+    "unpackedSize": 107228,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcwJ1oCRA9TVsSAnZWagAA1KYP/jPurXPJo+VZvZxgv6Qj\n57hU5hYVIWniKip85+yFrQ7GhCEG7KqKA6Ghjnnc3aQpbPIOMECAQPm/0EFz\nnN83VdTOgt0/p0r46TZE2Kz3tCMq/dlpt+S8g/7vhfzadLPV6J7XEf9QYiNb\nwF1korzhj+Ot4b1WkXUad/F2oRT2GUwK8IlyQceSKtCt3RjnaRYTr6nuALnq\ncmnrjcbhMLO5pHBhVWKwFwB0IRNAijiy1kjEcGqDqx1+2TJLExchB5LUJZJ+\nzY0aKuIHy15D0V2TU3S+xFfYokw/q110j2LcZ5kiyyrXuqKCtTIMtv+RBaR6\ngKnia7epZd98l/y63c2ZaI3utbgvoaVK4MxxY/VdnKmA5BJOTmX7rR0ICSEu\nvbFLfKrQF1uW9Kk6X7rRzqtzIPXi/YdA1Q2Ah2o0/RWF0DKaXMXV6Tx/5ZW+\nllTRgC7yYCyHLDf/bWoVbD2+IGAczQDEM/cfUdhvJxFFsc99nNiSKSf1d4Zg\nREwmMltbT6yaghPPLVizHOhfzArAk5XB3WkeH4JBCI2qasjz5aoOaDe6omgl\ndpvQRKP1eZ6NocO3WI+0YEjiJZry93fH3In4rXmX4DmqaBvq0QHqUm5GHqqL\nJEZN5TAWhlDMJxNpXt6oDcriC6N0kT4NwY3PPCwIpgArbPVKyfIkoOdJ5fnt\n5eOt\r\n=MGkl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

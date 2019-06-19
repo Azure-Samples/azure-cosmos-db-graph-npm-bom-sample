@@ -1,0 +1,120 @@
+{
+  "name": "jws",
+  "description": "Implementation of JSON Web Signatures",
+  "dist-tags": {
+    "latest": "3.2.2"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.2.6",
+    "1.0.0",
+    "1.0.1",
+    "2.0.0",
+    "3.0.0",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2",
+    "3.1.3",
+    "3.1.4",
+    "3.1.5",
+    "3.2.0",
+    "3.2.1",
+    "3.2.2"
+  ],
+  "maintainers": [
+    "brianloveswords <brianloveswords@gmail.com>",
+    "omsmith <owen@omsmith.ca>",
+    "stenington <mikelarssonftw@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-16T15:26:20.194Z",
+    "created": "2013-01-16T20:17:38.850Z",
+    "0.0.1": "2013-01-16T20:17:39.718Z",
+    "0.0.2": "2013-01-18T23:58:55.837Z",
+    "0.2.0": "2013-02-10T20:03:40.963Z",
+    "0.2.1": "2013-02-25T23:12:43.884Z",
+    "0.2.2": "2013-03-12T22:27:43.257Z",
+    "0.2.3": "2013-11-06T02:13:40.508Z",
+    "0.2.4": "2014-01-28T19:40:39.504Z",
+    "0.2.5": "2014-01-30T14:58:39.557Z",
+    "0.2.6": "2014-08-07T17:39:19.155Z",
+    "1.0.0": "2014-12-07T19:40:02.336Z",
+    "1.0.1": "2015-01-11T16:20:20.131Z",
+    "2.0.0": "2015-01-30T15:40:03.901Z",
+    "3.0.0": "2015-04-08T15:21:54.795Z",
+    "3.1.0": "2015-07-16T17:24:01.001Z",
+    "3.1.1": "2016-01-17T20:48:24.996Z",
+    "3.1.2": "2016-02-18T14:26:29.916Z",
+    "3.1.3": "2016-02-18T15:39:48.138Z",
+    "3.1.4": "2016-11-03T19:52:30.393Z",
+    "3.1.5": "2018-05-14T14:52:31.898Z",
+    "3.2.0": "2019-01-25T21:09:08.237Z",
+    "3.2.1": "2019-01-27T13:52:37.693Z",
+    "3.2.2": "2019-03-16T15:26:17.735Z"
+  },
+  "author": "Brian J Brennan",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianloveswords/node-jws.git"
+  },
+  "users": {
+    "dfenster": true,
+    "corintho": true,
+    "brandonpapworth": true,
+    "benburwell": true,
+    "panlw": true,
+    "anoubis": true,
+    "sopov": true,
+    "djviolin": true,
+    "ramy": true,
+    "nickeltobias": true,
+    "lgh06": true,
+    "willwolffmyren": true,
+    "sternelee": true,
+    "josudoey": true
+  },
+  "readmeFilename": "readme.md",
+  "homepage": "https://github.com/brianloveswords/node-jws#readme",
+  "keywords": [
+    "jws",
+    "json",
+    "web",
+    "signatures"
+  ],
+  "bugs": {
+    "url": "https://github.com/brianloveswords/node-jws/issues"
+  },
+  "license": "MIT",
+  "version": "3.2.2",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "gitHead": "c0f6b27bcea5a2ad2e304d91c2e842e4076a6b03",
+  "dependencies": {
+    "jwa": "^1.4.1",
+    "safe-buffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "semver": "^5.1.0",
+    "tape": "~2.14.0"
+  },
+  "dist": {
+    "integrity": "sha512-YHlZCB6lMTllWDtSPHz/ZXTsi8S00usEV6v1tjq8tOUZzw7DpSDWVXjXDre6ed1w/pd495ODpHZYSdkRTsa0HA==",
+    "shasum": "001099f3639468c9414000e99995fa52fb478304",
+    "tarball": "https://registry.npmjs.org/jws/-/jws-3.2.2.tgz",
+    "fileCount": 9,
+    "unpackedSize": 17682,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcjRWaCRA9TVsSAnZWagAAONYP/A00P2s7Yl9ntl1lGwIZ\nSRKS6TG/AA5evv6lmG+/dbExxC2obgDkcxijujfozYhd6j3EvxcBiIN8Clce\nnMdAz42W0p2sdcPL7DPdan1x5mG0Ytic+Hz8AdA/RJn5swV8OfYzvZpgQpll\nfvhRddjNP0c40WF07KehEoLb5fRg34vGxMJFQJNtnOa6KhE6kprhKgs2yvcv\nipf5RmvrsqSYWv3ZAa3iN+R0OVzvoaeFyu3dHH4v9S7eGlPMmNWgrAz5+FQN\nXF6asV2K/v2ErEaDHFc2f8reHNOIG4E61S28D10493TX+U3hsLoZiqOPG56X\niYn2qg2w22PxMrnrGMCOnny8peXgt33sJ8Q48QY4PcdecxWFzmTs5zk6c1Q9\n+NF77T3uWblzb3nPLYgcVoO6N2Wd4GDRD8M59JyIkLCTWVO0HQEZXS5guDia\nLEZEsVaYzRp2d+OCYD7up6eZBryqJYSW8WiSDGGFF5yEiJkE77T9uoa0+ctj\nNNMo07LrZ7RMfxgypchrn5MQLBZ47cUtdzvEr4eu8d2AMFzYuXJuF8Xo75We\nMrecTSA8AIo50CMtuAKKcIMQFNoc6h/L2hDAi6yeAoTLdAK+kbDQjmqLHoYQ\nYB3t09R+XOAN7E6yjURKtumHGoMvILX4bV4Uyc4ilt0PC64Y/aaqGjkj8Rx+\nUQ/E\r\n=i29x\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

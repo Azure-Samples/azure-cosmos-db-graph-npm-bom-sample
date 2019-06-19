@@ -1,0 +1,114 @@
+{
+  "name": "process",
+  "description": "process information for node.js and browsers",
+  "dist-tags": {
+    "latest": "0.11.10"
+  },
+  "versions": [
+    "0.4.9",
+    "0.5.0",
+    "0.5.1",
+    "0.5.2",
+    "0.6.0",
+    "0.7.0",
+    "0.8.0",
+    "0.9.0",
+    "0.10.0",
+    "0.10.1",
+    "0.11.0",
+    "0.11.1",
+    "0.11.2",
+    "0.11.3",
+    "0.11.4",
+    "0.11.5",
+    "0.11.6",
+    "0.11.7",
+    "0.11.8",
+    "0.11.9",
+    "0.11.10"
+  ],
+  "maintainers": [
+    "coolaj86 <coolaj86@gmail.com>",
+    "cwmma <calvin.metcalf@gmail.com>",
+    "defunctzombie <shtylman@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-28T03:32:20.095Z",
+    "created": "2011-06-30T01:07:03.273Z",
+    "0.4.9": "2011-06-30T01:07:03.645Z",
+    "0.5.0": "2013-01-21T18:28:53.789Z",
+    "0.5.1": "2013-02-16T23:33:34.663Z",
+    "0.5.2": "2014-01-02T15:45:50.078Z",
+    "0.6.0": "2014-02-01T15:17:00.901Z",
+    "0.7.0": "2014-04-29T19:57:50.021Z",
+    "0.8.0": "2014-09-13T18:06:49.355Z",
+    "0.9.0": "2014-10-11T05:55:44.245Z",
+    "0.10.0": "2014-12-10T19:09:32.584Z",
+    "0.10.1": "2015-03-05T16:50:05.662Z",
+    "0.11.0": "2015-04-24T19:01:16.544Z",
+    "0.11.1": "2015-05-21T21:26:30.512Z",
+    "0.11.2": "2015-09-09T00:51:40.285Z",
+    "0.11.3": "2016-05-07T19:39:49.834Z",
+    "0.11.4": "2016-06-10T14:20:19.867Z",
+    "0.11.5": "2016-06-13T18:57:24.351Z",
+    "0.11.6": "2016-07-26T13:35:42.977Z",
+    "0.11.7": "2016-08-01T20:08:48.819Z",
+    "0.11.8": "2016-08-08T13:45:19.072Z",
+    "0.11.9": "2016-08-30T20:09:13.289Z",
+    "0.11.10": "2017-04-26T12:34:27.448Z"
+  },
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/node-process.git"
+  },
+  "users": {
+    "326060588": true,
+    "m42am": true,
+    "luk": true,
+    "simplyianm": true,
+    "monsterkodi": true,
+    "dac2205": true,
+    "blitzprog": true,
+    "coalesce": true,
+    "ahme-t": true,
+    "shanewholloway": true,
+    "mojaray2k": true,
+    "dzhou777": true,
+    "langri-sha": true,
+    "chinawolf_wyp": true,
+    "advence-liz": true,
+    "kkho595": true,
+    "subinvarghesein": true,
+    "tedyhy": true
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "process"
+  ],
+  "bugs": {
+    "url": "https://github.com/shtylman/node-process/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/shtylman/node-process#readme",
+  "scripts": {
+    "test": "mocha test.js",
+    "browser": "zuul --no-coverage --ui mocha-bdd --local 8080 -- test.js"
+  },
+  "version": "0.11.10",
+  "browser": "./browser.js",
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "2.2.1",
+    "zuul": "^3.10.3"
+  },
+  "gitHead": "557aa46f283caccce603dbb9c376b3d81067c510",
+  "dist": {
+    "shasum": "7332300e840161bda3e69a1d1d91a7d4bc16f182",
+    "tarball": "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
+  },
+  "directories": {}
+}

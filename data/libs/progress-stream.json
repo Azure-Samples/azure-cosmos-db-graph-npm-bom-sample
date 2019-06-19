@@ -1,0 +1,115 @@
+{
+  "name": "progress-stream",
+  "description": "Read the progress of a stream",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "freeall <freeall@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-02-06T12:07:56.851Z",
+    "created": "2013-12-11T13:10:33.878Z",
+    "0.1.0": "2013-12-11T13:10:36.544Z",
+    "0.1.1": "2013-12-11T13:12:12.001Z",
+    "0.2.0": "2013-12-11T19:42:37.226Z",
+    "0.2.1": "2013-12-11T20:20:45.202Z",
+    "0.3.0": "2013-12-13T15:11:27.550Z",
+    "0.4.0": "2014-01-09T16:32:17.616Z",
+    "0.5.0": "2014-05-14T09:26:39.941Z",
+    "1.0.0": "2015-02-25T09:44:48.285Z",
+    "1.0.1": "2015-02-25T09:50:56.858Z",
+    "1.1.0": "2015-04-01T20:09:17.682Z",
+    "1.1.1": "2015-04-14T07:46:43.156Z",
+    "1.1.2": "2015-12-01T13:50:51.184Z",
+    "1.2.0": "2015-12-01T13:59:15.553Z",
+    "1.2.1": "2017-04-11T06:37:01.605Z",
+    "2.0.0": "2017-04-11T09:06:54.927Z"
+  },
+  "author": "freeall <freeall@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/freeall/progress-stream.git"
+  },
+  "users": {
+    "maxogden": true,
+    "shawnbot": true,
+    "f124275809": true,
+    "jamescostian": true,
+    "koslun": true,
+    "moimikey": true,
+    "foto": true,
+    "ezodude": true,
+    "mjurincic": true,
+    "quocnguyen": true,
+    "wisecolt": true,
+    "imaginary": true,
+    "rocket0191": true,
+    "usex": true,
+    "karuppiah": true,
+    "alvis": true,
+    "ragib.hasin": true,
+    "astesio": true,
+    "chirag8642": true,
+    "temasm": true,
+    "tomgao365": true,
+    "wangsong1224": true,
+    "mordenius": true,
+    "ricardweii": true,
+    "lirunkai": true
+  },
+  "homepage": "https://github.com/freeall/progress-stream#readme",
+  "keywords": [
+    "stream",
+    "progress",
+    "percentage",
+    "percent",
+    "download",
+    "upload",
+    "file",
+    "streaming",
+    "request",
+    "http"
+  ],
+  "bugs": {
+    "url": "https://github.com/freeall/progress-stream/issues"
+  },
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "version": "2.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "speedometer": "~1.0.0",
+    "through2": "~2.0.3"
+  },
+  "devDependencies": {
+    "request": "~2.29.0",
+    "single-line-log": "~1.0.0",
+    "numeral": "~1.5.2"
+  },
+  "scripts": {
+    "test": "node test/http.js && node test/request.js"
+  },
+  "gitHead": "1beb155de00a5ee77feb7f422e56e3bec0bcd167",
+  "dist": {
+    "shasum": "fac63a0b3d11deacbb0969abcc93b214bce19ed5",
+    "tarball": "https://registry.npmjs.org/progress-stream/-/progress-stream-2.0.0.tgz"
+  },
+  "directories": {}
+}

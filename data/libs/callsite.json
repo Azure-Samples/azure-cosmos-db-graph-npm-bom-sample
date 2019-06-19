@@ -1,0 +1,56 @@
+{
+  "name": "callsite",
+  "description": "access to v8's CallSites",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>"
+  ],
+  "time": {
+    "modified": "2017-07-25T20:57:37.016Z",
+    "created": "2011-11-30T02:55:25.379Z",
+    "0.0.1": "2011-11-30T02:55:27.044Z",
+    "0.0.2": "2011-11-30T23:16:03.731Z",
+    "1.0.0": "2013-01-24T21:30:25.706Z"
+  },
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "users": {
+    "drdrej": true,
+    "stringparser": true,
+    "havvy": true,
+    "nex": true,
+    "dazld": true,
+    "bsnote": true,
+    "zkochan": true,
+    "mccoyjordan": true,
+    "adriancmiranda": true,
+    "shanewholloway": true
+  },
+  "keywords": [
+    "stack",
+    "trace",
+    "line"
+  ],
+  "readmeFilename": "Readme.md",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  },
+  "dist": {
+    "shasum": "280398e5d664bd74038b6f0905153e6e8af1bc20",
+    "tarball": "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz"
+  },
+  "directories": {}
+}

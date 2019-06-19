@@ -1,0 +1,153 @@
+{
+  "name": "color-convert",
+  "description": "Plain color conversion functions",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "0.3.4",
+    "0.4.0",
+    "0.5.0",
+    "0.5.1",
+    "0.5.2",
+    "0.5.3",
+    "0.6.0",
+    "0.7.0",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.3.0",
+    "1.3.1",
+    "1.4.0",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.8.0",
+    "1.8.1",
+    "1.8.2",
+    "1.9.0",
+    "1.9.1",
+    "1.9.2",
+    "1.9.3",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "qix <i.am.qix@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-31T17:14:19.160Z",
+    "created": "2011-06-10T04:11:24.300Z",
+    "0.1.0": "2011-06-10T04:11:24.939Z",
+    "0.2.0": "2011-06-16T17:17:49.090Z",
+    "0.2.1": "2011-06-23T03:04:46.838Z",
+    "0.3.0": "2011-10-02T00:52:31.161Z",
+    "0.3.1": "2011-10-25T19:06:25.763Z",
+    "0.3.4": "2014-04-04T22:22:42.008Z",
+    "0.4.0": "2014-07-15T15:22:49.129Z",
+    "0.5.0": "2014-07-21T06:39:16.104Z",
+    "0.5.1": "2014-10-17T06:42:27.142Z",
+    "0.5.2": "2014-10-17T19:44:43.302Z",
+    "0.5.3": "2015-06-02T04:46:06.747Z",
+    "0.6.0": "2015-07-23T07:09:45.206Z",
+    "0.7.0": "2015-12-13T00:56:16.762Z",
+    "1.0.0": "2016-01-07T23:11:28.002Z",
+    "1.1.0": "2016-03-30T01:02:48.608Z",
+    "1.1.1": "2016-03-30T01:06:00.303Z",
+    "1.1.2": "2016-03-30T01:07:09.327Z",
+    "1.2.0": "2016-04-07T11:03:24.622Z",
+    "1.2.1": "2016-04-07T11:05:00.372Z",
+    "1.2.2": "2016-04-07T11:06:31.460Z",
+    "1.3.0": "2016-04-07T11:41:07.368Z",
+    "1.3.1": "2016-04-07T21:21:47.734Z",
+    "1.4.0": "2016-08-10T08:17:26.486Z",
+    "1.5.0": "2016-09-04T00:26:23.790Z",
+    "1.6.0": "2016-11-01T00:44:04.284Z",
+    "1.7.0": "2016-11-10T21:04:24.866Z",
+    "1.8.0": "2016-11-16T00:35:04.685Z",
+    "1.8.1": "2016-11-16T00:54:32.469Z",
+    "1.8.2": "2016-11-16T01:12:39.223Z",
+    "1.9.0": "2017-01-17T20:15:35.867Z",
+    "1.9.1": "2017-11-08T21:58:56.163Z",
+    "1.9.2": "2018-06-12T01:22:12.214Z",
+    "1.9.3": "2018-08-28T05:32:39.014Z",
+    "2.0.0": "2019-01-31T17:14:16.204Z"
+  },
+  "author": "Heather Arthur <fayearthur@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qix-/color-convert.git"
+  },
+  "users": {
+    "285858315": true,
+    "zeke": true,
+    "substack": true,
+    "leesei": true,
+    "smutnyleszek": true,
+    "natalitique": true,
+    "leizongmin": true,
+    "stevomccormack": true,
+    "sawa-zen": true,
+    "ryanve": true
+  },
+  "keywords": [
+    "color",
+    "colour",
+    "convert",
+    "converter",
+    "conversion",
+    "rgb",
+    "hsl",
+    "hsv",
+    "hwb",
+    "cmyk",
+    "ansi",
+    "ansi16"
+  ],
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/Qix-/color-convert#readme",
+  "bugs": {
+    "url": "https://github.com/Qix-/color-convert/issues"
+  },
+  "license": "MIT",
+  "version": "2.0.0",
+  "scripts": {
+    "pretest": "xo",
+    "test": "node test/basic.js"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "xo": {
+    "rules": {
+      "default-case": 0,
+      "no-inline-comments": 0,
+      "operator-linebreak": 0
+    }
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "xo": "^0.24.0"
+  },
+  "dependencies": {
+    "color-name": "~1.1.4"
+  },
+  "gitHead": "66068bffd44c0303ab5b72a64a31f6899d13f32b",
+  "dist": {
+    "integrity": "sha512-hzTicsCJIHdxih9+2aLR1tNGZX5qSJGRHDPVwSY26tVrEf55XNajLOBWz2UuWSIergszA09/bqnOiHyqx9fxQg==",
+    "shasum": "9851ac61cc0d3898a8a3088650d5bf447bf69d97",
+    "tarball": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 27216,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUyzoCRA9TVsSAnZWagAAuUMP/13rMhUhoF9/xcfTJijb\nHmpq0WhB95p8UrqDE5DML/IhmIAtOO2YTMDmDiFi9ruwfC90rjt1JyI14G0G\nnmiyIqi3y+TPBWh4XhKval7Fo9N/Ar5hGTQNXCI0uLmjiSjMl+CZc5UmvOhv\nWq421A1Qkh31nFfbLiMC6bL2BFN3TUIcHQAFuxrUQcb/gIRZPnbAjlfSFSgx\n1Pv+67QEOUKKKCAlB0DEd6UAA4Qjhjca6gBfl9eU+2ZvpbXPVxuvRDVchRYM\nFfbk4jUCPgLu503a3gi7Sikio1Q8jZRiCxvQyHH7NiIi/Mw5qoQxvLdYvW9x\nBtMXMT9k+V89XkLBQ8edfpxyQ8a16ltkYowtFSN7DJnglt6M3j3pZtyjscNI\n7OkkC4AP/HrRz5HBPCwNSmczVyRYIqhLgwFONOCkJQdaS6k9db4X+dvVIfzE\ntO0SBdklnpgoqLG++OrOack1+ZbouPeg1DkNMayva0uRfOQq2ps4jSOcGHiY\npq/iIR9GrtUSfgpMJC/rIZFL2GSScFbYIiOyS20+W4qL2DbJkifrOIcMvy6w\nAuou8WmOHeblEJpzYl7CCZW8GRW2UIkM2j1WpQjyYOxUEQFBSGRb0EHpqrAS\n09z2ZbuWC0JZ5xF4U4uwYg1PxWIUoopVCRVMJ+HuG1fMRNFwXASGfcNKKt6y\nAvtb\r\n=+pms\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,55 @@
+{
+  "name": "estree-is-function",
+  "description": "check if an AST node is a function of some sort",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "1.0.0"
+  ],
+  "maintainers": [
+    "goto-bus-stop <rene@kooi.me>"
+  ],
+  "time": {
+    "modified": "2017-12-11T18:32:46.180Z",
+    "created": "2017-12-11T18:32:46.180Z",
+    "1.0.0": "2017-12-11T18:32:46.180Z"
+  },
+  "homepage": "https://github.com/goto-bus-stop/estree-is-function",
+  "keywords": [
+    "arrow-function",
+    "check",
+    "detect",
+    "estree",
+    "function",
+    "functiondeclaration",
+    "functionexpression"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goto-bus-stop/estree-is-function.git"
+  },
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/estree-is-function/issues"
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "devDependencies": {
+    "acorn": "^5.2.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "gitHead": "38285099666f4ca31ed4b1390105700bf881c8e5",
+  "dist": {
+    "integrity": "sha512-nSCWn1jkSq2QAtkaVLJZY2ezwcFO161HVc174zL1KPW3RJ+O6C3eJb8Nx7OXzvhoEv+nLgSR1g71oWUHUDTrJA==",
+    "shasum": "c0adc29806d7f18a74db7df0f3b2666702e37ad2",
+    "tarball": "https://registry.npmjs.org/estree-is-function/-/estree-is-function-1.0.0.tgz"
+  },
+  "directories": {}
+}

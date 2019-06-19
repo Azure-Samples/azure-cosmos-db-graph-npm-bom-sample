@@ -1,0 +1,70 @@
+{
+  "name": "p-finally",
+  "description": "`Promise#finally()` ponyfill - Invoked when the promise is settled regardless of outcome",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-28T13:49:24.869Z",
+    "created": "2016-10-21T06:02:09.848Z",
+    "1.0.0": "2016-10-21T06:02:09.848Z",
+    "2.0.0": "2019-05-28T13:49:22.238Z"
+  },
+  "homepage": "https://github.com/sindresorhus/p-finally#readme",
+  "keywords": [
+    "promise",
+    "finally",
+    "handler",
+    "function",
+    "async",
+    "await",
+    "promises",
+    "settled",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "bluebird"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-finally.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-finally/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true,
+    "sopepos": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "7ae963410de1754b565d2fd2b4ef581fef099bd3",
+  "dist": {
+    "integrity": "sha512-Hh1x1SR9/Y5ndrziFD+dfB0N+chocV4uCmyzqshjN7fXj4kReUt5Fx+I50Eg9uUWml7g5gCYUzEHiselmnP3dg==",
+    "shasum": "b5bfd254f48358184552430fe55e968a83ccf593",
+    "tarball": "https://registry.npmjs.org/p-finally/-/p-finally-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 2918,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7TxiCRA9TVsSAnZWagAAgMMP/R1+5JDq/rkvgdz67B4H\n0TTqgsu62jBFY15DCBlbUhOQY6D5IPgnmqXFtV2K8r39HmujB/Zui7CPvJnG\nj2Cw/nJSMGo1jSK6CST1uvEUe/5wqM2JV0RTs/115+pOrmQ59GtCpkECaDaJ\nBn68aOHeO66PjVVPznco+PTD2M53gOR0ufykta5Ws1i10GEO6o410x6DVGfG\nh9V51sE4As9ZOBjx1F81aelSgxbLQJoprgJtrTFq8IpMBdKfaHWHxEF4JS0T\nWoV1XJSliaoqaEYuR/8qulUgCrtaxZzW/uA37eNK7jyQkt/NA6SLay4l/Rsx\nwWfYsAI6AeupRdnfFQiWoV8b0/SvxBCpg9ILB6hNBgi/DZFSv+4jykxRnhh1\n29f+DcuUaYIMg+9bkHvK9WpaVPxPJqPeyQUCzWZkJZTjFq6T9UGLYKWTn0Y/\nALDAwjilbLSxAYVaAc7QoxbSbBPAin3Dil49Hu5R6Pvlt5jS6wYSDg+P7p03\nhjJIowjExuuCABqTAVeZKJyniMXnE3npJBukzmH20Qb3tOHTRv7LI6UIRw+X\nfw3+ZP1FfnD1eezeWqlz1WixNfl7mAyF2qlPDhdbz1DnOm+gZRToxt8KERIo\nJ5F5fLu9EXMQ82jOvTwzoRgKPj7CUf8hwjyoxZQWe/EzRWJ9nPNBat/SNdky\nhrNL\r\n=Eahz\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "binary-extensions",
+  "description": "List of binary file extensions",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.3.0",
+    "1.3.1",
+    "1.4.0",
+    "1.4.1",
+    "1.5.0",
+    "1.6.0",
+    "1.7.0",
+    "1.8.0",
+    "1.9.0",
+    "1.10.0",
+    "1.11.0",
+    "1.12.0",
+    "1.13.0",
+    "1.13.1",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-18T18:50:15.646Z",
+    "created": "2015-01-24T09:04:29.927Z",
+    "1.0.0": "2015-01-24T09:04:29.927Z",
+    "1.0.1": "2015-01-26T10:56:06.676Z",
+    "1.0.2": "2015-02-06T00:27:38.427Z",
+    "1.1.0": "2015-02-06T18:36:49.046Z",
+    "1.1.1": "2015-02-15T04:26:26.313Z",
+    "1.2.0": "2015-02-16T07:23:29.790Z",
+    "1.3.0": "2015-02-16T21:10:14.299Z",
+    "1.3.1": "2015-05-17T23:39:55.173Z",
+    "1.4.0": "2015-11-18T17:00:05.622Z",
+    "1.4.1": "2016-05-25T05:03:40.065Z",
+    "1.5.0": "2016-06-29T12:10:11.507Z",
+    "1.6.0": "2016-09-02T07:15:14.131Z",
+    "1.7.0": "2016-10-03T01:31:30.814Z",
+    "1.8.0": "2016-12-03T17:12:51.759Z",
+    "1.9.0": "2017-07-22T21:54:09.279Z",
+    "1.10.0": "2017-08-14T12:11:02.540Z",
+    "1.11.0": "2017-11-18T10:30:03.052Z",
+    "1.12.0": "2018-09-18T05:18:30.443Z",
+    "1.13.0": "2019-02-03T10:03:38.268Z",
+    "1.13.1": "2019-03-27T12:27:18.018Z",
+    "2.0.0": "2019-04-18T18:50:13.054Z"
+  },
+  "homepage": "https://github.com/sindresorhus/binary-extensions#readme",
+  "keywords": [
+    "binary",
+    "extensions",
+    "extension",
+    "file",
+    "json",
+    "list",
+    "array"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/binary-extensions.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/binary-extensions/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "faraoman": true
+  },
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "11e076d96c41369015cc3c338428f7f456d3a92f",
+  "dist": {
+    "integrity": "sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==",
+    "shasum": "23c0df14f6a88077f5f986c0d167ec03c3d5537c",
+    "tarball": "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 5074,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcuMblCRA9TVsSAnZWagAATlQP+wSYvlsF5PR2hiifHDau\nX+dQx4OBD1pKyMfsyOA6LnED4W7jqbaECQPfaCi/cxESzaF/5Y4bLycxgRko\nJYa7oKokxjdoUdTMuSzPbi+HJFQeTh91K+SHE06o36VZ8qRG9zdF4TjYHuoV\nI3HcqayEWkSovL5APwMYZlFX6Ix9RmxYNcoWfcxFbygjPVuM5vTLDQ98WrD5\nf9WUfkxN6fHplWvTddROV0IBJV6L8dYfp727T2mAOYpWmuFBzSvL0ijOGcgh\n/5k+Aj8+yLBnLLoxBbAh2ymhYI7/L/KZSrqp1yrQzgZPwvdYeMkYd1ctlIbC\nh1A42DxCb21DvM4QQcIbK5+1LtzM2zdPWIUb6bn+bGXOTzXP+BCayWzvCWcx\nhsfwqHhttqI9ltbnxPtwvOCN07RZWdMtkCP+NpTRcbFJHVekiaCP5j9CHeK3\nef+RIGjm9AYpnapoCnn0isAm9pLh4IVKF4+6D+6wjOIZXKNYkJj7gL3PgMHv\nA0+JUv9/Fq6C4QIy47dIpNhum+LKK0T2oxoUnDuib1Pwvv20EsVlpXr4rtJT\nZ0+/HS5FWrAO0d4bWWM2Xfr71hZOn0/HpGBCOBFYmYQf0dQUCEvN9mk1ihsY\nz/oNZWvzmVrsZlt1NfcFUFDA4pBahTI7Mj/K4pQ/K5+UVG/3k7Yo+g2aR0Vj\n0Wu3\r\n=7h+9\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

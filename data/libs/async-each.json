@@ -1,0 +1,88 @@
+{
+  "name": "async-each",
+  "description": "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+  "dist-tags": {
+    "latest": "1.0.3"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "maintainers": [
+    "es128 <elan.shanker+npm@gmail.com>",
+    "paulmillr <paul@paulmillr.com>"
+  ],
+  "time": {
+    "modified": "2019-04-16T18:59:04.757Z",
+    "created": "2013-06-14T07:31:34.692Z",
+    "0.1.0": "2013-06-14T07:31:37.982Z",
+    "0.1.1": "2013-06-14T07:57:30.957Z",
+    "0.1.2": "2013-07-07T04:50:48.081Z",
+    "0.1.3": "2013-07-24T21:11:53.435Z",
+    "0.1.4": "2013-11-12T21:57:46.049Z",
+    "0.1.5": "2014-10-23T12:55:44.577Z",
+    "0.1.6": "2014-11-05T22:16:18.395Z",
+    "1.0.0": "2015-11-26T17:53:29.606Z",
+    "1.0.1": "2016-08-24T23:22:17.631Z",
+    "1.0.2": "2019-03-14T02:51:30.259Z",
+    "1.0.3": "2019-04-16T18:59:01.830Z"
+  },
+  "author": "Paul Miller (https://paulmillr.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulmillr/async-each.git"
+  },
+  "users": {
+    "tunnckocore": true,
+    "artskydj": true,
+    "jpepe": true,
+    "youstrive": true,
+    "pandao": true,
+    "nichoth": true,
+    "j.su": true,
+    "vonthar": true
+  },
+  "homepage": "https://github.com/paulmillr/async-each/",
+  "keywords": [
+    "async",
+    "forEach",
+    "each",
+    "map",
+    "asynchronous",
+    "iteration",
+    "iterate",
+    "loop",
+    "parallel",
+    "concurrent",
+    "array",
+    "flow",
+    "control flow"
+  ],
+  "bugs": {
+    "url": "https://github.com/paulmillr/async-each/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "1.0.3",
+  "main": "index.js",
+  "dependencies": {},
+  "gitHead": "9c0980f671fd649e4523e15f5b281aaa5294409e",
+  "dist": {
+    "integrity": "sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==",
+    "shasum": "b727dbf87d7651602f06f4d4ac387f47d91b0cbf",
+    "tarball": "https://registry.npmjs.org/async-each/-/async-each-1.0.3.tgz",
+    "fileCount": 3,
+    "unpackedSize": 3952,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctiX2CRA9TVsSAnZWagAA/g8P/3l1hRV4XdJKp9iqXQsF\nXVdLV1ZOxsjzKD9rS3kI8sSu7pQShKPnrQ5wb3Y4w54tt1KRXuc/M5Ot6VIu\niCoK15Emyxv1EF2ElzijJGBPd4t0xikLxD9I9zdvTeBPUrq520fAjbSppCAj\nT5vwqqs+rP7SaldAKhKZY+Y1f5vWCZejTib56zcbLnNF8RnsCkOhrm4ifqRi\nHj1LZZIe/QIaPbmzLmVCI7efS0EZj34rSaOtM3dr37KK6BdB5U1q5ekrhHNu\nWsZntYLV1b71zF1N2UqiAFz4nYohjhP7r5s1edoYXdmznROOPTV4M69FNfHK\n0Z/kLfcj3GZbNEnZ/AsTsMyhBujUmpcv+ZC38+J4RRogEFxHOijfIlTAtsBG\nzZ9M399QmRyE5JSCR+/6uwqUJgZDb24rGJkRpRylOSvDQddQz9w3dRZgLQgk\njpV0gu0nN6jCL/wHND3NdVQ78ytYVK8UngPIf0iKdlg8S0ufvl7uBslzXtfd\nbAwZb0Ox7v/HUPTcpQ8/B+uz2gd6QYFv5e2By9LN9x25h6vSOUc3BakWt1WG\nm4kJs3sdi4QwpHNXBJ31xbi9zsbd4WGiYYTSGfaVBPxhXTIU92twoT639393\n8br0QTyqXTKV1eJGERuehQe0e0XsjuhX5LjuNaGTBHiElQ+yrAo95fk7+09G\nlRPd\r\n=f3sq\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

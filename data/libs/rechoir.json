@@ -1,0 +1,97 @@
+{
+  "name": "rechoir",
+  "description": "Prepare a node environment to require files with different extensions.",
+  "dist-tags": {
+    "latest": "0.7.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.6.1",
+    "0.6.2",
+    "0.7.0"
+  ],
+  "maintainers": [
+    "phated <blaine@iceddev.com>",
+    "tkellen <tyler@sleekcode.net>"
+  ],
+  "time": {
+    "modified": "2019-01-05T08:35:49.977Z",
+    "created": "2014-03-20T18:34:03.768Z",
+    "0.1.0": "2014-03-20T18:34:03.768Z",
+    "0.2.0": "2014-03-20T19:02:34.285Z",
+    "0.2.1": "2014-03-20T19:20:12.910Z",
+    "0.2.2": "2014-12-17T17:46:23.421Z",
+    "0.3.0": "2015-01-10T20:03:20.460Z",
+    "0.4.0": "2015-02-17T23:39:27.450Z",
+    "0.5.0": "2015-05-20T23:37:42.656Z",
+    "0.6.0": "2015-05-21T00:34:47.905Z",
+    "0.6.1": "2015-05-22T20:40:08.943Z",
+    "0.6.2": "2015-07-22T14:42:26.370Z",
+    "0.7.0": "2019-01-04T20:50:05.912Z"
+  },
+  "homepage": "https://github.com/gulpjs/rechoir#readme",
+  "keywords": [
+    "require",
+    "loader",
+    "extension",
+    "extensions",
+    "prepare"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulpjs/rechoir.git"
+  },
+  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "bugs": {
+    "url": "https://github.com/gulpjs/rechoir/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "shanewholloway": true
+  },
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com>",
+    "Tyler Kellen <tyler@sleekcode.net> (http://goingslowly.com/)"
+  ],
+  "license": "MIT",
+  "version": "0.7.0",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "rm -rf tmp/ && npm run lint",
+    "test": "mocha --async-only",
+    "cover": "istanbul cover _mocha --report lcovonly",
+    "coveralls": "npm run cover && istanbul-coveralls"
+  },
+  "dependencies": {
+    "resolve": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.0",
+    "eslint-config-gulp": "^3.0.1",
+    "expect": "^1.20.2",
+    "istanbul": "^0.4.3",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^3.5.3"
+  },
+  "gitHead": "fdabf8d47ed3063170dba9a3f69a539fccc8fb72",
+  "dist": {
+    "integrity": "sha512-ADsDEH2bvbjltXEP+hTIAmeFekTFK0V2BTxMkok6qILyAJEXV0AFfoWcAq4yfll5VdIMd/RVXq0lR+wQi5ZU3Q==",
+    "shasum": "32650fd52c21ab252aa5d65b19310441c7e03aca",
+    "tarball": "https://registry.npmjs.org/rechoir/-/rechoir-0.7.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 7911,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcL8b+CRA9TVsSAnZWagAA9KkP/jXej4OXTvCT5tobuOlT\nJWIwu/ybmiXA+0e8gKF9+hrKYKBbwzb2I8k0CL4n7tmgTDmhGcgBEHNpzkMu\nEbX4E2k9DgBkrkH09IlK6knBeGV12U03tSYN4TpiOUAcPnmsdSTXdRQCZgHJ\npAFRG4432ufk9VP9WKCiov69gys5UwynKDI5Bq8Yt9cP3TCVnhm5Swj3mdEh\nJahlKULuW4zsly0WDE0ZxxEYOEaFxcwtR3J4Z+K5TlFZpL+R+PG/OzYLqV9b\nnrP2ZUm2F3gHVXoQEFmFvtVo7hIgM06U+/Buzwx45iX1C4czC11PRtzneK1Y\nMgShfTLWp+/baye5m6EkpcS2iWHx9NomiZaH84IpHfOiCwoVbZC87gBCj2Qv\n5YKtV4a62L93C9s4+MyhJADqspVzoXCvO+vjBUpM7EJu6x5ar2SZghjfff6I\ntK65FwQahk2768IFC8jvtqxThHmPaIGIh8PzO3JjUy91h78i4Fd9DCsD80Fv\nyPI7p1YSqvsdDnShjmckVt2DO5KIEuctTGJAydQ5JViJ+S1pWYM+MCtjrBJW\nff00HzHm5d35zhJj9Y1LVQSVUE3j2Gd+kmIdcI/sTu9RowGl+pTUHCn2y2Xq\n0sPzH6LWWRwYmAOAZ9SAP5kdECJPAujGtj76++dGKpzojGoTRGtwj05adFfY\nlXAz\r\n=dNAG\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

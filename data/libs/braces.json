@@ -1,0 +1,179 @@
+{
+  "name": "braces",
+  "description": "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+  "dist-tags": {
+    "latest": "3.0.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.4",
+    "0.1.5",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "1.6.0",
+    "1.7.0",
+    "1.8.0",
+    "1.8.1",
+    "1.8.2",
+    "1.8.3",
+    "1.8.4",
+    "1.8.5",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.1.0",
+    "2.1.1",
+    "2.2.0",
+    "2.2.1",
+    "2.2.2",
+    "2.3.0",
+    "2.3.1",
+    "2.3.2",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2"
+  ],
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "es128 <elan.shanker+npm@gmail.com>",
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2019-04-16T19:51:15.518Z",
+    "created": "2014-10-20T16:26:32.656Z",
+    "0.1.0": "2014-10-20T16:26:32.656Z",
+    "0.1.1": "2014-10-22T18:19:54.228Z",
+    "0.1.2": "2014-10-22T18:51:58.044Z",
+    "0.1.3": "2014-11-15T03:23:28.705Z",
+    "0.1.4": "2014-11-15T03:24:22.095Z",
+    "0.1.5": "2014-11-24T02:08:00.293Z",
+    "1.0.0": "2014-12-23T11:35:57.637Z",
+    "1.1.0": "2015-01-12T00:45:29.358Z",
+    "1.2.0": "2015-01-16T11:55:08.268Z",
+    "1.3.0": "2015-01-24T11:32:14.592Z",
+    "1.4.0": "2015-01-25T00:33:05.711Z",
+    "1.5.0": "2015-01-28T18:08:49.158Z",
+    "1.5.1": "2015-01-30T13:27:20.249Z",
+    "1.6.0": "2015-01-30T13:35:38.758Z",
+    "1.7.0": "2015-01-31T00:24:25.055Z",
+    "1.8.0": "2015-03-18T11:37:22.409Z",
+    "1.8.1": "2015-08-21T10:17:04.643Z",
+    "1.8.2": "2015-10-19T17:46:05.744Z",
+    "1.8.3": "2015-12-19T23:03:30.884Z",
+    "1.8.4": "2016-04-20T08:24:45.636Z",
+    "1.8.5": "2016-05-21T15:13:02.602Z",
+    "2.0.0": "2016-10-20T01:32:09.939Z",
+    "2.0.1": "2016-10-20T21:05:23.946Z",
+    "2.0.2": "2016-10-21T06:46:42.002Z",
+    "2.0.3": "2016-12-11T01:13:25.003Z",
+    "2.0.4": "2017-04-12T01:12:43.808Z",
+    "2.1.0": "2017-04-26T22:39:25.950Z",
+    "2.1.1": "2017-04-27T08:10:11.271Z",
+    "2.2.0": "2017-05-28T23:30:13.765Z",
+    "2.2.1": "2017-05-31T01:21:11.257Z",
+    "2.2.2": "2017-05-31T09:56:31.159Z",
+    "2.3.0": "2017-10-19T13:37:09.763Z",
+    "2.3.1": "2018-02-18T04:16:49.881Z",
+    "2.3.2": "2018-04-08T14:21:51.992Z",
+    "3.0.0": "2019-04-08T22:47:07.141Z",
+    "3.0.1": "2019-04-10T11:30:12.815Z",
+    "3.0.2": "2019-04-16T19:51:12.829Z"
+  },
+  "homepage": "https://github.com/micromatch/braces",
+  "keywords": [
+    "alpha",
+    "alphabetical",
+    "bash",
+    "brace",
+    "braces",
+    "expand",
+    "expansion",
+    "filepath",
+    "fill",
+    "fs",
+    "glob",
+    "globbing",
+    "letter",
+    "match",
+    "matches",
+    "matching",
+    "number",
+    "numerical",
+    "path",
+    "range",
+    "ranges",
+    "sh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micromatch/braces.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/micromatch/braces/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "users": {
+    "simone.sanfra": true,
+    "oboochin": true,
+    "jonschlinkert": true
+  },
+  "contributors": [
+    "Brian Woodward (https://twitter.com/doowb)",
+    "Elan Shanker (https://github.com/es128)",
+    "Eugene Sharygin (https://github.com/eush77)",
+    "hemanth.hm (http://h3manth.com)",
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)"
+  ],
+  "version": "3.0.2",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "mocha",
+    "benchmark": "node benchmark"
+  },
+  "dependencies": {
+    "fill-range": "^7.0.1"
+  },
+  "devDependencies": {
+    "ansi-colors": "^3.2.4",
+    "bash-path": "^2.0.1",
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^6.1.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "plugins": [
+      "gulp-format-md"
+    ]
+  },
+  "gitHead": "25791512d219b284bd62bb068cae85d8e68bd05b",
+  "dist": {
+    "integrity": "sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==",
+    "shasum": "3454e1a462ee8d599e236df336cd9ea4f8afe107",
+    "tarball": "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz",
+    "fileCount": 11,
+    "unpackedSize": 49239,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctjIxCRA9TVsSAnZWagAAwA4P/i6j6DyxGZfojgDNzaNX\n6GlgCFb4mF64au4BAi+9q2gJTJOVbr2P/0iEl9tjdM5LU+tqEv1eLKkHenBi\ndc+ktaVD/c+XaTMubGNhtBfDxQUiU/QqI6dLMCEOb5EOlSclHsTiLV3frQxI\nEUzh9+LL3V6okecvADaWgt17xTWXSDRktZJoFeAK5q0017ras8yWLqp+5uDO\nRpapuec1wK4RRUDUS9/I+K9R7Kxv9aTyfdGQ5sueLj1QdAmNKDAVH77OG9Rl\nACDijw5L1KpzRkGxGkrwUHyjh0V7EMDwj74XgddEEE3eUgn5UN5n+Dmyj0/H\nP5tcGxOqNEpj9UueU8m6A18URJatSzDwqhAEKbJ1jyYs3LyElDUdiOxYedib\nHz8Ny9+5TJqEeEhU0de/8bsafjV4QsC/JZLI8nc9W65HVQ8M1fAgvxQ6O7Uj\naoZiqhME6OaE43tR4ldNnnYVujQInyOnTocL3GkbxNWvuQQieLNvBsV0p1H4\n6A9Q4y0fzsfdH+NoEJ3ghgSMn2P5Bb9EuExg0McW//H1Gj5+V2nfXEFGXoQE\n874CBL5gIxyAGSGiWB57y6bGCMWvo6gKhFdeEF+msvMSiv18hw4CcgogVzy/\n1pWI+R9hSWbaWD6q/Em9HmIJDqNS633NWy+KMMrEQLGZjfrEa3VsRjiXGCaH\nUQTq\r\n=kTks\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

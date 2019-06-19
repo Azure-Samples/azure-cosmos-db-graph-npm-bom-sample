@@ -1,0 +1,68 @@
+{
+  "name": "next-tick",
+  "description": "Environment agnostic nextTick polyfill",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "medikoo <medikoo+npm@medikoo.com>"
+  ],
+  "time": {
+    "modified": "2019-02-01T16:54:42.582Z",
+    "created": "2012-08-29T20:37:49.603Z",
+    "0.1.0": "2012-08-29T20:37:51.133Z",
+    "0.2.0": "2014-02-24T16:21:07.746Z",
+    "0.2.1": "2014-02-24T16:31:08.038Z",
+    "0.2.2": "2014-04-18T16:24:29.209Z",
+    "1.0.0": "2016-06-09T20:13:56.167Z"
+  },
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/next-tick.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/medikoo/next-tick#readme",
+  "keywords": [
+    "nexttick",
+    "setImmediate",
+    "setTimeout",
+    "async"
+  ],
+  "bugs": {
+    "url": "https://github.com/medikoo/next-tick/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "julien-f": true,
+    "subchen": true,
+    "bret": true,
+    "antixrist": true,
+    "erikvold": true,
+    "xiechao06": true
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "tad": "^0.2.4",
+    "xlint": "^0.2.2",
+    "xlint-jslint-medikoo": "^0.1.4"
+  },
+  "scripts": {
+    "lint": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
+    "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
+    "test": "node node_modules/tad/bin/tad"
+  },
+  "gitHead": "5b1c1d0ad81f3c494ca74db1cb8012c0f6a7e512",
+  "dist": {
+    "shasum": "ca86d1fe8828169b0120208e3dc8424b9db8342c",
+    "tarball": "https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz"
+  },
+  "directories": {}
+}

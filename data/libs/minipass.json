@@ -1,0 +1,126 @@
+{
+  "name": "minipass",
+  "description": "minimal implementation of a PassThrough stream",
+  "dist-tags": {
+    "latest": "2.3.5"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "1.1.6",
+    "1.1.7",
+    "1.1.8",
+    "1.1.9",
+    "1.1.10",
+    "1.1.11",
+    "1.2.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.1.0",
+    "2.1.1",
+    "2.2.0",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.4",
+    "2.3.0",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "2.3.4",
+    "2.3.5"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2019-01-04T19:42:36.562Z",
+    "created": "2017-03-14T00:11:57.420Z",
+    "1.0.0": "2017-03-14T00:11:57.420Z",
+    "1.0.1": "2017-03-22T00:26:16.857Z",
+    "1.0.2": "2017-03-22T04:40:04.601Z",
+    "1.1.0": "2017-03-28T06:13:10.262Z",
+    "1.1.1": "2017-03-28T07:06:23.059Z",
+    "1.1.2": "2017-03-28T08:14:58.366Z",
+    "1.1.3": "2017-03-29T00:58:09.871Z",
+    "1.1.4": "2017-03-29T01:25:23.560Z",
+    "1.1.5": "2017-03-29T06:18:55.673Z",
+    "1.1.6": "2017-03-29T06:46:51.682Z",
+    "1.1.7": "2017-04-03T20:21:06.787Z",
+    "1.1.8": "2017-04-10T17:52:57.826Z",
+    "1.1.9": "2017-04-22T03:02:25.768Z",
+    "1.1.10": "2017-04-28T00:40:45.977Z",
+    "1.1.11": "2017-04-30T02:36:01.406Z",
+    "1.2.0": "2017-04-30T04:14:30.434Z",
+    "2.0.0": "2017-05-04T07:59:52.477Z",
+    "2.0.1": "2017-05-04T20:46:53.600Z",
+    "2.0.2": "2017-05-10T17:07:21.058Z",
+    "2.1.0": "2017-06-14T16:17:30.707Z",
+    "2.1.1": "2017-06-14T16:26:50.686Z",
+    "2.2.0": "2017-07-09T05:17:47.759Z",
+    "2.2.1": "2017-07-10T05:09:48.146Z",
+    "2.2.2": "2018-03-20T16:23:26.657Z",
+    "2.2.3": "2018-03-20T16:26:35.853Z",
+    "2.2.4": "2018-03-20T16:44:28.516Z",
+    "2.3.0": "2018-05-06T17:52:27.992Z",
+    "2.3.1": "2018-05-18T23:25:47.557Z",
+    "2.3.2": "2018-05-22T03:42:41.482Z",
+    "2.3.3": "2018-05-22T18:59:35.084Z",
+    "2.3.4": "2018-08-10T16:25:21.783Z",
+    "2.3.5": "2018-10-23T21:46:18.167Z"
+  },
+  "homepage": "https://github.com/isaacs/minipass#readme",
+  "keywords": [
+    "passthrough",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/minipass.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/isaacs/minipass/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "users": {
+    "davidrapin": true,
+    "isaacs": true
+  },
+  "version": "2.3.5",
+  "main": "index.js",
+  "dependencies": {
+    "safe-buffer": "^5.1.2",
+    "yallist": "^3.0.0"
+  },
+  "devDependencies": {
+    "end-of-stream": "^1.4.0",
+    "tap": "^12.0.1",
+    "through2": "^2.0.3"
+  },
+  "scripts": {
+    "test": "tap test/*.js --100",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "gitHead": "d362cb255c2b2ad24b0b6bf8cef35c522ba29019",
+  "dist": {
+    "integrity": "sha512-Gi1W4k059gyRbyVUZQ4mEqLm0YIUiGYfvxhF6SIlk3ui1WVxMTGfGdQ2SInh3PDrRTVvPKgULkpJtT4RH10+VA==",
+    "shasum": "cacebe492022497f656b0f0f51e2682a9ed2d848",
+    "tarball": "https://registry.npmjs.org/minipass/-/minipass-2.3.5.tgz",
+    "fileCount": 4,
+    "unpackedSize": 14386,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbz5aqCRA9TVsSAnZWagAA/B0P/Rej1sO8g6TSQIjZjCvF\nYsjpCFY2OTCUyOv4S4ZgsedbTBYJF93gbJfVm1hox5Ot0/8G+lBUhD+PfRob\nz6jqVE7u6s7XWnEbIoKXbXDn7ZR4TpcdZDOVSUU9wYODeFiqDyYVhdG5dYbs\nT5VKJ8qeFKlYvE1J4vi78uw4cITREHQruGHxFrWK2YRtSBmhicTxMq9fmrBY\ncKMKVPOA/9tbmskbONUHaLJPxGfn29hda1b7WVouXgOAZIsRI10kRa/AsrTU\nf/7cjF+WLWOSopo2KJmotXzkzSYt88WQmWJdW+WrizCxr7jU4+gLhVRU8tWw\nLwV9v14gNDSDz1KZkdswMIQn2ur+g7pIwU74ssWmHEbaonhNkgFzCVGb1Bko\nzSRCTbwB2jdYre4GMlNtZ2aykZxxOGyPx3E3dBbx5RrfCAf/9PWpXwOOofal\nLaazfYdmvPZzA3pT3/IfbS6aVi0zeJ+9U0NbylcvBUQrZkeNQl15DSO+ecRy\nu8WB30itu09Vsc3pWtjJVdqrtjCd+fJyWYUltTFtBUQwr2Oci6oUDweA7qfe\nDcjVk/bFhCmBq/zfY6PQMQGfnrUcXvyQWQAigSvcPElXQEov2DHkuedB3iPy\npA1mwxQv3T59lvImDtLElLM012+J8QGg9IeUZkG8EPQ6T+8jR68lvoNa/yAZ\nkIYX\r\n=mxCF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

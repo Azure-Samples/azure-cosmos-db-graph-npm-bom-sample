@@ -1,0 +1,70 @@
+{
+  "name": "hooker",
+  "description": "Monkey-patch (hook) functions for debugging and stuff.",
+  "dist-tags": {
+    "latest": "0.2.3"
+  },
+  "versions": [
+    "0.2.3"
+  ],
+  "maintainers": [
+    "cowboy <cowboy@rj3.net>"
+  ],
+  "time": {
+    "modified": "2018-08-03T00:44:06.156Z",
+    "created": "2012-01-31T17:12:07.054Z",
+    "0.2.3": "2012-01-31T17:12:07.821Z"
+  },
+  "author": "\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cowboy/javascript-hooker.git"
+  },
+  "users": {
+    "tigefa": true,
+    "fgribreau": true,
+    "edin-m": true,
+    "itonyyo": true,
+    "hsrob": true,
+    "zillding": true,
+    "sirrah": true,
+    "sopepos": true,
+    "boto": true
+  },
+  "homepage": "http://github.com/cowboy/javascript-hooker",
+  "keywords": [
+    "patch",
+    "hook",
+    "function",
+    "debug",
+    "aop"
+  ],
+  "bugs": {
+    "url": "https://github.com/cowboy/javascript-hooker/issues"
+  },
+  "readmeFilename": "",
+  "version": "0.2.3",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cowboy/javascript-hooker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.2.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "main": "lib/hooker",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "optionalDependencies": {},
+  "dist": {
+    "shasum": "b834f723cc4a242aa65963459df6d984c5d3d959",
+    "tarball": "https://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz"
+  },
+  "directories": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "is-regex",
+  "description": "Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag",
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-04-13T05:35:43.379Z",
+    "created": "2014-01-15T09:16:09.209Z",
+    "0.0.0": "2014-01-15T09:16:09.209Z",
+    "1.0.0": "2014-05-19T07:26:17.660Z",
+    "1.0.1": "2015-01-28T21:56:26.403Z",
+    "1.0.2": "2015-01-29T22:29:04.957Z",
+    "1.0.3": "2015-01-30T08:01:27.392Z",
+    "1.0.4": "2017-02-18T08:39:40.514Z"
+  },
+  "users": {
+    "arteffeckt": true,
+    "rocket0191": true
+  },
+  "homepage": "https://github.com/ljharb/is-regex",
+  "keywords": [
+    "regex",
+    "regexp",
+    "is",
+    "regular expression",
+    "regular",
+    "expression"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/is-regex.git"
+  },
+  "author": "Jordan Harband",
+  "bugs": {
+    "url": "https://github.com/ljharb/is-regex/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.4",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run tests-only",
+    "tests-only": "node --harmony --es-staging test.js",
+    "posttest": "npm run security",
+    "coverage": "covert test.js",
+    "coverage-quiet": "covert test.js --quiet",
+    "lint": "npm run jscs && npm run eslint",
+    "jscs": "jscs *.js",
+    "eslint": "eslint test.js *.js",
+    "eccheck": "editorconfig-tools check *.js **/*.js > /dev/null",
+    "security": "nsp check"
+  },
+  "dependencies": {
+    "has": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "covert": "^1.1.0",
+    "jscs": "^3.0.7",
+    "editorconfig-tools": "^0.1.1",
+    "nsp": "^2.6.2",
+    "eslint": "^3.15.0",
+    "@ljharb/eslint-config": "^11.0.0",
+    "semver": "^5.3.0",
+    "replace": "^0.3.0"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..12.0",
+      "opera/15.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "gitHead": "9c718fe1b3997eb70d5cbf7a6f5f233461868a00",
+  "dist": {
+    "shasum": "5517489b547091b0930e095654ced25ee97e9491",
+    "tarball": "https://registry.npmjs.org/is-regex/-/is-regex-1.0.4.tgz"
+  },
+  "directories": {}
+}

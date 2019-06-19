@@ -1,0 +1,101 @@
+{
+  "name": "optionator",
+  "description": "option parsing and help generation",
+  "dist-tags": {
+    "latest": "0.8.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.7.1",
+    "0.8.0",
+    "0.8.1",
+    "0.8.2"
+  ],
+  "maintainers": [
+    "gkz <z@georgezahariev.com>"
+  ],
+  "time": {
+    "modified": "2017-03-20T16:14:54.776Z",
+    "created": "2013-11-02T01:40:11.286Z",
+    "0.1.0": "2013-11-02T01:40:13.114Z",
+    "0.1.1": "2013-12-17T23:23:56.525Z",
+    "0.2.0": "2014-03-14T05:24:09.984Z",
+    "0.2.1": "2014-03-14T06:25:34.517Z",
+    "0.2.2": "2014-03-21T00:08:50.647Z",
+    "0.3.0": "2014-04-08T06:51:04.492Z",
+    "0.4.0": "2014-04-29T07:52:44.914Z",
+    "0.5.0": "2014-12-18T03:27:20.071Z",
+    "0.6.0": "2015-04-13T06:06:24.093Z",
+    "0.7.0": "2015-12-09T08:53:22.246Z",
+    "0.7.1": "2015-12-09T10:02:15.631Z",
+    "0.8.0": "2015-12-29T06:11:35.577Z",
+    "0.8.1": "2016-01-01T02:45:06.038Z",
+    "0.8.2": "2016-09-21T19:45:44.538Z"
+  },
+  "author": "George Zahariev <z@georgezahariev.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkz/optionator.git"
+  },
+  "homepage": "https://github.com/gkz/optionator",
+  "keywords": [
+    "options",
+    "flags",
+    "option parsing",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/gkz/optionator/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "greggman": true,
+    "mondalaci": true,
+    "quzhi78": true,
+    "noyobo": true,
+    "rawphp": true,
+    "nec": true
+  },
+  "license": "MIT",
+  "version": "0.8.2",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./lib/",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "prelude-ls": "~1.1.2",
+    "deep-is": "~0.1.3",
+    "wordwrap": "~1.0.0",
+    "type-check": "~0.3.2",
+    "levn": "~0.3.0",
+    "fast-levenshtein": "~2.0.4"
+  },
+  "devDependencies": {
+    "livescript": "~1.5.0",
+    "mocha": "~3.0.2",
+    "istanbul": "~0.4.1"
+  },
+  "gitHead": "191de235d5afa47ebb655fc0efbc2b616263d81b",
+  "dist": {
+    "shasum": "364c5e409d3f4d6301d6c0b4c05bba50180aeb64",
+    "tarball": "https://registry.npmjs.org/optionator/-/optionator-0.8.2.tgz"
+  },
+  "directories": {}
+}

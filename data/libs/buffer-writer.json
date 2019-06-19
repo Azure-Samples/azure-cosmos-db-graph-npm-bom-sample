@@ -1,0 +1,59 @@
+{
+  "name": "buffer-writer",
+  "description": "a fast, efficient buffer writer",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "brianc <brian.m.carlson@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-01T11:08:17.863Z",
+    "created": "2013-12-12T23:32:53.134Z",
+    "1.0.0": "2013-12-12T23:32:53.677Z",
+    "1.0.1": "2016-02-15T16:43:38.108Z",
+    "2.0.0": "2018-11-07T14:17:24.372Z"
+  },
+  "author": "Brian M. Carlson",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/node-buffer-writer.git"
+  },
+  "homepage": "https://github.com/brianc/node-buffer-writer#readme",
+  "keywords": [
+    "buffer",
+    "writer",
+    "builder"
+  ],
+  "bugs": {
+    "url": "https://github.com/brianc/node-buffer-writer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --throw-deprecation"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "gitHead": "39d3adbd57b7e53c5e28ef972eb4b07590f38e99",
+  "dist": {
+    "integrity": "sha512-a7ZpuTZU1TRtnwyCNW3I5dc0wWNC3VR9S++Ewyk2HHZdrO3CQJqSpd+95Us590V6AL7JqUAH2IwZ/398PmNFgw==",
+    "shasum": "ce7eb81a38f7829db09c873f2fbb792c0c98ec04",
+    "tarball": "https://registry.npmjs.org/buffer-writer/-/buffer-writer-2.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 13706,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4vP0CRA9TVsSAnZWagAA+vAP/AnDhOaCJfyreAL0EINJ\nBZHo+oT51TnjhXBQvVt+jeTx15bEPpKGBixokln2Vz5GRL90tBdaCHHfUz4v\n9djgoBES7WAIAR8J7ctVXY1yjzIrVeqCDE2czxuwRylzXJc5vYS9rHUxyNqx\ny1oDYN3WzunEzKF+9X15+EAdCvH1XGGQLN2k3J5YPFfMfoeHSaNm0KboUiXv\n6Rx/PgarG97u4cKtD1+jeQD7uU1Fv+bQVHS1qkkhC9nVVtDdMcvFKWJnz0Qq\njsqS51OPnwbiP+I7mzBFQHd57z5E6xXQwXIw0fliCTVmigRgw9nbiZyg6cb4\n+KnIWZ95qsx4FfPU6pGkIdT+xFKR5Ak9NajLI5V0kYbxPYMX4Rl0HlkzKf5t\nnl48Zlj1WYqen+rJnfKb1m/iwhC0bHjpA8PaCCTcdgoJaWtQj9UcORUMAK8Y\nEQnmlxHAyRwAEZFIXOpG66utHxsU6Iw5Y/f7O69V2MpGRTWFwFKNFdRgSCpt\neF/bBDjlujsRZlaLd7Nvs8PagXUayH3xWJqvkjt0nNRsomx7ZlAEgbDNUH9r\nxu5jXlYIquBpx9N9HtwF/awTWadaQ2iK8XP5+4TLyul6wHvptVSBM3NjO89N\njdZ3FcyEwZR6+HLZ5o4AE5oKbwKCIvIIGx2AVt/qGtLeHqw7vsgp0gSQ3aXU\n04hf\r\n=YrKg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

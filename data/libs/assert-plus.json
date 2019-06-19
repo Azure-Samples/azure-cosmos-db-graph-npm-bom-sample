@@ -1,0 +1,89 @@
+{
+  "name": "assert-plus",
+  "description": "Extra assertions on top of node's assert module",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.2.0",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "mcavage <mcavage@gmail.com>",
+    "pfmooney <patrick.f.mooney@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-08-02T19:38:49.597Z",
+    "created": "2012-06-23T23:15:09.466Z",
+    "0.1.0": "2012-06-23T23:15:10.890Z",
+    "0.1.1": "2012-09-11T17:23:02.814Z",
+    "0.1.2": "2012-09-18T21:45:30.157Z",
+    "0.1.3": "2013-05-21T21:40:02.279Z",
+    "0.1.4": "2013-06-27T17:20:20.703Z",
+    "0.1.5": "2013-11-25T17:23:47.053Z",
+    "0.2.0": "2015-11-10T07:51:02.234Z",
+    "1.0.0": "2016-01-27T19:03:38.091Z"
+  },
+  "author": "Mark Cavage <mcavage@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcavage/node-assert-plus.git"
+  },
+  "users": {
+    "hellboy81": true,
+    "chmanie": true,
+    "barenko": true,
+    "blackwhite": true,
+    "qqqppp9998": true,
+    "benhutchins": true,
+    "irnnr": true,
+    "jeltok": true,
+    "kkuehl": true,
+    "xiechao06": true,
+    "dnero": true,
+    "kontrax": true,
+    "xinwangwang": true,
+    "vparaskevas": true,
+    "caiorcferreira": true,
+    "zhenguo.zhao": true
+  },
+  "bugs": {
+    "url": "https://github.com/mcavage/node-assert-plus/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/mcavage/node-assert-plus#readme",
+  "contributors": [
+    "Dave Eddy <dave@daveeddy.com>",
+    "Fred Kuo <fred.kuo@joyent.com>",
+    "Lars-Magnus Skog <ralphtheninja@riseup.net>",
+    "Mark Cavage <mcavage@gmail.com>",
+    "Patrick Mooney <pmooney@pfmooney.com>",
+    "Rob Gulewich <robert.gulewich@joyent.com>"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./assert.js",
+  "devDependencies": {
+    "tape": "4.2.2",
+    "faucet": "0.0.1"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "tape tests/*.js | ./node_modules/.bin/faucet"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {},
+  "dist": {
+    "shasum": "f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525",
+    "tarball": "https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz"
+  },
+  "directories": {}
+}

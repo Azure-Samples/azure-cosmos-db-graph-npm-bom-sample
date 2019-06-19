@@ -1,0 +1,100 @@
+{
+  "name": "npm-packlist",
+  "description": "Get a list of the files to add from a folder into an npm package",
+  "dist-tags": {
+    "latest": "1.4.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "1.1.6",
+    "1.1.7",
+    "1.1.8",
+    "1.1.9",
+    "1.1.10",
+    "1.1.11",
+    "1.1.12",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1"
+  ],
+  "maintainers": [
+    "audrey.e <audrey@npmjs.com>",
+    "iarna <me@re-becca.org>",
+    "isaacs <i@izs.me>",
+    "zkat <npm@zkat.tech>"
+  ],
+  "time": {
+    "modified": "2019-02-20T19:14:28.407Z",
+    "created": "2017-05-27T06:11:52.379Z",
+    "1.0.0": "2017-05-27T06:11:52.379Z",
+    "1.0.1": "2017-05-27T07:32:20.448Z",
+    "1.1.0": "2017-05-29T04:55:31.369Z",
+    "1.1.1": "2017-05-29T16:12:08.852Z",
+    "1.1.2": "2017-05-29T16:24:21.644Z",
+    "1.1.3": "2017-05-29T16:27:11.011Z",
+    "1.1.4": "2017-05-29T16:47:12.174Z",
+    "1.1.5": "2017-05-30T01:48:19.257Z",
+    "1.1.6": "2017-06-02T18:45:14.938Z",
+    "1.1.7": "2017-08-22T22:39:37.220Z",
+    "1.1.8": "2017-08-22T22:47:10.838Z",
+    "1.1.9": "2017-09-08T21:52:12.769Z",
+    "1.1.10": "2017-10-20T20:53:21.576Z",
+    "1.1.11": "2018-07-24T20:14:56.323Z",
+    "1.1.12": "2018-10-08T17:58:53.491Z",
+    "1.2.0": "2019-01-04T19:09:29.050Z",
+    "1.3.0": "2019-02-05T21:52:06.642Z",
+    "1.4.0": "2019-02-19T20:06:48.212Z",
+    "1.4.1": "2019-02-20T19:14:25.004Z"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "homepage": "https://www.npmjs.com/package/npm-packlist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/npm-packlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npm/npm-packlist/issues"
+  },
+  "users": {
+    "evocateur": true
+  },
+  "version": "1.4.1",
+  "directories": {
+    "test": "test"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "ignore-walk": "^3.0.1",
+    "npm-bundled": "^1.0.1"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1",
+    "tap": "^12.0.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js --100 -J",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "gitHead": "1a4c8bfe712f8b2804c0ae48fb2a9dd99c78ef99",
+  "dist": {
+    "integrity": "sha512-+TcdO7HJJ8peiiYhvPxsEDhF3PJFGUGRcFsGve3vxvxdcpO2Z4Z7rkosRM0kWj6LfbK/P0gu3dzk5RU1ffvFcw==",
+    "shasum": "19064cdf988da80ea3cee45533879d90192bbfbc",
+    "tarball": "https://registry.npmjs.org/npm-packlist/-/npm-packlist-1.4.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 11790,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcbacRCRA9TVsSAnZWagAA6BsP/38S3J9GdSa4atDkkOLl\niRCC/qv4pn6W77V3x7d3ttqxDnRYWm56v1QGy/dUxKmIFFVBq9SXhUzUaU+b\nMZAxItEt2xJtfKbI2FO9yRSPx+ROwoxB3Vk/Fuut4hpk2YL/oBZA0o/8l5sd\ncKTWj8TP7SyotmXum9cOEBSOwYTjwFKIteQ6JuGGssX9+QUe6qN9DdTX8Rvx\nwPXeyPCmRRYG1JDnOz5j5xEfNz7b7yfyzZkYf2WSH6lbPqJrM+OOEHy6JGGV\nfmX3mTAZSZ/nHgipgO6a8eqFDJCF23bmaXqw0aLw82RrsdG2grddMRWoe4D8\n/VMVvNecISx7SyRMxPEY0s/GkNroIAPCzPFdj1YhJfFC0EtBAWhFNQpq0aFw\nHsygbtiydg/W1rpImdow07h2ELw2BbsMrfDTlsH+xiGE2tcibSgliP1+W6PR\nHawz4gbwvBfxAvbqhThUuEsCULa8sHqw+XYdS4RTrjquDMqOIJi1J4tnWMNp\nVsPvSyGEGU+HivK7phKzgJQ2xIwqtWE/8ef8x/YnPftpdVZiYaQyEfFTI5Pn\nvZ93wNGKt1T2ZuUkTEtMi2nmusLSw85Tmjnf27cW6zqDPgIgLCs27UDO0vvi\ngsb3N4BNB2uzgvYHC9uCMTlxOw9yzm4npdvF/4kn1v/NuNF+OsXJaydgnzkY\nS1r1\r\n=MXQj\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

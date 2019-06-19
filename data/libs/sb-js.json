@@ -1,0 +1,79 @@
+{
+  "name": "sb-js",
+  "description": "A Node.js library implementing a simple StringBuffer, much like the Java class.",
+  "dist-tags": {
+    "latest": "0.3.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "maintainers": [
+    "cjoakim <christopher.joakim@gmail.com>"
+  ],
+  "time": {
+    "modified": "2015-05-02T10:05:23.430Z",
+    "created": "2014-11-06T11:50:50.387Z",
+    "0.0.1": "2014-11-06T11:50:50.387Z",
+    "0.1.0": "2014-11-06T12:14:12.482Z",
+    "0.1.1": "2015-01-24T13:54:01.970Z",
+    "0.2.0": "2015-04-22T22:34:25.598Z",
+    "0.3.0": "2015-05-02T10:05:23.430Z"
+  },
+  "homepage": "https://github.com/cjoakim/sb-js",
+  "keywords": [
+    "string",
+    "buffer",
+    "stringbuffer",
+    "stringbuilder",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjoakim/sb-js.git"
+  },
+  "author": "Chris Joakim (http://www.chrisjoakim.com)",
+  "bugs": {
+    "url": "https://github.com/cjoakim/sb-js/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "cjoakim": true
+  },
+  "version": "0.3.0",
+  "main": "lib/sb-js.js",
+  "licenses": [
+    {
+      "type": "ISC",
+      "url": "https://github.com/cjoakim/sb-js/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "path": "~0.11.14"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "grunt": "~0.4.5",
+    "grunt-typescript": "~0.6.1",
+    "grunt-contrib-coffee": "~0.12.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-mocha-istanbul": "~2.3.0",
+    "istanbul": "~0.3.5",
+    "mocha": "~2.1.0",
+    "should": "~4.6.1",
+    "sinon": "~1.12.2",
+    "typescript": "~1.4.1"
+  },
+  "scripts": {
+    "test": "grunt ; grunt test"
+  },
+  "gitHead": "d0581cf4409820f1b9899cdb129752ae87f97222",
+  "dist": {
+    "shasum": "4d7e361f722079b6cb1b0e92cfb0712dee1b1141",
+    "tarball": "https://registry.npmjs.org/sb-js/-/sb-js-0.3.0.tgz"
+  },
+  "directories": {}
+}

@@ -1,0 +1,87 @@
+{
+  "name": "fined",
+  "description": "Find a file given a declaration of locations.",
+  "dist-tags": {
+    "latest": "1.2.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0"
+  ],
+  "maintainers": [
+    "contra <yo@contra.io>",
+    "phated <blaine.bublitz@gmail.com>",
+    "sttk <sttk.xslet@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-21T13:15:25.021Z",
+    "created": "2016-06-16T00:22:00.735Z",
+    "1.0.0": "2016-06-16T00:22:00.735Z",
+    "1.0.1": "2016-06-19T01:01:34.307Z",
+    "1.0.2": "2016-10-05T22:10:48.684Z",
+    "1.1.0": "2017-06-18T19:45:42.755Z",
+    "1.1.1": "2018-12-10T21:05:00.117Z",
+    "1.2.0": "2019-04-21T13:15:21.480Z"
+  },
+  "homepage": "https://github.com/gulpjs/fined#readme",
+  "keywords": [
+    "find",
+    "lookup",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulpjs/fined.git"
+  },
+  "contributors": [
+    "Takayuki Sato <sttk.xslet@gmail.com>",
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "bugs": {
+    "url": "https://github.com/gulpjs/fined/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.2.0",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha --async-only",
+    "cover": "istanbul cover _mocha --report lcovonly",
+    "coveralls": "npm run cover && istanbul-coveralls"
+  },
+  "dependencies": {
+    "expand-tilde": "^2.0.2",
+    "is-plain-object": "^2.0.3",
+    "object.defaults": "^1.1.0",
+    "object.pick": "^1.2.0",
+    "parse-filepath": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.0",
+    "eslint-config-gulp": "^3.0.1",
+    "expect": "^1.20.2",
+    "istanbul": "^0.4.3",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^3.5.3"
+  },
+  "gitHead": "936f3ab1a950196d43923aef84ecf5f90f95ac92",
+  "dist": {
+    "integrity": "sha512-ZYDqPLGxDkDhDZBjZBb+oD1+j0rA4E0pXY50eplAAOPg2N/gUBSSk5IM1/QhPfyVo19lJ+CvXpqfvk+b2p/8Ng==",
+    "shasum": "d00beccf1aa2b475d16d423b0238b713a2c4a37b",
+    "tarball": "https://registry.npmjs.org/fined/-/fined-1.2.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 8659,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcvGzqCRA9TVsSAnZWagAA1sUP/0K6eAfohjYW63XMNQYH\nOZV+4UQXIwyzxOncrJtsXvpBUi8L/hYRVtpkWthFE4QwQV+7bORZl7SA3g13\nSERe7MXF9qRVC9RJ9hrmo20ygEDVTwq/R/AR6N09XX+9BW2VdKBwwvhYGVM3\nmyYDR9sEFRVBanAFRqGkSZpfoXd3ap13lPYi+bCiYn0hqAJAJOM1JhLTh9Wg\ng5MkSIitSQ1xZf7BRpb/jUOUxNMR43KNbaijQr1QKeKVb1AggmRzaG3kixX5\nLGm8UcbjNnQ33czhvRetV0Tm+KdQrDs+p+opFfbYfWJ7suqOns+LtS2HUeTm\ngA+WWe+qszuWGWlIcviFPBXf0QY5RuBB/KCrvCfbdLr4AuPV6/5T2oLoY9FV\nbIGoPYGGU+Dn6e0RUPcBbt6NK9JeMyZ1AxGZzJZdjIEFIjw6SW+LmeHDf64N\nJHiCksyWnvqHkryoNih6MqVLzlKSNA81vRKhf7TJdyU4mhumGwWegQe69Tbn\nrsohoPwFVlRdMkAQjkQHkq7DVvYwebgG46P4Wr/xkGBDycUP2UYO6xIhaSRK\nWYeiYhidjx/qZXvpAgUPWIYPIeTU6J9SLj7GYBKXJK4434vH6BCupY2EvmeP\nGavxuWc79dV0mnWy01HWwPoX7jucsFC95dd0YtnNxq09ISZWX2Qctgze9aKB\nWtcF\r\n=m0s7\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

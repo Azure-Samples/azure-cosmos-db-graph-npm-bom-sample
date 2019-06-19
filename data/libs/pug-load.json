@@ -1,0 +1,72 @@
+{
+  "name": "pug-load",
+  "description": "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+  "dist-tags": {
+    "latest": "2.0.11"
+  },
+  "versions": [
+    "1.0.3",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.0.7",
+    "2.0.8",
+    "2.0.9",
+    "2.0.10",
+    "2.0.11"
+  ],
+  "maintainers": [
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-08T16:32:36.973Z",
+    "created": "2016-05-04T01:38:54.632Z",
+    "1.0.3": "2016-05-04T01:38:54.632Z",
+    "2.0.0": "2016-05-15T11:58:54.672Z",
+    "2.0.1": "2016-08-24T01:22:02.737Z",
+    "2.0.2": "2016-08-24T01:25:45.690Z",
+    "2.0.3": "2016-08-24T18:58:13.015Z",
+    "2.0.4": "2017-01-24T01:07:16.614Z",
+    "2.0.5": "2017-02-04T12:40:35.045Z",
+    "2.0.6": "2017-04-18T00:36:26.399Z",
+    "2.0.7": "2017-06-02T12:33:31.512Z",
+    "2.0.8": "2017-08-01T15:53:45.749Z",
+    "2.0.9": "2017-09-06T15:28:08.370Z",
+    "2.0.10": "2018-03-06T13:12:35.622Z",
+    "2.0.11": "2018-03-08T16:32:36.405Z"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pugjs/pug-load.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "paulkolesnyk": true
+  },
+  "version": "2.0.11",
+  "dependencies": {
+    "object-assign": "^4.1.0",
+    "pug-walk": "^1.1.7"
+  },
+  "devDependencies": {
+    "pug-lexer": "^4.0.0",
+    "pug-parser": "^5.0.0"
+  },
+  "licenseText": "Copyright (c) 2015 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+  "dist": {
+    "shasum": "e648e57ed113fe2c1f45d57858ea2bad6bc01527",
+    "tarball": "https://registry.npmjs.org/pug-load/-/pug-load-2.0.11.tgz",
+    "fileCount": 14,
+    "unpackedSize": 13862
+  },
+  "directories": {}
+}

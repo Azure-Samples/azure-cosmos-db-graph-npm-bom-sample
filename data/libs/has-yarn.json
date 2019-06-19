@@ -1,0 +1,67 @@
+{
+  "name": "has-yarn",
+  "description": "Check if a project is using Yarn",
+  "dist-tags": {
+    "latest": "2.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-31T21:02:10.917Z",
+    "created": "2016-12-12T15:55:01.875Z",
+    "1.0.0": "2016-12-12T15:55:01.875Z",
+    "2.0.0": "2019-03-12T16:56:57.619Z",
+    "2.1.0": "2019-03-31T21:02:06.987Z"
+  },
+  "homepage": "https://github.com/sindresorhus/has-yarn#readme",
+  "keywords": [
+    "yarn",
+    "has",
+    "detect",
+    "is",
+    "project",
+    "app",
+    "module",
+    "package",
+    "manager",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/has-yarn.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/has-yarn/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "2.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "b7b7b341a2c339050bade6b77152b266c2bdc89c",
+  "dist": {
+    "integrity": "sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==",
+    "shasum": "137e11354a7b5bf11aa5cb649cf0c6f3ff2b2e77",
+    "tarball": "https://registry.npmjs.org/has-yarn/-/has-yarn-2.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3392,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoSrPCRA9TVsSAnZWagAAK70P/RODGqpE8oEYl26GLC/8\n/zDdpYheVd6QOVO8wBBmuLWMIRYhn6G6dJNL+YBqf09LStabhGEyAJz+d6bW\ntOaOiDu+6lgmTkwp0FUPQj3YVoH5s3HIfqtY/OZghZbmwhtw5Bk+/aY8jnXx\nd54KOYSLYtUt8L6sgfUt/2q4b0qULK4eWtK1xVaJbG2ui3b2cWMlckgoN85B\nWTD5W99i2R/y4QT8CDKb3Ke/NdIrT53oOfzTZJqqElqGlesIY3B3yAUWU10o\nC10XROkMsmkuYPr+1lQYw9lQotbzJKaGUZKb5PgUFNJH4DW/O804G3NusP9C\nWMJFLA32wlvlHK7F2U7vuLbIGzoj3ggUu7ZvRWhYDvSlozIOJlez994zDi8s\noZWBXPm1kOdfkTECyoP51jZ0GCNxGew1KDjniO3GpEmKfIBU0ER37sEBs67y\nzpOMSm7bz6su+Hw8vJzU5M+VCz0yNDk6yh9FnLfoG4oCLIosc8bAS6ceK4b8\nFDRlSA6auBaqeqniln/B3vfJVRRMhXNBIZBlTyWDFVCly9B787z8xAJjvFwD\n3XMNg2Z7EMeDlIThtoFqzX799DVGOyht8pIfhrBZJmQEXVMIhvcfp78HoLWL\nDG5+oWXMnL2UAv71RfR5eTih4avJijr50idkonEOtRFULEY4PEpzS0oRUm/j\nkH0E\r\n=7ej/\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

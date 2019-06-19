@@ -1,0 +1,178 @@
+{
+  "name": "es-abstract",
+  "description": "ECMAScript spec abstract operations.",
+  "dist-tags": {
+    "latest": "1.13.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.4.0",
+    "1.4.1",
+    "1.4.2",
+    "1.4.3",
+    "1.5.0",
+    "1.5.1",
+    "1.6.0",
+    "1.6.1",
+    "1.7.0",
+    "1.8.0",
+    "1.8.1",
+    "1.8.2",
+    "1.9.0",
+    "1.10.0",
+    "1.11.0",
+    "1.12.0",
+    "1.13.0"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-03T19:15:59.695Z",
+    "created": "2015-01-11T02:28:46.517Z",
+    "1.0.0": "2015-01-11T02:28:46.517Z",
+    "1.0.1": "2015-01-30T08:24:19.992Z",
+    "1.1.0": "2015-02-17T09:56:15.293Z",
+    "1.1.1": "2015-03-19T09:49:53.887Z",
+    "1.2.0": "2015-03-19T09:57:14.485Z",
+    "1.1.2": "2015-03-21T06:13:47.742Z",
+    "1.2.1": "2015-03-21T06:13:55.620Z",
+    "1.2.2": "2015-07-29T06:49:43.123Z",
+    "1.3.0": "2015-08-15T09:05:01.445Z",
+    "1.3.1": "2015-08-15T20:54:35.222Z",
+    "1.3.2": "2015-09-27T13:55:44.542Z",
+    "1.4.0": "2015-10-18T05:18:13.012Z",
+    "1.4.1": "2015-11-01T06:28:49.596Z",
+    "1.4.2": "2015-11-02T08:31:24.503Z",
+    "1.4.3": "2015-11-04T20:17:21.874Z",
+    "1.5.0": "2015-12-27T19:40:42.913Z",
+    "1.5.1": "2016-05-31T06:00:32.624Z",
+    "1.6.0": "2016-08-20T09:35:16.178Z",
+    "1.6.1": "2016-08-21T09:26:22.987Z",
+    "1.7.0": "2017-01-23T01:26:46.994Z",
+    "1.8.0": "2017-08-04T07:34:26.657Z",
+    "1.8.1": "2017-08-30T18:56:44.550Z",
+    "1.8.2": "2017-09-04T15:54:45.273Z",
+    "1.9.0": "2017-10-01T06:25:57.649Z",
+    "1.10.0": "2017-11-24T15:46:36.858Z",
+    "1.11.0": "2018-03-21T15:58:39.745Z",
+    "1.12.0": "2018-05-31T17:25:00.911Z",
+    "1.13.0": "2019-01-03T07:45:53.164Z"
+  },
+  "homepage": "https://github.com/ljharb/es-abstract#readme",
+  "keywords": [
+    "ECMAScript",
+    "ES",
+    "abstract",
+    "operation",
+    "abstract operation",
+    "JavaScript",
+    "ES5",
+    "ES6",
+    "ES7"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/es-abstract.git"
+  },
+  "author": "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+  "bugs": {
+    "url": "https://github.com/ljharb/es-abstract/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "contributors": [
+    "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)"
+  ],
+  "users": {
+    "xotic750": true,
+    "garrickajo": true
+  },
+  "version": "1.13.0",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "safe-publish-latest",
+    "pretest": "npm run --silent lint",
+    "test": "npm run tests-only",
+    "posttest": "npm run audit",
+    "tests-only": "node test",
+    "coverage": "nyc npm run --silent tests-only >/dev/null",
+    "postcoverage": "nyc report",
+    "lint": "eslint test/*.js *.js",
+    "eccheck": "editorconfig-tools check *.js **/*.js > /dev/null",
+    "preaudit": "npm install --package-lock --package-lock-only",
+    "audit": "npm audit",
+    "postaudit": "rm package-lock.json"
+  },
+  "dependencies": {
+    "es-to-primitive": "^1.2.0",
+    "function-bind": "^1.1.1",
+    "has": "^1.0.3",
+    "is-callable": "^1.1.4",
+    "is-regex": "^1.0.4",
+    "object-keys": "^1.0.12"
+  },
+  "devDependencies": {
+    "@ljharb/eslint-config": "^13.1.1",
+    "cheerio": "^1.0.0-rc.2",
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^5.11.1",
+    "foreach": "^2.0.5",
+    "nyc": "^10.3.2",
+    "object-inspect": "^1.6.0",
+    "object-is": "^1.0.1",
+    "object.assign": "^4.1.0",
+    "object.fromentries": "^2.0.0",
+    "replace": "^1.0.1",
+    "safe-publish-latest": "^1.1.2",
+    "semver": "^5.6.0",
+    "tape": "^4.9.2"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "greenkeeper": {
+    "//": "nyc is ignored because it requires node 4+, and we support older than that",
+    "ignore": [
+      "nyc"
+    ]
+  },
+  "gitHead": "b0b9595197e0f8d6b8b72ac84b56d1d70b02a4d9",
+  "dist": {
+    "integrity": "sha512-vDZfg/ykNxQVwup/8E1BZhVzFfBxs9NqMzGcvIJrqg5k2/5Za2bWo40dK2J1pgLngZ7c+Shh8lwYtLGyrwPutg==",
+    "shasum": "ac86145fdd5099d8dd49558ccba2eaf9b88e24e9",
+    "tarball": "https://registry.npmjs.org/es-abstract/-/es-abstract-1.13.0.tgz",
+    "fileCount": 47,
+    "unpackedSize": 282360,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLb2xCRA9TVsSAnZWagAAAjoP/3sw6h/ZHez2IFVaqgCu\nHP4EapXags+C2Pxxo4/vzJoM8+Ctz1ztb9EROf3xAXVxeTavYm33cKcFsI1W\nbsu5WA/ZaKmRnBSNPqpO95ZxNEaKEpLXeuaoWH4GrV2h4KHRmusoWsh9WjhN\nrmkYRh7Wp5cp/TaLmtiurS30I8PZoS/a6ETTUMUF0QmsRNhJSkd/RvLVxgTh\ndwnJfl2E+tWQSfSt8GBiOhNZpjs+Z9+xedf3r2F0RaMn5Xdc2dHJFTaaJfnT\nSIwDRk64zjCOgIMnHBuhYySWVOO0HZuKgVMs99HDUfU7/FP4g7nX2HiOPMgU\nX8Bx1KKa0qZdUunR/nd8T7QSqN/IaiWpVXzsiVDzYgX2jWl7vgAnUaYi9dI9\nEo1L5MatB+ivMy//ZH5Bb3oybii7BrruTAWHmnicIW2KpzGADuYhrYUnmFPI\nhrMPJwHBXiMRvupSO2Mg1CLS2i9LS9ATuhzbUMaf/WF0o4crv4bJ+kV6U+5P\n0Kyl5UJGNoDUajHz7c5paCXCRtAGIS0wze4NgmIDjByAziaafpHtQt8aM+aG\nwfcjDlIdiH+5y16wybc7kSWGnyC465XX7ZpKCkHcI1qf2bdJd1ALKf1Mfk54\ngQY3SrqnKj61wJfdIXsa7t6Fv52NcsVwqi6v73mvDfabVIdXEcF95X2qi5Ax\ngkMl\r\n=y7Wu\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

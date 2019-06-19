@@ -1,0 +1,137 @@
+{
+  "name": "adal-node",
+  "description": "Windows Azure Active Directory Client Library for node",
+  "dist-tags": {
+    "latest": "0.1.28",
+    "beta": "0.1.24"
+  },
+  "versions": [
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.1.9",
+    "0.1.10",
+    "0.1.11",
+    "0.1.12",
+    "0.1.13",
+    "0.1.15",
+    "0.1.16",
+    "0.1.17",
+    "0.1.18",
+    "0.1.19",
+    "0.1.20",
+    "0.1.21",
+    "0.1.22",
+    "0.1.23",
+    "0.1.24",
+    "0.1.25",
+    "0.1.26",
+    "0.1.27",
+    "0.1.28",
+    "2.0.0-pre"
+  ],
+  "maintainers": [
+    "azuread <nugetaad@microsoft.com>",
+    "msopentech <msopentech@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2018-03-08T18:10:41.807Z",
+    "created": "2014-03-21T18:34:34.198Z",
+    "0.1.4": "2014-03-21T18:34:34.198Z",
+    "0.1.5": "2014-03-31T17:16:06.813Z",
+    "0.1.6": "2014-06-07T00:48:13.835Z",
+    "0.1.7": "2014-09-03T03:29:33.980Z",
+    "0.1.8": "2014-10-29T23:19:41.715Z",
+    "0.1.9": "2014-11-24T21:57:02.734Z",
+    "0.1.10": "2014-11-24T22:24:51.255Z",
+    "0.1.11": "2014-12-17T01:30:41.404Z",
+    "0.1.12": "2015-02-20T00:38:20.785Z",
+    "0.1.13": "2015-05-01T22:39:09.769Z",
+    "2.0.0-pre": "2015-07-27T20:02:48.177Z",
+    "0.1.15": "2015-08-04T21:36:56.601Z",
+    "0.1.16": "2015-09-04T00:22:44.244Z",
+    "0.1.17": "2015-10-08T21:27:19.761Z",
+    "0.1.18": "2016-02-05T18:30:40.286Z",
+    "0.1.19": "2016-04-26T21:38:05.545Z",
+    "0.1.20": "2016-06-18T01:53:57.288Z",
+    "0.1.21": "2016-06-23T20:51:30.524Z",
+    "0.1.22": "2016-08-01T22:35:40.642Z",
+    "0.1.23": "2017-10-26T23:31:36.989Z",
+    "0.1.24": "2017-11-03T22:14:07.345Z",
+    "0.1.25": "2017-11-06T22:26:11.739Z",
+    "0.1.26": "2017-12-06T00:53:34.176Z",
+    "0.1.27": "2018-01-09T01:34:22.822Z",
+    "0.1.28": "2018-02-27T23:46:25.752Z"
+  },
+  "homepage": "https://github.com/AzureAD/azure-activedirectory-library-for-nodejs#readme",
+  "keywords": [
+    "node",
+    "azure",
+    "AAD",
+    "adal",
+    "adfs",
+    "oauth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzureAD/azure-activedirectory-library-for-nodejs.git"
+  },
+  "author": "Microsoft Open Technologies Inc <msopentech@microsoft.com> (http://msopentech.com/)",
+  "bugs": {
+    "url": "https://github.com/AzureAD/azure-activedirectory-library-for-nodejs/issues"
+  },
+  "readmeFilename": "README.md",
+  "users": {
+    "jmelanson-balihoo": true,
+    "taylorjones": true,
+    "iambmelt": true,
+    "tylerdurham": true,
+    "mjurincic": true,
+    "mrbgit": true
+  },
+  "license": "Apache-2.0",
+  "version": "0.1.28",
+  "main": "./lib/adal.js",
+  "types": "./lib/adal.d.ts",
+  "engines": {
+    "node": ">= 0.6.15"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.47",
+    "date-utils": "*",
+    "jws": "3.x.x",
+    "uuid": "^3.1.0",
+    "request": ">= 2.52.0",
+    "underscore": ">= 1.3.1",
+    "xmldom": ">= 0.1.x",
+    "xpath.js": "~1.1.0",
+    "async": ">=0.6.0"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "mocha": "*",
+    "nock": "*",
+    "sinon": "*",
+    "typescript": "^2.6.1",
+    "@types/nock": "^8.2.1",
+    "@types/mocha": "^2.2.44",
+    "@types/underscore": "^1.8.4",
+    "@types/sinon": "^2.3.7"
+  },
+  "scripts": {
+    "test": "npm run tsc && mocha -R spec --ui tdd test",
+    "cover": "./test/util/cover",
+    "doc": "jsdoc lib",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "gitHead": "7be6d5ecdc6df430ec4b3b186a078aad18a8ee42",
+  "dist": {
+    "shasum": "468c4bb3ebbd96b1270669f4b9cba4e0065ea485",
+    "tarball": "https://registry.npmjs.org/adal-node/-/adal-node-0.1.28.tgz",
+    "fileCount": 29,
+    "unpackedSize": 267801
+  },
+  "directories": {}
+}

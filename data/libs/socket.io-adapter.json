@@ -1,0 +1,57 @@
+{
+  "name": "socket.io-adapter",
+  "description": "default socket.io in-memory adapter",
+  "dist-tags": {
+    "latest": "1.1.1"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.5.0",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "maintainers": [
+    "darrachequesne <damien.arrachequesne@gmail.com>",
+    "rauchg <rauchg@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-09-16T05:28:56.426Z",
+    "created": "2014-03-07T21:08:27.747Z",
+    "0.1.0": "2014-03-07T21:08:27.747Z",
+    "0.2.0": "2014-03-14T18:04:53.042Z",
+    "0.3.0": "2014-05-31T04:33:05.292Z",
+    "0.3.1": "2014-10-27T18:47:39.486Z",
+    "0.4.0": "2015-12-03T18:12:44.589Z",
+    "0.5.0": "2016-11-20T00:58:09.500Z",
+    "1.0.0": "2017-02-16T21:31:43.210Z",
+    "1.1.0": "2017-02-26T07:38:27.798Z",
+    "1.1.1": "2017-08-02T12:04:46.242Z"
+  },
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/socketio/socket.io-adapter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/socketio/socket.io-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/socketio/socket.io-adapter/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "asaupup": true,
+    "nuwaio": true
+  },
+  "version": "1.1.1",
+  "gitHead": "6874ea4952346d1dfc80c53beaa2ec014fc024b7",
+  "scripts": {},
+  "dist": {
+    "shasum": "2a805e8a14d6372124dd9159ad4502f8cb07f06b",
+    "tarball": "https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz"
+  },
+  "directories": {}
+}

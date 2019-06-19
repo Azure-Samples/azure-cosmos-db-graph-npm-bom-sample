@@ -1,0 +1,67 @@
+{
+  "name": "to-fast-properties",
+  "description": "Force V8 to use fast properties for an object",
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-06-09T14:01:59.999Z",
+    "created": "2015-03-04T13:00:43.942Z",
+    "1.0.0": "2015-03-04T13:00:43.942Z",
+    "1.0.1": "2015-03-06T06:39:26.820Z",
+    "1.0.2": "2016-03-20T17:18:04.670Z",
+    "1.0.3": "2017-04-30T08:05:46.381Z",
+    "2.0.0": "2017-06-09T14:01:59.999Z"
+  },
+  "homepage": "https://github.com/sindresorhus/to-fast-properties#readme",
+  "keywords": [
+    "object",
+    "obj",
+    "properties",
+    "props",
+    "v8",
+    "optimize",
+    "fast",
+    "convert",
+    "mode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/to-fast-properties.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/to-fast-properties/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "node --allow-natives-syntax test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  },
+  "gitHead": "5b2ddf09843cacf5e9c2f9403155ef5a742edd83",
+  "dist": {
+    "shasum": "dc5e698cbd079265bc73e0377681a4e4e83f616e",
+    "tarball": "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz"
+  },
+  "directories": {}
+}

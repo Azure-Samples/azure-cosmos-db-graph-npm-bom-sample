@@ -1,0 +1,53 @@
+{
+  "name": "tiny-inflate",
+  "description": "A tiny inflate implementation",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "devongovett <devongovett@gmail.com>"
+  ],
+  "time": {
+    "modified": "2015-12-15T17:00:05.701Z",
+    "created": "2015-02-15T00:31:38.182Z",
+    "1.0.0": "2015-02-15T00:31:38.182Z",
+    "1.0.1": "2015-02-15T02:48:03.812Z",
+    "1.0.2": "2015-12-15T17:00:05.701Z"
+  },
+  "homepage": "https://github.com/devongovett/tiny-inflate",
+  "keywords": [
+    "inflate",
+    "zlib",
+    "gzip",
+    "zip"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devongovett/tiny-inflate.git"
+  },
+  "author": "Devon Govett <devongovett@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/devongovett/tiny-inflate/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "gitHead": "3ec48d93136ddabfd4829cb0312840e675b71053",
+  "dist": {
+    "shasum": "93d9decffc8805bd57eae4310f0b745e9b6fb3a7",
+    "tarball": "https://registry.npmjs.org/tiny-inflate/-/tiny-inflate-1.0.2.tgz"
+  },
+  "directories": {}
+}

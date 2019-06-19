@@ -1,0 +1,104 @@
+{
+  "name": "mem",
+  "description": "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+  "dist-tags": {
+    "latest": "5.0.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "3.0.0",
+    "3.0.1",
+    "4.0.0",
+    "4.1.0",
+    "4.2.0",
+    "4.3.0",
+    "5.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-17T17:25:36.895Z",
+    "created": "2013-01-22T23:16:13.120Z",
+    "0.0.1": "2013-01-22T23:16:15.354Z",
+    "0.1.0": "2015-12-21T18:44:14.279Z",
+    "0.1.1": "2016-02-02T15:53:17.433Z",
+    "1.0.0": "2016-10-19T17:34:31.486Z",
+    "1.1.0": "2016-10-19T18:05:26.119Z",
+    "2.0.0": "2017-09-25T06:32:08.213Z",
+    "3.0.0": "2017-10-11T15:56:14.080Z",
+    "3.0.1": "2018-06-20T06:38:02.452Z",
+    "4.0.0": "2018-08-27T17:33:38.386Z",
+    "4.1.0": "2019-01-30T08:45:27.864Z",
+    "4.2.0": "2019-03-12T17:41:47.237Z",
+    "4.3.0": "2019-03-31T19:09:03.906Z",
+    "5.0.0": "2019-05-17T17:25:34.041Z"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/mem.git"
+  },
+  "keywords": [
+    "memoize",
+    "function",
+    "mem",
+    "memoization",
+    "cache",
+    "caching",
+    "optimize",
+    "performance",
+    "ttl",
+    "expire",
+    "promise"
+  ],
+  "readmeFilename": "readme.md",
+  "homepage": "https://github.com/sindresorhus/mem#readme",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/mem/issues"
+  },
+  "license": "MIT",
+  "users": {
+    "antixrist": true,
+    "psychollama": true,
+    "quocnguyen": true,
+    "sasquatch": true,
+    "joelwallis": true,
+    "pldin601": true,
+    "cr8tiv": true,
+    "daniel-zahariev": true,
+    "xch": true
+  },
+  "version": "5.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "map-age-cleaner": "^0.1.3",
+    "mimic-fn": "^2.1.0",
+    "p-is-promise": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "delay": "^4.1.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "05c983b2d96cd24747a310d80de7ae7ba92dc2db",
+  "dist": {
+    "integrity": "sha512-r0kKFSQy7ywj2AHxsCyRlIQqnqiazZBeOx6ZNVvfJtEEzqVMgvgp83tB30B9pcqfGDXXPHLuVgCXLwNE2Un6lQ==",
+    "shasum": "c50f16afce423279080b174f0864d014c46a54e6",
+    "tarball": "https://registry.npmjs.org/mem/-/mem-5.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9679,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3u6OCRA9TVsSAnZWagAANxkP/0q5Gaqz00GnikC3Q906\n3zR5ROXRUy2bUUmXvPDn22zWkA+1TFdomdFtQIH1t/wUD/41CKxRTftHu0gL\nykEPgnRoR/Hcmo4p7pJz2Fn+sJOkahCxfCUy3kX+y6t9bsgoNlNiMCkwqRhy\nKVNeaph1aLIbS64FOpOKnB1gkJeLqpsh2X9caxKh+OEXhMNiV9c+8NMaa6x2\nq2oFiriGouV9PPLmUTkCyr1Y9BBD0PId77XyjkWG4S+eGh9Qw13VRtz284z9\nOowDnda8EQN4BxliLPOEy21EDAj/6HqB4VLF1s0AkNSY50sv3dcOrQztWlyH\nrTedA8Dg8Kbh0wcRjMPViqHFm1jgoBSl8O5fXE2G/tSCnEvreXdob8eOUYoK\n5zzjLf+lbLFt5sc1Z5xFsAyX0+qijEucSODfLVQk2Xj1cxvhpuuX0WBlTlGq\ngKQCWXA+ajsZY3/rY1ky1zlkxQq70RCunzg4yjTtVrDO2FvgOxpinR3Dybze\n0Y6+quP81RIHrm4FQtExo4/nO7NofgSYPS/6izyjPlpXV1+gURnSMxWcnXjy\nNjr6Es4NLtN/ZIcmGxA5wvWUEjUW8cPtct7A9BKExB8btVFZa0dJr5FsA1uZ\nid2dwexg4Px7jULup3H1EYqOhY2sNzAkX8/UiWDWcd5txJZ0OdPYWAKQo6fC\n8Pmd\r\n=GP2k\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,67 @@
+{
+  "name": "pug-walk",
+  "description": "Walk and transform a pug AST",
+  "dist-tags": {
+    "latest": "1.1.7"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.3",
+    "0.0.4",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "1.1.6",
+    "1.1.7"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "timothygu <timothygu99@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-03-08T16:32:32.890Z",
+    "created": "2015-12-12T00:28:05.587Z",
+    "0.0.0": "2015-12-12T00:28:05.587Z",
+    "0.0.3": "2015-12-23T04:00:23.616Z",
+    "0.0.4": "2016-08-17T01:38:56.300Z",
+    "1.0.0": "2016-08-23T00:45:42.415Z",
+    "1.1.0": "2017-01-24T01:07:30.408Z",
+    "1.1.1": "2017-02-04T12:40:38.170Z",
+    "1.1.2": "2017-04-18T00:36:31.196Z",
+    "1.1.3": "2017-06-02T12:33:34.720Z",
+    "1.1.4": "2017-08-01T15:53:49.062Z",
+    "1.1.5": "2017-09-06T15:28:13.321Z",
+    "1.1.6": "2018-03-06T13:12:29.964Z",
+    "1.1.7": "2018-03-08T16:32:31.549Z"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pugjs/pug-walk.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.1.7",
+  "devDependencies": {
+    "pug-lexer": "^4.0.0",
+    "pug-parser": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "licenseText": "Copyright (c) 2015 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+  "dist": {
+    "shasum": "c00d5c5128bac5806bec15d2b7e7cdabe42531f3",
+    "tarball": "https://registry.npmjs.org/pug-walk/-/pug-walk-1.1.7.tgz",
+    "fileCount": 6,
+    "unpackedSize": 9242
+  },
+  "directories": {}
+}

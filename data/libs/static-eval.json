@@ -1,0 +1,143 @@
+{
+  "name": "static-eval",
+  "description": "evaluate statically-analyzable expressions",
+  "dist-tags": {
+    "latest": "2.0.2"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "0.2.4",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2"
+  ],
+  "maintainers": [
+    "ahdinosaur <michael.williams@enspiral.com>",
+    "anandthakker <vestibule@anandthakker.net>",
+    "ashaffer88 <darawk@gmail.com>",
+    "balupton <b@lupton.cc>",
+    "bpostlethwaite <post.ben.here@gmail.com>",
+    "bret <bcomnes@gmail.com>",
+    "cwmma <calvin.metcalf@gmail.com>",
+    "dominictarr <dominic.tarr@gmail.com>",
+    "elnounch <contact@elnounch.net>",
+    "emilbayes <github@tixz.dk>",
+    "feross <feross@feross.org>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "fpereira1 <pereira.filype@gmail.com>",
+    "garann <garann@gmail.com>",
+    "gkatsev <me@gkatsev.com>",
+    "goto-bus-stop <renee@kooi.me>",
+    "hughsk <hughskennedy@gmail.com>",
+    "indutny <fedor@indutny.com>",
+    "jmm <npm-public@jessemccarthy.net>",
+    "jprichardson <jprichardson@gmail.com>",
+    "jryans <jryans@gmail.com>",
+    "leichtgewicht <martin.heidegger@gmail.com>",
+    "mafintosh <mathiasbuus@gmail.com>",
+    "mattdesl <dave.des@gmail.com>",
+    "maxogden <max@maxogden.com>",
+    "mellowmelon <palmermebane@gmail.com>",
+    "parshap <parshap+npm@gmail.com>",
+    "pkrumins <peteris.krumins@gmail.com>",
+    "sethvincent <sethvincent@gmail.com>",
+    "stevemao <maochenyan@gmail.com>",
+    "substack <substack@gmail.com>",
+    "tehshrike <me@JoshDuff.com>",
+    "terinjokes <terinjokes@gmail.com>",
+    "thlorenz <thlorenz@gmx.de>",
+    "ungoldman <ungoldman@gmail.com>",
+    "yerkopalma <yerko.palma@usach.cl>",
+    "yoshuawuyts <yoshuawuyts@gmail.com>",
+    "zertosh <zertosh@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-11T10:51:47.455Z",
+    "created": "2013-07-21T05:14:24.149Z",
+    "0.0.0": "2013-07-21T05:14:27.933Z",
+    "0.1.0": "2013-11-05T03:01:45.848Z",
+    "0.1.1": "2014-04-20T09:08:41.637Z",
+    "0.2.0": "2014-04-20T14:25:35.388Z",
+    "0.2.1": "2014-04-21T06:20:33.498Z",
+    "0.2.2": "2014-05-17T01:39:05.424Z",
+    "0.2.3": "2014-06-16T08:53:36.912Z",
+    "0.2.4": "2015-03-13T06:43:29.931Z",
+    "1.0.0": "2016-09-28T15:50:16.647Z",
+    "1.1.0": "2016-09-28T15:52:33.741Z",
+    "1.1.1": "2016-09-28T15:54:13.836Z",
+    "2.0.0": "2017-10-05T08:59:06.417Z",
+    "2.0.1": "2019-02-15T20:08:10.269Z",
+    "2.0.2": "2019-02-26T09:50:46.745Z"
+  },
+  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/static-eval.git"
+  },
+  "homepage": "https://github.com/substack/static-eval",
+  "keywords": [
+    "static",
+    "eval",
+    "expression",
+    "esprima",
+    "ast",
+    "abstract",
+    "syntax",
+    "tree",
+    "analysis"
+  ],
+  "bugs": {
+    "url": "https://github.com/substack/static-eval/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.markdown",
+  "users": {
+    "wenbing": true,
+    "jackishere": true,
+    "yibn2008": true,
+    "krambuhl": true,
+    "nelak": true,
+    "laomu": true
+  },
+  "version": "2.0.2",
+  "main": "index.js",
+  "dependencies": {
+    "escodegen": "^1.8.1"
+  },
+  "devDependencies": {
+    "esprima": "^2.7.3",
+    "tape": "^4.6.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "ff/latest",
+      "chrome/latest",
+      "opera/latest",
+      "safari/latest"
+    ]
+  },
+  "gitHead": "83beb55a527532b611a49fb19c3b488c23f88a2d",
+  "dist": {
+    "integrity": "sha512-N/D219Hcr2bPjLxPiV+TQE++Tsmrady7TqAJugLy7Xk1EumfDWS/f5dtBbkRCGE7wKKXuYockQoj8Rm2/pVKyg==",
+    "shasum": "2d1759306b1befa688938454c546b7871f806a42",
+    "tarball": "https://registry.npmjs.org/static-eval/-/static-eval-2.0.2.tgz",
+    "fileCount": 10,
+    "unpackedSize": 14358,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcdQv3CRA9TVsSAnZWagAA+Y0QAIOn0hGZc3CaX/7QUiqk\nMkNQ7jod2voLx3KHNI+XP5QWMGaWSdGjAVOELuQfBXIhf0xwVtw+k3sF3zSv\nyTrEgqYPzfokIpe+aLsFNBNK6VxAi1VFi82vaiNK3YHM6J2vmS2moeew9Eqz\nt1zf0er3Ps0y7Vyb/yEL1cGSiOIz0UI/R352md5tXmnIZYzIW4ir4DJeBmgx\n5B3JV/ovDFZ9PN8bx8a9yBn1nNy+2tl1uyDt68C+657EJ5+VOsHbRKKvGq0o\nZEx8MSyN1mUv83It7rgedY93kh+3A9saGcE0A7gMBvQZMj84g5SdStQufXUS\njxbFwZaTS6YOI1jwr6ePd2B7PWdUMuTjsQn91ypJTeiCglsxF+EttgrpzPLT\nGuG2qMPdOhpcmNklM119VDGjAoYSu3w0IQ/JW0P1gj15atgpbvjhubc2KeLc\n1BKDKMrE2DhpYe8gf+e1iqPBIl8APSfhLyB8fbWH9VXuLU0G+64HLp6aIwFS\nIm/8ErLq3AB8sRA3i4lzJzbrgexpUbPZb+cPqOqGJEHS0TNj02AcqOUFac9V\nhSVf567+VXniyuuUYt/xj6+e8aDgPNahKElufwTHY+3u1KmLHUj6NMabMspc\nIqBReQQiSTwXnmOrHVxnqUH4NaONKvkqiJp+8zstPy9lbAdil/+jAmPxOwkN\nWAI+\r\n=zC6G\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

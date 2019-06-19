@@ -1,0 +1,102 @@
+{
+  "name": "jssha",
+  "description": "jsSHA is a JavaScript implementation of the complete Secure Hash Standard family (SHA-1, SHA-224, SHA3-224, SHA-256, SHA3-256, SHA-384, SHA3-384, SHA-512, SHA3-512, SHAKE128, and SHAKE256) as well as HMAC",
+  "dist-tags": {
+    "latest": "2.3.1"
+  },
+  "versions": [
+    "1.5.0",
+    "1.6.0",
+    "1.6.1",
+    "1.6.2",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.1.0",
+    "2.2.0",
+    "2.3.0",
+    "2.3.1"
+  ],
+  "maintainers": [
+    "caligatio <brian.turek@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-06-10T07:50:59.194Z",
+    "created": "2013-12-15T18:40:43.423Z",
+    "1.5.0": "2013-12-15T18:40:44.678Z",
+    "1.6.0": "2015-03-08T18:42:34.112Z",
+    "2.0.0": "2015-06-13T12:25:11.957Z",
+    "2.0.1": "2015-06-25T21:20:14.715Z",
+    "1.6.1": "2015-06-25T21:28:17.465Z",
+    "2.0.2": "2015-10-31T13:57:51.093Z",
+    "1.6.2": "2016-05-13T18:59:48.775Z",
+    "2.1.0": "2016-05-13T19:00:22.543Z",
+    "2.2.0": "2016-07-10T19:39:15.800Z",
+    "2.3.0": "2017-05-13T08:06:36.864Z",
+    "2.3.1": "2017-06-10T07:50:59.194Z"
+  },
+  "author": "Brian Turek <brian.turek@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caligatio/jsSHA.git"
+  },
+  "homepage": "https://github.com/Caligatio/jsSHA",
+  "keywords": [
+    "SHA-1",
+    "SHA-224",
+    "SHA3-224",
+    "SHA-256",
+    "SHA3-256",
+    "SHA-384",
+    "SHA3-384",
+    "SHA-512",
+    "SHA3-512",
+    "SHAKE-128",
+    "SHAKE-256",
+    "SHAKE128",
+    "SHAKE256",
+    "SHA1",
+    "SHA224",
+    "SHA256",
+    "SHA384",
+    "SHA512",
+    "SHA-2",
+    "SHA2",
+    "SHA-3",
+    "SHA3",
+    "SHAKE",
+    "HMAC",
+    "hash"
+  ],
+  "bugs": {
+    "url": "https://github.com/Caligatio/jsSHA/issues"
+  },
+  "license": "BSD-3-Clause",
+  "readmeFilename": "README.md",
+  "users": {
+    "dustinphipps": true,
+    "vwal": true,
+    "caligatio": true,
+    "danielye": true,
+    "junjiansyu": true
+  },
+  "version": "2.3.1",
+  "main": "src/sha.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "gitHead": "20e15fd5975e3a83b040d150cc2a2e244a61a9ea",
+  "dist": {
+    "shasum": "147b2125369035ca4b2f7d210dc539f009b3de9a",
+    "tarball": "https://registry.npmjs.org/jssha/-/jssha-2.3.1.tgz"
+  },
+  "directories": {}
+}

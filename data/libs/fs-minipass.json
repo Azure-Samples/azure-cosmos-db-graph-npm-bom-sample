@@ -1,0 +1,79 @@
+{
+  "name": "fs-minipass",
+  "description": "fs read and write streams based on minipass",
+  "dist-tags": {
+    "latest": "1.2.6"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "1.2.6"
+  ],
+  "maintainers": [
+    "iarna <me@re-becca.org>",
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2019-05-15T17:43:40.018Z",
+    "created": "2017-09-11T04:50:17.617Z",
+    "1.0.0": "2017-09-11T04:50:17.617Z",
+    "1.1.0": "2017-09-12T03:03:08.362Z",
+    "1.1.1": "2017-09-12T05:26:06.635Z",
+    "1.1.2": "2017-09-12T05:35:29.961Z",
+    "1.2.0": "2017-09-17T19:47:09.505Z",
+    "1.2.1": "2017-09-21T20:56:33.162Z",
+    "1.2.2": "2017-11-14T09:12:07.989Z",
+    "1.2.3": "2017-11-14T10:00:26.779Z",
+    "1.2.4": "2018-01-04T22:52:43.169Z",
+    "1.2.5": "2018-01-04T23:05:44.837Z",
+    "1.2.6": "2019-05-15T17:43:37.410Z"
+  },
+  "homepage": "https://github.com/npm/fs-minipass#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/fs-minipass.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/npm/fs-minipass/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "version": "1.2.6",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --follow-tags"
+  },
+  "dependencies": {
+    "minipass": "^2.2.1"
+  },
+  "devDependencies": {
+    "mutate-fs": "^2.0.1",
+    "tap": "^13.1.9"
+  },
+  "tap": {
+    "check-coverage": true
+  },
+  "gitHead": "f9a1d65d03d41e17b162e77eabd3c67e26ea070d",
+  "dist": {
+    "integrity": "sha512-crhvyXcMejjv3Z5d2Fa9sf5xLYVCF5O1c71QxbVnbLsmYMBEvDAftewesN/HhY03YRoA7zOMxjNGrF5svGaaeQ==",
+    "shasum": "2c5cc30ded81282bfe8a0d7c7c1853ddeb102c07",
+    "tarball": "https://registry.npmjs.org/fs-minipass/-/fs-minipass-1.2.6.tgz",
+    "fileCount": 4,
+    "unpackedSize": 13052,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3E/JCRA9TVsSAnZWagAApvEP/00oEt3mUuE7hMjdVT19\nhqMoaRjRUnGad8/eEpNVhXjqZ5/bnLDlfNCIaBYlepp7Dv4AD2AWJc6O64Wi\ngCJ2rZQSXsXnlXv1yfNcdCpaaiwMzgciTDtbntsq672ane0JjYy4HJ9gqN8g\nrNgRWZ6/eeVhigB2tcKeZOcmpB10V28C33t0eUvQO3o0yoHW3iAeL+GOLaVH\n4D1oAOSLcWBPtk4MYQlvCJS45x+RZmvH8xqKwvSOvt5z61PBox89WfTfalYp\nFjS8LBu5OgxZUgfneRAxxQM82YkxbZTmhGTR0siam8XAWYzY/AD4h/X+6k87\n5fDeset5BwD2RJXOI9bKdUOyZ2cR02GGVAo0bWWDlE9LowihhO7hRm8AUf/Y\nIlgQpqgeWJ+AfOq6FRUzKdG0c+3vzQeLZLHBkCoHZB25Yzjg8rvdcd/ztka3\nSe70BiDB+n+GZWwTJXbbyzEXWiUfSagXXHyOr1zhoZ1CoOepsJfry1o6nQhq\nAWO5okI36odYUZRflrj8WTqXGQuzA619Mre9DPfY5jj5N9QB9kodBaXai3wz\nWmCSj0JF+XqEutUQenT6hrAG0KWGLlhKfFFCSdQDUePVw093GaU7MxfJFCo5\n/bM0xy8EGUKqGZVlBTuDtuwQ6wejcA7ZtuEDBOqxFSyi4/eTwaDmoWb77K/8\nwh8T\r\n=Zf69\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

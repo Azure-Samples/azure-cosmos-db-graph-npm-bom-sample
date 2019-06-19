@@ -1,0 +1,104 @@
+{
+  "name": "sqlstring",
+  "description": "Simple SQL escape and format for MySQL",
+  "dist-tags": {
+    "latest": "2.3.1"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "2.2.0",
+    "2.3.0",
+    "2.3.1"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>",
+    "fengmk2 <fengmk2@gmail.com>",
+    "sidorares <sidorares@yandex.com>"
+  ],
+  "time": {
+    "modified": "2019-04-28T00:10:24.292Z",
+    "created": "2014-02-25T03:44:04.681Z",
+    "0.0.1": "2014-02-25T03:44:04.681Z",
+    "1.0.0": "2014-11-09T09:40:14.414Z",
+    "2.0.0": "2016-06-06T19:44:19.336Z",
+    "2.0.1": "2016-06-06T19:47:19.886Z",
+    "2.1.0": "2016-09-27T02:28:34.117Z",
+    "2.2.0": "2016-11-02T03:27:22.252Z",
+    "2.3.0": "2017-10-02T03:27:42.183Z",
+    "2.3.1": "2018-02-25T00:02:18.705Z"
+  },
+  "homepage": "https://github.com/mysqljs/sqlstring#readme",
+  "keywords": [
+    "sqlstring",
+    "sql",
+    "escape",
+    "sql escape"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysqljs/sqlstring.git"
+  },
+  "contributors": [
+    "Adri Van Houdt <adri.van.houdt@gmail.com>",
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+    "Kevin Jose Martin <kevin@tiliq.com>",
+    "Nathan Woltman <nwoltman@outlook.com>",
+    "Sergej Sintschilin <seregpie@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/mysqljs/sqlstring/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "ssljivic": true,
+    "danielmihai": true,
+    "iuykza": true,
+    "asaupup": true,
+    "sonhuytran": true,
+    "nuwaio": true,
+    "shushanfx": true,
+    "jk6": true,
+    "losymear": true
+  },
+  "version": "2.3.1",
+  "devDependencies": {
+    "beautify-benchmark": "0.2.4",
+    "benchmark": "2.1.4",
+    "eslint": "4.18.1",
+    "eslint-plugin-markdown": "1.0.0-beta.6",
+    "nyc": "10.3.2",
+    "urun": "0.0.8",
+    "utest": "0.0.8"
+  },
+  "files": [
+    "lib/",
+    "HISTORY.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "bench": "node benchmark/index.js",
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "node test/run.js",
+    "test-ci": "nyc --reporter=text npm test",
+    "test-cov": "nyc --reporter=html --reporter=text npm test"
+  },
+  "gitHead": "8f193cae10a2208010102fd50f0b61e869e14dcb",
+  "dist": {
+    "shasum": "475393ff9e91479aea62dcaf0ca3d14983a7fb40",
+    "tarball": "https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 17037
+  },
+  "directories": {}
+}

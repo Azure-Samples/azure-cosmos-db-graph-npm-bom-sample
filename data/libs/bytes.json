@@ -1,0 +1,125 @@
+{
+  "name": "bytes",
+  "description": "Utility to parse a string bytes to bytes and vice-versa",
+  "dist-tags": {
+    "latest": "3.1.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.1.0",
+    "2.2.0",
+    "2.3.0",
+    "2.4.0",
+    "2.5.0",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>",
+    "tjholowaychuk <tj@vision-media.ca>"
+  ],
+  "time": {
+    "modified": "2019-01-23T04:43:37.353Z",
+    "created": "2012-06-11T15:44:32.849Z",
+    "0.0.1": "2012-06-11T15:44:34.095Z",
+    "0.1.0": "2012-08-17T19:26:03.899Z",
+    "0.2.0": "2012-10-28T07:40:18.125Z",
+    "0.2.1": "2013-04-01T18:48:09.764Z",
+    "0.3.0": "2014-03-20T01:08:49.952Z",
+    "1.0.0": "2014-05-05T23:52:20.318Z",
+    "2.0.0": "2015-04-12T21:04:54.307Z",
+    "2.0.1": "2015-05-08T04:43:03.189Z",
+    "2.0.2": "2015-05-21T03:19:26.235Z",
+    "2.1.0": "2015-05-22T02:55:58.116Z",
+    "2.2.0": "2015-11-14T01:44:07.135Z",
+    "2.3.0": "2016-02-16T04:00:12.239Z",
+    "2.4.0": "2016-06-01T20:21:14.269Z",
+    "2.5.0": "2017-03-25T04:33:21.150Z",
+    "3.0.0": "2017-08-31T21:52:45.175Z",
+    "3.1.0": "2019-01-23T04:43:34.815Z"
+  },
+  "author": "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+  "users": {
+    "m42am": true,
+    "purywp": true,
+    "cshao": true,
+    "qqqppp9998": true,
+    "honzajde": true,
+    "fotooo": true,
+    "moimikey": true,
+    "dpanthula": true,
+    "x4devs": true,
+    "snowdream": true,
+    "puranjayjain": true,
+    "ta2edchimp": true,
+    "wgerven": true,
+    "seangenabe": true,
+    "shaomingquan": true,
+    "domjtalbot": true,
+    "heartnett": true,
+    "ahmed-dinar": true,
+    "mlm": true,
+    "shuoshubao": true,
+    "yinfxs": true,
+    "edwardxyt": true,
+    "ccastelli": true,
+    "luiscauro": true,
+    "zhenguo.zhao": true
+  },
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/visionmedia/bytes.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionmedia/bytes.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/visionmedia/bytes.js/issues"
+  },
+  "keywords": [
+    "byte",
+    "bytes",
+    "utility",
+    "parse",
+    "parser",
+    "convert",
+    "converter"
+  ],
+  "contributors": [
+    "Jed Watson <jed.watson@me.com>",
+    "Théo FIDRY <theo.fidry@gmail.com>"
+  ],
+  "license": "MIT",
+  "version": "3.1.0",
+  "devDependencies": {
+    "eslint": "5.12.1",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --check-leaks --reporter spec",
+    "test-ci": "nyc --reporter=text npm test",
+    "test-cov": "nyc --reporter=html --reporter=text npm test"
+  },
+  "gitHead": "49ac709cb210af60e35957c069bb2cd07f335cfd",
+  "dist": {
+    "integrity": "sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==",
+    "shasum": "f6cf7933a360e0588fa9fde85651cdc7f805d1f6",
+    "tarball": "https://registry.npmjs.org/bytes/-/bytes-3.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10997,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcR/D3CRA9TVsSAnZWagAAKxQP/jm6fmIJFjJzEpnOmOQu\n4tOWELz5luZxpItaWETqZxSAqm0cU4PiqWdkzVV7KJPgKROz6IgtqW4gvya1\nUcI1LlVSQ8zNlu0UiDLOL8yz/MKjeOEdDppglxHN7Dim+tvUVu0hF/4uhuOc\nhAG1ybdaijfeGN6uBM9P6TiqQUpT2AFuS4BUfZoAW4Gfq8fYUG5RW0KsicZB\nJ0IVRreG3KXu9BOoFa+PiGXX+LIG45yE7vMNXbWULyE5vnkBdJJK8L45lFPJ\nSHGKqYK/WIyFEnDBEQgXK9pDsbz9UvPRJFqRfrHyAkfifpTekhpKTNvaj+bC\nvuokTgppKHo8h3l3wFpXKO/Zb/UQFYH1N0dKFO+NSv4gR47Bez6O2Q0Y1ZdE\nHJmZRrFCRzr/m1VT3fZmDwDPJxjZ5kyATliI1lttyOInGlVJg+VR0XFrn0d4\nYOSKxgqTS5jIOPBNZgvt7lYGdBt9TnGk7VYMEdwHm9jfx4Hdj2aEhj3x5mss\nxlVX6q1+5Qg0Am5EWgRMYnODh9Q0oLH4Zaxi4lJr+hSp/6Ln+0IXPNcgT0lj\n+77CxeAxOQG6Aj5G6H5e45x2CGCavny5rsR133vCGBnHGuRcNOSvgZ3BmUvH\n2JB4YSQCAxX/Ku6phJepP0Ktv8gKMWohF+AM2b4oHlUnW4Ny6B7w7PMJoscM\nlFdb\r\n=oAEj\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

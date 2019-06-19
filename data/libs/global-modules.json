@@ -1,0 +1,109 @@
+{
+  "name": "global-modules",
+  "time": {
+    "modified": "2019-01-04T00:12:59.900Z",
+    "created": "2014-04-20T15:24:15.501Z",
+    "0.0.1": "2014-04-20T15:24:17.414Z",
+    "0.0.2": "2014-04-20T15:37:36.018Z",
+    "0.1.0": "2015-03-06T13:07:03.442Z",
+    "0.2.0": "2015-07-15T05:21:34.954Z",
+    "0.2.1": "2016-03-13T10:27:42.068Z",
+    "0.2.2": "2016-06-05T09:35:41.708Z",
+    "0.2.3": "2016-07-26T05:44:44.295Z",
+    "1.0.0": "2017-06-28T06:46:00.149Z",
+    "2.0.0": "2018-12-15T02:42:32.356Z"
+  },
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "dist-tags": {
+    "latest": "2.0.0"
+  },
+  "description": "The directory used by npm for globally installed npm modules.",
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "1.0.0",
+    "2.0.0"
+  ],
+  "homepage": "https://github.com/jonschlinkert/global-modules",
+  "keywords": [
+    "directory",
+    "dirname",
+    "global",
+    "module",
+    "modules",
+    "package",
+    "path",
+    "prefix",
+    "resolve"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/global-modules.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/global-modules/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "3846masa": true,
+    "krkahl": true
+  },
+  "contributors": [
+    "JasonChang (https://packagist.org/packages/jason-chang)",
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Kiko Beats (https://kikobeats.com)"
+  ],
+  "version": "2.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "global-prefix": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^5.2.0"
+  },
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "git-config-path",
+        "global-prefix",
+        "npm-paths"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "gitHead": "7455e827f0ce0366d224aea035a8fecd233aa24a",
+  "dist": {
+    "integrity": "sha512-NGbfmJBp9x8IxyJSd1P+otYK8vonoJactOogrVfFRIAEY1ukil8RSKDz2Yo7wh1oihl51l/r6W4epkeKJHqL8A==",
+    "shasum": "997605ad2345f27f51539bea26574421215c7780",
+    "tarball": "https://registry.npmjs.org/global-modules/-/global-modules-2.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 6570,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcFGoYCRA9TVsSAnZWagAAifwP/16uQBmLEIJxrTJeFInp\nerlj2Kw6FmPrUhiPa/T2b6W625L6/cp+TDTQfw+Ovb7+EoZ01zOpiADyfC1p\n8f54u05bNsrgWyxW9RuiZ/QzCQPw8b0Ad49damIw/SG9A0M9+lPh05l1nkZY\nkB9ul27Rs22cDG8qrqxqUZnmHlm3GWZTg1GAh+5N6jSQ5hwrQ6N1/0htF/SX\ng4IOlAUke8vaMqPbErRUh7xGEnf/2ez43+9YjavUohg+DoAdL9fEq9nnQq4K\n6qDMpKiyGC+9eN3vzs+HN59n0Mb4HsWIyjgyTPwF6qeNAE8Si5IDMNSL82nR\nMMrEUo7Kl2ffVKGeN2LAEw1UEQl6NIhqzsIxpH4o4CV6R8ouPRMk+PcJa0Ty\n1kv6l5+raqxLafoDcUoA5nwVBzFQN5TpCt2l3FxpafN0sJFPiHWQyDCr6553\nmPX4/yataEFHgcqIOEbflTrp2UcsX8Hh+M6dZW64VH3X2XdsbFbGDSIZgItd\nEOlEclTcF3NWWYqi5uYoJtIO7TIsiI3FnXSECov5+zb5ArfSxLJDwsHKd2V6\nROC9h+iMiwUZy+IZaoPpQJmysmEKLIuHkTRE0B6pas2wY5LQYjkHs1hFGPix\nSt/Is8nDfLOjYRL9vkklgd5XmQZArIPyqTJHg5cnkIPbcKIx6DDy+7eG621d\noLmH\r\n=091l\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

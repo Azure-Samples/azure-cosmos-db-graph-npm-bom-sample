@@ -1,0 +1,149 @@
+{
+  "name": "flat",
+  "description": "Take a nested Javascript object and flatten it, or unflatten an object with delimited keys",
+  "dist-tags": {
+    "latest": "4.1.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.1.0",
+    "0.2.0",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "1.6.0",
+    "1.6.1",
+    "2.0.0",
+    "2.0.1",
+    "3.0.0",
+    "4.0.0",
+    "4.1.0"
+  ],
+  "maintainers": [
+    "hughsk <hughskennedy@gmail.com>",
+    "timoxley <secoif@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-07-02T07:53:53.179Z",
+    "created": "2012-10-05T16:52:54.470Z",
+    "0.0.1": "2012-10-05T16:52:58.271Z",
+    "0.0.2": "2012-10-06T02:47:40.724Z",
+    "0.1.0": "2012-10-11T00:53:37.536Z",
+    "0.2.0": "2012-11-21T02:18:45.899Z",
+    "1.0.0": "2013-04-30T03:55:09.020Z",
+    "1.1.0": "2013-12-16T11:37:51.785Z",
+    "1.2.0": "2014-02-17T00:31:17.275Z",
+    "1.2.1": "2014-04-16T19:08:02.744Z",
+    "1.3.0": "2014-09-28T02:20:15.098Z",
+    "1.4.0": "2015-01-14T03:22:29.521Z",
+    "1.5.0": "2015-01-14T03:28:05.115Z",
+    "1.5.1": "2015-03-19T04:04:22.673Z",
+    "1.6.0": "2015-05-27T21:39:11.103Z",
+    "1.6.1": "2016-01-30T22:29:29.502Z",
+    "2.0.0": "2016-01-30T22:53:58.981Z",
+    "2.0.1": "2016-06-23T05:14:14.628Z",
+    "3.0.0": "2017-07-23T06:46:22.138Z",
+    "4.0.0": "2017-07-25T07:18:19.906Z",
+    "4.1.0": "2018-07-02T07:53:50.823Z"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/flat.git"
+  },
+  "users": {
+    "zeke": true,
+    "nromano": true,
+    "maxwellrebo": true,
+    "andreaspizsa": true,
+    "donnicky": true,
+    "crewmoss": true,
+    "jyap": true,
+    "nelsonic": true,
+    "ctd1500": true,
+    "fedor": true,
+    "nanook": true,
+    "invelo": true,
+    "vwal": true,
+    "knownasilya": true,
+    "zuizuihao": true,
+    "csbun": true,
+    "jovinbm": true,
+    "zhouanbo": true,
+    "nicolasembleton": true,
+    "schmidsi": true,
+    "langri-sha": true,
+    "usingthesystem": true,
+    "programmer.severson": true,
+    "utkarsh85": true,
+    "esundahl": true,
+    "ga1989": true,
+    "magicxiao": true,
+    "mwurzberger": true,
+    "rocket0191": true,
+    "danielrhayes": true,
+    "joje": true,
+    "yusef.ho.tw": true,
+    "ryanve": true,
+    "shreyawhiz": true,
+    "mixmix": true,
+    "hitalos": true,
+    "daniel-lewis-bsc-hons": true,
+    "swedendrift": true,
+    "isenricho": true,
+    "justjavac": true,
+    "danday74": true,
+    "gbrlrg": true,
+    "cognivator": true,
+    "aramix": true,
+    "robmcguinness": true
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/hughsk/flat",
+  "keywords": [
+    "flat",
+    "json",
+    "flatten",
+    "unflatten",
+    "split",
+    "object",
+    "nested"
+  ],
+  "bugs": {
+    "url": "https://github.com/hughsk/flat/issues"
+  },
+  "license": "BSD-3-Clause",
+  "version": "4.1.0",
+  "main": "index.js",
+  "bin": {
+    "flat": "cli.js"
+  },
+  "scripts": {
+    "test": "mocha -u tdd --reporter spec && standard index.js test/index.js"
+  },
+  "devDependencies": {
+    "mocha": "~5.2.0",
+    "standard": "^11.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "is-buffer": "~2.0.3"
+  },
+  "gitHead": "32432ddde3f08c44cc9e9e4f01616cd3fbf355bf",
+  "dist": {
+    "integrity": "sha512-Px/TiLIznH7gEDlPXcUD4KnBusa6kR6ayRUVcnEAbreRIuhkqow/mun59BuRXwoYk7ZQOLW1ZM05ilIvK38hFw==",
+    "shasum": "090bec8b05e39cba309747f1d588f04dbaf98db2",
+    "tarball": "https://registry.npmjs.org/flat/-/flat-4.1.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 20747,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbOdoOCRA9TVsSAnZWagAAdYgP+wZbvdg/ug7mXSm6s5yl\nOOYegOVMrnEMfD4lgb90Zb101b3cuwTuhcxrVuIXJREHXRXD5wtljuC83IRb\n0ZnZlGLJIR5BXQFfUJ4Bo4Z/DzLIinXqHaZ+HKrgUxZDKvFTCbcuIbarhLl0\nBzVqK70M/FfJZHGJufBtPicxwNOPkPL8PGEw98xKhmifxDtltdD6925d/wVm\nDI8cqRCRnv5l9tQQvd//SvX/dhu9KH/ltl+0B/VhEe6jKzn22yaqLTz6sRNb\nq40rA/rtroyraIJxn/UNeejYKlU0YaacP/PI/BrxMX71/Wkm7234IeYCWZ8w\nOb0aaelZXOsZ/tF4d7/csfnuYNrO3rWy8YLLlS4uwzerIFeVHNHWU26D5+vV\naYtqp1mCP5egSWo725+Bapg6VsI9GxVNMMNm81mFR3LzN9oVW+ewjWa5ln+D\nOKeLG60yzJHCvV05kwq3pX6X8vyszrteOtTY5DYs16ygCxW/toFhx1GBtYOV\nrCu2dC/n5Y4V/x4q6PtatX4AC8IUCykgOYgKjEAGtXlReIPSSSc+c3iXiplR\nznG51x8HQFgNd297DzljGdujUrM3bWnhQL8O8zL6My+/hoIx3INGSc5i4bg4\nMZ6H5NNmDCq32I9XUQQzZiJC6yxqYHYjeY/Z8xslgFy8k3FtJRuvCXdd+u1P\njI7O\r\n=I0eB\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

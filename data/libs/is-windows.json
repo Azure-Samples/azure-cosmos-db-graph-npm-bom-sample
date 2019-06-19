@@ -1,0 +1,114 @@
+{
+  "name": "is-windows",
+  "description": "Returns true if the platform is windows. UMD module, works with node.js, commonjs, browser, AMD, electron, etc.",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2018-02-14T07:36:44.011Z",
+    "created": "2015-07-11T19:12:18.665Z",
+    "0.1.0": "2015-07-11T19:12:18.665Z",
+    "0.1.1": "2015-12-21T00:42:17.672Z",
+    "0.2.0": "2016-06-05T09:07:11.989Z",
+    "1.0.0": "2016-12-08T15:11:52.589Z",
+    "1.0.1": "2017-04-28T17:54:20.189Z",
+    "1.0.2": "2018-02-14T07:36:43.207Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/is-windows",
+  "keywords": [
+    "check",
+    "cywin",
+    "is",
+    "is-windows",
+    "nix",
+    "operating system",
+    "os",
+    "platform",
+    "process",
+    "unix",
+    "win",
+    "win32",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/is-windows.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/is-windows/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "gmarciani": true,
+    "blog": true,
+    "tdmalone": true
+  },
+  "contributors": [
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Simen Bekkhus (https://github.com/SimenB)",
+    "刘祺 (gucong.co.cc)"
+  ],
+  "version": "1.0.2",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "is-absolute",
+        "is-glob",
+        "is-relative",
+        "isobject",
+        "window-size"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb"
+    ]
+  },
+  "gitHead": "4dcfff4ed9e36ad761a1a24d3899c832382d7254",
+  "dist": {
+    "integrity": "sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==",
+    "shasum": "d1850eb9791ecd18e6182ce12a30f396634bb19d",
+    "tarball": "https://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz",
+    "fileCount": 4,
+    "unpackedSize": 7963
+  },
+  "directories": {}
+}

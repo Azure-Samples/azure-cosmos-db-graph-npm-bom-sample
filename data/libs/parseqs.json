@@ -1,0 +1,54 @@
+{
+  "name": "parseqs",
+  "description": "Provides methods for parsing a query string into an object, and vice versa.",
+  "dist-tags": {
+    "latest": "0.0.5"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "maintainers": [
+    "gal <koren@mit.edu>"
+  ],
+  "time": {
+    "modified": "2017-01-20T17:24:33.982Z",
+    "created": "2014-03-30T21:06:39.657Z",
+    "0.0.1": "2014-03-30T21:06:41.846Z",
+    "0.0.2": "2014-04-10T22:17:16.078Z",
+    "0.0.3": "2014-07-04T15:21:36.091Z",
+    "0.0.4": "2016-10-27T15:38:51.408Z",
+    "0.0.5": "2016-10-27T15:40:47.974Z"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "homepage": "https://github.com/get/querystring",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/get/querystring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/get/querystring/issues"
+  },
+  "author": "Gal Koren",
+  "version": "0.0.5",
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": "1.17.1",
+    "better-assert": "~1.0.0"
+  },
+  "dependencies": {
+    "better-assert": "~1.0.0"
+  },
+  "gitHead": "4d037fc0625fb72eec9394724e18f29e0a946af5",
+  "dist": {
+    "shasum": "d5208a3738e46766e291ba2ea173684921a8b89d",
+    "tarball": "https://registry.npmjs.org/parseqs/-/parseqs-0.0.5.tgz"
+  },
+  "directories": {}
+}

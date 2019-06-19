@@ -1,0 +1,73 @@
+{
+  "name": "base64-arraybuffer",
+  "description": "Encode/decode base64 data into ArrayBuffers",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.2.0"
+  ],
+  "maintainers": [
+    "niklasvh <niklasvh@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-28T07:13:16.960Z",
+    "created": "2012-12-21T21:33:07.537Z",
+    "0.1.0": "2012-12-21T21:33:19.879Z",
+    "0.1.1": "2014-02-04T16:55:16.612Z",
+    "0.1.2": "2014-03-18T08:12:46.731Z",
+    "0.1.3": "2015-10-18T23:21:34.395Z",
+    "0.1.4": "2015-10-18T23:25:51.741Z",
+    "0.1.5": "2015-11-19T19:53:42.551Z",
+    "0.2.0": "2019-04-28T07:13:14.396Z"
+  },
+  "author": "Niklas von Hertzen <niklasvh@gmail.com> (https://hertzen.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklasvh/base64-arraybuffer.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/niklasvh/base64-arraybuffer",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/niklasvh/base64-arraybuffer/issues"
+  },
+  "users": {
+    "shakakira": true,
+    "teamsteamdev": true,
+    "panzhiyong": true,
+    "losymear": true
+  },
+  "version": "0.2.0",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/niklasvh/base64-arraybuffer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/base64-arraybuffer",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "gitHead": "29d0f8204348d913e5136f0c713a510c5a1da574",
+  "dist": {
+    "integrity": "sha512-7emyCsu1/xiBXgQZrscw/8KPRT44I4Yq9Pe6EGs3aPRTsWuggML1/1DTuZUuIaJPIm1FTDUVXl4x/yW8s0kQDQ==",
+    "shasum": "4b944fac0191aa5907afe2d8c999ccc57ce80f45",
+    "tarball": "https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-0.2.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4725,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcxVKKCRA9TVsSAnZWagAA5x0P/RDLJfsgFSed+9JrGpbr\n0m1pukeizGaachpVQhVbtiHxvsks4zkHXJsrgbxy5GK8ekSKtdKROVFX2IKk\na5mNfFIEf2LyjmR4lf3/Au3/Sg/gX/ik9XvrHWLrZRjR/3Hr2BW5KiPiT0Nv\nUrSP+pLUHB1fLVUv0QpfNm1Gu+oUDn0b8QBtw1eXJXmT1arEPG3f19F61HDH\nZ2kpfonwrISN43bseY+RKE7EJN57TmdsP5Rwfe1aict7omlRfQPxOILxedwd\nfKhoqTMiqF01+gX5KOS3EdhmlynAD0kGsO7Za07af/U1V36BSQeyCWbVTv+z\n15q8fqdpscdTd2ilbCj08BisKM7veY2kz6KeiPiP/NKIoZByjVBOZ2H5+mx9\nqvhUAa1CMNck4chbdeKZsOXKqkuSCy0Xl37ikgswXaEI1MHjUCrlvUFOW0yX\ndEjTyb+WARanD83qG0iTHpqtcTDkFlx9PjMOKStSNiLynAkv8c/3KL2dzXDY\nzeBONfwPAan+0VVAGS1uTNNF+h4gNLywEIIKeaJlZljc8XAjWkHZfwox8zwU\nZoABXPudZjAHMrmLXvTUC91aOp8KcF5Bqn9g11vz2SDRrg2Ckr1W3IS0PA9d\nVz2IsJ5O7UtOh7hEJBYTyRonDt2Gz7+LB4p2mO1M8HkPJIjZHMC9K1O3T6AK\nog3c\r\n=8JGq\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

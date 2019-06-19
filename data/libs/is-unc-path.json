@@ -1,0 +1,94 @@
+{
+  "name": "is-unc-path",
+  "description": "Returns true if a filepath is a windows UNC file path.",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.1.1",
+    "0.1.2",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "jonschlinkert <github@sellside.com>"
+  ],
+  "time": {
+    "modified": "2017-07-13T07:57:27.751Z",
+    "created": "2015-07-07T14:32:31.867Z",
+    "0.1.1": "2015-07-07T14:32:31.867Z",
+    "0.1.2": "2016-12-07T07:06:27.423Z",
+    "1.0.0": "2017-07-13T07:57:27.751Z"
+  },
+  "homepage": "https://github.com/jonschlinkert/is-unc-path",
+  "keywords": [
+    "absolute",
+    "expression",
+    "file",
+    "filepath",
+    "is",
+    "match",
+    "matching",
+    "path",
+    "regex",
+    "regexp",
+    "regular",
+    "unc",
+    "win",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/is-unc-path.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/is-unc-path/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "unc-path-regex": "^0.1.2"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.4.2"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": [
+        "is-relative",
+        "is-absolute",
+        "is-glob"
+      ]
+    }
+  },
+  "gitHead": "06baedec306bcbca8c9ee435db80a0e566764fd0",
+  "dist": {
+    "integrity": "sha512-mrGpVd0fs7WWLfVsStvgF6iEJnbjDFZh9/emhRDcGWTduTfNHd9CHeUwH3gYIjdbwo4On6hunkztwOaAw0yllQ==",
+    "shasum": "d731e8898ed090a12c352ad2eaed5095ad322c9d",
+    "tarball": "https://registry.npmjs.org/is-unc-path/-/is-unc-path-1.0.0.tgz"
+  },
+  "directories": {}
+}

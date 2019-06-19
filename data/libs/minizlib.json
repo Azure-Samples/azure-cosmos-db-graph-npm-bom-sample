@@ -1,0 +1,81 @@
+{
+  "name": "minizlib",
+  "description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+  "dist-tags": {
+    "latest": "1.2.1"
+  },
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.2.1"
+  ],
+  "maintainers": [
+    "isaacs <i@izs.me>"
+  ],
+  "time": {
+    "modified": "2018-12-07T18:01:01.578Z",
+    "created": "2017-03-28T07:40:22.993Z",
+    "0.0.1": "2017-03-28T07:40:22.993Z",
+    "1.0.0": "2017-03-29T08:11:06.728Z",
+    "1.0.1": "2017-03-29T08:11:52.460Z",
+    "1.0.2": "2017-03-29T08:12:55.022Z",
+    "1.0.3": "2017-05-04T08:01:06.591Z",
+    "1.0.4": "2017-10-18T07:35:11.315Z",
+    "1.1.0": "2017-12-21T04:02:54.335Z",
+    "1.1.1": "2018-10-10T17:52:20.823Z",
+    "1.2.0": "2018-12-06T23:25:14.139Z",
+    "1.2.1": "2018-12-07T18:00:58.925Z"
+  },
+  "homepage": "https://github.com/isaacs/minizlib#readme",
+  "keywords": [
+    "zlib",
+    "gzip",
+    "gunzip",
+    "deflate",
+    "inflate",
+    "compression",
+    "zip",
+    "unzip"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/minizlib.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "bugs": {
+    "url": "https://github.com/isaacs/minizlib/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.2.1",
+  "main": "index.js",
+  "dependencies": {
+    "minipass": "^2.2.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js --100 -J",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "devDependencies": {
+    "tap": "^12.0.1"
+  },
+  "gitHead": "ad2e969851c3573eff84a5ddfe906344c814581b",
+  "dist": {
+    "integrity": "sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==",
+    "shasum": "dd27ea6136243c7c880684e8672bb3a45fd9b614",
+    "tarball": "https://registry.npmjs.org/minizlib/-/minizlib-1.2.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 14079,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCrVbCRA9TVsSAnZWagAA0moP/iuTcgV6U7x5Q7nGJV9/\ne4DOELm1SiwmY4N6TDK2o6nWHzaKMAjzYhnDtdtitlhecxjTUC6Ka65KQbVQ\n/ouXNpmTHfC+DhL+4xvVDkoZO/3aTCPNQ1QCf3JHgA+Lrmz0LD4eGvWSfWkq\nCxiJLJJ5W7SvDmzLasR2EHWlvScOd0ssDL1oZfa28dS6BXdPTwERm9iQLJ66\nI1fmmljV6oEbAzjgx1fw0iPFbCatktQtO1J0rDjiREIgYQOa9zA1DWxn3GWZ\naw5fAgQtxjh5MEsF+2s5FJSv5UcCmr9btUMzp5RW8lPMM26OIfZlT4Nr5TNE\njvlQ3zNcsJsu2sRZ9D0JtcEOJfVGrT63UqvEvFOiQUGVTOPLZFl/r2UogBbL\n5eNpcUCqY+gALQpXq24nl3OCXdMQ4QngFSqgaUAY+lqy1dzXIxZa+lBnt4ny\nHvm0nZnxOgZgkzWGyLavLLvkhSA1sjIjWpXolVfwlVdj/yJBsV0ZE7uvbcSJ\nKcdRe1pz75SPQyCdzDgmqPKb4FKraiGazQQWNMSrQa3P4VEl9xin1d7sN/m4\nSjATLEQr3relzwtiW9idJrpCsieSblBOf6S/ukL1/moQVdMGSqJjTGuJwYxE\niekEgVsdnzXg3nTAx/tOWfKOVjljY4B31XfU/TWNW2bCrjaIrxPerfHoESzG\n/NQh\r\n=te1d\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

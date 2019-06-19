@@ -1,0 +1,99 @@
+{
+  "name": "mpns",
+  "description": "A Node.js interface to the Microsoft Push Notification Service (MPNS) for Windows Phone.",
+  "dist-tags": {
+    "latest": "2.1.3"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.4",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "1.2.6",
+    "1.2.7",
+    "1.2.8",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "2.1.2",
+    "2.1.3"
+  ],
+  "maintainers": [
+    "jeffwilcox <jeffwilcox@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-06T00:14:34.042Z",
+    "created": "2011-12-08T07:24:03.678Z",
+    "1.0.0": "2011-12-08T07:24:04.828Z",
+    "1.0.1": "2012-05-01T19:46:10.517Z",
+    "1.0.2": "2012-05-01T19:47:42.990Z",
+    "1.0.4": "2012-07-10T22:42:37.921Z",
+    "1.1.0": "2012-10-03T20:31:58.380Z",
+    "1.1.1": "2012-10-04T19:55:52.545Z",
+    "1.1.2": "2012-10-05T18:00:52.027Z",
+    "1.2.3": "2013-05-07T19:28:21.950Z",
+    "1.2.4": "2013-05-07T19:36:02.038Z",
+    "1.2.5": "2013-05-22T22:05:18.747Z",
+    "1.2.6": "2013-05-22T22:14:41.479Z",
+    "1.2.7": "2013-05-23T18:10:47.741Z",
+    "1.2.8": "2013-07-02T20:03:00.251Z",
+    "2.0.0": "2013-07-12T17:58:23.307Z",
+    "2.0.1": "2013-08-06T19:22:53.423Z",
+    "2.1.0": "2013-11-12T03:41:52.494Z",
+    "2.1.2": "2017-12-06T00:07:34.459Z",
+    "2.1.3": "2017-12-06T00:14:34.042Z"
+  },
+  "author": "Jeff Wilcox <jeffwilcox+github@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeffwilcox/mpns.git"
+  },
+  "users": {
+    "ajduke": true,
+    "igorissen": true
+  },
+  "homepage": "https://github.com/jeffwilcox/mpns#readme",
+  "keywords": [
+    "mpns",
+    "notifications",
+    "wp",
+    "windows phone",
+    "microsoft",
+    "push",
+    "push notifications"
+  ],
+  "contributors": [
+    "Jeff Wilcox <jeffwilcox+github@gmail.com>",
+    "Yavor Georgiev"
+  ],
+  "bugs": {
+    "url": "https://github.com/jeffwilcox/mpns/issues"
+  },
+  "license": "mit",
+  "readmeFilename": "README.md",
+  "version": "2.1.3",
+  "main": "./lib/mpns.js",
+  "engines": {
+    "node": ">= 0.5.0"
+  },
+  "scripts": {
+    "test": "mocha -u tdd --reporter spec test/*.js"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
+  "gitHead": "8f824aad7544a62f257c7a0840c131ba9455a0c3",
+  "dist": {
+    "integrity": "sha512-gPLNoVqwYoKUmNYZ2shMSdaE2XvHSRxWNzyG4DUi6Av7MSujyeOw/nj61nnQeuV/vke5E0Dni468xn0qxTHIZQ==",
+    "shasum": "4328bb23ca79669e3383389074c898713e22ccb9",
+    "tarball": "https://registry.npmjs.org/mpns/-/mpns-2.1.3.tgz"
+  },
+  "directories": {}
+}

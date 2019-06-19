@@ -1,0 +1,88 @@
+{
+  "name": "p-locate",
+  "description": "Get the first fulfilled promise that satisfies the provided testing function",
+  "dist-tags": {
+    "latest": "4.1.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0",
+    "4.0.0",
+    "4.1.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-04T05:02:48.659Z",
+    "created": "2016-11-20T10:07:34.210Z",
+    "1.0.0": "2016-11-20T10:07:34.210Z",
+    "2.0.0": "2016-11-28T05:25:21.460Z",
+    "3.0.0": "2018-06-15T12:47:57.897Z",
+    "4.0.0": "2019-03-12T09:46:24.520Z",
+    "4.1.0": "2019-04-04T05:02:46.111Z"
+  },
+  "homepage": "https://github.com/sindresorhus/p-locate#readme",
+  "keywords": [
+    "promise",
+    "locate",
+    "find",
+    "finder",
+    "search",
+    "searcher",
+    "test",
+    "array",
+    "collection",
+    "iterable",
+    "iterator",
+    "race",
+    "fulfilled",
+    "fastest",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-locate.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-locate/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "rocket0191": true
+  },
+  "version": "4.1.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "p-limit": "^2.2.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "delay": "^4.1.0",
+    "in-range": "^1.0.0",
+    "time-span": "^3.0.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "a650b26e49713a8cca58f669a7f8aef9b655554c",
+  "dist": {
+    "integrity": "sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==",
+    "shasum": "a3428bb7088b3a60292f66919278b7c297ad4f07",
+    "tarball": "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 7285,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpY/2CRA9TVsSAnZWagAALQMP/3vN0BSJiCM4ZVUWhqjQ\nL3PQu0gcZuncKRGoX4Vpm7nhfubo13PwinE5dDOrueBPoCrdYJQk/uuYBJQS\nugePB/oxbLwK1vL0ZanyaJTRYWrdNJsZmciYRkQ09Pci/oyZ39c6sjtkGj7v\nU8dLhR47iNBHf5RhOlxlEGEaxAHIn7xumDwRnK+xDOZCVJp4HmHcT0XK8J08\ncuraQ3ZDCGDFSJUzoL9XGUhFWlxwLfLsHwcjfBfD7kGdLBchlgrgN1uVIa0m\n8ta73mV2JtzYxrRE2WmDyDqfVdNAE0pSoUrTRrGKVrI60TguIv5c+AhEVR+R\nVYl8gnq0FbesgxhYRHz8h64HfArEBkzrOdDFNARBwZh0HYIxLIEO1gzyBKj4\nfGiyMVXKeAiGrxUWfD47Bra9fCQlxjO2IkA7c4PqWj9Al8C6Q2DfGp6e73JP\n3bXxOTNMQVxAjI/Xej7XEHaAB500KvEmrXv4Mz+wyIT3c8pdpwv8MJtw1PLf\naP1iItAWF2FZl5pyxcX9PRGLkIRz452ncq30ZLRbPohdg8+Lcqrq6zeqAucH\nkmY37n1qWmvT9btNTcHz/TsO658ty+3aiZeXh6Aw9V7SvKfxECVWs2t6rtaU\nojg73RJjxBFDr8eju0DuRXJv2EdFoHe/IgymO+eFXk9K7sw3B1RjMzlwt4Ag\nQLSM\r\n=XPFA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

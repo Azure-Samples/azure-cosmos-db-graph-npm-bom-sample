@@ -1,0 +1,169 @@
+{
+  "name": "object.assign",
+  "description": "ES6 spec-compliant Object.assign shim. From https://github.com/es-shims/es6-shim",
+  "dist-tags": {
+    "latest": "4.1.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.3.1",
+    "0.4.0",
+    "0.4.2",
+    "0.4.3",
+    "0.5.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.1",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "3.0.0",
+    "3.0.1",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "4.0.4",
+    "4.1.0"
+  ],
+  "maintainers": [
+    "ljharb <ljharb@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-12-21T20:18:12.266Z",
+    "created": "2014-03-14T20:48:28.570Z",
+    "0.1.0": "2014-03-14T20:48:28.570Z",
+    "0.1.1": "2014-03-14T21:51:07.728Z",
+    "0.2.0": "2014-03-16T06:43:46.641Z",
+    "0.2.1": "2014-03-16T22:48:19.691Z",
+    "0.3.0": "2014-04-10T17:54:08.243Z",
+    "0.3.1": "2014-04-10T18:17:09.841Z",
+    "0.4.0": "2014-07-19T06:40:40.606Z",
+    "0.4.1": "2014-07-19T06:54:56.733Z",
+    "0.4.2": "2014-07-31T03:50:23.625Z",
+    "0.4.3": "2014-07-31T03:52:18.172Z",
+    "0.5.0": "2014-07-31T19:59:21.470Z",
+    "1.0.0": "2014-08-07T16:16:44.017Z",
+    "1.0.1": "2014-08-26T19:23:17.666Z",
+    "1.0.2": "2014-11-28T05:24:09.015Z",
+    "1.0.3": "2014-11-29T20:30:52.220Z",
+    "1.1.0": "2014-12-14T10:32:31.892Z",
+    "1.1.1": "2014-12-14T10:34:22.810Z",
+    "2.0.0": "2015-04-12T17:21:56.816Z",
+    "2.0.1": "2015-04-12T21:20:45.753Z",
+    "2.0.2": "2015-05-20T19:15:38.764Z",
+    "3.0.0": "2015-05-21T06:37:03.313Z",
+    "2.0.3": "2015-06-28T17:21:07.634Z",
+    "3.0.1": "2015-06-28T17:30:40.871Z",
+    "4.0.0": "2015-08-16T07:16:50.361Z",
+    "4.0.1": "2015-08-16T19:40:42.209Z",
+    "4.0.2": "2015-10-21T01:08:59.259Z",
+    "4.0.3": "2015-10-21T08:10:43.032Z",
+    "3.0.2": "2016-06-28T08:13:11.298Z",
+    "4.0.4": "2016-07-04T19:45:29.439Z",
+    "4.1.0": "2017-12-21T20:18:12.266Z"
+  },
+  "homepage": "https://github.com/ljharb/object.assign#readme",
+  "keywords": [
+    "Object.assign",
+    "assign",
+    "ES6",
+    "extend",
+    "$.extend",
+    "jQuery",
+    "_.extend",
+    "Underscore",
+    "es-shim API",
+    "polyfill",
+    "shim"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ljharb/object.assign.git"
+  },
+  "author": "Jordan Harband",
+  "bugs": {
+    "url": "https://github.com/ljharb/object.assign/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "ivanoats": true,
+    "jamescostian": true,
+    "qqcome110": true,
+    "dkannan": true,
+    "jian263994241": true,
+    "tedyhy": true
+  },
+  "version": "4.1.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run --silent lint && es-shim-api",
+    "test": "npm run --silent tests-only",
+    "posttest": "npm run --silent security",
+    "tests-only": "npm run --silent test:implementation && npm run --silent test:shim",
+    "test:native": "node test/native.js",
+    "test:shim": "node test/shimmed.js",
+    "test:implementation": "node test/index.js",
+    "coverage": "covert test/*.js",
+    "coverage:quiet": "covert test/*.js --quiet",
+    "lint": "npm run --silent jscs && npm run --silent eslint",
+    "eslint": "eslint *.js test/*.js",
+    "jscs": "jscs *.js test/*.js",
+    "build": "mkdir -p dist && browserify browserShim.js > dist/browser.js",
+    "prepublish": "npm run --silent build",
+    "security": "nsp check"
+  },
+  "dependencies": {
+    "define-properties": "^1.1.2",
+    "function-bind": "^1.1.1",
+    "has-symbols": "^1.0.0",
+    "object-keys": "^1.0.11"
+  },
+  "devDependencies": {
+    "@es-shims/api": "^2.1.1",
+    "@ljharb/eslint-config": "^12.2.1",
+    "browserify": "^14.5.0",
+    "covert": "^1.1.0",
+    "eslint": "^4.13.1",
+    "for-each": "^0.3.2",
+    "is": "^3.2.1",
+    "jscs": "^3.0.7",
+    "nsp": "^3.1.0",
+    "tape": "^4.8.0"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "gitHead": "5fd74aee40aba36e9a8eb0c329abd33a07b93164",
+  "dist": {
+    "integrity": "sha512-exHJeq6kBKj58mqGyTQ9DFvrZC/eR6OwxzoM9YRoGBqrXYonaFyGiFMuc9VZrXf7DarreEwMpurG3dd+CNyW5w==",
+    "shasum": "968bf1100d7956bb3ca086f006f846b3bc4008da",
+    "tarball": "https://registry.npmjs.org/object.assign/-/object.assign-4.1.0.tgz"
+  },
+  "directories": {}
+}

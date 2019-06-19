@@ -1,0 +1,108 @@
+{
+  "name": "jwa",
+  "description": "JWA implementation (supports all JWS algorithms)",
+  "dist-tags": {
+    "latest": "1.4.1"
+  },
+  "versions": [
+    "0.0.0",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "1.1.6",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1"
+  ],
+  "maintainers": [
+    "brianloveswords <brianloveswords@gmail.com>",
+    "omsmith <owen@omsmith.ca>",
+    "stenington <mikelarssonftw@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-03-16T15:19:57.623Z",
+    "created": "2013-02-10T02:02:09.868Z",
+    "0.0.0": "2013-02-10T02:02:10.716Z",
+    "0.0.1": "2013-02-10T02:59:50.477Z",
+    "0.0.2": "2013-02-10T21:24:57.199Z",
+    "0.0.3": "2015-01-11T16:18:05.702Z",
+    "1.0.0": "2015-01-11T16:18:16.427Z",
+    "1.0.1": "2015-07-01T18:09:15.900Z",
+    "1.0.2": "2015-07-16T17:02:33.345Z",
+    "1.1.0": "2015-07-16T17:07:15.670Z",
+    "1.1.1": "2015-11-10T02:22:15.839Z",
+    "1.1.2": "2016-02-18T14:25:22.508Z",
+    "1.1.3": "2016-02-18T15:39:27.215Z",
+    "1.1.4": "2016-11-03T19:25:45.102Z",
+    "1.1.5": "2016-12-05T21:12:09.532Z",
+    "1.1.6": "2018-05-14T15:08:04.572Z",
+    "1.2.0": "2019-01-25T20:45:46.635Z",
+    "1.3.0": "2019-02-20T14:55:36.788Z",
+    "1.4.0": "2019-03-02T03:49:42.532Z",
+    "1.4.1": "2019-03-16T15:19:55.038Z"
+  },
+  "author": "Brian J. Brennan <brianloveswords@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianloveswords/node-jwa.git"
+  },
+  "homepage": "https://github.com/brianloveswords/node-jwa#readme",
+  "keywords": [
+    "jwa",
+    "jws",
+    "jwt",
+    "rsa",
+    "ecdsa",
+    "hmac"
+  ],
+  "bugs": {
+    "url": "https://github.com/brianloveswords/node-jwa/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "ramy": true,
+    "devhulk": true,
+    "nickeltobias": true,
+    "ngpvnk": true,
+    "sternelee": true
+  },
+  "version": "1.4.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "buffer-equal-constant-time": "1.0.1",
+    "ecdsa-sig-formatter": "1.0.11",
+    "safe-buffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "base64url": "^2.0.0",
+    "jwk-to-pem": "^2.0.1",
+    "semver": "4.3.6",
+    "tap": "6.2.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "gitHead": "5b3bceef80a1eeb21405d5ea4cdf0725277746e1",
+  "dist": {
+    "integrity": "sha512-qiLX/xhEEFKUAJ6FiBMbes3w9ATzyk5W7Hvzpa/SLYdxNtng+gcurvrI7TbACjIXlsJyr05/S1oUhZrc63evQA==",
+    "shasum": "743c32985cb9e98655530d53641b66c8645b039a",
+    "tarball": "https://registry.npmjs.org/jwa/-/jwa-1.4.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 13688,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcjRQbCRA9TVsSAnZWagAAL/sP/3KmKhS6/4t/y2pu8Zc9\nsPDBy+wb2sV6VM7oDSlNP1aRjSEPbdaLAG90A8Q3g+l7nafzmXcWaZpFqUBP\n7y5Ka87FBwm2BG9E/Uv+M54RmpQeXgZuI1SlY2ZYYs2ktQUjl5QU74PKv/W4\nWYeZzJvgEnTHyPJk6Vz8570vuf4dPsw4PuKZbL11WVg7F1smAqNP7VO5Og3D\nyMY4PaeWN6RnFKKVgQfWVvqKOSQVpPHV0m+TpuD/Sv+8fRgT1V3HTDAkpJuS\ncTH4oG17zLmKh1RICCL4w7zIlFQubzVMt7kQ+EFKHOIjqRAFb+jj7otqOih3\nznQLOBIJysgEeJC6pLi2U3qMAFh5OdCYT0Wmc99cQX8f/jqj2wVeieqOLbiJ\ndWOdRdbUgKm9dRyVMZaJ7daIF/5xGtAfMlekpeqb3PQ3ZN5/LwYRvdXa04LX\nVzN5xLyozWsdG/xt5nFy9Lpsedc4tnE6rceh7cAvk2H4sn1fkNhVOdYSI/z1\nFqFn67hj+Q9D1Hu6fj/onbOh5UDC3j7e9gacqAHGf4L0ER333qKH0C5cmBHj\no2QETGIuUYcI/c2iX7CKJtiIOdlyaF4oO1ZueJ+h4NKMr7kXDd9x+I0ByA/m\nB98Gsje1+2Me4RYnd5XcWyk/ynA1Ewt0qyxI8ZUHkDw5WmjLNh/xvGGUEHp6\nPSK1\r\n=zBLA\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

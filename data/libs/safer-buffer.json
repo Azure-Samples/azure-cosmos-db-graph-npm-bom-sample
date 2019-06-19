@@ -1,0 +1,66 @@
+{
+  "name": "safer-buffer",
+  "dist-tags": {
+    "latest": "2.1.2"
+  },
+  "versions": [
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2"
+  ],
+  "time": {
+    "created": "2018-03-19T08:26:02.082Z",
+    "1.0.0": "2018-03-19T08:26:02.318Z",
+    "modified": "2018-04-08T10:42:42.789Z",
+    "2.0.0": "2018-03-19T08:35:17.564Z",
+    "2.0.1": "2018-03-19T11:21:35.766Z",
+    "2.0.2": "2018-03-20T11:28:09.716Z",
+    "2.1.0": "2018-03-21T19:14:45.213Z",
+    "2.1.1": "2018-04-08T09:17:47.195Z",
+    "2.1.2": "2018-04-08T10:42:42.130Z"
+  },
+  "maintainers": [
+    "chalker <chalkerx@gmail.com>"
+  ],
+  "description": "Modern Buffer API polyfill without footguns",
+  "homepage": "https://github.com/ChALkeR/safer-buffer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChALkeR/safer-buffer.git"
+  },
+  "author": "Nikita Skovoroda <chalkerx@gmail.com> (https://github.com/ChALkeR)",
+  "bugs": {
+    "url": "https://github.com/ChALkeR/safer-buffer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "version": "2.1.2",
+  "main": "safer.js",
+  "scripts": {
+    "browserify-test": "browserify --external tape tests.js > browserify-tests.js && tape browserify-tests.js",
+    "test": "standard && tape tests.js"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
+  },
+  "files": [
+    "Porting-Buffer.md",
+    "Readme.md",
+    "tests.js",
+    "dangerous.js",
+    "safer.js"
+  ],
+  "gitHead": "e8ac214944eda30e1e6c6b7d7e7f6a21cf7dce7c",
+  "dist": {
+    "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+    "shasum": "44fa161b0187b9549dd84bb91802f9bd8385cd6a",
+    "tarball": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+    "fileCount": 7,
+    "unpackedSize": 42299
+  },
+  "directories": {}
+}

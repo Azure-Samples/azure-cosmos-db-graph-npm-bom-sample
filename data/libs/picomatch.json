@@ -1,0 +1,119 @@
+{
+  "name": "picomatch",
+  "dist-tags": {
+    "latest": "2.0.7"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.0.7"
+  ],
+  "time": {
+    "created": "2018-11-05T12:07:08.561Z",
+    "1.0.0": "2018-11-05T12:07:08.695Z",
+    "modified": "2019-05-14T17:41:25.286Z",
+    "1.0.1": "2018-11-05T12:12:00.358Z",
+    "1.0.2": "2018-11-05T13:45:29.274Z",
+    "1.1.0": "2018-12-14T17:18:24.238Z",
+    "1.1.1": "2018-12-15T03:09:48.333Z",
+    "1.1.2": "2018-12-15T03:13:01.124Z",
+    "1.2.0": "2019-03-30T02:20:22.763Z",
+    "2.0.0": "2019-04-10T11:03:29.057Z",
+    "2.0.1": "2019-04-10T11:50:06.709Z",
+    "2.0.2": "2019-04-10T12:16:36.700Z",
+    "2.0.3": "2019-04-10T12:43:39.432Z",
+    "2.0.4": "2019-04-14T06:34:51.007Z",
+    "2.0.5": "2019-04-20T15:42:51.621Z",
+    "2.0.6": "2019-05-04T08:17:27.543Z",
+    "2.0.7": "2019-05-14T17:41:22.540Z"
+  },
+  "maintainers": [
+    "doowb <brian.woodward@gmail.com>",
+    "jonschlinkert <github@sellside.com>",
+    "mrmlnc <dmalinochkin@rambler.ru>"
+  ],
+  "description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.",
+  "homepage": "https://github.com/micromatch/picomatch",
+  "keywords": [
+    "glob",
+    "match",
+    "picomatch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micromatch/picomatch.git"
+  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "bugs": {
+    "url": "https://github.com/micromatch/picomatch/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.7",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "mocha",
+    "cover": "nyc --reporter=text --reporter=html mocha"
+  },
+  "devDependencies": {
+    "fill-range": "^7.0.1",
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "time-require": "github:jonschlinkert/time-require"
+  },
+  "verb": {
+    "toc": false,
+    "layout": false,
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": [
+        "micromatch",
+        "braces"
+      ]
+    },
+    "reflinks": [
+      "braces",
+      "expand-brackets",
+      "extglob",
+      "fill-range",
+      "micromatch",
+      "minimatch",
+      "nanomatch",
+      "picomatch"
+    ]
+  },
+  "gitHead": "9eb9a71780035c5c3e2c1e67eafa3d967f2289b2",
+  "dist": {
+    "integrity": "sha512-oLHIdio3tZ0qH76NybpeneBhYVj0QFTfXEFTc/B3zKQspYfYYkWYgFsmzo+4kvId/bQRcNkVeguI3y+CD22BtA==",
+    "shasum": "514169d8c7cd0bdbeecc8a2609e34a7163de69f6",
+    "tarball": "https://registry.npmjs.org/picomatch/-/picomatch-2.0.7.tgz",
+    "fileCount": 10,
+    "unpackedSize": 73492,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2v3DCRA9TVsSAnZWagAArBEP/08ZY+N0XGMP6tySuJRm\n6fmAEC+W5Zugeb/z9/poRHFL2PkUj3k8QxXpanoCcySDCMn8exAWdRiiw7a4\n1cwdBS7SGowauCJRoFL9AcmRZv6e0+a+7lStHRd6kjTec5ZHN9LAVNXwhUST\n6Ch2c37HkbNcuEaO3y7a4WpLoWZkXeXiAMX0m3kCwiywUskfAnFQiEwbeGAG\nPCUAiEYrh1/MRUZ8xv4+AZJ6/OlBmeQYSgBPelyONk9NGVsVQ5I2pjGnaQsG\n1UtGhofoT/3zIfIb2sb1bU3fZbMxwEbQ6KG+Rg4lejFi2+Zq6MZdiYPlNCrq\nEcWqPWmtutGFM0ipsyswkwvUZRh+1C8hq8IUFP+n3BebsFLUjIygnXLCSFWW\ny3WfsHgnxoKgJqezB18M07yd7C1me8uo4PHMRXtVcj2Za3q+4uvb1QFYuJAr\nN/3Sfmc9JF53ToRa7/kdn96ONgrtdyDBG7e5begUYZ0DOgXIRJV+CRJhW0oG\njEPzRgUjxZqiuBSvfNdYlj8w1rVHbwrILAtol7M4I3c995Dvcpf7La3Vmsd2\nxGfaTR8VVKsqr3nQ2FXhOBWmNSCvl+gqbxesy9yQ3oU+xgZuZuGnj+RR1R66\nxafxp0UXKd5/G24UEmgkYZCznjFmY9IqiGHPyg/RsGmOvZr7m+k5TYoqjO9e\nLoz5\r\n=SN3+\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

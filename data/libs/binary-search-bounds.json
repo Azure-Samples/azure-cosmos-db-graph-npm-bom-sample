@@ -1,0 +1,85 @@
+{
+  "name": "binary-search-bounds",
+  "description": "Better binary searching",
+  "dist-tags": {
+    "latest": "2.0.4"
+  },
+  "versions": [
+    "0.0.0",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4"
+  ],
+  "maintainers": [
+    "mikolalysenko <mikolalysenko@gmail.com>"
+  ],
+  "time": {
+    "modified": "2018-01-20T08:32:44.507Z",
+    "created": "2013-10-15T22:34:05.037Z",
+    "0.0.0": "2013-10-15T22:34:05.949Z",
+    "0.1.0": "2013-10-16T01:30:25.195Z",
+    "0.1.1": "2013-11-06T17:10:47.275Z",
+    "0.2.0": "2013-11-06T17:33:35.731Z",
+    "0.3.0": "2013-11-06T20:15:57.163Z",
+    "0.3.1": "2013-11-06T21:17:02.084Z",
+    "1.0.0": "2014-04-24T15:27:14.591Z",
+    "2.0.0": "2015-06-15T15:58:03.274Z",
+    "2.0.1": "2015-06-15T16:17:33.494Z",
+    "2.0.2": "2015-06-15T16:50:54.593Z",
+    "2.0.3": "2015-06-15T16:54:38.860Z",
+    "2.0.4": "2018-01-20T08:32:44.507Z"
+  },
+  "author": "Mikola Lysenko",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/binary-search-bounds.git"
+  },
+  "users": {
+    "maxogden": true,
+    "mikolalysenko": true,
+    "shanewholloway": true
+  },
+  "homepage": "https://github.com/mikolalysenko/binary-search-bounds#readme",
+  "keywords": [
+    "binary",
+    "search",
+    "bounds",
+    "least",
+    "lower",
+    "greatest",
+    "upper"
+  ],
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/binary-search-bounds/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.4",
+  "main": "search-bounds.js",
+  "typings": "search-bounds.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "guarded-array": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "gitHead": "e5bc6aeb8fb81bfade3db977f36c115f17445afc",
+  "dist": {
+    "integrity": "sha512-2hg5kgdKql5ClF2ErBcSx0U5bnl5hgS4v7wMnLFodyR47yMtj2w+UAZB+0CiqyHct2q543i7Bi4/aMIegorCCg==",
+    "shasum": "eea0e4081da93baa851c7d851a7e636c3d51307f",
+    "tarball": "https://registry.npmjs.org/binary-search-bounds/-/binary-search-bounds-2.0.4.tgz"
+  }
+}

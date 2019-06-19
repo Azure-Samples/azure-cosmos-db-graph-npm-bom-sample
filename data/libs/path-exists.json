@@ -1,0 +1,87 @@
+{
+  "name": "path-exists",
+  "description": "Check if a path exists",
+  "dist-tags": {
+    "latest": "4.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0",
+    "4.0.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-04T03:29:19.419Z",
+    "created": "2015-05-02T22:43:43.950Z",
+    "1.0.0": "2015-05-02T22:43:43.950Z",
+    "2.0.0": "2015-09-01T07:09:33.519Z",
+    "2.1.0": "2015-11-14T13:55:22.456Z",
+    "3.0.0": "2016-05-01T11:44:53.762Z",
+    "4.0.0": "2019-04-04T03:29:16.887Z"
+  },
+  "homepage": "https://github.com/sindresorhus/path-exists#readme",
+  "keywords": [
+    "path",
+    "exists",
+    "exist",
+    "file",
+    "filepath",
+    "fs",
+    "filesystem",
+    "file-system",
+    "access",
+    "stat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/path-exists.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/path-exists/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "users": {
+    "redmonkeydf": true,
+    "timdp": true,
+    "recursion_excursion": true,
+    "banzeh": true,
+    "monjer": true,
+    "antixrist": true,
+    "deneboulton": true,
+    "hyteer": true,
+    "rocket0191": true,
+    "ognjen.jevremovic": true,
+    "serge-nikitin": true,
+    "coinoperatedgoi": true,
+    "kiinlam": true,
+    "ash": true
+  },
+  "version": "4.0.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "26b1adf80aa6761a7db35927a20cf59e0fd1a00d",
+  "dist": {
+    "integrity": "sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==",
+    "shasum": "513bdbe2d3b95d7762e8c1137efa195c6c61b5b3",
+    "tarball": "https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3919,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpXoNCRA9TVsSAnZWagAAnosQAI8XSu8kmOriX6qXOsXw\nVCUJHDFHO4M5dLJdrT1o5o0SDkTQUmOSazUR/CvaA/4pE7rtPjOL58CrHqSI\nKfEF3lTitx+L3kEw3br6bPMVTo+JoSH04L+UXq7YdkfwRigrNmZpjMiIychR\ngxcgTzBfsFBYzRRUia8OUAFkIK9kvzpRorfFSMfzGGB9V+vjbMd2V+OM0N+G\nAc48nmGUsrQKknAiJpkixM5PWMd/51kV5SzO13RLCnwNOYnH/vNij/9oseSt\njO2nkixc7PDMZTD/2kOQoRQpYoKju/gUnFXCynw1A4EHxetv6QB4nbIVLt8t\nyGhu+hrhNlTgP4MBuSddj4iqJ2EY6VpVZzUNNSzI7SzF62AWTZRHoNLG80yM\naSDKS9Vu+9lkT+YOTA1dXFMol2a29Lzo6Q1PAj2vHd++SZ5A0QO5iRVQkocu\ncecYKaeP2XCa6iWaPwAfEN2rJRdnKN3LrKKr1Cbttjd9WI3Kr152uNXYLjw3\nQ4KpUo4B9rNSTArMk7AIJ1/71uDxvCB+T0OYkj+uHTEKAB/wllpUcJXE2V4Q\nnRig/oWco1+oo1qBY0b2OgiiUcTEfuYUDEyecojVV+nmDDzC/GmcO/93hFnL\nEFxqhB1yaFHuaK4+ntJRpFg+fry09I8mu145WqhggK3le4DUTyyrESAjcBOs\n6s47\r\n=Jirh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

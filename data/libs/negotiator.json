@@ -1,0 +1,129 @@
+{
+  "name": "negotiator",
+  "description": "HTTP content negotiation",
+  "dist-tags": {
+    "latest": "0.6.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.2.6",
+    "0.2.7",
+    "0.2.8",
+    "0.3.0",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "0.4.3",
+    "0.4.4",
+    "0.4.5",
+    "0.4.6",
+    "0.4.7",
+    "0.4.8",
+    "0.4.9",
+    "0.5.0",
+    "0.5.1",
+    "0.5.2",
+    "0.5.3",
+    "0.6.0",
+    "0.6.1",
+    "0.6.2"
+  ],
+  "maintainers": [
+    "dougwilson <doug@somethingdoug.com>",
+    "jongleberry <jonathanrichardong@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-30T00:30:33.236Z",
+    "created": "2012-01-26T17:25:16.828Z",
+    "0.1.0": "2012-01-26T17:25:19.965Z",
+    "0.2.3": "2012-04-24T21:37:45.030Z",
+    "0.2.4": "2012-06-02T21:48:39.123Z",
+    "0.2.5": "2012-08-11T18:16:30.819Z",
+    "0.2.6": "2013-06-05T14:20:08.959Z",
+    "0.2.7": "2013-08-11T04:12:25.408Z",
+    "0.2.8": "2013-09-19T18:33:09.169Z",
+    "0.3.0": "2013-10-18T20:12:14.807Z",
+    "0.4.0": "2014-01-09T15:23:11.532Z",
+    "0.4.1": "2014-01-16T17:02:25.226Z",
+    "0.4.2": "2014-03-01T03:06:59.978Z",
+    "0.4.3": "2014-04-16T14:12:01.576Z",
+    "0.4.4": "2014-05-29T15:19:30.693Z",
+    "0.4.5": "2014-05-29T15:53:13.591Z",
+    "0.4.6": "2014-06-11T19:36:14.258Z",
+    "0.4.7": "2014-06-24T22:32:21.627Z",
+    "0.4.8": "2014-09-28T21:46:31.730Z",
+    "0.4.9": "2014-10-15T04:39:00.364Z",
+    "0.5.0": "2014-12-19T04:05:15.020Z",
+    "0.5.1": "2015-02-15T01:54:09.606Z",
+    "0.5.2": "2015-05-07T05:18:55.668Z",
+    "0.5.3": "2015-05-11T02:19:32.641Z",
+    "0.6.0": "2015-09-30T01:21:40.970Z",
+    "0.6.1": "2016-05-03T04:47:29.814Z",
+    "0.6.2": "2019-04-30T00:30:30.629Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/negotiator.git"
+  },
+  "users": {
+    "isaacs": true,
+    "kubakubula": true,
+    "kylemathews": true,
+    "calebmer": true,
+    "snowdream": true,
+    "chrisyipw": true,
+    "magicadiii": true,
+    "mojaray2k": true,
+    "nisimjoseph": true,
+    "chosan": true,
+    "vparaskevas": true
+  },
+  "homepage": "https://github.com/jshttp/negotiator#readme",
+  "keywords": [
+    "http",
+    "content negotiation",
+    "accept",
+    "accept-language",
+    "accept-encoding",
+    "accept-charset"
+  ],
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Federico Romero <federico.romero@outboxlabs.com>",
+    "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)"
+  ],
+  "bugs": {
+    "url": "https://github.com/jshttp/negotiator/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.6.2",
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-plugin-markdown": "1.0.0",
+    "mocha": "6.1.4",
+    "nyc": "14.0.0"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --check-leaks --bail test/",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "test-travis": "nyc --reporter=text npm test"
+  },
+  "gitHead": "99f418e11907b60e63f0addc09fc596ddc7be5be",
+  "dist": {
+    "integrity": "sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==",
+    "shasum": "feacf7ccf525a77ae9634436a64883ffeca346fb",
+    "tarball": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz",
+    "fileCount": 9,
+    "unpackedSize": 28102,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcx5cnCRA9TVsSAnZWagAAP20P/0MCkOVbsy3QpadyxP2l\nfQaJNj3676xMnX1jvmbttyR2pejPTOeACkojxti4dkza3VoK5i0P2vxXVjjC\nFTS+joLUaqyS/urJFhQOxICR37l1s849MnXrwV/+mIo7kytMelYJcTbPj3ov\np6OYauZfzPlnFP3zxBYaPmIOKSILILVoVGPSwkRrJlgJUgdqzaMKSUTfTCzq\nELh0wT834veFEnFIeu84Z4NWf6QPrWLwO8Fi6clDpTc0TYJl4xi0cEo9euSB\nQdKVK2gwPCLq6vV3TZoPHCs4/8XLX9zSZLqrAeiK6gC8rrJiGIEFTVLgUXIc\nDb7bKpcOlpvRBBGwtoa0crIGWEFZ5HCTLeDL3ZyfafZ6XqTYeOrYUpvmhv+A\nU6abBAxcE2FGdWkYuSMrbSU1KplzubcLEthVfVilREcQl7V/INK1rRzC/YPb\nlvXd0VqHH+JzsIqe5okX6prnQmKJ6I9Xtu2y7/ocI1WkikaU3bFjbIwke40w\nLTjqvSGCmc9End3k50XOG/AwhitANuOMugJ8iYwn1DwT995tj6IW8Am+C2gR\n0lceIeUnOq5VxtDYN/q2rfVg/cHcr9srAnPdGp4dwcSLTwWX9/vDKB6piasF\nZnYHmofBFT2ensRv1qYU4nlDZPULH5T+rPFVhZgGUCpJzzc2wAMTpFcQixQ3\nCEXq\r\n=qmZ/\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

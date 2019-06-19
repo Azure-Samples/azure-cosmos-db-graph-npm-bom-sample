@@ -1,0 +1,153 @@
+{
+  "name": "xtend",
+  "description": "extend like a boss",
+  "dist-tags": {
+    "latest": "4.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.1.1",
+    "2.1.2",
+    "2.2.0",
+    "3.0.0",
+    "4.0.0",
+    "4.0.1"
+  ],
+  "maintainers": [
+    "raynos <raynos2@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-11-28T18:52:56.932Z",
+    "created": "2012-05-23T11:25:19.588Z",
+    "1.0.0": "2012-05-23T11:25:21.192Z",
+    "1.0.1": "2012-05-23T11:27:39.720Z",
+    "1.0.2": "2012-05-23T11:28:40.032Z",
+    "1.0.3": "2012-05-30T12:03:49.948Z",
+    "2.0.1": "2013-03-02T02:52:08.771Z",
+    "2.0.2": "2013-03-02T02:53:05.996Z",
+    "2.0.3": "2013-03-02T02:56:11.023Z",
+    "2.0.4": "2013-05-15T21:04:12.697Z",
+    "2.0.5": "2013-06-01T23:27:01.096Z",
+    "2.0.6": "2013-06-20T21:30:21.949Z",
+    "2.1.1": "2013-09-04T17:17:38.531Z",
+    "2.1.2": "2014-01-01T09:31:13.601Z",
+    "2.2.0": "2014-03-26T08:35:47.006Z",
+    "3.0.0": "2014-04-14T20:35:30.623Z",
+    "4.0.0": "2014-07-31T22:23:46.567Z",
+    "4.0.1": "2015-11-02T22:19:21.923Z"
+  },
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Raynos/xtend.git"
+  },
+  "users": {
+    "devoidfury": true,
+    "brianloveswords": true,
+    "grncdr": true,
+    "johnnyscript": true,
+    "artskydj": true,
+    "kahboom": true,
+    "tunnckocore": true,
+    "stringparser": true,
+    "kws4679": true,
+    "frknbasaran": true,
+    "axelav": true,
+    "iamveen": true,
+    "attilab": true,
+    "simplyianm": true,
+    "jefrancomix": true,
+    "joakin": true,
+    "bsnote": true,
+    "itonyyo": true,
+    "program247365": true,
+    "elidiazgt": true,
+    "thebearingedge": true,
+    "akiva": true,
+    "detj": true,
+    "maxidr": true,
+    "vbv": true,
+    "nickleefly": true,
+    "ru7hl355": true,
+    "moimikey": true,
+    "nickeltobias": true,
+    "bojand": true,
+    "tobiasnickel": true,
+    "thejaydox": true,
+    "dracochou": true,
+    "bret": true,
+    "chaoticloki": true,
+    "rnbwd": true,
+    "grreenzz": true,
+    "estrattonbailey": true,
+    "vonthar": true,
+    "minicast": true,
+    "dzhou777": true,
+    "max_devjs": true,
+    "evanshortiss": true,
+    "sprying": true,
+    "eliellis": true,
+    "kerwyn": true
+  },
+  "homepage": "https://github.com/Raynos/xtend",
+  "keywords": [
+    "extend",
+    "merge",
+    "options",
+    "opts",
+    "object",
+    "array"
+  ],
+  "contributors": [
+    "Jake Verbaten",
+    "Matt Esch"
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/xtend/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "4.0.1",
+  "main": "immutable",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.1.0"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/7..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest"
+    ]
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "gitHead": "23dc302a89756da89c1897bc732a752317e35390",
+  "dist": {
+    "shasum": "a5c6d532be656e23db820efb943a1f04998d63af",
+    "tarball": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
+  },
+  "directories": {}
+}

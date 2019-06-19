@@ -1,0 +1,67 @@
+{
+  "name": "postgres-date",
+  "description": "Postgres date column parser",
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "versions": [
+    "0.0.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "maintainers": [
+    "bendrucker <bvdrucker@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-03T12:01:22.014Z",
+    "created": "2015-06-13T23:53:09.103Z",
+    "0.0.0": "2015-06-13T23:53:09.103Z",
+    "1.0.0": "2015-06-13T23:53:28.034Z",
+    "1.0.1": "2015-12-31T14:58:28.133Z",
+    "1.0.2": "2016-05-19T16:30:43.209Z",
+    "1.0.3": "2016-07-06T04:16:55.471Z",
+    "1.0.4": "2019-04-03T12:01:17.687Z"
+  },
+  "homepage": "https://github.com/bendrucker/postgres-date#readme",
+  "keywords": [
+    "postgres",
+    "date",
+    "parser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendrucker/postgres-date.git"
+  },
+  "author": "Ben Drucker <bvdrucker@gmail.com> (bendrucker.me)",
+  "bugs": {
+    "url": "https://github.com/bendrucker/postgres-date/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "main": "index.js",
+  "version": "1.0.4",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^12.0.1"
+  },
+  "gitHead": "1b6c45f03ea18cff85494d294d2a4af6c8144f4b",
+  "dist": {
+    "integrity": "sha512-bESRvKVuTrjoBluEcpv2346+6kgB7UlnqWZsnbnCccTNq/pqfj1j6oBaN5+b/NrDXepYUT/HKadqv3iS9lJuVA==",
+    "shasum": "1c2728d62ef1bff49abdd35c1f86d4bdf118a728",
+    "tarball": "https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.4.tgz",
+    "fileCount": 4,
+    "unpackedSize": 4946,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpKCOCRA9TVsSAnZWagAAfJEQAIpyJwq+pu5w1JtoHCNG\nrDhkD6n7pHz8lk0YvvrO+YC/FDaJVJQXMklC8dt8us7Y1RVP8dgJR9Wjs0SU\ncWkdPgKi+rV6XxoiF3BIPZliSAnvw/bMS1DnyUyVPJ2nYTsZWetvd26NmZrP\nOvGS0gM2ohzie+4shEEScBvF02LXQ6E+NvvN22KouJlU1x/9eUQHi9Obx0Eb\n1qsf1Lkw3yC0z9dGvxV+bJcdn7WSih3grIEt0oEkmY9HGdQT6wflWlKUpdQa\nkOyQdmcOAiFBYtOEjwTh2qFW6pWRf4CvUz+/cgBPltF3imA8GRe1zvEKQdOU\n/6t8HwmyQ7MYMla1dWA4SoyU1neAtdmNKuu6KipstH9W7UCDHno+jO4RbjxY\nynrS5bxNcooV5x3TcJESUZdtGfDL1dL/CatMqsAVzDDKp7TK9tpKiRppcMcC\nIJv79zGbFNph9UhvcEWU/U1CC5PevmDW7bDKX2TVy8QfnedrDqbcOiVtRvg5\nUbMG0HnxJmsnu6my6ot20wRRK9NNDvG9Bx3JWcZfKSP+hXBdzR/jmVNWWNE+\nnYgr4Pgf7dEt8TcUo8v4OM1oQ3MsWdPShy41LtpToCjkIn9DKPkSOAEUnEC3\nGr5vBihRzU8mjOTCUt9i4DBg1wLo6dWpPIvqTFQJPtPud+mU9FnQf7ixMHlV\nDZqF\r\n=itcV\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

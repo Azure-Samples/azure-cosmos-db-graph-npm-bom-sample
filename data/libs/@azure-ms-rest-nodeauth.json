@@ -1,0 +1,115 @@
+{
+  "name": "@azure/ms-rest-nodeauth",
+  "dist-tags": {
+    "latest": "2.0.1"
+  },
+  "versions": [
+    "0.8.0",
+    "0.8.1",
+    "0.8.2",
+    "0.8.3",
+    "0.8.4",
+    "0.9.0",
+    "0.9.1",
+    "0.9.2",
+    "0.9.3",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "time": {
+    "created": "2018-11-12T22:12:38.342Z",
+    "0.8.0": "2018-11-12T22:12:38.756Z",
+    "modified": "2019-05-23T00:40:08.459Z",
+    "0.8.1": "2018-11-19T19:22:27.645Z",
+    "0.8.2": "2018-11-19T20:55:56.960Z",
+    "0.8.3": "2018-12-18T17:34:55.035Z",
+    "0.8.4": "2019-01-09T16:29:31.411Z",
+    "0.9.0": "2019-01-14T18:28:09.326Z",
+    "0.9.1": "2019-01-15T16:48:53.338Z",
+    "0.9.2": "2019-03-26T20:32:47.457Z",
+    "0.9.3": "2019-04-04T22:05:56.491Z",
+    "1.0.0": "2019-05-06T20:26:10.239Z",
+    "1.0.1": "2019-05-06T21:50:11.296Z",
+    "1.1.0": "2019-05-16T16:22:50.816Z",
+    "1.1.1": "2019-05-16T17:35:12.717Z",
+    "2.0.0": "2019-05-20T18:19:56.465Z",
+    "2.0.1": "2019-05-23T00:40:05.667Z"
+  },
+  "maintainers": [
+    "amarzavery <amarzavery@gmail.com>",
+    "azure-sdk <azuresdkengsysadmins@microsoft.com>",
+    "billytrend <billy.trend@gmail.com>",
+    "sergeyshandar <sergey.shandar@gmail.com>",
+    "veronicagg <bggve@outlook.com>",
+    "vladbarosan <vlad.barosan@gmail.com>"
+  ],
+  "description": "Azure Authentication library in node.js with type definitions.",
+  "homepage": "https://github.com/Azure/ms-rest-nodeauth",
+  "keywords": [
+    "node",
+    "azure",
+    "autorest",
+    "authentication",
+    "environment",
+    "adal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Azure/ms-rest-nodeauth.git"
+  },
+  "author": "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-nodeauth)",
+  "bugs": {
+    "url": "http://github.com/Azure/ms-rest-nodeauth/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "2.0.1",
+  "main": "./dist/lib/msRestNodeAuth.js",
+  "types": "./dist/lib/msRestNodeAuth.d.ts",
+  "dependencies": {
+    "@azure/ms-rest-azure-env": "^1.1.2",
+    "@azure/ms-rest-js": "^1.8.7",
+    "adal-node": "^0.1.28"
+  },
+  "devDependencies": {
+    "@ts-common/azure-js-dev-tools": "^0.4.9",
+    "@types/chai": "^4.1.6",
+    "@types/dotenv": "^6.1.1",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.1",
+    "npm-run-all": "^4.1.3",
+    "nyc": "^14.1.0",
+    "rollup": "^0.67.1",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  },
+  "scripts": {
+    "build": "run-s build:tsc build:rollup",
+    "build:tsc": "tsc -p tsconfig.json",
+    "build:rollup": "rollup -c rollup.config.js",
+    "prepack": "npm install && npm run build",
+    "test": "npm run build && run-p test:tslint test:unit",
+    "test:tslint": "tslint -p . -c tslint.json",
+    "test:unit": "mocha",
+    "check:packagejsonversion": "ts-node ./.scripts/checkPackageJsonVersion.ts"
+  },
+  "dist": {
+    "integrity": "sha512-iBhdBC6uN1YapRZeCYdeK87gvQN6mqADqD9H5eGiT8YDtyabd7vc6fTY1VvJ4XOZbI3bJDLlkDTQAjaPbyoGTQ==",
+    "shasum": "68596e20885263102950dc03f983ac5fb3c24d51",
+    "tarball": "https://registry.npmjs.org/@azure/ms-rest-nodeauth/-/ms-rest-nodeauth-2.0.1.tgz",
+    "fileCount": 90,
+    "unpackedSize": 365760,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5evmCRA9TVsSAnZWagAAXtcP/2GwR+O6Z8/ejMY9SB4N\ntDIF3vYlrBGfG1yV7ucKcynFqbMnJTC+G2BK/XXswyvVH7EPg0tk6Yv2YATT\nUjffHg3jXmi43lUvf62+aszACLZF/KoNAAToNpd2PX7GQ8OXjngLHpObrW3f\nBJKPMkOKYuJJ9YyJy6c9kOJ8xe2C8Q9GFalwSTy/9gCdFOnWkyomJIgA50X5\n0cODmLFTn+n9nBnvpvlbWT2XHgbWM/I4XtMiBQl/kWZCFi7Noshg0dzn1UOx\nPhidCFquj0iG3NjN21VdhplCNrRuudw4m5S/r3CIKmqVuHng3q/t2oH98/sP\nxwfjigxI5VOUg90+bGAcZ04DjTce1Ku/5kx7aPb/n+iiYlkonVlkcstPJ/vo\nckRBPtfU2i1/hncFk8qcJqP5ZvPMY0sCx6IToIVZ3JpHltr1UA43tszx3LDz\ncCKTV18dYq1gfvGFGn4mEJ87Y1cnO8O5hHoOrhBXnnR6URccO30SwVTP3rvJ\npajNNTR4qlvLGyXuZHvAXL/NMRc2CoLF64YO7rViieU0UCXh6K2D64fa5HqM\nSdEiExfzh1fTxJQr1hEHHTYPJLErirIj4e7JKrt5SLFqKrIB7/aZrw7qWdiB\nbhkUPYO9awdwwnHKwYSX4Z0eXfY3ceNU4WB5tqulNeu3XTTIy9lsbHkZ0krV\nn/gQ\r\n=NYYy\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

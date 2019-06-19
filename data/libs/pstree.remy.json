@@ -1,0 +1,61 @@
+{
+  "name": "pstree.remy",
+  "description": "Collects the full tree of processes from /proc",
+  "dist-tags": {
+    "latest": "1.1.7"
+  },
+  "versions": [
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "1.1.6",
+    "1.1.7"
+  ],
+  "maintainers": [
+    "remy <remy@leftlogic.com>"
+  ],
+  "time": {
+    "modified": "2019-05-29T16:52:20.371Z",
+    "created": "2017-12-20T11:24:33.756Z",
+    "1.1.0": "2017-12-20T11:24:33.756Z",
+    "1.1.1": "2018-11-22T08:27:03.171Z",
+    "1.1.2": "2018-11-22T11:19:52.689Z",
+    "1.1.3": "2018-12-10T18:07:12.192Z",
+    "1.1.4": "2018-12-10T19:15:40.958Z",
+    "1.1.5": "2018-12-14T16:16:15.619Z",
+    "1.1.6": "2018-12-14T16:27:03.888Z",
+    "1.1.7": "2019-05-29T16:52:17.640Z"
+  },
+  "keywords": [
+    "ps",
+    "pstree",
+    "ps tree"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "readmeFilename": "",
+  "version": "1.1.7",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tap tests/*.test.js"
+  },
+  "devDependencies": {
+    "tap": "^11.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "gitHead": "44da1174fc8a0c68d7bc30cacad9cec28c50f64e",
+  "dist": {
+    "integrity": "sha512-xsMgrUwRpuGskEzBFkH8NmTimbZ5PcPup0LA8JJkHIm2IMUbQcpo3yeLNWVrufEYjh8YwtSVh0xz6UeWc5Oh5A==",
+    "shasum": "c76963a28047ed61542dc361aa26ee55a7fa15f3",
+    "tarball": "https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.7.tgz",
+    "fileCount": 10,
+    "unpackedSize": 13779,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7rjCCRA9TVsSAnZWagAAtxIP/2e40kOGpmd44OswAcXF\nJ1cogI9DFlAmzMYJBHl4l54jKoN6WUqxfNKhF4qH9D3S1Izh4dTg8Z4xqC9I\nqeC4SgeoXPV65flq0+cbRMfXmI9QDlgy80HY0PBZqZYU3sM587nNxkNKv7T2\nWn8l5ApsFpBJa1hqnIU2HRTuRtUXRH1erVPtcvA0xBPFzr1CwMwmM56krqdX\n1ZjQpgj/jBdoBN5i0JaukVoh7t5RD/llBJn2bB0HEhB7oMKMUywoELS55ZMR\nWydtqUyldD+uHcvWgyEwLJIZxPQSQuw+gTxemoUs0USzb+Qz8E+detdcyJGe\n9UvLx79Kpcm+EHTb09v50RtW4szcnz83w+xzrh3+e82PP/IeOhfp8HjbgwId\nZCt6cm4MuL3acG1L9A2Dh9BQSGZHq9Hh9sUgmCwJRynOuDmazNieBzsgrpfV\nSRo8jitqfX8vzltmXFGGTwt7HYRICAfNssLklKiWp0U/dk2AIrketuAlj5Fa\n2Sf0DKi2LqANJ4mBd/8SVhyD/JxhSdnJ1YsPs5AXKBHw7N6HctTremaEvikI\nKwKNl/qBXuiAOrQyeh2LqA+nc9gSDFuu4G7e3bIMC7GFXaoyG6P47VYxMLI2\nv8/4qnw9td+puRRVxX3IvwPccg1PQY2I0fHsdnwfZ4vDyGc/wHiaXqjMpn1d\nIqQb\r\n=6nX7\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

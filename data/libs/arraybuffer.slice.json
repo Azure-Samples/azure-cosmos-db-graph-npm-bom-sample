@@ -1,0 +1,53 @@
+{
+  "name": "arraybuffer.slice",
+  "description": "Exports a function for slicing ArrayBuffers (no polyfilling)",
+  "dist-tags": {
+    "latest": "0.0.7"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7"
+  ],
+  "maintainers": [
+    "rase- <tonykovanen@hotmail.com>"
+  ],
+  "time": {
+    "modified": "2017-08-29T09:20:07.781Z",
+    "created": "2014-02-09T00:07:17.206Z",
+    "0.0.1": "2014-02-09T00:07:17.206Z",
+    "0.0.2": "2014-02-09T00:11:05.843Z",
+    "0.0.3": "2014-02-09T00:24:29.300Z",
+    "0.0.4": "2014-02-09T00:36:19.584Z",
+    "0.0.5": "2014-02-09T07:07:11.370Z",
+    "0.0.6": "2014-03-06T20:19:23.088Z",
+    "0.0.7": "2017-08-29T09:20:07.781Z"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/rase-/arraybuffer.slice",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rase-/arraybuffer.slice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rase-/arraybuffer.slice/issues"
+  },
+  "license": "MIT",
+  "version": "0.0.7",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.17.1",
+    "expect.js": "0.2.0"
+  },
+  "gitHead": "6779b3ca590f15c0910181bf7ccc51061f7eb7ac",
+  "dist": {
+    "integrity": "sha512-wGUIVQXuehL5TCqQun8OW81jGzAWycqzFF8lFp+GOM5BXLYj3bKNsYC4daB7n6XjCqxQA/qgTJ+8ANR3acjrog==",
+    "shasum": "3bbc4275dd584cc1b10809b89d4e8b63a69e7675",
+    "tarball": "https://registry.npmjs.org/arraybuffer.slice/-/arraybuffer.slice-0.0.7.tgz"
+  },
+  "directories": {}
+}

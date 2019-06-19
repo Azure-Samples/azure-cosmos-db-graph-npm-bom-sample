@@ -1,0 +1,51 @@
+{
+  "name": "pg-int8",
+  "description": "64-bit big-endian signed integer-to-string conversion",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "maintainers": [
+    "charmander <~@charmander.me>"
+  ],
+  "time": {
+    "modified": "2017-11-14T22:39:49.993Z",
+    "created": "2017-11-14T13:08:47.528Z",
+    "1.0.0": "2017-11-14T13:08:47.528Z",
+    "1.0.1": "2017-11-14T22:39:49.993Z"
+  },
+  "homepage": "https://github.com/charmander/pg-int8#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmander/pg-int8.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charmander/pg-int8/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "version": "1.0.1",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "tap test"
+  },
+  "devDependencies": {
+    "@charmander/eslint-config-base": "1.0.2",
+    "tap": "10.7.3"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "gitHead": "91d0683b3d0f9b24176bbbffbd03680cd4c97b17",
+  "dist": {
+    "integrity": "sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==",
+    "shasum": "943bd463bf5b71b4170115f80f8efc9a0c0eb78c",
+    "tarball": "https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz"
+  },
+  "directories": {}
+}

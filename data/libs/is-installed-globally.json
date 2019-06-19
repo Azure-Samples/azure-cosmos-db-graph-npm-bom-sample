@@ -1,0 +1,79 @@
+{
+  "name": "is-installed-globally",
+  "description": "Check if your package was installed globally",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": [
+    "0.1.0",
+    "0.2.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-05-12T13:34:14.376Z",
+    "created": "2017-06-25T22:50:03.892Z",
+    "0.1.0": "2017-06-25T22:50:03.892Z",
+    "0.2.0": "2019-05-12T13:34:11.901Z"
+  },
+  "homepage": "https://github.com/sindresorhus/is-installed-globally#readme",
+  "keywords": [
+    "global",
+    "package",
+    "globally",
+    "module",
+    "install",
+    "installed",
+    "npm",
+    "yarn",
+    "is",
+    "check",
+    "detect",
+    "local",
+    "locally",
+    "cli",
+    "bin",
+    "binary"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is-installed-globally.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-installed-globally/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "0.2.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "global-dirs": "^0.1.1",
+    "is-path-inside": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "cpy": "^7.2.0",
+    "del": "^4.1.0",
+    "execa": "^1.0.0",
+    "make-dir": "^3.0.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "4a428988d6f836d36e664d62dba2fec39949ef34",
+  "dist": {
+    "integrity": "sha512-g3TzWCnR/eO4Q3abCwgFjOFw7uVOfxG4m8hMr/39Jcf2YvE5mHrFKqpyuraWV4zwx9XhjnVO4nY0ZI4llzl0Pg==",
+    "shasum": "8cde07ade508458b51f14bcda315ffaf4898de30",
+    "tarball": "https://registry.npmjs.org/is-installed-globally/-/is-installed-globally-0.2.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3679,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2CDUCRA9TVsSAnZWagAAuZIP/0b3HLmRIXyyNe2uY3u/\ngfxzyuKx7YCqPoHVi+EEyzllDYHtprQlE2wuqJS6lTXQExedmMV6iJAtUD5+\nRwE0ZfEMKOeK/J8JKiSxRnf5ONHc23P/WBqmShH+DRlDlbSu4sW6ZGLaHHRo\nQpXfXYMvlT51ky5J8nUfhSwCDL9Ckm/vWaTJ7UAZAxmcvnf4yLijigKFQL0i\nxGey292K4KP/HEBtDw7yd160eRV6TX0wvc8mJ6QWiXfA/t524pX7pAdpzhxY\nExWAq+cSgTGZ4z4fUfRBkExZRjuTYIZp98eVxyLcL1xkH+GJ/yf5eh/p6hdK\nUH623L1lh6NZ9Q2VmGiEksr7Wb5+pc87vP08oXxkgKTtMP3Iboo/6Nmr181w\nbf1kuMBb4Oxy7DknYlDsHNEn9MLh47YfKriXNmrHSenVYrm3EQNwAjsU4a5G\nirzUDc0T89kc9sOFsdJntbXkHErts8UHYnxHyyFR/AFjFNf2wJCVwaCIPd7V\nAzpNhr7+MQDMcJsMBpasQAhjtKwVkZC9RrnnksGuc4NwVNNNnZO0vN5fWjrk\nETOXUj6tAE3BnOqmtc3+/ch5BkpAQgrNT3DmiAn6WuJmC5LY13r+yDhvbVQh\nfoYz9vUKiA5s/HNitW43kH8KcpzJEsWrAXv2Gbv7d1jXiDXb1xLgkSVHGqba\nWwDa\r\n=kmsU\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

@@ -1,0 +1,80 @@
+{
+  "name": "throttleit",
+  "description": "Throttle a function",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0"
+  ],
+  "maintainers": [
+    "tjholowaychuk <tj@vision-media.ca>",
+    "tootallnate <nathan@tootallnate.net>",
+    "rauchg <rauchg@gmail.com>",
+    "retrofox <rdsuarez@gmail.com>",
+    "coreh <thecoreh@gmail.com>",
+    "forbeslindesay <forbes@lindesay.co.uk>",
+    "kelonye <kelonyemitchel@gmail.com>",
+    "mattmueller <mattmuelle@gmail.com>",
+    "yields <yields@icloud.com>",
+    "anthonyshort <antshort@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "ianstormtaylor <ian@ianstormtaylor.com>",
+    "cristiandouce <cristian@gravityonmars.com>",
+    "swatinem <arpad.borsos@googlemail.com>",
+    "stagas <gstagas@gmail.com>",
+    "amasad <amjad.masad@gmail.com>",
+    "juliangruber <julian@juliangruber.com>",
+    "shtylman <shtylman@gmail.com>",
+    "calvinfo <calvin@calv.info>",
+    "dominicbarnes <dominic@dbarnes.info>",
+    "stephenmathieson <me@stephenmathieson.com>",
+    "trevorgerhardt <trevorgerhardt@gmail.com>",
+    "timaschew <timaschew@gmail.com>",
+    "hughsk <hughskennedy@gmail.com>"
+  ],
+  "time": {
+    "modified": "2017-07-22T10:47:07.583Z",
+    "created": "2013-03-26T21:23:59.415Z",
+    "0.0.1": "2013-03-26T21:24:01.652Z",
+    "0.0.2": "2013-03-26T21:31:01.043Z",
+    "1.0.0": "2015-02-27T15:10:17.396Z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/component/throttle.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/component/throttle",
+  "bugs": {
+    "url": "https://github.com/component/throttle/issues"
+  },
+  "users": {
+    "ash": true,
+    "zeke": true,
+    "roccomuso": true,
+    "beisen": true
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "mocha": "^1.18.0"
+  },
+  "component": {
+    "scripts": {
+      "throttle/index.js": "index.js"
+    }
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "gitHead": "19f9fd95782d372f2d0be6d5c60d60f8176d7ef8",
+  "dist": {
+    "shasum": "9e785836daf46743145a5984b6268d828528ac6c",
+    "tarball": "https://registry.npmjs.org/throttleit/-/throttleit-1.0.0.tgz"
+  },
+  "directories": {}
+}

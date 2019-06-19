@@ -1,0 +1,49 @@
+{
+  "name": "js-stringify",
+  "description": "Stringify an object so it can be safely inlined in JavaScript code",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "maintainers": [
+    "forbeslindesay <forbes@lindeay.co.uk>"
+  ],
+  "time": {
+    "modified": "2017-03-09T03:17:17.943Z",
+    "created": "2014-12-19T15:50:47.778Z",
+    "1.0.0": "2014-12-19T15:50:47.778Z",
+    "1.0.1": "2015-05-17T17:47:04.612Z",
+    "1.0.2": "2015-09-28T21:06:14.030Z"
+  },
+  "homepage": "https://github.com/jadejs/js-stringify#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadejs/js-stringify.git"
+  },
+  "author": "ForbesLindesay",
+  "bugs": {
+    "url": "https://github.com/jadejs/js-stringify/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "shakakira": true
+  },
+  "version": "1.0.2",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "gitHead": "7fea7dc2fb40d565dd1cd404c1011af496846e9a",
+  "dist": {
+    "shasum": "1736fddfd9724f28a3682adc6230ae7e4e9679db",
+    "tarball": "https://registry.npmjs.org/js-stringify/-/js-stringify-1.0.2.tgz"
+  },
+  "directories": {}
+}

@@ -1,0 +1,95 @@
+{
+  "name": "single-line-log",
+  "description": "Keep writing to the same line in the terminal. Very useful when you write progress bars, or a status message during longer operations",
+  "dist-tags": {
+    "latest": "1.1.2"
+  },
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.4.1",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2"
+  ],
+  "maintainers": [
+    "freeall <freeall@gmail.com>",
+    "mafintosh <mathiasbuus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-04-17T03:03:24.072Z",
+    "created": "2013-09-11T19:24:23.572Z",
+    "0.1.0": "2013-09-11T19:24:26.742Z",
+    "0.1.1": "2013-11-13T15:20:42.256Z",
+    "0.1.2": "2013-11-13T16:06:23.921Z",
+    "0.2.0": "2013-12-11T14:18:03.603Z",
+    "0.3.0": "2013-12-25T09:46:45.728Z",
+    "0.3.1": "2013-12-26T00:48:17.317Z",
+    "0.4.0": "2014-05-10T14:04:06.021Z",
+    "0.4.1": "2014-05-31T09:52:55.216Z",
+    "1.0.0": "2015-05-24T20:20:20.166Z",
+    "1.0.1": "2015-11-04T08:04:22.406Z",
+    "1.1.0": "2016-02-27T05:34:28.253Z",
+    "1.1.1": "2016-02-28T19:12:21.847Z",
+    "1.1.2": "2016-09-09T05:36:30.030Z"
+  },
+  "author": "Tobias Baunbæk <freeall@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freeall/single-line-log.git"
+  },
+  "users": {
+    "maxogden": true,
+    "dthompson": true,
+    "lukekarrys": true,
+    "dantman": true,
+    "mihaur": true,
+    "theodor.lindekaer": true,
+    "moimikey": true,
+    "recursion_excursion": true,
+    "erickeno": true,
+    "scottfreecode": true,
+    "aaamitsingh": true,
+    "hoanganh25991": true,
+    "liunian": true
+  },
+  "homepage": "https://github.com/freeall/single-line-log#readme",
+  "keywords": [
+    "single",
+    "line",
+    "log",
+    "output",
+    "overwrite",
+    "collapse",
+    "stdout",
+    "terminal",
+    "tty",
+    "cli",
+    "shell"
+  ],
+  "bugs": {
+    "url": "https://github.com/freeall/single-line-log/issues"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "version": "1.1.2",
+  "dependencies": {
+    "string-width": "^1.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "gitHead": "515b3b99b699396c2ad5f937e4b490b6f9fbff0e",
+  "dist": {
+    "shasum": "c2f83f273a3e1a16edb0995661da0ed5ef033364",
+    "tarball": "https://registry.npmjs.org/single-line-log/-/single-line-log-1.1.2.tgz"
+  },
+  "directories": {}
+}

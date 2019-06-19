@@ -1,0 +1,95 @@
+{
+  "name": "json-buffer",
+  "description": "JSON parse & stringify that supports binary via bops & base64",
+  "dist-tags": {
+    "latest": "3.0.1"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.0.7",
+    "2.0.8",
+    "2.0.9",
+    "2.0.10",
+    "2.0.11",
+    "3.0.0",
+    "3.0.1"
+  ],
+  "maintainers": [
+    "dominictarr <dominic.tarr@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-01-04T06:58:26.864Z",
+    "created": "2013-05-20T16:08:19.097Z",
+    "1.0.0": "2013-05-20T16:08:22.609Z",
+    "2.0.0": "2013-05-21T09:02:42.663Z",
+    "2.0.1": "2013-05-21T10:01:55.473Z",
+    "2.0.2": "2013-05-21T10:05:46.547Z",
+    "2.0.3": "2013-06-19T10:02:54.841Z",
+    "2.0.4": "2013-07-17T22:24:02.612Z",
+    "2.0.5": "2013-07-22T09:06:49.563Z",
+    "2.0.6": "2013-08-13T11:35:15.300Z",
+    "2.0.7": "2013-08-14T13:15:13.339Z",
+    "2.0.8": "2014-04-14T11:09:12.595Z",
+    "2.0.9": "2014-04-23T05:52:21.217Z",
+    "2.0.10": "2014-10-19T17:21:08.532Z",
+    "2.0.11": "2014-10-19T17:43:38.846Z",
+    "3.0.0": "2017-07-17T17:29:28.192Z",
+    "3.0.1": "2018-09-10T19:02:16.381Z"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/json-buffer.git"
+  },
+  "homepage": "https://github.com/dominictarr/json-buffer",
+  "bugs": {
+    "url": "https://github.com/dominictarr/json-buffer/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "users": {
+    "rugare": true,
+    "dpjayasekara": true,
+    "vivek.vikhere": true
+  },
+  "version": "3.0.1",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "gitHead": "39146e89172469d5700f06e6b569574827d77fed",
+  "dist": {
+    "integrity": "sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==",
+    "shasum": "9338802a30d3b6605fbe0613e094008ca8c05a13",
+    "tarball": "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 5404,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJblr+4CRA9TVsSAnZWagAAILgP/23U6G1NHKcMYs8MI4Vr\nPBSqFuKZvPa8P22K0ke09ylj4Fnkq5nxqgSSogynB3TWm11aH7CJxT60Nsns\nlNMyKuxF/XtfzcyjeicFLqYcXf5boKEiLChCX1llSRB2OnXy0zX2b42RmJ+W\nP1U9VXRvnzHyOBsYQrlD5741dRu8/4KlrWv1m1biVF/q3429NWD5wdtgvlCG\nN56ulFbSJ8Edd73b22Fk9ggNJaABjZXTITqE21f3b3BjmqSWkBvkWIVlMuDP\ngWJdMSC1q308XiaIv4lCW/4mNc2PuBErRD0k52xI3h5QSFEapQ4e9MAKIZDB\npNnhebD8xAgNh/ucCGEn0LgSQW8EmfemrnXM8YLQw8PWAE+ZjZLYmgfEaIK3\nyWWQ2XJlI5CkUf5GQfLxVrcDaHO9TS22Nt8Bnd4eA6swEWrOgakk4H806lJd\n4zuv30TsriZPBPyGQ8CvSSauFpNcSPnVlPzWTsaBVuVF6dWNnlby1dYKilOw\nOtDPWjfI900qvqJxQ8/hro+I/mWht7BzmN8Xf0zGQoC4QbAJU84AhbMeajbS\nGN5YLX5z0oKriDY7syF/f+bgnZvxvp+id00a60z23wu3yo1LQFPjYlyC9uj0\nal0IW2jDhxnzrvzQE6njk5Ln0HOP6HM2mAaS5GRxosP837u8erMovsvBnJQc\nKUb8\r\n=Nhkm\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}
