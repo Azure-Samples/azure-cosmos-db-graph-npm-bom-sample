@@ -16,7 +16,7 @@ especially in the manufacturing sector.  The graph of their manufactured product
 is perfectly suited for CosmosDB with the Gremlin Graph API.
 
 Industry and company-specific product and component data, however, is both proprietary as well as not immediately relatable
-to most readers.  We wanted to create a sample application with data that was **immediately relatable** to most
+to most readers.  We wanted to create a BOM sample application with data that was **immediately relatable** to most
 Information Technology audiences.  Therefore, we chose the domain of **software**, since software end-products are
 typically composed of a nested sofware libraries (i.e. - manufacturing components), and IT audiences innately
 understand this.
@@ -28,12 +28,12 @@ fast-growing, appeals to a wide-audience, has great CLI tooling, and CosmosDB it
 Given the NPM orientation of this project, Node.js and JavaScript was chosen as the implementation language.
 JavaScript is widely supported in Azure PaaS services - such as Azure App Service, Azure Functions, and even
 in CosmosDB for server-side Stored Procedures, Triggers, and UDFs.  It is worth noting that the free and cross-platform 
-Visual Studio Code (VSC) editor was used in development.  VSC is itself implemented in Node.js.
+Visual Studio Code editor was used for the development of this project.  Visual Studio Code is itself implemented in Node.js.
 
 ## Architecture
 
-This application uses a Azure CosmosDB account, with the Gremlin API, as its sole datasource.  There is a batch process
-which "spiders" npm for information about npm libraries, wrangles this data, and then loads it into CosmosDB.
+This application uses a Azure CosmosDB account, with the Gremlin API, as its sole datastore.  There is a batch process
+which "spiders" npm for information about npm libraries, wrangles this JSON data, and then loads it into CosmosDB.
 There is also a web application, in the webapp/ directory, built with Node.js and Express which queries and
 displays the CosmosDB data.  The open-source JavaScript library [D3.js](https://d3js.org) is used to visualize
 the graph data.
@@ -49,12 +49,12 @@ Additionally, the materalized views contain pre-calculated library ages - in day
 original and current version dates.  Pre-aggregating data such as this can significantly reduce the **RU usage**
 for CosmosDB users, and thus is why we are featuring **materialized views** in this sample BOM project.
 
-What's very interesting about the materialized view in this project is that it is accessed via the **CosmosDB SQL API** 
+What's very interesting about the materialized views in this project is that they are accessed via the **CosmosDB SQL API** 
 rather than the **Gremlin API**.  The materialized views are queried efficiently in this project via 
 their **partition key attribute** whose name is simply 'pk'.  This is actually a best practice - to name your partition key 
 attributes with a generic name like 'pk' or 'partition_key' rather than a given business-oriented attribute name.
 
-This is currently the only case where a single CosmosDB account can be accessed via two programatic APIs;
+This is currently the only case where a single Azure CosmosDB account can be accessed via two programatic APIs;
 in this case a Gremlin account accesssed via the Gremlin and SQL APIs.
 
 The advantage of this approach is that your BOM data is in one database, with independent and independently scalable
