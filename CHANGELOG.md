@@ -1,13 +1,6 @@
-## [project-title] Changelog
+## azure-cosmos-db-graph-npm-bom-sample Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+<a name=1.0.0"></a>
+# 1.0.0 (2019-06-19)
 
-*Features*
-* ...
-
-*Bug Fixes*
-* ...
-
-*Breaking Changes*
-* ...
+Original version of project

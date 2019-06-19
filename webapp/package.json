@@ -1,6 +1,6 @@
 {
   "name": "azure-cosmos-db-graph-npm-bom-sample-webapp",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Node.js and Express Web App for this NPM/BOM project",
   "author": "Chris Joakim",
