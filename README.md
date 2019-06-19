@@ -1,4 +1,4 @@
-# azure-cosmosdb-graph-npm
+# azure-cosmos-db-graph-npm-bom-sample
 
 An example Bill-of-Material application with NPM data using Azure CosmosDB Graph/Gremlin database.
 
