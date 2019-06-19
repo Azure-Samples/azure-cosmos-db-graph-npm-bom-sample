@@ -12,8 +12,8 @@ An example Bill-of-Material application with NPM data using Azure CosmosDB Graph
 ## NPM as the Data Source
 
 In our work with Azure CosmosDB we've seen that **Bill-of-Materials (BOM)** is a common use-case for companies,
-especially in the manufacturing sector.  The graph of their manufactured products and their many nested components
-is perfectly suited for CosmosDB with the Gremlin API.
+especially in the manufacturing sector.  The graph of their manufactured products, and their many nested components, 
+is perfectly suited for CosmosDB with the Gremlin Graph API.
 
 Industry and company-specific product and component data, however, is both proprietary as well as not immediately relatable
 to most readers.  We wanted to create a sample application with data that was **immediately relatable** to most
@@ -24,6 +24,11 @@ understand this.
 We considered using NuGet (DotNet), MavenCentral (Java), and PyPI (Python) as the datasource.  But we chose  
 [npm (Node Package Manager)](https://www.npmjs.com) in the Node.js and JavaScript ecosystem as Node.js is
 fast-growing, appeals to a wide-audience, has great CLI tooling, and CosmosDB itself is JavaScript and JSON oriented.
+
+Given the NPM orientation of this project, Node.js and JavaScript was chosen as the implementation language.
+JavaScript is widely supported in Azure PaaS services - such as Azure App Service, Azure Functions, and even
+in CosmosDB for server-side Stored Procedures, Triggers, and UDFs.  It is worth noting that the free and cross-platform 
+Visual Studio Code (VSC) editor was used in development.  VSC is itself implemented in Node.js.
 
 ## Architecture
 
@@ -37,12 +42,12 @@ The database design includes two graphs, or containers.  One contains the Graph 
 NPM Libraries and their Maintainers, with Edges connecting libraries to their dependent libraries.  Edges also
 connect the Maintainers to their respective libraries.
 
-The second container in an implementation of the concept of a **materialized view**; a set of data pre-aggregated
+The second container in an implementation of the concept of **materialized views**; a set of data pre-aggregated
 and persisted so as to enable faster queries at runtime.  For example, some of the pre-aggregated data answers
 the question: "Where else is this library/component used?" and "What other packages does this Maintainer work on?".
-Additionally, the materalized views contain pre-calculated Library ages, in days and years, based on their
+Additionally, the materalized views contain pre-calculated library ages - in days and years, based on their
 original and current version dates.  Pre-aggregating data such as this can significantly reduce the **RU usage**
-for CosmosDB users.
+for CosmosDB users, and thus is why we are featuring **materialized views** in this sample BOM project.
 
 What's very interesting about the materialized view in this project is that it is accessed via the **CosmosDB SQL API** 
 rather than the **Gremlin API**.  The materialized views are queried efficiently in this project via 
