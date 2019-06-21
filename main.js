@@ -1,7 +1,7 @@
 "use strict";
 
 // Main batch program for this codebase, for CLI invocation.
-// Chris Joakim, Microsoft, 2019/06/15
+// Chris Joakim, Microsoft, 2019/06/21
 
 const fs = require('fs');
 const util = require('util');
@@ -19,11 +19,11 @@ if (process.argv.length < 3) {
     console.log('node main.js spider_npm 10 > tmp/spider_npm.txt');
     console.log('node main.js aggregate_lib_files');
     console.log('node main.js create_gremlin_load_file');
-    console.log('node main.js query_vertex m26-js');
+    console.log('node main.js query_vertex tedious');
     console.log('node main.js query_vertex MAINT-cjoakim');
-    console.log('node main.js query_dep_graph m26-js');
-    console.log('node main.js query_dep_graph tcx-js');
-    console.log("node main.js query_dep_graph '@azure|cosmos'");
+    console.log('node main.js query_dep_graph tedious');
+    console.log('node main.js query_library_view tedious');
+    console.log('node main.js query_maint_view dougwilson');
     console.log('');
     process.exit();
 }
@@ -59,7 +59,7 @@ else {
                 dao.gremlin_get_vertex(lib_id).then(function(result) {
                     var outfile = util.format("tmp/gremlin_get_vertex_%s.json", lib_id);
                     fsu.write_json_file(outfile, result);
-                    fsu.write_json_file('tmp/latest_query.json', result);
+                    fsu.write_json_file('tmp/query_vertex.json', result);
                 });
                 break;
 
@@ -70,9 +70,28 @@ else {
                 dao.gremlin_get_dep_graph(lib_id).then(function(result) {
                     var outfile = util.format("tmp/gremlin_get_dep_graph_%s.json", lib_id);
                     fsu.write_json_file(outfile, result);
-                    fsu.write_json_file('tmp/latest_query.json', result);
                 });
                 break;
+
+        case 'query_library_view':
+            var lib_id = process.argv[3];
+            var dao = new CosmosDbDao();
+            var fsu = new FSUtil();
+            dao.materialized_library_view(lib_id).then(function(result) {
+                var outfile = util.format("tmp/lib_view_%s.json", lib_id);
+                fsu.write_json_file(outfile, result);
+            });
+            break;
+
+        case 'query_maint_view':
+            var maint_id = process.argv[3];
+            var dao = new CosmosDbDao();
+            var fsu = new FSUtil();
+            dao.materialized_maintainer_view(maint_id).then(function(result) {
+                var outfile = util.format("tmp/maint_view_%s.json", maint_id);
+                fsu.write_json_file(outfile, result);
+            });
+            break;
 
         case 'query_lib_bom':
                 var lib_id = process.argv[3];
