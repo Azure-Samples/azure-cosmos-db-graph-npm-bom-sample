@@ -1,5 +1,5 @@
 // Main file for this Node/Express web application.
-// Chris Joakim, Microsoft, 2019/06/06
+// Chris Joakim, Microsoft, 2019/06/21
 
 var   express    = require('express');
 var   session    = require('express-session');
@@ -16,7 +16,7 @@ var   dao = new CosmosDbDao();
 
 var app = express();
 app.use(bodyParser.json()) 
-app.use(session({secret: 'fW5knzPk'}));  // https://passwordsgenerator.net
+app.use(session({secret: 'fW5knzPk', resave: false, saveUninitialized: true}));  // https://passwordsgenerator.net
 app.use(favicon(__dirname + '/public/favicon.png'));  // https://www.favikon.com
 
 var now = new Date();
