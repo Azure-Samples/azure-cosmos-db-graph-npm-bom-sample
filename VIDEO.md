@@ -168,9 +168,16 @@ Then visit **http://localhost:3000/** with your browser.
 - See Splash Screen
 - See tedious BOM
 - See the two visualizations of the BOM
-- See tedious Library info
-
-
+- Hover over depd
+- Click depd for Library info
+- Click dougwilson for his maintained libraries!
+- Click express in dougwilson list
+- Click express BOM link in Library view
+- Click debug in the BOM view
+- See the many uses of debug in the Library view
+- Compare Used-In vs requirements
+- Compare Library info dates to sales and inventory values
+- Used-in maps to risk
 
 
 ### Web App Screen Shots
