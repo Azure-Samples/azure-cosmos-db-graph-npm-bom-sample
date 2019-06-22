@@ -24,7 +24,8 @@ https://github.com/Azure-Samples/azure-cosmos-db-graph-npm-bom-sample
 The intent is to be able to **clone and go** and run this app with your own subscription.
 
 See the README file regarding Azure resource provisioning and the environment variables
-this codebase depends on.
+this codebase depends on.  There are both PowerShell and bash scripts, so you should be
+able to run this code as-is on either Windows, Linux, or Mac.
 
 ---
 
@@ -112,6 +113,7 @@ The batch processing does the following:
 2) Programatically invoke the **npm cli** to recursively **Spider** npm for information about each library.
    - The spider process starts with your hand-edited list of seed npm libraries
    - The spider will iterate n-number of times to get the **dependencies** of those seed libraries
+     - See package.json file
    - Then dependencies of those libraries, and their dependencies, etc, etc
    - The command **npm view library -json** is executed for each library and the JSON response is captured
    - Started with 49 seed libraries, ended up with 650 libraries after 10 iterations
