@@ -1,7 +1,8 @@
 'use strict';
 
-// Class CosmosDbDao implements DAO functionality for both the CosmosDB Gremlin/Graph.
-// Chris Joakim, Microsoft, 2019/06/06
+// Class CosmosDbDao implements DAO functionality for both the CosmosDB Gremlin/Graph
+// API as well as the SQL API.
+// Chris Joakim, Microsoft, 2019/06/22
 
 // Node.js standard libraries
 const events = require('events');

@@ -22,6 +22,7 @@ An example Bill-of-Material application with NPM data using Azure CosmosDB Graph
 https://github.com/Azure-Samples/azure-cosmos-db-graph-npm-bom-sample
 
 The intent is to be able to **clone and go** and run this app with your own subscription.
+
 See the README file regarding Azure resource provisioning and the environment variables
 this codebase depends on.
 
@@ -40,7 +41,7 @@ It is also typically **propritary** in nature.
 
 ## What we are trying to solve here?
 
-This project is actually based on a **real-world POC** we created for a client recently.
+This project is actually based on a **real-world proof-of-concept** we created for a client recently.
 
 The client wanted to see four things in the POC:
 
@@ -56,9 +57,10 @@ The client wanted to see four things in the POC:
 ## NPM as the Data Source
 
 In our work with Azure CosmosDB we've seen that **Bill-of-Materials (BOM)** is a common
-use-case for companies, especially in the manufacturing sector.  
-The graph of their manufactured products, and their many nested components, 
-is perfectly suited for CosmosDB with the Gremlin Graph API.
+use-case for companies, especially in the manufacturing sector.
+
+The graph of their manufactured products, and their many nested components, is perfectly
+suited for CosmosDB with the Gremlin Graph API.
 
 Industry and company-specific product and component data, however, is both proprietary 
 as well as not immediately relatable to most readers.
@@ -67,14 +69,15 @@ We wanted to create a BOM sample application with data that was **immediately re
 Information Technology audiences.  Therefore, we chose the domain of **software**, since software end-products are typically composed of a nested graph of software libraries (i.e. - manufacturing components), and IT audiences innately understand this.
 
 We considered using NuGet (DotNet), MavenCentral (Java), and PyPI (Python) as the datasource.
+
 But we chose  [npm (Node Package Manager)](https://www.npmjs.com) in the Node.js and JavaScript ecosystem as Node.js is fast-growing, appeals to a wide-audience, has great CLI tooling, and CosmosDB itself is JavaScript and JSON oriented.
 
-Given the NPM orientation of this project, Node.js and JavaScript was chosen as the implementation language for this project.  JavaScript is widely supported in Azure PaaS services - such as Azure App Service, Azure Functions, and even in CosmosDB for server-side Stored Procedures, Triggers, and UDFs.  It is worth noting that the free and cross-platform Visual Studio Code editor was used for the development of this project.  Visual Studio Code is itself implemented in Node.js.
+Given the NPM orientation of this project, **Node.js and JavaScript** was chosen as the implementation language for this project.  JavaScript is widely supported in Azure PaaS services - such as Azure App Service, Azure Functions, and even in CosmosDB for server-side Stored Procedures, Triggers, and UDFs.  It is worth noting that the free and cross-platform Visual Studio Code editor was used for the development of this project.  Visual Studio Code is itself implemented in Node.js.
 JavaScript is everywhere!
 
 ## Architecture
 
-This application uses a **single Azure CosmosDB account**, with the Gremlin API, as its sole datastore.
+This application uses a **single Azure CosmosDB account, with the Gremlin API**, as its sole datastore.
 
 There is a **batch process** which **spiders** npm for information about npm libraries, wrangles this JSON data, and then loads it into CosmosDB.
 
@@ -92,7 +95,7 @@ What's very interesting about the materialized views in this project is that the
 The materialized views are queried efficiently in this project via their **partition key attribute** whose name is simply 'pk'.  This is actually a best practice - to name your partition key 
 attributes with a generic name like 'pk' or 'partition_key' rather than a given business-oriented attribute name.
 
-This is currently the only case where a single Azure CosmosDB account can be accessed via two programatic APIs; in this case a Gremlin account accesssed via the Gremlin and SQL APIs.
+Currently, this is the only case where a single Azure CosmosDB account can be accessed via two programatic APIs; in this case a Gremlin account accesssed via the Gremlin and SQL APIs.
 
 The advantage of this approach is that your BOM data is in one database, with independent and independently scalable graph and view collections.  It enables expressive graph traversal via the Gremlin API, and also very efficient queries via the SQL API.
 
@@ -111,6 +114,8 @@ The batch processing does the following:
    - The spider will iterate n-number of times to get the **dependencies** of those seed libraries
    - Then dependencies of those libraries, and their dependencies, etc, etc
    - The command **npm view library -json** is executed for each library and the JSON response is captured
+   - Started with 49 seed libraries, ended up with 650 libraries after 10 iterations
+   - This is a small subset of the thousands of libraries available at www.npmjs.com
 
 3) Wrangle the JSON files for each library that are captured in the Spidering process.
 
@@ -118,7 +123,8 @@ The batch processing does the following:
    - The **Vertices** are the npm libraries as well as their **Maintainers**
    - **Edges** connect one library to another in a **uses** or **used_by** relationship
    - **Edges** also connect the **Maintainers** to each **Library** they maintain
-   - Currently there isn't a **knows** Edge from one Maintainer to another within a Library.
+   - Currently there isn't a **knows** Edge from one Maintainer to another within a Library
+   - see file data/gremlin/gremlin_load_file.txt
 
 5) Load the Azure CosmosDB/Graph database, **npm collection** from the generated Gremlin statements.
 
@@ -133,9 +139,9 @@ date.
 
 ### What Does the Data Look Like?
 
-[library view - tedious](samples/lib_view_tedious.json)
+[library materialized view - tedious](samples/lib_view_tedious.json)
 
-[maintainer view - dougwilson](samples/maint_view_dougwilson.json)
+[maintainer materialized view - dougwilson](samples/maint_view_dougwilson.json)
 
 ```
 g.V(["tedious", "tedious"]).emit().repeat(outE("uses_lib").inV()).times(16).path().by("id")
@@ -223,13 +229,17 @@ g.V(["MAINT-luisbosquez","MAINT-luisbosquez"])
 g.V(["MAINT-tjholowaychuk","MAINT-tjholowaychuk"])
 ```
 
+---
+
 ## Summary
 
 The **best practices** this project attempts to show are:
 - Use Graph constructs (Vertices, Edges) and the Gremlin API for your Graph-related things
-- Use Documents constructs (Materialized Views) and the SQL API for metadata relating to the Graph
+- Use Document constructs (Materialized Views) and the SQL API for metadata relating to the Graph
 - Pre-aggregate and Pre-calculate the Materialized Views where possible
 - Query by partition key in both cases - Graph and Views
 - Use a generic partition key name, like "pk" or "partition_key"
-- Use both the Graph and the SQL database API in the same CosmosDB instance!  (Luis can speak to this)
+- Use both the Graph and the SQL database API in the same CosmosDB instance!
 - D3.js is an effective tool for visualizing graph data
+
+## Thank you
