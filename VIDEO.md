@@ -76,6 +76,8 @@ But we chose  [npm (Node Package Manager)](https://www.npmjs.com) in the Node.js
 Given the NPM orientation of this project, **Node.js and JavaScript** was chosen as the implementation language for this project.  JavaScript is widely supported in Azure PaaS services - such as Azure App Service, Azure Functions, and even in CosmosDB for server-side Stored Procedures, Triggers, and UDFs.  It is worth noting that the free and cross-platform Visual Studio Code editor was used for the development of this project.  Visual Studio Code is itself implemented in Node.js.
 JavaScript is everywhere!
 
+---
+
 ## Architecture
 
 This application uses a **single Azure CosmosDB account, with the Gremlin API**, as its sole datastore.
@@ -175,9 +177,16 @@ Then visit **http://localhost:3000/** with your browser.
 
 - See Splash Screen
 - See tedious BOM
+  - Gremlin query
+  - reformatted JSON response for D3
+  - visualization with D3
 - See the two visualizations of the BOM
 - Hover over depd
+  - Matarialized view is queried via the SQL API
 - Click depd for Library info
+  - A view of the library with its MV data
+  - Used-In is one of pre-aggregrated fields produced in the wrangling process
+  - Library age is pre-calculated in the MV
 - Click dougwilson for his maintained libraries!
 - Click express in dougwilson list
 - Click express BOM link in Library view
@@ -214,7 +223,7 @@ Then visit **http://localhost:3000/** with your browser.
 
 ---
 
-# Gremlin Queries
+## Gremlin Queries
 
 ```
 g.V().count()
@@ -233,7 +242,7 @@ g.V(["MAINT-tjholowaychuk","MAINT-tjholowaychuk"])
 
 ---
 
-## Summary
+# Summary
 
 The **best practices** this project attempts to show are:
 - Use Graph constructs (Vertices, Edges) and the Gremlin API for your Graph-related things
@@ -244,4 +253,4 @@ The **best practices** this project attempts to show are:
 - Use both the Graph and the SQL database API in the same CosmosDB instance!
 - D3.js is an effective tool for visualizing graph data
 
-## Thank you
+# Thank you
