@@ -2,7 +2,7 @@
   "name": "anymatch",
   "description": "Matches strings against configurable strings, globs, regular expressions, and/or functions",
   "dist-tags": {
-    "latest": "3.0.2"
+    "latest": "3.1.0"
   },
   "versions": [
     "0.1.0",
@@ -17,7 +17,9 @@
     "2.0.0",
     "3.0.0",
     "3.0.1",
-    "3.0.2"
+    "3.0.2",
+    "3.0.3",
+    "3.1.0"
   ],
   "maintainers": [
     "doowb <brian.woodward@gmail.com>",
@@ -27,7 +29,7 @@
     "phated <blaine.bublitz@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-14T00:05:31.280Z",
+    "modified": "2019-08-30T01:42:55.034Z",
     "created": "2013-11-25T16:08:38.502Z",
     "0.1.0": "2013-11-25T16:08:40.170Z",
     "0.1.1": "2013-11-26T21:11:50.083Z",
@@ -41,9 +43,11 @@
     "2.0.0": "2017-12-22T01:14:46.258Z",
     "3.0.0": "2019-04-10T21:47:29.674Z",
     "3.0.1": "2019-04-17T10:56:13.129Z",
-    "3.0.2": "2019-05-14T00:05:28.723Z"
+    "3.0.2": "2019-05-14T00:05:28.723Z",
+    "3.0.3": "2019-07-07T00:36:27.223Z",
+    "3.1.0": "2019-08-30T01:42:52.174Z"
   },
-  "author": "Elan Shanker (http://github.com/es128)",
+  "author": "Elan Shanker (https://github.com/es128)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/micromatch/anymatch.git"
@@ -87,27 +91,30 @@
     "tommytroylin": true,
     "cptpancake": true
   },
-  "version": "3.0.2",
-  "scripts": {
-    "test": "nyc mocha",
-    "mocha": "mocha"
-  },
+  "version": "3.1.0",
   "dependencies": {
     "normalize-path": "^3.0.0",
     "picomatch": "^2.0.4"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "mocha": "mocha"
   },
   "devDependencies": {
     "mocha": "^6.1.3",
     "nyc": "^14.0.0"
   },
-  "gitHead": "4167e8ad3f0f937dfb8842a4822e5b212c7c0bf0",
+  "engines": {
+    "node": ">= 8"
+  },
+  "gitHead": "abfaed634543129e9275e9d56b0938c8997e5b17",
   "dist": {
-    "integrity": "sha512-rUe9SxpRQlVg4EM8It7JMNWWYHAirTPpbTuvaSKybb5IejNgWB3PGBBX9rrPKDx2pM/p3Wh+7+ASaWRyyAbxmQ==",
-    "shasum": "ddb3a8495d44875423af7b919aace11e91732a41",
-    "tarball": "https://registry.npmjs.org/anymatch/-/anymatch-3.0.2.tgz",
+    "integrity": "sha512-Ozz7l4ixzI7Oxj2+cw+p0tVUt27BpaJ+1+q1TCeANWxHpvyn2+Un+YamBdfKu0uh8xLodGhoa1v7595NhKDAuA==",
+    "shasum": "e609350e50a9313b472789b2f14ef35808ee14d6",
+    "tarball": "https://registry.npmjs.org/anymatch/-/anymatch-3.1.0.tgz",
     "fileCount": 5,
-    "unpackedSize": 8909,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2gZJCRA9TVsSAnZWagAAbk8P/3PVMM9Fo0vdbx1PmXe6\n80X34xHFBAyIztkgABwgkT8Jc6BXsvtjftbCg+QCO04QwyTusab96F3v52+8\n2FTrRTIVh1anbOC81SpQAXYekHnf89jtEEeS+214Ey30csg8yHEBXa/YhwCt\nGcgDITv2qKSAeuaq0BgRoyyUm/N1dB7+x8fAnHEJW2ONGMaggdEhJ2Z9COws\nNo0qx3rnl5sJ65626IrV8baQHqHuQkgl0T7Evv9HXzdhUvPd86p0Mk9HDy6I\nd/lhXYbZv4bhPMQuPMzPq4MX75lG5eNI4ljfHh0QUxPiWjl8q4R6P7iYeJsb\nNCfylBRtImCvMe+foqYmKNnd0LZvMbVWw2U3LIHXN8WMmJI4z2QdVNeEYXD4\nkbKKecO1w8XEWW1CwnB61OepT00dssBiYo2QAo9dbac0azZeNaiq5lj8ey1I\nSHMwTnzQ/vuU/+L1XUBelNLd141E2dOaudeCw8WfMEsr9+jKbkAfig/iFSCe\nou4nRD5Adp0aXvxN8s7NT09D/gToouUsY1p6iH2foCLqEQZ7yMi8jsmurKQ2\nhjMJf0P4DdZ7ZjdACbHvCjzeUlTMBE6L3XcITVhtA6AbWUR1Hp5QRxHoMeoM\nAnx9jzlLDEKPzD0aSl0IXEtWEDsNMU93zb+erjSANSomWglwwEdxR6dFR5yH\nTCvV\r\n=iiZn\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 9376,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdaH8dCRA9TVsSAnZWagAAYJ4P/Rde9PG38zsaas4YBbIs\nIceSPgLOSb0Cvnn+mbZzLT9nnykESBBaWjDLknjWnij0E5M9a1LEKyxl5rAf\nPnDT7sFEac95q7OBbLbZxGttT2FhAv+dKULVV2F8n/YygOBu4IXunZlWOKx4\nEXs/CCROrfhgEbpSvCyIb6Rx76VOZbTJ681OGqDdnM7ONnKtlwzDCxRDT5mQ\nn0VzZ6zI0hbp9WzJ2k8lJmGiE7SN3EXV8ZdlO/ofoqPwoKdQLBZ1xNZnIGvQ\ntZeBbWzegLqujDO9bvoXIECIs/HYYqc702CfUJ7kFia1f+WYXuNqZK/Tw2q9\niSBWuu6657WPJnhxytScXlGuUVcrgJ6V7gIb/mJ3SBZLw5iOwissd1vt0/X5\nxnR7b6XzL5beNUx1N5XebiJ4TjpXBSAoIgXlx3+zApWOUF8sl8ViLi4vrnCL\nkatVNebCwHxFrVpDwjg+/yTMBWzdpncJ+xvCpHlBTDiihPqzR3a8LmWvnUft\n9K78EO94OlnUpmR9xei5oHlo6WHW9wb049wWC3Fqmfm5rbQd3GvqotitxpkN\nnj4jbuRBsOPSunmXDyUDh5a19odYNZ+HRo9OT3PvPswHhqy4uOFlXKYAIDPe\nrATPr7dqm00a6T75vV7VYrR+1MsRm+HLc0AezpWPJIRtWMs5CQ5xSOeYUCXX\njZuy\r\n=WO7A\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

@@ -2,7 +2,7 @@
   "name": "fs-extra",
   "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.",
   "dist-tags": {
-    "latest": "8.0.1"
+    "latest": "8.1.0"
   },
   "versions": [
     "0.0.1",
@@ -89,7 +89,8 @@
     "7.0.0",
     "7.0.1",
     "8.0.0",
-    "8.0.1"
+    "8.0.1",
+    "8.1.0"
   ],
   "maintainers": [
     "jprichardson <jprichardson@gmail.com>",
@@ -97,7 +98,7 @@
     "ryanzim <opensrc@ryanzim.com>"
   ],
   "time": {
-    "modified": "2019-05-13T16:54:50.216Z",
+    "modified": "2019-07-19T06:12:02.439Z",
     "created": "2011-11-16T21:47:16.814Z",
     "0.0.1": "2011-11-16T21:47:17.459Z",
     "0.0.11": "2011-11-16T22:36:44.739Z",
@@ -183,7 +184,8 @@
     "7.0.0": "2018-07-17T01:35:52.499Z",
     "7.0.1": "2018-11-07T13:23:10.451Z",
     "8.0.0": "2019-05-11T14:43:21.685Z",
-    "8.0.1": "2019-05-13T16:54:47.165Z"
+    "8.0.1": "2019-05-13T16:54:47.165Z",
+    "8.1.0": "2019-06-28T17:02:36.992Z"
   },
   "author": "JP Richardson <jprichardson@gmail.com>",
   "repository": {
@@ -613,7 +615,8 @@
     "maxblock": true,
     "hiztmine": true,
     "ezeikel": true,
-    "zuojiang": true
+    "zuojiang": true,
+    "yanghcc": true
   },
   "homepage": "https://github.com/jprichardson/node-fs-extra",
   "keywords": [
@@ -644,12 +647,12 @@
   },
   "readmeFilename": "README.md",
   "license": "MIT",
-  "version": "8.0.1",
+  "version": "8.1.0",
   "engines": {
     "node": ">=6 <7 || >=8"
   },
   "dependencies": {
-    "graceful-fs": "^4.1.2",
+    "graceful-fs": "^4.2.0",
     "jsonfile": "^4.0.0",
     "universalify": "^0.1.0"
   },
@@ -663,7 +666,7 @@
     "proxyquire": "^2.0.1",
     "read-dir-files": "^0.1.1",
     "semver": "^5.3.0",
-    "standard": "^11.0.1"
+    "standard": "^12.0.1"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -675,14 +678,14 @@
     "test": "npm run lint && npm run unit",
     "unit": "node test.js"
   },
-  "gitHead": "32a65ffd9111829dbba15d79f1d27519c7dc96a6",
+  "gitHead": "b7df7cce3f7ca5bc0ab85110aa997bd0ad33482f",
   "dist": {
-    "integrity": "sha512-W+XLrggcDzlle47X/XnS7FXrXu9sDo+Ze9zpndeBxdgv88FHLm1HtmkhEwavruS6koanBjp098rUpHs65EmG7A==",
-    "shasum": "90294081f978b1f182f347a440a209154344285b",
-    "tarball": "https://registry.npmjs.org/fs-extra/-/fs-extra-8.0.1.tgz",
+    "integrity": "sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==",
+    "shasum": "49d43c45a88cd9677668cb7be1b46efdb8d2e1c0",
+    "tarball": "https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz",
     "fileCount": 36,
-    "unpackedSize": 127303,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2aFXCRA9TVsSAnZWagAAjDkP/jSfdziI9neEFug1bKQj\nFgU9fSadf+lSZu+unYH2x3d74ebBmURA0kggKQIoP+T/0mkD6jbALTc0aRir\nS5Qtvqgp7Z53dL+HkEqgaXU4inhk6fM+1W1PvHlMrt20SPglWs0IQC0tx7cZ\nHwWhtzm04eKrE8T/nWSU+Q4mAW6hf5IDnYOrh0x5r8FmY7y4+WA5x3uRUO7Q\nkPQ+XwWx0Jap+dJKcOq78loB5uI4pIH/oBjPERhxu0kspGRCYfjaDn9dhCDT\nJ6hYcs8gku4Q0OqwyMmykuShPUjnZRk/joRY1JtHCurbn2WqtOk/txK63uU4\nrnChd1eUgwJKJA84yG5Mj46f1K3bRDPyB/Hlyr7xZ15kyzafesH3t3zvOqn4\nevar+iZ5Kv+ZEQ3/wAbq2IsX1sxmi8GCersGAotPSZ4LFTT5c9e5hloe9YZP\nP8FB8sFJZewSQyA4ZqbR0qn/K5a0JH+TRDQ93aHdE2n4YNAPSnlUmG61/E1W\ngKPWvwAOAC/YD8YCGT9cEz/SmV067nAsxUrdMb/jicDEJBi2n7JNuSc0zcxm\nNz4DZ7PmdVG8gBzNsz6cSa1OLGhWQsiWaXC2L/9Vsec5mqcxPa0X6zNqR9dF\n733uPqEZimXftO3Pjh+6k7ZTxDh7Rt6KcllkDUHqwkRH3w7BT/pLMPDIdOGv\nXAre\r\n=zQRu\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 127504,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdFkgwCRA9TVsSAnZWagAA+IAP/iXxWrZ0Au+CbWOvCw3N\nt4++ucx8VXPCctOkneryDZ7w98WgXHq2AyyKBN355G1qAq3+zY66hJkEAdKp\nr6hAF8b09wvQG3vUAp3V12FLKPSjYfDii0P1LGKFUzWyLeKY5Mtt2J99DAsF\nUYKD+yvjjvfyx8fBX0tAiKHXZ6UBGKvh39MrCM9nN5fXeJ7ShH23mhfMG1tA\nd0f1S9H4CrgGSWBxJv7ckTjNfcyjRWaLeAL4Qudov3iAcWPBz9TlJj3LlwD2\nr2v5ETIqxSUDqjVPhjDG+TIEj3I02/0LMcYkLLywTf+Ax8Kj5HcGEL+fwIA+\nQhFa52Ftd3XhgmUgv7TQVssGZUy5Afhz2o39AIh38JPEQ6vzcSaYPXEaSE2T\nAp2/0ukKjQSSiaeLEYjYlS1H3eT40EcSVCBziFlhlU8zLvxiPj9kXeYbakk2\nuXanRylbSLJ8J8LLYiOeWefoCAYtgFvAadTt+qgDwLXHF+r1T/WQbkKsk0P8\n88knn4bBEUHnqxFJIxyLxoiV0Tsb5uh/8argcaisYBkFLwhWl54/oUX1+u5l\nL1F/qbvT8PXRZ3/kZjeobH3ybcmZdcuP7j3ir0BwnLKquf19zj9QR+PFZJOa\niH+KGnMKmCG/95LByACuzPQZZoBzXVZ9oG529gGiTKbHZ/C1CMoZph6OFvIa\nMQUF\r\n=Eu2T\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

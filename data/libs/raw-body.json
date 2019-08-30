@@ -2,7 +2,7 @@
   "name": "raw-body",
   "description": "Get and validate the raw body of a readable stream.",
   "dist-tags": {
-    "latest": "2.4.0"
+    "latest": "2.4.1"
   },
   "versions": [
     "0.0.1",
@@ -46,14 +46,15 @@
     "2.3.1",
     "2.3.2",
     "2.3.3",
-    "2.4.0"
+    "2.4.0",
+    "2.4.1"
   ],
   "maintainers": [
     "dougwilson <doug@somethingdoug.com>",
     "jongleberry <jonathanrichardong@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-18T02:43:07.265Z",
+    "modified": "2019-06-26T03:50:04.556Z",
     "created": "2013-09-14T03:21:48.702Z",
     "0.0.1": "2013-09-14T03:21:49.810Z",
     "0.0.2": "2013-09-14T07:31:56.628Z",
@@ -96,7 +97,8 @@
     "2.3.1": "2017-09-08T03:22:02.056Z",
     "2.3.2": "2017-09-10T04:59:25.753Z",
     "2.3.3": "2018-05-08T15:39:36.374Z",
-    "2.4.0": "2019-04-18T02:43:02.394Z"
+    "2.4.0": "2019-04-18T02:43:02.394Z",
+    "2.4.1": "2019-06-26T03:50:01.465Z"
   },
   "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
   "repository": {
@@ -138,24 +140,24 @@
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Raynos <raynos2@gmail.com>"
   ],
-  "version": "2.4.0",
+  "version": "2.4.1",
   "dependencies": {
     "bytes": "3.1.0",
-    "http-errors": "1.7.2",
+    "http-errors": "1.7.3",
     "iconv-lite": "0.4.24",
     "unpipe": "1.0.0"
   },
   "devDependencies": {
-    "bluebird": "3.5.4",
-    "eslint": "5.16.0",
+    "bluebird": "3.5.5",
+    "eslint": "6.0.1",
     "eslint-config-standard": "12.0.0",
-    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-import": "2.18.0",
     "eslint-plugin-markdown": "1.0.0",
-    "eslint-plugin-node": "8.0.1",
-    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.0",
     "istanbul": "0.4.5",
-    "mocha": "6.1.3",
+    "mocha": "6.1.4",
     "readable-stream": "2.3.6",
     "safe-buffer": "5.1.2"
   },
@@ -168,14 +170,14 @@
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --trace-deprecation --reporter dot --check-leaks test/",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --trace-deprecation --reporter spec --check-leaks test/"
   },
-  "gitHead": "bf4f3d1ef5d7277233f08f31d52a5ff36337d573",
+  "gitHead": "0e1291f1d6cbc9ee8e16f893d091e417841c95e5",
   "dist": {
-    "integrity": "sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==",
-    "shasum": "a1ce6fb9c9bc356ca52e89256ab59059e13d0332",
-    "tarball": "https://registry.npmjs.org/raw-body/-/raw-body-2.4.0.tgz",
+    "integrity": "sha512-9WmIKF6mkvA0SLmA2Knm9+qj89e+j1zqgyn8aXGd7+nAduPoqgI9lO57SAZNn/Byzo5P7JhXTyg9PzaJbH73bA==",
+    "shasum": "30ac82f98bb5ae8c152e67149dac8d55153b168c",
+    "tarball": "https://registry.npmjs.org/raw-body/-/raw-body-2.4.1.tgz",
     "fileCount": 6,
-    "unpackedSize": 22692,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJct+Q2CRA9TVsSAnZWagAA+AUP/j/tdf22dLOY3EdroYrl\n3uSn8SGTFCLW4Cn/c+tPggviFnSSxRTHADnDc72FLgOEf7Knz/VvW3dvkd4w\nemFCj9AuAO2zhc8BXYiJqAlQivL99dLM21OfBfn/QlLm+AM6dJgqQBp83lTs\nomzh8iu73RqjLKmAGwIXiGlubwq7FgXdEExZWwGIFFZaMw51PxG2knmtp0Wg\nJrbCvsoymvrhjkxDR7yLCdSb/2Z8FfgAFYuxSIMKAQjBQlb+CAbcImt+b4Jp\n5mGakb6XY8cz9+EhPxeodjBNcWiNt2TXt8rbbT1Zvwwdu8+GG76RyKSAChZP\nkVNAX77XWgiCVtpyIwXn729l42x6J+WL6jEjFjflP8pjPstgwbT9R9LL/xai\nn+XcPpUxJ/6ryyeS+cEZbYI371pAWMWt0LfFhJ2HJkEV1Ur5+lAqnI9JKHIu\nDZ1fsrivXULtTYAFjPSBPDl4SGblS6P88//kSWYkQfPgGMe/yGJorhmcexeM\nDb/kRxKUTi/j8ZIMNLcBvMtWs1xVkKIRdy03i0n1PCQB0d3mBseFMN4z9mfI\nn7yWVc8HluRSIjsLZBUrWipJ7UvTC+XQn+x0mP2cVXu4KTag5/727Yy225ms\nrx80AKAZJ9IqyFbGOKGAul1rsQwcrmrakko0+rzmrXyhKa2QUL9BOfSvme+Q\nY5u7\r\n=0DCd\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 22786,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdEutqCRA9TVsSAnZWagAAhlMQAJrPS2EH/dZOsGFOl6aA\nAtrK4/lY8PaEUFt4FwnCwkvOXtK70VFMZSDtXks7qDu4v+IzPuDs2LZwN6RO\nmdrQatT1M8MDQ6JPVEPzX4iXFL6j6vkXqpYypsT1dzk97ACpUtCNkyYdZDzW\n9FnyMmdjlCT+MlGu7m2NZeuaaJv5TCkAGqkgmbfDAQE/QwiOlIVHD2oQCju4\n1W60tWupFRxQQqNEYZL1Jt3a4q0AoFB5gagwlrI0la/hjNBecjXVaTULaa73\nmrhYY77p9wGAjWOg8ZAr1TRhKzkOzjkQ483+4mPRgDj3kwkWNZaIqo+CCELP\nKih6yQ9v18rkPtSryUTTkO1K7O0K1MFH9DBus/Ea90LB4F0gUko+4z7zWQbD\nICfZe5r4AEO54mXbZ7vD1NGstXm1vRsNO6xGysTWYIf57rX0dQQDXzhu0u/x\nGgAk2COBnwmtoCL97ND37xxZwF6vjfhTszUztzcIbCPzQbELm0gcxNa2XUpX\nCkvgyBGiCxuLpeQdECFP7q6TM1HCFSojLvp7RzacLaltoFBa7LwTNNMO86sV\nmq8RJGHUJO7h1K5PGdkQ1duN/IGgjVmk5JWuyHScbRsfz6ZjYABCWKAbep1N\nYNtuBEimhNtiDzorPNOZJZoAn5eVqP1sWWHqKefXWtrjtM7EVBtn8G/tAWjG\nxBgf\r\n=1FPP\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

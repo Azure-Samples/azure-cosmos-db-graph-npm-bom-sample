@@ -2,26 +2,28 @@
   "name": "xmlhttprequest-ssl",
   "description": "XMLHttpRequest for Node",
   "dist-tags": {
-    "latest": "1.5.5"
+    "latest": "1.6.0"
   },
   "versions": [
     "1.5.1",
     "1.5.2",
     "1.5.3",
     "1.5.4",
-    "1.5.5"
+    "1.5.5",
+    "1.6.0"
   ],
   "maintainers": [
     "mjwwit <mjwwit@gmail.com>"
   ],
   "time": {
-    "modified": "2018-02-01T16:29:10.364Z",
+    "modified": "2019-07-31T17:29:25.524Z",
     "created": "2015-05-27T18:30:10.675Z",
     "1.5.1": "2015-05-27T18:30:10.675Z",
     "1.5.2": "2016-01-26T07:03:33.696Z",
     "1.5.3": "2016-09-20T12:21:11.663Z",
     "1.5.4": "2017-09-26T14:53:11.313Z",
-    "1.5.5": "2018-01-11T06:44:29.203Z"
+    "1.5.5": "2018-01-11T06:44:29.203Z",
+    "1.6.0": "2019-07-31T17:29:21.634Z"
   },
   "homepage": "https://github.com/mjwwit/node-XMLHttpRequest#readme",
   "keywords": [
@@ -41,7 +43,7 @@
     "ukuli": true,
     "forican": true
   },
-  "version": "1.5.5",
+  "version": "1.6.0",
   "licenses": [
     {
       "type": "MIT",
@@ -60,9 +62,13 @@
   },
   "main": "./lib/XMLHttpRequest.js",
   "dependencies": {},
-  "gitHead": "d0290fab4b9674f007408d2d420096f343818f25",
+  "gitHead": "ae38832a0f1347c5e96dda665402509a3458e302",
   "dist": {
-    "shasum": "c2876b06168aadc40e57d97e81191ac8f4398b3e",
-    "tarball": "https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.5.tgz"
+    "integrity": "sha512-z59ztoKPjoFdK6uki5DRiMwPCYtHgp42vCamEpirB9j6zqnbNYBp/2GfrTEOG6IcS9OoMWmIiauU6d2RQNcdbA==",
+    "shasum": "dc201efdadb824b5f188478962fc270115880fe9",
+    "tarball": "https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.6.0.tgz",
+    "fileCount": 16,
+    "unpackedSize": 35129,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdQc/yCRA9TVsSAnZWagAAvQ0P/jjdamTuUrkhlBJ26Wi6\nWcLas9tL+DQo5YlG8jKiKolafgXWuKUwecvojtiKwta8VDWXSUkQculwYTfP\nsrL6Y8TKn60//TOdtz6Ww/M0aHniHLYgLwVMqhG0ajXIOdCxS/MESonQs279\nmO2KqUKK8axvrdsMTIM2m1+s4v2sUh84u4i7032lnKmX+Scjt6gpGi89m+2Z\nPTBHoOHXVfDqhJZyfWgsG3kgekQZJM5eKSW1o4/p1et/t32afKFVXb5Xq6NY\nJGwv6M16Eqcfb4G1Z/6pC7c4X5w9Nhs85DAdXo3gwG+IE3b2fa0h/peGm0iq\n0C/aBUKoRx8XEQ6LBXX2U/pUUSBPIAnMZkPartSmqJcq0myLFhfxlVCqQky1\nmeZTaaE76avZReUxOl/fGAHIzndLZ8IKk3GmbHSRND/ujm0xn+2kwhtGUuJU\nmRPeJlA9qiw/BDZ2XKf4O2I49lIEjg8Fn2v5bEMuOaJZf20adgt0iZ5DF9qZ\nR2YH+9IqBTDSdK4NKwozKUmCG5G+ASSqQtjm8Z4lNGpypAzsS9M/uCmwzYoY\nebAyA7nEvCFHrdXWZDEzllh4FYuQ7V3BOmxmcchisPb/89XFuxJ6aK/1bh9N\n7sumKnVxIG6fTAcKWMWq/qhu8fj/6o8CTTh9P8BQNV214cz0TCZ1wTbCzpbg\n22TK\r\n=ZXMc\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

@@ -2,7 +2,7 @@
   "name": "pretty-bytes",
   "description": "Convert bytes to a human readable string: 1337 → 1.34 kB",
   "dist-tags": {
-    "latest": "5.2.0"
+    "latest": "5.3.0"
   },
   "versions": [
     "0.1.0",
@@ -22,13 +22,14 @@
     "4.0.2",
     "5.0.0",
     "5.1.0",
-    "5.2.0"
+    "5.2.0",
+    "5.3.0"
   ],
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-24T03:27:39.899Z",
+    "modified": "2019-07-26T20:25:33.327Z",
     "created": "2014-02-09T17:27:09.124Z",
     "0.1.0": "2014-02-09T17:27:09.124Z",
     "0.1.1": "2014-04-30T22:44:08.892Z",
@@ -47,7 +48,8 @@
     "4.0.2": "2016-08-28T10:50:03.722Z",
     "5.0.0": "2018-05-06T19:14:44.879Z",
     "5.1.0": "2018-06-07T15:14:27.969Z",
-    "5.2.0": "2019-04-24T03:27:35.924Z"
+    "5.2.0": "2019-04-24T03:27:35.924Z",
+    "5.3.0": "2019-07-26T20:25:30.480Z"
   },
   "readmeFilename": "readme.md",
   "users": {
@@ -109,7 +111,7 @@
     "url": "https://github.com/sindresorhus/pretty-bytes/issues"
   },
   "license": "MIT",
-  "version": "5.2.0",
+  "version": "5.3.0",
   "engines": {
     "node": ">=6"
   },
@@ -122,14 +124,14 @@
     "tsd": "^0.7.2",
     "xo": "^0.24.0"
   },
-  "gitHead": "face5d939f0ac57070e652f5f39bc3d4db8dbd2e",
+  "gitHead": "50f9fdb6bdddf968eb476dfdff02ab19b1ee7ade",
   "dist": {
-    "integrity": "sha512-ujANBhiUsl9AhREUDUEY1GPOharMGm8x8juS7qOHybcLi7XsKfrYQ88hSly1l2i0klXHTDYrlL8ihMCG55Dc3w==",
-    "shasum": "96c92c6e95a0b35059253fb33c03e260d40f5a1f",
-    "tarball": "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-5.2.0.tgz",
+    "integrity": "sha512-hjGrh+P926p4R4WbaB6OckyRtO0F0/lQBiT+0gnxjV+5kjPBrfVBFCsCLbMqVQeydvIoouYTCmmEURiH3R1Bdg==",
+    "shasum": "f2849e27db79fb4d6cfe24764fc4134f165989f2",
+    "tarball": "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-5.3.0.tgz",
     "fileCount": 5,
-    "unpackedSize": 6639,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcv9eoCRA9TVsSAnZWagAAYNgP/160eJl0zDiusQObdset\nLv8zDwEIeAIylsz4OQ4i0hfT2RGuzVJzxDezMxUiSapSlM9CEfsPPn72c/ha\nqQko2iFQXubtW1UXe0APlWUISHUWtBami6J+V044bAyFqoIzcVSupSigo+Lw\n2m6/OY5lGXa/h0OiCc/EmNG74YkMejHJmKziO8i2URu5WcOWi1SW1bZh6V4h\nksnVk7lhmrfTntrFobjWP/kJE26GKn6Wj/omoNtlkmPIrdrsiR8xleClYgy8\nSnU1kGQ5La6A7muzqk5nmrFIzyenJwAiHFHzhRxxWcVWiW2KSdjIhz5JZcEg\n1xWA2zIcOgTeQjzHTytCseX/7U/cUTvJCAb3tP49PAfv/Np2WPhM3Rpryu6B\n1O2iYoIKLq6PZexe+89o/H/ozWfQVHgirEyT1DbxmBLFuvRKylGFcVZmtDg1\nIV9Upw5JOEtfMexLm7/guEOnOLD4vyE2UDTv9k4WhqCwVTFR9Up1YbSroq/+\nrPtRP20uvQeHJF26erEQUHq6BslMUQDAbhZP0DAuujVP0yS1K0QlsnO6Sah2\nXqMutilujfIjgvpWuMG0IJDQBTlxqonPLlEhrVUAdIKesm8CGf5Y8FNd8ZH+\nvLjIC2Sp1Y6ixNCpsM2W+40Ljvv1B+DSULovIBYA6W1Mqr5hxENbtscTmBkA\nTp4P\r\n=EZIE\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 7584,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdO2G7CRA9TVsSAnZWagAAqRQP+QGhO/UvItEZCt3uT195\n0YLoI9gdkBMWfcF62KyKsEoHbcO5r6C4dAaWVTyjULq0v5dJQI4BphzMR1Av\nowfWuaI318sGmpdIdZI8bK+zEneqSPDRIOe2ALwCotPu38vVIYRg+tmsSXtW\nAnraiJhSMXhtmgsh1E6F72fSENvMfhNAwi/2RHKsWxnDdDopeERY7deFkOzN\nHVnDLC/c64U7SuIN+3+azfga6oYxbEe5JXJgr4BgdbfEFC5EnhbyYj59Kdx9\nXlhly7F7RSUPm86syWBLsRq0mszq8aNbN1cEkGyueB4wow0ErIK/flAaewar\nMkOUmldJnkXiz5fSgRxxW+84QeyK0+VENrahryUSE5l1StuG7S3/OB3azsJ4\nYXBwP7SrYWGcoB9tQFAu4ztgNPb17TdGb/h/UVYOet0MZSBsm4haV0kVd/Mm\nWj3rBtWGi2bIHZ7iqfwtssgqK+e+X10iJFVyaBJ2dhDZmaKVbYvhHebFV9N9\n/TQ3ZKs9/atvU92dIWQ+KbxmHEny5XUz+Hktc2NV7MX+h+Qg2dO8wk1lAsJE\nLDb8ERMfJulOoU6cJsQtdeBvzg4bNIbibCi4uaZM7aIE4NAdiQasZIw+72N9\nsUefmRk/GsjnRghFVKFgcXy+Kp0Mq6ZX6znMTfXFW75qixXUQDyqYwlR/dQu\n80YC\r\n=JOje\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

@@ -2,7 +2,7 @@
   "name": "ansi-colors",
   "description": "Easily add ANSI colors to your text and symbols in the terminal. A faster drop-in replacement for chalk, kleur and turbocolor (without the dependencies and rendering bugs).",
   "dist-tags": {
-    "latest": "4.0.1"
+    "latest": "4.1.1"
   },
   "versions": [
     "0.1.0",
@@ -29,14 +29,16 @@
     "3.2.2",
     "3.2.3",
     "3.2.4",
-    "4.0.1"
+    "4.0.1",
+    "4.1.0",
+    "4.1.1"
   ],
   "maintainers": [
     "doowb <brian.woodward@gmail.com>",
     "jonschlinkert <github@sellside.com>"
   ],
   "time": {
-    "modified": "2019-06-19T11:12:14.446Z",
+    "modified": "2019-07-03T05:13:21.409Z",
     "created": "2015-11-30T17:41:48.492Z",
     "0.1.0": "2015-11-30T17:41:48.492Z",
     "0.2.0": "2016-07-11T13:09:33.057Z",
@@ -62,7 +64,9 @@
     "3.2.2": "2018-12-04T01:59:24.714Z",
     "3.2.3": "2018-12-08T03:01:09.269Z",
     "3.2.4": "2019-03-03T05:39:18.903Z",
-    "4.0.1": "2019-06-19T11:12:11.648Z"
+    "4.0.1": "2019-06-19T11:12:11.648Z",
+    "4.1.0": "2019-07-01T22:26:11.857Z",
+    "4.1.1": "2019-07-03T05:13:18.597Z"
   },
   "homepage": "https://github.com/doowb/ansi-colors",
   "keywords": [
@@ -126,7 +130,7 @@
     "Jon Schlinkert (http://twitter.com/jonschlinkert)",
     "Jordan (https://github.com/Silic0nS0ldier)"
   ],
-  "version": "4.0.1",
+  "version": "4.1.1",
   "main": "index.js",
   "types": "./types/index.d.ts",
   "engines": {
@@ -173,14 +177,14 @@
       "kleur"
     ]
   },
-  "gitHead": "417093e9caee145df2bcfdf5a94343387a6dce1c",
+  "gitHead": "2f354b71bdbad9d3f5d705c78966378f83e5e080",
   "dist": {
-    "integrity": "sha512-1Qs1jdXEMSYwcVooLRfnCc5+e3365pw38v4AVkSsCxsjXRGKDTem5VLCl53SpHSpLnEy8O5DofJHZJELaRiJbg==",
-    "shasum": "3dc29301836c6152f617a71466bde162a2e42582",
-    "tarball": "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.0.1.tgz",
+    "integrity": "sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==",
+    "shasum": "cbb9ae256bf750af1eab344f229aa27fe94ba348",
+    "tarball": "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.1.tgz",
     "fileCount": 6,
-    "unpackedSize": 23464,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdChiMCRA9TVsSAnZWagAAeCkP/1cCqDeXBWPTzVY1bmeH\nxo72h2bScDGy90jzOAN9915r/jlQoBEjvaym5DcL9wOmsY61kayGR3A6/o/w\nGEVmpJGyJyWR2YDoe+9EUmfj1Ilfuh/UdRnYffmga3nRhrl23AwCG55onVpt\nVsEPSaCGEYG/TPMYJNCWvSbfhDZM/0UEa1MYl08E3tDhdsrDZk8/vWL19C4H\n8XHfSkAcfbFMOSxCNOnHezZQ78VmM446+YDBDSaV7mzyDbhx+ItB03czjqg2\nV+WvEcGhByCtgP+WdUg8wGCmVSYjy/3ePSR6weIGPm2DsD+zbxFQZ6Un2aHW\nw0/IRTZH8qRqZIZfQ55OnzZRf+K2MIrAJa96lZTiaDwTUCGtGkxuxhPPKGGR\nvpo8F8iX42wvCmYPDomWsCNKqM615wRlD2MrP9+V5qce9YToi948ccegt8L7\nbOhSqnjn4dg+QzftZXE2zSaEqin4PXqXtAlnPLa8eWIZYRZQhwK2LrFvR3ZH\nxA84lnfZaZXjhzKPs9ibh+cxfKwmm9SiKZ/fc4OW5WuRdHmHpEQqn2Z2NXnO\nn74If4HUqLA5WhBrcM1BUzjSHmlmRsPWk/e35tkYIeRbUT/AiPZGFhu9LBB5\n+v6CYxbzGzCPIeoqF9fRNhYnaVsRFde5SBtP2qQJnEpBasMI5H5GIWdjDtqU\nAGGr\r\n=iQWX\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 24394,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdHDlvCRA9TVsSAnZWagAAAlEP/RoYUMDPUyHQ+fB1+qAZ\nWDUkadIeFH09oyFyeGzDH65LGplehEGKcthxTfyIgMSLM59S1HLHRc/10Gws\nJQv6MdnIeg1gmKV9yvfEx/Ka/ThTlk5yKZcRjNT0/nKREi0lzrdp9sY4ydiG\nS6piCwekTbB6qKu7C9xdG5xMh/lMJpxtyN1A4I7+8POcfmYADZfpbDxdGcNp\nwoEVHRZ47iIm1MUyYQrzVfdzSGM5P4m5w2VrRcWPpB7YQmDZbTjVFP412PXB\nYKOzJ5V0qQ7dgsaWECvOsC9ryZNFYG8Ne32ZVAnvFomqMYtHX4TiKbJXOMZJ\nYEuEAsCd3T5SzeJEZhiEUMg20/i+L2fxfjYaSbW2zNnUmu3Wp+uXfjNbv8ua\nAB7e/V2gYvy8A4eB5em7vxy+ZpIRmXkGmazwmy7E/RshE0SYTpw052Oc/OKY\n7XQDQAFV4ccB79mwWLWjeu/gCcG1LrePS/eMj3/WQ9YuCj5cDudLwj+wgLHI\nSUmmbyIeqK63oOUc63dvVVhCnenTTyFnLPgO6TIQH7gBI+tYB7NSQzBWAQ7Z\nyWBRnAersCCB26aCJDbF2iybWWn41GtnTTdahjlpfKFBWn+25FGOHAfybXto\nsgM9ns9Z2qmilwwRiUSH9eW4urCR7LdixNERhzzQ8KMx8FR8aSm7zg73osBV\nSq0w\r\n=y4PB\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

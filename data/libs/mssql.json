@@ -4,7 +4,8 @@
   "dist-tags": {
     "latest": "5.1.0",
     "alpha": "6.0.0-alpha.9",
-    "legacy": "4.3.7"
+    "legacy": "4.3.7",
+    "beta": "6.0.0-beta.1"
   },
   "versions": [
     "0.2.0",
@@ -108,7 +109,8 @@
     "6.0.0-alpha.6",
     "6.0.0-alpha.7",
     "6.0.0-alpha.8",
-    "6.0.0-alpha.9"
+    "6.0.0-alpha.9",
+    "6.0.0-beta.1"
   ],
   "maintainers": [
     "arthurschreiber <schreiber.arthur@googlemail.com>",
@@ -117,7 +119,7 @@
     "wmorgan <will+npm@willmorgan.co.uk>"
   ],
   "time": {
-    "modified": "2019-04-17T17:28:59.267Z",
+    "modified": "2019-08-07T08:49:40.783Z",
     "created": "2013-08-10T23:27:58.461Z",
     "0.2.0": "2013-08-10T23:28:01.771Z",
     "0.2.1": "2013-08-11T01:11:44.412Z",
@@ -223,14 +225,15 @@
     "6.0.0-alpha.8": "2019-03-28T14:12:19.433Z",
     "5.0.6": "2019-04-16T23:26:11.746Z",
     "5.1.0": "2019-04-17T17:25:46.175Z",
-    "6.0.0-alpha.9": "2019-04-17T17:28:56.648Z"
+    "6.0.0-alpha.9": "2019-04-17T17:28:56.648Z",
+    "6.0.0-beta.1": "2019-08-07T08:39:14.563Z"
   },
   "author": "Patrik Simek (https://patriksimek.cz)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tediousjs/node-mssql.git"
   },
-  "readmeFilename": "",
+  "readmeFilename": "README.md",
   "users": {
     "ekelvin": true,
     "hulio21": true,

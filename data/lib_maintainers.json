@@ -11,6 +11,7 @@
   ],
   "commander": [
     "abetomo",
+    "shadowspawn",
     "somekittens",
     "tjholowaychuk",
     "vanesyan",
@@ -43,17 +44,6 @@
     "acdlite",
     "brianvaughn",
     "fb",
-    "flarnie",
-    "gaearon",
-    "sebmarkbage",
-    "sophiebits",
-    "threepointone",
-    "trueadm"
-  ],
-  "scheduler": [
-    "acdlite",
-    "brianvaughn",
-    "fb",
     "gaearon",
     "sebmarkbage",
     "sophiebits",
@@ -83,6 +73,15 @@
     "satazor",
     "vascosantos"
   ],
+  "minipass": [
+    "adam_baldwin",
+    "ahmadnassri",
+    "annekimsey",
+    "billatnpm",
+    "claudiahdz",
+    "darcyclarke",
+    "isaacs"
+  ],
   "configstore": [
     "addyosmani",
     "eddiemonge",
@@ -97,6 +96,7 @@
     "mischah",
     "sboudrias",
     "sindresorhus",
+    "ulisesgascon",
     "zckrs"
   ],
   "acorn": [
@@ -386,6 +386,7 @@
     "jprichardson",
     "jryans",
     "leichtgewicht",
+    "lukechilds",
     "mafintosh",
     "mattdesl",
     "maxogden",
@@ -530,6 +531,7 @@
   ],
   "@azure/ms-rest-azure-env": [
     "amarzavery",
+    "azure-sdk",
     "billytrend",
     "sergeyshandar",
     "veronicagg",
@@ -697,13 +699,6 @@
   "iconv-lite": [
     "ashtuchkin"
   ],
-  "node-expat": [
-    "astro",
-    "chris-rock",
-    "lloydwatkin",
-    "sonny",
-    "y--"
-  ],
   "npm-packlist": [
     "audrey.e",
     "iarna",
@@ -718,6 +713,12 @@
     "jstash",
     "ruoho"
   ],
+  "@azure/storage-blob": [
+    "azure-sdk",
+    "jiachenfan",
+    "vinjiang",
+    "xiaonli"
+  ],
   "adal-node": [
     "azuread",
     "msopentech"
@@ -731,11 +732,6 @@
   ],
   "cliui": [
     "bcoe"
-  ],
-  "os-locale": [
-    "bcoe",
-    "nexdrew",
-    "sindresorhus"
   ],
   "redis": [
     "bcoe",
@@ -774,9 +770,6 @@
   "base64-js": [
     "beatgammit",
     "feross"
-  ],
-  "builtin-status-codes": [
-    "bendrucker"
   ],
   "pg-types": [
     "bendrucker",
@@ -820,6 +813,10 @@
     "jinjinyun",
     "kethinov",
     "yaron"
+  ],
+  "node-fetch": [
+    "bitinn",
+    "timothygu"
   ],
   "ajv": [
     "blakeembrey",
@@ -915,14 +912,15 @@
   "pg-int8": [
     "charmander"
   ],
+  "@azure/cosmos-sign": [
+    "christopheranderson",
+    "southpolesteve"
+  ],
   "@azure/cosmos": [
     "christopheranderson",
     "southpolesteve"
   ],
   "m26-js": [
-    "cjoakim"
-  ],
-  "sb-js": [
     "cjoakim"
   ],
   "tcx-js": [
@@ -943,6 +941,14 @@
   "esutils": [
     "constellation",
     "michaelficarra"
+  ],
+  "findup-sync": [
+    "contra",
+    "cowboy",
+    "jonschlinkert",
+    "phated",
+    "sttk",
+    "tkellen"
   ],
   "fined": [
     "contra",
@@ -972,13 +978,11 @@
     "phated",
     "sttk"
   ],
-  "foreachasync": [
+  "atob": [
     "coolaj86"
   ],
-  "path": [
-    "coolaj86",
-    "defunctzombie",
-    "jinder"
+  "foreachasync": [
+    "coolaj86"
   ],
   "process": [
     "coolaj86",
@@ -1001,12 +1005,6 @@
   ],
   "exit": [
     "cowboy"
-  ],
-  "findup-sync": [
-    "cowboy",
-    "jonschlinkert",
-    "phated",
-    "tkellen"
   ],
   "grunt-cli": [
     "cowboy",
@@ -1065,34 +1063,6 @@
   "envconf": [
     "ctavares"
   ],
-  "cipher-base": [
-    "cwmma"
-  ],
-  "create-hash": [
-    "cwmma",
-    "dcousens",
-    "dominictarr",
-    "indutny",
-    "jprichardson"
-  ],
-  "create-hmac": [
-    "cwmma",
-    "dcousens",
-    "dominictarr",
-    "indutny",
-    "jprichardson"
-  ],
-  "hash-base": [
-    "cwmma",
-    "dcousens",
-    "fanatid"
-  ],
-  "md5.js": [
-    "cwmma",
-    "dcousens",
-    "fanatid",
-    "jprichardson"
-  ],
   "readable-stream": [
     "cwmma",
     "isaacs",
@@ -1100,15 +1070,6 @@
     "nodejs-foundation",
     "rvagg",
     "tootallnate"
-  ],
-  "ripemd160": [
-    "cwmma",
-    "dcousens",
-    "dominictarr",
-    "jprichardson",
-    "midnightlightning",
-    "nadav",
-    "vbuterin"
   ],
   "string_decoder": [
     "cwmma",
@@ -1223,10 +1184,6 @@
   "long": [
     "dcode"
   ],
-  "sha.js": [
-    "dcousens",
-    "dominictarr"
-  ],
   "after": [
     "defunctzombie",
     "raynos"
@@ -1299,9 +1256,6 @@
   ],
   "color-name": [
     "dfcreative"
-  ],
-  "path-is-inside": [
-    "domenic"
   ],
   "delegates": [
     "dominicbarnes",
@@ -1595,6 +1549,10 @@
     "rwz",
     "schtoeffel"
   ],
+  "execa": [
+    "ehmicky",
+    "sindresorhus"
+  ],
   "mimic-fn": [
     "ehmicky",
     "sindresorhus"
@@ -1635,10 +1593,6 @@
     "emilbayes",
     "ljharb",
     "substack"
-  ],
-  "async-each": [
-    "es128",
-    "paulmillr"
   ],
   "chokidar": [
     "es128",
@@ -1685,10 +1639,6 @@
   "safe-buffer": [
     "feross",
     "mafintosh"
-  ],
-  "stream-http": [
-    "feross",
-    "jhiesey"
   ],
   "typedarray-to-buffer": [
     "feross"
@@ -1855,6 +1805,14 @@
   "type": [
     "gozala"
   ],
+  "universal-user-agent": [
+    "gr2m"
+  ],
+  "merge-stream": [
+    "grncdr",
+    "shinnn",
+    "stevemao"
+  ],
   "nugget": [
     "grncdr",
     "jlord",
@@ -2012,9 +1970,6 @@
   "minimatch": [
     "isaacs"
   ],
-  "minipass": [
-    "isaacs"
-  ],
   "minizlib": [
     "isaacs"
   ],
@@ -2053,11 +2008,6 @@
   "yallist": [
     "isaacs"
   ],
-  "follow-redirects": [
-    "jamestalmage",
-    "olalonde",
-    "rubenverborgh"
-  ],
   "priorityqueuejs": [
     "janogonzalez"
   ],
@@ -2076,11 +2026,6 @@
     "mathias",
     "phated"
   ],
-  "lodash.get": [
-    "jdalton",
-    "mathias",
-    "phated"
-  ],
   "lodash": [
     "jdalton",
     "mathias"
@@ -2093,11 +2038,6 @@
   ],
   "date-utils": [
     "jerrysievert"
-  ],
-  "@azure/storage-blob": [
-    "jiachenfan",
-    "vinjiang",
-    "xiaonli"
   ],
   "array-each": [
     "jonschlinkert"
@@ -2149,9 +2089,6 @@
   "unc-path-regex": [
     "jonschlinkert",
     "tunnckocore"
-  ],
-  "acorn-dynamic-import": [
-    "jordangens"
   ],
   "mathjs": [
     "josdejong"
@@ -2237,6 +2174,10 @@
   "is-yarn-global": [
     "litomore"
   ],
+  "deep-equal": [
+    "ljharb",
+    "substack"
+  ],
   "define-properties": [
     "ljharb"
   ],
@@ -2271,6 +2212,9 @@
   "is-symbol": [
     "ljharb"
   ],
+  "object-is": [
+    "ljharb"
+  ],
   "object-keys": [
     "ljharb"
   ],
@@ -2281,6 +2225,9 @@
     "ljharb"
   ],
   "object.getownpropertydescriptors": [
+    "ljharb"
+  ],
+  "regexp.prototype.flags": [
     "ljharb"
   ],
   "detect-libc": [
@@ -2414,9 +2361,11 @@
   "backo2": [
     "mokesmokes"
   ],
-  "axios": [
-    "mzabriskie",
-    "nickuraltsev"
+  "abort-controller": [
+    "mysticatea"
+  ],
+  "event-target-shim": [
+    "mysticatea"
   ],
   "cookie-signature": [
     "natevw",
@@ -2510,9 +2459,6 @@
   "denque": [
     "salakar"
   ],
-  "map-age-cleaner": [
-    "samverschueren"
-  ],
   "cross-spawn": [
     "satazor"
   ],
@@ -2540,6 +2486,9 @@
   "cli-boxes": [
     "sindresorhus"
   ],
+  "crypto-hash": [
+    "sindresorhus"
+  ],
   "crypto-random-string": [
     "sindresorhus"
   ],
@@ -2556,9 +2505,6 @@
     "sindresorhus"
   ],
   "escape-string-regexp": [
-    "sindresorhus"
-  ],
-  "execa": [
     "sindresorhus"
   ],
   "find-up": [
@@ -2580,9 +2526,6 @@
     "sindresorhus"
   ],
   "import-lazy": [
-    "sindresorhus"
-  ],
-  "invert-kv": [
     "sindresorhus"
   ],
   "ip-regex": [
@@ -2609,9 +2552,6 @@
   "latest-version": [
     "sindresorhus"
   ],
-  "lcid": [
-    "sindresorhus"
-  ],
   "locate-path": [
     "sindresorhus"
   ],
@@ -2621,10 +2561,10 @@
   "lowercase-keys": [
     "sindresorhus"
   ],
-  "make-dir": [
+  "macos-release": [
     "sindresorhus"
   ],
-  "mem": [
+  "make-dir": [
     "sindresorhus"
   ],
   "mimic-response": [
@@ -2633,7 +2573,13 @@
   "npm-run-path": [
     "sindresorhus"
   ],
+  "onetime": [
+    "sindresorhus"
+  ],
   "os-homedir": [
+    "sindresorhus"
+  ],
+  "os-name": [
     "sindresorhus"
   ],
   "os-tmpdir": [
@@ -2642,13 +2588,7 @@
   "p-cancelable": [
     "sindresorhus"
   ],
-  "p-defer": [
-    "sindresorhus"
-  ],
   "p-finally": [
-    "sindresorhus"
-  ],
-  "p-is-promise": [
     "sindresorhus"
   ],
   "p-limit": [
@@ -2687,7 +2627,7 @@
   "string-width": [
     "sindresorhus"
   ],
-  "strip-eof": [
+  "strip-final-newline": [
     "sindresorhus"
   ],
   "strip-json-comments": [
@@ -2714,6 +2654,9 @@
   "widest-line": [
     "sindresorhus"
   ],
+  "windows-release": [
+    "sindresorhus"
+  ],
   "xdg-basedir": [
     "sindresorhus"
   ],
@@ -2722,6 +2665,9 @@
   ],
   "express-favicon": [
     "song940"
+  ],
+  "node-abort-controller": [
+    "southpolesteve"
   ],
   "get-caller-file": [
     "stefanpenner"
@@ -2733,9 +2679,6 @@
     "substack"
   ],
   "concat-map": [
-    "substack"
-  ],
-  "deep-equal": [
     "substack"
   ],
   "minimist": [
@@ -2816,13 +2759,7 @@
   "array-from": [
     "tomekwi"
   ],
-  "bindings": [
-    "tootallnate"
-  ],
   "component-bind": [
-    "tootallnate"
-  ],
-  "file-uri-to-path": [
     "tootallnate"
   ],
   "util-deprecate": [
@@ -2843,7 +2780,13 @@
   "@types/babylon": [
     "types"
   ],
+  "@types/debug": [
+    "types"
+  ],
   "@types/is-buffer": [
+    "types"
+  ],
+  "@types/node-fetch": [
     "types"
   ],
   "@types/node": [

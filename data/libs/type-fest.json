@@ -1,7 +1,7 @@
 {
   "name": "type-fest",
   "dist-tags": {
-    "latest": "0.5.2"
+    "latest": "0.7.1"
   },
   "versions": [
     "0.1.0",
@@ -12,12 +12,15 @@
     "0.4.1",
     "0.5.0",
     "0.5.1",
-    "0.5.2"
+    "0.5.2",
+    "0.6.0",
+    "0.7.0",
+    "0.7.1"
   ],
   "time": {
     "created": "2019-03-13T10:40:42.413Z",
     "0.1.0": "2019-03-13T10:40:42.590Z",
-    "modified": "2019-05-26T09:21:14.965Z",
+    "modified": "2019-08-03T13:54:06.699Z",
     "0.2.0": "2019-03-15T06:35:29.482Z",
     "0.3.0": "2019-03-18T06:33:16.591Z",
     "0.3.1": "2019-04-10T03:05:13.549Z",
@@ -25,7 +28,10 @@
     "0.4.1": "2019-04-22T01:46:41.345Z",
     "0.5.0": "2019-05-12T14:59:04.767Z",
     "0.5.1": "2019-05-15T11:41:07.237Z",
-    "0.5.2": "2019-05-26T09:21:12.232Z"
+    "0.5.2": "2019-05-26T09:21:12.232Z",
+    "0.6.0": "2019-07-05T09:46:43.673Z",
+    "0.7.0": "2019-08-03T13:51:27.941Z",
+    "0.7.1": "2019-08-03T13:54:04.318Z"
   },
   "maintainers": [
     "sindresorhus <sindresorhus@gmail.com>"
@@ -53,17 +59,18 @@
   },
   "license": "(MIT OR CC0-1.0)",
   "readmeFilename": "readme.md",
-  "version": "0.5.2",
+  "version": "0.7.1",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "test": "xo && tsd"
   },
   "devDependencies": {
-    "@sindresorhus/tsconfig": "^0.3.0",
-    "@typescript-eslint/eslint-plugin": "^1.8.0",
-    "eslint-config-xo-typescript": "^0.11.0",
+    "@sindresorhus/tsconfig": "^0.4.0",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint-config-xo-typescript": "^0.14.0",
     "tsd": "^0.7.3",
     "xo": "^0.24.0"
   },
@@ -77,14 +84,14 @@
       "@typescript-eslint/indent": "off"
     }
   },
-  "gitHead": "70e90a11b326275e9a1176efb450594d2df1115f",
+  "gitHead": "ee922a0d76919e77b880fb9a256060d901edb036",
   "dist": {
-    "integrity": "sha512-DWkS49EQKVX//Tbupb9TFa19c7+MK1XmzkrZUR8TAktmE/DizXoaoJV6TZ/tSIPXipqNiRI6CyAe7x69Jb6RSw==",
-    "shasum": "d6ef42a0356c6cd45f49485c3b6281fc148e48a2",
-    "tarball": "https://registry.npmjs.org/type-fest/-/type-fest-0.5.2.tgz",
-    "fileCount": 13,
-    "unpackedSize": 26892,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc6lqICRA9TVsSAnZWagAARboQAIx/JQMSr5pdhv6RQ/QV\nvb5K9wh7aJqJshtUkvCLqyYWAdTEN/4Oy7RWhMm0KVjxRTRJS86wrt7KsAE3\nbllT4mWbEMSyQgHy8IbBhS/hrju+r/5NTL5MgN7QZl3o6C5J5LT81EoxF6w/\nmXlGdPiqjtqELDYRCXZ4dgsC6piKi57poaxIZhaYRUywEeZU6dky4UMXSwCr\nObQ24K150zjRS+c07nn8EcsDpCE+Y7WHF5LrA/3eHJoXhIKr43iNjSCT+gyJ\nio6pVBkdH7PcpyBzhWX/OH48ixdmK7aVV0v8eaSJFTzjUIKhV2Ot2iFdQR3o\nEUgmSKy9a/DLZHpWiGP/LHLl98d55vbfe4Rq0ZB0XBwnWGi5J0+ekg1b+NDN\nK3rsR/7d9NYefVqOuBQx7c5aNAezL354juQfI5qruSDBFBY72IdBcCDIWPft\nk6BKbQlVqHy1C2e8rAZYgY1gNHMKUMreM0qInRh1BgywHMqk3YO0Rvl1yThr\ngVRgqcPmrGZuX41JgNrtMNeZdZbC+69qs5K87ei0MgfDT6H53GpR/caBjooV\n8/bYQmKxgFpI/X4+mgRGan/7gqQLdBjHY3/SPCPq1mJGwOQVtdZr9HwK2Ihq\ntu604ZayJurm1+MxTgnrapM2Tmxj/jxVZBS0n7z77HOzb6oZE38WiDHORdJt\nY918\r\n=tf4t\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==",
+    "shasum": "8dda65feaf03ed78f0a3f9678f1869147f7c5c48",
+    "tarball": "https://registry.npmjs.org/type-fest/-/type-fest-0.7.1.tgz",
+    "fileCount": 15,
+    "unpackedSize": 31190,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdRZH8CRA9TVsSAnZWagAA188P/2JvfJE2YsgxWu/DafDX\nyztjCQtRSQgY+QvQU+uQCy/hqLc5b/DYfNZQ5cjGazMSmCQmn3v5B8WnpRfK\nDUw1avkl3ame3VBfi5fT5+X07LMBDVVB6U38AOpIEMBaVpAHW6+2OUiM6IjN\nXA4PiTUDaPgTDqoLa+zOcMQUNu3CszrRnmxCrxeYachIIxzxHCXBBxnEenaH\nunpGZWcyjg585mWeZ3NCKYW3nEcdac2W2hO1hUMK4U6uf9fEH+O4LouG1yrk\nImDM25suUjzucDGduZrhLer3++WAglEdUl65e1CP1+Kj5wslmwIPkNS49bsC\nlddOxy+KYLW7uY16+mz0u+LqqrJxZksEXKVg3wBKRWz8e0fBi8luAx0ZqxZU\nXHsY9aGIpXSLU61rJVkmSS0KMB9FbOY6z9ou95VoQR8kimy2TqdBLSh2ctaY\ns/+4NeMFae8DIhE1MT/sKW6w1PqboaCxlFFh30tkzeXIUhIuht80aRe9Mtq4\nVsIO9sw4OnzeSaIJWHKyoUthI8fOT80LkbRxmgVD/gHWgOW/2ygVUVJ4eS2e\nvKXlTyRm9LlWA9stkzfV85HtbDXahyFgPsvEen9A1+U6EkiPAZpztvOzoueY\ntaSWvuJChzefIaNj5DxRdsMmjpXE9Hb6auLilesRthlBUn5ShBf7BstQYLD7\nVhY0\r\n=u2xM\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

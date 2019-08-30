@@ -2,8 +2,8 @@
   "name": "graceful-fs",
   "description": "A drop-in replacement for fs, making various improvements.",
   "dist-tags": {
-    "latest": "4.1.15",
-    "old": "3.0.11"
+    "latest": "4.2.2",
+    "old": "3.0.12"
   },
   "versions": [
     "1.0.0",
@@ -44,6 +44,7 @@
     "3.0.9",
     "3.0.10",
     "3.0.11",
+    "3.0.12",
     "4.1.0",
     "4.1.1",
     "4.1.2",
@@ -59,13 +60,16 @@
     "4.1.12",
     "4.1.13",
     "4.1.14",
-    "4.1.15"
+    "4.1.15",
+    "4.2.0",
+    "4.2.1",
+    "4.2.2"
   ],
   "maintainers": [
     "isaacs <i@izs.me>"
   ],
   "time": {
-    "modified": "2019-01-04T00:30:40.023Z",
+    "modified": "2019-08-14T05:32:11.361Z",
     "created": "2011-07-20T08:49:36.339Z",
     "1.0.0": "2011-07-20T08:49:38.481Z",
     "1.0.1": "2011-09-25T00:33:29.942Z",
@@ -122,7 +126,11 @@
     "4.1.12": "2018-11-02T20:52:27.707Z",
     "4.1.13": "2018-11-02T21:28:15.709Z",
     "4.1.14": "2018-11-02T23:18:33.348Z",
-    "4.1.15": "2018-11-04T20:51:54.752Z"
+    "4.1.15": "2018-11-04T20:51:54.752Z",
+    "4.2.0": "2019-06-26T19:39:25.253Z",
+    "4.2.1": "2019-08-04T06:04:41.125Z",
+    "3.0.12": "2019-08-13T23:57:29.792Z",
+    "4.2.2": "2019-08-14T05:32:08.671Z"
   },
   "repository": {
     "type": "git",
@@ -230,7 +238,7 @@
     "url": "https://github.com/isaacs/node-graceful-fs/issues"
   },
   "license": "ISC",
-  "version": "4.1.15",
+  "version": "4.2.2",
   "main": "graceful-fs.js",
   "directories": {
     "test": "test"
@@ -238,22 +246,23 @@
   "scripts": {
     "preversion": "npm test",
     "postversion": "npm publish",
-    "postpublish": "git push origin --all; git push origin --tags",
+    "postpublish": "git push origin --follow-tags",
     "test": "node test.js | tap -"
   },
   "devDependencies": {
     "import-fresh": "^2.0.0",
     "mkdirp": "^0.5.0",
     "rimraf": "^2.2.8",
-    "tap": "^12.0.1"
+    "tap": "^12.7.0"
   },
-  "gitHead": "26456e3deb4a5e85363e92f9015bcefd3b6b13ba",
+  "dependencies": {},
+  "gitHead": "5552309112e0d09e3c07a3e03ad3d6015b7cdccc",
   "dist": {
-    "integrity": "sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==",
-    "shasum": "ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00",
-    "tarball": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.15.tgz",
+    "integrity": "sha512-IItsdsea19BoLC7ELy13q1iJFNmd7ofZH5+X/pJr90/nRoPEX0DJo1dHDbgtYWOhJhcCgMDTOw84RZ72q6lB+Q==",
+    "shasum": "6f0952605d0140c1cfdb138ed005775b92d67b02",
+    "tarball": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.2.tgz",
     "fileCount": 7,
-    "unpackedSize": 25938,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb31vrCRA9TVsSAnZWagAAjMYP/2AwGCPcxbX+2ZBkpyRq\nJ85zkTLDdO2AhSNpgApHrPFbvQ2MYSedMmA/tuNOILCd2zulEvadRZLSW5zI\nHUkRFdU20ByFJoLMvoGm8EY9gEnQ3lpIvh6lmgNSYhQhm5khE0XHQ4sAs9YW\nV61Qr4yqKvkxXrMpElTgzkCfEZ79pNzZ58lE0Qvqmcp3OTczsOimh+w5UIUu\nt/GMZpsmLC4VHTj+hSRqYsh8HJFt9Nl2ahXK08eGAroZMRgRY5hA/9aJ2bA7\nHpuyqMH2wjbaJRnT8ORLfgfJ9a8xO+VzIp0ueAWpAjAaCtbC2dKF3/YJ8Bn6\nZUaCWMM1PZG1BIM/4g/q++OV7o9NgJvqjvjMmVZKanzUMBwfD9ygwFcP8oNF\nlLSR4GU6itDJo2oqdtsrTsfDe35sNTl3kwyhMqZPWFlNJ5C02jmeH2qPtc9s\n69lGDH5JNBBKOmJXV9WKfN+mOSXniBnUsUVu0vAm/y9nY1GZQiAlI5MfIW+T\n1a+K2cGakv6c+b2bO6ExwnIjWPwEpKNlPYHdjLv01GoT9qZRh2guD5RBJqDj\nbNToHu3zR6po45ekShHykoFDz3F+mOKWKyfQ1F3Z+z+8udFk7xbO4vxRTC4M\nq1HSgomC6uFS+RRNVhmTS2L4S1izPDbozKOUU+rpk4hQMBhTLgf7nQ0Bates\nG+db\r\n=Fpd7\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 27502,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdU5zZCRA9TVsSAnZWagAA7a8QAJBSlOXnj/WkrVL3YdAb\nxs1Bbf8NzeS8YYkRsLKOG17p3toNwR1ylelzUHIjsTZgngyXimzGGPnp7qEN\nWYJCRq3T49sHwrGCpvccZXddoW4YikmkCArkk+VNWrqtCQ0jshm6aa/hO1Nb\noJnFkHohuk+OcS5nEo40N0m97cBjiephD18iF1E24LNnw4eXsrCg+3BYplEo\n27S5CP11JKkPVFVx9R1FB/xjYd81XB65WkuXXuJ+iBo59oQ33brcGuZ7y/no\nPdAdiawVHM2Tx1jpPMU1MxSUZ+xzLUN8HlFHSi9YNZ1E3Wvm0SKdlYW0ykOp\n5OXc8eNJDrU6wIm/75tJ6mUKq/+GbtcjOulT3Zu9T97TZHbUB3sig+oH4xbs\nJ6zTCQx6amBQ6Rw7hPFmftWXnos/d3rkN4wqFsZQAA/Pax0BVLMx6VIPg7cY\nD6zuOLrX1Zy0vz24ukzelTsk2SQq13A124QSGyijks1DvBjRNwePjWcPC6W2\n4rVGH+XU21mOeq2BNVQqCUOKDdMT6QVeLNvty9YFnn5iQ5f6vDHFNqVHDGRN\nM8zFIfkQ086p/KebKw3MNL31kV2khe2VYX2JgWie865H2jug1ZIkfXSvgJ13\nGRfTcPA+TWj1OAvEU8rY5UJ+MxvRMtxkd3434hCuZFGuNfBJijCY1O6T8pWH\nbzM7\r\n=Uz6a\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

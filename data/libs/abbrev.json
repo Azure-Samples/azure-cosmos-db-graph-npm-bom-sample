@@ -20,7 +20,7 @@
   "author": "Isaac Z. Schlueter <i@izs.me>",
   "description": "Like ruby's abbrev module, but in js",
   "time": {
-    "modified": "2018-04-13T18:44:24.635Z",
+    "modified": "2019-08-19T22:32:42.280Z",
     "created": "2011-03-21T22:21:11.183Z",
     "1.0.1": "2011-03-21T22:21:11.183Z",
     "1.0.2": "2011-03-21T22:21:11.183Z",

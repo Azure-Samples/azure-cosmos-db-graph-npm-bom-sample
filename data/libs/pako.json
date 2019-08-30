@@ -34,7 +34,7 @@
     "vitaly <vitaly@rcdesign.ru>"
   ],
   "time": {
-    "modified": "2019-02-28T21:43:04.697Z",
+    "modified": "2019-06-26T09:05:01.763Z",
     "created": "2014-02-19T16:02:05.385Z",
     "0.0.0": "2014-02-19T16:02:05.385Z",
     "0.1.0": "2014-03-15T17:36:20.687Z",
@@ -109,7 +109,8 @@
     "mysticatea": true,
     "tomekf": true,
     "ruchirgodura": true,
-    "iwasawafag": true
+    "iwasawafag": true,
+    "daizch": true
   },
   "version": "1.0.10",
   "scripts": {

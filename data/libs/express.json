@@ -277,7 +277,7 @@
   ],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "time": {
-    "modified": "2019-05-28T18:15:26.253Z",
+    "modified": "2019-08-07T14:59:54.772Z",
     "created": "2010-12-29T19:38:25.450Z",
     "0.14.0": "2010-12-29T19:38:25.450Z",
     "0.14.1": "2010-12-29T19:38:25.450Z",
@@ -3125,7 +3125,6 @@
     "jcanes": true,
     "benwyse11": true,
     "mutantspew": true,
-    "justforuse": true,
     "mestar": true,
     "leota": true,
     "papb": true,
@@ -3133,7 +3132,10 @@
     "ahillier": true,
     "payaamemami": true,
     "pvoronin": true,
-    "spaceface777": true
+    "spaceface777": true,
+    "cambro93": true,
+    "habiiev": true,
+    "staatsanwalt": true
   },
   "readmeFilename": "Readme.md",
   "homepage": "http://expressjs.com/",

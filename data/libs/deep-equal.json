@@ -2,7 +2,7 @@
   "name": "deep-equal",
   "description": "node's assert.deepEqual algorithm",
   "dist-tags": {
-    "latest": "1.0.1"
+    "latest": "1.1.0"
   },
   "versions": [
     "0.0.0",
@@ -13,13 +13,15 @@
     "0.2.1",
     "0.2.2",
     "1.0.0",
-    "1.0.1"
+    "1.0.1",
+    "1.1.0"
   ],
   "maintainers": [
-    "substack <mail@substack.net>"
+    "ljharb <ljharb@gmail.com>",
+    "substack <substack@gmail.com>"
   ],
   "time": {
-    "modified": "2018-03-16T04:52:08.214Z",
+    "modified": "2019-08-28T05:42:23.887Z",
     "created": "2012-02-11T05:42:13.188Z",
     "0.0.0": "2012-02-11T05:42:14.579Z",
     "0.1.0": "2013-10-14T14:52:24.917Z",
@@ -29,7 +31,8 @@
     "0.2.1": "2014-01-29T22:05:28.806Z",
     "0.2.2": "2015-02-07T18:27:09.674Z",
     "1.0.0": "2015-02-07T18:27:38.585Z",
-    "1.0.1": "2015-08-29T21:02:28.562Z"
+    "1.0.1": "2015-08-29T21:02:28.562Z",
+    "1.1.0": "2019-08-28T05:42:20.711Z"
   },
   "author": "James Halliday <mail@substack.net> (http://substack.net)",
   "repository": {
@@ -83,7 +86,7 @@
     "url": "https://github.com/substack/node-deep-equal/issues"
   },
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "directories": {
     "lib": ".",
@@ -91,10 +94,23 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "pretest": "npm run lint",
+    "lint": "eslint .",
+    "tests-only": "tape test/*",
+    "test": "npm run tests-only"
+  },
+  "dependencies": {
+    "is-arguments": "^1.0.4",
+    "is-date-object": "^1.0.1",
+    "is-regex": "^1.0.4",
+    "object-is": "^1.0.1",
+    "object-keys": "^1.1.1",
+    "regexp.prototype.flags": "^1.2.0"
   },
   "devDependencies": {
-    "tape": "^3.5.0"
+    "@ljharb/eslint-config": "^13.1.1",
+    "eslint": "^5.16.0",
+    "tape": "^4.11.0"
   },
   "testling": {
     "files": "test/*.js",
@@ -122,9 +138,13 @@
       ]
     }
   },
-  "gitHead": "59c511f5aeae19e3dd1de054077a789d7302be34",
+  "gitHead": "6099799587240963f9ebef6f2a819fcf28add15b",
   "dist": {
-    "shasum": "f5d260292b660e084eff4cdbc9f08ad3247448b5",
-    "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz"
+    "integrity": "sha512-ZbfWJq/wN1Z273o7mUSjILYqehAktR2NVoSrOukDkU9kg2v/Uv89yU4Cvz8seJeAmtN5oqiefKq8FPuXOboqLw==",
+    "shasum": "3103cdf8ab6d32cf4a8df7865458f2b8d33f3745",
+    "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.1.0.tgz",
+    "fileCount": 12,
+    "unpackedSize": 25392,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZhQ9CRA9TVsSAnZWagAA8ukP/R/S/Xq8/fH3oZVEKfEn\nJKtrK/5ZrJw4jLl5ASI8s8trOgXArGRgyu8qdWH4lZk9/g2eiogrMZeujkzN\n6S6PVs9xNE9PYU7oOfOcY0aHF5cwDhOC453QSYTZGbj9VkCmS0Ez1WpIldwf\nDdPnxXFejBzesOOa/zYkRRRHtdBq/jauHz0K+KOXEgXODMJa2vRoLn9HJD1P\ngnwtsW6judAX8Q9qakDRX0Y28u+Ax8dMjnE9Dz5NeBcGR0nJ1ALgiUG9wyjN\nqaCl4cyoEwmVk+exCbIZHn6VgDWodo/JzQmTJbV5Wjn0ctzJa/NK7Tce9JHJ\nLh7x4TPZliRSDosbLMW994K/HgI0Xbz1fiilRGNdNkG5/ZV99tzTmfm8fhYP\nGZrr6jTo5Vzwu0YS55YHt95c5vxlKKuMFeyM0AvpKgggYQbGvXn+lCR+P31l\nZv6sg6UaTG9AeaeiG65JXPMwAWkeoLezgOc0YlqWF3tSWnR43r9qJILuyp+L\nhacNC7nQhapImJ35K2yrx0NndJ+V27DIY+3uXyKmpvBMnpVCEXBObGB+rklu\n9BNtq+uZF6MIYoLk/GrQ8wizQA2b0neerRktqkaWW5gWeSl3u4ey4GvfSi80\nJWyWHHn4nbkJkDcjNmVgytbvCQqGGlR4CQeBj5m0MUoSFLFABVRn/GZszVCa\nKkh8\r\n=Piz6\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

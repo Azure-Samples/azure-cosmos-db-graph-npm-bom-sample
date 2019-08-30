@@ -2,7 +2,7 @@
   "name": "csv-parse",
   "description": "CSV parsing implementing the Node.js `stream.Transform` API",
   "dist-tags": {
-    "latest": "4.4.3"
+    "latest": "4.4.5"
   },
   "versions": [
     "0.0.0",
@@ -76,13 +76,15 @@
     "4.4.0",
     "4.4.1",
     "4.4.2",
-    "4.4.3"
+    "4.4.3",
+    "4.4.4",
+    "4.4.5"
   ],
   "maintainers": [
     "david <david@adaltas.com>"
   ],
   "time": {
-    "modified": "2019-05-29T19:31:48.963Z",
+    "modified": "2019-08-09T20:45:52.817Z",
     "created": "2013-10-25T15:18:24.152Z",
     "0.0.0": "2013-10-25T15:18:24.986Z",
     "0.0.1": "2014-03-22T20:14:48.629Z",
@@ -155,7 +157,9 @@
     "4.4.0": "2019-04-08T20:40:09.814Z",
     "4.4.1": "2019-04-18T19:47:33.593Z",
     "4.4.2": "2019-05-29T18:54:37.839Z",
-    "4.4.3": "2019-05-29T19:31:46.512Z"
+    "4.4.3": "2019-05-29T19:31:46.512Z",
+    "4.4.4": "2019-08-06T20:03:45.830Z",
+    "4.4.5": "2019-08-09T20:45:50.340Z"
   },
   "repository": {
     "type": "git",
@@ -227,7 +231,7 @@
   "bugs": {
     "url": "https://github.com/wdavidw/node-csv-parse/issues"
   },
-  "version": "4.4.3",
+  "version": "4.4.5",
   "coffeelintConfig": {
     "indentation": {
       "level": "error",
@@ -242,21 +246,20 @@
     }
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^11.13.0",
-    "@types/should": "^13.0.0",
-    "coffeescript": "^2.4.0",
-    "csv-generate": "^3.2.0",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.9",
+    "coffeescript": "^2.4.1",
+    "csv-generate": "^3.2.3",
     "csv-spectrum": "^1.0.0",
     "each": "^1.2.1",
-    "mocha": "^6.0.2",
+    "mocha": "^6.2.0",
     "should": "^13.2.3",
-    "stream-transform": "^1.0.8",
-    "ts-node": "^8.0.3",
-    "typescript": "^3.4.2"
+    "stream-transform": "^2.0.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "optionalDependencies": {},
   "main": "./lib",
@@ -274,15 +277,15 @@
     "./lib/index.d.ts",
     "./lib/sync.d.ts"
   ],
-  "gitHead": "30c11a21503193d230cdda69b0a40a5df40728b0",
+  "gitHead": "76d96e16b166f745bcb137f0535724f4d3584f1c",
   "dependencies": {},
   "dist": {
-    "integrity": "sha512-TiLGAy14FPJ7/yB+Gn6RgSxoZLpf6pJTRkGqmCt9t/SGVwubrXjbUWtEw39RlKB6hDHzbdjLyBZaysQ0Ji6p/w==",
-    "shasum": "a3fc56b6f54de88db76fbd34a55c091861522712",
-    "tarball": "https://registry.npmjs.org/csv-parse/-/csv-parse-4.4.3.tgz",
+    "integrity": "sha512-koPV9m9AjNJCK3ig4ErgRJalZsLxWI7NP0Fd3+CO9hgDZt3FSljTeESnfWTbyRc8qk/3/LgX1s5naDqLxiuK9w==",
+    "shasum": "383255357a766c220be049e4f1f2c3016eb9ac66",
+    "tarball": "https://registry.npmjs.org/csv-parse/-/csv-parse-4.4.5.tgz",
     "fileCount": 14,
-    "unpackedSize": 113409,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7t4iCRA9TVsSAnZWagAAVj8P+QDRUUlUaoAuT1sOSk47\nvj0sFXEWaKpMk9QAclcSZONF3/3B6/W1r0R8OOEEsaz3he0B41jaAVgYZL1Y\np+IR/k0zix4JC/+ti4D2ncMgIuwEohkh8XvzVCTyxGSq+Zu8DDs7ilmNlp6M\nAYzyIR7yz/h5Ia8YFwciW9YHQ7jMc4d6WRQ6zjDBiywJ9JTXmcogRv1kPYtr\nYdS4oCSdxFENuYBXjJUc9qHgGGHyxyJS3CeZ2yJYRl+UHtx6oeaKHgIx6ou9\n1CfySX0FT+3VVLa/REAsQLuE/rLAJrMrF8XnSg76Z+gxoblYT5nNu8HW/U+H\nu7YwwkNGdDTgYw+q4zrh+U1l0/n82z3JgVm/evHMkyop6XaoGNWQ0+caq+Ow\n0cMbspnwxBIKUl+1pwuGv+bhnm5HMYS5IPYi1NOdFcdfHyk4pNNaqZ+SGuCd\nx3fIbkUJy70rbnU7aQgBsiOmZoDpw4Ei2HgzjetQQYKXQoAizgDlOg6eCQ1l\nNOotSBJ5LZYlwkcT/gXGFIW+nz1mBwV4Z8kmg88s5/jSyQnvfxF4UQ8IKrw4\n2lpt4iOu5LIzEK9rVuLpN/7+yXTTm73BQIi8oaSLt/p+pDHk1vtoRWgcRtKT\nMtOKqpOvULnfbW84wuV8M/MX3dXHwVdwbwldoBXdFru6QaMgdnqz2STvzIcF\nK6E1\r\n=y+vi\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 114932,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTdt+CRA9TVsSAnZWagAAcE4QAI0Ux7Jp+QoxuDbKacLl\n7FkS9pdNfMK6U5XvlRRYacP46u63AhPxpke3pt4gZKIz9l1p7VDFppu+CG27\nZOljKbIPXyXv9GYsY8uwrstSwIYbbC6EAV5Qf6v4GusTdayP37XX2wAWeC+b\nl5Yd6wTuSjs/gkT3hdARs4KczBrG9d7/Q+L1YdzErq379nvxSyTSlSV5tAUX\nzpz3ZtWubVl8IaRp40hFzz4SNfh4CQXvHiEC3ldhb+UzlVw+hR0AcddS8vB/\nEdQOvUDF+f/d5J9FF6dbTHAIv537Dk+yHeUsx3epAqcE3SAKvkhvh2JCyo/c\n0EbHUGXsXAPdAPDGUdk2J3vtmUKgkOlyTyUnY8/AFtcMvXQzDTaMZDyo/05Z\n4aPxX4ZoLZNOIa/6GK2zv1Fy/QWP1uM113TRxRe8pCVg1D8YyhNnIMeVWOW2\nbJE5lJRsJxFlrJKy3/fW5bqGwribZfP0KiRJ6aLLuIeslMjzg/haFOR/H2+Y\nh1sYRQTZi6L2DpF1+7PJ5frsEMQx0z1Hglxp1fohNSd0p/P0RAfMRrEKRaRU\num0gbg1UO+yLXwm+Rvv8kwkWS9oxlt4Dkue4Qih3KXYC5ETArskVraDJEKBN\n0P77FMMi34aHU9BiF3vztvnyrYB1KqfesGHXwPUqaCP4OFwV5vrOppjiMDhl\noAoG\r\n=7Mjj\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

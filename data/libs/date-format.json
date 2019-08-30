@@ -2,7 +2,7 @@
   "name": "date-format",
   "description": "Formatting Date objects as strings since 2013",
   "dist-tags": {
-    "latest": "2.0.0"
+    "latest": "2.1.0"
   },
   "versions": [
     "0.0.0",
@@ -11,13 +11,14 @@
     "1.0.0",
     "1.1.0",
     "1.2.0",
-    "2.0.0"
+    "2.0.0",
+    "2.1.0"
   ],
   "maintainers": [
     "csausdev <gareth.jones@sensis.com.au>"
   ],
   "time": {
-    "modified": "2019-01-02T19:13:59.118Z",
+    "modified": "2019-07-17T05:53:47.968Z",
     "created": "2013-08-29T10:45:02.490Z",
     "0.0.0": "2013-08-29T10:45:24.426Z",
     "0.0.1": "2014-02-24T21:46:59.381Z",
@@ -25,7 +26,8 @@
     "1.0.0": "2016-12-30T04:38:14.526Z",
     "1.1.0": "2017-02-27T21:50:43.233Z",
     "1.2.0": "2017-11-13T21:09:56.348Z",
-    "2.0.0": "2018-11-06T22:36:24.280Z"
+    "2.0.0": "2018-11-06T22:36:24.280Z",
+    "2.1.0": "2019-07-17T05:53:45.333Z"
   },
   "author": "Gareth Jones <gareth.nomiddlename@gmail.com>",
   "repository": {
@@ -59,7 +61,7 @@
     "michalskuza": true,
     "rubiadias": true
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "lib/index.js",
   "engines": {
     "node": ">=4.0"
@@ -71,18 +73,18 @@
   },
   "gitHead": "bf59015ab6c9e86454b179374f29debbdb403522",
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-plugin-mocha": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-mocha": "^5.3.0",
     "mocha": "^5.2.0",
     "should": "^13.2.3"
   },
   "dist": {
-    "integrity": "sha512-M6UqVvZVgFYqZL1SfHsRGIQSz3ZL+qgbsV5Lp1Vj61LZVYuEwcMXYay7DRDtYs2HQQBK5hQtQ0fD9aEJ89V0LA==",
-    "shasum": "7cf7b172f1ec564f0003b39ea302c5498fb98c8f",
-    "tarball": "https://registry.npmjs.org/date-format/-/date-format-2.0.0.tgz",
+    "integrity": "sha512-bYQuGLeFxhkxNOF3rcMtiZxvCBAquGzZm6oWA1oZ0g2THUzivaRhv8uOhdr19LmoobSOLoIAxeUK2RdbM8IFTA==",
+    "shasum": "31d5b5ea211cf5fd764cd38baf9d033df7e125cf",
+    "tarball": "https://registry.npmjs.org/date-format/-/date-format-2.1.0.tgz",
     "fileCount": 8,
-    "unpackedSize": 15722,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4hdoCRA9TVsSAnZWagAA43EP/RpjlvAFkomBvvaSJa7m\n9hzo7iQX76YAUQBUo+ThEb50DcyEWG1i/FYpOOJooR23oOG5+LV0UKHY3b7F\nwzCNK3FqCUfQuHfIXOJULN7J35Yr/xnQigXRI9EbqhBr9xXiift1zMNGF6qk\n4zB260a8Tj3fx0bG9owT3ULasYlA0yRSobTTd7kJgu7Er3chAHF1lrhGAnqJ\nXRmmJwgzVB5XnMMxjNyaSAqDSn2S8tMIF66unmB37VmEflP1jV+Om0+ZHgXV\nC9W/eevzyvERvHMKSDs/+1x9ZAqEJkSR6c7hCHFJ+kW+RJ6Cptr/py9suIuH\nfJ9zBJ1/oL9m3QTHkOWVi0cAgU9BX+C/a7jtecvmZOSL5VDrgiSxK8IhSPf1\n9vT5vuIi9TO+5mfWbx+T6PIPiod0ykWWMXGUhoflf5Pe62zLVyV+yP7C47EP\nyAk3X44MKuz2OS/6YsAHPajMUWbzBvRSsV0HtBoBztDxPcvamXL07mi4AXFS\nTAqWbpGdTUrEWVL9htqf+uFoR5Gr/sxVT2kPYJ2LLEiM9qem15pN0ck3xgbk\n5gEXogv4HO1Appax1ldPqpYwl491LlV7/thTXeFDAcsLPs3mC1F0vhKGTmlD\nLPFNGO6oWT2LDImXSvFlcqemUBwuaEw86YRgslDIA688sQGjk3zUqCC4+3Dn\nM6+H\r\n=jAnK\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 16635,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLrfpCRA9TVsSAnZWagAAH+8P/0UYrV9+H/BV74Xf6vsi\neLQDQzhHYx/znbP35DDlzM6Yxu5ia2x+2AWls1DFcH1bt4dLIYXrjAWb+4Cn\ng82YYXm8S/Xr7f6lNOgIoT2q1Jn/GRIy9ypsjzEwn13yEpfzU4J/KIq9g4t6\n7kIwBV27OWbS8liUEXB/6oYY4/LQFPCNyQW0UbzP98SPtN9Vh5BP3z/A7XJ9\n3vttyqXyKdhZDilwpm3rIfRdUToqLSoGEJcELf2Fhmoosqrhk8uziUFxolSN\nyUHrx6kEW9Q4Aw1Juy1DFtx1mSUwnqp9WLInvX3WOpmoSivBiPFJDYTki/p2\nrxfWICiZUunTcx+OvG3+9S/cob7I50Nje1GW/dva+4jr+nK/LNBwyF6RiHim\nV4J/xgZjAuUqtjO1r66saPRC5H/ApYFnOER8F/ijsL4EzRRvyTBi+uwzjgGQ\nwgQ0WOocADb5dfpk64o9tDprfS7x8xkaPSP4E4jiJXKizNmTH2N+Xx0bCAfd\nXPEY3X4upAP0PZv3QANEoe4lHFgUU4t7SLnqQvF0H5dLQzRIzXNy4O7GrKjb\nzz69YuOMTPsLlCsQ9bQC1+FS5ViOk11aIUDePlvskEmLwnIc6fBVcpXkc7/8\n7ekoxYcnkWn13PUzgvUpPLvaihqnSc4co2k02P1qnZ/ZbyBZGbNTUb6BAvDP\niBgx\r\n=P5Pl\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

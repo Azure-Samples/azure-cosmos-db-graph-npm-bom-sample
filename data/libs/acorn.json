@@ -2,7 +2,7 @@
   "name": "acorn",
   "description": "ECMAScript parser",
   "dist-tags": {
-    "latest": "6.1.1"
+    "latest": "7.0.0"
   },
   "versions": [
     "0.0.1",
@@ -91,7 +91,11 @@
     "6.0.6",
     "6.0.7",
     "6.1.0",
-    "6.1.1"
+    "6.1.1",
+    "6.2.0",
+    "6.2.1",
+    "6.3.0",
+    "7.0.0"
   ],
   "maintainers": [
     "adrianheine <mail@adrianheine.de>",
@@ -99,7 +103,7 @@
     "rreverser <me@rreverser.com>"
   ],
   "time": {
-    "modified": "2019-02-27T07:12:00.999Z",
+    "modified": "2019-08-13T07:59:20.817Z",
     "created": "2012-09-24T10:10:49.310Z",
     "0.0.1": "2012-09-24T10:10:52.687Z",
     "0.1.0": "2013-02-14T08:59:47.842Z",
@@ -188,7 +192,11 @@
     "6.0.6": "2019-01-30T08:43:51.204Z",
     "6.0.7": "2019-02-04T09:40:38.790Z",
     "6.1.0": "2019-02-08T09:07:26.083Z",
-    "6.1.1": "2019-02-27T07:11:58.531Z"
+    "6.1.1": "2019-02-27T07:11:58.531Z",
+    "6.2.0": "2019-07-04T06:18:05.694Z",
+    "6.2.1": "2019-07-20T14:30:30.076Z",
+    "6.3.0": "2019-08-12T09:41:59.978Z",
+    "7.0.0": "2019-08-13T07:59:18.286Z"
   },
   "repository": {
     "type": "git",
@@ -237,7 +245,7 @@
   "license": "MIT",
   "main": "dist/acorn.js",
   "module": "dist/acorn.mjs",
-  "version": "6.1.1",
+  "version": "7.0.0",
   "engines": {
     "node": ">=0.4.0"
   },
@@ -248,12 +256,12 @@
     "acorn": "./bin/acorn"
   },
   "dist": {
-    "integrity": "sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==",
-    "shasum": "7d25ae05bb8ad1f9b699108e1094ecd7884adc1f",
-    "tarball": "https://registry.npmjs.org/acorn/-/acorn-6.1.1.tgz",
+    "integrity": "sha512-PaF/MduxijYYt7unVGRuds1vBC9bFxbNf+VWqhOClfdgy7RlVkQqt610ig1/yxTgsDIfW1cWDel5EBbOy3jdtQ==",
+    "shasum": "26b8d1cd9a9b700350b71c0905546f64d1284e7a",
+    "tarball": "https://registry.npmjs.org/acorn/-/acorn-7.0.0.tgz",
     "fileCount": 11,
-    "unpackedSize": 1093303,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcdjg+CRA9TVsSAnZWagAAC+MP/2SQsjq8ZT2iE9YbQk1a\n8deLcHgSIHNtxMe0mEguVCQDYpxSHlO8WWrFRSKc/Dkt15+48+QxLX7okDeF\nFEwsw5Ig3uRKtybi59nQGevinPptiXQKGkNqXcxM+kl+XHu7GOdLj/678ipO\n7GmkZP0Icn5YYo/ylm9Cw2kBMjyFaaLC+x2ZRT/J8IyqSZBLIdtysBwyU3Sb\no7DQxc2mUXACTRb2ojE9/hXyKAA63S093bSowzdFafsnoBK/w7HURpKaRSlW\nAHSAkj8yhrEpIW6QGzVAdOFeHwhrLrfPredZ8imDJ660FCvUrsxLhVMWVOYc\nRKkBB4luy0O8/zRjiG6PFqP5VqrRro8YBrhYXgJH850flHgabgLCxl+AoTjA\n8I5/yiA80BMApYJaDn/mgjj+TM0cMmLeSLFCL5lNolvYpDa7kD3RYIqP/DyB\nVyz0aO6PVeE/Z3CNurA6UjmggIApEzzYd0re+3qb4qBRnhHiklSNjfHL1wHc\nZLi2fki9cvLIwc3krpgFbid+x/QXlQVOgL62O4XAfks0V/XuyHQNoPsURtBA\nBwh3PYuxG2e/Gzcb4FH0QqH8focaJlwNozH7bzP/NcpvErKFsHV6l3omeZ+n\nyP8Yufnks565tYwjOl+eCQ2AYtr+IupOJqvv346/EpJ/kRQwlGDwJhTbUVtS\nX2oa\r\n=6nWg\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 1102988,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUm3WCRA9TVsSAnZWagAAmQYQAIqp0CAQMovN9MUSsmyq\n1rUnOKN67FpxwcHUZ/pk3IjXAekBuZylgy6EPKuLrE+G9h6CFDHJj25S+sOw\nnmJ9ZYoCy0Ublur2bARq+NLQ/KXQw79F7Ugy4YAFElvhpiyZBEVeMjmCrtHj\nNwFgi/mDwlocdoOX5gfU6TIT1fVb9CWYntlJx9uF5JfhvqzCx4slosdbI0zV\nkK8wTFkffOyQEUvMYV3w+X2BTJ4C0v24gmAiMKs15Wf1VQtPmYq5ALTPzqom\nQJFBZdEBOQfeNdbX5ZRFuH4WazkI/mGNpOvkwK6v7ro4EXaWuUMOPbqESnkb\n2bavnJEUr0zIOg7bgY04N5/EFXBwA+gdRuRtBNfB2rzdxX+RIemYUgWCw9L6\n8SQ04iONxi/MqhONw5IynlnrpfPKKVTJ0jn6j067ki8aIqqLC7a+Nfr71DXp\namHMSS8qpRVy2KjCzamIgTvFhEVKxYSRnbuFkGgNtrYlkh9MLjyHjy9hswfw\n0iMo4SL9qJGTX7l56KJ9PkmxoKNmX0NQfcNNxSNitywpR99jHAWr8RaAHZTF\nzWrB5D0Wjeoq5jXXU9xsEvnNFeRf9dlfNqRh+TbYJUpwmtJcnHe6cxZrcVON\n7eiBFCtIWwyoe/m0dUWPS/8enMOGjygd0tVgVziZDWc0RqOyxtnf1l//yd/1\nRsw/\r\n=trSF\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

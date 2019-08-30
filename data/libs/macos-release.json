@@ -1,0 +1,73 @@
+{
+  "name": "macos-release",
+  "description": "Get the name and version of a macOS release from the Darwin version",
+  "dist-tags": {
+    "latest": "2.3.0"
+  },
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0",
+    "2.3.0"
+  ],
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "time": {
+    "modified": "2019-06-10T08:56:55.281Z",
+    "created": "2016-06-19T20:37:42.961Z",
+    "1.0.0": "2016-06-19T20:37:42.961Z",
+    "1.1.0": "2017-06-12T10:16:13.309Z",
+    "2.0.0": "2018-06-05T07:33:04.659Z",
+    "2.1.0": "2019-03-17T17:27:37.047Z",
+    "2.2.0": "2019-03-31T12:31:12.081Z",
+    "2.3.0": "2019-06-10T08:56:50.692Z"
+  },
+  "homepage": "https://github.com/sindresorhus/macos-release#readme",
+  "keywords": [
+    "macos",
+    "os",
+    "darwin",
+    "operating",
+    "system",
+    "platform",
+    "name",
+    "title",
+    "release",
+    "version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/macos-release.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/macos-release/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "2.3.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "gitHead": "0cc3270917527134fbe84dd9e8583cbc4866d71b",
+  "dist": {
+    "integrity": "sha512-OHhSbtcviqMPt7yfw5ef5aghS2jzFVKEFyCJndQt2YpSQ9qRVSEv2axSJI1paVThEu+FFGs584h/1YhxjVqajA==",
+    "shasum": "eb1930b036c0800adebccd5f17bc4c12de8bb71f",
+    "tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4978,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/htTCRA9TVsSAnZWagAAOccP/3cwfHs0I7MnZmM7o7tT\n3ZLNgLnp4SgcW7hLvFuNQj9DJlt1PMjLs/lfRK7WDXdLX5nsk6HS5UIfcaqm\nh11bk5ZKy3C5GscjA/aEanHGRHmbU5OUjAFS2YTc+/W2NMtGVcDeY2WnHSNV\nTffQ7P+/a++CtB16DiMixbXbnFMMtuGtr1DCtyE0ktFMJhgLC8REeIayFGef\nNJIfRbNCr4ZTFIF6ERQWe38dYpYr7JcFDlElTo+bvgjKs6mQkBSs746vWMXK\neoqZNk+QYM1Z/dyhGkAmuW95T2ulmJ7Wjk7zIf1WgQRMpBHauRcDD4FiJOUb\nKH9bO4jyPPhuzlXZO5HO7CrfkS2JheZ13wasxNnw5+mO7nevt2ARt95+/Wub\n6ODwzyOz7BNHqm4zPSJOhaRUcbH3xhYi8U+SQIbrO8fma9P1paRKMuduui4c\n+HEzrVDHESa6gCFlu/wlgTxSJap80loteWLhVLluyp6KNpZNixVUP11mDDYv\nbnfVCBLacGbcCHQOOlgNjW9YHltyqvyxB+LQ3Eba3lacn76TtA5V8k6yaCgW\nq/pk9cUzwn1ZuoumWmjJAjjEwEECoka6Zyy5sATYRstYpa5tP7wgfoq+MpHp\nuZYYJU66RZaAa/vyX0Brf17tp/VvYgrVczO3afKs6dlLmDf8SnC50t6SCjNI\nsXOV\r\n=36gy\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

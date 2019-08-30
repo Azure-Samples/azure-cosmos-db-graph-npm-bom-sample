@@ -2,7 +2,7 @@
   "name": "core-js",
   "description": "Standard library",
   "dist-tags": {
-    "latest": "3.1.4",
+    "latest": "3.2.1",
     "alpha": "3.0.0-alpha.4",
     "beta": "3.0.0-beta.20"
   },
@@ -155,13 +155,15 @@
     "3.1.1",
     "3.1.2",
     "3.1.3",
-    "3.1.4"
+    "3.1.4",
+    "3.2.0",
+    "3.2.1"
   ],
   "maintainers": [
     "zloirock <zloirock@zloirock.ru>"
   ],
   "time": {
-    "modified": "2019-06-15T11:56:34.996Z",
+    "modified": "2019-08-12T12:24:40.170Z",
     "created": "2013-07-18T10:49:42.468Z",
     "0.0.1": "2013-07-18T10:53:27.528Z",
     "0.0.3": "2013-12-24T09:45:00.433Z",
@@ -313,7 +315,9 @@
     "3.1.2": "2019-05-21T22:27:09.494Z",
     "2.6.9": "2019-05-27T12:54:28.336Z",
     "3.1.3": "2019-05-27T13:05:27.430Z",
-    "3.1.4": "2019-06-15T11:56:32.398Z"
+    "3.1.4": "2019-06-15T11:56:32.398Z",
+    "3.2.0": "2019-08-08T22:04:58.186Z",
+    "3.2.1": "2019-08-12T12:24:34.420Z"
   },
   "repository": {
     "type": "git",
@@ -433,18 +437,18 @@
     "aaronwells": true,
     "hualei": true
   },
-  "version": "3.1.4",
+  "version": "3.2.1",
   "main": "index.js",
   "scripts": {
     "postinstall": "node scripts/postinstall || echo \"ignore\""
   },
   "dist": {
-    "integrity": "sha512-YNZN8lt82XIMLnLirj9MhKDFZHalwzzrL9YLt6eb0T5D0EDl4IQ90IGkua8mHbnxNrkj1d8hbdizMc0Qmg1WnQ==",
-    "shasum": "3a2837fc48e582e1ae25907afcd6cf03b0cc7a07",
-    "tarball": "https://registry.npmjs.org/core-js/-/core-js-3.1.4.tgz",
-    "fileCount": 1592,
-    "unpackedSize": 565545,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBNzxCRA9TVsSAnZWagAAMMYP/1VX6h+XYAGFOqB/jsfx\n7NhcaEIc5nL1Nd1oABHobjrF656ljm/lB7r/7bSsUgAOa7vkDiovfAwMR9VK\nhrKVB5hApy+lKfyU/GDfOhUIV2BjMQlotwnk41Oics0EEqZ+8iP2hfA01Yc9\nz1zSwvoy1VjcKMnxoklERjDV76tV5bueW1KiXn74ftLXeLa2soZUkslMDy1G\npnCy0an96XemwBku9VNuejs1TLtcNHH5J1fsFKq8V7r/l0piMj69k4SWb+Ay\nIhKEP4KqChxApqXCVatazhruP4FNbbVGCKrGvzcQArf1Kjtzw9WBWDiQn2qJ\nkzDaNssmWEJKBp1KNV8wDhp5ZJpvbD3aDsd1PFvK4ibw5lzGwZSK/XDDrnrt\npcaYHH5aRv/OC+Lu4onh3Mu7u/a5xn00ttQxYRZQXwxZAKO7xaucxgR/tvco\nDZuiqPeed0rcb7xW+Yd8gH1zAOPnoUEbolOzsM1iCHvSfOubHjBCk4XtF26G\nqvpxO6MLXeZsmOEctW9MZeRxQKkQtEHwkPV5Q8ldjq5ENJWWV3ufA14TL216\nzC4B1uTlIS9fvKTJqoyh7LsL5Gu1CnUvVCjMnJagY5Bcr+G/MpZ/xbijm5gI\nuzZDis6NwYULNoN1tfPjt3979/6VUfrxsLChp9bABCdo1ivK69CKTVq8EUyz\nAsAs\r\n=s6er\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-Qa5XSVefSVPRxy2XfUC13WbvqkxhkwB3ve+pgCQveNgYzbM/UxZeu1dcOX/xr4UmfUd+muuvsaxilQzCyUurMw==",
+    "shasum": "cd41f38534da6cc59f7db050fe67307de9868b09",
+    "tarball": "https://registry.npmjs.org/core-js/-/core-js-3.2.1.tgz",
+    "fileCount": 1604,
+    "unpackedSize": 571737,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUVqCCRA9TVsSAnZWagAAascP/1deRMd1sfcHsd/UPNS0\nVgu/gnWzOzKBRiPwnSM0jyucEAUV1DIpra+2gXf7SZmecgCX2qGvD/27SoWZ\nf9CMT0JhOGNGcKSsRLGWoMrOlHQGCUa0tCv0IZu3d8P9MijbZ+dFeWTp5oXa\n4cYg8bx5999st0o07+rukvCKZAWRJhTz8yZtQc38/2filbwELekAw1o1a24F\nqnrDf5XoUzZZoAA7aoR7a//+YmQcG4FH1FmnMnCE+f51TN4qi5Wi5H5RvCz6\ngh/6Ls6Bd0TNrBxPOmt1pwjdhTM3SOKwMgXVxOjAwlaNz80y/L/GuCg8Txu9\nZvCzSp1GhqFLzAVoCslV3admzoyjImt9lBTgUg+RyHM4e9OtE2L2HIHfsDUY\nwW/3djvraep+xOob5MhbregQLIugLvGyLpjIo4Hfxva7u6SDIHSS1Fd3fBoo\nVsxDPMsMw2gbJm0rrx2MJ/g52f8+mWoazRBqFGZZ+FcYOtif+MABEy/+3gqe\ndFgMRpsihnXoRCGnM1gY3TPZoqW1WaGpc92+azCU7pEw3pEfy5XnLfUIpKNF\nWI8weKuUF4BMt+alOUWWusjCEHv5ZY2N59M9+lE1kATm+FChaxvTK9QzYlc0\n4rEo5jFb23lE/aCo7hR4a2u5TnwanEVAgl0O8T698JhWKrzL7kKOiXVb6LQO\nJb8F\r\n=cF12\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

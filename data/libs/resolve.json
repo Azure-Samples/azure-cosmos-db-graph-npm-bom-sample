@@ -2,7 +2,7 @@
   "name": "resolve",
   "description": "resolve like require.resolve() on behalf of files asynchronously and synchronously",
   "dist-tags": {
-    "latest": "1.11.0",
+    "latest": "1.12.0",
     "next": "1.11.1"
   },
   "versions": [
@@ -65,7 +65,8 @@
     "1.10.0",
     "1.10.1",
     "1.11.0",
-    "1.11.1"
+    "1.11.1",
+    "1.12.0"
   ],
   "maintainers": [
     "ahdinosaur <michael.williams@enspiral.com>",
@@ -111,7 +112,7 @@
     "zertosh <zertosh@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-12T05:21:33.927Z",
+    "modified": "2019-08-01T06:36:59.799Z",
     "created": "2011-06-18T10:12:44.109Z",
     "0.0.0": "2011-06-18T10:12:44.853Z",
     "0.0.1": "2011-06-18T21:31:40.192Z",
@@ -172,7 +173,8 @@
     "1.10.0": "2019-01-21T21:04:18.650Z",
     "1.10.1": "2019-04-24T06:38:07.685Z",
     "1.11.0": "2019-05-15T19:00:11.276Z",
-    "1.11.1": "2019-06-03T19:06:26.312Z"
+    "1.11.1": "2019-06-03T19:06:26.312Z",
+    "1.12.0": "2019-08-01T06:36:57.123Z"
   },
   "author": "James Halliday <mail@substack.net> (http://substack.net)",
   "repository": {
@@ -222,11 +224,12 @@
   },
   "license": "MIT",
   "readmeFilename": "readme.markdown",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "main": "index.js",
   "scripts": {
     "prepublish": "safe-publish-latest",
     "lint": "eslint .",
+    "pretests-only": "cd ./test/resolver/nested_symlinks && node mylib/sync && node mylib/async",
     "tests-only": "tape test/*.js",
     "pretest": "npm run lint",
     "test": "npm run --silent tests-only",
@@ -239,19 +242,19 @@
     "object-keys": "^1.1.1",
     "safe-publish-latest": "^1.1.2",
     "tap": "0.4.13",
-    "tape": "^4.10.1"
+    "tape": "^4.11.0"
   },
   "dependencies": {
     "path-parse": "^1.0.6"
   },
-  "gitHead": "da345f39588998003a53a7d9959c4df40e04fb23",
+  "gitHead": "2c61679ed9d10524ba1bcec46cf5488755c39cf8",
   "dist": {
-    "integrity": "sha512-WL2pBDjqT6pGUNSUzMw00o4T7If+z4H2x3Gz893WoUQ5KW8Vr9txp00ykiP16VBaZF5+j/OcXJHZ9+PCvdiDKw==",
-    "shasum": "4014870ba296176b86343d50b60f3b50609ce232",
-    "tarball": "https://registry.npmjs.org/resolve/-/resolve-1.11.0.tgz",
-    "fileCount": 85,
-    "unpackedSize": 140059,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3GG7CRA9TVsSAnZWagAAHfUP/14z/m0dy+F21lIsBxHb\nVecF7kLUXXzSuYuIUIE/bh4WGsY3sy6VZPTgPKdZv5BZf4EWWQIGSGwu1x11\nAkjx9P0+lMS8VOEO5bWgX36hMMZXp+cL4uFMgqWKyyNOS2uNGIoaQVgBKWQH\nTfNST4DGMZtc5VhJNg8mCTJP6puwCNNGm3jVRPmVQgOUZ+38JEmZY+BmcUK4\nxWOTSTRKFjc3w5QozCTvHMTHaG9TDKDDYL82Fahr7j8/p5NQ9zFTxVv1C2RL\nqz5sThGQKHKL9Jbhosbu/hpByfxDaYcYstAmFOQI9CsL+w5D327Q6bQ1IK5F\nDa4PO0tFQM2dhzSI/hwqJb8kzDcxIk11ToHcI0M5xsYy3tOgGjUrQcjhrqxi\nKaNXkEcBy2r4Pl/A3JXJi6jGUb4xt7evADsAypW0gCS8vktY7Ty9Ru6mcGWU\n+NFRYrz0xWgIfV70G1FNxQ/FXniJsiy6tPZy/eMducmGMUV39enpCmloREgh\ntOrxrU1wY60x5SCp6cT+B6IK7tmSsPsfbLLres9T1vWemDkKmWgSr5rh6LVA\n1VUrDI8qjtIhMfiQLNJSizlk+pBdrk2I5NWjiBQgDAi+YDOvQesIitTQ1veW\n4CGJ165gQ7IYvWKiRC9BSdcQ+GbHsbJOC/R8K/tThcrnfeNSEHCL1u/covlX\nsezS\r\n=s5dL\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==",
+    "shasum": "3fc644a35c84a48554609ff26ec52b66fa577df6",
+    "tarball": "https://registry.npmjs.org/resolve/-/resolve-1.12.0.tgz",
+    "fileCount": 90,
+    "unpackedSize": 99502,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdQoiJCRA9TVsSAnZWagAA0W0P/RI6csd4N1j8nVSjjZ0r\n2gWQ2cnMv6qJBHoTb3gzfb+XIDwcFeQ9RStQfnmJuL91eYXJVxT36DC8iwdY\nH26bWA0apNvVMv8q+Ni73n2kijOMLatov+wXhyIE3wmIxY/BruM8k43CL6IP\nbBfnrkWXnq+/8yZS35H1elflee9WBnDgnmK0UsULI2ClbnreAHISbZ6c8Qpt\nSsaqIX2MJUAAFm0X4GH32wRbKdkZGMDYXYJCuynbVcRm/s0cbLL+CrhkgfXX\nGxQfjSaUGzwEoyjnfXwH6d14FvI6vo5NYJdV1JOEf8LOV4r+RLsGRe3A3Xzm\nVfldkUr2CSdBzPW+7tuaGwQ8/kN9AydfCuCg8ZQqeS1NTaGuG261XJqsDfqj\nsQ4fwqcm5ORBODVTTBRDyBRm6WSy/g+CvyQxE/AVfQeh260nkFULaUy3RMGX\nV91OxnBz950T7zJd4nxfVdqHPOlIpqE8UrebhGfJM2hS9QGgGx7F5NQAjF6l\nPhmkr8rGJvauJ2vXKs/R7YiTddAFjGtaectgtEQladvYUTlwoANeAfJMkVX7\nNe2dqL6+bcCIQ3GtAxeQ8vO53U4EQZiANm1LRE9mW4rcedrVQg44w287fkoN\ncPdGkLUALJO9iQsbRFZ58Kl88jUiRnLwnpLWSn2FXJvrH/j+eH7tNOaGjRm1\nZSoy\r\n=+qCR\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

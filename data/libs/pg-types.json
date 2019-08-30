@@ -2,7 +2,7 @@
   "name": "pg-types",
   "description": "Query result type converters for node-postgres",
   "dist-tags": {
-    "latest": "2.0.1"
+    "latest": "2.2.0"
   },
   "versions": [
     "1.0.0",
@@ -21,14 +21,16 @@
     "1.12.1",
     "1.13.0",
     "2.0.0",
-    "2.0.1"
+    "2.0.1",
+    "2.1.0",
+    "2.2.0"
   ],
   "maintainers": [
     "bendrucker <bvdrucker@gmail.com>",
     "brianc <brian.m.carlson@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-04T14:40:47.601Z",
+    "modified": "2019-08-07T01:15:36.070Z",
     "created": "2014-03-15T20:34:58.912Z",
     "1.0.0": "2014-03-15T20:34:58.912Z",
     "1.1.0": "2014-05-12T13:41:28.601Z",
@@ -46,7 +48,9 @@
     "1.12.1": "2017-08-21T16:14:59.958Z",
     "1.13.0": "2017-11-15T14:12:03.918Z",
     "2.0.0": "2019-01-08T21:16:40.074Z",
-    "2.0.1": "2019-04-04T14:40:45.065Z"
+    "2.0.1": "2019-04-04T14:40:45.065Z",
+    "2.1.0": "2019-07-05T20:29:20.039Z",
+    "2.2.0": "2019-08-07T01:15:33.099Z"
   },
   "homepage": "https://github.com/brianc/node-pg-types",
   "keywords": [
@@ -64,15 +68,18 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js | tap-spec"
+    "test": "tape test/*.js | tap-spec && npm run test-ts",
+    "test-ts": "if-node-version '>= 8' tsd"
   },
   "devDependencies": {
+    "if-node-version": "^1.1.1",
     "pff": "^1.0.0",
     "tap-spec": "^4.0.0",
-    "tape": "^4.0.0"
+    "tape": "^4.0.0",
+    "tsd": "^0.7.4"
   },
   "dependencies": {
     "pg-int8": "1.0.1",
@@ -84,14 +91,14 @@
   "engines": {
     "node": ">=4"
   },
-  "gitHead": "f46b3cea0455e966501ce3d68e5c4c5dcd3e853d",
+  "gitHead": "d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
   "dist": {
-    "integrity": "sha512-b7y6QM1VF5nOeX9ukMQ0h8a9z89mojrBHXfJeSug4mhL0YpxNBm83ot2TROyoAmX/ZOX3UbwVO4EbH7i1ZZNiw==",
-    "shasum": "b8585a37f2a9c7b386747e44574799549e5f4933",
-    "tarball": "https://registry.npmjs.org/pg-types/-/pg-types-2.0.1.tgz",
-    "fileCount": 10,
-    "unpackedSize": 30179,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcphdtCRA9TVsSAnZWagAAgIEP/3TFnJm5pbCti1X6gyYV\nPSLLmekEi8PcjeP6y7FB3ZszXSAbBAeJeQMsGbNgxyXrH9JYIaIWZn0B25Ao\nJ8KViRrC53kBFRrOdAeLzVMTgniy/MiAMEJgnCcOUpas02yHkW9cNvIQinrp\nyrxT8zjDYXn2RzxRGz8CsWN/RACp4TviqQpV68UUKyF3ERc26MAwpDoLVnRI\np6rfOjgdwm7ZPy6GER+LtzA4Lns0nruoJ8ZshdbMejlHJeYjEwWXhQhcIE4x\noihAcWxs1fSe0Ag4+rGO5s0BIa0lRIggMh0/VSlzRFMwJk/m/GA1iKPk6nHj\n9oQbFzQIUM/BpOlbNywtIRp9ZT4Avrued9OnOVnWZOL04+1FXvfi1rgCtVrX\n8AECoICFuba14biAg0pAIO4//qmJ/crE9+Lo/grf/pRl9dMMxaKQxxiwikhQ\n/R8RCAtZqkUqoS4pIQF4kjNSDfTkY0/RshyYFsTr3vPjmFIka8hh1vcs4yyo\nH5qmSkdwaIJEjPidlBg72e5LIt4i9Kol1sj0+mdm4x1FcAZsDUYKhXjhA9ve\n0WZIAUr8+kZveePTHBrKXyjemhWly1JyUnv2XUFapjARL1nLi4m6RwxXsCjA\n7y9yOPdGMzmedDSMmKrSpX8j0b5F3tA2bWILyYA2dYXQA/gHCIFOs6A+L2s8\n6nR5\r\n=aoe2\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==",
+    "shasum": "2d0250d636454f7cfa3b6ae0382fdfa8063254a3",
+    "tarball": "https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz",
+    "fileCount": 13,
+    "unpackedSize": 35296,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdSiY1CRA9TVsSAnZWagAAV5wQAJEFpe8j0dsedUvGzE9w\nU65FLv6LLMS79yQfSOzyrOxPgb3iCZHgZMscJrN2cN1CEAj421UsOzDif8w3\nBfbXKgFHR5jka+Uu1Qn6HolCk5Urk3g/AC5IBOiiLxIuC7tuSmvxZOk9zJ3G\n4EMvOrRwaAMgqhLubHuMWO+CKFa4YQYRzg4yN2ZYAXDIQFEEkgQDmpp5giDC\nys17WfXh2ADhwbr5Vv7lG1nOw+m6rXeviWanIKSK3fJjbvmszDa0CFn0/6yp\n/ZIzZntRgXtXZChwgwnT18TnNXU8Qk12wQ89SBEM94SmdL/ovgnQQ6vz6iLR\nENgkyOw+DOmc0XztirCTJ6qPiURIyHTiDPb5r7R6oJl/v8Zsp1ANHsBrISDN\nQ9jZJX/rJ4zpsX3mXiVBAfKErhzw++2zfkzwgE7Z0zmgDVEMCWgidTU4hwly\ni+a6gKTTsDYHtMV1nDjEYDJ20f0/L5j1qGMhpCiGyQqXGDy7piNy/ErvovEj\ngrvKobqo1wE2vyDx8k4H69SFsX5Hjn1tOFb7JrMnwxk9cbmC3H9OoV2ypRYe\n/aPW8SytXTyWz5HQ6xSKJM1xmSI5hgH/Ttfx7xzSenba2dLcr74NM+u4EH3w\niMZ5vmxwgCEnY0WXeQbGYkB39OPypP+rothG8LiKZuR6IxzsvSJaq+McQ/Jt\nCiR6\r\n=rqEQ\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

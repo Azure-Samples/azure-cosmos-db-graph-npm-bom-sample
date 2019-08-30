@@ -2,7 +2,7 @@
   "name": "form-data",
   "description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
   "dist-tags": {
-    "latest": "2.4.0",
+    "latest": "2.5.1",
     "next": "2.3.2-rc1"
   },
   "versions": [
@@ -38,7 +38,9 @@
     "2.3.2-rc1",
     "2.3.2",
     "2.3.3",
-    "2.4.0"
+    "2.4.0",
+    "2.5.0",
+    "2.5.1"
   ],
   "maintainers": [
     "alexindigo <iam@alexindigo.com>",
@@ -47,7 +49,7 @@
     "mikeal <mikeal.rogers@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-19T07:27:09.178Z",
+    "modified": "2019-08-29T06:48:57.476Z",
     "created": "2011-05-16T14:58:21.870Z",
     "0.0.0": "2011-05-16T14:58:22.532Z",
     "0.0.2": "2012-07-02T21:59:37.447Z",
@@ -81,7 +83,9 @@
     "2.3.2-rc1": "2018-02-12T17:58:22.688Z",
     "2.3.2": "2018-02-14T00:31:49.698Z",
     "2.3.3": "2018-10-17T07:26:22.767Z",
-    "2.4.0": "2019-06-19T07:27:06.596Z"
+    "2.4.0": "2019-06-19T07:27:06.596Z",
+    "2.5.0": "2019-07-04T04:44:27.090Z",
+    "2.5.1": "2019-08-29T06:48:54.586Z"
   },
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
   "repository": {
@@ -157,16 +161,17 @@
   "bugs": {
     "url": "https://github.com/form-data/form-data/issues"
   },
-  "version": "2.4.0",
+  "version": "2.5.1",
   "main": "./lib/form_data",
   "browser": "./lib/browser",
+  "typings": "./index.d.ts",
   "scripts": {
     "pretest": "rimraf coverage test/tmp",
     "test": "istanbul cover test/run.js",
     "posttest": "istanbul report lcov text",
     "lint": "eslint lib/*.js test/*.js test/integration/*.js",
     "report": "istanbul report lcov text",
-    "ci-lint": "is-node-modern 6 && npm run lint || is-node-not-modern 6",
+    "ci-lint": "is-node-modern 8 && npm run lint || is-node-not-modern 8",
     "ci-test": "npm run test && npm run browser && npm run report",
     "predebug": "rimraf coverage test/tmp",
     "debug": "verbose=1 ./test/run.js",
@@ -193,11 +198,12 @@
     "mime-types": "^2.1.12"
   },
   "devDependencies": {
+    "@types/node": "^12.0.10",
     "browserify": "^13.1.1",
     "browserify-istanbul": "^2.0.0",
-    "coveralls": "^2.11.14",
-    "cross-spawn": "^4.0.2",
-    "eslint": "^3.9.1",
+    "coveralls": "^3.0.4",
+    "cross-spawn": "^6.0.5",
+    "eslint": "^6.0.1",
     "fake": "^0.2.2",
     "far": "^0.0.7",
     "formidable": "^1.0.17",
@@ -208,18 +214,19 @@
     "phantomjs-prebuilt": "^2.1.13",
     "pkgfiles": "^2.3.0",
     "pre-commit": "^1.1.3",
-    "request": "2.76.0",
-    "rimraf": "^2.5.4",
-    "tape": "^4.6.2"
+    "request": "^2.88.0",
+    "rimraf": "^2.7.1",
+    "tape": "^4.6.2",
+    "typescript": "^3.5.2"
   },
-  "gitHead": "8512eef436e28372f5bc88de3ca76a9cb46e6847",
+  "gitHead": "8ce81f56cccf5466363a5eff135ad394a929f59b",
   "dist": {
-    "integrity": "sha512-4FinE8RfqYnNim20xDwZZE0V2kOs/AuElIjFUbPuegQSaoZM+vUT5FnwSl10KPugH4voTg1bEQlcbCG9ka75TA==",
-    "shasum": "4902b831b051e0db5612a35e1a098376f7b13ad8",
-    "tarball": "https://registry.npmjs.org/form-data/-/form-data-2.4.0.tgz",
+    "integrity": "sha512-m21N3WOmEEURgk6B9GLOE4RuWOFf28Lhh9qGYeNlGq4VDXUlJy2th2slBNU8Gp8EzloYZOibZJ7t5ecIrFSjVA==",
+    "shasum": "f2cbec57b5e59e23716e128fe44d4e5dd23895f4",
+    "tarball": "https://registry.npmjs.org/form-data/-/form-data-2.5.1.tgz",
     "fileCount": 8,
-    "unpackedSize": 120904,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCePLCRA9TVsSAnZWagAAwsEP/3HA3hkx7sUGw/n2uu+m\no6c5k6O4mfU85NwHSNfw1Ck0JZFXwHKPIACNJJVGAbWJezFyf8NYaYxiz+st\nge1pMsT0rIgpqLfA4xgoLwUyKokqmPesMJPB4e1USuHRHuoDmoy5MmL7X9l8\nPXWzDG9V7UnJHiHyv/fOm9f7rw/sGdPMOrwRMSW1+mySXl7vCtWXoiebzsoR\nFQ2Z2RBtPOEm0O91InbM0D3wjZHAPMn+aweruf8hVT42rRUb8NtL7NByHZRo\nqr7iULDrKAjPGcRgjCHFvtvxdqrryxVy8Q7TMF2avE7VQUEOjGUY6Nc99lSW\nF6Ds3Eyk3Kr2thrIRzdVhK5XH16ybfwlqAFtyjFvT7R+W5FPBUaMBwfgk6vr\nqBKAU2FL7Flot2PANgv9V7XhBrBJgOonaHbtYCldVDBS2aEYnXEQLJDIphd3\npDbosxqZPw+dci9B8aZsURTvyQ4bOexFNpvVceR0TT2uKVKgaIhzpWlv863/\n59Oxq6XIIhKbrdowlGu4pVnCNPWRSer0fDFjKmE3x3+9W/riPQQoVkG4/DpW\n2lTNg89a68hRrYKdsAByTESMifijxsJAiSiZ7I+U+U8qbVDFpNdKfihfr5g9\npeHVWFjFfDKl65dvEf3Wg0BGAbvS3XyqqclN6p1cErdPsXEhZ1hC5NADKLC9\n/czT\r\n=Q+UL\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 41342,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZ3VXCRA9TVsSAnZWagAAuQoP/2DBbsCYCzkamVIA8L0n\nIlIyMQFSWRRNSnobSmN7yEmmbJ7ulNu3X4ucDiFAjXslxKcAxosu9hplF9Bj\nR1Dya9R8FEPkSN92I0a8TJD6NxmFom6E9z+xJX6pdDkrDv7nD0oGKbDz0rb6\nkFXY+J+qoMmuzXNJiTBKDvNOK5s6DgSQVLcTPuz4zkybOojQTVsaZ1Yjr3eQ\nMT3grpC/KUb9aBHqWF9MQsfQySuGGvCDky8M6VzKsXRSs9qFYQSKPzzQCC3x\ngJ1ZR4ut0eTP8fEE/shr3KXZUi9PSKiHLnz7sc3cHITuf9dTVV0kfMU7BWYm\nwpXlLSLvfG0GbC6uCXVKNdQFE0KAk1ogCeeA56npPz1Cc1Mg4f8aNF69cT0U\n7iAaDotopO5zu0s+2KfI+gxXqowp/r43r0BwUu9nRw22WYOxHM4WotuBxS0R\nrlqY0HJYKnN36+mXk3Lq/R8XBawhM8kS7FPlBASDsz13in5zIBELcXbiHEwX\ngLQ2o1L1XaqMFqjpNlJJpndY46+0vTibiTK4Xd2FEAcwX1MTguw3Wl0EGoZ9\nR0LU1eDtseZ3LxAJN8UpTRm0UzNeTVLCNXEDssC8mZtA6H/1PhlkQtGhEUDR\npo6Y9thr35ACKq7W3+APZ0AZjX3sATC0YP9vFGNt5kc+OgrjuVacGRkZk4qs\nZruz\r\n=acOe\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

@@ -2,7 +2,7 @@
   "name": "ajv",
   "description": "Another JSON Schema Validator",
   "dist-tags": {
-    "latest": "6.10.0",
+    "latest": "6.10.2",
     "beta": "6.0.0-rc.1",
     "4.x": "4.11.8"
   },
@@ -285,14 +285,16 @@
     "6.9.0",
     "6.9.1",
     "6.9.2",
-    "6.10.0"
+    "6.10.0",
+    "6.10.1",
+    "6.10.2"
   ],
   "maintainers": [
     "blakeembrey <hello@blakeembrey.com>",
     "esp <e.poberezkin@me.com>"
   ],
   "time": {
-    "modified": "2019-03-09T07:38:02.681Z",
+    "modified": "2019-07-14T14:16:11.584Z",
     "created": "2015-05-29T22:33:14.989Z",
     "0.0.4": "2015-05-29T22:33:14.989Z",
     "0.0.5": "2015-05-29T22:54:15.469Z",
@@ -574,7 +576,9 @@
     "6.9.0": "2019-02-09T22:22:22.323Z",
     "6.9.1": "2019-02-10T08:42:28.330Z",
     "6.9.2": "2019-02-22T20:16:31.617Z",
-    "6.10.0": "2019-03-03T11:27:56.582Z"
+    "6.10.0": "2019-03-03T11:27:56.582Z",
+    "6.10.1": "2019-07-06T18:15:06.046Z",
+    "6.10.2": "2019-07-14T14:16:08.400Z"
   },
   "homepage": "https://github.com/epoberezkin/ajv",
   "keywords": [
@@ -700,7 +704,7 @@
     "zuojiang": true,
     "juanf03": true
   },
-  "version": "6.10.0",
+  "version": "6.10.2",
   "main": "lib/ajv.js",
   "typings": "lib/ajv.d.ts",
   "scripts": {
@@ -746,35 +750,35 @@
     "browserify": "^16.2.0",
     "chai": "^4.0.1",
     "coveralls": "^3.0.1",
-    "del-cli": "^1.1.0",
+    "del-cli": "^2.0.0",
     "dot": "^1.0.3",
-    "eslint": "^5.0.0",
+    "eslint": "^6.0.0",
     "gh-pages-generator": "^0.2.3",
     "glob": "^7.0.0",
     "if-node-version": "^1.0.0",
     "js-beautify": "^1.7.3",
-    "jshint": "2.9.7",
+    "jshint": "^2.10.2",
     "json-schema-test": "^2.0.0",
-    "karma": "^3.0.0",
+    "karma": "^4.0.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-mocha": "^1.1.1",
     "karma-sauce-launcher": "^2.0.0",
     "mocha": "^6.0.0",
-    "nyc": "^13.2.0",
+    "nyc": "^14.0.0",
     "pre-commit": "^1.1.1",
     "require-globify": "^1.3.0",
     "typescript": "^2.8.3",
     "uglify-js": "^3.3.24",
     "watch": "^1.0.0"
   },
-  "gitHead": "6c20483b6690af2c7eb760826f00ed6b37488cbb",
+  "gitHead": "6e4a3464b935053c0a5b65fa27db454367d23b2b",
   "dist": {
-    "integrity": "sha512-nffhOpkymDECQyR0mnsUtoCE8RlX38G0rYP+wgLWFyZuUyuuojSSvi/+euOiQBIn63whYwYVIIH1TvE3tu4OEg==",
-    "shasum": "90d0d54439da587cd7e843bfb7045f50bd22bdf1",
-    "tarball": "https://registry.npmjs.org/ajv/-/ajv-6.10.0.tgz",
+    "integrity": "sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==",
+    "shasum": "d3cea04d6b017b2894ad69040fec8b623eb4bd52",
+    "tarball": "https://registry.npmjs.org/ajv/-/ajv-6.10.2.tgz",
     "fileCount": 92,
-    "unpackedSize": 916965,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJce7o9CRA9TVsSAnZWagAAacEP/3w6WeBk3jqRzafNOpMV\nJ5lSPFG4PI8tdopK6Vk9HMDn6Rq4aoS3mkvfwbOHOV8RYctTVjEmkmIxMzo1\nQ72ZvU7w4DOPE6JOd6YxRHAwr4W69gDoPdb3bjet9UM6kqQvW2URyiuTKWCH\nj59Cl4AWfS2x5tc2NbnUqEQlA6GIX+xwPu9mFQL+IocYXB5eY/EI6/3nXPc7\n5k9ctCYRtKS0lDTFJjIYkxOLWzmZ4tRH9bwGTeWfDBYcl1pDPXrVPfTyq8GL\nPJD9hqA+M2vq7oRZSX1TnU+OvGzKL4AZsp66UPbDEBe4YlSudVYZCnczh8lN\nvYwF5OMenEqbOCRL56PfpEWgz9nXSAhgvUQwXa6D1rR3oT+N/sqTvd0G+21p\nM2yHoQIPptfwnkH9Skh/qigNO3Vjm/TlsVaA2+RIXg3Th47462QlI8rzqLUZ\nmmFKPjl0FA2gw6qcv5VyHA+aHd1Y8tcUFsQMFwXuRHhECJjXWOTinfduMORL\nGMlxHFv+YfprJtV48j24ec+NXwEE+PEJprQVEN/OpN2PzRXvIjeLjtSensnt\nqa3dYk0MXgGA0kDSArbXuJkNNafVq8puPc9TOXu/d4Etn1yZaaO1zRpSkVKO\nQ8B1YgaFHVOsEvuQJFqM8ZXJDwzS+rJCFTL6tlVQpNj6989gCuMeataJht33\nvVhH\r\n=WXw0\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 917050,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdKzkpCRA9TVsSAnZWagAAnmwP/33u+sU3tuv7hPmFgM56\nBY0KZK4ZQXRvOCBocfnKSYCrDTuqp2tpkIvO+NrjaGNZyII/k+1Vatrw7dbM\nRJ9PejJiHurFw0WplNV0rdN7K8/g/wN+bgqmH95lrVVRNlYDpUlFgR88VPzE\nm6aq4vRfuXeryvRUGV0VMc8dnHv0QVOp6iHLmeCaF2n8c/4ZEy1q56eStEy/\nTo7T67k8XapRKGcXdjlzhjIfRnJmwF8uiZhMuk/lblPQ/9eYoDFyv7kWM5X7\nOO0WAQNyjbtipB9carSjmAFmi57dE3mLOmrmhwA/Ynxd5bxszzrVgUDnk7aY\n+P971HqTGC3XP/r2RRq/Yr+4jd63vmoZLI4tKSVAlv5mxIfdX+CQtDdU+Lzv\nHJyc6ra33/hBZSy8BSPTdVyO8ZTU/Q7z/3wTFB6nsl8TjgdCYVhGlTGZZYB5\nBDX2PYpDaSu4iGrbpGHfY9HSlAgg2JX2jHfoBEgNLuC/O/PeH1lqGCM5MYfc\n7uG99/MQnFZSd/poLKz2maaHAbR4ydrqj/vi4RIn/27jQXcanEAkik6OZ9p4\nfjf4AfuQDj7cYPEL4gpvZ++Y8uY14QKaS1MOJLBxtS97OfoXIHTfZcbGDFs9\nxo87ifGakfVMfdAkE60LO7rLk1+OOFU++6ZAvHkUKl8klcOpg8wLmvxp6IFJ\nxoIQ\r\n=XOWc\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

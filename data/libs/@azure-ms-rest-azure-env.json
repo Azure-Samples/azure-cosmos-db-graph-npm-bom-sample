@@ -1,22 +1,25 @@
 {
   "name": "@azure/ms-rest-azure-env",
   "dist-tags": {
-    "latest": "1.1.2"
+    "latest": "2.0.0"
   },
   "versions": [
     "1.1.0",
     "1.1.1",
-    "1.1.2"
+    "1.1.2",
+    "2.0.0"
   ],
   "time": {
     "created": "2018-11-12T19:10:19.361Z",
     "1.1.0": "2018-11-12T19:10:19.728Z",
-    "modified": "2019-01-30T22:10:23.322Z",
+    "modified": "2019-07-11T17:14:52.419Z",
     "1.1.1": "2018-11-29T22:10:31.874Z",
-    "1.1.2": "2019-01-14T19:12:34.901Z"
+    "1.1.2": "2019-01-14T19:12:34.901Z",
+    "2.0.0": "2019-07-11T17:14:49.508Z"
   },
   "maintainers": [
     "amarzavery <amarzavery@gmail.com>",
+    "azure-sdk <azuresdkengsysadmins@microsoft.com>",
     "billytrend <billy.trend@gmail.com>",
     "sergeyshandar <sergey.shandar@gmail.com>",
     "veronicagg <bggve@outlook.com>",
@@ -41,7 +44,7 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "tags": [
     "node",
     "isomorphic",
@@ -77,12 +80,12 @@
   },
   "sideEffects": false,
   "dist": {
-    "integrity": "sha512-l7z0DPCi2Hp88w12JhDTtx5d0Y3+vhfE7JKJb9O7sEz71Cwp053N8piTtTnnk/tUor9oZHgEKi/p3tQQmLPjvA==",
-    "shasum": "8505873afd4a1227ec040894a64fdd736b4a101f",
-    "tarball": "https://registry.npmjs.org/@azure/ms-rest-azure-env/-/ms-rest-azure-env-1.1.2.tgz",
+    "integrity": "sha512-dG76W7ElfLi+fbTjnZVGj+M9e0BIEJmRxU6fHaUQ12bZBe8EJKYb2GV50YWNaP2uJiVQ5+7nXEVj1VN1UQtaEw==",
+    "shasum": "45809f89763a480924e21d3c620cd40866771625",
+    "tarball": "https://registry.npmjs.org/@azure/ms-rest-azure-env/-/ms-rest-azure-env-2.0.0.tgz",
     "fileCount": 13,
-    "unpackedSize": 74774,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcPN8mCRA9TVsSAnZWagAAqXIP/0tdTlMyebudDhNjM9a2\nhDWJ6IB+6r52MW8JvPX+R/cJuiqgX7yFCfqDCFjnLeKkoE/X2qXO6hpTcM/g\n+tpVW+Y9O0s3jKlTo6Mv7oHIi4pFajuzxFUtpT15eRitpLxByA8JGRsomVKm\nWMw6b93ExC1pAdxPsgvbo4Hl4B9FnpWliUC7nIOJzfv/pzzWFWdVjSVORgiC\nFtVIKz1pya2dCcD75zEip27wIsZPCWNHtP8gmPxtpVoM+x9kL2H9qYxmnf2V\ntnX9L4LDHRzyfPz6mW4KphZfM1McNB99OVyO70xtWzs+JRIRPfxAkj+n8ib1\n8dJbi57Is8mUuEWjxTTSR+newVRqxHvr62ETt0o+AaEfcR53kv6hl4wCgq8e\nxD7mga7rI4+1ujo9GKpnUDIA12LQCMYyJs+HWrkwFUCH4eC3pZHf8a8K/2xV\nG/QapMEcqB5nTNlKHhHwFEgUul70E2HBOUtpZLBTx6NhIAE+o4CxlAmEKuLL\n3flz/12Y2cJzY7p+2vWCoR/OS4v/fRgxNpGs0LRCjKgYAUGX6mGmLEppl1Wf\n7XnF4x4rJ8V0Y5g065FiQESih4JyeVcNm3FwotLnU2zsjN/zKFH70RqhZvYk\nXdwOAVcXETr+GypYE8guqYTspTSA3ElzG+JppOXgNTRIsY/fm0rLDoqNes3o\nDetZ\r\n=t5gg\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 74701,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJ26KCRA9TVsSAnZWagAAYNoQAI2+Mgg5EY7vMcM8tesq\nK3thkO6lcfVP138Cix2R9XPSqHKZjQ/E/Wf23UMndLo/5+z9eERne7NQ9FJM\nx1rs+9bWWC7vTixa9OxQGNcUY3wtDpZGwQ1cLIIrM9wvK50GXV6uRS30CtMb\nxqbv+b9jX8maBYOYGLOrBagJCc/lJzxtxgH0xgJ6efZUKyJKkHUdq4VP3Rs5\nmrhaQVhLVtga0Ec0zDrP8yO+RcJtYIiqBfrIckAsItwWRWaOdTQzS9U5CrGm\nwxkbidSWQcoAqzg/ACcR8CndnZ9a+dP2WFOSABB4gxz/uDvGs9XR2iOB1y8Z\nqyC8Z3pKd2wFG8PQJFxO/H1HxNtCq4G3F04oCLvGtvCERRW7gLqfIphOBqFx\nNX8esP+fr7adWAIsXeVKAQeG/0ySlD3SxjgD0wgZ/dOcsx/RUdDB11lC0qAs\nDrec3B+nRc1gNKYczf0CztOu2Y//1uzMQ81ZubSAP1FqwdQgPU6XqRcnieoy\nQDVUutley+FEwe9bo38lumQYJTH53f+2NbXTDip4RYkPCl/A3VJ7KF67r7FM\nNks4uPqYSHZyUMjV2iRzZ9byQ0FbYW/0pna3jV1icUeggPRCEIJ3rTDHPgy+\n68agwbwivSkkO9PZ/yKRCGQg6xaiJacK5l/UGZdMiYuWyJ4vsbCQn9PEbRw1\n5+8v\r\n=JwK3\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

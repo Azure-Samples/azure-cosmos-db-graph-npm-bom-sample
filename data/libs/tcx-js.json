@@ -1,25 +1,29 @@
 {
   "name": "tcx-js",
-  "description": "A Node.js library for parsing TCX/XML files, such as from a Garmin GPS device.  Optionally provides additional calculated Trackpoint fields.",
+  "description": "A Node.js library for parsing TCX/XML files, such as from a Garmin GPS device.",
   "dist-tags": {
-    "latest": "0.1.2"
+    "latest": "1.0.1"
   },
   "versions": [
     "0.0.1",
     "0.1.0",
     "0.1.1",
-    "0.1.2"
+    "0.1.2",
+    "1.0.0",
+    "1.0.1"
   ],
   "maintainers": [
     "cjoakim <christopher.joakim@gmail.com>"
   ],
   "time": {
-    "modified": "2017-07-18T00:56:33.491Z",
+    "modified": "2019-07-29T16:15:52.433Z",
     "created": "2014-11-09T11:33:34.657Z",
     "0.0.1": "2014-11-09T11:33:34.657Z",
     "0.1.0": "2014-11-09T11:58:48.269Z",
     "0.1.1": "2014-11-09T17:40:43.384Z",
-    "0.1.2": "2014-11-09T19:08:29.801Z"
+    "0.1.2": "2014-11-09T19:08:29.801Z",
+    "1.0.0": "2019-07-26T21:29:36.762Z",
+    "1.0.1": "2019-07-29T16:15:49.145Z"
   },
   "homepage": "https://github.com/cjoakim/tcx-js",
   "keywords": [
@@ -30,9 +34,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cjoakim/tcx-js"
+    "url": "git+https://github.com/cjoakim/tcx-js.git"
   },
-  "author": "Chris Joakim, JoakimSoftware LLC (http://www.chrisjoakim.com)",
+  "author": "Chris Joakim",
   "bugs": {
     "url": "https://github.com/cjoakim/tcx-js/issues"
   },
@@ -40,30 +44,37 @@
   "users": {
     "ivan.marquez": true
   },
-  "version": "0.1.2",
-  "main": "lib/tcx.js",
-  "licenses": [
-    {
-      "type": "ISC",
-      "url": "https://github.com/cjoakim/tcx-js/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
+  "version": "1.0.1",
+  "main": "dist/tcx.js",
+  "types": "dist/tcx.d.ts",
+  "scripts": {
+    "test": "npx mocha --reporter mocha-multi-reporters --reporter-options configFile=mocha.opts"
+  },
   "dependencies": {
-    "node-expat": "~2.3.2",
-    "m26-js": "~0.2.0",
-    "sb-js": "~0.1.0"
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-coffee": "~0.12.0"
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.8",
+    "@types/xml2js": "^0.4.4",
+    "chai": "^4.2.0",
+    "chai-almost": "^1.0.1",
+    "mocha": "^6.2.0",
+    "mocha-junit-reporter": "^1.23.1",
+    "mocha-multi-reporters": "^1.1.7",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
   },
-  "scripts": {
-    "test": "grunt jasmine"
-  },
-  "gitHead": "e83e77bf9b867f163aee5d48bbd86d3cf119dfd0",
+  "gitHead": "59e46a27cfb6c9ca3bd73ad3638ea03b8b43931d",
   "dist": {
-    "shasum": "f5539827b1775898799690186274271681124d80",
-    "tarball": "https://registry.npmjs.org/tcx-js/-/tcx-js-0.1.2.tgz"
+    "integrity": "sha512-2iBDpvyGXPIiOtK7s0526cZyLoV4IS+1dHFMi6gTKLQq62ec3qwI2+fj9lYVuFXJtRBCfXGCY6kcX1b9mPqt/A==",
+    "shasum": "da5d8cd41c6d52dc270787657e3116818a8dce0f",
+    "tarball": "https://registry.npmjs.org/tcx-js/-/tcx-js-1.0.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 33558,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdPxu1CRA9TVsSAnZWagAAwO8QAJUT8eKLz+aFBT8tbHJl\nMNMuCmyKK4IxNIkCmP7s3uW/kr/IEIODM3l8U7FGYilsPCQs9mfSUeqIgEWz\nW6B9bSxwRItUu+tTx5KfKyr0vPcavcPVKFevk245He/XHSCDbR/VpzOnKGIk\n5O6LsUMI0oXEpVTexwwWoD21oEqwbpxNqRs3gnEyp3/yi9JZtj0DNhkV1aRE\ni+S5WikG/I88buufQt/5CEyjunhTWZeN3/ZY6nEn85bdjtiJZt+QrvWr7h7b\nIhmYMfNBSxLRPxZCp6na+gV/1iJ4g3qXeoBYOWvjCCKFwMJHH1IBrQ1I/bDm\nRQI+NMApRhks8JEWcBZEMI3t/iN92tNRCIKOYjDeJN0hTO0zjK3pJK4pXedo\nQcJz8GOJedp2caOsnUlK+RKugGCq3UXXKwKZak5cKAhuu0mBbbofys2Dd1/f\nmePzF+K7lJd+77fvAwjk1d4VXbM/AZjKX5R7+Z+YBAent3abRvcUF6QjtKEp\nx5SSWwumfacSUl9YoP+p2hxf7QQSFQHR2rOlPgmsR0q/rx8fn4AvDCOFAtKg\nGnOIhXjV0IzKUnhvzOU72IopId7RK8a6yrPaDDsnCkA/fbrwKvUBTbOBsrgg\nWgqIqBmkB7jMGU1hwPyuUYqYJ/9Phr3KySGGEORxDBfjnO+6vJhTZxGyU+Cj\nQA52\r\n=Zhif\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

@@ -77,7 +77,7 @@
     "tootallnate <nathan@tootallnate.net>"
   ],
   "time": {
-    "modified": "2019-05-05T08:25:07.851Z",
+    "modified": "2019-08-22T08:26:43.267Z",
     "created": "2011-11-29T01:11:23.618Z",
     "0.0.1": "2011-11-29T01:11:25.405Z",
     "0.1.0": "2011-12-02T23:16:56.971Z",
@@ -842,7 +842,8 @@
     "jream": true,
     "kazem1": true,
     "ahillier": true,
-    "johniexu": true
+    "johniexu": true,
+    "jhairau": true
   },
   "repository": {
     "type": "git",

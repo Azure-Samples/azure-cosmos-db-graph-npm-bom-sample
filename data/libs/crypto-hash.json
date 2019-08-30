@@ -1,0 +1,83 @@
+{
+  "name": "crypto-hash",
+  "dist-tags": {
+    "latest": "1.2.2"
+  },
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2"
+  ],
+  "time": {
+    "created": "2018-03-07T17:31:29.208Z",
+    "0.1.0": "2018-03-07T17:31:29.262Z",
+    "modified": "2019-07-11T08:28:43.661Z",
+    "1.0.0": "2018-11-08T17:47:34.869Z",
+    "1.1.0": "2019-04-09T19:49:39.344Z",
+    "1.2.0": "2019-05-03T07:14:03.604Z",
+    "1.2.1": "2019-05-19T16:29:19.484Z",
+    "1.2.2": "2019-07-11T08:28:40.923Z"
+  },
+  "maintainers": [
+    "sindresorhus <sindresorhus@gmail.com>"
+  ],
+  "description": "Tiny hashing module that uses the native crypto API in Node.js and the browser",
+  "homepage": "https://github.com/sindresorhus/crypto-hash#readme",
+  "keywords": [
+    "crypto",
+    "hash",
+    "isomorphic",
+    "hashing",
+    "hasher",
+    "cryptography",
+    "sha1",
+    "sha256",
+    "sha384",
+    "sha512",
+    "browser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/crypto-hash.git"
+  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/crypto-hash/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "version": "1.2.2",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava test.js && karmatic test-browser.js && tsd"
+  },
+  "devDependencies": {
+    "@sindresorhus/is": "^0.15.0",
+    "ava": "^1.4.1",
+    "hash.js": "^1.1.5",
+    "karmatic": "1.0.7",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "browser": "browser.js",
+  "xo": {
+    "rules": {
+      "import/no-unresolved": "off"
+    }
+  },
+  "gitHead": "57ce6aa649be7cff6cc551deba6e0a00ed0019c3",
+  "dist": {
+    "integrity": "sha512-rXXMXepuKg9gIfqE7I1jtVa6saLhzIkDQ2u3kTGUWYiUGsHcUa3LTsfrjPEdOY8kxKlryQtsOmJOU0F23yRJTg==",
+    "shasum": "7ccdbae8a89907d3774f9c7769798b9d3af2cc4d",
+    "tarball": "https://registry.npmjs.org/crypto-hash/-/crypto-hash-1.2.2.tgz",
+    "fileCount": 7,
+    "unpackedSize": 9251,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJvM5CRA9TVsSAnZWagAAnpUP/jvysFljCxvQoyltSNTR\n9lNi1qgf3s5EjF2/7Y4GyVoLQYU6EKG1WMM2d0EU652TWa1jO9map06BZIyO\najO26DkrQpgpZe5E9VtTICaHgllicPpiS1Aj/OEonBsb9TyDcdSTjhu2hBrT\nq1jgaPLRUYuCvjEbA4QdJMime4XSb6fiY2Xnc/YyEJMv2DfIgElLDsGfyVb7\nOaIeDJ+GYobn1gC73RCU3SiIfzBG8SciY9JEgeW7573A9q/RZJESQupotoxG\nR7cZLJ39LBpOXiQM9uvvtaoRwlhG3tO2VA7fd6825jjMiPdWt8VA1W8DLz60\nb6SCoVPXoJ8Q8DlFewn2oe7GDN5RaGeI4kKhNfA6mh+7fVZFQY5VzBueBxCQ\ngUDmnCHKETR73k95UzpLR7Dvhc4tZ+Q3JQCcEh4WfG/jjkzRXJ0qa3TB07j1\ncR3TN+keVfWFqbTulaqzS4L3M/BFzAz8C4ucpzqzMKT55j4PySuisAiCIQvF\nE+vPIqH+vLc7Yw/vbVMbvamJtREPb5k2mjk9ug1exeplThyu2tsKEpiIscph\nABFnwxXVTdrD0UNsNI0tIZezuYO0NlNsPRZ4yP2K8C3iUYcliToDGHnp0xEQ\nv4bxvuMhcbOUCHKW07JzBDu/nbAxNZZVot8KACE0nEjfkOQoJ48XUH8p9XFN\n2dAL\r\n=RLQM\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

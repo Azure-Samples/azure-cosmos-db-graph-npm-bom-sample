@@ -2,7 +2,7 @@
   "name": "string_decoder",
   "description": "The string_decoder module from Node core",
   "dist-tags": {
-    "latest": "1.2.0"
+    "latest": "1.3.0"
   },
   "versions": [
     "0.0.0",
@@ -19,7 +19,8 @@
     "1.0.3",
     "1.1.0",
     "1.1.1",
-    "1.2.0"
+    "1.2.0",
+    "1.3.0"
   ],
   "maintainers": [
     "cwmma <calvin.metcalf@gmail.com>",
@@ -29,7 +30,7 @@
     "substack <substack@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-05T13:38:24.085Z",
+    "modified": "2019-08-07T09:20:39.359Z",
     "created": "2013-12-03T20:13:26.191Z",
     "0.0.0": "2013-12-03T20:13:27.743Z",
     "0.0.1": "2014-01-17T19:53:23.612Z",
@@ -45,7 +46,8 @@
     "1.0.3": "2017-06-22T18:36:15.114Z",
     "1.1.0": "2018-03-06T10:20:30.445Z",
     "1.1.1": "2018-03-30T08:14:15.043Z",
-    "1.2.0": "2018-11-27T15:37:59.670Z"
+    "1.2.0": "2018-11-27T15:37:59.670Z",
+    "1.3.0": "2019-08-07T09:20:36.634Z"
   },
   "repository": {
     "type": "git",
@@ -70,10 +72,10 @@
     "url": "https://github.com/nodejs/string_decoder/issues"
   },
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "lib/string_decoder.js",
   "dependencies": {
-    "safe-buffer": "~5.1.0"
+    "safe-buffer": "~5.2.0"
   },
   "devDependencies": {
     "babel-polyfill": "^6.23.0",
@@ -85,14 +87,14 @@
     "test": "tap test/parallel/*.js && node test/verify-dependencies",
     "ci": "tap test/parallel/*.js test/ours/*.js --tap | tee test.tap && node test/verify-dependencies.js"
   },
-  "gitHead": "6e0a9286ed4497badebd4ec6a9a7a4d37793aae8",
+  "gitHead": "60db81e031c126112039157ba9437484b1329dff",
   "dist": {
-    "integrity": "sha512-6YqyX6ZWEYguAxgZzHGL7SsCeGx3V2TtOTqZz1xSTSWnqsbWwbptafNyvf/ACquZUXV3DANr5BDIwNYe1mN42w==",
-    "shasum": "fe86e738b19544afe70469243b2a1ee9240eae8d",
-    "tarball": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.2.0.tgz",
+    "integrity": "sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==",
+    "shasum": "42f114594a46cf1a8e30b0a84f56c78c3edac21e",
+    "tarball": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz",
     "fileCount": 4,
     "unpackedSize": 14427,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/WTYCRA9TVsSAnZWagAA7zkP/RGoxWSapn/m8DNEJZVQ\ncZWpaB+5n/df+kgEGP94vYLyDdf7VWCM/B1MRyviERBcv1B0b9E7lH1Vn9fU\nhLb2REa5C4wGbIVqblTON5etuTRWr+gVspUH6riBMMydaLlscGxdv6vgXmrA\nXe4Ykz1xKUudq4hVMf/Uf8wSUn7/CgmqjopCl+14iTDMSH1Sovwc9WnbxJDW\niGEDfLp5xttPQtatrgQ4nxl/fWB4U6HE0nN7MwSQ5nhtSU3SOdbIKHH6fUNO\niTM+mv/FRASkefg53w1V2yLOXlpIGsY5yZE6lxgCQXrzoOKvHgWpO5wqHomp\n2Hk5FdPEvb8LAEWd9hDSQjTuHVchgCUWcnIcVUrpO334a1GXZwZ66OiEmSjw\nq37VjMTN6jToBcDE3LLrc80EFBPaLkZBD7+AP26jwjzlHGAXSmaGSnixj3Kx\nSCKgC31V+reocHzxcUk8gXZtMStn4wwAb1V+da4S70WCwaMH2XBlwLhUKHg4\nvHtkjl1ALRseBoWcA8sbnuXTlXx0q5ckoZpZyBigDJfaFlBZ2Mm8jPr5/d+Q\nt4biwiNeZbqeyOf6YTsBYk6QyIvepoCpzQdxP5c4OJWuq5y4CLkAIHq2oOp1\nQ6Bthb+7uAhYAH+GgAYul8RERpyBb8aYmc/UzSh9LwLTlp+k949EbqcrCStN\nk53W\r\n=fSP/\r\n-----END PGP SIGNATURE-----\r\n"
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdSpflCRA9TVsSAnZWagAAVE8QAIBhyQ4HL/C719h6NHEm\noaNdOGDpxw0zyapxhztRy+YPAEGVOAnS5L/VMQINojzPQQ8YTZDM5jQ5+NyC\naVBB9KtQpCXftizA0DX5NbowL/k9s1ko+PFf0/hOPA4NWhZ9H5Vym+fNNMQJ\n+p0leE2ovcz0PVT8t8/IrntVTYRnhkDnkTJa9byWGZFiumoR4J/y0k/UfuR4\nqKF9NGgDURJrAvdkbaBEc4xs4ZM2Eqfevxki/Ia6cV2eWO/ssWzZXdS0oLfN\ncPieD7D80jTnrZNnh6iEdYFU6GQDgu8ovDURIVnI3qowB/aDBpMAMpKliY32\nMyB1VSAWPADAYwHaW6ldS23Bd1fFA9LJZtL4/2YmR5lTri14j6szJdXQZOCE\n26kivguwcdEsbsDkE4ayRJ6DNC18lvcmJCyBUpHPBzEFP8HvC+En3Cxd4wAE\n+6laaHp7x+Af3KV4cnBsKHsDpugmzi6SWKMjt9ymySNfefvzll7pI5p8mQD1\niFM92XvnHY1RjXtuSwSHo/U8F9B/EogCC4kRSXSyq1xSDvZ530BaWsX27iv4\n2kbmRndn4pImKpIzFsUNaG8IAs90bw3mjc+dmMi7y/mbid5+xesX5RCztajK\nfFWZhV46ePff4+YFJVtCKR/m2LCu6dbSLHxTxpdFVfcjU83qnzpWGYdbHWwG\nxT/z\r\n=TD7t\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

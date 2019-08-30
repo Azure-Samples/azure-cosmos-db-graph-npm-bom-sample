@@ -2,7 +2,7 @@
   "name": "acorn-node",
   "description": "the acorn javascript parser, preloaded with plugins for syntax parity with recent node versions",
   "dist-tags": {
-    "latest": "1.7.0"
+    "latest": "1.8.2"
   },
   "versions": [
     "1.0.0",
@@ -16,7 +16,10 @@
     "1.6.0",
     "1.6.1",
     "1.6.2",
-    "1.7.0"
+    "1.7.0",
+    "1.8.0",
+    "1.8.1",
+    "1.8.2"
   ],
   "maintainers": [
     "ahdinosaur <michael.williams@enspiral.com>",
@@ -61,7 +64,7 @@
     "zertosh <zertosh@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-24T09:14:04.017Z",
+    "modified": "2019-08-13T16:17:58.282Z",
     "created": "2018-01-20T18:09:20.994Z",
     "1.0.0": "2018-01-20T18:09:20.994Z",
     "1.1.0": "2018-01-21T10:09:15.505Z",
@@ -74,7 +77,10 @@
     "1.6.0": "2018-09-29T21:49:42.319Z",
     "1.6.1": "2018-10-23T11:35:02.353Z",
     "1.6.2": "2018-10-25T14:58:37.602Z",
-    "1.7.0": "2019-05-24T09:13:58.496Z"
+    "1.7.0": "2019-05-24T09:13:58.496Z",
+    "1.8.0": "2019-08-13T16:12:20.362Z",
+    "1.8.1": "2019-08-13T16:15:04.264Z",
+    "1.8.2": "2019-08-13T16:17:55.680Z"
   },
   "homepage": "https://github.com/browserify/acorn-node",
   "keywords": [
@@ -93,24 +99,25 @@
   },
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
-  "version": "1.7.0",
+  "version": "1.8.2",
   "dependencies": {
-    "acorn": "^6.1.1",
-    "acorn-dynamic-import": "^4.0.0",
-    "acorn-walk": "^6.1.1",
-    "xtend": "^4.0.1"
+    "acorn": "^7.0.0",
+    "acorn-walk": "^7.0.0",
+    "xtend": "^4.0.2"
   },
   "devDependencies": {
-    "acorn-bigint": "^0.3.1",
+    "acorn-bigint": "^0.4.0",
     "acorn-class-fields": "^0.3.1",
+    "acorn-dynamic-import": "^4.0.0",
     "acorn-export-ns-from": "^0.1.0",
     "acorn-import-meta": "^0.3.0",
+    "acorn-numeric-separator": "^0.3.0",
     "acorn-private-class-elements": "^0.1.1",
     "acorn-static-class-features": "^0.2.0",
-    "buble": "^0.19.7",
+    "buble": "^0.19.8",
     "mkdirp": "^0.5.1",
-    "standard": "^11.0.1",
-    "tape": "^4.9.1"
+    "standard": "^13.1.0",
+    "tape": "^4.11.0"
   },
   "main": "index.js",
   "scripts": {
@@ -123,14 +130,14 @@
       "lib/*/*.js"
     ]
   },
-  "gitHead": "5a623a570fecb93de47af115697f065c01e88381",
+  "gitHead": "2ebacc9a0a2f98bfc88e508e31f737da976b5c62",
   "dist": {
-    "integrity": "sha512-XhahLSsCB6X6CJbe+uNu3Mn9sJBNFxtBN9NLgAOQovfS6Kh0lDUtmlclhjn9CvEK7A7YyRU13PXlNcpSiLI9Yw==",
-    "shasum": "aac6a559d27af6176b076ab6fb13c5974c213e3b",
-    "tarball": "https://registry.npmjs.org/acorn-node/-/acorn-node-1.7.0.tgz",
-    "fileCount": 16,
-    "unpackedSize": 43297,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc57XXCRA9TVsSAnZWagAAqNYP/0ftawjolcTsnJVxNe1K\npngabShCUkNnCJytV693GdKV6Rgwjg20TipS6QwVQT095+vnJ9H8tUA+dFxg\nWQJHh/kCawuya5cperdlFMkFym92f9/VJLxcyjSTWmywSq0SGIdXpMNJDWPI\nvC9zeg1eup+KDr8SkUupFkjPs1o9Z6HCAJsSURBYWtg9YiZZzuk1u/kSq3Pn\nWtBXuzi7NqecGMlD/nKaWcW4ElPTKdWLhXtwpgLRnuv3v1AdNqPgcZXGjhYq\ndpzTaaLoX3+sOiMnYTRNS3sAJZoVwqGzKgVHBNQfyxweOYIaIakQQsD8K0Q2\nyIhZyS5vGELAPZo0IVBquiOs+sCuD+iihFqpUtq+8vcigqhxsMyns8b5VaP8\nj/NvyFkPXhDTQFta/RSyHmpzjKHmw8mBQynIn0IdC/gGAPRLlQaJ4r+RSCCc\nsfr0kuH0i5gmPGXqZjueUREFujTMTdeUE8XF49TylyS/6BXvfWeRin/U5scz\nyLcfe5uHcPXuqj5NGFrP55U0gOd4cNHuEz4qgh/tvEG6d8oSPjBrkP2xJgxB\ngJSzWKJOdBW4bqsHj3Zo1y3j2pEwo5ALYCOLd4H4/6L74xdNMoCOdQOEMtBa\nFjMw7TJRUQsjm8J3tUZiwjWD1PwziN1fV5IkaR6DKwMtvWY7RjeOX4o1v0oF\nHvlb\r\n=oqvg\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-8mt+fslDufLYntIoPAaIMUe/lrbrehIiwmR3t2k9LljIzoigEPF27eLk2hy8zSGzmR/ogr7zbRKINMo1u0yh5A==",
+    "shasum": "114c95d64539e53dede23de8b9d96df7c7ae2af8",
+    "tarball": "https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz",
+    "fileCount": 17,
+    "unpackedSize": 45278,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUuK0CRA9TVsSAnZWagAAWX0P/16V+/scW1WliGKSTkho\nyOJtOHGOZtVwufL+VIx56cvEpfT5l6or8cdU1TOSiiA10+p/nYGdDtQpqWPo\ngJyHDmd2kWdlXE0qDAkqcdSzx+jgAb6GKPQpwIWV5ZevsgxvaDeuhApDBTnb\nGjIbv+hWWyagC2A2+6lUPe+VeLKwJLgY1cyFbL2K/MFhtuOPl/YLkjHza9s7\nfVq7RcqdEioF1Rydqqi/JTaCZqNvW3H9RWhqqLbYyURPkHe6LviDU/z11Wsy\nUGXMa5WHTmNqtav9uXgI0RSg1pMNklFoNuSYoCY0u1HQHgBH4WO4Avq0zxma\nyGmHzZ31UDzMdiXQz9h6ZalRnU+R+UXARuYuUunsw0BuR01p2mIa88Cgzvxw\nFkypFXFIq3+DDhoTNXgZFsNc+xUdU7XFzXJ4QlqX37s7ORBDTQcOzbB8v86Y\nYc+c95DeZyl1hjjmC6XgLyeYxYuu4nPDdBhcdJVPKSaIOfuoj5P/9QyN0vvW\nlwOgMvAI+8smPxxZUywH8CAlkXbIEw8gJ0VZzs5cZ5IxFaHYlxkFyzhXDQwk\n6unaaS4k3JSTSw35lOb9lTnEPMn+dxEHq36u5bewvxUu3jVSJooRwm9R4xHt\nn3oaSF4C+nBFo/htHi3oAbFOTn16psqY2gi4JH6cPOwaExnxwmrXbHCeSoax\nYuOz\r\n=0DMj\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

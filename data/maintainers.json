@@ -17,8 +17,10 @@
     "libs": [
       "@azure/amqp-common",
       "@azure/event-hubs",
+      "@azure/ms-rest-azure-env",
       "@azure/ms-rest-js",
-      "@azure/ms-rest-nodeauth"
+      "@azure/ms-rest-nodeauth",
+      "@azure/storage-blob"
     ]
   },
   "billytrend": {
@@ -73,17 +75,20 @@
       "@azure/ms-rest-nodeauth"
     ]
   },
-  "christopheranderson": {
-    "id": "christopheranderson",
-    "email": "<chrande@outlook.com>",
-    "libs": [
-      "@azure/cosmos"
-    ]
-  },
   "southpolesteve": {
     "id": "southpolesteve",
     "email": "<southpolesteve@gmail.com>",
     "libs": [
+      "@azure/cosmos-sign",
+      "@azure/cosmos",
+      "node-abort-controller"
+    ]
+  },
+  "christopheranderson": {
+    "id": "christopheranderson",
+    "email": "<chrande@outlook.com>",
+    "libs": [
+      "@azure/cosmos-sign",
       "@azure/cosmos"
     ]
   },
@@ -165,6 +170,7 @@
       "chalk",
       "cli-boxes",
       "configstore",
+      "crypto-hash",
       "crypto-random-string",
       "decamelize",
       "decompress-response",
@@ -179,7 +185,6 @@
       "has-flag",
       "has-yarn",
       "import-lazy",
-      "invert-kv",
       "ip-regex",
       "is-binary-path",
       "is-fullwidth-code-point",
@@ -189,24 +194,22 @@
       "is-path-inside",
       "is-stream",
       "latest-version",
-      "lcid",
       "locate-path",
       "log-symbols",
       "lowercase-keys",
+      "macos-release",
       "make-dir",
-      "mem",
       "mimic-fn",
       "mimic-response",
       "normalize-url",
       "npm-run-path",
       "object-assign",
+      "onetime",
       "os-homedir",
-      "os-locale",
+      "os-name",
       "os-tmpdir",
       "p-cancelable",
-      "p-defer",
       "p-finally",
-      "p-is-promise",
       "p-limit",
       "p-locate",
       "p-try",
@@ -221,7 +224,7 @@
       "shebang-regex",
       "string-width",
       "strip-ansi",
-      "strip-eof",
+      "strip-final-newline",
       "strip-json-comments",
       "supports-color",
       "term-size",
@@ -232,6 +235,7 @@
       "update-notifier",
       "url-parse-lax",
       "widest-line",
+      "windows-release",
       "wrap-ansi",
       "xdg-basedir"
     ]
@@ -251,7 +255,9 @@
       "@types/async-lock",
       "@types/babel-types",
       "@types/babylon",
+      "@types/debug",
       "@types/is-buffer",
+      "@types/node-fetch",
       "@types/node",
       "@types/tunnel"
     ]
@@ -304,6 +310,14 @@
       "yallist"
     ]
   },
+  "mysticatea": {
+    "id": "mysticatea",
+    "email": "<star.ctor@gmail.com>",
+    "libs": [
+      "abort-controller",
+      "event-target-shim"
+    ]
+  },
   "dougwilson": {
     "id": "dougwilson",
     "email": "<doug@somethingdoug.com>",
@@ -353,13 +367,6 @@
       "uid-safe",
       "unpipe",
       "vary"
-    ]
-  },
-  "jordangens": {
-    "id": "jordangens",
-    "email": "<jordangens@gmail.com>",
-    "libs": [
-      "acorn-dynamic-import"
     ]
   },
   "ahdinosaur": {
@@ -446,15 +453,9 @@
     "libs": [
       "acorn-node",
       "brfs",
-      "cipher-base",
-      "create-hash",
-      "create-hmac",
-      "hash-base",
-      "md5.js",
       "process",
       "readable-stream",
       "resolve",
-      "ripemd160",
       "static-eval",
       "static-module",
       "stream-browserify",
@@ -474,7 +475,6 @@
       "events",
       "express-session",
       "path-to-regexp",
-      "path",
       "process",
       "resolve",
       "statuses",
@@ -489,14 +489,10 @@
     "libs": [
       "acorn-node",
       "brfs",
-      "create-hash",
-      "create-hmac",
       "duplexer",
       "json-buffer",
       "rc",
       "resolve",
-      "ripemd160",
-      "sha.js",
       "split",
       "static-eval",
       "static-module",
@@ -547,7 +543,6 @@
       "static-eval",
       "static-module",
       "stream-browserify",
-      "stream-http",
       "typedarray-to-buffer",
       "util"
     ]
@@ -671,8 +666,6 @@
     "libs": [
       "acorn-node",
       "brfs",
-      "create-hash",
-      "create-hmac",
       "resolve",
       "static-eval",
       "static-module",
@@ -699,13 +692,9 @@
     "libs": [
       "acorn-node",
       "brfs",
-      "create-hash",
-      "create-hmac",
       "fs-extra",
       "jsonfile",
-      "md5.js",
       "resolve",
-      "ripemd160",
       "static-eval",
       "static-module",
       "stream-browserify",
@@ -747,7 +736,8 @@
       "clone-response",
       "keyv",
       "resolve",
-      "responselike"
+      "responselike",
+      "util"
     ]
   },
   "mafintosh": {
@@ -859,6 +849,7 @@
     "libs": [
       "acorn-node",
       "brfs",
+      "merge-stream",
       "resolve",
       "static-eval",
       "static-module",
@@ -1060,7 +1051,6 @@
     "email": "<andrewbgoode@gmail.com>",
     "libs": [
       "ansi-align",
-      "os-locale",
       "which-module",
       "y18n",
       "yargs-parser",
@@ -1165,7 +1155,6 @@
     "email": "<elan.shanker+npm@gmail.com>",
     "libs": [
       "anymatch",
-      "async-each",
       "braces",
       "chokidar",
       "fill-range",
@@ -1180,7 +1169,6 @@
     "email": "<paul@paulmillr.com>",
     "libs": [
       "anymatch",
-      "async-each",
       "chokidar",
       "fill-range",
       "fsevents",
@@ -1201,7 +1189,6 @@
       "is-glob",
       "liftoff",
       "lodash.clone",
-      "lodash.get",
       "normalize-path",
       "object.defaults",
       "object.map",
@@ -1366,6 +1353,18 @@
       "form-data"
     ]
   },
+  "coolaj86": {
+    "id": "coolaj86",
+    "email": "<coolaj86@gmail.com>",
+    "libs": [
+      "atob",
+      "foreachasync",
+      "process",
+      "url",
+      "util",
+      "walk"
+    ]
+  },
   "mikeal": {
     "id": "mikeal",
     "email": "<mikeal.rogers@gmail.com>",
@@ -1385,20 +1384,6 @@
     "email": "<michael.hart.au@gmail.com>",
     "libs": [
       "aws4"
-    ]
-  },
-  "mzabriskie": {
-    "id": "mzabriskie",
-    "email": "<mzabriskie@gmail.com>",
-    "libs": [
-      "axios"
-    ]
-  },
-  "nickuraltsev": {
-    "id": "nickuraltsev",
-    "email": "<nick.uraltsev@gmail.com>",
-    "libs": [
-      "axios"
     ]
   },
   "windowsazure": {
@@ -1437,6 +1422,7 @@
       "doctypes",
       "is-expression",
       "jstransformer",
+      "node-fetch",
       "pug-attrs",
       "pug-code-gen",
       "pug-error",
@@ -1626,22 +1612,6 @@
       "is-property"
     ]
   },
-  "tootallnate": {
-    "id": "tootallnate",
-    "email": "<nathan@tootallnate.net>",
-    "libs": [
-      "bindings",
-      "component-bind",
-      "component-emitter",
-      "debug",
-      "file-uri-to-path",
-      "merge-descriptors",
-      "ms",
-      "readable-stream",
-      "throttleit",
-      "util-deprecate"
-    ]
-  },
   "matteo.collina": {
     "id": "matteo.collina",
     "email": "<hello@matteocollina.com>",
@@ -1736,18 +1706,6 @@
       "pg"
     ]
   },
-  "bendrucker": {
-    "id": "bendrucker",
-    "email": "<bvdrucker@gmail.com>",
-    "libs": [
-      "builtin-status-codes",
-      "pg-types",
-      "postgres-array",
-      "postgres-bytea",
-      "postgres-date",
-      "postgres-interval"
-    ]
-  },
   "nylen": {
     "id": "nylen",
     "email": "<jnylen@gmail.com>",
@@ -1797,7 +1755,6 @@
     "email": "<ben@npmjs.com>",
     "libs": [
       "cliui",
-      "os-locale",
       "redis",
       "require-main-filename",
       "set-blocking",
@@ -1896,6 +1853,13 @@
       "commander"
     ]
   },
+  "shadowspawn": {
+    "id": "shadowspawn",
+    "email": "<npm_j@ruru.gen.nz>",
+    "libs": [
+      "commander"
+    ]
+  },
   "somekittens": {
     "id": "somekittens",
     "email": "<rkoutnik@gmail.com>",
@@ -1923,6 +1887,20 @@
     "libs": [
       "complex.js",
       "fraction.js"
+    ]
+  },
+  "tootallnate": {
+    "id": "tootallnate",
+    "email": "<nathan@tootallnate.net>",
+    "libs": [
+      "component-bind",
+      "component-emitter",
+      "debug",
+      "merge-descriptors",
+      "ms",
+      "readable-stream",
+      "throttleit",
+      "util-deprecate"
     ]
   },
   "amasad": {
@@ -2173,18 +2151,6 @@
       "core-js"
     ]
   },
-  "dcousens": {
-    "id": "dcousens",
-    "email": "<email@dcousens.com>",
-    "libs": [
-      "create-hash",
-      "create-hmac",
-      "hash-base",
-      "md5.js",
-      "ripemd160",
-      "sha.js"
-    ]
-  },
   "satazor": {
     "id": "satazor",
     "email": "<andremiguelcruz@msn.com>",
@@ -2263,17 +2229,11 @@
       "debug"
     ]
   },
-  "unclechu": {
-    "id": "unclechu",
-    "email": "<lotsmanov89@gmail.com>",
-    "libs": [
-      "deep-extend"
-    ]
-  },
   "ljharb": {
     "id": "ljharb",
     "email": "<ljharb@gmail.com>",
     "libs": [
+      "deep-equal",
       "define-properties",
       "es-abstract",
       "es-to-primitive",
@@ -2287,13 +2247,22 @@
       "is-regex",
       "is-symbol",
       "object-inspect",
+      "object-is",
       "object-keys",
       "object.assign",
       "object.entries",
       "object.getownpropertydescriptors",
       "prop-types",
       "qs",
+      "regexp.prototype.flags",
       "resolve"
+    ]
+  },
+  "unclechu": {
+    "id": "unclechu",
+    "email": "<lotsmanov89@gmail.com>",
+    "libs": [
+      "deep-extend"
     ]
   },
   "salakar": {
@@ -2356,7 +2325,8 @@
     "id": "shinnn",
     "email": "<snnskwtnb@gmail.com>",
     "libs": [
-      "duplexer2"
+      "duplexer2",
+      "merge-stream"
     ]
   },
   "floatdrop": {
@@ -2459,7 +2429,6 @@
       "emoji-regex",
       "he",
       "lodash.clone",
-      "lodash.get",
       "lodash",
       "punycode"
     ]
@@ -2531,6 +2500,14 @@
       "events",
       "querystring",
       "type"
+    ]
+  },
+  "ehmicky": {
+    "id": "ehmicky",
+    "email": "<ehmicky@gmail.com>",
+    "libs": [
+      "execa",
+      "mimic-fn"
     ]
   },
   "cowboy": {
@@ -2616,6 +2593,28 @@
       "filesize"
     ]
   },
+  "contra": {
+    "id": "contra",
+    "email": "<yo@contra.io>",
+    "libs": [
+      "findup-sync",
+      "fined",
+      "flagged-respawn",
+      "glob-parent",
+      "interpret",
+      "v8flags"
+    ]
+  },
+  "sttk": {
+    "id": "sttk",
+    "email": "<sttk.xslet@gmail.com>",
+    "libs": [
+      "findup-sync",
+      "fined",
+      "flagged-respawn",
+      "v8flags"
+    ]
+  },
   "tkellen": {
     "id": "tkellen",
     "email": "<tyler@sleekcode.net>",
@@ -2633,64 +2632,11 @@
       "rechoir"
     ]
   },
-  "contra": {
-    "id": "contra",
-    "email": "<yo@contra.io>",
-    "libs": [
-      "fined",
-      "flagged-respawn",
-      "glob-parent",
-      "interpret",
-      "v8flags"
-    ]
-  },
-  "sttk": {
-    "id": "sttk",
-    "email": "<sttk.xslet@gmail.com>",
-    "libs": [
-      "fined",
-      "flagged-respawn",
-      "v8flags"
-    ]
-  },
   "webreflection": {
     "id": "webreflection",
     "email": "<andrea.giammarchi@gmail.com>",
     "libs": [
       "flatted"
-    ]
-  },
-  "jamestalmage": {
-    "id": "jamestalmage",
-    "email": "<james@talmage.io>",
-    "libs": [
-      "follow-redirects"
-    ]
-  },
-  "olalonde": {
-    "id": "olalonde",
-    "email": "<olalonde@gmail.com>",
-    "libs": [
-      "follow-redirects"
-    ]
-  },
-  "rubenverborgh": {
-    "id": "rubenverborgh",
-    "email": "<ruben.verborgh@gmail.com>",
-    "libs": [
-      "follow-redirects"
-    ]
-  },
-  "coolaj86": {
-    "id": "coolaj86",
-    "email": "<coolaj86@gmail.com>",
-    "libs": [
-      "foreachasync",
-      "path",
-      "process",
-      "url",
-      "util",
-      "walk"
     ]
   },
   "dylanpiercey": {
@@ -2842,7 +2788,8 @@
     "id": "ahmadnassri",
     "email": "<ahmad@ahmadnassri.com>",
     "libs": [
-      "har-validator"
+      "har-validator",
+      "minipass"
     ]
   },
   "shtylman": {
@@ -2858,14 +2805,6 @@
     "email": "<tpadilha84@gmail.com>",
     "libs": [
       "has"
-    ]
-  },
-  "fanatid": {
-    "id": "fanatid",
-    "email": "<fanatid@ya.ru>",
-    "libs": [
-      "hash-base",
-      "md5.js"
     ]
   },
   "kornel": {
@@ -3060,7 +2999,6 @@
     "email": "<john.david.dalton@gmail.com>",
     "libs": [
       "lodash.clone",
-      "lodash.get",
       "lodash"
     ]
   },
@@ -3076,7 +3014,6 @@
     "email": "<christopher.joakim@gmail.com>",
     "libs": [
       "m26-js",
-      "sb-js",
       "tcx-js"
     ]
   },
@@ -3102,13 +3039,6 @@
       "sourcemap-codec"
     ]
   },
-  "samverschueren": {
-    "id": "samverschueren",
-    "email": "<sam.verschueren@gmail.com>",
-    "libs": [
-      "map-age-cleaner"
-    ]
-  },
   "josdejong": {
     "id": "josdejong",
     "email": "<wjosdejong@gmail.com>",
@@ -3122,6 +3052,14 @@
     "email": "<k4t0.kei@gmail.com>",
     "libs": [
       "merge-source-map"
+    ]
+  },
+  "grncdr": {
+    "id": "grncdr",
+    "email": "<glurgle@gmail.com>",
+    "libs": [
+      "merge-stream",
+      "nugget"
     ]
   },
   "fishrock123": {
@@ -3148,11 +3086,39 @@
       "uuid"
     ]
   },
-  "ehmicky": {
-    "id": "ehmicky",
-    "email": "<ehmicky@gmail.com>",
+  "adam_baldwin": {
+    "id": "adam_baldwin",
+    "email": "<evilpacket@gmail.com>",
     "libs": [
-      "mimic-fn"
+      "minipass"
+    ]
+  },
+  "annekimsey": {
+    "id": "annekimsey",
+    "email": "<anne@npmjs.com>",
+    "libs": [
+      "minipass"
+    ]
+  },
+  "billatnpm": {
+    "id": "billatnpm",
+    "email": "<billatnpm@gmail.com>",
+    "libs": [
+      "minipass"
+    ]
+  },
+  "claudiahdz": {
+    "id": "claudiahdz",
+    "email": "<cghr1990@gmail.com>",
+    "libs": [
+      "minipass"
+    ]
+  },
+  "darcyclarke": {
+    "id": "darcyclarke",
+    "email": "<darcy@darcyclarke.me>",
+    "libs": [
+      "minipass"
     ]
   },
   "boneskull": {
@@ -3643,39 +3609,11 @@
       "nice-try"
     ]
   },
-  "astro": {
-    "id": "astro",
-    "email": "<astro@spaceboyz.net>",
+  "bitinn": {
+    "id": "bitinn",
+    "email": "<bitinn@gmail.com>",
     "libs": [
-      "node-expat"
-    ]
-  },
-  "chris-rock": {
-    "id": "chris-rock",
-    "email": "<chris@lollyrock.com>",
-    "libs": [
-      "node-expat"
-    ]
-  },
-  "lloydwatkin": {
-    "id": "lloydwatkin",
-    "email": "<lloyd@evilprofessor.co.uk>",
-    "libs": [
-      "node-expat"
-    ]
-  },
-  "sonny": {
-    "id": "sonny",
-    "email": "<sonny@fastmail.net>",
-    "libs": [
-      "node-expat"
-    ]
-  },
-  "y--": {
-    "id": "y--",
-    "email": "<y.lemaout@gmail.com>",
-    "libs": [
-      "node-expat"
+      "node-fetch"
     ]
   },
   "bergwerkgis": {
@@ -3762,13 +3700,6 @@
       "npm-packlist"
     ]
   },
-  "grncdr": {
-    "id": "grncdr",
-    "email": "<glurgle@gmail.com>",
-    "libs": [
-      "nugget"
-    ]
-  },
   "gaearon": {
     "id": "gaearon",
     "email": "<dan.abramov@gmail.com>",
@@ -3776,8 +3707,7 @@
       "object-assign",
       "prop-types",
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "spicyj": {
@@ -3810,25 +3740,11 @@
       "parseuri"
     ]
   },
-  "domenic": {
-    "id": "domenic",
-    "email": "<domenic@domenicdenicola.com>",
-    "libs": [
-      "path-is-inside"
-    ]
-  },
   "jbgutierrez": {
     "id": "jbgutierrez",
     "email": "<jbgutierrez@gmail.com>",
     "libs": [
       "path-parse"
-    ]
-  },
-  "jinder": {
-    "id": "jinder",
-    "email": "<jindersidhu@gmail.com>",
-    "libs": [
-      "path"
     ]
   },
   "blikblum": {
@@ -3887,6 +3803,17 @@
       "pg-int8"
     ]
   },
+  "bendrucker": {
+    "id": "bendrucker",
+    "email": "<bvdrucker@gmail.com>",
+    "libs": [
+      "pg-types",
+      "postgres-array",
+      "postgres-bytea",
+      "postgres-date",
+      "postgres-interval"
+    ]
+  },
   "hoegaarden": {
     "id": "hoegaarden",
     "email": "<hannes.hoerl+npm@snowreporter.com>",
@@ -3929,8 +3856,7 @@
     "libs": [
       "prop-types",
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "aweary": {
@@ -3946,8 +3872,7 @@
     "libs": [
       "prop-types",
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "fb": {
@@ -3956,8 +3881,7 @@
     "libs": [
       "prop-types",
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "sophiebits": {
@@ -3966,8 +3890,7 @@
     "libs": [
       "prop-types",
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "lupomontero": {
@@ -4003,8 +3926,7 @@
     "email": "<sebastian@calyptus.eu>",
     "libs": [
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "threepointone": {
@@ -4012,8 +3934,7 @@
     "email": "<threepointone@gmail.com>",
     "libs": [
       "react-is",
-      "react",
-      "scheduler"
+      "react"
     ]
   },
   "trueadm": {
@@ -4021,14 +3942,6 @@
     "email": "<dg@domgan.com>",
     "libs": [
       "react-is",
-      "react",
-      "scheduler"
-    ]
-  },
-  "flarnie": {
-    "id": "flarnie",
-    "email": "<flarnie.npm@gmail.com>",
-    "libs": [
       "react"
     ]
   },
@@ -4114,27 +4027,6 @@
     "email": "<gsim@redhat.com>",
     "libs": [
       "rhea"
-    ]
-  },
-  "midnightlightning": {
-    "id": "midnightlightning",
-    "email": "<boydb@midnightdesign.ws>",
-    "libs": [
-      "ripemd160"
-    ]
-  },
-  "nadav": {
-    "id": "nadav",
-    "email": "<npm@shesek.info>",
-    "libs": [
-      "ripemd160"
-    ]
-  },
-  "vbuterin": {
-    "id": "vbuterin",
-    "email": "<vbuterin@gmail.com>",
-    "libs": [
-      "ripemd160"
     ]
   },
   "chalker": {
@@ -4261,13 +4153,6 @@
     "email": "<fengmk2@gmail.com>",
     "libs": [
       "sqlstring"
-    ]
-  },
-  "jhiesey": {
-    "id": "jhiesey",
-    "email": "<john@hiesey.com>",
-    "libs": [
-      "stream-http"
     ]
   },
   "soldair": {
@@ -4430,6 +4315,20 @@
     "email": "<schtoeffel@gmail.com>",
     "libs": [
       "underscore.string"
+    ]
+  },
+  "gr2m": {
+    "id": "gr2m",
+    "email": "<gregor@martynus.net>",
+    "libs": [
+      "universal-user-agent"
+    ]
+  },
+  "ulisesgascon": {
+    "id": "ulisesgascon",
+    "email": "<ulisesgascondev@gmail.com>",
+    "libs": [
+      "update-notifier"
     ]
   },
   "garycourt": {

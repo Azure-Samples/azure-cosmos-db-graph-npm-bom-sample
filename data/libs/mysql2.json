@@ -2,7 +2,7 @@
   "name": "mysql2",
   "description": "fast mysql driver. Implements core protocol, prepared statements, ssl and compression in native JS",
   "dist-tags": {
-    "latest": "1.6.5"
+    "latest": "1.7.0"
   },
   "versions": [
     "0.0.1",
@@ -116,7 +116,8 @@
     "1.6.2",
     "1.6.3",
     "1.6.4",
-    "1.6.5"
+    "1.6.5",
+    "1.7.0"
   ],
   "maintainers": [
     "iarna <me@re-becca.org>",
@@ -124,7 +125,7 @@
     "sushantdhiman <sushantdhiman@outlook.com>"
   ],
   "time": {
-    "modified": "2019-02-08T01:11:42.556Z",
+    "modified": "2019-08-28T07:16:08.982Z",
     "created": "2013-04-17T05:25:37.007Z",
     "0.0.1": "2013-04-17T05:25:43.014Z",
     "0.0.2": "2013-04-18T01:37:14.240Z",
@@ -237,7 +238,8 @@
     "1.6.2": "2018-11-04T22:35:59.360Z",
     "1.6.3": "2018-11-06T02:57:43.085Z",
     "1.6.4": "2018-11-08T00:09:39.302Z",
-    "1.6.5": "2019-02-08T01:11:39.868Z"
+    "1.6.5": "2019-02-08T01:11:39.868Z",
+    "1.7.0": "2019-08-28T07:16:06.527Z"
   },
   "author": "Andrey Sidorov <sidorares@yandex.ru>",
   "repository": {
@@ -303,7 +305,7 @@
     "henriesteves": true,
     "losymear": true
   },
-  "version": "1.6.5",
+  "version": "1.7.0",
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -328,43 +330,42 @@
     ]
   },
   "engines": {
-    "node": ">= 6.0"
+    "node": ">= 8.0"
   },
   "dependencies": {
-    "denque": "^1.4.0",
+    "denque": "^1.4.1",
     "generate-function": "^2.3.1",
-    "iconv-lite": "^0.4.24",
+    "iconv-lite": "^0.5.0",
     "long": "^4.0.0",
-    "lru-cache": "^4.1.3",
+    "lru-cache": "^5.1.1",
     "named-placeholders": "^1.1.2",
     "seq-queue": "^0.0.5",
     "sqlstring": "^2.3.1"
   },
   "devDependencies": {
     "assert-diff": "^2.0.2",
-    "error-stack-parser": "^2.0.2",
-    "eslint": "^5.8.0",
-    "eslint-config-prettier": "^3.0.0",
+    "error-stack-parser": "^2.0.3",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-async-await": "0.0.0",
-    "eslint-plugin-markdown": "^1.0.0-rc.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "husky": "^1.1.3",
+    "eslint-plugin-markdown": "^1.0.0",
+    "husky": "^3.0.4",
     "is-async-supported": "^1.2.0",
-    "lint-staged": "^8.0.5",
-    "portfinder": "^1.0.19",
-    "prettier": "^1.14.3",
+    "lint-staged": "^9.2.5",
+    "portfinder": "^1.0.23",
+    "prettier": "^1.18.2",
     "prettier-markdown": "^0.1.6",
-    "progress": "2.0.1",
+    "progress": "^2.0.3",
     "urun": "0.0.8",
     "utest": "0.0.8"
   },
-  "gitHead": "821b2bcdc254c483e6879b5d4afc9757c55c7ed7",
+  "gitHead": "cef866ee85c6b4d38e277e39038b0fce51c343d0",
   "dist": {
-    "integrity": "sha512-zedaOOyb3msuuZcJJnxIX/EGOpmljDG7B+UevRH5lqcv+yhy9eCwkArBz8/AO+/rlY3/oCsOdG8R5oD6k0hNfg==",
-    "shasum": "6695304fa2ce793dda5c98e8bbec65cbd2e6cb9d",
-    "tarball": "https://registry.npmjs.org/mysql2/-/mysql2-1.6.5.tgz",
-    "fileCount": 67,
-    "unpackedSize": 358542,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXNdMCRA9TVsSAnZWagAAgsMP/3nCwX7f/E+sG0kMS1rt\nEodOaCnVBUAactelf/YwZuWIvwJD8ulljtEiEzntbjOzcWeaeQ8tbm6c1KSi\nFxLAY03PA/0tlf9UAvIYmq+rXn+UaeiRmmldcguC8GvOkcEWKvf4dDZZQp5H\nKmo47EizQV6nPrdWAdNgszM8quWk/qHOGxaBFF5+DazFgDqjZFgFiHel60oy\nw4nNbFlNWLZrVMN4sW2l8dT5gFJazMyCk5in/jqa6Ta6oZf9qnR9NcUqVI6g\ntkGmJbnHpGli+efNo/6t2TNctIIDEuuj1FyCfD3iZKWi6xXe3ncfdBe64qD1\n1fuNiyIcAXAgsRSu28YpaS3sJ7KlU0o6RF+VToS57WvH+qXJg7a0WYkixlOK\nC6kuDIqR1PVoSRR+D9pnoO8fNU3VitW2u91y2Ke8LLK0OO5TR5L9MHRQcg8J\nn3vKsoe0c52tyAxbKkrSYuWkP6aKWu+FPui0fJy06x+DPEp6Y4/j1BukMWFs\nG8QJpHnq0NOy1l6ii4tlI9iF/S63cYKaNJB4+RC7EjS7t1cKR7NE5vOBCurd\nPQV4n7EMFBJutFVBoNgsijaFaUfPD+gXhIvauhRNMI8ago7jFGqR6KBL82+W\nOQKfhJokAGEOprNf3XmLWiW/GMXTnVQjDpoJW5C4YpuPfLfaOA0IJGDnJPKe\n6bRB\r\n=n7Ta\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-xTWWQPjP5rcrceZQ7CSTKR/4XIDeH/cRkNH/uzvVGQ7W5c7EJ0dXeJUusk7OKhIoHj7uFKUxDVSCfLIl+jluog==",
+    "shasum": "2fbf314da016a61d038ffcd57a2a0aa3b7b8eacc",
+    "tarball": "https://registry.npmjs.org/mysql2/-/mysql2-1.7.0.tgz",
+    "fileCount": 68,
+    "unpackedSize": 352156,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZio2CRA9TVsSAnZWagAA2rQQAJ92/VTG6HtfnKqEf4bq\ncbNSi2pZaVNnnQKZS7mZI92UArF/wrv3cR5chV4Em2A0r7sfckhL8F/gW8IY\n3sXm+OSYSswl3TN4ugLAxwlnZoUbayG9IvMFOIvPt7a+ZaU54DrGko5sE82t\n9eVKpvnA4qQowgSpU4iKItIb95TJbynA8FgLs32bu2Ee63HhprOp73A/IN+K\nEQ4lcwL4EusPjZ7uIf5UBqiJE9nWIEBpDT45/41g1Azhtdw9CfyyhMNyYOu5\nTLUoh+kNfMiVq5NNzBpRXARZ3xmxBCBZO0CLIIVeIlHRlLMYx53aknjbtI8f\nY00vef5e9XIVBlP3Ghmop/G/D4IUt0Brg0A8kRArBSEs3heGr5hLhyD23iIe\nmIuUUxNDIYj/Y0gdioD0VDSCaahyz6Jvn9TmG2byM7w7y5R+js4Iasp+gZsZ\nw4HG/3lkcv+pX9eLc9T8yX7IF3tL6P84O5w+AFm2Ek7VOaNMaWn5Cjx1jYQO\nshhGE/Ob1oikyk1gImZ1R/9cQqluGBH8KUFHk7/5CNvNvmKRA8uwTHVgyRDN\nwjxALOnN+8xgrCLSVJFJlCUz929bywqphQHN2tYtyBfSaSUYZNkc4CMHtA4m\nvXFiBlUNtLm6jehuT7a0N8XrEiBBKWlW9U6tBCqp+qVeCrGAHQIIn6YLWy4V\nKSqu\r\n=+5t6\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

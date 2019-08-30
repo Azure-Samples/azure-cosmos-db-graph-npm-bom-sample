@@ -2,13 +2,14 @@
   "name": "react",
   "description": "React is a JavaScript library for building user interfaces.",
   "dist-tags": {
-    "latest": "16.8.6",
-    "next": "16.8.6",
-    "canary": "0.0.0-fa1e8df11",
+    "latest": "16.9.0",
+    "next": "16.9.0",
+    "canary": "0.0.0-8d5403877",
     "unstable": "0.0.0-0c756fb-f7f79fd",
     "alpha": "16.9.0-alpha.0"
   },
   "versions": [
+    "0.0.0-375616788",
     "0.0.0-0c756fb-697f004",
     "0.0.0-0c756fb-f7f79fd",
     "0.0.0-0e4135e8c",
@@ -18,6 +19,7 @@
     "0.0.0-29b7b775f",
     "0.0.0-3e15b1c69",
     "0.0.0-4221565e1",
+    "0.0.0-424099da6",
     "0.0.0-4a1072194",
     "0.0.0-50b50c26f",
     "0.0.0-679402a66",
@@ -26,14 +28,20 @@
     "0.0.0-741aa17a3",
     "0.0.0-88ada9819",
     "0.0.0-8b3c1e4-1d1a717",
+    "0.0.0-8d5403877",
     "0.0.0-9ebe1768a",
+    "0.0.0-9f395904c",
+    "0.0.0-a1dbb852c",
     "0.0.0-a8988e4-1d1a717",
     "0.0.0-a9eff329c",
+    "0.0.0-b4178af81",
     "0.0.0-b668168d4",
+    "0.0.0-bbd21066e",
     "0.0.0-c35e37aab",
     "0.0.0-c5b7d26c7",
     "0.0.0-d1326f466",
     "0.0.0-d5e1bf0-aee1b84",
+    "0.0.0-db3ae32b8",
     "0.0.0-dfabb77a9",
     "0.0.0-ed4c4a51c",
     "0.0.0-f22621f88",
@@ -216,13 +224,14 @@
     "16.8.4",
     "16.8.5",
     "16.8.6",
-    "16.9.0-alpha.0"
+    "16.9.0-alpha.0",
+    "16.9.0-rc.0",
+    "16.9.0"
   ],
   "maintainers": [
     "acdlite <npm@andrewclark.io>",
     "brianvaughn <briandavidvaughn@gmail.com>",
     "fb <opensource+npm@fb.com>",
-    "flarnie <flarnie.npm@gmail.com>",
     "gaearon <dan.abramov@gmail.com>",
     "sebmarkbage <sebastian@calyptus.eu>",
     "sophiebits <npm@sophiebits.com>",
@@ -230,7 +239,7 @@
     "trueadm <dg@domgan.com>"
   ],
   "time": {
-    "modified": "2019-06-04T11:51:28.541Z",
+    "modified": "2019-08-29T10:20:30.632Z",
     "created": "2011-10-26T17:46:21.942Z",
     "0.0.1": "2011-10-26T17:46:22.746Z",
     "0.0.2": "2011-10-28T22:40:36.115Z",
@@ -439,14 +448,24 @@
     "0.0.0-fb28e9048": "2019-04-24T14:54:10.423Z",
     "0.0.0-6da04b5d8": "2019-05-06T20:49:29.399Z",
     "0.0.0-50b50c26f": "2019-05-20T16:38:58.270Z",
-    "0.0.0-fa1e8df11": "2019-06-03T21:03:39.088Z"
+    "0.0.0-fa1e8df11": "2019-06-03T21:03:39.088Z",
+    "0.0.0-9f395904c": "2019-07-13T17:48:00.728Z",
+    "0.0.0-424099da6": "2019-07-15T15:17:12.781Z",
+    "0.0.0-b4178af81": "2019-07-18T18:34:56.747Z",
+    "0.0.0-bbd21066e": "2019-07-23T01:36:50.131Z",
+    "0.0.0-db3ae32b8": "2019-07-30T18:20:56.437Z",
+    "0.0.0-375616788": "2019-08-01T02:09:19.895Z",
+    "0.0.0-a1dbb852c": "2019-08-05T21:28:05.605Z",
+    "16.9.0-rc.0": "2019-08-05T22:17:21.838Z",
+    "16.9.0": "2019-08-08T21:09:37.704Z",
+    "0.0.0-8d5403877": "2019-08-09T02:30:53.059Z"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/facebook/react.git",
     "directory": "packages/react"
   },
-  "readmeFilename": "",
+  "readmeFilename": "README.md",
   "homepage": "https://reactjs.org/",
   "keywords": [
     "react"
@@ -1189,10 +1208,17 @@
     "payaamemami": true,
     "ayan4m1": true,
     "mrosata": true,
-    "sohahawhat": true
+    "sohahawhat": true,
+    "caavere": true,
+    "rannie-peralta": true,
+    "adardesign": true,
+    "invntrm": true,
+    "belskiyroman": true,
+    "okumurakengo": true,
+    "colinox": true
   },
   "license": "MIT",
-  "version": "16.8.6",
+  "version": "16.9.0",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -1200,8 +1226,7 @@
   "dependencies": {
     "loose-envify": "^1.1.0",
     "object-assign": "^4.1.1",
-    "prop-types": "^15.6.2",
-    "scheduler": "^0.13.6"
+    "prop-types": "^15.6.2"
   },
   "browserify": {
     "transform": [
@@ -1209,12 +1234,12 @@
     ]
   },
   "dist": {
-    "integrity": "sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==",
-    "shasum": "ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe",
-    "tarball": "https://registry.npmjs.org/react/-/react-16.8.6.tgz",
+    "integrity": "sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==",
+    "shasum": "40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa",
+    "tarball": "https://registry.npmjs.org/react/-/react-16.9.0.tgz",
     "fileCount": 10,
-    "unpackedSize": 203771,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcnGhoCRA9TVsSAnZWagAAsH8P/jWiOAJhFYhkWo954pEX\nhVnmxeY6FX3cAQqeyjnQ1IipfW7X+WtW+mhr+e1HBbOenXCmKNOdJcQlqDMP\nnAXs6c6lgU+FfUDK5pm44r7XgxOWfvMoOzmpA+Mk8Vgi3edwaRJcRrG1Ih3x\nna9kt7jDKy3rM4XEGczlijH1rXPLWbWiiRvfPd7WdetIZWfNWpKbEGUHymCR\nuflGhmooDalHfmoJM4uWrOOCVW5g7p3sLa4uic87LEv5qk2AF9pnrNYuxARl\nek6fsRXbjJ3A4j8NZppkBtIph+dVDmajkPNxDvSALpir1eL0NOt8eH54Hl0e\nXht4iQRBa34DNhESvgxA4ziUz9C8kxfw9bVm4eZJYR73fx8wBSfFR6MxUcNS\nYrVShMDxMQ170e8HYSCJVSnGMSS5HPOmvYIZ2+b98OrYitSRsNYK7r4J+RXh\nyo+cmVI9K0eeM2Xe/BjGgEwi+5XCGnRWKv3SM3UGDbNWzAf1VO8Yv0cyGdlB\nL56KHp4Z5cafp8gj8U11RdqXPjEsPbrF2xgP6s7xZjfWOhQyqoZ2tKRbCP3O\nr4IojsbDKlymT5i4/jIK7/eDeXTb6CP5oMtwrtQmooHyYyJpDfVYsrgxQJDE\nfkurEdZYfKH8yTUzVYYfYmJoshBGUTrNPzZjoJmmRyAVWKJA1aDfVsJ/Ml7B\nhdL2\r\n=eSVV\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 232680,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTI+SCRA9TVsSAnZWagAA62YP/Rn0mFadVPSlmHt4TvFM\n2SFhen9BNqTaLeExsk/s0vXlKPWndxCuyFLZ00Hue7VtZiOvvkyVHF9dZP7D\nKOq5xyNthiDdXRukrUosy7O3DzuMZLX5Lcxg6BbPvZfP5WI8GTi61nWbv3i7\nPwPIQ6HlxlzsTq+XVmsN44aolIaQn9EoKd++mSKgzeRFh2HbvU/4J/U78uxe\nXK59mWNluuD7Ne+KS5wCZa64RrJpIYG5mdwut6LEEgOJ7C1nCpblOeLbby4k\nnVIiBh8qK2VH2aVQnHgGmLwxufYNlrxaakY93uDp39lyvtQnUiaJriL9DAZF\ngQp76J6q0aTdfejSLDwPXoTDnroUyJ0MlpDnpvXefPXawkFtXmrnxYn/oCUj\n16L1DgprD+25HNkuqdY03GqUQ79SSt70ATxLz/yvJ3VIDnWEOcdhlkso6Gtv\nFzdsVxaC5z1yjNU/UI3wYEC8dJZ7oaCcYiFuIxlGOxmiavCPAl/qgCYMUBVt\ntgjhJXE0Fb+JTyOnAYtC9GZpo1XP/WV092uypGwcilEba3Bvv3EdNRQjSNl9\n/DjAbkCXEc7IcV8bx+69PTTM62xrPDfBnrbv+erwSp6EBaqBEbgWqvg7f9Hz\ng9mv0oxfHXy12NSvD8R2PpwbhiZIhgdfamV8aDStsUee9BeaqK9/BGNWQcON\nAdXx\r\n=pyfF\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

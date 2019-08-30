@@ -2,7 +2,7 @@
   "name": "typed-function",
   "description": "Type checking for JavaScript functions",
   "dist-tags": {
-    "latest": "1.1.0"
+    "latest": "1.1.1"
   },
   "versions": [
     "0.3.1",
@@ -31,13 +31,14 @@
     "1.0.2",
     "1.0.3",
     "1.0.4",
-    "1.1.0"
+    "1.1.0",
+    "1.1.1"
   ],
   "maintainers": [
     "josdejong <wjosdejong@gmail.com>"
   ],
   "time": {
-    "modified": "2018-07-28T19:17:21.816Z",
+    "modified": "2019-08-22T14:19:08.583Z",
     "created": "2014-11-05T13:44:09.393Z",
     "0.3.1": "2014-11-05T13:44:09.393Z",
     "0.4.0": "2014-12-17T15:53:06.904Z",
@@ -65,7 +66,8 @@
     "1.0.2": "2018-03-17T19:16:19.972Z",
     "1.0.3": "2018-03-17T19:29:22.652Z",
     "1.0.4": "2018-07-04T10:21:40.948Z",
-    "1.1.0": "2018-07-28T19:17:19.445Z"
+    "1.1.0": "2018-07-28T19:17:19.445Z",
+    "1.1.1": "2019-08-22T14:19:04.539Z"
   },
   "homepage": "https://github.com/josdejong/typed-function",
   "keywords": [
@@ -87,7 +89,7 @@
     "url": "https://github.com/josdejong/typed-function/issues"
   },
   "readmeFilename": "README.md",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {},
   "devDependencies": {
     "benchmark": "2.1.4",
@@ -108,14 +110,14 @@
   "engines": {
     "node": ">= 6"
   },
-  "gitHead": "aff577b45f4df8bf641cfc128b9e386d31b90809",
+  "gitHead": "675c8f26a6b47f56f779ddd05e066caed8b65ded",
   "dist": {
-    "integrity": "sha512-TuQzwiT4DDg19beHam3E66oRXhyqlyfgjHB/5fcvsRXbfmWPJfto9B4a0TBdTrQAPGlGmXh/k7iUI+WsObgORA==",
-    "shasum": "ea149706e0fb42aca1791c053a6d94ccd6c4fdcb",
-    "tarball": "https://registry.npmjs.org/typed-function/-/typed-function-1.1.0.tgz",
+    "integrity": "sha512-RbN7MaTQBZLJYzDENHPA0nUmWT0Ex80KHItprrgbTPufYhIlTePvCXZxyQK7wgn19FW5bnuaBIKcBb5mRWjB1Q==",
+    "shasum": "a1316187ec3628c9e219b91ca96918660a10138e",
+    "tarball": "https://registry.npmjs.org/typed-function/-/typed-function-1.1.1.tgz",
     "fileCount": 32,
-    "unpackedSize": 143605,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbXME/CRA9TVsSAnZWagAAzoQP/3wgVsIE8O0FXYXkpCoN\nbNmwZ8NS/mYjgmxDhV4f/W3dTlqPToQYfGstl2QylwpjIbS255wxzFthNsD5\n8EopRLhj2Cyww0+DRENpiA3FV3ezQBNLOK5sDEN/1PSFA8IjqACepM4gUxhh\nMp8KwY/H33Jwqv3e1CY3a2EN0UibuCyzRRt8fx0bbe6qjlSJA70kTqTD8cPH\no2tRVWcDQPdK98bSU5DkZ18sQQ7HrRUlI4UdvQNlVAT2hfxpwPZfE7+urjLq\n7Y0Y4tu6g5qBuYdLxR2XS8V8izvIpchcg1a9LXg7L4u3rNgk0JTwtAdqW/c3\nsyAXfCaEH0WvMKeytYgzglezyVXcMDN0QatFia1W/GeZ+2Uap5GzgBhBMCCU\n1orkwpQ/fsakqftlJYRdvuuqFUoCagtof+4TzYizrtjS9TBuiChXiKVy88Yd\ng2sckLjm4az0PvBoSihiRkLs4r26UPUm8z9Bowtl/J0SoPg+TotgU1cMZjEM\nxz4CY5hD00sY2zOc/leeRdBdfHfJUoUc2xhHizZwn17wQP7pxpN5O1R5fRKu\nF/NqUvqWH710XNV1jR9EcHxLle/PPhTc/L6g/eURYD1DK5mz7D6sIa06zjZC\nLMQUEAD6ndZInisAfjj5SaMAEkzctFMG0K15qpp9iqxCEtN1492uMxBA7Ttw\nmaFt\r\n=0cOg\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 144612,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdXqRZCRA9TVsSAnZWagAAcNsP/3v1cZMDQaXTmvSgOIuf\nPnRpvwIKaG7mFcpBBmVIUvu3s5OnAZKUoBC5Hvt8rn5PEYJz80AEBeGB8OkH\nVZLQnjelso1yUzPfcIbbq0B41jyqoFrZtXTGvfgUOTpVQpJsIDPxCMzqGC+i\nJ6nMhMA3r4s/q52N5n6im22kBVxpj7SpqpGZUdrDcjv0OGseAKLXfSEdQLP8\nBVI1iEpq0sNiKWQqLabc7X06BJ706I8WaOzgAtvhCmzRu8jjrlmtDvPQAcOG\nLbNyNzXH+0yGdg4CLozUKJy7PkfjonNqjaC4ZMmZzJKSnxMqy3h0sIYNTqfN\nYbYZK5AZUxcgf9eRacJhf7RzocCkqhFLShHPpU/Y3pvgL3dOXSELdqbWeEJH\n47GUrZXgJeIC5MFZWzkodgrzNwfOQgzQL6Y2Z+CWcsJtlYLMhRTgDhzjz799\nihp0iwHf3yLVj7hw+11Aky95PiQyXEm8e9KZBQ/0q7RG3SDkcdjhMfr/FdEd\n1hRKX0PvjFfn5bgeH+JxnXphKB1VLt17qrlzzj3QunVdtNX/vDsvBVou6P7t\n0EtL7ZsK7r/kCqcSlYiULTlDL/TgnOu9F++dIm5Q9JB9HjWwJmNdliOPPmXq\ne9PixazQrOeYdPEjmTlecSb9SWeDbRd3ZbFT8rKFdU84knejtKAFX3VZ7kvb\nDm92\r\n=xKpV\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

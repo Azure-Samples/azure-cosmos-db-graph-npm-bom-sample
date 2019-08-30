@@ -2,7 +2,7 @@
   "name": "validator",
   "description": "String validation and sanitization",
   "dist-tags": {
-    "latest": "11.0.0"
+    "latest": "11.1.0"
   },
   "versions": [
     "0.1.0",
@@ -199,7 +199,8 @@
     "10.9.0",
     "10.10.0",
     "10.11.0",
-    "11.0.0"
+    "11.0.0",
+    "11.1.0"
   ],
   "maintainers": [
     "cohara87 <cohara87@gmail.com>"
@@ -210,7 +211,7 @@
     "url": "git+https://github.com/chriso/validator.js.git"
   },
   "time": {
-    "modified": "2019-05-23T11:09:08.119Z",
+    "modified": "2019-07-30T08:51:42.048Z",
     "created": "2011-01-04T23:51:47.750Z",
     "0.1.0": "2011-01-04T23:51:47.750Z",
     "0.1.1": "2011-01-04T23:51:47.750Z",
@@ -406,7 +407,8 @@
     "10.9.0": "2018-11-07T23:00:24.712Z",
     "10.10.0": "2018-12-23T05:19:47.316Z",
     "10.11.0": "2019-01-15T22:40:24.228Z",
-    "11.0.0": "2019-05-23T11:09:05.202Z"
+    "11.0.0": "2019-05-23T11:09:05.202Z",
+    "11.1.0": "2019-07-04T20:25:36.871Z"
   },
   "users": {
     "285858315": true,
@@ -918,7 +920,7 @@
   "contributors": [
     "Anthony Nandaa (https://github.com/profnandaa)"
   ],
-  "version": "11.0.0",
+  "version": "11.1.0",
   "main": "index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -931,6 +933,7 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
     "mocha": "^5.1.1",
+    "nyc": "^14.1.0",
     "rollup": "^0.43.0",
     "rollup-plugin-babel": "^4.0.1",
     "uglify-js": "^3.0.19"
@@ -946,19 +949,19 @@
     "build:node": "babel src -d .",
     "build": "npm run build:browser && npm run build:node",
     "pretest": "npm run lint && npm run build",
-    "test": "mocha --require @babel/register --reporter dot"
+    "test": "nyc mocha --require @babel/register --reporter dot"
   },
   "engines": {
     "node": ">= 0.10"
   },
-  "gitHead": "90cc0223498d19cd3b3d58d5fcff6a9cf0884400",
+  "gitHead": "56cd1f04a5c7d97a31d2e9c92133cbbb6ade6548",
   "dist": {
-    "integrity": "sha512-+wnGLYqaKV2++nUv60uGzUJyJQwYVOin6pn1tgEiFCeCQO60yeu3Og9/yPccbBX574kxIcEJicogkzx6s6eyag==",
-    "shasum": "fb10128bfb1fd14ce4ed36b79fc94289eae70667",
-    "tarball": "https://registry.npmjs.org/validator/-/validator-11.0.0.tgz",
+    "integrity": "sha512-qiQ5ktdO7CD6C/5/mYV4jku/7qnqzjrxb3C/Q5wR3vGGinHTgJZN/TdFT3ZX4vXhX2R1PXx42fB1cn5W+uJ4lg==",
+    "shasum": "ac18cac42e0aa5902b603d7a5d9b7827e2346ac4",
+    "tarball": "https://registry.npmjs.org/validator/-/validator-11.1.0.tgz",
     "fileCount": 85,
-    "unpackedSize": 246553,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5n9SCRA9TVsSAnZWagAAXR0P/1XSo3TcOOgd3tTZxjBw\n6OGh9EeNom+2use8IeI5gfezL3ILaWQrYaxhJr8oT38cIMld71PqxqwpRjI9\nRor/abu+xe3OJOpqfRGPXjABE+MRCSofBSmDAogr8us6HIdTxyvLcojKSCPJ\n2UNGKP7+8gaVKK4FRXBGkUjBpf8M8uT1vHWe47BkZqomuwbhdg6jVOtRmYAS\n7BzfnNOcwcqTyu9yidhoBds3dG2pyxWhGUqVq0/0tlsR8AatO1U9k1MtiABw\nESi5nFJ34+PkS9i5daR9wMtrFeZNcOg2zVbAVWPrzNYsoYzIRmi3gMnuR3HR\nF4TBuS2pr6ipLNZSNpKNzNaCQ160Im1cMaatc7G/iH+KJVS91mypl+wNfjva\nE5bgoJDJ/Ugsmuv+I+C9Vd2v4xXQpFbu+G5TM9xp7/QMFXgdLAQEiVBRR5qE\nTwmGPRQ4N8aY36Er2GePJnEv4/L6WrTaEeDArSEhaCKPToWtyokEF9IZOcOL\nQssQllUIo+MYIK720jEVM6vQq1xz8HYpRJHOM0BBKgZDEQEw/uqrbaFieOxn\n6RHYa3X1wfTuKkndVTEnuC41+K6DNIHhD3kANNa8jlMmOuUX3Or3xENf5bIB\njUO8kiLNsrDcENniGJPOPsNQkqdCh5QaPH9VUxVidbzhrZymLCFDIfbgOjDx\nd7ia\r\n=6rK9\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 253067,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdHmDBCRA9TVsSAnZWagAAnmkP/1MRYL9zNQH2Kv6oHWs3\nVCCg6wHzufoBJVWPrY2OvYpbcPB05HOMFJLYs+QFzS4H3sttm7XgeFA70/uF\nlThDwuC8bRwQNA0OLKXs3Pf32pGjFY/zs4GNXJ1DDFzge+C9jAEKRvIcLeeK\n+nC0uNL6l0sBqoyRJfn9JCM+/aPx3Tu4B1f3uw5QBslJUU4i5Xmp3nwVfMau\nKyfenPemXD+JcvOgWqKg41vo7RmTnrOd0UrRQma5wo2xgCvaUPJvFGjUyodM\nyzYL9g3/HkAfotzUfikA1mzB9ERqv3O+yyAx2TkBSJ+3LbxR/lloDLi1YTlE\n4cLbFGvmyd35XI3uwIZJZJAnmSxOvSlv0xtqznTALVvT2ncKsBHI9L72bCMA\nxCmOC1VhqZR7yTlU5dTJlQe5XDWDfeUKdZq+RxvfYMlBxzh67GZZbkllQPZg\nMTmcCoIZYvTaNw9/nS2nxCDSacGLp2e3ECiilPc8P6eHe8MRBP+CsWr7RM3B\n9O44VmpfKEt7VHib2CqhMUOcwIYwjE3XevSmfd8ucgemnvZbZKRTvCTMsiDg\nDdeM9EkRXbMgPzbh6nl68EmVYXHnbt48j5qev8JjpoAN1yj24x4HWvJZMvWI\nyqcrXWv2l8eTFrYy9Zg2Xq45/Uwbhei6nJ0xBUYT7Jfiv5MUuwed9n8biMq+\nXqtW\r\n=nfz6\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

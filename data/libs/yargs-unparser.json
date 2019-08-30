@@ -2,7 +2,8 @@
   "name": "yargs-unparser",
   "description": "Converts back a yargs argv object to its original array form",
   "dist-tags": {
-    "latest": "1.5.0"
+    "latest": "1.5.0",
+    "next": "1.6.0"
   },
   "versions": [
     "1.0.0",
@@ -13,7 +14,9 @@
     "1.2.0",
     "1.3.0",
     "1.4.0",
-    "1.5.0"
+    "1.5.0",
+    "1.5.1",
+    "1.6.0"
   ],
   "maintainers": [
     "acostalima <andreclima.pt@gmail.com>",
@@ -39,7 +42,7 @@
     "vascosantos <vasco.santos@moxy.studio>"
   ],
   "time": {
-    "modified": "2019-04-04T16:50:21.887Z",
+    "modified": "2019-08-19T09:37:33.951Z",
     "created": "2017-08-14T13:07:48.144Z",
     "1.0.0": "2017-08-14T13:07:48.144Z",
     "1.0.1": "2017-08-14T14:41:50.420Z",
@@ -49,7 +52,9 @@
     "1.2.0": "2017-10-23T20:43:37.224Z",
     "1.3.0": "2017-11-05T16:26:20.249Z",
     "1.4.0": "2017-12-30T10:30:52.510Z",
-    "1.5.0": "2018-12-05T20:18:42.530Z"
+    "1.5.0": "2018-12-05T20:18:42.530Z",
+    "1.5.1": "2019-07-30T05:23:25.652Z",
+    "1.6.0": "2019-07-30T05:26:43.120Z"
   },
   "homepage": "https://github.com/yargs/yargs-unparser",
   "keywords": [
@@ -68,7 +73,7 @@
     "url": "https://github.com/yargs/yargs-unparser/issues"
   },
   "license": "MIT",
-  "readmeFilename": "README.md",
+  "readmeFilename": "",
   "users": {},
   "version": "1.5.0",
   "engines": {

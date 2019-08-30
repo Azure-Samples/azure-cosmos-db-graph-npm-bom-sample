@@ -230,7 +230,7 @@
     "esailija <petka_antonov@hotmail.com>"
   ],
   "time": {
-    "modified": "2019-05-24T16:25:02.035Z",
+    "modified": "2019-07-30T01:38:21.735Z",
     "created": "2013-09-24T12:56:29.301Z",
     "0.7.1-1": "2013-09-24T12:56:34.607Z",
     "0.7.1-2": "2013-09-24T13:02:23.729Z",
@@ -1059,7 +1059,8 @@
     "evang": true,
     "cameronnokes": true,
     "kazem1": true,
-    "papb": true
+    "papb": true,
+    "yanghcc": true
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/petkaantonov/bluebird",

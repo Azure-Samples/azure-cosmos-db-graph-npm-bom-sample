@@ -2,8 +2,8 @@
   "name": "async",
   "description": "Higher-order functions and common patterns for asynchronous code",
   "dist-tags": {
-    "latest": "3.0.1",
-    "next": "3.0.0"
+    "latest": "3.1.0",
+    "next": "3.1.0"
   },
   "versions": [
     "0.1.0",
@@ -85,9 +85,11 @@
     "2.6.0",
     "2.6.1",
     "2.6.2",
+    "2.6.3",
     "3.0.0",
     "3.0.1-0",
-    "3.0.1"
+    "3.0.1",
+    "3.1.0"
   ],
   "maintainers": [
     "aearly <alexander.early@gmail.com>",
@@ -102,7 +104,7 @@
     "url": "git+https://github.com/caolan/async.git"
   },
   "time": {
-    "modified": "2019-05-26T21:43:05.252Z",
+    "modified": "2019-07-17T17:44:32.413Z",
     "created": "2010-12-19T16:41:51.765Z",
     "0.1.0": "2010-12-19T16:41:51.765Z",
     "0.1.1": "2010-12-19T16:41:51.765Z",
@@ -186,7 +188,9 @@
     "3.0.1-0": "2018-10-01T01:09:31.821Z",
     "2.6.2": "2019-02-12T22:36:10.059Z",
     "3.0.0": "2019-05-20T02:27:54.697Z",
-    "3.0.1": "2019-05-26T21:43:02.357Z"
+    "3.0.1": "2019-05-26T21:43:02.357Z",
+    "3.1.0": "2019-06-23T05:30:03.875Z",
+    "2.6.3": "2019-07-14T23:30:45.837Z"
   },
   "users": {
     "322434578": true,
@@ -1415,7 +1419,7 @@
     "utility"
   ],
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "main": "dist/async.js",
   "dependencies": {},
   "devDependencies": {
@@ -1440,7 +1444,6 @@
     "eslint": "^4.19.1",
     "eslint-plugin-prefer-arrow": "^1.1.2",
     "fs-extra": "^0.26.7",
-    "gh-pages-deploy": "^0.5.1",
     "jsdoc": "^3.4.0",
     "karma": "^2.0.5",
     "karma-browserify": "^5.3.0",
@@ -1472,22 +1475,31 @@
     "mocha-test": "npm run mocha-node-test && npm run mocha-browser-test",
     "test": "npm run lint && npm run mocha-node-test"
   },
-  "gh-pages-deploy": {
-    "staticpath": "docs"
-  },
   "nyc": {
     "exclude": [
       "test"
     ]
   },
   "module": "dist/async.mjs",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "@babel/preset-env"
+          ]
+        }
+      ]
+    ]
+  },
   "dist": {
-    "integrity": "sha512-ZswD8vwPtmBZzbn9xyi8XBQWXH3AvOQ43Za1KWYq7JeycrZuUYzx01KvHcVbXltjqH4y0MWrQ33008uLTqXuDw==",
-    "shasum": "dfeb34657d1e63c94c0eee424297bf8a2c9a8182",
-    "tarball": "https://registry.npmjs.org/async/-/async-3.0.1.tgz",
+    "integrity": "sha512-4vx/aaY6j/j3Lw3fbCHNWP0pPaTCew3F6F3hYyl/tHs/ndmV1q7NW9T5yuJ2XAGwdQrP+6Wu20x06U4APo/iQQ==",
+    "shasum": "42b3b12ae1b74927b5217d8c0016baaf62463772",
+    "tarball": "https://registry.npmjs.org/async/-/async-3.1.0.tgz",
     "fileCount": 137,
-    "unpackedSize": 689481,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc6whnCRA9TVsSAnZWagAA37wP/2GudUWGTyBV7jK+h58r\n3i/gu5Dxsig6Hm/wYVa84yKgC17KAu5S2nEV/gzX8DQrxsZbbxzK38itcOhH\n//V/YQyfrHCDLCit01M6UOX3YvhDz/6R3YYCKfw+GL168TpXK+AJWUqbaSd9\nSpbMLEGnMRKgcOl6EO5eMPaBYdmbBPoeJF7SLluZK1IMgsx+LXP/AtTLU7ei\nXB/j6KajyT5fc1jgADNG+/uSctEE0+0XXbdp+pY08+N1IUGL4P6wqNaavqEX\nOe1W5KX/EpiOdisAmUVs3QO5lJqq1Q3EP48gAlyBy7iDhToKaEMAixV6512N\n7cgLDgufZ4Dj7zYec0uaQNVzVcJzOh6mH1u5JzBEs2KGVCQaaH/+k65srZO8\n9SnEB1PIM54n+9qxR5S5V+tDGTc3DGMIxa0n+v77oiKzPN7oY9BJKsUX8dZe\nGA8RFZhkaDXSg0LUGYZu6G8HNbGefOQfEdzkJewquIkGPiFnWfrBqFAioa4C\nxEHq+C+wTk3VSbAFu4FoW7Bv2lGJveguau6LhDCRBBopFr+iJS1wxCL1VCb1\njVznKAHGGAqDc2A2YR5Ql9BH+ikdQ334wZt4UqJ2kqior+zQkozaaJRYbVXI\nd1rqcKnEHx3aPVHCczwv+wNqvhRucJd3a7O8uZP1XmzySxLYijfAXnE11FFo\nI3zl\r\n=XwVF\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 693723,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDw5cCRA9TVsSAnZWagAAMCQP/jR2pQSeQf4QEewRMBpe\nPZZiv2WViB92+9wwgKU+qFWvUNJTSuTmOhA6XLgh1dvIee6/4SF+f2ddyXRl\nBrgUZDOPWoPDjr6mlQvOCjFHeDuPzAjwc58kNLFBEOZ9eVrgddmx4rH+T7K7\nZowq2YQsIVkU332lWYaahzfo0qTeJ9PpvYzIaWjF6/ivll3qnL5YTmclx2e+\nkNQK6H3yOar45Fo7W0Cqp8qV3pgep1+Mb23inSk5D35dOK1oBtSMulitDiCY\nrZrR/ieG6e5Ci3FwIFj1fqGpW3gHgitt261nlmLnyCknGGK0KJjIy+d2Gded\nFe0fBAxla7pJoUcVPt54YlOpZ2FoBwHDN5AdK8nPjJDtd3kfZZWLgC376xYo\nT4UCj/CNCW9/WEUUfK2jeU8HRcbJt+Md8tGivywBTXjBG/YZc4sJLTLZ7Tc+\nLbY1iPJK2J7SgevldiJaYuwBPjHmrFA8wQ6I2qB2lFpPfbD27dGlSNN0xIXn\nh9qh0yhXyBzisXwUC1wyAx/39AqrnP71kRAtT1rhMHnQQNtzejlAo/FJxZez\nkqtH/7yZgOcIhsNihN16lpzTN1hfwWo6kLJQbVruIPRaOaz6LsPflVqgupUR\nRohQaq6dp24C6HYKbSTOpEtiNTjwOrW/50s9TKaoUyfmqZXCaPI+egktx32v\n4BKu\r\n=DND2\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

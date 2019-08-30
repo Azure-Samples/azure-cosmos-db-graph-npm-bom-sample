@@ -2,7 +2,7 @@
   "name": "ast-types",
   "description": "Esprima-compatible implementation of the Mozilla JS Parser API",
   "dist-tags": {
-    "latest": "0.13.1",
+    "latest": "0.13.2",
     "next": "0.13.0"
   },
   "versions": [
@@ -166,13 +166,14 @@
     "0.12.3",
     "0.12.4",
     "0.13.0",
-    "0.13.1"
+    "0.13.1",
+    "0.13.2"
   ],
   "maintainers": [
     "benjamn <bn@cs.stanford.edu>"
   ],
   "time": {
-    "modified": "2019-05-15T15:11:31.253Z",
+    "modified": "2019-06-24T22:38:52.576Z",
     "created": "2013-04-24T17:48:55.314Z",
     "0.1.1": "2013-04-24T17:48:56.499Z",
     "0.1.2": "2013-04-24T18:32:45.059Z",
@@ -334,7 +335,8 @@
     "0.12.3": "2019-03-28T00:24:14.994Z",
     "0.12.4": "2019-04-26T15:17:54.299Z",
     "0.13.0": "2019-05-13T16:37:22.387Z",
-    "0.13.1": "2019-05-15T15:11:25.626Z"
+    "0.13.1": "2019-05-15T15:11:25.626Z",
+    "0.13.2": "2019-06-24T22:38:49.721Z"
   },
   "author": "Ben Newman <bn@cs.stanford.edu>",
   "repository": {
@@ -371,7 +373,7 @@
     "parkerproject": true,
     "s4j": true
   },
-  "version": "0.13.1",
+  "version": "0.13.2",
   "main": "main.js",
   "types": "main.d.ts",
   "scripts": {
@@ -397,8 +399,8 @@
     "flow-parser": "0.98.1",
     "glob": "7.1.4",
     "mocha": "6.1.4",
-    "recast": "0.17.6",
-    "reify": "0.18.1",
+    "recast": "0.18.1",
+    "reify": "0.20.6",
     "ts-add-module-exports": "1.0.0",
     "ts-emit-clean": "1.0.0",
     "ts-node": "7.0.1",
@@ -407,14 +409,14 @@
   "engines": {
     "node": ">=4"
   },
-  "gitHead": "ae9d92d4ddb12e9849d8b47d7a1eb4b4ae83f72b",
+  "gitHead": "c208a17d7eeef6a9676990d364f9236e8b7e512f",
   "dist": {
-    "integrity": "sha512-b+EeK0WlzrSmpMw5jktWvQGxblpWnvMrV+vOp69RLjzGiHwWV0vgq75DPKtUjppKni3yWwSW8WLGV3Ch/XIWcQ==",
-    "shasum": "9461428a270c5a27fda44b738dd3bab2e9353003",
-    "tarball": "https://registry.npmjs.org/ast-types/-/ast-types-0.13.1.tgz",
+    "integrity": "sha512-uWMHxJxtfj/1oZClOxDEV1sQ1HCDkA4MG8Gr69KKeBjEVH0R84WlejZ0y2DcwyBlpAEMltmVYkVgqfLFb2oyiA==",
+    "shasum": "df39b677a911a83f3a049644fb74fdded23cea48",
+    "tarball": "https://registry.npmjs.org/ast-types/-/ast-types-0.13.2.tgz",
     "fileCount": 57,
-    "unpackedSize": 513042,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3CweCRA9TVsSAnZWagAAV6MQAIH8qTLt4x38BsbPAIWL\nhqtQRpMC+1xDUGOjjezCTU7SzQCpM2Di/gLvYITYd3Chn4XEHROW+lOXZGQn\nrL6Q8YR1X6LLqn0NJ6nUwBR1Z4mLo380bartcW40zh7z69n2xXps1ubpQSF2\nx1ILhnB45gysx+l7wDOHnJXQiWh7XF3j3vgQ4nLBbTAGzgXd8fk5XRzxo/z6\nWczpfKaeRwlImb9axgo6w6iU4XT/uSxvngdpgmzWJS38fab93xSgSn8ZXVjx\nLola3cBcRV7YG7aHs6T2ZR6awKPSp3gr9U8whYON1I+9geV6mlK4kpVCj50m\nJG9qdROGXnMCPsWMDdkIp2AcB7w2K4OJpaa/eYsBLFKLiUgIs5UPQ5w4qnVp\nUO4YYSS6L9VT+NQ1nbNR8an5tf/DSUdyztQDvPPuor0i/5j8Un6V/r1PMB1F\nSVI+nZqh1YxALBo4806E33hZjvHslsDwWYbw2dVPEaq8reIX31Hu2hj1y1ou\nwrGEToVihIInHjgxSj9qYC+OD8JOOl9fXSdAvs82K1AanR7Fv110/GM2FaQx\ngkftv2w1kZKi26cpp8RdtharQ4Wvxajnsc6ZzGBtDiRGE2VFWYjh+KZcIQM4\n2YlAvyHqVRjtN+ly2ttmhuxaCQPwIbIi10dotFk9uUrbBO/VdOaLDrAon616\nZSNZ\r\n=Itg5\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 513610,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdEVD6CRA9TVsSAnZWagAAx4AP/0SkH7HnEG5YrVM9YbsQ\n9VzwVoYFniNzk4Elh7a7IskTmiuVnExwa4OYs1Yjxn/0SKet5e7qjUKCLvid\nefK1h6AAjWmqkOAAxmlxFMTU+WqjXq6CmiXHgxacK3NH3OkqLDyhuXor0Dac\nOYIN0SLmBm1dWLG/ovw9RfL3mtAouoMxW+vDK/WfG4LN4kHPkm1bX5X3r3Av\n75zbIUIuVulRJcG+isT4uElm/zSE4YmvNuVape83BfnBEOFozeiamwu0yCiX\nuC5ZeoXW4GqJVsIKH2i5edI+oyySWHk9jN2kYvESL30aE2zlkw+9HMa7CxfL\nsjEPU1+Y4IvgFBUffWjvHQnVPPLlLj3QJDq7aEIU4527ZlK0eE/A96j+96rd\nRlR5a0fG5z8d2/+l1XxC0y68K8POxnUc5upv3Ws/DFq7bMYbzLsS+dwe4YkM\ncy7OKp49fgyJv2/RS5xwyd5C0j/YPQWcbqUXRPVouJRetxUBF7O3DMyVsDFK\n+qYApyzC0hZHxSMibyfhBSFMkJv0PRG2X0MbpGc1ILHhdW97dZ64xvQ379/u\npQK3CxZthNECXS49eV2YANnNNLyQPggOC/MSyGIu6AmNOxb0bSNloINWOqm+\naEqf21h3IVBSFs+KTca+gzPUn27Z6M47shlTWTfjUPHgECkJPK6x4FmaVsX2\nSlPc\r\n=bxud\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

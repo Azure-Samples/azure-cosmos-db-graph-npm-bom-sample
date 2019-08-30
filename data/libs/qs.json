@@ -2,7 +2,7 @@
   "name": "qs",
   "description": "A querystring parser that supports nesting and arrays, with a depth limit",
   "dist-tags": {
-    "latest": "6.7.0",
+    "latest": "6.8.0",
     "v5.x-latest": "5.2.1"
   },
   "versions": [
@@ -84,7 +84,8 @@
     "6.5.1",
     "6.5.2",
     "6.6.0",
-    "6.7.0"
+    "6.7.0",
+    "6.8.0"
   ],
   "maintainers": [
     "hueniverse <eran@hammer.io>",
@@ -92,7 +93,7 @@
     "nlf <quitlahok@gmail.com>"
   ],
   "time": {
-    "modified": "2019-03-22T20:48:54.053Z",
+    "modified": "2019-08-17T02:45:38.614Z",
     "created": "2011-02-04T04:40:23.617Z",
     "0.0.1": "2011-02-04T04:40:23.984Z",
     "0.0.2": "2011-02-07T16:45:02.442Z",
@@ -172,7 +173,8 @@
     "6.5.1": "2017-09-09T07:54:59.287Z",
     "6.5.2": "2018-05-04T06:06:13.890Z",
     "6.6.0": "2018-11-25T06:44:41.677Z",
-    "6.7.0": "2019-03-22T20:48:51.184Z"
+    "6.7.0": "2019-03-22T20:48:51.184Z",
+    "6.8.0": "2019-08-17T02:45:35.763Z"
   },
   "repository": {
     "type": "git",
@@ -380,27 +382,28 @@
   "contributors": [
     "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)"
   ],
-  "version": "6.7.0",
+  "version": "6.8.0",
   "main": "lib/index.js",
   "engines": {
     "node": ">=0.6"
   },
   "dependencies": {},
   "devDependencies": {
-    "@ljharb/eslint-config": "^13.1.1",
-    "browserify": "^16.2.3",
+    "@ljharb/eslint-config": "^14.0.2",
+    "browserify": "^16.5.0",
     "covert": "^1.1.1",
-    "editorconfig-tools": "^0.1.1",
-    "eslint": "^5.15.3",
+    "eclint": "^2.8.1",
+    "eslint": "^6.1.0",
     "evalmd": "^0.0.17",
     "for-each": "^0.3.3",
+    "has-symbols": "^1.0.0",
     "iconv-lite": "^0.4.24",
     "mkdirp": "^0.5.1",
     "object-inspect": "^1.6.0",
     "qs-iconv": "^1.0.4",
-    "safe-publish-latest": "^1.1.2",
+    "safe-publish-latest": "^1.1.3",
     "safer-buffer": "^2.1.2",
-    "tape": "^4.10.1"
+    "tape": "^4.11.0"
   },
   "scripts": {
     "prepublish": "safe-publish-latest && npm run dist",
@@ -408,19 +411,19 @@
     "test": "npm run --silent coverage",
     "tests-only": "node test",
     "readme": "evalmd README.md",
-    "postlint": "editorconfig-tools check * lib/* test/*",
+    "postlint": "eclint check * lib/* test/*",
     "lint": "eslint lib/*.js test/*.js",
     "coverage": "covert test",
     "dist": "mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js"
   },
-  "gitHead": "125e103b61f2bef245970f5a2a8dceffe5aab59a",
+  "gitHead": "57657fffc89c4dafb830ee78ec79892a17653eed",
   "dist": {
-    "integrity": "sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==",
-    "shasum": "41dc1a015e3d581f1621776be31afb2876a9b1bc",
-    "tarball": "https://registry.npmjs.org/qs/-/qs-6.7.0.tgz",
-    "fileCount": 18,
-    "unpackedSize": 142918,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJclUozCRA9TVsSAnZWagAAoroP/0PHjSUPNl7JIbIdKciJ\nBCTXasz49hv66gp1crSOmRPut07b3ao8gfYA4asdVauyJUteb9LtFqDOcvz9\n/VXV7XU63SnJIF2tsWV5sRvLgX4NgQzViijUH5XuE62potDawIa6M2i4zJTh\nWO5OSmizv/ODNCkoNw0tNiriB9sqQ1hXzcWg55geAWy4COB5E0+OvWKV9j/x\neAHQVUKBJTfNb+SsN8YqtDK9Dp+rGy0VCKn606FWu/l79sK4JvMYdpDpRliE\nX546lMOEzYZDDH+2Yq7n365PKV2pDzomRSoJnPWDimz6AbKDy0MIKpXQVmhi\n52MjXPgHhCntt2ETQToj6yA9Suy4DQ1nxtZtDdudMxr+4hqJShBhgMGTqpX6\nMS9wBP5CisDzpzHglcH5gRvDF4HLJU52/AXk2hECQsfVPTQx4R6gl/c0jCRQ\nIo7bBcFPaAsYQUjfo7PiOpMUZX5T1STBXAS7rN3tf02OBpnWD38xNu9t/6hI\n5HiurnlTVCUxajdGSitX0JZKDTI7bskIoiXTDMQxT3ppo1aptzP+9ZGiUZjz\nJRVD6LAC1PFC0cFXvlo0ZNbh0DxgiIHOCMpveS/8uh4KdZaWjnbhoMRTRgi+\novatKeu2pqLJqtZkh+016+dRR8QYDsFVDgRPc3qBOmMsR1CZ2E54euLpoFzf\nRfi3\r\n=ivNL\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-tPSkj8y92PfZVbinY1n84i1Qdx75lZjMQYx9WZhnkofyxzw2r7Ho39G3/aEvSUdebxpnnM4LZJCtvE/Aq3+s9w==",
+    "shasum": "87b763f0d37ca54200334cd57bb2ef8f68a1d081",
+    "tarball": "https://registry.npmjs.org/qs/-/qs-6.8.0.tgz",
+    "fileCount": 19,
+    "unpackedSize": 148758,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdV2pQCRA9TVsSAnZWagAAvyQQAJDQK8zkD7AjVqr8BYy6\nc/fXvt1TxD4m+5T4vUMuGisTN4nEW86ugHrvuG7sfLCTCySQyNo6xdHVz6ea\nDLzH9PUCWM8R1OWmyXQ5kyyJItqVG9kkeTUer9s09hqEtWz5vuCGS9rq0J8F\nc8gjynqBpAS9UkoyMvP22fV+e/L2VXYXx7nndWpkm59DQsohreHsNDWr3F9A\nwAqmW7eVG57Ls66ukfvoWXPRA8jIVpRuysf6s8RpSOxrZiYUTmyWmOZHWTHk\nWi16XxTvEWwr0wvPhozMK4tOA95iMh2kneo5gPckFBpEKqHwKJJAfoq8jbcg\nH+/kxik3KKblHgO9wWpeSfZHyZFKjZec+W50FcNQfcfUd3UNU3ONRGZKRz5D\nqwB8La11JkMYGOAQYEOuOtCNRlCdfhqMlcBTVjsPx9yck+/afjTy5CUch5R4\nkuTdPEheAU2xldRz6QSYASY+w5i1zQXex6bF+JzA5zwtaYVtWlwIz8HraSZt\nMaOkNLw9rw/mlz2VwfEwoZJOoCzF+ceUUxrWo+vILmGbn0dXjQH/6P/w9KID\nCTNj0Y8Lg7XVjcxVWGhvmwpco+uCRl3bgzH9VwRgrK9WztIGnbyBrJ4FM2+d\nC7Dh+rXqi06LUAIU9+vwtiwRkB7KH2HpOW0WRnPUUXihHZFeITsMTANmlMGd\nRdqb\r\n=cmSp\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

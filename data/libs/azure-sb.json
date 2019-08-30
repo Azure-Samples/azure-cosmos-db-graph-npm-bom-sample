@@ -2,7 +2,7 @@
   "name": "azure-sb",
   "description": "Microsoft Azure Service Bus Service Library for node",
   "dist-tags": {
-    "latest": "0.11.0"
+    "latest": "0.11.1"
   },
   "versions": [
     "0.9.9",
@@ -20,13 +20,14 @@
     "0.10.4",
     "0.10.5",
     "0.10.6",
-    "0.11.0"
+    "0.11.0",
+    "0.11.1"
   ],
   "maintainers": [
     "windowsazure <azuresdk@outlook.com>"
   ],
   "time": {
-    "modified": "2019-04-08T20:15:04.120Z",
+    "modified": "2019-07-15T18:23:11.643Z",
     "created": "2014-07-30T23:10:18.715Z",
     "0.9.9": "2014-07-30T23:10:18.715Z",
     "0.9.10": "2014-08-12T00:42:09.960Z",
@@ -43,7 +44,8 @@
     "0.10.4": "2016-09-02T05:42:47.611Z",
     "0.10.5": "2017-09-29T18:33:03.215Z",
     "0.10.6": "2018-03-02T21:08:21.216Z",
-    "0.11.0": "2019-04-08T20:15:01.155Z"
+    "0.11.0": "2019-04-08T20:15:01.155Z",
+    "0.11.1": "2019-07-15T18:23:08.970Z"
   },
   "homepage": "http://github.com/Azure/azure-sdk-for-node",
   "keywords": [
@@ -70,14 +72,14 @@
   },
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "tags": [
     "azure",
     "sdk"
   ],
   "main": "./lib/servicebus.js",
   "dependencies": {
-    "azure-common": "^0.9.19",
+    "azure-common": "^0.9.22",
     "underscore": "^1.8.3",
     "wns": "~0.5.3",
     "mpns": "2.1.3"
@@ -86,12 +88,12 @@
     "test": "npm -s run-script jshint"
   },
   "dist": {
-    "integrity": "sha512-ygUzezpR7z2ZGAF8WZ8Dlyl2TFoNgPnd+RL9lZF+LTI7IUp3h2bVU39uTKs4KqawvGc6hwlOR5lHVnWaqHqXlQ==",
-    "shasum": "2adb4ac1991c1aee1ccb8148e26f57f7fd7c327c",
-    "tarball": "https://registry.npmjs.org/azure-sb/-/azure-sb-0.11.0.tgz",
+    "integrity": "sha512-ZYgPeSDMD99i/Em+6wT78zvBkJ/dbh2ypb4DbqQ1Flaif5vWJFzC/iKxxcq/vq+THWoO3+UbqWa0JNXnW3zAvw==",
+    "shasum": "15cba11c1a3b4aca68c344460b99bceec14be11a",
+    "tarball": "https://registry.npmjs.org/azure-sb/-/azure-sb-0.11.1.tgz",
     "fileCount": 25,
-    "unpackedSize": 260246,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcq6vFCRA9TVsSAnZWagAAF70QAIgfUsf4QYJjFod4M5wb\nPLrJcMWMRlbnRMQR322xq+pS1L4qrNbNMvCoNH68dJtBy1iZvVaUpXA7saGt\nSM+ZPDcLQC2ym/8T/kYFw5Hc79EvdVBQcRyc6UQHc8dcyUVRj8NPBIYEgunH\nDEgss8z8kIhaJczHllIjzVGWwZrl/3q+lTzlyoujMjb3mjgXAUCuc3QN5Vzg\ncAzUZiwHzPursEvaWGgcfJsM97BKdS2sbTyeJs7RNlkOClEFPJe9cwjxK2jy\nBfh1YBh59oM94+0i5CZZMW+HlK9FhAMV062BzTk9lwc2V920/S5BMWxbxkdX\nlXEMLWzmnmfB0dNfFJMjnzz1fewFhptwvgH6/QUMuMi32gGqyb5LrcLbzYh5\n3AY5d6ppP6FcjktjYB60AnfbIoS13jk03atyVg28OBJVXvuEbjGocaKV3e94\n6Cy9w3qNC3R+WbOVilMtFlhSm4cdNKI04ZJMAPr+NsEh2bLaLdpY9zPxAnCr\nEsSnrf77nAqSdj0sxtFVcosfPslS2ehN8mt3ZMwF5K3yxMroUriK6SOB6JlE\nkPfyPYrhBOjdCAHpN8eMfwcnvAXiTbZLkOVccu1tby3l77ve2KytrR15hQS5\nVoOF8BzJObEe1FIFPQbydRPovWLLe3ru8srWoAiBVFBV95msOz4PPQXJvn+9\nyL0D\r\n=Qd4f\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 262789,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLMSNCRA9TVsSAnZWagAAwM0QAIxUKdY6rtm5PIMCYMbN\nuRLoL2Y4HnNzAS+RcENXmK2W8Y9mVM6oG31drcobcHfdf4Fp0pqta+iYIF81\nkbRgdrXfNZ9YiFbrSbs2GzaUPmhZtSR/X/SEFmlKP81O44oJoPyeEh+0cfLY\nJQ8uo1o7VXgpTR5sBQLkLaOBaFtv7S4496OOVteq3Mi4iZInGE5yCpCSvNZr\nJTcZxxIkNcSEO8YFgZtyIl1m6yvoGdPjwdjzdLdLz5grUe623XpzRtULDWWD\nO5wlZK6Dnm0KiOMrhJdomctLga5Nle3HBwgfu55DSu8Y6sZlKL/sK7pbObAi\n80hDwTeHby+aqcIMDujoR2ETibu4Aph89a9oY4GvlONHFkh2tkGmywH9oSRi\nx2nnSBRANbHuqzVP9JK8EMCru6iPIU15eVZVk2laP86W6Tt2EaEkWY+Ziu0M\nJfOGnChikz5wYeQA30tjspuz96kjcKnyimJss1n4ZimBmQA9z8wX5ndHGUiC\ngEuRe+rqKiJI3jElBz+AdzEprXpFPSpMD4LpsZ+g99KhWmyIHmkylq6bAwmD\nPA7hEtw6Do5HIBepI/oY0PXG6+urO4grBhcJ2tbe4zrptNM9Nep73UH/6kwo\n/U7RZVBbIm1ogfBErXdwe1TIT1T6Na8M2bexHwMzZAsoXDTmCyQ6nZgo0ZpA\nk+oL\r\n=bciJ\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

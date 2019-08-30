@@ -2,7 +2,7 @@
   "name": "moment-timezone",
   "description": "Parse and display moments in any timezone.",
   "dist-tags": {
-    "latest": "0.5.25"
+    "latest": "0.5.26"
   },
   "versions": [
     "0.0.1",
@@ -46,7 +46,8 @@
     "0.5.22",
     "0.5.23",
     "0.5.24",
-    "0.5.25"
+    "0.5.25",
+    "0.5.26"
   ],
   "maintainers": [
     "ellenaua <elenasharovar@gmail.com>",
@@ -57,7 +58,7 @@
     "timrwood <washwithcare@gmail.com>"
   ],
   "time": {
-    "modified": "2019-04-18T06:13:18.274Z",
+    "modified": "2019-07-06T15:01:56.103Z",
     "created": "2013-07-07T20:38:40.501Z",
     "0.0.1": "2013-07-07T20:38:52.823Z",
     "0.0.2": "2013-07-17T17:22:38.040Z",
@@ -101,7 +102,8 @@
     "0.5.22": "2018-10-29T02:28:57.851Z",
     "0.5.23": "2018-10-29T03:06:41.067Z",
     "0.5.24": "2019-04-18T05:11:22.429Z",
-    "0.5.25": "2019-04-18T06:13:15.919Z"
+    "0.5.25": "2019-04-18T06:13:15.919Z",
+    "0.5.26": "2019-07-06T15:01:53.525Z"
   },
   "author": "Tim Wood <washwithcare@gmail.com> (http://timwoodcreates.com/)",
   "repository": {
@@ -206,7 +208,7 @@
     "raciat": true,
     "aaronwells": true
   },
-  "version": "0.5.25",
+  "version": "0.5.26",
   "main": "./index.js",
   "engines": {
     "node": "*"
@@ -234,14 +236,14 @@
   "scripts": {
     "test": "grunt"
   },
-  "gitHead": "c377ac8fd7ff6c2fc52e2f432034ac5727dba1d8",
+  "gitHead": "0e21dfc7692c9f887450fd02fefa8d4f7b7d0825",
   "dist": {
-    "integrity": "sha512-DgEaTyN/z0HFaVcVbSyVCUU6HeFdnNC3vE4c9cgu2dgMTvjBUBdBzWfasTBmAW45u5OIMeCJtU8yNjM22DHucw==",
-    "shasum": "a11bfa2f74e088327f2cd4c08b3e7bdf55957810",
-    "tarball": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.25.tgz",
+    "integrity": "sha512-sFP4cgEKTCymBBKgoxZjYzlSovC20Y6J7y3nanDc5RoBIXKlZhoYwBoZGe3flwU6A372AcRwScH8KiwV6zjy1g==",
+    "shasum": "c0267ca09ae84631aa3dc33f65bedbe6e8e0d772",
+    "tarball": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.26.tgz",
     "fileCount": 19,
-    "unpackedSize": 3362443,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcuBV8CRA9TVsSAnZWagAAE7UP/2lvPnN4IcLciFqSh+0R\nlFHE3qrbA+ZbwtSuYiuymRos787IKM7m9nXV8E6xVjYlfVoTnj3t4SWP/NOq\nUP/WX0XtKuutnXvUgsB4xdfjIu4+EOslbRlV5g2ps0gqMBVIsPaFEha2ztEc\ns5auiSc5+akn82VXqhp8ft1WkBxJ7HaAXdFrf5nCoe2OPu8o7YosG3/r382y\ne3NpVYEEVtZ1d/ERLzXaimWjNkfF3RHbh9SMZGnQ/bxWWlTh2s7ppbYDIawy\nDCXYq7M67kdSYJSGPujTxLRaJFmLsNJFviN4Ajc0TUUm06B405toXY8xJpXw\n2gy9OaeIHvtpGPDqBLlqbThcndkzLTEe6dj2Fxlw6FrPWLtLPiN0PknM17F6\nX6lNnvJPyQ6DAQJB/2ftNQS0WWy1pstLMyXMHhe9j3O4BURJfhRz2m245zg6\n0/3rLayY6Ms+58V4XL3kudh/CQXeGtDFFF8sLqJY7JAQbjbwhnG2/Issi3Uj\nyKx/8z4QKYaDfe7ltNxcEGiJ1zGW+V75B9Jd2gKIPP2z+bFxjfG+Oi+vTjl9\nhdZvKnn29IKbsERWkLNwfWkKe6kqhm7H5ULcJ8pX1K+3miuDdCwIjKu2xdbZ\n5Z0N3TCTGmhT24wqgx6EKXTBkJnM/FerEo87D2mmppVaedx3gbHXfPiQyxhq\nemYf\r\n=fHS9\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 1115483,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdILfiCRA9TVsSAnZWagAAHBAP/3jc1ryaFn/se5HkhljL\nW8EW1VYW6P3PZ2lcInQ7AkS9tFygTX7VLxn5ZvDQPziDjJjmVRO/kL/oEbBG\nIn0BS3UbqMSwey3htgr7EqzwXrHGgPUeWEwkAKeI3eq1fQHDHhFALpGzc48+\nCmW/qV9uqcR4xVLe57R4QlNzSjwKxgvGdNZmufAMowEQtMfmoNGQZFe8DBWP\n/MdBcRRIQRVIQOf/f9ULzq0sFaxAG1jYMSGEJn4qztaBnLpu00CiKU/Ye7A7\nLlOi2oBFH9BUJ850dkCmIIgQL0kCrOqsU/kE7usvfocaSwFtZmgHabOL4c6/\n4eThGycmJRLZYdpgiq38nYRvDE6Afy1jbMbGGrqgsukPzVVJkCJ684uWpl5D\n0xVnzq6iFA0mzye9xMpa3YN50HBit9ZIydyv84oI9klnlLl03htDF5KtUj1N\np6oKd1WnmR7RdwuE6GbhRl0i8iaaLUL8rzUqa3jSJufg2uJwBiMVC1YBQiCv\nANoAS76Dzyq+MNBs/ZMC21mQtmbQVc/q1/Sq2TlN//9h3TuMw7tMbpyP6Rpk\n9OC8KwuDHXMe1Wq56WJZ4T+zN4+YIlotLWfZajm+/yYKQS3kt+ObSjmKXYKd\nZaQscAq2XGpfMyJX/k7LEeoetCLlH7XSOwZ1w6TGAebqpWLRRmZM/ps3z746\n6LHI\r\n=hEFP\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

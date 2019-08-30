@@ -2,11 +2,8 @@
   "name": "chokidar",
   "description": "A neat wrapper around node.js fs.watch / fs.watchFile / fsevents.",
   "dist-tags": {
-    "latest": "3.0.1",
-    "1.0.0-rc1": "1.0.0-rc1",
-    "1.0.0-rc1.1": "1.0.0-rc1.1",
-    "1.0.0-rc2": "1.0.0-rc2",
-    "node6": "2.1.6"
+    "latest": "3.0.2",
+    "node6": "2.1.8"
   },
   "versions": [
     "0.1.1",
@@ -92,15 +89,17 @@
     "2.1.4",
     "2.1.5",
     "2.1.6",
+    "2.1.8",
     "3.0.0",
-    "3.0.1"
+    "3.0.1",
+    "3.0.2"
   ],
   "maintainers": [
     "es128 <elan.shanker+npm@gmail.com>",
     "paulmillr <paul@paulmillr.com>"
   ],
   "time": {
-    "modified": "2019-06-02T21:56:39.241Z",
+    "modified": "2019-08-21T17:48:28.127Z",
     "created": "2012-04-26T01:32:10.158Z",
     "0.1.1": "2012-04-26T01:32:12.087Z",
     "0.2.0": "2012-05-04T13:53:24.862Z",
@@ -187,7 +186,10 @@
     "2.1.5": "2019-03-22T21:18:23.993Z",
     "3.0.0": "2019-04-30T16:52:43.801Z",
     "2.1.6": "2019-05-15T12:36:00.092Z",
-    "3.0.1": "2019-06-02T21:56:36.311Z"
+    "3.0.1": "2019-06-02T21:56:36.311Z",
+    "3.0.2": "2019-07-07T00:05:26.645Z",
+    "2.1.7": "2019-08-21T17:38:26.838Z",
+    "2.1.8": "2019-08-21T17:48:25.609Z"
   },
   "author": "Paul Miller (https://paulmillr.com)",
   "repository": {
@@ -384,39 +386,38 @@
   "bugs": {
     "url": "https://github.com/paulmillr/chokidar/issues"
   },
-  "readmeFilename": "README.md",
+  "readmeFilename": "",
   "license": "MIT",
   "contributors": [
     "Paul Miller (https://paulmillr.com)",
     "Elan Shanker"
   ],
-  "version": "3.0.1",
+  "version": "3.0.2",
   "engines": {
     "node": ">= 8"
   },
   "dependencies": {
     "anymatch": "^3.0.1",
-    "async-each": "^1.0.3",
     "braces": "^3.0.2",
     "glob-parent": "^5.0.0",
     "is-binary-path": "^2.1.0",
     "is-glob": "^4.0.1",
     "normalize-path": "^3.0.0",
-    "readdirp": "^3.0.2",
+    "readdirp": "^3.1.1",
     "fsevents": "^2.0.6"
   },
   "optionalDependencies": {
     "fsevents": "^2.0.6"
   },
   "devDependencies": {
-    "@types/node": "^11.13.4",
-    "chai": "^4.2.0",
-    "coveralls": "^3.0.1",
+    "@types/node": "^12",
+    "chai": "^4.2",
+    "coveralls": "^3",
     "dtslint": "0.4.1",
     "jshint": "^2.10.1",
     "mocha": "^6.1.3",
     "nyc": "^14.0.0",
-    "rimraf": "^2.4.3",
+    "rimraf": "^2.6.3",
     "sinon": "^7.3.1",
     "sinon-chai": "^3.3.0",
     "upath": "^1.1.2"
@@ -440,14 +441,14 @@
       "toString"
     ]
   },
-  "gitHead": "b9cd3eec337c95b27a4a6616c89a95465bb1a887",
+  "gitHead": "589cb020967dfa6c61e7a08510ff39e4e9e2e4b5",
   "dist": {
-    "integrity": "sha512-2ww34sJWehnbpV0Q4k4V5Hh7juo7po6z7LUWkcIQnSGN1lHOL8GGtLtfwabKvLFQw/hbSUQ0u6V7OgGYgBzlkQ==",
-    "shasum": "98fe9aa476c55d9aea7841d6325ffdb30e95b40c",
-    "tarball": "https://registry.npmjs.org/chokidar/-/chokidar-3.0.1.tgz",
+    "integrity": "sha512-c4PR2egjNjI1um6bamCQ6bUNPDiyofNQruHvKgHQ4gDUP/ITSVSzNsiI5OWtHOsX323i5ha/kk4YmOZ1Ktg7KA==",
+    "shasum": "0d1cd6d04eb2df0327446188cd13736a3367d681",
+    "tarball": "https://registry.npmjs.org/chokidar/-/chokidar-3.0.2.tgz",
     "fileCount": 7,
-    "unpackedSize": 81090,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc9EYVCRA9TVsSAnZWagAADtkP/27LzWHPxixtrY1aF1cO\nhpYIgs5OiIV6as8JVl8WB1HX7eJrroNU81pquue5x/erOK4/MflT33rLUVRe\nwYpVNi2rkkfVe9DCwvvambLCQWCz0qhFaOK5KQBmFwbZnyLuHkBDt69ql7Hp\nbsPFRTAd85hcATrf+01xQ1Ed+N44hUjnKQ0zLm75NaoeCVM3knWPVX8ckaov\n3iOgaL/wVQvk157IKJ5WFlpBIX+dk0TpvXpofhB/EN4qhH+ByR7Z5xqT04FK\nFha6/Ct8O5dved6huRrP+6L1ax9Z3kf5rM2Hc9FvWeQ0r58Mq2j/XqK/tyPl\nd7D1Dy1BqSZ3Lb3ZLCGXTcsq1thY1kRG/AIWhKoNPL7HHPEeOnktoSTAD09X\nfOl1A7McSbhm9IKRK4NXQaTI9Ayb61J5X9XxTXzeJZQczoJp6rR1mCTVLYMr\nPkDu7eQquHjS1179XhbRZPCmZhgeNsgNwZBnIMRKUjXPW8lRpqvlroNa/Mi+\nXGYO3y+wOS+szWiOyZU0uYtWZLVLZOHuyuM8JeQSZJj2bLcYDv29Cb/5P3wP\niCzbFPxQtzFKLmFSvTIEG5I9vCdgmmVVjh6otq12louExFboMGzs7xpQaQts\nXP1ZgiWFRIf6UXhUuq/ckpGgOclkRSFyV/fTNmnE0ysJy0yhUja16iDykBc9\nv8z7\r\n=fgXE\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 81277,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdITdHCRA9TVsSAnZWagAAwlcP/Rx/WJu3dAt5HmeaPpN8\npTlITljHJKOjbtiwau+TySYYdO8JmPlplHdolJ73p5mBLYu3TUy8DNd6vb1f\nwPh7jMxV5Tff4LHonf6S+P9tqOmTm1EZP5hnFkRKXApTwhO+mAVN8W4MLo6T\nGgIKRMeg37WaMe20LV85H4SswTP+M+N8UikuJfBnZEAY/u1UUmHGj4bvbsou\nflogbqsnVk2Zi5QO8KBAXp7boDyWFT+xTHOkmaCuTg9KmjTBX2w9xVM+dB+Q\ne1Po6bn+oEfTCJ8FsUNM6dF6oV9WV3tfv6Bl4EbPjGnqLS9riCtPfnytTXZ5\n+zv5i5s8j4lnCfbec5vEZRHrgrGjNXgNpNc6a6Q7eOkuXv3DsTOPLwFHcsaP\n68ZEXNUElEb827+LNFcUE2FbmujNuSrFX0Jq7qv+x/aEV9DfJG9/QSzGs1yM\nngUuZhMz/7+4tjp2O8k1tmDt3BOgm2tl4q1rIFduhHxslYWYS96B0KlNjqGR\n8Dwl5WHnM5nskJ2RQqGNbSm/VyIr5pNreIHpW1hL4LEweAN66ocvL5fqslnu\nGS9aCfv00U+EtgyV58v6jxmP8Iv0UdNpFGAx9IFFYdzqXwTlrjWsv2wknHOt\nV5AbIlkmq5cLcij28y0mv8PnPX02bV8OBcLpu+xqt02ihrqevcVDOoBPUnfG\nlZC3\r\n=P/Sx\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

@@ -2,7 +2,7 @@
   "name": "sourcemap-codec",
   "description": "Encode/decode sourcemap mappings",
   "dist-tags": {
-    "latest": "1.4.4"
+    "latest": "1.4.6"
   },
   "versions": [
     "1.0.0",
@@ -15,13 +15,15 @@
     "1.4.1",
     "1.4.2",
     "1.4.3",
-    "1.4.4"
+    "1.4.4",
+    "1.4.5",
+    "1.4.6"
   ],
   "maintainers": [
     "rich_harris <richard.a.harris@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-05T12:53:39.850Z",
+    "modified": "2019-07-04T00:38:44.596Z",
     "created": "2015-10-10T04:50:15.664Z",
     "1.0.0": "2015-10-10T04:50:15.664Z",
     "1.1.0": "2015-10-18T15:09:08.751Z",
@@ -33,7 +35,9 @@
     "1.4.1": "2018-03-13T20:21:21.972Z",
     "1.4.2": "2018-09-20T17:04:24.647Z",
     "1.4.3": "2018-09-20T23:22:06.943Z",
-    "1.4.4": "2018-11-21T16:54:00.227Z"
+    "1.4.4": "2018-11-21T16:54:00.227Z",
+    "1.4.5": "2019-07-03T20:41:55.528Z",
+    "1.4.6": "2019-07-04T00:38:42.100Z"
   },
   "homepage": "https://github.com/Rich-Harris/sourcemap-codec",
   "keywords": [
@@ -54,7 +58,7 @@
     "scottfreecode": true,
     "monsterkodi": true
   },
-  "version": "1.4.4",
+  "version": "1.4.6",
   "main": "dist/sourcemap-codec.umd.js",
   "module": "dist/sourcemap-codec.es.js",
   "types": "dist/types/sourcemap-codec.d.ts",
@@ -73,24 +77,24 @@
   "devDependencies": {
     "codecov.io": "^0.1.6",
     "console-group": "^0.3.3",
-    "eslint": "^5.6.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint": "^6.0.1",
+    "eslint-plugin-import": "^2.18.0",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0",
-    "remap-istanbul": "^0.12.0",
-    "rollup": "^0.66.0",
-    "rollup-plugin-node-resolve": "^3.4.0",
-    "rollup-plugin-typescript": "^1.0.0",
-    "typescript": "^3.0.3"
+    "mocha": "^6.1.4",
+    "remap-istanbul": "^0.13.0",
+    "rollup": "^1.16.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.5.2"
   },
-  "gitHead": "b184a14649d1615562d8fcf7d202cc967894f994",
+  "gitHead": "394141c1c3c1e67662fe3935bc866c41e922fdfb",
   "dist": {
-    "integrity": "sha512-CYAPYdBu34781kLHkaW3m6b/uUSyMOC2R61gcYMWooeuaGtjof86ZA/8T+qVPPt7np1085CR9hmMGrySwEc8Xg==",
-    "shasum": "c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f",
-    "tarball": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.4.tgz",
+    "integrity": "sha512-1ZooVLYFxC448piVLBbtOxFcXwnymH9oUF8nRd3CuYDVvkRBxRl6pB4Mtas5a4drtL+E8LDgFkQNcgIw6tc8Hg==",
+    "shasum": "e30a74f0402bad09807640d39e971090a08ce1e9",
+    "tarball": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.6.tgz",
     "fileCount": 7,
-    "unpackedSize": 15177,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9Y2oCRA9TVsSAnZWagAAvZwP/jBXRuecoUVubCViPohI\nb9q4oM0oNuReRn/cJsdh3+aSO+HwDt9fyoILB7CBEqaNVfUp7r/PyAozp4n6\nHOcfZE8jjv+DyboIHGjjHFnttPqmwpJFxWOq3sYIkfjsxS+6jamMjMZKD/h8\nFKWjecB/H5FtN/uUx0UOWFsFcnfGoeWgtzh4ylc9nxX0JZlbkxK14v/KshMA\nB8w6r0Pw90I6uqdMXuq5/MVD0GgMEEVS/z9NzJ0LCmJ8jWNP19qZouOxciwo\nTazTzcvqrIgJj2egA5an+3F6PC51iQpPgwPpMGqTqX96+IGyw568DEJiXb4c\nnREQw/KF2qW2slGrw/5I+YyWvLmrUUVfJp76zLGRkQ0uJfRfxRcYjWf8th54\ntMTIjOfcK1ZioQNiz2U7jFYkc8sI5oPsgTsVMaaPD0ixDQrNnqyO2QtR2yJk\n4ee0kGLctFJIOi/8RJJkTmu3rXIa5C550Y+CMsx18ynmO9xO7qdm+nRq4mXm\nVrWUgWhgZpUQI4UH9qbzNeRCBex2ScAm1OnjpUxOD323/dZQoTH/nDU0ickY\nhITprfz/FVULmYWh2IYw+n1iaHhRL7bjFp6KHDHnqcRysLvpVP8qh0DaKFmO\n5XGXapdGdGPNvbqs2WcW1zBzsLPIFA5Boi1sPKuiWI+mk3CBJ+AVjqnaNg+C\nKV1o\r\n=+sQd\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 15571,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdHUqSCRA9TVsSAnZWagAAdTQQAJgas18su0Eb/22Lb/WE\nZOhJ++Oz0+Zm87s2R6L8qARo9IbJxtPJeQXniyy6aIbp9K50yC2hOPfucPip\nwNJPHO0ieL0jtz+lSnlW3Aqz1N7ub8Wm+cbMbfW/m6YZ9wironN9fanmD4Q+\n1Mmbib/P2Vqe1XuF7ZSlzhg1jnJA2ejw3OeeYP0CkdfzxELSydOI451ACcD9\n+tlwDvVzkvf5QXV57viDJm5f0dQ0q9sNwJHoBZkxUzPFNNJqtl7ofRtoK8L3\nZUG+P/mht7KRpEdl133g0ctpCX/Giq4G+7KwZUqNmx5ATxAyOEWU3Vg+nBW5\nmJNbtoz1GETnrNfPDoBQWAzOdLILotHVvXhTk7ldzMujTDnZZ9mYU8GMkvgG\nURwirUIcGVFUhuKT5HTU7k8uTMpI4dxwUO4Rh7JzeCDAnvWTvmEOaK1kdye/\ni8ha6DYHa00EXBGknMyazX8za/rs1F1VxrEF6XPYWsgrkmc/WkOXM/Bhzqtj\nQ5qW7eZY+1JMhq29kFGX2AmXTJ+DHknlL//hTpg0+js7v6AWu8gUL6L4VGAC\nvezIPuQ+Vij/Vo7a2RphyN3kZYXlmD4eBqUIgE6+8B7QA7WF6+87LKq2JfJG\nFstBoQalxeWWVytwfSNfJA5zO3j16/SYeQrDEQA0FYL2T+umnTecCXRDW+tU\nKsfE\r\n=49YL\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

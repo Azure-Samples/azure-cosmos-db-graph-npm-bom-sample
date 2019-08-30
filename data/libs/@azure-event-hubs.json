@@ -1,7 +1,8 @@
 {
   "name": "@azure/event-hubs",
   "dist-tags": {
-    "latest": "2.1.0"
+    "latest": "2.1.1",
+    "next": "5.0.0-preview.2"
   },
   "versions": [
     "0.0.1",
@@ -15,12 +16,15 @@
     "1.0.7",
     "1.0.8",
     "2.0.0",
-    "2.1.0"
+    "2.1.0",
+    "2.1.1",
+    "5.0.0-preview.1",
+    "5.0.0-preview.2"
   ],
   "time": {
     "created": "2018-09-13T00:59:54.257Z",
     "0.0.1": "2018-09-13T00:59:54.565Z",
-    "modified": "2019-06-10T19:36:20.574Z",
+    "modified": "2019-08-06T19:33:33.551Z",
     "1.0.0": "2018-09-13T02:45:48.197Z",
     "1.0.1": "2018-09-13T03:11:14.506Z",
     "1.0.2": "2018-09-14T19:49:04.626Z",
@@ -31,7 +35,10 @@
     "1.0.7": "2018-10-26T01:29:57.452Z",
     "1.0.8": "2018-12-14T20:01:41.968Z",
     "2.0.0": "2019-03-27T21:35:36.081Z",
-    "2.1.0": "2019-06-10T19:36:17.904Z"
+    "2.1.0": "2019-06-10T19:36:17.904Z",
+    "5.0.0-preview.1": "2019-07-01T17:45:56.785Z",
+    "2.1.1": "2019-07-16T18:04:57.502Z",
+    "5.0.0-preview.2": "2019-08-06T19:33:30.920Z"
   },
   "maintainers": [
     "amarzavery <amarzavery@gmail.com>",
@@ -52,14 +59,14 @@
     "url": "https://github.com/azure/azure-sdk-for-js/issues"
   },
   "license": "MIT",
-  "readmeFilename": "README.md",
+  "readmeFilename": "",
   "keywords": [
     "azure",
     "cloud",
     "event hubs",
     "events"
   ],
-  "version": "2.1.0",
+  "version": "2.1.1",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "dist-esm/src/index.js",
@@ -156,12 +163,12 @@
     "ws": "^6.2.1"
   },
   "dist": {
-    "integrity": "sha512-Q4W8jFqCZoZ8E46luXP0czNAEWPhMihgC2KWUs7PiCzvKiaGwWHaAQQ4LKk5+Ao3yfEQyf06fgR8i9BDOh26Fw==",
-    "shasum": "34853995ff237ff34b28fca0919deba601946afc",
-    "tarball": "https://registry.npmjs.org/@azure/event-hubs/-/event-hubs-2.1.0.tgz",
+    "integrity": "sha512-nGnFBPcB/rs+5YWwmHJg+d3Cs7BrjtVfuD1eEv8j+ui2X6uXxB88wom1A2t/7xsSzkunQSrXJ2mCwdHxKI5aHw==",
+    "shasum": "204d69af123cefc0290d1500acf87a721d3f8893",
+    "tarball": "https://registry.npmjs.org/@azure/event-hubs/-/event-hubs-2.1.1.tgz",
     "fileCount": 51,
-    "unpackedSize": 734567,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/rEyCRA9TVsSAnZWagAAHGgP+wdIeYgkDhJIHEhx3/H7\nQp4tThUQUkUr9zpsFBIHmEXMX+UVS99iDAid2OPTT+SPZ6EDmEaELLlBOCGS\neX+URPHxMt6UF6H3NMHQnkfBC3eBSrgxtTOdKWyTi9caI6INpzOY3EOSGjXr\n9qBCichxtkw/aFyzMHdD0K/P0cwzveuELoYcZJP1V6c6oxBa/ZVrzR/zTetP\nBxdcoYw3u4Sx2A27CvX9tOPfzNMqa6n+qPALPBCim8uwCzJeUEreWaRdi7b3\n3rGmMEH6BGxoEmStFh/C+ai1CavzHsWFbEIaSSalPJJV8Mw3t9rM5bNWx6xp\nLZifTxr/SfqODmp/tOtabBF+374YAsiAYZZg1aFjJB4rAVRDmbuIYIJzzT7S\nybUBwP5Ij3xWDtXZlzKdfOzCA33IkNiNVultKmgGqhv5BXnW5WMIROLYGyry\n10LdwAlf9iXpzOs5Li2zrk0xRJ6UDCSNBclH0Adm8yNCg8cgtELkRTZAZWcn\ngLfaAzjIsq67U3ciZnDVqJgr6Dn7koXNGIMWE5TZLPc4fPlrLp6p/Or4Djqk\noxch8XCGANhy1hfketYpjL8Ft7nSZuSJ2lRx5DM+OeBdM9RynZE/RbgvJxXU\nNyGWiLdxI2ELOmHeWd7ZPZ/SzNFnVQcSfNjawbdqC+es8JHIX/f+kHD0HdJD\niqWX\r\n=AmUb\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 741813,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLhHJCRA9TVsSAnZWagAAQkMP/R+WSYSXFGehpRfRld8L\nHHHpGJ4iiN2V6m5JBNt215sWh437NN5tf9T7pViPUNHudIWvJx2Ik5Bb1HWa\niXX3/SfPN0LQPuf1NMOXAT4BgBRT2AB5IQ2HR+xm62Qo/cPTteCVbOwlW3jo\n0YYV9fCk7b2LcMXjefAqUetRbdJP/p+I7X8pXiASw1MG0Sufrc4xT68Cdw9y\nvzPy+rXGtbFQa1hfE5u9Lc84yxNJ3EjwHIje4MJAwfDhTNUn1hS5QOl9Jhqc\nk2XlOKHB5yyn7a5R+Q/RngDNOgtHD8lgeNCMTB1m3sbm9cR709KNGooV3fCS\n/Kpwt0LQYj8EoFk/0k4UMMziuDDMlwRYeW5cLZgmMvH5ovu2rELTj+zfsXsD\n6dSg57XJ5WPbT9Zt2/INR0WB6GYXV+loPeaeqQX50nqDoFMNH2A6UkqADdwC\n/Lii5dhugKQ+aRxOLk45lJKoHMToN4eOMoHMDnSTgmoaks1lC54suPhxnnV2\ntAI8WjujbsDyf9VDIPLKEz2cvO45wCoVjb/YrpDQAbPCeynkQjRybSOZQgsy\nPzk2zk2BB2F5o+blzAT5QWJxny6rll6p0efgKbe4VMMMnSbPDgQYLspeFE84\nBpoQRhIlBIL6RCp1pSvvvd1zHyj8XK2hFrI/53fXqO2/R6oCjBjNTcDan+jw\nP7b6\r\n=1fdT\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

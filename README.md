@@ -178,6 +178,12 @@ Finally, load your Azure CosmosDB Graph database, npm collection, with the gener
 $ ./load_gremlin_graph.sh
 ```
 
+When the load process reaches end-of-file, the program will display a line of output
+like the following.  This is normal, just CTRL-C in that Terminal to end the process.
+```
+load_next_row 4685 : undefined
+```
+
 Also load the Azure CosmosDB Graph database, views collection, with the materialized views.
 
 ```

@@ -2,7 +2,7 @@
   "name": "rhea",
   "description": "reactive AMQP 1.0 library",
   "dist-tags": {
-    "latest": "1.0.7"
+    "latest": "1.0.8"
   },
   "versions": [
     "0.1.0",
@@ -57,13 +57,14 @@
     "1.0.4",
     "1.0.5",
     "1.0.6",
-    "1.0.7"
+    "1.0.7",
+    "1.0.8"
   ],
   "maintainers": [
     "grs <gsim@redhat.com>"
   ],
   "time": {
-    "modified": "2019-05-06T23:29:29.535Z",
+    "modified": "2019-06-27T17:49:04.113Z",
     "created": "2015-11-18T17:21:30.804Z",
     "0.1.0": "2015-11-18T17:21:30.804Z",
     "0.1.1": "2016-04-20T13:25:52.733Z",
@@ -117,7 +118,8 @@
     "1.0.4": "2019-04-10T16:21:11.757Z",
     "1.0.5": "2019-04-11T08:23:33.735Z",
     "1.0.6": "2019-04-11T10:01:26.427Z",
-    "1.0.7": "2019-05-06T23:29:26.584Z"
+    "1.0.7": "2019-05-06T23:29:26.584Z",
+    "1.0.8": "2019-06-27T17:49:01.445Z"
   },
   "homepage": "http://github.com/amqp/rhea",
   "keywords": [
@@ -133,7 +135,7 @@
   },
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "dependencies": {
     "debug": "0.8.0 - 3.5.0"
   },
@@ -164,14 +166,14 @@
   },
   "main": "./lib/container.js",
   "types": "./typings/index.d.ts",
-  "gitHead": "ac87209468437e795a83b51d907b3acd3a4e4814",
+  "gitHead": "1d963527449872efcabebebcd508e54fea58b7ad",
   "dist": {
-    "shasum": "65808c1b88b6aa27578b9a3495a63467ec72f51c",
-    "tarball": "https://registry.npmjs.org/rhea/-/rhea-1.0.7.tgz",
-    "integrity": "sha512-AQOnM8OjGZyTP1TFsP7IY6O0+obYmkF2OxuRbj0O5eUzNUA5w3jeMOwa7aD1MnjwE5RIZjwdNdIfSzoWk8ANag==",
+    "shasum": "402058b6794ba361cd84c1598e4b9f3e38d974e2",
+    "tarball": "https://registry.npmjs.org/rhea/-/rhea-1.0.8.tgz",
+    "integrity": "sha512-TNv6rD/74h2QiXrUpFHw6fzGNuOpVOcjPRGtlKC5eIy5NLfvb2RiZGZs7lpg4al22p5pAAQjLZuPTDipReUzPA==",
     "fileCount": 44,
-    "unpackedSize": 878802,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0MNXCRA9TVsSAnZWagAA9uEQAJteJBOV/J2z383vDezx\neQGMCM1OBUj2MBgiRI2PD6CSqhY9FmbsDtjw2H+MBrNyWk8y+Zv9328uP80c\nyOniRQwxrMKCrQVfIRWfdk5AyynIwpsSB7vRLwa6FKLoaiUEvaqv2X1ZMqpY\nnp9/ZNIRKFizr9Bs96KXVrHOg1+T0/DGTgombb4lBAeS1VPSBc69bij7pueX\nvYwk3Mb2Q8rpA+fEVPYTPZg3BRu2p2/NfZEejMnj4BX1T8uobrJTrnest9X1\nod3nxTGW1eX+dmnFWlvYU8HiWtgp/AaqfFEisKpgFzRp12olAYPYxNO+6ONy\nmkEyka11QihgJ+Vmc69zolqNPhN6fEKxRsVuaRCcPMweZmvbjTlBY+1omY3r\n36xRu+eXoCvopDLwX3FwD/VLbAw2i0tWHaj0A8bV1V5L2XnofxdLSl6lVW0b\njudfzsPMKj35/amkGAwhCuslY4HquocGvGMP7AeGKc1g8MFuOtVrsVQctjEw\nIc6tPqJ+/dKIO0wUhP7LA4iSnbWqX41y8m2olDyjEXGeqy2lq78nhkPDZfsO\n2c68QY9wrEppVoxOZtbGLQF6xeXoSeV4hPf3Iw4JRThFIlt0vzlsp9E0yAeL\nZMJRlLeAnYeoMEK5sZj5p0TeGhlQWQVvgF8s6Ye72J2hYk3kpidUuC4AaDKt\nlpnX\r\n=og46\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 881138,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdFQGOCRA9TVsSAnZWagAAGk0P/2X0qiWuoIklIBeKTuTz\nMwU8Xl75KxJOSZfeXKvR4dGT6iqosatVSt17A7JgZuELB4X0WU7KAHc/GNeu\nd2nFIbZl/gnb5NWtcu6DJTLWM2qS0/akYCkfeORzWuv9lx2168vSN3JDj9/F\nKOIbP4E0VE8lxkizcdzWh17M1NvCigbP6muCIGGPRSByCdqi957yQ7TDAmrA\nJUq9K+3tnLsJzyZNJ5rXWqwiMusYmCVd80g2crb31lxRgwZGkFYzUHVPtaJf\n/pyIpxfk2qSaEQUTLBszPr87+Pv06ghpNe3rvrW5LPZhf1E8wwh3Jtknql5V\noVxwXrktljTi6l26UUYqe1Vuqj9mPQBLi5Fswp6u0NG9n+IIx3liMiFu4mPe\nvEb4rbm4SkSFdeOR1uqiZ/DW49QOY9x+RrlEA6xDhEQK4OZwQW6V8m5H3u0z\nCsvLdYbdcio4RBaQI3byhKjxeNfh2xoh8YEjSWY4gUXiU4YFmyB1JDqmA73M\nUP7R7HnDHoSQ/c5dm2jCnfm+fwDI7lLj/uIp78UdpOpUpzxEuO8DsPl/1H7w\n6RWt4XInp52H/atl8WV0BOI0XIoCKUC50qKENEKvgLQdWxdP5lgwm02VreyZ\nNgk3XtIHc/IxLWVSYTJqFExZqRz194OXPvx1/hK6Z8coLO6GZ4PPtsMFrYFA\n2nYc\r\n=2TUL\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

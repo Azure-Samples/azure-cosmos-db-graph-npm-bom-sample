@@ -75,7 +75,7 @@
     "dougwilson <doug@somethingdoug.com>"
   ],
   "time": {
-    "modified": "2019-04-26T03:31:28.552Z",
+    "modified": "2019-06-26T15:53:37.424Z",
     "created": "2014-01-06T08:25:15.060Z",
     "1.0.0": "2014-01-06T08:25:15.060Z",
     "1.0.1": "2014-03-20T22:25:27.731Z",
@@ -765,7 +765,8 @@
     "wandyezj": true,
     "tcrowe": true,
     "juanf03": true,
-    "ahillier": true
+    "ahillier": true,
+    "habiiev": true
   },
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",

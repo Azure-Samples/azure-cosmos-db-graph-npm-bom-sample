@@ -2,7 +2,7 @@
   "name": "mathjs",
   "description": "Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with dif",
   "dist-tags": {
-    "latest": "6.0.2",
+    "latest": "6.2.0",
     "beta": "6.0.0-beta.3"
   },
   "versions": [
@@ -173,13 +173,17 @@
     "6.0.0-beta.3",
     "6.0.0",
     "6.0.1",
-    "6.0.2"
+    "6.0.2",
+    "6.0.3",
+    "6.0.4",
+    "6.1.0",
+    "6.2.0"
   ],
   "maintainers": [
     "josdejong <wjosdejong@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-11T19:17:36.145Z",
+    "modified": "2019-08-28T14:22:44.890Z",
     "created": "2013-02-17T00:39:13.911Z",
     "0.0.2": "2013-02-17T00:39:17.052Z",
     "0.1.0": "2013-02-18T20:38:11.328Z",
@@ -351,7 +355,11 @@
     "6.0.0-beta.3": "2019-06-05T10:18:43.871Z",
     "6.0.0": "2019-06-08T18:39:20.624Z",
     "6.0.1": "2019-06-09T18:59:13.265Z",
-    "6.0.2": "2019-06-11T19:17:33.320Z"
+    "6.0.2": "2019-06-11T19:17:33.320Z",
+    "6.0.3": "2019-07-07T09:40:46.359Z",
+    "6.0.4": "2019-08-05T20:33:08.074Z",
+    "6.1.0": "2019-08-17T20:09:08.239Z",
+    "6.2.0": "2019-08-28T14:22:41.229Z"
   },
   "author": "Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
   "repository": {
@@ -531,17 +539,19 @@
     "Stu Blair (https://github.com/stu-blair)",
     "Thomas Brierley (https://github.com/ThomasBrierley)",
     "Timothy Lee (https://github.com/tetslee)",
+    "Tom MacWright (https://github.com/tmcw)",
     "Tóth Róbert (https://github.com/Nekomajin42)",
     "Todd Morse (https://github.com/morsecodist)",
     "Vlad Levitskiy (https://github.com/mcvladthegoat)",
     "Waldir Pimenta (https://github.com/waldyrious)",
+    "Waseem Yusuf (https://github.com/waseemyusuf)",
     "Zach Zibrat (https://github.com/palimpsests)"
   ],
   "bugs": {
     "url": "https://github.com/josdejong/mathjs/issues"
   },
   "license": "Apache-2.0",
-  "version": "6.0.2",
+  "version": "6.2.0",
   "dependencies": {
     "complex.js": "2.0.11",
     "decimal.js": "10.2.0",
@@ -550,18 +560,18 @@
     "javascript-natural-sort": "0.7.1",
     "seed-random": "2.2.0",
     "tiny-emitter": "2.1.0",
-    "typed-function": "1.1.0"
+    "typed-function": "1.1.1"
   },
   "devDependencies": {
-    "@babel/core": "7.4.5",
+    "@babel/core": "7.5.5",
     "@babel/plugin-transform-object-assign": "7.2.0",
-    "@babel/preset-env": "7.4.5",
-    "@babel/register": "7.4.4",
+    "@babel/preset-env": "7.5.5",
+    "@babel/register": "7.5.5",
     "babel-loader": "8.0.6",
     "benchmark": "2.1.4",
     "codecov": "3.5.0",
-    "del": "4.1.1",
-    "expr-eval": "1.2.2",
+    "del": "5.1.0",
+    "expr-eval": "1.2.3",
     "fancy-log": "1.3.3",
     "glob": "7.1.4",
     "gulp": "4.0.2",
@@ -569,15 +579,15 @@
     "handlebars": "4.1.2",
     "istanbul": "0.4.5",
     "jsep": "0.3.4",
-    "karma": "4.1.0",
+    "karma": "4.3.0",
     "karma-browserstack-launcher": "1.5.1",
-    "karma-firefox-launcher": "1.1.0",
+    "karma-firefox-launcher": "1.2.0",
     "karma-mocha": "1.3.0",
     "karma-mocha-reporter": "2.2.5",
-    "karma-webpack": "3.0.5",
+    "karma-webpack": "4.0.2",
     "math-expression-evaluator": "1.2.17",
     "mkdirp": "0.5.1",
-    "mocha": "6.1.4",
+    "mocha": "6.2.0",
     "ndarray": "1.0.18",
     "ndarray-determinant": "1.0.0",
     "ndarray-gemm": "1.0.0",
@@ -586,18 +596,21 @@
     "numericjs": "1.2.6",
     "nyc": "14.1.1",
     "pad-right": "0.2.2",
-    "standard": "12.0.1",
+    "standard": "14.0.2",
     "sylvester": "0.0.21",
     "uglify-js": "3.6.0",
     "underscore": "1.9.1",
-    "webpack": "4.33.0",
+    "webpack": "4.39.3",
     "zeros": "1.0.0"
   },
   "main": "main/es5",
-  "module": "main/es6",
+  "module": "main/esm",
+  "unpkg": "dist/math.min.js",
+  "jsdelivr": "dist/math.min.js",
   "scripts": {
     "build": "gulp",
     "build-and-test": "npm run build && npm run test:src && npm run test:generated && npm run test:node && npm run lint",
+    "compile": "gulp compile",
     "watch": "gulp watch",
     "lint": "standard --env=mocha --env=worker",
     "validate:ascii": "gulp validate:ascii",
@@ -619,18 +632,19 @@
   "directories": {
     "doc": "./docs",
     "example": "./examples",
+    "es": "./es",
     "lib": "./lib",
     "src": "./src",
     "test": "./test"
   },
   "sideEffects": false,
-  "gitHead": "8d3b79bf59cd475476af046df55aafe18488806a",
+  "gitHead": "ce6f29788c47dfc32bbb58d558b0eac17b269c61",
   "dist": {
-    "integrity": "sha512-K3Q0qoZx7iFz0PnFC0b4kIRZPBQq6rg4htRGnLU4o7SvBTNZnACaUrqqk6sQ891aa7maCDKp8PK1J8YyDAmw2g==",
-    "shasum": "b6996898f3f0401bd4da4593164cc82e8ac3b014",
-    "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-6.0.2.tgz",
-    "fileCount": 2531,
-    "unpackedSize": 8157117,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc//5OCRA9TVsSAnZWagAA0RMP/0B4mjnQtvG/11j7ZrsD\n/fZFxbnK0c5wxG4njHwOr2mC6MYgiU75ZiH2JUIdBVkRsNKekFNfGaFCh4xb\nUQT46szZiItURudSbY8edpzU3VC2JGNNvRLeU+s9aLjg3wsj0eRcJ+2jxneB\n7wyB9iKdmhLSoXOCawmtjrq2u1IZAYOOT71h1TmulWCqrdfw1fxkDg2AQ2y2\nXLZCtPkO9483Tn3+lVcsnAAcyAVUba+71ickn9j5dTrOl1j1tISqCktvj2/F\nzQaon5sAG37SsZOkNh5I0SYHNW0lv4Rro1sEMRom0ZQkM9fHCO5fn1CV7b0b\nLPoN9myXKgh37MIP8RgBmEB9reE/HUqgZUsvnxNuTwlb5Q7gvWJnmg8t/Jeo\nCGsJsm9ULFxAZbB8cyN38U5F14aCKY66M3Qd5m/5sZCCplw49kDSKSHXXFRG\nfHY6xhTLvSAthVfjpbC7NfYZiqKIxaIfJuK8BqLWOKwPiE5YZG23GEMD9Ial\nNSwsfdBQZTzhtl3mGUK1ndWTYspdSbYHcpNeQA8CbBnurngwYZNNR1MdI9Y+\nJLoQ9ZdplSLRnYe72HDgK+fGGaEZrc5BgsDhF7i9RMoOrQFs62ZJXjk6Nqfv\nLSgCNHC7jBI7Cy8fQR5k1QG95N9Slg5v4vAIf1Y81WP89Y/cuvVtoCxL5Det\ngdMy\r\n=PMqI\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-YKMkW/Nwr8umoh+kg5d6F9IuD0MMn8MEE7bGe5+zZv0zm+2zLPVt5yAqyapfrdkD/0ufoPJ4gUzjiy8GhW5zVQ==",
+    "shasum": "9f86e12b8c4eca895f98a52ecb858ae2da9279ad",
+    "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-6.2.0.tgz",
+    "fileCount": 3668,
+    "unpackedSize": 10172839,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZo4xCRA9TVsSAnZWagAACC4P/2CHB+EFzWQkZYMSily3\nmL0dxP22AFOBrMmABzCbdLw0oqDoz2JtpA4OcyPYbks4LyJa51+MFOTyVsbt\nMiiQeDKAg1o5wT2UmmvVeUE7uJ+xciZcLs7D8gmESDcXEwfplfR5gu6QYUTP\npY23vn3GRkLkmJsOZOWBktiIlfXP5GR8nETyAcpjWQ/AjSD9QIgLrLxPEgNh\nWWZZZLDvGNgW4GEiXeGtN6Wp8rgQObPAZPYDkUoWl4cNZulOTibNKi76oLJQ\nqZCDKQ25Oi69oricnv04eHXgRd40XGJ4IjymWAD8+akLS6muGMQTq7bAnMK0\nSTZwf0NxuodrFUiI4y7U0ZQJygPIMfsSqncKJRAUtbLjHfTT2HUjSUgXuoad\nD/FrF+ers263lGaFWUSATpkSdsPL1vpFVM+++9xxyEJVVPxN0gzCbAgRAVgE\nG4odw5v268IuAibPZO5IOhTaqzid8y1MQTOAvoH9kaCc4R8HrCwxeoTYdm63\np90JhlyYv5/x9Tyy8yCMIeFHynmCOHD7Brkh6afcJN2UxT6yraRFSj8yenLj\niERvMGRGQp/Sep1oGxzwpNuawcldl5+MPd89hzPfcH+Z1EX2O/xLzk74zTep\ntZ1E+gl99YdakoozSW32ktXJgOcR0XKau4eeSp3Mjcue1gLsipe/XwQlkAgK\nXaVj\r\n=x7KI\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

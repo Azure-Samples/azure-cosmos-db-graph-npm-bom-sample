@@ -2,7 +2,8 @@
   "name": "fast-deep-equal",
   "description": "Fast deep equal",
   "dist-tags": {
-    "latest": "2.0.1"
+    "latest": "2.0.1",
+    "beta": "3.0.0-beta.1"
   },
   "versions": [
     "0.0.1",
@@ -10,20 +11,24 @@
     "1.0.0",
     "1.1.0",
     "2.0.0",
-    "2.0.1"
+    "2.0.1",
+    "3.0.0-beta.0",
+    "3.0.0-beta.1"
   ],
   "maintainers": [
     "esp <e.poberezkin@me.com>"
   ],
   "time": {
-    "modified": "2019-01-03T20:58:16.440Z",
+    "modified": "2019-07-07T16:45:08.214Z",
     "created": "2017-06-15T22:26:29.798Z",
     "0.0.1": "2017-06-15T22:26:29.798Z",
     "0.1.0": "2017-06-16T21:59:08.238Z",
     "1.0.0": "2017-06-17T20:22:51.722Z",
     "1.1.0": "2018-02-25T20:45:49.397Z",
     "2.0.0": "2018-04-28T09:07:16.594Z",
-    "2.0.1": "2018-04-28T10:03:50.090Z"
+    "2.0.1": "2018-04-28T10:03:50.090Z",
+    "3.0.0-beta.0": "2019-07-07T13:39:58.009Z",
+    "3.0.0-beta.1": "2019-07-07T16:45:05.499Z"
   },
   "homepage": "https://github.com/epoberezkin/fast-deep-equal#readme",
   "keywords": [
@@ -40,7 +45,7 @@
     "url": "https://github.com/epoberezkin/fast-deep-equal/issues"
   },
   "license": "MIT",
-  "readmeFilename": "README.md",
+  "readmeFilename": "",
   "users": {
     "colshacol": true,
     "sxhyxnchxng": true,

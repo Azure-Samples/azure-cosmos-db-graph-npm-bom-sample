@@ -2,7 +2,7 @@
   "name": "color-convert",
   "description": "Plain color conversion functions",
   "dist-tags": {
-    "latest": "2.0.0"
+    "latest": "2.0.1"
   },
   "versions": [
     "0.1.0",
@@ -38,13 +38,14 @@
     "1.9.1",
     "1.9.2",
     "1.9.3",
-    "2.0.0"
+    "2.0.0",
+    "2.0.1"
   ],
   "maintainers": [
     "qix <i.am.qix@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-14T16:35:50.153Z",
+    "modified": "2019-08-19T21:05:40.679Z",
     "created": "2011-06-10T04:11:24.300Z",
     "0.1.0": "2011-06-10T04:11:24.939Z",
     "0.2.0": "2011-06-16T17:17:49.090Z",
@@ -79,7 +80,8 @@
     "1.9.1": "2017-11-08T21:58:56.163Z",
     "1.9.2": "2018-06-12T01:22:12.214Z",
     "1.9.3": "2018-08-28T05:32:39.014Z",
-    "2.0.0": "2019-01-31T17:14:16.204Z"
+    "2.0.0": "2019-01-31T17:14:16.204Z",
+    "2.0.1": "2019-08-19T21:05:36.605Z"
   },
   "author": "Heather Arthur <fayearthur@gmail.com>",
   "repository": {
@@ -119,7 +121,7 @@
     "url": "https://github.com/Qix-/color-convert/issues"
   },
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "scripts": {
     "pretest": "xo",
     "test": "node test/basic.js"
@@ -141,14 +143,14 @@
   "dependencies": {
     "color-name": "~1.1.4"
   },
-  "gitHead": "66068bffd44c0303ab5b72a64a31f6899d13f32b",
+  "gitHead": "e1cb7846258e1d7aa25873814684d4fbbbca53ed",
   "dist": {
-    "integrity": "sha512-hzTicsCJIHdxih9+2aLR1tNGZX5qSJGRHDPVwSY26tVrEf55XNajLOBWz2UuWSIergszA09/bqnOiHyqx9fxQg==",
-    "shasum": "9851ac61cc0d3898a8a3088650d5bf447bf69d97",
-    "tarball": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.0.tgz",
+    "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+    "shasum": "72d3a68d598c9bdb3af2ad1e84f21d896abd4de3",
+    "tarball": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
     "fileCount": 7,
-    "unpackedSize": 27216,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUyzoCRA9TVsSAnZWagAAuUMP/13rMhUhoF9/xcfTJijb\nHmpq0WhB95p8UrqDE5DML/IhmIAtOO2YTMDmDiFi9ruwfC90rjt1JyI14G0G\nnmiyIqi3y+TPBWh4XhKval7Fo9N/Ar5hGTQNXCI0uLmjiSjMl+CZc5UmvOhv\nWq421A1Qkh31nFfbLiMC6bL2BFN3TUIcHQAFuxrUQcb/gIRZPnbAjlfSFSgx\n1Pv+67QEOUKKKCAlB0DEd6UAA4Qjhjca6gBfl9eU+2ZvpbXPVxuvRDVchRYM\nFfbk4jUCPgLu503a3gi7Sikio1Q8jZRiCxvQyHH7NiIi/Mw5qoQxvLdYvW9x\nBtMXMT9k+V89XkLBQ8edfpxyQ8a16ltkYowtFSN7DJnglt6M3j3pZtyjscNI\n7OkkC4AP/HrRz5HBPCwNSmczVyRYIqhLgwFONOCkJQdaS6k9db4X+dvVIfzE\ntO0SBdklnpgoqLG++OrOack1+ZbouPeg1DkNMayva0uRfOQq2ps4jSOcGHiY\npq/iIR9GrtUSfgpMJC/rIZFL2GSScFbYIiOyS20+W4qL2DbJkifrOIcMvy6w\nAuou8WmOHeblEJpzYl7CCZW8GRW2UIkM2j1WpQjyYOxUEQFBSGRb0EHpqrAS\n09z2ZbuWC0JZ5xF4U4uwYg1PxWIUoopVCRVMJ+HuG1fMRNFwXASGfcNKKt6y\nAvtb\r\n=+pms\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 27189,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdWw8hCRA9TVsSAnZWagAAc60P/14ziCngY6rmLxrmBZwI\n/u9S0nyyyBwBtCMRDYg9QnZizmcuDmeoBb1ptCNHAqPzW9O5xS4jtc59h+Cz\nFJgsFWNdSxQm7VraaBfgRvlDD+epDc8TyHRarG3wZ3GwK/xUPDkY8exK7JHl\nTUqwy3rOSJlxlfY5KYqvcAw9jUW4Ki5NA+1mvWpill/T6GwwiU9/mxv3Ul6f\nSuid8MxGZxBKVy5qMASbJ452cer5QyPgbty57ZdpAqWiIK0s6iaESJJCjfxI\nyiO7lWZMpgRfDihzSCxBhEb3hdO+7dia5M/RJm2L0jkW1rO6oTtvdOiI82AN\nRgRMT53u+ZVgf3gXoVQHgHmb2aikycXVSnwRv4Z6JIrToxbxbYj6AmNgSb39\n4Royuzzlt17SIKTkJ0BF3ZKeumnQyeK2aIgDahRzT1xeVvCcpMLqsgpu6FKP\nsMDk9f7+nKvaQf13D7xh9tEeMB3wd5ab2FAYpk7Gk47jtOQTG5FGyGwIKCyn\nxaxv85/KDAITn0AQQ2dyPuUshoTQVPUCnaGlN2XNtnLQ9QjPXIkTfdYlgry4\n6ysJCtzKLrjaz1zXpvBxQmexcjpBozt7raOO76XqDc9rQY8hirMMT+kFn4wy\nBK0FSk4jJNPqb9GduVnyMGR3eq5UxrDZbYdowb+DpDBEih/DUimhi0+5uro1\nqeOh\r\n=9TuD\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

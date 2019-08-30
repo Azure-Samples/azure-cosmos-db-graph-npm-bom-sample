@@ -2,7 +2,7 @@
   "name": "ansi-styles",
   "description": "ANSI escape codes for styling strings in the terminal",
   "dist-tags": {
-    "latest": "4.0.0"
+    "latest": "4.1.0"
   },
   "versions": [
     "0.1.0",
@@ -19,14 +19,15 @@
     "3.1.0",
     "3.2.0",
     "3.2.1",
-    "4.0.0"
+    "4.0.0",
+    "4.1.0"
   ],
   "maintainers": [
     "qix <i.am.qix@gmail.com>",
     "sindresorhus <sindresorhus@gmail.com>"
   ],
   "time": {
-    "modified": "2019-05-31T07:09:56.796Z",
+    "modified": "2019-08-21T23:35:50.218Z",
     "created": "2013-07-31T23:00:29.145Z",
     "0.1.0": "2013-07-31T23:00:32.552Z",
     "0.1.1": "2013-08-03T00:31:59.821Z",
@@ -43,7 +44,8 @@
     "3.1.0": "2017-06-12T22:42:00.220Z",
     "3.2.0": "2017-07-23T11:25:48.038Z",
     "3.2.1": "2018-03-02T09:40:00.702Z",
-    "4.0.0": "2019-05-31T07:09:54.329Z"
+    "4.0.0": "2019-05-31T07:09:54.329Z",
+    "4.1.0": "2019-08-21T23:35:47.551Z"
   },
   "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
   "repository": {
@@ -91,7 +93,7 @@
   },
   "license": "MIT",
   "readmeFilename": "readme.md",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "engines": {
     "node": ">=8"
   },
@@ -100,21 +102,21 @@
     "screenshot": "svg-term --command='node screenshot' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor"
   },
   "dependencies": {
-    "color-convert": "^2.0.0"
+    "color-convert": "^2.0.1"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.3.0",
     "svg-term-cli": "^2.1.1",
     "xo": "^0.24.0"
   },
-  "gitHead": "3df6a798ff5a86fed4e93d638a0d8525056e684d",
+  "gitHead": "18d3055ac5dab4c210534ce525d6493430d557d9",
   "dist": {
-    "integrity": "sha512-8zjUtFJ3db/QoPXuuEMloS2AUf79/yeyttJ7Abr3hteopJu9HK8vsgGviGUMq+zyA6cZZO6gAyZoMTF6TgaEjA==",
-    "shasum": "f6b84e8fc97ea7add7a53b7530ef28f3fde0e048",
-    "tarball": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.0.0.tgz",
+    "integrity": "sha512-Qts4KCLKG+waHc9C4m07weIY8qyeixoS0h6RnbsNVD6Fw+pEZGW3vTyObL3WXpE09Mq4Oi7/lBEyLmOiLtlYWQ==",
+    "shasum": "d3ba8047b818293eaaa7978321dd61bff9842cfc",
+    "tarball": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.1.0.tgz",
     "fileCount": 4,
-    "unpackedSize": 9741,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc8NNCCRA9TVsSAnZWagAAAiQP/2a4KgMz9t4UZBR03CNL\n635U+8tvDW8ihbpL5EGXWjsK4E9WWqjAkTTcP2J/eekN7qCR3MGek0Y1UFJp\nTD3M2wHb3UQrYwBTxSJ61mLR5QpvdXl3q6z1KZ1cZ364D0jWElWaYYiXhNjI\ntm8r5r6ygEbEqAv0FU6U+Dckw/k0++a6KavCa0NBqNXfqrjVNAndtjIJkARg\nwo8hmb2LiqGGqcgFRiqmESNro5+YLa/ictECH8e8RYWWFRe2UiyH8KQPQXnE\nip4ugr/ZbRxrYnbj962/Ctd1mALqeVW/mCSTP1nx70HIuBwfr9P/SjIdLbIG\nFb59gQRMlTgc4d7wmuUVyanhwuVLpZc/yTNfqbfQgDbJ9bZDoO5uKTVWzM+S\n8REx3CfRfAaJpaKjCJNrxhxZQcWdGzhMxhRhzeF3/lCvWkpv/+KyiSu/N32p\nU15+PuyJomZT8R6Kx/VJ/+dzUXCDiPsMgrTKz9+KpWOc6dRVExRKYnRgVCH2\n5Cmav2IVl4GOgM6nxeA4drZP4vR/jQdbjw4qtVbUuKXON1B1auRORDzLwub9\nZmVLXTtECJedZxWVHo0YMm8s5mnUzl+nGWPl/LMt1/MyRtxtCkh20TvV3jBo\n4s5FeioDeIKjw6nUCIraSCNQ0k73rxy/IsirJES4L3j8I8mcUrhuhn9BQmen\nXLdl\r\n=wntf\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 10214,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdXdVUCRA9TVsSAnZWagAAmDcP/A8BEtzFCQLnvUOFV+fH\nZXSwAW536SLJN5oq+1jToSQkG1lJA161YVCaxr0iaDxL8SbXIn9ZQ89+VBcZ\nH6hcIEku94U1++/omuF6Qh16v8DApAJZwhs4HCsrZlBkvVNT8UpPf3Rwc8tz\nwPoXaWFlm4hihJwPT8M2nuVyAnCDUQGaZBotXoYOknvl30RanjO9E9nTMtDF\nyJ/KjbETVK+5u6JESVq0KCIc3f60+lUPRzXCUYsV95+23J80/4z0fIjwgf1O\noZhHrfvp3wrrKqpaOZxXJPiySPsJ8nGQsFmgka/DWOxdKxymL25DrmhNKMNd\nFBYbRJBeDHWmISrFqpcFaBd9yf23EH9lDaU62NoJV1DPQfpZq3u/n5Cdq3Ic\nNY6sgSL2XLf6JwKU7NfZzSnmuHSc4/ln8EcmLAJewBVUPaIqFJrRxqNfoY2K\nDoIQzWOy379/LqIs1AOqw6V/jSCAttI0NZZvwUNdNAQA7qyKCN+DyW2/wC0N\n6VRfkQGAS3RJqIeiSeKd+i2joUFMrRbJz8mXB+grqKY3cqMratg8S+cpcfHv\nPeGITPGIgcmTVcP92MC2ytpVmyL0PNbzT/scBEPUYdvhyuFumuHeUK/ul1ms\naG2NMpXfU8f9w/VHzqk7dCzwHtPrz61sAxpCmS3+DUBpKz9Ip7iZZrXnbb/F\nkgmT\r\n=w4D6\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

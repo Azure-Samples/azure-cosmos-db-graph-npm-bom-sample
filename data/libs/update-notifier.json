@@ -2,7 +2,7 @@
   "name": "update-notifier",
   "description": "Update notifications for your CLI app",
   "dist-tags": {
-    "latest": "3.0.0"
+    "latest": "3.0.1"
   },
   "versions": [
     "0.1.0",
@@ -39,7 +39,8 @@
     "2.3.0",
     "2.4.0",
     "2.5.0",
-    "3.0.0"
+    "3.0.0",
+    "3.0.1"
   ],
   "maintainers": [
     "addyosmani <addyosmani@gmail.com>",
@@ -47,10 +48,11 @@
     "mischah <mail@michael-kuehnel.de>",
     "sboudrias <admin@simonboudrias.com>",
     "sindresorhus <sindresorhus@gmail.com>",
+    "ulisesgascon <ulisesgascondev@gmail.com>",
     "zckrs <mehdy.dara.fr@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-14T09:22:50.264Z",
+    "modified": "2019-07-02T04:39:27.108Z",
     "created": "2012-12-08T16:27:10.153Z",
     "0.1.0": "2012-12-08T16:27:13.607Z",
     "0.1.1": "2013-01-12T16:07:44.972Z",
@@ -87,7 +89,8 @@
     "2.4.0": "2018-03-25T16:47:34.660Z",
     "2.5.0": "2018-04-14T08:32:03.631Z",
     "2.6.0": "2019-05-10T08:17:56.299Z",
-    "3.0.0": "2019-05-10T08:42:19.811Z"
+    "3.0.0": "2019-05-10T08:42:19.811Z",
+    "3.0.1": "2019-07-02T04:39:24.619Z"
   },
   "author": "Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
   "repository": {
@@ -212,7 +215,7 @@
   "readmeFilename": "readme.md",
   "homepage": "https://github.com/yeoman/update-notifier#readme",
   "license": "BSD-2-Clause",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "engines": {
     "node": ">=8"
   },
@@ -241,14 +244,19 @@
     "strip-ansi": "^5.2.0",
     "xo": "^0.24.0"
   },
-  "gitHead": "a7bb3ee3a6e3c8550fb1f2ba132411f4526844c3",
+  "xo": {
+    "rules": {
+      "prefer-object-spread": 0
+    }
+  },
+  "gitHead": "592b0258db640a5ef2f8fd1f6de7bf0c8d273662",
   "dist": {
-    "integrity": "sha512-6Xe3oF2bvuoj4YECUc52yxVs94yWrxwqHbzyveDktTS1WhnlTRpNcQMxUshcB7nRVGi1jEXiqL5cW1S5WSyzKg==",
-    "shasum": "e9bbf8f0f5b7a2ce6666ca46334fdb29492e8fab",
-    "tarball": "https://registry.npmjs.org/update-notifier/-/update-notifier-3.0.0.tgz",
+    "integrity": "sha512-grrmrB6Zb8DUiyDIaeRTBCkgISYUgETNe7NglEbVsrLWXeESnlCSP50WfRSj/GmzMPl6Uchj24S/p80nP/ZQrQ==",
+    "shasum": "78ecb68b915e2fd1be9f767f6e298ce87b736250",
+    "tarball": "https://registry.npmjs.org/update-notifier/-/update-notifier-3.0.1.tgz",
     "fileCount": 5,
-    "unpackedSize": 14864,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1TlsCRA9TVsSAnZWagAAchYQAJEJrtCfI7ktGqfj+GPB\nSRcgoJBbD8Z9jOKTjWsYkRPN+ABzKd5VEZxv6fsrNsFguQBTWU/RDJbgIc75\nAjlykH3rTUD6DKQoD+dk7Nu7PeqHIJVVFP27hrX0rxO3UgR0JRw+Z1fyR9e5\nHCBMte7pQrjKBLzn5nDNjGcGMrAwg/cnCO6dGu/ZLynNaAcyUkH57DVlq2Lx\nNcmqVPGMNnBHNExIk0lK6UXpmZNOnBH+qg1tbm7dgdTQ4Q7N11mNHF3E84wh\nWQA6FBWROWGY5RY73qS13rt1qhZVvgc79r2B7XSh0Zqt6NQL7o3ivJrO51Zm\ns5UzWoK4e2G/+j1tck2Qw8J8pfTsC6eZ8MJruG5AsPXEyCF/i7MY3rI8M74L\nrvEQBlvxHOaEtoRon7Ah8wW65axmnuUC8XMqolANd6vy6lvQS/oqBcdayPsE\nb+pYKj6q8x7cvo7Hcf1iryNdvMeCD1nzwSF7y0OZxJ+v76AEPium2RON3euL\ncwJaHcrHyYEf0pT6aKkiwY4xPT8ZJAy55jlpiYbft9SOAVu/nS5QaBypt4az\n0lXcHJP2dgEmYCTl/WCaSTHQPzCq/e7zMh/xOtHp8/nbTsh/qzbIU7/pjwBQ\nN8Ss0DLvbabGVuNBnEogHluyHnkcnQhZOumPrWt4Yy9aDkcBVgKCI9Z3VJni\naRTQ\r\n=IfUr\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 14720,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdGt/9CRA9TVsSAnZWagAAsPsP/Ay2Ys+oFSgVN/qpvQKR\nLI2N4bS2kJdZ8eA9GdNtadYp1rN71pDXgI5oD8OTsPIrNbIPmq1jwinJOmpv\nNaDpZd0C5dY7KdeVM57dmhk4/y+Q1hnzKB9CmYqgQKF8VS0khjOxhpaFefW3\nfKNtsW58UR+VKzYaBAFDTPehuzBGAawXxn4OLoevQ8cKLBXeBrBEHobrCSBa\n3mWLlIViH+AzFRH4IQAMfhlRK+5xDC0tAnACA4YGaA9iy2U/WjgVQAbXQgaq\nHohNNA8k4E+fI3VnThrvnEu7bmpurEc6jEUVsZwqevsvseiJkYLNZkwcXMIG\nFfjALNeZ64xoSJuRT2qL+rRSZrM3W20N63QQxyA1coVye3xKubnFsMOHzVC9\ny4CYkjN926mOcRf1yc9iIG3wDM97D1oQkgF9LUez1YnCyyj+w30YvO2KOUQ8\nXGGv4C51kcMQAH0fZIEPzzlifo3H2/PQYF3FviVbkKULW96LHpEIZk89Ughs\n17pfrOpwaoqNFKeaN5BuTWNVEUFFzgdWpVwFeTJ5fa9rS30dVhFDkkhJVNDU\nNwFIepwZwrTW8Ji+CB0isENdKm9FB/25DmWvyr04wBLgF778R1Vhb2NoF+IG\ngQ5vzl1Y4kIcTZbB6hrm0Jg0IOHVZC1xlcRR3kcJKPX78+9+Fi4LDeJR92SD\nMFrR\r\n=8KQ8\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

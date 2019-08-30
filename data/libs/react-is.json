@@ -2,13 +2,14 @@
   "name": "react-is",
   "description": "Brand checking of React Elements.",
   "dist-tags": {
-    "latest": "16.8.6",
-    "next": "16.8.6",
-    "canary": "0.0.0-fa1e8df11",
+    "latest": "16.9.0",
+    "next": "16.9.0",
+    "canary": "0.0.0-8d5403877",
     "unstable": "0.0.0-0c756fb-f7f79fd",
     "alpha": "16.9.0-alpha.0"
   },
   "versions": [
+    "0.0.0-375616788",
     "0.0.0-0c756fb-697f004",
     "0.0.0-0c756fb-f7f79fd",
     "0.0.0-0e4135e8c",
@@ -18,6 +19,7 @@
     "0.0.0-29b7b775f",
     "0.0.0-3e15b1c69",
     "0.0.0-4221565e1",
+    "0.0.0-424099da6",
     "0.0.0-4a1072194",
     "0.0.0-50b50c26f",
     "0.0.0-679402a66",
@@ -26,14 +28,20 @@
     "0.0.0-741aa17a3",
     "0.0.0-88ada9819",
     "0.0.0-8b3c1e4-1d1a717",
+    "0.0.0-8d5403877",
     "0.0.0-9ebe1768a",
+    "0.0.0-9f395904c",
+    "0.0.0-a1dbb852c",
     "0.0.0-a8988e4-1d1a717",
     "0.0.0-a9eff329c",
+    "0.0.0-b4178af81",
     "0.0.0-b668168d4",
+    "0.0.0-bbd21066e",
     "0.0.0-c35e37aab",
     "0.0.0-c5b7d26c7",
     "0.0.0-d1326f466",
     "0.0.0-d5e1bf0-aee1b84",
+    "0.0.0-db3ae32b8",
     "0.0.0-dfabb77a9",
     "0.0.0-ed4c4a51c",
     "0.0.0-f22621f88",
@@ -77,7 +85,9 @@
     "16.8.4",
     "16.8.5",
     "16.8.6",
-    "16.9.0-alpha.0"
+    "16.9.0-alpha.0",
+    "16.9.0-rc.0",
+    "16.9.0"
   ],
   "maintainers": [
     "acdlite <npm@andrewclark.io>",
@@ -90,7 +100,7 @@
     "trueadm <dg@domgan.com>"
   ],
   "time": {
-    "modified": "2019-06-03T21:17:33.153Z",
+    "modified": "2019-08-09T02:31:12.607Z",
     "created": "2017-10-19T07:25:21.846Z",
     "1.0.0": "2017-10-19T07:25:21.846Z",
     "16.3.0-alpha.1": "2018-02-12T18:49:30.199Z",
@@ -160,7 +170,17 @@
     "0.0.0-fb28e9048": "2019-04-24T14:54:29.239Z",
     "0.0.0-6da04b5d8": "2019-05-06T20:49:51.355Z",
     "0.0.0-50b50c26f": "2019-05-20T16:39:23.912Z",
-    "0.0.0-fa1e8df11": "2019-06-03T21:03:57.932Z"
+    "0.0.0-fa1e8df11": "2019-06-03T21:03:57.932Z",
+    "0.0.0-9f395904c": "2019-07-13T17:48:34.432Z",
+    "0.0.0-424099da6": "2019-07-15T15:17:37.118Z",
+    "0.0.0-b4178af81": "2019-07-18T18:35:17.907Z",
+    "0.0.0-bbd21066e": "2019-07-23T01:37:05.505Z",
+    "0.0.0-db3ae32b8": "2019-07-30T18:21:13.376Z",
+    "0.0.0-375616788": "2019-08-01T02:09:34.966Z",
+    "0.0.0-a1dbb852c": "2019-08-05T21:28:31.932Z",
+    "16.9.0-rc.0": "2019-08-05T22:17:42.228Z",
+    "16.9.0": "2019-08-08T21:09:59.162Z",
+    "0.0.0-8d5403877": "2019-08-09T02:31:09.982Z"
   },
   "homepage": "https://reactjs.org/",
   "keywords": [
@@ -175,20 +195,20 @@
     "url": "https://github.com/facebook/react/issues"
   },
   "license": "MIT",
-  "readmeFilename": "",
+  "readmeFilename": "README.md",
   "users": {
     "brunolemos": true,
     "ungurys": true
   },
-  "version": "16.8.6",
+  "version": "16.9.0",
   "main": "index.js",
   "dist": {
-    "integrity": "sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==",
-    "shasum": "5bbc1e2d29141c9fbdfed456343fe2bc430a6a16",
-    "tarball": "https://registry.npmjs.org/react-is/-/react-is-16.8.6.tgz",
+    "integrity": "sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==",
+    "shasum": "21ca9561399aad0ff1a7701c01683e8ca981edcb",
+    "tarball": "https://registry.npmjs.org/react-is/-/react-is-16.9.0.tgz",
     "fileCount": 9,
-    "unpackedSize": 25618,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcnGiMCRA9TVsSAnZWagAA5+MP/2l+3xfrpJu5fTEDaNoj\n+ZYFJis9xFwkK19mNlE0yHQP4EHfrlb26zB4bXfsMdyZF7FCncbTAIY6wcyq\n9DLyPha2oN3E1I5zyZ2Z04S0hk6ZHZ76gW9ZGXkO7oT8MuG1oyGJgk1jUxPn\nRKFvhT0e7ht8d+zpN3uFKiAd+kRjJ+tyecCZPDkQeXCP/B7hG4MNJ/fCDNqd\nUlF1Mc8exDHJuZgwCSFteAnLNnsdTgDEP+fKmBWav9aQrx6eFH7POJ3z41GR\n/AvTPJy0ckBaunLlsdMVWF8+P2CU5rkaNaDnSv1t2UAbFUq3Cx8J0UPZkmw1\nKRCt6lWBdSCkEysYePQSM3XH7pFL3VR8Ya31nMk4nTLvGd8B39H7R8RoBSpj\n+0KEApvx2IJTNepiyH3R9C3hz6ecnH5VrWBNoVjcCIKXExcjceLeUDKxVTl/\nMoKfS8vhR6b8xWnBwYIvwhnAN8v+9a38V+uaAADTb2ClReVVu2eINskOtqDQ\nIGGaUPnPH0LGrxWma1V25VRcde9l8rPLpr7pzCxTjvvj01MSad/g0LrlbXoU\n7hxJtlc24crEiFTIys4F36fL5QeVQ/XX51Fzf3iMhblyE4OB7GItek+7nWFO\nerzfC9EGdfTM88nv4JajU/+GqXBgSTclwH/wPu43u60ez2GUdSwoA5GRFwkJ\nsNWT\r\n=TvP9\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 26732,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTI+nCRA9TVsSAnZWagAAYp0P/15j+P7z0g918vejRt39\n/k/dxiumK56RKjQlm2dO1YF7YIejZq++FHCOP0tq3vjiR2RHX6Hz9YkyDHTB\nT+hzuXeKyCoXchGxzLNSU9n2u8LtmFQz27Pm5PQvzQmiPCxXpeIbHGx9bNqk\nI//7g2Q2egdIIk08MX3Al4sZNBjc/GmD4ghkZMPLGfQzHUExX8XQ8gHJ+gv+\ns05OzyyE5LDD5NZ3Y6uJ9H1LHTo5H6BdcPpEYjlOZIyUHE/Z0DI75wlOtCjn\nGf4Hlo9DbfvF7wV9qVrs5PwzbVxuG9uPfy6Ny1jk7PwKTUyuVgAa6pd9vg2W\nCTNRdE5MgdfNkSpOfVY/dxQjLekWXWomHorEArByjkACeWDlYwr0MU6i3RBi\nNEoLYxdUIkSbXAj8gB+iUH8ei0J01GgqalGpk4aiE+PXBImDpgcC04CMriQ/\n54mbZ1UiUfAMM7+cAK/M2kMlm3ELEl9F56bmx/jUbNXDEIKa7cgSlhegqz3m\nXzOzcT5sZg3GTfVXYD62SkolyrMTpnen7AgS0SjufirEaNa+vwG5HDTt7zjY\nZCIMRyP04t3m1xtktuQoBk9PuOEVzaPPP7ZkVp75mHpXmcJzyWOfQJTo9yh8\njr8Yb2bzl9SpWiUF2VOBV2cJhGyG6AIbXMeAMqyNLZtyx60F2TOFW22zYTi3\nffDE\r\n=uGFO\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

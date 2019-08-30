@@ -2,7 +2,7 @@
   "name": "xtend",
   "description": "extend like a boss",
   "dist-tags": {
-    "latest": "4.0.1"
+    "latest": "4.0.2"
   },
   "versions": [
     "1.0.0",
@@ -20,13 +20,14 @@
     "2.2.0",
     "3.0.0",
     "4.0.0",
-    "4.0.1"
+    "4.0.1",
+    "4.0.2"
   ],
   "maintainers": [
     "raynos <raynos2@gmail.com>"
   ],
   "time": {
-    "modified": "2017-11-28T18:52:56.932Z",
+    "modified": "2019-07-08T13:35:49.318Z",
     "created": "2012-05-23T11:25:19.588Z",
     "1.0.0": "2012-05-23T11:25:21.192Z",
     "1.0.1": "2012-05-23T11:27:39.720Z",
@@ -43,7 +44,8 @@
     "2.2.0": "2014-03-26T08:35:47.006Z",
     "3.0.0": "2014-04-14T20:35:30.623Z",
     "4.0.0": "2014-07-31T22:23:46.567Z",
-    "4.0.1": "2015-11-02T22:19:21.923Z"
+    "4.0.1": "2015-11-02T22:19:21.923Z",
+    "4.0.2": "2019-07-08T13:35:45.491Z"
   },
   "author": "Raynos <raynos2@gmail.com>",
   "repository": {
@@ -117,7 +119,7 @@
   },
   "readmeFilename": "README.md",
   "license": "MIT",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "main": "immutable",
   "scripts": {
     "test": "node test"
@@ -144,10 +146,14 @@
   "engines": {
     "node": ">=0.4"
   },
-  "gitHead": "23dc302a89756da89c1897bc732a752317e35390",
+  "gitHead": "37816c0e2e25da2901d584442235946d5cd8c80d",
   "dist": {
-    "shasum": "a5c6d532be656e23db820efb943a1f04998d63af",
-    "tarball": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
+    "integrity": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+    "shasum": "bb72779f5fa465186b1f438f674fa347fdb5db54",
+    "tarball": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz",
+    "fileCount": 7,
+    "unpackedSize": 6465,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdI0ayCRA9TVsSAnZWagAAx5sP/0GFGMoeIKaOsNkW4VqT\npbchFQOM3JuA3y4h1pL0kHhRETKAN9aTU1eBv9VleXcCI5kbhtCQONZWCBGH\n4SV9SUFTE+Com3Yo1X1F00Fc8UEx1JtbSf82DLvjUy3dW4I7nGN6o001/lO1\nMjBB5fi4xrP/YPMuVbXhcB2WrgZ6X2VeSSAHnhkfxwfOAVq+shXzYvmRvFnN\nacFhuKRbQx24fQQPZrRY0FyCc797AJZhNJmrq3CRNbpkJ32TrKIjYibB6xm5\nE7HGTPKxF4j0WRlcRLOrhAIUXLV/kg7l5/YGCGjgzjhqGyoIId1Tn4tNinYb\naUcYalwfE8a4w6WdJp+rtNjftK2sjju5cqKbyg2UkelihMUlEhbeO+MfHgVa\nuXrrMnD55o/zMLnNfh31N2zEWAFbo5O7bdgD066zERKxMcvzOU6e/NgEYN3I\n0IJHNmYTb6sjFSC3+dsoLdyoHyda8wtnmuD2jiRLALMb22SdJG7n2DOJV6jc\n2nqTOn31vz9uB3WT5eLadpmNzYx7x/0cs5So2JGuBVMYYc+jmeqLo/6ZdG7w\nNi/hw8ZXh2RTsWPlXDcO99jQqzHg62J09h+Mci0GSVkl/fnHbx3Ho/jG7E5z\nwxbryfQHlY5haAOEATFROEQlXvAs3NIXCp1EG1fyqjyQU2MU1rZsPwycGF5Q\nff8r\r\n=1Too\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

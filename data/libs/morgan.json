@@ -35,7 +35,7 @@
     "dougwilson <doug@somethingdoug.com>"
   ],
   "time": {
-    "modified": "2019-03-10T10:30:25.371Z",
+    "modified": "2019-07-17T02:33:21.243Z",
     "created": "2014-02-08T19:19:24.247Z",
     "1.0.0": "2014-02-08T19:19:24.247Z",
     "1.0.1": "2014-05-05T02:24:08.112Z",
@@ -502,7 +502,9 @@
     "dariogg": true,
     "yanghcc": true,
     "xiechao06": true,
-    "ahillier": true
+    "ahillier": true,
+    "habiiev": true,
+    "daizch": true
   },
   "keywords": [
     "express",

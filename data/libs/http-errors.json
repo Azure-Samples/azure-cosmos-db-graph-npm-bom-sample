@@ -2,7 +2,7 @@
   "name": "http-errors",
   "description": "Create HTTP error objects",
   "dist-tags": {
-    "latest": "1.7.2"
+    "latest": "1.7.3"
   },
   "versions": [
     "0.0.1",
@@ -29,7 +29,8 @@
     "1.6.3",
     "1.7.0",
     "1.7.1",
-    "1.7.2"
+    "1.7.2",
+    "1.7.3"
   ],
   "maintainers": [
     "dougwilson <doug@somethingdoug.com>",
@@ -37,7 +38,7 @@
     "jongleberry <jonathanrichardong@gmail.com>"
   ],
   "time": {
-    "modified": "2019-02-18T19:53:29.112Z",
+    "modified": "2019-06-24T23:21:22.059Z",
     "created": "2012-11-18T05:58:21.693Z",
     "0.0.1": "2012-11-18T05:58:24.328Z",
     "1.0.0": "2014-09-08T20:04:47.893Z",
@@ -63,7 +64,8 @@
     "1.6.3": "2018-03-29T20:29:06.751Z",
     "1.7.0": "2018-07-30T17:17:08.342Z",
     "1.7.1": "2018-09-08T22:16:32.820Z",
-    "1.7.2": "2019-02-18T19:53:25.820Z"
+    "1.7.2": "2019-02-18T19:53:25.820Z",
+    "1.7.3": "2019-06-24T23:21:18.236Z"
   },
   "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
   "repository": {
@@ -123,24 +125,24 @@
     "Alan Plum <me@pluma.io>",
     "Douglas Christopher Wilson <doug@somethingdoug.com>"
   ],
-  "version": "1.7.2",
+  "version": "1.7.3",
   "dependencies": {
     "depd": "~1.1.2",
-    "inherits": "2.0.3",
+    "inherits": "2.0.4",
     "setprototypeof": "1.1.1",
     "statuses": ">= 1.5.0 < 2",
     "toidentifier": "1.0.0"
   },
   "devDependencies": {
-    "eslint": "5.13.0",
+    "eslint": "5.16.0",
     "eslint-config-standard": "12.0.0",
-    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-import": "2.18.0",
     "eslint-plugin-markdown": "1.0.0",
-    "eslint-plugin-node": "7.0.1",
-    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.1.1",
     "eslint-plugin-standard": "4.0.0",
     "istanbul": "0.4.5",
-    "mocha": "5.2.0"
+    "mocha": "6.1.4"
   },
   "engines": {
     "node": ">= 0.6"
@@ -151,14 +153,14 @@
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
   },
-  "gitHead": "5a61a5b225463a890610b50888b14f16f518ac61",
+  "gitHead": "a91d0ad87925a791d12fccdd6622ed3fc10fdafd",
   "dist": {
-    "integrity": "sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==",
-    "shasum": "4f5029cf13239f31036e5b2e55292bcfbcc85c8f",
-    "tarball": "https://registry.npmjs.org/http-errors/-/http-errors-1.7.2.tgz",
+    "integrity": "sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==",
+    "shasum": "6c619e4f9c60308c38519498c14fbb10aacebb06",
+    "tarball": "https://registry.npmjs.org/http-errors/-/http-errors-1.7.3.tgz",
     "fileCount": 5,
-    "unpackedSize": 17086,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcaw02CRA9TVsSAnZWagAAM20P/RYOFi+Y8YJaNae4ZdMA\nx1cD68fmYF8nt8GgOx6MopK9YbsAxJUfpYYdIrg3IaRw7aqHwQGPmaDCa8fL\nUoDVy7ZcqlJLOBGkaJ4YaW4ZX4NFLsSBPhj7KLbmDVBhtQfHPisboMDT+LPk\nou5F2X6QqvQVq4VDlX+zI+Zm0FJmsMabdBJTadofNRoQnJrP70UxyqdoOQNT\nfs96MjO6+FQBE31ln8ZncEsI7MRlq46VnKznbsQ5ghg19MKl5+9czs/jaoaK\nWKf/pfChqFqxvibhmEU/9a09hFqWJLYQ7P6GJENBieWOpPybsOl/JcmPzaUH\nW66tvwTUJFGY3nI89Rqb8s47vj4ToUadzWuz0sZc/VVBahF4Que7riQKzDlw\nb4W92jDyILs8UOlTeHy28CVbA/fm1huLTNtDwjM4iZ9SutZMj/DoxjArGLpR\nOcdLmjlv7nL3p5Sieqsvx5pc06pgGpJH6MCE5XGd11NM5ukkocVi2Kwuu986\nuTKRcXVOXETUYcK/BlkLDwWTsgCcE9pPl4Dy6WOb0ibvcRlJWKwLVBFL40Y0\nMl4//MJidrAl4cTWXBP1e7ILNFS2MSJwSjCUF2eHBvYLvnKo6vS3uPfW35ag\nQdo0pRBwKHczPRzi7gwJSgPCQ/Oi6RQZfxyGe/oYArCQfr4SMSJVjN9LA2Br\nMXTr\r\n=XLau\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 17151,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdEVruCRA9TVsSAnZWagAA8wUP/Repl5BiN8sPmq7Iy7Yt\nOe1hCpAJE64L+uYRPZm8hV+Wkli7J4/4UyLf9k20JWiU89axyTQzFT/XpLYc\nsw+knAnUwzVDUQvlyNDUllLkLkdhw07VhM7TeL8yym9tem9ghsg8UJZZS3H8\nPXWIqDgVbVqVcWomSiq543tXO+5NG3sqX2pVoGKGISGn/rJhiJvDcBvjYT5i\nv5hwFDK/av11koTioT9As1FR+Pdltj2KetA/SZ7IeIzRc0FPulj2k53c4zjQ\nzazKmL6dnEf2afZuN6clQd+clO8fz1+S58DP+EJj7Cvom2ANvpOlQs3hZchB\nvQOrInn8kcebNzgkTh1n4HdIwHeMEjOgS8c0TxEd2WiQvLRyvPPeTPzEglTx\nmpEhUAWo9xs1nkqQ7/RZZHTni2jRkCUM6saG4hC/kXdx79fiiu7q6BLhF5Wi\nAqb6egAxgmHsaBbDajk/pJk8nsaq+el16Aq69M+heSDCQXV1uzsxCzdimljL\nO+dRFBLKhgSOulIjwM6OraKXh8uIKABPqgAUDMsctFI5gru9ZeXqTNvzNj0g\neFm2elBXn8yjrAOShsx/HUDysNsZ3Y8W1sx6tjFREYmWppAIYjtMOocVIwo6\n7BxMAq9+fl7mSlTBZmrFj0oCfFrGGL3ZzO8vKv1hGeKpslHohoePMiwgiDmE\n2lpi\r\n=LjKs\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

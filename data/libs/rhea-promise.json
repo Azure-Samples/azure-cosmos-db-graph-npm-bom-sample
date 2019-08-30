@@ -1,7 +1,7 @@
 {
   "name": "rhea-promise",
   "dist-tags": {
-    "latest": "0.2.0"
+    "latest": "1.0.0"
   },
   "versions": [
     "0.1.0",
@@ -20,12 +20,13 @@
     "0.1.13",
     "0.1.14",
     "0.1.15",
-    "0.2.0"
+    "0.2.0",
+    "1.0.0"
   ],
   "time": {
     "created": "2018-09-20T21:52:13.988Z",
     "0.1.0": "2018-09-20T21:52:14.148Z",
-    "modified": "2019-05-17T17:59:41.094Z",
+    "modified": "2019-06-27T22:25:18.639Z",
     "0.1.1": "2018-09-20T22:00:20.483Z",
     "0.1.2": "2018-09-20T22:25:43.367Z",
     "0.1.3": "2018-09-25T23:01:51.182Z",
@@ -41,7 +42,8 @@
     "0.1.13": "2018-12-10T22:18:38.842Z",
     "0.1.14": "2019-03-19T02:06:09.012Z",
     "0.1.15": "2019-04-11T17:36:37.520Z",
-    "0.2.0": "2019-05-17T17:59:38.620Z"
+    "0.2.0": "2019-05-17T17:59:38.620Z",
+    "1.0.0": "2019-06-27T22:25:15.971Z"
   },
   "maintainers": [
     "amarzavery <amarzavery@gmail.com>"
@@ -64,22 +66,22 @@
   },
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "main": "./dist/lib/index.js",
   "types": "./typings/lib/index.d.ts",
   "dependencies": {
     "debug": "^3.1.0",
-    "rhea": "^1.0.7",
-    "tslib": "^1.9.3"
+    "rhea": "^1.0.8",
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@types/debug": "^0.0.31",
     "@types/node": "^8.0.37",
     "@types/dotenv": "^6.1.1",
     "rimraf": "^2.6.3",
-    "ts-node": "^8.1.0",
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.5",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1",
     "dotenv": "^8.0.0"
   },
   "scripts": {
@@ -90,14 +92,14 @@
     "test": "npm run build",
     "prepack": "npm i && npm run build"
   },
-  "gitHead": "778ffd12c77f6ea4ef1f47c4146ccfba778845a8",
+  "gitHead": "454e557be5dc1ed94b96fe3316039eddd644d4f5",
   "dist": {
-    "integrity": "sha512-0UUFvtPScNpe2XPwZUyRRcNRVdwUVp4JVb6EkRiw+Y/3U0eDrGJsIYMERnAY4vdE0qSq3sjQ0XCQIPwlCvyw8g==",
-    "shasum": "fd9686c7b044ebdac77ce475c4ae97c135678db9",
-    "tarball": "https://registry.npmjs.org/rhea-promise/-/rhea-promise-0.2.0.tgz",
-    "fileCount": 73,
-    "unpackedSize": 266486,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3vaLCRA9TVsSAnZWagAAQEgP/iFkqX2xmZYqj5OsFxOP\nKs9+TXDlJSALzY0xwVREgOspjYEP+ug7V4pABbhoKlP+cvPPZgKdMoafEMfq\n8Op525t/KVl8xcg81NqC+gz/lzKXbsMKmdDQ+2IbbbR7WD0oAm9Q1vssTgw2\noDC8QeJ0nylT/JCtQ7EJgvImDjwd+saGtJtFW+Q4zbtDDZTSxCzu0bA0LHwy\n5IE2bEuNRCTZ4XWNcbV5AM8JWhuxXp8wZ56OMPa2zxGbhp8/fhjUhA84oJcd\nPFFceqw5isuCVuK2EAaB7Zp3FDrpbnHX3Tw1qbSoeKxmKhzgPPtNLo+rOkB3\nPOoLlWieJ51TtLmYIZI5GG3XNEQQESDVkawqbgc6b/gNWHsOlimJyGyqupyf\ndRa4uumZJHL95tqtq6Jt/rLe4lc8sfBANFnMBgtnrNwkd/ISMCtbIoZ1RfQy\nyFI8Z4cQjfKpKe9t48xko72OqgDOSwgMFxrteygj6Cw9reBDukbmdUpYJUpq\n+n3munfL+oqeMDhUM7dL64xTCnr3vVug/VPoHXM31R1Jc+TGAXwx1MQgAlky\n5x7REJCAx4vU92bLJqwUbIbishFCaUouu/OERJl5vwQaP3y3R+lkYw+pkPaq\npZVCvkPrHEFvAtS8tB0jcaLEa5RSV9/C98Pnfd5X89OMAN+CmuoPKzg+KFS8\np4Ky\r\n=4I6G\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-odAjpbB/IpFFBenPDwPkTWMQldt+DUlMBH9yI48Ct5OgTeDuuQcBnlhB+YCc6g2z8+URiP2ejms88joEanNCaw==",
+    "shasum": "0ac715283f53d91984081abd50d26a2cb9179bbf",
+    "tarball": "https://registry.npmjs.org/rhea-promise/-/rhea-promise-1.0.0.tgz",
+    "fileCount": 79,
+    "unpackedSize": 340532,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdFUJMCRA9TVsSAnZWagAAahYQAILLOyDas+I4zojtVmjP\n1R6VNEeypN8X/8qezfhdwhACMolmg9fevY+x0SUE4J2+sANwPFQcEsU4E9En\n/3MKxwHrHaS8CIghJIrJGite/gpPXJ8qwVa+FEvhJJ6Zsu9juRI3podX7HE7\nRaq1+YAUNSHMDB5k1cBC1BOXG5bLsOAvGO2KWb+xrKRepOFOL2mWWuFSH+6j\nOfe5d918P4e837ktOfcgDaJwWapeQ4aBnCW7pkvSz1INB5bNBv6YITkiKg3V\n7xBWLFplGU4olVqmIZHlY4JppUs4li5jMXGCRXaOZp5KJdGnB7gz5KC2nEzj\nFKnR+7ldXK8PRZP6jq+vCkScHoN5SjaEa59QbBC72i+CX5DM5hHBygxt/8zc\nJZxLzFwBw+Nq7uEC8B1prAKWT+D2h5ULtfhKNp30qfR+xE4HiZxnfWnqQ8im\n7o1gz54zjdugpSHGYcv7quB51grOycN7O+fWJPyTqyLx4+Qc5Y+ZNUAoi/AW\nLUFmVwADz+BYm8bvCv9/LlY+33cMqP2spp91hfhE1NBC3AxTSxXWahvQTqQ3\nvN+nXPqQ+0nJNjKGkZrNjRMwGVGQA3mJFs6U4GT8IgKMKmGHAz7SMB+TVeuy\nd1QG7UpSD1ewEaEV3qccUTeBMBwTZtNUZI/yHUmjAcBsyFbC31gY+T776T6U\nWlmF\r\n=eseb\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

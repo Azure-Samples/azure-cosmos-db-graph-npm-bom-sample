@@ -2,7 +2,7 @@
   "name": "iconv-lite",
   "description": "Convert character encodings in pure javascript.",
   "dist-tags": {
-    "latest": "0.4.24",
+    "latest": "0.5.0",
     "bleeding": "0.4.0-pre3"
   },
   "versions": [
@@ -49,13 +49,14 @@
     "0.4.21",
     "0.4.22",
     "0.4.23",
-    "0.4.24"
+    "0.4.24",
+    "0.5.0"
   ],
   "maintainers": [
     "ashtuchkin <ashtuchkin@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-04T04:40:35.904Z",
+    "modified": "2019-06-26T22:29:52.898Z",
     "created": "2011-11-09T17:51:01.242Z",
     "0.1.0": "2011-11-09T17:51:05.090Z",
     "0.1.1": "2011-11-23T12:55:22.201Z",
@@ -100,7 +101,8 @@
     "0.4.21": "2018-04-07T04:31:13.009Z",
     "0.4.22": "2018-05-05T23:37:31.575Z",
     "0.4.23": "2018-05-07T22:22:24.294Z",
-    "0.4.24": "2018-08-22T20:23:12.162Z"
+    "0.4.24": "2018-08-22T20:23:12.162Z",
+    "0.5.0": "2019-06-26T22:29:48.857Z"
   },
   "author": "Alexander Shtuchkin <ashtuchkin@gmail.com>",
   "repository": {
@@ -228,7 +230,7 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "0.4.24",
+  "version": "0.5.0",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "engines": {
@@ -256,14 +258,14 @@
   "dependencies": {
     "safer-buffer": ">= 2.1.2 < 3"
   },
-  "gitHead": "efbbb0937ca8dda1c14e0b69958b9d6f20771f7a",
+  "gitHead": "2b4125d11a733a40e45a755648389b2512a97a62",
   "dist": {
-    "integrity": "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==",
-    "shasum": "2022b4b25fbddc21d2f524974a474aafe733908b",
-    "tarball": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
-    "fileCount": 26,
-    "unpackedSize": 335941,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfcYwCRA9TVsSAnZWagAARlIQAJ0ml9Ow+Z9mHwP+vAM/\negB/zY3a6Mq2l0ediXft4nQDlVUspdYCXCu5vtwO0z9wao5VisC0RXnEoVoT\n8u2OddejmkpVcGuGKfVuTk/OdWt6Z8yHGIPxUoPzHUmDL3cjWxS/dPkdlBLA\n6X5Ix5kcHbR2mDS0moEO1Pjp6zWbFN8vzNXe6HBOhpN1Z6cm2ppNETG7JTTR\n3mPfp1HbEY6BA04avf0ZE+/snD6zM6nGZY5WGnWOiYdaEVi1Ol5GBjTeVB3z\nCRo8CSSS+wq/iggtSoR12lvAcQlsR0T+blzWNJ6w6lt1GuwKsWg2pdJbmGcC\nVIii/Cq7Sh4wFzLYkDkBudjUesKx6AbKA8EcO0/2im9quQpie/AXdpSKV/LH\nTgN3SDY5/90/8L0Kn0YIaYAxnNoHjN7vX4fGeFyzcbViArhud0vRzyp2gnVO\nK5I2z4tiO+lIKxaSSOSxSt7+x1Fkn9zU1/ZJuIiv31AuMaQVDrAbi5GjegLs\nv/UBrWxfvIYsoNX1rnZpf2+iHaRRCSgECcGZz2W/b5DAXhA5YA87KrDPn5Ut\nMEgRY9eehGAz7lzKt0Zfs/zmoCwfe6ZErAxNHKCsnjV6c9uSto8Jya0zfENG\n2Jhrsbyj1N9fECq8U1+E4GLhecrOCJzF7bJi7KeXo9isIZQt+BsPBgeYbzSJ\n9uVK\r\n=GkHx\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-NnEhI9hIEKHOzJ4f697DMz9IQEXr/MMJ5w64vN2/4Ai+wRnvV7SBrL0KLoRlwaKVghOc7LQ5YkPLuX146b6Ydw==",
+    "shasum": "59cdde0a2a297cc2aeb0c6445a195ee89f127550",
+    "tarball": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.5.0.tgz",
+    "fileCount": 27,
+    "unpackedSize": 346031,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdE/HdCRA9TVsSAnZWagAAtwwP/0A7gJ8ks851kXBTq6VJ\nhWlcoH4O4p+EXHO2oSPHqNiBVKme4KJH/eZelsKcLM3DdL4KjQEdGRT0kcEF\nimeagOhpZxIvP5uS54170P/uNpxtSxqFbpdWEmNoK6InVt2mKXbEosaIVIyu\nClFLlD0JftT3jkRe35egrN/2HTbI5tS/Xms15u41L5bgJnB7PAuXwZFBD9Rx\nHolgA2ENPHKXOzxJ2s338Cawonz3L2flW++KJwUIp6SgyFUrfOZfacSS/8UK\nQhaESFlnL17geSZOdgp/8Uxc8ClOFw8cs3lFVTW5tSsGBlVPwxgyEhTXKbXH\nRxPMycpRoulWGvpzfJuW114kco3KGsYpeHiafyQ2RBQUCXIXIfMUxztXjMtW\nNkTPNAwgW/X0P3cuUdx4tEwvHWFQLI4pscTufczsMLYn7cgMJs5pSaX/szYi\nrb14yLD02tBARpKH57PoEEfgustZvSJDCpKpaYycyzBIRSrXIsjBXpprQqab\nSZ9qoKuSJNRQueJTTDg2juSNHjQwucMQ0/5G1O9LnrRaiTjq8mY8Yq5Fm7aU\nu5GRwOZ0XdkqYV7QA7fbSKIG23VgqEjhl2HLESjhvPOHS4imw+/EUyMqyR8U\nb+lWqytvWRiGT0UNTz8swnNH1zvrkatb2MC320/dCK9VGsNJnBMSGNQOBZ2E\n8nnF\r\n=y8ow\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

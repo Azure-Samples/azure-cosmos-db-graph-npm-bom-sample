@@ -1,0 +1,78 @@
+{
+  "name": "@azure/cosmos-sign",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": [
+    "1.0.2"
+  ],
+  "time": {
+    "created": "2018-12-18T20:23:51.261Z",
+    "1.0.2": "2018-12-18T20:23:51.508Z",
+    "modified": "2018-12-18T20:23:54.258Z"
+  },
+  "maintainers": [
+    "southpolesteve <southpolesteve@gmail.com>",
+    "christopheranderson <chrande@outlook.com>"
+  ],
+  "description": "Utility for signing Azure Cosmos keys",
+  "homepage": "https://github.com/Azure/cosmos-sign#readme",
+  "keywords": [
+    "Azure",
+    "Cosmos"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/cosmos-sign.git"
+  },
+  "author": "Microsoft Corporation",
+  "bugs": {
+    "url": "https://github.com/Azure/cosmos-sign"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "1.0.2",
+  "browser": "./lib/browser.js",
+  "main": "./lib/node.js",
+  "types": "./lib/node.d.ts",
+  "scripts": {
+    "compile": "rimraf lib && tsc",
+    "build": "npm run check-format && npm run compile && npm run test && webpack && bundlesize",
+    "test": "node lib/browser.test.js && node lib/node.test.js",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "check-format": "prettier --list-different \"src/**/*.ts\"",
+    "prepack": "npm install && npm run compile"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "3.1.43",
+    "@types/node": "10.12.9",
+    "bundlesize": "0.17.0",
+    "prettier": "1.15.2",
+    "rimraf": "2.6.2",
+    "typescript": "3.1.6",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2"
+  },
+  "dependencies": {
+    "crypto-js": "3.1.9-1"
+  },
+  "bundlesize": [
+    {
+      "path": "./bundle.js",
+      "maxSize": "3.2 kB"
+    }
+  ],
+  "prettier": {
+    "semi": false
+  },
+  "gitHead": "7e9d007b9c8ef6969b2981237f5ad726058c04a0",
+  "dist": {
+    "integrity": "sha512-+y3EDcbSFuieOKqw9VyaX7D13LB4LycQIdmLwSqFnSUO0mWl+RBLCKW3RL6XiyWOHRV2sMNT9vwGzwiFZI70vQ==",
+    "shasum": "a38b03f30bb6e39da397c95361b2916d70de2a79",
+    "tarball": "https://registry.npmjs.org/@azure/cosmos-sign/-/cosmos-sign-1.0.2.tgz",
+    "fileCount": 13,
+    "unpackedSize": 11244,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGVdYCRA9TVsSAnZWagAAzckP/R+bI0fBavkzizM1d2HV\nWKmjGDlA7f9fVn07MnlO6/pXJ2sXvgGGbWCIOSJVVnNMAMsSi374pJyxo0w9\nQSf1Po4q6hKqv/ZoqX8saaJjFjkxFGzkAqZoPY4fKuPYJwf6M+0IT7VMZvZF\nU5QbzbciD26y3iGTs4rIkLgT9j2EJaM7zg49QVXj7x5HNpT+l2HNHWtA2Ez3\nNGPk1fPEe2ojpXTq5Uh22op4Es+Av5MsKr5BvEPAachzp5bJqQm6lYs7KHaM\n5RYegYzyDSAuQ1qggHKkBLZZAsl82MjM5pEIrwcyMg497rO65FGKViEDgYdO\n4tu2+TKAnZ51ipOLVi0185fqTkwNmyePeEnYWmY4XGfHVBBrqkjwQzYqRIMN\nkbpLr4XW4AtSV21+5pwwqDmRtM9Geh+1Uu64QTJazAjTJwSa7yScimuDQCRk\n0JJs5vbvFYu1encG0oMiLgA3axjT4La7h5QL4JoZN9MvAwhBIXQHrYWe+aXR\nFZKoHaQFep6UnJD4DFhPJAdknd1DhcntAqkSetNb9IPEo8tyL6K+i3jMiB90\nmJ4LFsSfGSzzs/rQhZL8AxBFMatwy0K7M3Kw4plyUDb4o+P+IMGQyG1504tg\ndSx8r+lFv1e1xoH4XU1Yq1E/gsHTMmDU20BXU26eEWGyzkWpIvNafozIFmqA\nffHF\r\n=v1X+\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

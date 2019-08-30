@@ -78,7 +78,7 @@
     "sidorares <sidorares@yandex.com>"
   ],
   "time": {
-    "modified": "2019-04-18T20:47:08.981Z",
+    "modified": "2019-07-01T21:49:05.792Z",
     "created": "2011-01-03T23:04:56.752Z",
     "0.1.0": "2011-01-03T23:04:56.752Z",
     "0.2.0": "2011-01-03T23:04:56.752Z",
@@ -641,7 +641,8 @@
     "noodie": true,
     "slj3458": true,
     "chrisieaks": true,
-    "tooyond": true
+    "tooyond": true,
+    "payaamemami": true
   },
   "readmeFilename": "Readme.md",
   "homepage": "https://github.com/mysqljs/mysql#readme",

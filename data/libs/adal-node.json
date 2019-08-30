@@ -2,7 +2,7 @@
   "name": "adal-node",
   "description": "Windows Azure Active Directory Client Library for node",
   "dist-tags": {
-    "latest": "0.1.28",
+    "latest": "0.2.1",
     "beta": "0.1.24"
   },
   "versions": [
@@ -30,6 +30,8 @@
     "0.1.26",
     "0.1.27",
     "0.1.28",
+    "0.2.0",
+    "0.2.1",
     "2.0.0-pre"
   ],
   "maintainers": [
@@ -37,7 +39,7 @@
     "msopentech <msopentech@microsoft.com>"
   ],
   "time": {
-    "modified": "2018-03-08T18:10:41.807Z",
+    "modified": "2019-08-28T21:56:22.200Z",
     "created": "2014-03-21T18:34:34.198Z",
     "0.1.4": "2014-03-21T18:34:34.198Z",
     "0.1.5": "2014-03-31T17:16:06.813Z",
@@ -63,7 +65,9 @@
     "0.1.25": "2017-11-06T22:26:11.739Z",
     "0.1.26": "2017-12-06T00:53:34.176Z",
     "0.1.27": "2018-01-09T01:34:22.822Z",
-    "0.1.28": "2018-02-27T23:46:25.752Z"
+    "0.1.28": "2018-02-27T23:46:25.752Z",
+    "0.2.0": "2019-08-23T20:02:55.317Z",
+    "0.2.1": "2019-08-28T21:56:19.728Z"
   },
   "homepage": "https://github.com/AzureAD/azure-activedirectory-library-for-nodejs#readme",
   "keywords": [
@@ -92,7 +96,7 @@
     "mrbgit": true
   },
   "license": "Apache-2.0",
-  "version": "0.1.28",
+  "version": "0.2.1",
   "main": "./lib/adal.js",
   "types": "./lib/adal.d.ts",
   "engines": {
@@ -100,25 +104,25 @@
   },
   "dependencies": {
     "@types/node": "^8.0.47",
+    "async": "^2.6.3",
     "date-utils": "*",
     "jws": "3.x.x",
-    "uuid": "^3.1.0",
-    "request": ">= 2.52.0",
+    "request": "^2.88.0",
     "underscore": ">= 1.3.1",
+    "uuid": "^3.1.0",
     "xmldom": ">= 0.1.x",
-    "xpath.js": "~1.1.0",
-    "async": ">=0.6.0"
+    "xpath.js": "~1.1.0"
   },
   "devDependencies": {
-    "jshint": "*",
-    "mocha": "*",
-    "nock": "*",
-    "sinon": "*",
-    "typescript": "^2.6.1",
-    "@types/nock": "^8.2.1",
     "@types/mocha": "^2.2.44",
+    "@types/nock": "^8.2.1",
+    "@types/sinon": "^2.3.7",
     "@types/underscore": "^1.8.4",
-    "@types/sinon": "^2.3.7"
+    "jshint": "^2.10.2",
+    "mocha": "*",
+    "nock": "^10.0.6",
+    "sinon": "^7.3.2",
+    "typescript": "^2.6.1"
   },
   "scripts": {
     "test": "npm run tsc && mocha -R spec --ui tdd test",
@@ -126,12 +130,14 @@
     "doc": "jsdoc lib",
     "tsc": "tsc -p tsconfig.json"
   },
-  "gitHead": "7be6d5ecdc6df430ec4b3b186a078aad18a8ee42",
+  "gitHead": "eeff5215bd7a6629edbd1d71450a0db68f029838",
   "dist": {
-    "shasum": "468c4bb3ebbd96b1270669f4b9cba4e0065ea485",
-    "tarball": "https://registry.npmjs.org/adal-node/-/adal-node-0.1.28.tgz",
-    "fileCount": 29,
-    "unpackedSize": 267801
+    "integrity": "sha512-C/oasZuTy0NIqh5wPWjG/09XaG+zS7elC8upf1ZVExt9lSRncme4Ejbx8CKYk+wsGgj609y84txtRAXQVvqApg==",
+    "shasum": "19e401bd579977448c1a77ce0e5b4c9accdc334e",
+    "tarball": "https://registry.npmjs.org/adal-node/-/adal-node-0.2.1.tgz",
+    "fileCount": 27,
+    "unpackedSize": 226615,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZviECRA9TVsSAnZWagAAgdEP/1MqdNGXGRsJ27lznCOs\nKjywV/e0WQOQiGWf203a61UARbk3pGBW84bSiKRFwP1yMorZz2n9rtkXx2Cb\ngtR6ho4fl3xwNVYmH3+ANCG593RhVrfYBMKfo/xIpaLBDafNhLIHuKJB+pl0\n0+XhQEl1t1rX/uGonGQE2Dh7b3P3KqYtaRJaftOFd4eFC65OT8fFGSctM/cv\njvyPLvh232W8SjXbkgwhJUsLvsuVC/qjpZK4W7PIqfe13gvIBQBQoRwZuzgv\na4dsyc7ma7yPVr3SZC1PVzGxi/y1EYrMc2UnD1NlnkFvqfuI225IuFEJ5QW7\nTODiQ+3lfGMadZaQofReVP3vhOqpAyz3eonvdb0dqg9/wBFh+kg9WFF8xHIk\nxsgtT6LqDDxVrWrQpe4CBA38gWloVWqg5IEpvSBKxQDwTYMsQH+uI8r1iqhm\nEHNJgIPh7ehQw/lcvQAy5rpEbTYyZ8YgmqjvT/32I3KpFs5ba1+phlrG3lLU\nXSlzEHDOR9wp4YPIou2mwk02ODSKBkDVMffMs2ie6WeQUz800x11+7Qgtx10\nDo1O0Qret7abISAdeXKsy2WKm0lRmv21aDcBLQ4o+PMLwV3NXBlwTtatYHYK\n8nfSi7gjUVEM13lt6PPJOe4FwHq6Wl/oqK8A+kVklB8NHun7tld+4kmesL0H\n0+oI\r\n=Xcy+\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

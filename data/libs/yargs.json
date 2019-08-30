@@ -2,8 +2,8 @@
   "name": "yargs",
   "description": "yargs the modern, pirate-themed, successor to optimist.",
   "dist-tags": {
-    "latest": "13.2.4",
-    "next": "13.3.0"
+    "latest": "14.0.0",
+    "next": "14.0.0"
   },
   "versions": [
     "1.0.0",
@@ -174,7 +174,8 @@
     "13.2.1",
     "13.2.2",
     "13.2.4",
-    "13.3.0"
+    "13.3.0",
+    "14.0.0"
   ],
   "maintainers": [
     "bcoe <ben@npmjs.com>",
@@ -182,7 +183,7 @@
     "nexdrew <andrewbgoode@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-18T02:11:44.912Z",
+    "modified": "2019-08-19T23:13:18.116Z",
     "created": "2013-11-23T09:34:05.069Z",
     "1.0.0": "2013-11-23T09:34:06.097Z",
     "1.0.1": "2013-11-23T09:39:47.210Z",
@@ -352,13 +353,14 @@
     "13.2.1": "2019-02-18T05:20:46.855Z",
     "13.2.2": "2019-03-06T06:24:50.679Z",
     "13.2.4": "2019-05-13T04:07:16.853Z",
-    "13.3.0": "2019-06-10T02:19:28.836Z"
+    "13.3.0": "2019-06-10T02:19:28.836Z",
+    "14.0.0": "2019-07-30T05:38:02.733Z"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yargs/yargs.git"
   },
-  "readmeFilename": "",
+  "readmeFilename": "README.md",
   "homepage": "https://yargs.js.org/",
   "keywords": [
     "argument",
@@ -883,25 +885,26 @@
     "ungurys": true,
     "papb": true,
     "mahume": true,
-    "yanghcc": true
+    "yanghcc": true,
+    "lunitaire": true
   },
   "contributors": [
     "Yargs Contributors (https://github.com/yargs/yargs/graphs/contributors)"
   ],
-  "version": "13.2.4",
+  "version": "14.0.0",
   "main": "./index.js",
   "dependencies": {
     "cliui": "^5.0.0",
+    "decamelize": "^1.2.0",
     "find-up": "^3.0.0",
     "get-caller-file": "^2.0.1",
-    "os-locale": "^3.1.0",
     "require-directory": "^2.1.1",
     "require-main-filename": "^2.0.0",
     "set-blocking": "^2.0.0",
     "string-width": "^3.0.0",
     "which-module": "^2.0.0",
     "y18n": "^4.0.0",
-    "yargs-parser": "^13.1.0"
+    "yargs-parser": "^13.1.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -915,7 +918,7 @@
     "nyc": "^14.1.0",
     "rimraf": "^2.6.3",
     "standard": "^12.0.1",
-    "standard-version": "^6.0.1",
+    "standard-version": "^7.0.0",
     "which": "^1.3.1",
     "yargs-test-extends": "^1.0.1"
   },
@@ -933,14 +936,15 @@
   "engine": {
     "node": ">=6"
   },
-  "gitHead": "a6e67f15a61558d0ba28bfe53385332f0ce5d431",
+  "readme": "<p align=\"center\">\n  <img width=\"250\" src=\"/yargs-logo.png\">\n</p>\n<h1 align=\"center\"> Yargs </h1>\n<p align=\"center\">\n  <b >Yargs be a node.js library fer hearties tryin' ter parse optstrings</b>\n</p>\n\n<br>\n\n[![Build Status][travis-image]][travis-url]\n[![Coverage Status][coveralls-image]][coveralls-url]\n[![NPM version][npm-image]][npm-url]\n[![js-standard-style][standard-image]][standard-url]\n[![Conventional Commits][conventional-commits-image]][conventional-commits-url]\n[![Slack][slack-image]][slack-url]\n\n## Description :\nYargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.\n\nIt gives you:\n\n* commands and (grouped) options (`my-program.js serve --port=5000`).\n* a dynamically generated help menu based on your arguments.\n\n> <img width=\"400\" src=\"/screen.png\">\n\n* bash-completion shortcuts for commands and options.\n* and [tons more](/docs/api.md).\n\n## Installation\n\nStable version:\n```bash\nnpm i yargs\n```\n\nBleeding edge version with the most recent features:\n```bash\nnpm i yargs@next\n```\n\n## Usage :\n\n### Simple Example\n\n````javascript\n#!/usr/bin/env node\nconst argv = require('yargs').argv\n\nif (argv.ships > 3 && argv.distance < 53.5) {\n  console.log('Plunder more riffiwobbles!')\n} else {\n  console.log('Retreat from the xupptumblers!')\n}\n````\n\n```bash\n$ ./plunder.js --ships=4 --distance=22\nPlunder more riffiwobbles!\n\n$ ./plunder.js --ships 12 --distance 98.7\nRetreat from the xupptumblers!\n```\n\n### Complex Example\n\n```javascript\n#!/usr/bin/env node\nrequire('yargs') // eslint-disable-line\n  .command('serve [port]', 'start the server', (yargs) => {\n    yargs\n      .positional('port', {\n        describe: 'port to bind on',\n        default: 5000\n      })\n  }, (argv) => {\n    if (argv.verbose) console.info(`start server on :${argv.port}`)\n    serve(argv.port)\n  })\n  .option('verbose', {\n    alias: 'v',\n    default: false\n  })\n  .argv\n```\n\nRun the example above with `--help` to see the help for the application.\n\n## TypeScript\n\nyargs has type definitions at [@types/yargs][type-definitions].\n\n```\nnpm i @types/yargs --save-dev\n```\n\nSee usage examples in [docs](/docs/typescript.md)\n\n## Community :\n\nHaving problems? want to contribute? join our [community slack](http://devtoolscommunity.herokuapp.com).\n\n## Documentation :\n\n### Table of Contents\n\n* [Yargs' API](/docs/api.md)\n* [Examples](/docs/examples.md)\n* [Parsing Tricks](/docs/tricks.md)\n  * [Stop the Parser](/docs/tricks.md#stop)\n  * [Negating Boolean Arguments](/docs/tricks.md#negate)\n  * [Numbers](/docs/tricks.md#numbers)\n  * [Arrays](/docs/tricks.md#arrays)\n  * [Objects](/docs/tricks.md#objects)\n  * [Quotes](/docs/tricks.md#quotes)\n* [Advanced Topics](/docs/advanced.md)\n  * [Composing Your App Using Commands](/docs/advanced.md#commands)\n  * [Building Configurable CLI Apps](/docs/advanced.md#configuration)\n  * [Customizing Yargs' Parser](/docs/advanced.md#customizing)\n* [Contributing](/contributing.md)\n\n[travis-url]: https://travis-ci.org/yargs/yargs\n[travis-image]: https://img.shields.io/travis/yargs/yargs/master.svg\n[coveralls-url]: https://coveralls.io/github/yargs/yargs\n[coveralls-image]: https://img.shields.io/coveralls/yargs/yargs.svg\n[npm-url]: https://www.npmjs.com/package/yargs\n[npm-image]: https://img.shields.io/npm/v/yargs.svg\n[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg\n[standard-url]: http://standardjs.com/\n[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg\n[conventional-commits-url]: https://conventionalcommits.org/\n[slack-image]: http://devtoolscommunity.herokuapp.com/badge.svg\n[slack-url]: http://devtoolscommunity.herokuapp.com\n[type-definitions]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/yargs\n",
+  "gitHead": "674f69a2bf6dd770fe7bcbc73d04a69501d7cc85",
   "dist": {
-    "integrity": "sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==",
-    "shasum": "0b562b794016eb9651b98bd37acf364aa5d6dc83",
-    "tarball": "https://registry.npmjs.org/yargs/-/yargs-13.2.4.tgz",
-    "fileCount": 42,
-    "unpackedSize": 227600,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2O11CRA9TVsSAnZWagAASjMP/0X98Fx8P6bVPm/zNFeq\nVIRnlUCJqngTMfHr8ekcKgeEOojBAfmHhA3i1Wb9EXLQ6c88509ArPkjm7Zv\nw9olsqDi+EQ/22I5J/Zks6jYhn3S2dyh9g/48jA+WTUSqHT+2Pvs8CUgwIMF\nvxZIK9m232gc83jxwLJcsI1oCu5Q8soOrzsLbRQqiLhwsRmrPCz21dQrNZXh\nevy3yX7IEtOyni3tMm2d62pHYiWs1e09mM9dzz7JSbHA74JlaGe+KxhwYY+y\nKOccv/cmXAUdH+mqOdtGP3dJ19loIiB+vg5YaC3VvgWPLFtnnPf+EyiLrmEy\nlm1Jw0IcL7n9d9z1z/eDfr6t53WfWbkpxFX2JGC+TIKAZbBpQKwyCzOynEGi\nVF7Xb6R0P278wdXAxtJW/AcBPCn4EAy2zwNPP1DLjLIt8mwkMH+MYyfn36tj\nypa7RBhW0Me29GeJEF0cskHiEW/LbuXQrcugBDli3l6AyDqelirOxpyIAZXI\nkixlch4obFCOulzKOcnoo/C4QoAJtBUMps0t2Ybi1CFzEfKUVS4x6/IDmJaf\nNiaxm+dXGC63CsHYyRJK3KBpI/JnOG6xR8y5izujX1V9CHkyw+ELxJKibNwu\nk9r/z2Ao5RKW4R/jqQQray+EXF0fihP1Ow6LQvGNyz1bhkSNjV+sKsSMTmfj\nYhNK\r\n=+ZtI\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-ssa5JuRjMeZEUjg7bEL99AwpitxU/zWGAGpdj0di41pOEmJti8NR6kyUIJBkR78DTYNPZOU08luUo0GTHuB+ow==",
+    "shasum": "ba4cacc802b3c0b3e36a9e791723763d57a85066",
+    "tarball": "https://registry.npmjs.org/yargs/-/yargs-14.0.0.tgz",
+    "fileCount": 41,
+    "unpackedSize": 230049,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdP9e7CRA9TVsSAnZWagAAQ10QAJfREx3HGSDRpKi/Oym6\nCxyPA+AoUXFyG5VCxumtb3HVJi73QxlRVm6SVKb+7G4+VbSyCMaiGokM/1Jo\n0DK0ZB7GQrdT+P4plbg1oIxRYQFKJf+hc+HZ+1EFhgcFUs3HBpq665WVtrT2\nbNJkRyg5MaUKQC5BXcREB6TPtRtQ3Aubhudi8LEE9DtqSlf19yj9mgJmW88I\nCvMU6rgIlR2AJAADtgbISoDBylcPSr+9DbxbTTH9w8TDaA9LhSQdTghmiaOB\nOzmXSXxhWMeazOqnR+Z93HZTP5cE8bE4spgVo6fZS85T4lp/qc9a5M4UZg8K\nvoaMbhBenUIUDspMju89RyrzeHFwfiQF6FyDWpRe1kr32b5ZvppjqgiAmNMk\nFc8U7zNOZfVkXJEfMudnnhwRTpvSvwrHHoL/gtoIvPzRJkwcl9zFJQ9qFBrB\nBl0nWTDvd3Oy2yTBmklulrG7t42zZuctU1WNEf36mKC9S/ckj6e/47HdykoS\nSvz+oAANytsGWvwuB8jz00NmUBemsN1oCi6kWpos8WE6e46GJvR8hAtguVFT\nKfc8cyd9dlORlmL6BSX9KZAbTrCG3l0VJLcNwEJGdIyWyPeB3ycyZLhCdyDE\nHnRaVrgWCV7QFp5beMnveM5RJy+1R/+1XTEreYRnqWJkn/oE98OcaLnIKmVp\nVvVR\r\n=mh+n\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

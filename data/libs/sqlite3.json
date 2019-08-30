@@ -2,7 +2,7 @@
   "name": "sqlite3",
   "description": "Asynchronous, non-blocking SQLite3 bindings",
   "dist-tags": {
-    "latest": "4.0.9",
+    "latest": "4.1.0",
     "alpha": "3.1.10-alpha"
   },
   "versions": [
@@ -84,7 +84,8 @@
     "4.0.6",
     "4.0.7",
     "4.0.8",
-    "4.0.9"
+    "4.0.9",
+    "4.1.0"
   ],
   "maintainers": [
     "kewde_ <kewde@particl.io>",
@@ -96,7 +97,7 @@
     "zmully <mully@mapbox.com>"
   ],
   "time": {
-    "modified": "2019-06-13T15:02:57.337Z",
+    "modified": "2019-08-16T19:34:28.742Z",
     "created": "2011-02-24T15:45:51.936Z",
     "2.0.0": "2011-02-24T15:45:52.177Z",
     "2.0.1": "2011-02-24T16:50:09.004Z",
@@ -178,7 +179,8 @@
     "4.0.6": "2019-01-11T18:21:05.139Z",
     "4.0.7": "2019-05-08T15:52:46.741Z",
     "4.0.8": "2019-05-11T02:38:18.985Z",
-    "4.0.9": "2019-06-13T15:02:54.596Z"
+    "4.0.9": "2019-06-13T15:02:54.596Z",
+    "4.1.0": "2019-08-16T19:34:26.198Z"
   },
   "author": "MapBox (https://mapbox.com/)",
   "repository": {
@@ -320,7 +322,7 @@
     "kogakure": true,
     "henriesteves": true
   },
-  "homepage": "http://github.com/mapbox/node-sqlite3",
+  "homepage": "https://github.com/mapbox/node-sqlite3",
   "contributors": [
     "Konstantin Käfer <mail@kkaefer.com>",
     "Dane Springmeyer <dane@mapbox.com>",
@@ -347,7 +349,10 @@
     "database"
   ],
   "license": "BSD-3-Clause",
-  "version": "4.0.9",
+  "bugs": {
+    "url": "https://github.com/mapbox/node-sqlite3/issues"
+  },
+  "version": "4.1.0",
   "binary": {
     "module_name": "node_sqlite3",
     "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
@@ -373,14 +378,14 @@
     "pack": "node-pre-gyp package"
   },
   "main": "./lib/sqlite3",
-  "licenseText": "Copyright (c) MapBox\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n- Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n- Redistributions in binary form must reproduce the above copyright notice, this\n  list of conditions and the following disclaimer in the documentation and/or\n  other materials provided with the distribution.\n- Neither the name \"MapBox\" nor the names of its contributors may be\n  used to endorse or promote products derived from this software without\n  specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+  "gitHead": "4f61a03c60cb827b7cad7f624f34e607779b85d9",
   "dist": {
-    "shasum": "cff74550fa5a1159956815400bdef69245557640",
-    "integrity": "sha512-IkvzjmsWQl9BuBiM4xKpl5X8WCR4w0AeJHRdobCdXZ8dT/lNc1XS6WqvY35N6+YzIIgzSBeY5prdFObID9F9tA==",
-    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-4.0.9.tgz",
-    "fileCount": 38,
-    "unpackedSize": 2950951,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAmWfCRA9TVsSAnZWagAAXY4P/0nfVPHfOjHsssmuViAa\novxWkWXyRvLtXd1GKMqHxDL/mW9NTq6A4WdqUuwnIjzfqgWKcwLZKZ7az+f1\nEQYNNjneRp1NXXoF5aKJIZFox7KPH/w0oGJ6iKYV2HTScB2uu6VbFRyW2utL\nZVfSNzgSrHtMrgBQPVMka2xWGlRNkJJqnQW7f980+wyUslM7vO4JyTT/6Fa7\nFuQKSJaoBFeqDDxnqc51roiFZxLFA3wJWsgDwIoS7UIGi/vUuGa/9qBDFV2j\n25R0HH+qXHbY18fufq5RQD2oj3qYGqUpiSplq/Cmbdu3bKCa0Ry0PwEZ1zsn\n94c//eInDy+ruAQdJSMNYNWYnnha87kIeJ9HS8AsWkk/uGKuQ4qVU9VGHBs+\n/L27qKcvMkz1AS615hx4GMOjNWDfpzVql6vmY02tuJGWD8Nt+c8QJjzC6WUV\n5ZiG7S4uq06ft5yBAjITUqzX+G1D2dzYdnFpnUVGL4KEsWZiBskwYaGsKo3g\ntgU4RYLac3C21r6AwaB2QpMihYGBS2IRRvmKZMAIgrLXw4zs/aSLvmP8LpVA\nCG6EFfUxo3e+maIcDGhmqvGLd7elWinJGQdQDn+Scbr1zFSMMbWWPyzqXSVl\nC05EClQ/2wDYpAqNv0JJxufdkc1T8R59kAFPsKsXm9aQo0vIWdsGo+GfxUmh\npp1i\r\n=SV0v\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-RvqoKxq+8pDHsJo7aXxsFR18i+dU2Wp5o12qAJOV5LNcDt+fgJsc2QKKg3sIRfXrN9ZjzY1T7SNe/DFVqAXjaw==",
+    "shasum": "e051fb9c133be15726322a69e2e37ec560368380",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-4.1.0.tgz",
+    "fileCount": 31,
+    "unpackedSize": 2956359,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdVwVCCRA9TVsSAnZWagAAHlAP/jT0a4zNxtmJaGiBfQnV\n9DNgC7b/VPeGh5PB6KxBkzlX3Z0ODHn7C7cpR01/X+GMPS82swBI3MLsOZvX\nxwWzMBWxDjifKvO63y2HXPCHpG68n62YGFaRsq4xabVLAJYmGZnZCtyYJoX7\nQAaGZJrDWRzRkUW2sXgjnlnLzDkEv/v7D8ImwbsY757/RI4dI7J7TD21VL/u\naTUc1Npw04zax/crGhCKDs6MORc+01lZBMFKTJR7ydqyC844CXzq4ZhjSWIF\ntzg2c14J8J6cMOps0ZGEk4nQ3X8ix9B/yYHmZF08SW4+edkNAWpx/IRk3Ehy\nmTepuJiI5aQOzco9nrXNt5RHxWf2Kn7C5hilwFE5puMDxuu73ze/EZcxSuxI\nIt8CmhS79nUZ8ygmu8jrs+nLmQaEaMlF5g37WVOZN3WAMtoXMcuSF9O9T2/d\nFjydSXD+ilK5bwSvFg2K5o9tmbCOtvAKw367sdgxJ+iRZVLEbSMFqey41ChP\nENu5AHeYtzKruG5EJoVO9D1vU3DiIWRukgh8S1ixssrwuWeSHsc7bcpPKqPe\nmFqqjppIgCjiyojYmdQoWViVhXdQH2NNWHNwjbhbq2zSrjH/2P9qDAjc4gFl\ndWlYVneSbgBj5gBQiEalpJ7/+Zr4kpN3vmT+oLFI6IGNZFbJu+8Imc1gs+4e\nhiCT\r\n=8jD8\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

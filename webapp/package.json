@@ -1,6 +1,6 @@
 {
   "name": "azure-cosmos-db-graph-npm-bom-sample-webapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Node.js and Express Web App for this NPM/BOM project",
   "author": "Chris Joakim",
@@ -8,28 +8,35 @@
   "keywords": [],
   "main": "app.js",
   "dependencies": {
-    "@azure/cosmos": "^2.1.5",
-    "async": "^3.0.1",
+    "@azure/cosmos": "^2.1.7",
+    "async": "^3.1.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "express-session": "^1.16.2",
-    "gremlin": "^3.4.2",
+    "gremlin": "^3.4.3",
     "jade": "^1.11.0",
     "morgan": "^1.9.1",
     "numeral": "^2.0.6",
     "pug": "^2.0.4",
     "request": "^2.88.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-develop": "^0.4.0",
     "grunt-contrib-stylus": "^1.0.0",
-    "load-grunt-tasks": "^5.0.0"
+    "load-grunt-tasks": "^5.1.0",
+    "underscore.string": ">=3.3.5",
+    "constantinople": ">=3.1.1",
+    "clean-css": ">=4.1.11",
+    "lodash": ">=4.17.13"
   },
   "scripts": {
     "start": "node bin/www"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }

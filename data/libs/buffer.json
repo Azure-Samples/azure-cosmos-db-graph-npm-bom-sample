@@ -2,7 +2,7 @@
   "name": "buffer",
   "description": "Node.js Buffer API, for the browser",
   "dist-tags": {
-    "latest": "5.2.1"
+    "latest": "5.4.2"
   },
   "versions": [
     "2.1.1",
@@ -83,13 +83,17 @@
     "5.0.8",
     "5.1.0",
     "5.2.0",
-    "5.2.1"
+    "5.2.1",
+    "5.3.0",
+    "5.4.0",
+    "5.4.1",
+    "5.4.2"
   ],
   "maintainers": [
     "feross <feross@feross.org>"
   ],
   "time": {
-    "modified": "2019-01-16T19:40:06.817Z",
+    "modified": "2019-08-27T21:49:07.191Z",
     "created": "2014-02-07T03:37:21.186Z",
     "2.1.1": "2014-02-07T03:37:21.186Z",
     "2.1.2": "2014-02-07T05:28:27.645Z",
@@ -169,7 +173,11 @@
     "5.0.8": "2017-09-29T23:48:48.079Z",
     "5.1.0": "2018-02-16T07:16:40.013Z",
     "5.2.0": "2018-07-27T07:16:54.371Z",
-    "5.2.1": "2018-08-30T21:45:22.928Z"
+    "5.2.1": "2018-08-30T21:45:22.928Z",
+    "5.3.0": "2019-08-12T02:14:12.056Z",
+    "5.4.0": "2019-08-13T20:24:00.050Z",
+    "5.4.1": "2019-08-27T21:35:23.713Z",
+    "5.4.2": "2019-08-27T21:49:04.642Z"
   },
   "readmeFilename": "README.md",
   "users": {
@@ -226,23 +234,23 @@
     "url": "https://github.com/feross/buffer/issues"
   },
   "license": "MIT",
-  "version": "5.2.1",
+  "version": "5.4.2",
   "dependencies": {
     "base64-js": "^1.0.2",
     "ieee754": "^1.1.4"
   },
   "devDependencies": {
-    "airtap": "0.1.0",
+    "airtap": "^2.0.3",
     "benchmark": "^2.0.0",
     "browserify": "^16.1.0",
-    "concat-stream": "^1.4.7",
+    "concat-stream": "^2.0.0",
     "hyperquest": "^2.0.0",
     "is-buffer": "^2.0.0",
     "is-nan": "^1.0.1",
     "split": "^1.0.0",
     "standard": "*",
     "tape": "^4.0.0",
-    "through2": "^2.0.0",
+    "through2": "^3.0.1",
     "uglify-js": "^3.4.5"
   },
   "jspm": {
@@ -274,14 +282,14 @@
       "perf/**/*.js"
     ]
   },
-  "gitHead": "c8e3dc7af4e9367bcb14efd3d95c0bf467a67bee",
+  "gitHead": "b3dbaab202e043f7ecfb4cca9d594d60b0d80381",
   "dist": {
-    "integrity": "sha512-c+Ko0loDaFfuPWiL02ls9Xd3GO3cPVmUobQ6t3rXNUk304u6hGq+8N/kFi+QEIKhzK3uwolVhLzszmfLmMLnqg==",
-    "shasum": "dd57fa0f109ac59c602479044dca7b8b3d0b71d6",
-    "tarball": "https://registry.npmjs.org/buffer/-/buffer-5.2.1.tgz",
+    "integrity": "sha512-iy9koArjAFCzGnx3ZvNA6Z0clIbbFgbdWQ0mKD3hO0krOrZh8UgA6qMKcZvwLJxS+D6iVR76+5/pV56yMNYTag==",
+    "shasum": "2012872776206182480eccb2c0fba5f672a2efef",
+    "tarball": "https://registry.npmjs.org/buffer/-/buffer-5.4.2.tgz",
     "fileCount": 6,
-    "unpackedSize": 79940,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbiGVzCRA9TVsSAnZWagAApaIP/Rb4pP0x+Xzpm6ZbyG99\nzIOkTnEol19cZnAiJzDhN1bSZ0IgsORBWIpILvKj8RzL7EPRacZ1zJOAKBY8\nXKqFaS1JvdOa9O0T2pbPWSdaPu3PCLTay3AZTWN7Bjl6i4hbQ/EFi/VHcZU/\nEhXqaaqwZUmX2+5ouxpZxLveYD5vLJwvb5Vz7aQ11gyN6dkVh4jx20gAbuWI\n+gF44ry3efHIreDDGWP9+i9d6dsFQXX+GtkepOQYa/gdBmJSuOKy5PM8ukFR\nvplR11Q2LvjpA7Dv7IbP5XlCfmzdcZKvTFrDnjZqSnSAB6/OnFGKOe1/nm1s\nXvRbduy3sRZ0Pxpo+eZojl/Z06wqYgi/ri4qQTtErfTMKAVTy3HrsusK0SHI\n0/ymBiHVt6j9JJD3kK9APx6bUmqjkQlHB1TPdXSUefyyWYPsdyD17D1rhrfD\ne+sQxdTS4p4R7hh1exudk6XVlZt7CuH3NZnDMK2VqjKFFerOMjzDRn5y2upg\nIWoqrblFHoP1NZO3QMq7sRn7JfIg5/bJfZhZhbhosAo98a/vc3a/6Mm/amus\nvexzOvdlDrw4fWWUNW5ESGZ32Ub8B+lZVzuv4XX1N6W4n5LanGO/QcR76WRB\noD8NfTj7QrvnInk3DttX+MtWdQW1eUaa9gBBnUqIoULMo+hraw1AbRhBJMBe\nZKQs\r\n=nd43\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 81019,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZaVRCRA9TVsSAnZWagAAx/UP/jONb435bF3g8mH+o2VP\n+OT7vZRztcf1EPf/pCCXbzz0cPSA4IFPWo0kC7PutuCebNyRZ8tRhyXK4ITw\ni5MZU2of8ifVdJcddq01M1FEweSOkqJF3qV0PdH3JbMrHksdDycYovr3Y2j2\nfuLMZIzE+HejuTS59+2inG12X4rHNGDk2xAdrncSTw1CqdOQv23qNyYuOPLi\nw2PS6z0iCtxgGOec3D+005IZiuvjOTGD4Zd9JvOJuJWs6tyd+pMh79vb6BUv\nQ2qBNIKQTGYygk4swB+1HKlHCosIbFyLRrb0kVrmlTUXHpdkgUX4JRX9PoB1\nnIYFq8LHHtV5gAYo+/nyGHkMX1/Lr8bVxzlgAC6Y9LXyQsd76g1hkDAoaZdk\nhdYj4sjGET7E0fzVY0ivRiZmowez+TW1VYxaaR/4+6sZmO48r2zBle5bATcF\nIh+GUEsoW7ACj/oTxDixpcYt6xae6Ax9R7MCCAGJ9VH0xuVpT/HlYsoZo29U\nwdvorPJjEuG00B8SrCzdLt6ydrtU0NmCZ6Pxhawb1U8HktUYgYkpX0Rx30uC\nk9jCMa4oJb2CJPOXD5F5V7ZMdE4F2E7Hccp8rnwoqTQoBeI5y/QZXLj0D2Li\neO1vIxxDRNOS6xNfQR3bfMJRAhCnhITmYGQw6hXBsJSh9zV6I5AsQNBdp+ml\n/OKK\r\n=XbvD\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

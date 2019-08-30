@@ -44,7 +44,7 @@
     "zckrs <mehdy.dara.fr@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-14T09:22:23.878Z",
+    "modified": "2019-06-21T02:49:33.549Z",
     "created": "2012-11-13T15:43:50.942Z",
     "0.1.0": "2012-11-13T15:43:52.522Z",
     "0.1.1": "2013-04-06T17:35:49.620Z",
@@ -116,7 +116,8 @@
     "heartnett": true,
     "estrada9166": true,
     "joshdoescode": true,
-    "ayiu": true
+    "ayiu": true,
+    "xinwangwang": true
   },
   "readmeFilename": "readme.md",
   "homepage": "https://github.com/yeoman/configstore#readme",

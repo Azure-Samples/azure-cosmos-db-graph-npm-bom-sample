@@ -2,7 +2,7 @@
   "name": "readdirp",
   "description": "Recursive version of fs.readdir with streaming api.",
   "dist-tags": {
-    "latest": "3.0.2"
+    "latest": "3.1.2"
   },
   "versions": [
     "0.1.0",
@@ -34,13 +34,17 @@
     "2.2.1",
     "3.0.0",
     "3.0.1",
-    "3.0.2"
+    "3.0.2",
+    "3.0.3",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2"
   ],
   "maintainers": [
     "thlorenz <thlorenz@gmx.de>"
   ],
   "time": {
-    "modified": "2019-06-02T21:50:40.218Z",
+    "modified": "2019-08-14T14:03:45.802Z",
     "created": "2012-07-18T11:44:10.802Z",
     "0.1.0": "2012-07-18T11:44:11.200Z",
     "0.1.1": "2012-07-18T12:08:10.372Z",
@@ -71,7 +75,11 @@
     "2.2.1": "2018-09-13T17:10:45.627Z",
     "3.0.0": "2019-04-17T17:49:33.406Z",
     "3.0.1": "2019-04-24T21:56:48.947Z",
-    "3.0.2": "2019-06-02T21:50:36.246Z"
+    "3.0.2": "2019-06-02T21:50:36.246Z",
+    "3.0.3": "2019-07-05T23:47:06.235Z",
+    "3.1.0": "2019-07-06T23:49:31.019Z",
+    "3.1.1": "2019-07-06T23:53:14.423Z",
+    "3.1.2": "2019-08-14T14:03:43.139Z"
   },
   "author": "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
   "repository": {
@@ -122,7 +130,11 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "version": "3.0.2",
+  "contributors": [
+    "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
+    "Paul Miller (https://paulmillr.com)"
+  ],
+  "version": "3.1.2",
   "engines": {
     "node": ">= 8"
   },
@@ -133,23 +145,23 @@
     "picomatch": "^2.0.4"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^11.13.4",
-    "chai": "^4.2.0",
-    "chai-subset": "^1.6.0",
+    "@types/chai": "^4.1",
+    "@types/mocha": "^5.2",
+    "@types/node": "^12",
+    "chai": "^4.2",
+    "chai-subset": "^1.6",
     "mocha": "^6.1.3",
-    "nyc": "^14.0.0",
+    "nyc": "^14.1.1",
     "rimraf": "^2.6.3"
   },
-  "gitHead": "fc867f038f07656b4f277ec37bab8c67216a81b2",
+  "gitHead": "f3c0eaf1986f20a69d16524c64929bf7334f5acf",
   "dist": {
-    "integrity": "sha512-LbyJYv48eywrhOlScq16H/VkCiGKGPC2TpOdZCJ7QXnYEjn3NN/Oblh8QEU3vqfSRBB7OGvh5x45NKiVeNujIQ==",
-    "shasum": "cba63348e9e42fc1bd334b1d2ef895b6a043cbd6",
-    "tarball": "https://registry.npmjs.org/readdirp/-/readdirp-3.0.2.tgz",
+    "integrity": "sha512-8rhl0xs2cxfVsqzreYCvs8EwBfn/DhVdqtoLmw19uI3SC5avYX9teCurlErfpPXGmYtMHReGaP2RsLnFvz/lnw==",
+    "shasum": "fa85d2d14d4289920e4671dead96431add2ee78a",
+    "tarball": "https://registry.npmjs.org/readdirp/-/readdirp-3.1.2.tgz",
     "fileCount": 5,
-    "unpackedSize": 18124,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc9ESsCRA9TVsSAnZWagAAVkgP/0WHdx9d7yhkdVsCn+y3\nlLFRVjr8SH0T9Nh68kqbmdFuuDjgD/SdXBOjoUIhO1ZIos4iXBy12Lxw3naq\nP5z8txkxl0dUERLhsL0zW2U+eh+aVqF69JIILp+U5OmyF+QenOIaGb+PwRum\nmOkIspBOkhFo6L+BJIrv0N/egqOinRTE6CDtPyRhMXJV3lfxQUfUFORC2RX5\n6nSgJKgD/nvvvSReyapFrN4GkFcn7Mi1AaOyqrK2oRDbVVD73sS/Be5+oojE\nlEhBLOvGi3RPAjWqrF+NbDtfw9Xe1ZnxG1R7Rcp/EGMzR5PJyGvJd+hBbTjh\nGGE7hAp6YDPTlDTBt4AkVcPlJX3vKnypNJ3BcfFBOUT9x8+lzBTOEZWvJmZJ\nnUod9WiSK46wjlz3mmG+eWgg+oCy5TPyrsXPEiPiorQEi58iz4A4tvNl3isp\n6aiERWoQAeUFAnliSAVftLDRhE+lE2hbBsGxI9SYnbApGEVeYatRh6Dqf2Z2\nRMeyWp6T7yYdWaKGIQW6y0LJuhNuqm4GeKcxBxD76EH3aporaGyq5Ft/BpSX\nnKS1oAiEeUvXzfmJOCrtX1JMR34A8TJ3XpB0SaHIixH9dOhuSXx3dA3A9koQ\np53C4+tnCB6bNaA1GKrL449YGM8dVpSCIXiiKtkBcdNyoKClPf0wr3fkuq3L\nwtAh\r\n=HwHv\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 18936,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdVBS/CRA9TVsSAnZWagAA3coP/AxLq4OtPKo2w2gTecNZ\n+PmPF6snX52WJyTBHr99UQxVW5ZnCY11m25fs+o0hwp0at6s7SmFdVCCsMti\nv+5Ns8XMTFotHjOB868Zl5Lwdi2XD0WIqxV7tzCAk0bk6LMLx2KsJXQVNEja\np19ukoojJLT6ETQuZwIeg9K2fCu6ho4Hil0Iq8CHsxUwejXhfcrTDq0CNC13\nZUJHT4xvFQKFHio8OB37BjAfKYvnLQeo8tAYR3pfU1Z12tvQQ0Vw2E64lY07\nt8aNePxvi8Fno4C+EDm5Dy/QSkjQOJdOpJjz3OP8eWgZPXX1EA7PPfp0jpvE\nQRox/tWpaB7iwL+2WsgueYkAGydNFXfFCsq7dPXjtNOdQ2L3n6V/zJRRdyFE\nlGiquXVMWEkPfqyfI6/QmORO3OfbcyoUsOGtYX8v+Be9X1Nml9fiK1PYIYXu\nXy5Io4qA6s07aLmYcbinHZDaLEmdvc2RW6pELiED4hNu0X95l17juB63gYGv\nDf3XvxLV/kFkmCdCLZetFUt3U6vnzX3+h161jj7oDtmCl2a9fKXomrfd4rV3\nGZXzBVDBsbYs9XyBFe0riBdeT3elFttIjF89F0dOIfKG3kU6VYe43/bizNI8\n7x4F5H67VuIasFApMib5yBuOYTmka2L46u6098n74SW7ml30Is2nipJ3Y2+n\nw14P\r\n=jBwp\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

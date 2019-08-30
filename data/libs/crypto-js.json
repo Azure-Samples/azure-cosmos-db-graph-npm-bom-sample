@@ -23,7 +23,7 @@
     "evanvosberg <evanvosberg@urban.to>"
   ],
   "time": {
-    "modified": "2018-03-18T07:07:25.267Z",
+    "modified": "2019-06-27T05:42:42.759Z",
     "created": "2013-05-07T22:32:59.356Z",
     "3.1.2": "2013-05-07T22:33:01.482Z",
     "3.1.2-1": "2013-07-23T14:23:58.138Z",
@@ -221,7 +221,8 @@
     "allen_l_liu": true,
     "france193": true,
     "danielgray.me": true,
-    "maxblock": true
+    "maxblock": true,
+    "yanghcc": true
   },
   "license": "MIT",
   "version": "3.1.9-1",

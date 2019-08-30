@@ -1,0 +1,91 @@
+{
+  "name": "universal-user-agent",
+  "dist-tags": {
+    "latest": "3.0.0"
+  },
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.1.0",
+    "3.0.0"
+  ],
+  "time": {
+    "created": "2018-09-17T23:53:44.463Z",
+    "1.0.0": "2018-09-17T23:53:44.640Z",
+    "modified": "2019-07-12T17:26:01.902Z",
+    "2.0.0": "2018-09-19T17:59:42.120Z",
+    "2.0.1": "2018-09-19T23:39:29.424Z",
+    "2.0.2": "2018-11-20T15:32:14.069Z",
+    "2.0.3": "2019-01-10T20:26:24.346Z",
+    "2.1.0": "2019-05-08T17:36:53.223Z",
+    "3.0.0": "2019-07-12T17:25:59.118Z"
+  },
+  "maintainers": [
+    "gr2m <gregor@martynus.net>"
+  ],
+  "description": "Get a user agent string in both browser and node",
+  "homepage": "https://github.com/gr2m/universal-user-agent#readme",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr2m/universal-user-agent.git"
+  },
+  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "bugs": {
+    "url": "https://github.com/gr2m/universal-user-agent/issues"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "version": "3.0.0",
+  "main": "index.js",
+  "browser": "browser.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "coverage": "nyc report --reporter=html && open coverage/index.html",
+    "coverage:upload": "nyc report --reporter=text-lcov | coveralls",
+    "pretest": "standard",
+    "test": "nyc mocha \"test/*-test.js\"",
+    "test:browser": "cypress run --browser chrome",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "cypress": "^3.1.0",
+    "mocha": "^6.0.0",
+    "proxyquire": "^2.1.0",
+    "nyc": "^14.0.0",
+    "sinon": "^7.2.4",
+    "sinon-chai": "^3.2.0",
+    "standard": "^13.0.1",
+    "test": "^0.6.0",
+    "semantic-release": "^15.9.15",
+    "travis-deploy-once": "^5.0.7"
+  },
+  "dependencies": {
+    "os-name": "^3.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach",
+      "expect"
+    ]
+  },
+  "gitHead": "908810842c948e3550df828b7b5c583aabf6a3b5",
+  "dist": {
+    "integrity": "sha512-T3siHThqoj5X0benA5H0qcDnrKGXzU8TKoX15x/tQHw1hQBvIEBHjxQ2klizYsqBOO/Q+WuxoQUihadeeqDnoA==",
+    "shasum": "4cc88d68097bffd7ac42e3b7c903e7481424b4b9",
+    "tarball": "https://registry.npmjs.org/universal-user-agent/-/universal-user-agent-3.0.0.tgz",
+    "fileCount": 9,
+    "unpackedSize": 5804,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdKMKnCRA9TVsSAnZWagAAC14QAJWL/fTCLGmBMENYtwEr\n7roag1iTD8QXNifLyxmGvTGkeO66CndsqlNCw2J5nt+B30dtAHIIL6DygUQY\nlaiVJbRMHguc2+iZBQpbZS1jJCLI5T5uA6gEMkREpF0bSgqh5JgcwBVafiJn\nzruzR+y9uuGzjToge/C8PVF+bNhjMvf6XAvY6EEV8S297R403Czh/mDVidcX\nfH600vz5kUwdOXSoCrqxKIgBBpL6vLr13YS9JJY5qxU/FXS+8/sweh/x4MA1\nvCuilmeXrZJXvAspKcHS3pT5yoI3sBGxfpOrHwHwAwvBWhK3e2BtW4E415C+\neRTV8YH9sFKv439kvKPImFwKICa8ViUMDRpGSnF4GsSkoqmkIWVDlXB/q37M\n649w9QnTnIglNVevEclc1GKVmSbfLtXgVlOMkNm7l/oE0d5ZN5R52bGCogGH\nefax2YZui2EO/5ucX5zLQ1LThqtjxhilhadD6CIKKKx4U6BASv4rHT914nf+\nQPbEkcQu5YDsXHLLI2f36IlQhbq6ZNmH8OQa/zh7gyajrjLMoO+S15dNvkNv\nNuMP6eu+sPxRVZZpneWiJPERQgH6m9dzJ47Rpesxfooh6mbkw8W9PWFpq8zI\ninc6J4SO7nuKHPRg5dBxC6Ea+e5kqZuG6sH0buHz2iHXcpIiNKrT469rDLKs\nYxrQ\r\n=moR9\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

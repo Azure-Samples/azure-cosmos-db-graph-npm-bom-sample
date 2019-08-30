@@ -2,7 +2,7 @@
   "name": "pg-pool",
   "description": "Connection pool for node-postgres",
   "dist-tags": {
-    "latest": "2.0.6"
+    "latest": "2.0.7"
   },
   "versions": [
     "0.0.1",
@@ -31,13 +31,14 @@
     "2.0.3",
     "2.0.4",
     "2.0.5",
-    "2.0.6"
+    "2.0.6",
+    "2.0.7"
   ],
   "maintainers": [
     "brianc <brian.m.carlson@gmail.com>"
   ],
   "time": {
-    "modified": "2019-01-05T03:35:53.187Z",
+    "modified": "2019-07-25T17:41:07.427Z",
     "created": "2016-06-02T16:57:53.898Z",
     "0.0.1": "2016-06-02T16:57:53.898Z",
     "0.1.0": "2016-06-08T00:42:33.174Z",
@@ -65,7 +66,8 @@
     "2.0.3": "2017-08-10T14:01:40.393Z",
     "2.0.4": "2018-11-12T18:32:41.901Z",
     "2.0.5": "2018-12-11T18:53:42.460Z",
-    "2.0.6": "2019-01-02T18:15:27.684Z"
+    "2.0.6": "2019-01-02T18:15:27.684Z",
+    "2.0.7": "2019-07-25T17:41:04.638Z"
   },
   "homepage": "https://github.com/brianc/node-pg-pool#readme",
   "keywords": [
@@ -89,7 +91,7 @@
     "arkii": true,
     "parkerproject": true
   },
-  "version": "2.0.6",
+  "version": "2.0.7",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -112,13 +114,13 @@
   "peerDependencies": {
     "pg": ">5.0"
   },
-  "gitHead": "d7f6ed0c7cb7f546211ae3c90e6f1d50b7bcd383",
+  "gitHead": "e59a7667ffd4ae20c75a057ad4beadfbe830e6ce",
   "dist": {
-    "integrity": "sha512-hod2zYQxM8Gt482q+qONGTYcg/qVcV32VHVPtktbBJs0us3Dj7xibISw0BAAXVMCzt8A/jhfJvpZaxUlqtqs0g==",
-    "shasum": "7b561a482feb0a0e599b58b5137fd2db3ad8111c",
-    "tarball": "https://registry.npmjs.org/pg-pool/-/pg-pool-2.0.6.tgz",
+    "integrity": "sha512-UiJyO5B9zZpu32GSlP0tXy8J2NsJ9EFGFfz5v6PSbdz/1hBLX1rNiiy5+mAm5iJJYwfCv4A0EBcQLGWwjbpzZw==",
+    "shasum": "f14ecab83507941062c313df23f6adcd9fd0ce54",
+    "tarball": "https://registry.npmjs.org/pg-pool/-/pg-pool-2.0.7.tgz",
     "fileCount": 21,
-    "unpackedSize": 52021,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLP/ACRA9TVsSAnZWagAAlmoP/0WwDXwnVWyH9eLqcbKc\n4idPJzMKTdkZkpc4i0dvkamT1Dw+ynyHJ78o1iqPj7qgn+Uyw9KuaGTWTOcw\n92XcLJUPyJZK6g6P0zn85/BnKc0mKysp6pWwCmdafSUX6JAteFZIRy9VynV+\nRQ1c39N2uPxaCUCneaD4ASWAqxpEFORvqaU0SxVp4F4rT1gooSx1ljJSNdqv\nTeySjY0WfbGKPaqeI6b6vELInujM5ijLN83/XuM8I59AdWj19QKEIJGwWrYv\nC7sV+6ydU75xQDMl5k81C+8xwhjEFBF3HgP4zApmKdO4cIBnKoi+DDHcqKw7\niBDomuPgXbP49kF7fu47hm18ZUnelwl9TizZQb8qyaRCxMR6i/jmjlaU5WLt\nEnBCVMekZO/z0FdcgkvgSIF4xJNFiVj7W0SvEDyrLkmWGa7HCu+Y5xDFUwpz\nwupK8VG03+bLs7UeD9hbg5TKUC8GXdTPb23G20fzcWRACCMTIpW/n6fDrJLv\nr571aKRsJ1DsGqpA+aPmFsF6eAYi95VNa38uP1b+osxdIxBStS7DjLvQF+1i\nTuDM0VfY44GpWu5ZIzrqrfoULYXaqvvk9Dye7U4kZhEM1PMJqoV1NzSv2ZUh\n+v0LQX935I7kflRyn/J7Q/LJS3A3KHGjg3NikkWl8uK+cyKQwKAfzCdr0B6t\nu2kq\r\n=b9m5\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 54304,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdOemxCRA9TVsSAnZWagAAHBwP/2hWX1enRtEiZXwcUBrZ\nrfWOF/vyC1ECUHc2e4pQCcWsPKEgVdfDu2wff25lLifl9P7TsR+nqR03CK8N\ngKMo8bFjnuJOFE50z2X8HXpSaEZWeFB0/YwRKvCXXL900AkRK1MOnEuDPtGi\nEqQxGnX9tsLIX73L9qPVFjstukmHALVc0eWTyFoYHFAeo0USECPyTs+hEAgv\n/WWAlrIRpZoDtjWLTx77rQAKU5Y0Pt4/xU+BdJNVlwjWmqgVOGYidrnHxHxW\ni8wovLAdxRnIOYUensveDVntOEWsy/TTm/czW1B44WJcBbZQobO4fHqDBW/8\nH8q5C0hwr0fQ/127weATVBgd9Sz4bzWv6mlj//p4fSRWkc0yc8kHPzz3yqWD\nwAcaSvXiwrwC7nl1gancXy4ObxaBUbaHapYa8Jd4r2pH2mlUKuH+TdD6wItu\nLejc330Ui+QHISvWB7JtVY60byUGjZLHjQXdQ1KwiWNDo5EIUWhh3ZgwBmdz\nqJ4C2KbLaJYI8kcPZYjYbN3DFFMi3sCiKdnRk/+22goos9FIp9PlvCx39a2U\ns59n4P04jLbB0B4OcFeVSawLdLn3Q1ozWBhNOmRHhhoifd8HbaAmIwi6EaN/\n03cg+kyXgCRB4dMwzDlNef7JjDCkg45z8o2YyqHqj7CdVvfEHb9KvBwM5ylz\nSJQC\r\n=Ih86\r\n-----END PGP SIGNATURE-----\r\n"
   }
 }

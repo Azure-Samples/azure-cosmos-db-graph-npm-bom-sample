@@ -2,7 +2,7 @@
   "name": "commander",
   "description": "the complete solution for node.js command-line programs",
   "dist-tags": {
-    "latest": "2.20.0"
+    "latest": "3.0.1"
   },
   "versions": [
     "0.0.1",
@@ -65,17 +65,21 @@
     "2.17.1",
     "2.18.0",
     "2.19.0",
-    "2.20.0"
+    "2.20.0",
+    "3.0.0-0",
+    "3.0.0",
+    "3.0.1"
   ],
   "maintainers": [
     "abetomo <abe@enzou.tokyo>",
+    "shadowspawn <npm_j@ruru.gen.nz>",
     "somekittens <rkoutnik@gmail.com>",
     "tjholowaychuk <tj@vision-media.ca>",
     "vanesyan <romain.vanesyan@gmail.com>",
     "zhiyelee <zhiyelee@gmail.com>"
   ],
   "time": {
-    "modified": "2019-06-11T11:25:41.913Z",
+    "modified": "2019-08-30T08:55:42.025Z",
     "created": "2011-08-14T22:17:51.639Z",
     "0.0.1": "2011-08-14T22:17:52.365Z",
     "0.0.3": "2011-08-15T15:30:08.289Z",
@@ -137,7 +141,10 @@
     "2.17.1": "2018-08-07T11:19:30.675Z",
     "2.18.0": "2018-09-07T10:27:19.913Z",
     "2.19.0": "2018-10-08T21:51:13.862Z",
-    "2.20.0": "2019-04-03T00:41:29.557Z"
+    "2.20.0": "2019-04-03T00:41:29.557Z",
+    "3.0.0-0": "2019-07-27T02:38:12.348Z",
+    "3.0.0": "2019-08-09T00:46:51.482Z",
+    "3.0.1": "2019-08-30T08:55:39.389Z"
   },
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "repository": {
@@ -1169,7 +1176,7 @@
   },
   "readmeFilename": "Readme.md",
   "license": "MIT",
-  "version": "2.20.0",
+  "version": "3.0.1",
   "scripts": {
     "lint": "eslint index.js",
     "test": "node test/run.js && npm run test-typings",
@@ -1178,23 +1185,23 @@
   "main": "index",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^10.11.3",
-    "eslint": "^5.6.1",
+    "@types/node": "^12.7.2",
+    "eslint": "^6.1.0",
     "should": "^13.2.3",
-    "sinon": "^6.3.4",
-    "standard": "^12.0.1",
-    "ts-node": "^7.0.1",
-    "typescript": "^2.9.2"
+    "sinon": "^7.4.1",
+    "standard": "^13.1.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "typings": "typings/index.d.ts",
-  "gitHead": "3e8bf54b9b2fb3960fc2320a4174aa79efca90fa",
+  "gitHead": "43123022cae2f01cc4cffe3eb44b5275e857a6d2",
   "dist": {
-    "integrity": "sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==",
-    "shasum": "d58bb2b5c1ee8f87b0d340027e9e94e222c5a422",
-    "tarball": "https://registry.npmjs.org/commander/-/commander-2.20.0.tgz",
+    "integrity": "sha512-UNgvDd+csKdc9GD4zjtkHKQbT8Aspt2jCBqNSPp53vAS0L1tS9sXB2TCEOPHJ7kt9bN/niWkYj8T3RQSoMXdSQ==",
+    "shasum": "4595aec3530525e671fb6f85fb173df8ff8bf57a",
+    "tarball": "https://registry.npmjs.org/commander/-/commander-3.0.1.tgz",
     "fileCount": 6,
-    "unpackedSize": 62223,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpAE6CRA9TVsSAnZWagAARXcP/1Dlmv/NEiARtvdTN0Fo\nZoBKmjwWrgyT5oLE1efAg47RdO1zDQLWD2y5pUfW3RgdEPek6cmPTwjnijbj\nF3fuYCChl9ipkbkQMPhfN7eIv13pz8muVXvo9Rt1HF7rQ9jm25+lorzaOHL4\nn/ew0TNvmjzvxEi3cm9hFTYA2QMvGo6GnFh/7Tp1BZcVM7xC6eJRB3sD89vo\npv3CZ0R/JhZkLiKJ1eljTnE7Ch1YL739tUZDFGmkwtko0WPiiKmKuLseTokb\nKlvc6q6Qmy1tAzf8v0gCET/KSUzRXByd1XXaONQX7WNQRBjF4uit1GGxaMVB\ngTNR6lcYPqoLQ+9td4xnxYLKYN3xIKRvzex59PKS79j6D8PW5SwfHJG6mIDm\n3HWkZRHT8MRQcF792ZcwvaeOe69W2fty+7tu4FQxmSQ6ajgSem/mymkePOre\nkBIUx6U3pRq+qo8SuC0xHJaHehUaErhz76VYuJOut9DVRul9QNlD9c/e6Bls\nQ3zgSlrrzGoHddAB9DG+vQaDmvF7twV+oWYfzDxNwxNlOATjR0cXod3230EW\nEzs7vDpx9UrJBhqKAOxga/oYWzqx2GvC5vuXZcnMnNQ+3xejO08gBPWzNEEc\nMIGsO+cU9Kyd+9UJWQRBE7kH/6j5Bh54qyxNskfc+hpJ3UyBgKUJBsUWm5um\nj7Uc\r\n=zhg8\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 77846,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdaOSLCRA9TVsSAnZWagAAqh0P/291MbV2QUq2ft6zXOFI\nNZZ32+k1GVp7z4U7ho4LqeVlfb+Pl/VKCkuxt6Y7wZrDJIIAdfxtOn1BIgz0\nrN//DDXGBepnDpbTwtSGpoBktHKV35vSAtRQde2yqmSdGEevRCyJLcwFgPUo\nNObsXgzzFa6Q5mByP+e5qoxYcMP6aieVw9PZJO7/L/bp3CrA7I0bAQfoUAAh\naHlFFbFiMbfu7+sS5ldoINa02pzV7wqPd7Pcnhk1FAbC+kl4wYUHzNix3mUC\nJ0g0mJuUXb0tvTOWd5I1wQ1S4IzQpcYo0Bcn58Hq3sApeIeiBrA4VA7ECAxG\nqu9uY/aJv0pfJToBYR35ZbqX52P++QHwqjq/mLGBzKxLpzPEBCdgUD8/Dxjf\n7FwXlF0qr+7PCv1j4rbOi1lwvHpCJvugeLzrRq9erQSLIL2O1zzJ1Bhjbp8S\nOY14zCLarxLOj8tND2qahJZoiJtBMFIrr9ZFiGbTJ+ybPGQm4JfK5afXTTNx\nGD7Jnmyu6EXrk+pmp+iJLuWgdgs7YHYbEDjkwr9LOSk32hZrKsbvgPCdOZQd\nKFx9BHcrjv+BvRyxolY0CkRi8j3qPZ/8ImNm7Ukus/6z4gYUw4lmdGB+CZVj\nubzAplB3/1old2GBA/eZTDIYRYDcB8su/cFoaCFcvHLRIyIWBJZXFgUMFFRJ\ngrYU\r\n=O9oM\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

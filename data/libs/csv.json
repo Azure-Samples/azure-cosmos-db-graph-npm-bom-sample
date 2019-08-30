@@ -3,7 +3,7 @@
   "description": "CSV parser with simple api, full of options and tested against large datasets.",
   "dist-tags": {
     "stable": "0.0.2",
-    "latest": "5.1.1"
+    "latest": "5.1.2"
   },
   "versions": [
     "0.0.1",
@@ -59,7 +59,8 @@
     "5.0.0",
     "5.0.1",
     "5.1.0",
-    "5.1.1"
+    "5.1.1",
+    "5.1.2"
   ],
   "maintainers": [
     "david <david@adaltas.com>"
@@ -70,7 +71,7 @@
     "url": "git+https://github.com/adaltas/node-csv.git"
   },
   "time": {
-    "modified": "2019-01-10T16:33:19.084Z",
+    "modified": "2019-08-10T21:21:44.852Z",
     "created": "2011-01-21T11:48:11.161Z",
     "0.0.1": "2011-01-21T11:48:11.161Z",
     "0.0.2": "2011-01-21T11:48:11.161Z",
@@ -125,7 +126,8 @@
     "5.0.0": "2018-11-21T22:07:01.731Z",
     "5.0.1": "2018-12-17T09:03:45.526Z",
     "5.1.0": "2018-12-30T20:38:29.657Z",
-    "5.1.1": "2019-01-10T16:33:15.738Z"
+    "5.1.1": "2019-01-10T16:33:15.738Z",
+    "5.1.2": "2019-08-10T21:21:42.330Z"
   },
   "users": {
     "fgribreau": true,
@@ -274,41 +276,60 @@
   "bugs": {
     "url": "https://github.com/adaltas/node-csv/issues"
   },
-  "license": "BSD-3-Clause",
-  "version": "5.1.1",
+  "license": "MIT",
+  "version": "5.1.2",
   "engines": {
     "node": ">= 0.1.90"
   },
   "main": "./lib",
+  "coffeelintConfig": {
+    "indentation": {
+      "level": "error",
+      "value": 2
+    },
+    "line_endings": {
+      "level": "error",
+      "value": "unix"
+    },
+    "max_line_length": {
+      "level": "ignore"
+    }
+  },
   "dependencies": {
-    "csv-generate": "^3.2.0",
-    "csv-parse": "^4.3.0",
-    "stream-transform": "^1.0.8",
-    "csv-stringify": "^5.1.2"
+    "csv-generate": "^3.2.3",
+    "csv-parse": "^4.4.5",
+    "stream-transform": "^2.0.1",
+    "csv-stringify": "^5.3.3"
   },
   "devDependencies": {
-    "coffeescript": "~2.3.2",
-    "mocha": "~5.2.0",
-    "should": "~13.2.3"
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.1",
+    "@types/should": "^13.0.0",
+    "coffeescript": "~2.4.1",
+    "mocha": "~6.2.0",
+    "should": "~13.2.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "optionalDependencies": {},
   "scripts": {
-    "preversion": "grep '## Trunk' CHANGELOG.md",
+    "preversion": "grep '## Trunk' CHANGELOG.md && npm test && cp lib/*.ts lib/es5 && git add lib/es5/*.ts",
     "version": "version=`grep '^  \"version\": ' package.json | sed 's/.*\"\\([0-9\\.]*\\)\".*/\\1/'` && sed -i \"s/## Trunk/## Version $version/\" CHANGELOG.md && git add CHANGELOG.md",
     "postversion": "git push && git push --tags && npm publish",
     "patch": "npm version patch -m 'Bump to version %s'",
     "minor": "npm version minor -m 'Bump to version %s'",
     "major": "npm version major -m 'Bump to version %s'",
-    "test": "mocha test/**/*.coffee"
+    "test": "mocha test/**/*.{coffee,ts}"
   },
-  "gitHead": "58644b3f58cea3145007d445ea7292f1c26f1e94",
+  "types": "./lib/index.d.ts",
+  "gitHead": "614477daaa39bcb0bd2df7482b3b541e7b404836",
   "dist": {
-    "integrity": "sha512-gezB9D+enrh2tLj+vsAD8JyYRMIJdSMpec/Pgbb+7YRj6Q6/D12HLSwjhx+CrirRT4dESjZYXWX1JfqlV4RlTA==",
-    "shasum": "bd715f15a4ed9141309a24ec6dab1c903ab79f92",
-    "tarball": "https://registry.npmjs.org/csv/-/csv-5.1.1.tgz",
-    "fileCount": 16,
-    "unpackedSize": 11082,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcN3PMCRA9TVsSAnZWagAA6CoP/02hu6/mCSSDWlAOpQj5\ns1bCZ0U4XDMYpX/oH/u0JJO/8S2mO2dZVv+woE7vS+XwmCvpsDqwf+Aqq6ta\nE5y3GCtg4rZHcyoFB5PUzg4/laQFnrzTdOT0U4F0vblLnOBDl2eWk+dYU1kG\n9iI037YBdvEkdnSpfPksR/X4IrlN9Ba7bR+UWDiHswOVXg4NFG6uCm/stS9j\ntMkPv40uoV0uNRwty8/H41WhAZ9/U+SI/J0HrSCuntdbR1W6iwVxGtx65QY9\nT/UTQpcGuv8VEXtqupYg6r1/Hyln9P/PzCMC2PFC89Dn3v5a5JydfrpPaSeK\nMfhqa8UnBgxBNBgZD0QecvZsqI9+htfS1+XxkBCbqHcWueNrrmHJu8Kq4V5t\nd9pKaJbfDXoFt0lCF+ipq8BU2ugtUb+Jq83d05XtAQnKFAmqiDS7+66jqLrA\nfhnFFJxope1AlPelxeWsA12OWgL2g5dH2oBUe/udRoPV3VBzlBzasDjwf6Of\nCw5ODiTHXa3bieiYTyGFLmP188ITPBIShPd2ebHNeSDS2S/RbRjjRXWcjwJ6\n7rNzoX6txjHUDgKweTsJs0/L0nMAqqO7Ku/u6iSbr7mihnnhQFoP9DNq3IRh\n250SOWPKPNQomsKasuO+p1X/IOfUp8Yzc612ayqIzLIRW77aTFWGdbGpT6u1\nYVjL\r\n=6b2j\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-2NA/Fp9FuRAJY6bu5mZsSyBFeqbDZjGg8z1WYETpBpuO30gyWOkxf9KjzBNEZiCsXuNxdQrU3rKrpejyucznMg==",
+    "shasum": "6e3c5262dd91a18768552a5e40d531a68cc00f3e",
+    "tarball": "https://registry.npmjs.org/csv/-/csv-5.1.2.tgz",
+    "fileCount": 12,
+    "unpackedSize": 10446,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTzVmCRA9TVsSAnZWagAACkcP/R0XsNwzJG4JoTfxmd8N\nCy21t29M0WZY9y8O4rDIv9WIhM7UTQ6cKiRNKhMovBUQjL7CcDcZ6xp2pVA5\nPY/q3Ox7WyMtnMigBi+LIdYsSu56NSrkczexSS4kZIOhQEHZWlmHncQPjAdI\nFXc+VhLIyKbL8cASQmbIHcWyxESGjQfUv8GiCuVcuol20do+ht3UTgjmEG2d\nkZhVSpowDYfyLANBUEMxJv6HD1ymD1C6VLawLpMFnbXie5vu9x5ObLL7/8HK\nq9+iai0AX3DTRe99WJH4FD5UQAgxeu+sdmvqF9hApA42AxH3ISRYZxhCRUMN\nz8EU5jz7cIhYWO+H0r7MczF9KDcNP9K5dw6ifHneJ5+dxbZLQ71u0zleGT2/\nDp3lxg63lfKgP6yHOBGyCYCtUKRp28T1tMCK9SFdaEkEDCZkEMpi8fZ0q2vX\n+oUqQROKg6FPS1npMQoW0BXp6H56Vh4z7NYixuiqcwFSs/XyY1ApGBHm71Zc\nD/jIKfq/wkx91IMdXna29/+0KHnCBmP1I4L96dvyQPTnGPDgSwfktpR/2zlM\nKL4tQODNxlc+V/VdUwKLJ5lF2K4+UJ+5a3lMh+KJBc02vgELqINj0QoIBOLs\nJ3EbCoOmZR72wFe4XE5FnextuqL24KYje/3p2jsDiLvxAz8eenMnho8Dkx1M\n0Z+z\r\n=quIx\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

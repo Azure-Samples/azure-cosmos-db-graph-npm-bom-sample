@@ -1,0 +1,64 @@
+{
+  "name": "node-abort-controller",
+  "dist-tags": {
+    "latest": "1.0.4"
+  },
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "time": {
+    "created": "2019-03-31T23:34:16.489Z",
+    "1.0.0": "2019-03-31T23:34:16.703Z",
+    "modified": "2019-05-30T13:55:00.755Z",
+    "1.0.1": "2019-03-31T23:37:37.612Z",
+    "1.0.2": "2019-04-04T15:37:50.199Z",
+    "1.0.3": "2019-04-04T16:21:16.946Z",
+    "1.0.4": "2019-05-30T13:54:58.052Z"
+  },
+  "maintainers": [
+    "southpolesteve <southpolesteve@gmail.com>"
+  ],
+  "description": "AbortController for Node based on EventEmitter",
+  "homepage": "https://github.com/southpolesteve/node-abort-controller#readme",
+  "keywords": [
+    "AbortController",
+    "AbortSignal",
+    "fetch",
+    "polyfill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/southpolesteve/node-abort-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/southpolesteve/node-abort-controller/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": "Steve Faulkner <southpolesteve@gmail.com>",
+  "version": "1.0.4",
+  "main": "index.js",
+  "browser": "browser.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "24.5.0",
+    "node-fetch": "2.3.0",
+    "whatwg-fetch": "3.0.0"
+  },
+  "gitHead": "92850e5bd78201dada2195d4878fb577d98eae88",
+  "dist": {
+    "integrity": "sha512-7cNtLKTAg0LrW3ViS2C7UfIzbL3rZd8L0++5MidbKqQVJ8yrH6+1VRSHl33P0ZjBTbOJd37d9EYekvHyKkB0QQ==",
+    "shasum": "4095e41d58b2fae169d2f9892904d603e11c7a39",
+    "tarball": "https://registry.npmjs.org/node-abort-controller/-/node-abort-controller-1.0.4.tgz",
+    "fileCount": 9,
+    "unpackedSize": 8679,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7+CyCRA9TVsSAnZWagAAJocP+wWb7l+xs8cwXBVyNs2j\nREbOLaKx0bYX5iPsLozmQj3GV55GcI0g6KBCfP3VKeFiTLrOoVJg5J8PhFEY\nUxkfV0runDc38C6ZSsbOCFUlPB9ZPnC0G6Wc4ilg8dOlYIudIj5YPB2LCVYf\nezqVb2JU4WzUjd13IcCB9Na4xbny0Pm42Jq0NLDET3B+vexmg51ug/MdZHpA\n0uCuFBK7rGnbIp32crfwdVKo2Y17fD9thSYTJINkC7rqJ90h06eWCTyxnFj0\nUEIEFTr+Urmy5XsMc0gOuCdHrv1pMGPSrhkpmLyxGDRx7Qv9HSQB5X+V1CAZ\nzp1LM0e4MRbp1SxL/TAWAkAQV7hYpVGQm2YDKJ2SrNw5eO9cPmWoYqUy6+2V\n6z9f0zRSYtEFkHaNqgjg6qEZXsZNDgSntBuxwLSeYZLrIekRaMm4aA/IfDUm\nareiMcibXU6TRk5tUHfnrLW4gxh/DGO+zlmM8VSGRZR+VC01UNViG/uU3FGd\nxhWC77aDYAIFQeKZvmpe8r8WBgXZ5EPNAFmaFNYfRqJRu1wJeaFR3n3Gn0li\nw7cZ4WN/3OyUI0kFM7d4Hy4S79bVmQ51r5ki5vw2P4nR8T9wZikHvfL96HZf\n2goAlXwfpRKSaFr/luVw0hnE4amZpsRqQDI46vmAClNDCxZqpgYBFvwklzdW\nbFvS\r\n=TJ7E\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

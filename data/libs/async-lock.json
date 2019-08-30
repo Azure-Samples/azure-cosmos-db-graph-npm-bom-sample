@@ -2,7 +2,7 @@
   "name": "async-lock",
   "description": "Lock on asynchronous code",
   "dist-tags": {
-    "latest": "1.2.0"
+    "latest": "1.2.2"
   },
   "versions": [
     "0.1.0",
@@ -27,13 +27,15 @@
     "1.1.2",
     "1.1.3",
     "1.1.4",
-    "1.2.0"
+    "1.2.0",
+    "1.2.1",
+    "1.2.2"
   ],
   "maintainers": [
     "rogierschouten <rogier.schouten@gmail.com>"
   ],
   "time": {
-    "modified": "2019-03-13T13:11:12.810Z",
+    "modified": "2019-07-15T20:16:37.382Z",
     "created": "2015-01-13T10:24:34.925Z",
     "0.1.0": "2015-01-13T10:24:34.925Z",
     "0.1.1": "2015-01-13T10:36:31.707Z",
@@ -57,7 +59,9 @@
     "1.1.2": "2018-02-26T19:21:10.636Z",
     "1.1.3": "2018-06-08T06:19:45.790Z",
     "1.1.4": "2019-02-02T11:00:31.792Z",
-    "1.2.0": "2019-03-13T13:11:10.182Z"
+    "1.2.0": "2019-03-13T13:11:10.182Z",
+    "1.2.1": "2019-07-13T12:02:53.714Z",
+    "1.2.2": "2019-07-15T20:16:34.877Z"
   },
   "homepage": "https://github.com/rogierschouten/async-lock",
   "keywords": [
@@ -80,7 +84,9 @@
     "Christian Passet (https://github.com/thePunIssuer)",
     "Tanguy Krotoff (https://github.com/tkrotoff)",
     "jtyers (https://github.com/jtyers)",
-    "Paul Roub (https://github.com/paulroub)"
+    "Paul Roub (https://github.com/paulroub)",
+    "Geoff Whatley (https://github.com/meatwallace)",
+    "Patryk L. (https://github.com/LosTigeros)"
   ],
   "author": "Rogier Schouten <github@workingcode.ninja> (https://github.com/rogierschouten/)",
   "bugs": {
@@ -98,17 +104,16 @@
     "anypossible.w": true
   },
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "private": false,
   "engines": {},
   "scripts": {
     "start": "grunt",
-    "test": "grunt test",
-    "postinstall": ""
+    "test": "grunt test"
   },
   "devDependencies": {
     "bluebird": "^3.5.1",
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-jshint": "^1.1.0",
@@ -116,19 +121,19 @@
     "grunt-env": "^0.4.4",
     "grunt-mocha-test": "^0.13.3",
     "load-grunt-tasks": "^4.0.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "mocha": "^5.2.0",
     "q": "^1.5.1",
     "should": "^13.2.1"
   },
-  "gitHead": "6fb63444b25c42c5455de96118ae03885a8f237b",
+  "gitHead": "e1619df208e01062976e243edf1db89ddb9e2e2c",
   "dist": {
-    "integrity": "sha512-81HzTQm4+qMj6PwNlnR+y9g7pDdGGzd/YBUrQnHk+BhR28ja2qv497NkQQc1KcKEqh/RShm07di2b0cIWVFrNQ==",
-    "shasum": "cd6a53cb1ec3f86af25eafdeb6bc7c6e317258b8",
-    "tarball": "https://registry.npmjs.org/async-lock/-/async-lock-1.2.0.tgz",
+    "integrity": "sha512-uczz62z2fMWOFbyo6rG4NlV2SdxugJT6sZA2QcfB1XaSjEiOh8CuOb/TttyMnYQCda6nkWecJe465tGQDPJiKw==",
+    "shasum": "480bd51e4b7ffd4debbd4973763718ec9acb9a9e",
+    "tarball": "https://registry.npmjs.org/async-lock/-/async-lock-1.2.2.tgz",
     "fileCount": 7,
-    "unpackedSize": 13841,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJciQFuCRA9TVsSAnZWagAAOoQQAI8AGMTiyVYgbHO4LWUa\nJjmwSrwiMRd/DY2w6Y2vsPLIkVLWj1lJRj9IOuqhmkDNt6Ijv9lC+4ysyhLZ\n0aZgM+gDzAnQoS4zKcMT6OK/Sz2npmMMdyV/BesEuW1uelpmurPqVWp5XaKS\nmbG3hxRjiIQyuWx/k2bLJYd5Zgnpz5IhwW322R2e8bzx6CzCtOQLPHlz/b99\nS4ACUlYSrInKWyc50EoloCMy5B2UwsNK3dsK2myb8RXLa4CQQx1l1gpdy4+q\nbjQkhmwsT9TMw24oXR7pIOKMd5AsPiq6RD9BhL6xUEiGkKMJ0poKmw4cqFbI\nwRTDB5HCZO4/g7Y2kBC46Abw3GyGR0b8zb4ciyf6HmUitjoy0eOnYKxUwBU3\nGAU0A3L4z/2Zf0xzDRHSZ7Ph+E3vWM1QzmFduuUxBy0nFZ9OsduqU6Geez8P\nWXibSbHnc+KTScDD5O3coxaNtBuFJclKUv4k2Zj8cnconXxHMKh7VMBQpASe\nx25QVc72s1PSDuVqNlETMCwtF/24CTRYrmJgFwJSxR9SO1C2Z4YZ+GhnqXth\n6qkFdv7UAbR4WVKs8ehp0VIWeWPucNEYEvwe1NHSFWqGjodHtf3LNmfoDDAi\nzDXSxfGNwAv9SHyIuo5HOFOmjUpUIQOsbQlvbT3aiFv1QT8Juu2VH/RJOsPw\n/yH2\r\n=ALtq\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 14103,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLN8jCRA9TVsSAnZWagAA7bsP/1TRhS5pArkBwMa1yHWK\n+gWIu+nQvRhrP4TOTj2qdhqUVygSaEvkcr5TTOtaD2Vmt/jxSqJyzcEQpSAB\ntJw60ih08xLMwUPdJhq46JpxYFWywA+DYXGxvZg5QhUsNw383ChBUXS0iJuf\nxLAJMWWHuSMfr5nwwC0qvPP3aWD01eQzkhkH69AZqQwsL+YI+rDjYPYXazgg\nbdgJiLMLpnCgTKJCJgxc5elBsz7cgaxrwZkDMG30/YxiM7BLPPt3q2dXACg6\nIvbpNcEkE+piyxpGY049Mg6DemlYkj5Zt3CVwo+QLx3epPFiaG9t+iizgthj\nZ9XyXhRq0ZcBdOa4zqHwKGmQHwPE0bzEV+gG8dPUKQ99keNFFffziMB4UY8E\neWrNxe304HwpySYV4F8PhimWyvsrAFyUUAKm1qDwOBGa0V5PWz8PB5jPBTzd\nKF7Th3CEgae4MOHk9Rck+n9y6GxYNDPibqqh+WL5PNcdJ1S3X8/Vp3VRa/la\npuAGctoFEYF1ei4Zo7yc5r6c4hhpgJl+f2Fu5q4JkB34/LaTxxluGlaVbvR9\niZ+GW/cG7ulCF1Q/HonWHzwDdY2yWkrMgXiLhUys5sD91hxMrZsiVxF2VK5q\nDCS/qSZ6QczyA71QsFdhi67Z4MGUNKLAYXYqXscQtfCa5q/hmbHbOwtPBrzn\nq0Lc\r\n=5CIA\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

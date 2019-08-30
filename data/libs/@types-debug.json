@@ -1,0 +1,129 @@
+{
+  "name": "@types/debug",
+  "description": "TypeScript definitions for debug",
+  "dist-tags": {
+    "latest": "4.1.5",
+    "ts2.0": "4.1.5",
+    "ts2.1": "4.1.5",
+    "ts2.2": "4.1.5",
+    "ts2.3": "4.1.5",
+    "ts2.4": "4.1.5",
+    "ts2.5": "4.1.5",
+    "ts2.6": "4.1.5",
+    "ts2.7": "4.1.5",
+    "ts2.8": "4.1.5",
+    "ts2.9": "4.1.5",
+    "ts3.0": "4.1.5",
+    "ts3.1": "4.1.5",
+    "ts3.2": "4.1.5",
+    "ts3.3": "4.1.5",
+    "ts3.4": "4.1.5",
+    "ts3.5": "4.1.5",
+    "ts3.6": "4.1.5"
+  },
+  "versions": [
+    "0.0.15-alpha",
+    "0.0.16-alpha",
+    "0.0.21-alpha",
+    "0.0.22-alpha",
+    "0.0.23-alpha",
+    "0.0.24-alpha",
+    "0.0.25-alpha",
+    "0.0.26-alpha",
+    "0.0.27-alpha",
+    "0.0.28",
+    "0.0.29",
+    "0.0.30",
+    "0.0.31",
+    "4.1.0",
+    "4.1.1",
+    "4.1.2",
+    "4.1.3",
+    "4.1.4",
+    "4.1.5"
+  ],
+  "maintainers": [
+    "types <ts-npm-types@microsoft.com>"
+  ],
+  "time": {
+    "modified": "2019-08-08T15:59:05.302Z",
+    "created": "2016-05-17T04:44:40.986Z",
+    "0.0.15-alpha": "2016-05-17T04:44:40.986Z",
+    "0.0.16-alpha": "2016-05-19T20:38:28.226Z",
+    "0.0.21-alpha": "2016-05-20T19:25:51.902Z",
+    "0.0.22-alpha": "2016-05-25T04:44:19.199Z",
+    "0.0.23-alpha": "2016-07-01T19:14:59.353Z",
+    "0.0.24-alpha": "2016-07-01T22:37:12.155Z",
+    "0.0.25-alpha": "2016-07-02T02:12:09.567Z",
+    "0.0.26-alpha": "2016-07-04T00:03:37.707Z",
+    "0.0.27-alpha": "2016-07-08T19:56:15.637Z",
+    "0.0.28": "2016-07-14T14:23:51.040Z",
+    "0.0.29": "2016-09-19T16:36:10.009Z",
+    "0.0.30": "2017-08-03T13:58:25.904Z",
+    "0.0.31": "2018-10-04T17:46:51.286Z",
+    "4.1.0": "2019-02-07T19:14:47.731Z",
+    "4.1.1": "2019-02-14T00:21:30.772Z",
+    "4.1.2": "2019-02-20T01:39:38.973Z",
+    "4.1.3": "2019-03-28T00:30:18.737Z",
+    "4.1.4": "2019-04-12T00:08:25.741Z",
+    "4.1.5": "2019-08-08T15:58:53.285Z"
+  },
+  "license": "MIT",
+  "readmeFilename": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/debug"
+  },
+  "contributors": [
+    {
+      "name": "Seon-Wook Park",
+      "url": "https://github.com/swook",
+      "githubUsername": "swook"
+    },
+    {
+      "name": "Gal Talmor",
+      "url": "https://github.com/galtalmor",
+      "githubUsername": "galtalmor"
+    },
+    {
+      "name": "John McLaughlin",
+      "url": "https://github.com/zamb3zi",
+      "githubUsername": "zamb3zi"
+    },
+    {
+      "name": "Brasten Sager",
+      "url": "https://github.com/brasten",
+      "githubUsername": "brasten"
+    },
+    {
+      "name": "Nicolas Penin",
+      "url": "https://github.com/npenin",
+      "githubUsername": "npenin"
+    },
+    {
+      "name": "Kristian Brünn",
+      "url": "https://github.com/kristianmitk",
+      "githubUsername": "kristianmitk"
+    }
+  ],
+  "users": {
+    "morogasper": true
+  },
+  "version": "4.1.5",
+  "main": "",
+  "types": "index",
+  "scripts": {},
+  "dependencies": {},
+  "typesPublisherContentHash": "c45deaee8b444b3ae0df891511582b5067c8c689a7d9b4cabe984bacad67e4ab",
+  "typeScriptVersion": "2.0",
+  "dist": {
+    "integrity": "sha512-Q1y515GcOdTHgagaVFhHnIFQ38ygs/kmxdNpvpou+raI9UO3YZcHDngBSYKQklcKlvA7iuQlmIKbzvmxcOE9CQ==",
+    "shasum": "b14efa8852b7768d898906613c23f688713e02cd",
+    "tarball": "https://registry.npmjs.org/@types/debug/-/debug-4.1.5.tgz",
+    "fileCount": 4,
+    "unpackedSize": 4785,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTEa9CRA9TVsSAnZWagAAk0kQAJv7VylXjBvEXPScpP1e\nxmNkXZ1Bl+sIdRZJqnBqmi3FNFplLKYxnkYkG5KOUupDaz33viDu1beJDZ5c\nmffqhCGk6E5EZ2nyoYWOFOAZhNCiTubojgVjJ9TX5isQMNpRNhEXIe3nkL6j\nlN9YMTPNpqVy2+j9WsaSrw3Lhye4oW0k0anmxYtWIz/7jSt8TLAWIkH9zSHa\nTUWrHHfhRSMAxm1yqLvwuxfQvm/E2f83rBkbpuVlIzw1MvqdSqvyyT5RdpHq\njpQQ3NesSDmQfdjdEXTlRqwTbD/7srC8b1PzBpkw/ZkDdC6pH0+xwGtGpSVx\nRzv2T5hD06VE7LM/FtKr/sBHOWM748BZE1Yv3EO+dmW2AFsCxD9qJdk6cHDy\ngFePeCJYRcYxoRr4n48EjwCRZG/NCB+MppHG+jdAiREHu4QJ2rDLt/PEZ8bW\nVsr9PaNaJQZ3DDXWQ+Kgb5XxzJK5VRJBMv1zG1mDg4I2cGrfTzCymg7QYABz\nIw/w0eiReIcOP0DhCS9gZ/Q7Vvo54s8v2/mPQilNKvfP8Ycihoq7W6zz1x/c\nz7RpH/3bsXRi76E9XcA8Dt7wfMVgn+7U1z+nYN7uuAKBaA2b85iQj4uqNUDy\nXydLb3ylqM7SC1r3AdZj7+TiNMRGmRUN0y/alSgkKgcJSb1KCBjG4zoKrqji\nhJKc\r\n=ncFi\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "directories": {}
+}

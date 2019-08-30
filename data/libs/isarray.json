@@ -2,7 +2,7 @@
   "name": "isarray",
   "description": "Array#isArray for older browsers",
   "dist-tags": {
-    "latest": "2.0.4"
+    "latest": "2.0.5"
   },
   "versions": [
     "0.0.0",
@@ -12,13 +12,14 @@
     "2.0.1",
     "2.0.2",
     "2.0.3",
-    "2.0.4"
+    "2.0.4",
+    "2.0.5"
   ],
   "maintainers": [
     "juliangruber <julian@juliangruber.com>"
   ],
   "time": {
-    "modified": "2018-02-10T07:41:00.981Z",
+    "modified": "2019-07-08T13:21:24.888Z",
     "created": "2013-05-22T19:10:00.756Z",
     "0.0.0": "2013-05-22T19:10:04.137Z",
     "0.0.1": "2013-05-27T17:40:35.695Z",
@@ -27,7 +28,8 @@
     "2.0.1": "2016-09-28T16:27:20.434Z",
     "2.0.2": "2017-07-12T08:52:36.536Z",
     "2.0.3": "2018-02-09T09:53:04.544Z",
-    "2.0.4": "2018-02-10T07:40:59.507Z"
+    "2.0.4": "2018-02-10T07:40:59.507Z",
+    "2.0.5": "2019-07-08T13:21:22.377Z"
   },
   "author": "Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)",
   "repository": {
@@ -55,11 +57,8 @@
   "bugs": {
     "url": "https://github.com/juliangruber/isarray/issues"
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "dependencies": {},
   "devDependencies": {
     "tape": "~2.13.4"
@@ -83,13 +82,14 @@
   "scripts": {
     "test": "tape test.js"
   },
-  "gitHead": "4a2ac854d773a8016654489dd3ce9f00ad32217d",
+  "gitHead": "63ea4ca0a0d6b0574d6a470ebd26880c3026db4a",
   "dist": {
-    "integrity": "sha512-GMxXOiUirWg1xTKRipM0Ek07rX+ubx4nNVElTJdNLYmNO/2YrDkgJGw9CljXn+r4EWiDQg/8lsRdHyg2PJuUaA==",
-    "shasum": "38e7bcbb0f3ba1b7933c86ba1894ddfc3781bbb7",
-    "tarball": "https://registry.npmjs.org/isarray/-/isarray-2.0.4.tgz",
-    "fileCount": 3,
-    "unpackedSize": 3443
+    "integrity": "sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==",
+    "shasum": "8af1e4c1221244cc62459faf38940d4e644a5723",
+    "tarball": "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3430,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdI0NSCRA9TVsSAnZWagAAzjYP/RFkf3rbIX0T4eFE3hpL\nr80bdfbn0AIjPAaKMIteJztmVZfIWH5/shXvJWT88AAdLVfGH+fTn//XVMF9\neYesuQYcBIRI65hMVENmmaTuz9Pyrmq52xl8W4UU+NRKKC1qwXrGUWbsmFOF\n7Cvvd2fy7J7Z5cyR+6sP2TAY7cRgzYdNPf7FVE9la/Ahg4DUb7ETTUbrKwN9\npMM+RJEtDA1vRuMUFeh0t6DTCLn7EkJcc/qfm3jePJJ1OXkO8dkfIhtCfWeG\nkePKQiI6+n32kJJtku1F3GxCGgwQiOXI5sX3hPix3oHGs3q5zBIrgCVoj6GZ\nNnhTfcHTvnnhYak8TNmSVATzhhOdNLJUY9+szxbGr0XGBF+Lgi1FFb2Spdyc\nvcqG7O4m4PHPrRsNZRrsTeQ3RcfZcoZ9zmdKqea4QzA4FQjPB1RZom4STuXX\nLIpiylo8H/6GodraHrSJ256xSeGy5P3sp6qsKRGtxhJwfdQNCFeCqFMNgmNL\n2TJLm5ojvsViOHeJonDa4olaVWh6eaI2T9UzH61yR71/E0Gbjb4D0e9f/ex5\nvpnvgUcFutSk7E9IbnZHao4B61o53r0qJWaxgdzL22QuFJEOszoiqF9gL2Ou\nIO3toVc6CROs6zznHpM2VlMB7SuOCC45lQsPORPW617nDtt77oKQrCU/Bqq9\nOMMX\r\n=GpHT\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

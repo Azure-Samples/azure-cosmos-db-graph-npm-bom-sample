@@ -2,7 +2,7 @@
   "name": "escodegen",
   "description": "ECMAScript code generator",
   "dist-tags": {
-    "latest": "1.11.1"
+    "latest": "1.12.0"
   },
   "versions": [
     "0.0.1",
@@ -55,14 +55,15 @@
     "1.9.1",
     "1.10.0",
     "1.11.0",
-    "1.11.1"
+    "1.11.1",
+    "1.12.0"
   ],
   "maintainers": [
     "constellation <utatane.tea@gmail.com>",
     "michaelficarra <npm@michael.ficarra.me>"
   ],
   "time": {
-    "modified": "2019-02-19T14:31:28.146Z",
+    "modified": "2019-08-13T02:09:59.644Z",
     "created": "2012-03-03T15:50:31.471Z",
     "0.0.1": "2012-03-03T15:50:34.433Z",
     "0.0.2": "2012-03-04T21:31:17.372Z",
@@ -115,7 +116,8 @@
     "1.9.1": "2018-02-26T17:49:12.583Z",
     "1.10.0": "2018-06-11T05:22:31.275Z",
     "1.11.0": "2018-07-14T16:51:17.537Z",
-    "1.11.1": "2019-02-19T14:31:25.637Z"
+    "1.11.1": "2019-02-19T14:31:25.637Z",
+    "1.12.0": "2019-08-13T02:09:57.131Z"
   },
   "repository": {
     "type": "git",
@@ -153,7 +155,7 @@
     "esgenerate": "./bin/esgenerate.js",
     "escodegen": "./bin/escodegen.js"
   },
-  "version": "1.11.1",
+  "version": "1.12.0",
   "engines": {
     "node": ">=4.0"
   },
@@ -186,14 +188,14 @@
     "build-min": "cjsify -ma path: tools/entry-point.js > escodegen.browser.min.js",
     "build": "cjsify -a path: tools/entry-point.js > escodegen.browser.js"
   },
-  "gitHead": "4a93ffc24378722dbfd8859d633746ef5916ce86",
+  "gitHead": "124e035fa1a3e790b469041012edcb6abc2eca71",
   "dist": {
-    "integrity": "sha512-JwiqFD9KdGVVpeuRa68yU3zZnBEOcPs0nKW7wZzXky8Z7tffdYUHbe11bPCV5jYlK6DVdKLWLm0f5I/QlL0Kmw==",
-    "shasum": "c485ff8d6b4cdb89e27f4a856e91f118401ca510",
-    "tarball": "https://registry.npmjs.org/escodegen/-/escodegen-1.11.1.tgz",
+    "integrity": "sha512-TuA+EhsanGcme5T3R0L80u4t8CpbXQjegRmf7+FPTJrtCTErXFeelblRgHQa1FofEzqYYJmJ/OqjTwREp9qgmg==",
+    "shasum": "f763daf840af172bb3a2b6dd7219c0e17f7ff541",
+    "tarball": "https://registry.npmjs.org/escodegen/-/escodegen-1.12.0.tgz",
     "fileCount": 6,
-    "unpackedSize": 106130,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcbBM+CRA9TVsSAnZWagAAnkEP/06UJ97j32aJDg5KEQ6g\nKIL7BbgPL0DfDi+rZrhK1O+Ex6scdcoXbtqW1TjnOgK0xAfoVuMfQYRVR8Oa\nCXTFpSDYer9Sj9wiW7WVR/zwlY8+EyFzMzStSeWxhw+apsP82JjsQY6YfyQV\neE1I/MFnMv3BlKmfmim1fyU7KdT25k5/afNbSiIwhA6aS+z+/JjYOLpqwCzx\nK9BEBUcp5/XB4Or2Oh/yufrYsC8HeDcw90+0NDqypfT5+L6uYOiXcanFMaTb\n/NBAYK4VoG/O9raBkBi4dWKB4OIAEzph4vTQAydMxVmp8luBGNEqsOq/8mIj\nfvVQus1HNKjDDJS4U3VUJolQTFlvBOQ/QBktL6Fw0Xu+lr/6zoUZ2o63/vtb\n5UPXu1vAdDKDejWatzcdyhzfX2fxfmUzLIDMiru/eCHl4X2U/eNRIJc9/GSY\nTEqFohxuv6UrZmHTR0dzBl0vwj8/L90c1YRvAm3enYYLjxqGVZaCSurOoYm4\nX987/jmOsZik9ZPOXJncHf+ZYAqEZPcYcOCMpXHxUQmmwmj+jci+7oPxcqHB\nUSOapFL9wd4H4cxhDVzTWQwXeI6V78TH3Hoc16u8OMtWNWazhetqaUdR7S+K\nWRx4cwhdLcx0t0UBqEe2KhIR0MhE9NAcaB4N+bFRDKUNkoOaOWknBHFoDCQJ\nLzku\r\n=cmBR\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 106414,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUhv1CRA9TVsSAnZWagAAOaQP/Am5UZuVB3clrW5XCN3X\nIdMgWlAqRpvesAL0umnA5vP7cvEAreFMxdEdvB0cbxRgkoG/9+R8o0vXRi8q\n/sHSHfn0ytjc0HHZboPXqj6j7s3n9V8jPtRo/38hdXuyeop35llPgJyzcBQ5\nv3mV+fFxECRpXHcRjVxc6g6tqcrMtwqiIOtquEk7vEtUY/9GAoy46ZZ/1FW1\nE0yPfyswi/s3rFkdhGUoZdBYm006CNuO1y7Nkx4XWCJ3Rrcsez2Isg3S0f97\nt+m36OcQGQ9KOtS8whCMNqq/D1Ztwy30jXXPePG0pvgirIrnpHeh+14mdQi9\n1Vd+6nZHWtb0+PQeNevHBk5THfXM5goDdrRx2AptOo20rAu9H4TzwysPg9Vl\nQaozeok/0cShJlpiH7/nc7KOG38CHDEZU8+G9E+ouvQLzmrkxFWQznnwZWe7\nLhrK7o9ug2K18MY/q8zFscl7CK+GZ+oGO8khG70r4sPYf6ulCz4VYBlfFQIJ\njETzjPTIklERDF3FtGDRw7jgb6/YWili967GNnvFOOqyKK9jb1A2S3C5Ks+p\nrLpuGUPuluxAVWGQB3pSVlQxT1hAqadKGf6Fi5630GKsPVWeRjzd1C7jyZ73\n2A56y5eWrhRURbrPPHi63PGWJ5GMlFciipL+dP4Yy1918fNVjl6S/XLuL/qb\n/5md\r\n=pKHW\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }

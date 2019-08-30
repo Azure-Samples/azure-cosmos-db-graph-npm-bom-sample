@@ -1,7 +1,7 @@
 {
   "name": "sqlite",
   "time": {
-    "modified": "2019-03-22T07:54:50.092Z",
+    "modified": "2019-07-12T02:06:58.100Z",
     "created": "2011-02-03T06:56:12.414Z",
     "1.0.2": "2011-02-03T06:56:12.788Z",
     "1.0.3": "2011-03-03T07:04:05.083Z",
@@ -127,7 +127,8 @@
     "losymear": true,
     "chrisaguilar": true,
     "wujianfu": true,
-    "rossdavis": true
+    "rossdavis": true,
+    "jtittsler": true
   },
   "version": "3.0.3",
   "main": "main.js",

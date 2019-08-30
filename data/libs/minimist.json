@@ -29,7 +29,7 @@
     "substack <mail@substack.net>"
   ],
   "time": {
-    "modified": "2019-05-24T09:36:37.240Z",
+    "modified": "2019-08-11T09:03:18.626Z",
     "created": "2013-06-25T08:17:16.343Z",
     "0.0.0": "2013-06-25T08:17:18.123Z",
     "0.0.1": "2013-06-25T08:22:05.384Z",
@@ -486,7 +486,9 @@
     "vv314": true,
     "xiaobing": true,
     "xiechao06": true,
-    "daizch": true
+    "daizch": true,
+    "yanghcc": true,
+    "ungurys": true
   },
   "readmeFilename": "readme.markdown",
   "homepage": "https://github.com/substack/minimist",

@@ -2,7 +2,7 @@
   "name": "ws",
   "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js",
   "dist-tags": {
-    "latest": "7.0.1"
+    "latest": "7.1.2"
   },
   "versions": [
     "0.2.6",
@@ -111,7 +111,10 @@
     "6.2.0",
     "6.2.1",
     "7.0.0",
-    "7.0.1"
+    "7.0.1",
+    "7.1.0",
+    "7.1.1",
+    "7.1.2"
   ],
   "maintainers": [
     "3rdeden <npm@3rd-Eden.com>",
@@ -120,7 +123,7 @@
     "v1 <npm@3rd-Eden.com>"
   ],
   "time": {
-    "modified": "2019-06-17T16:16:23.097Z",
+    "modified": "2019-08-12T15:49:33.798Z",
     "created": "2011-12-04T10:32:12.839Z",
     "0.2.6": "2011-12-04T10:32:14.627Z",
     "0.2.7": "2011-12-07T12:28:11.002Z",
@@ -230,7 +233,10 @@
     "6.2.0": "2019-03-06T07:38:25.808Z",
     "6.2.1": "2019-03-27T08:53:30.408Z",
     "7.0.0": "2019-04-30T16:12:14.228Z",
-    "7.0.1": "2019-06-17T16:16:20.281Z"
+    "7.0.1": "2019-06-17T16:16:20.281Z",
+    "7.1.0": "2019-07-08T16:11:23.119Z",
+    "7.1.1": "2019-07-19T14:46:55.813Z",
+    "7.1.2": "2019-08-12T15:49:30.657Z"
   },
   "author": "Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)",
   "repository": {
@@ -491,7 +497,8 @@
     "harry-sm": true,
     "david-ruzicka": true,
     "guzhongren": true,
-    "huiyifyj": true
+    "huiyifyj": true,
+    "evert-arias": true
   },
   "keywords": [
     "HyBi",
@@ -507,7 +514,7 @@
   "readmeFilename": "README.md",
   "homepage": "https://github.com/websockets/ws",
   "license": "MIT",
-  "version": "7.0.1",
+  "version": "7.1.2",
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
@@ -522,8 +529,8 @@
     "benchmark": "^2.1.4",
     "bufferutil": "^4.0.1",
     "coveralls": "^3.0.3",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^5.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.0.1",
     "mocha": "^6.1.3",
     "nyc": "^14.0.0",
@@ -536,14 +543,14 @@
       "devDependencyUpdate": "[pkg] Update ${dependency} to version ${version}"
     }
   },
-  "gitHead": "38d3bf24a0caa2f504361926582ed679a22e08f8",
+  "gitHead": "74bac8e592ff5dbbdda1190d1d4b209c504979d4",
   "dist": {
-    "integrity": "sha512-ILHfMbuqLJvnSgYXLgy4kMntroJpe8hT41dOVWM8bxRuw6TK4mgMp9VJUNsZTEc5Bh+Mbs0DJT4M0N+wBG9l9A==",
-    "shasum": "1a04e86cc3a57c03783f4910fdb090cf31b8e165",
-    "tarball": "https://registry.npmjs.org/ws/-/ws-7.0.1.tgz",
-    "fileCount": 15,
-    "unpackedSize": 101173,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdB7zVCRA9TVsSAnZWagAAZaMP/0fE9/JMko6mytPovF4S\nINT3I7c6IjgHGuTPOeZDy1phNLVdWPpnuqvHN0Oj7gFV19+NPLpsJNmdqj13\nW3ad6psXDkWl+7gQp36G7g4AsZwME8wia3DrIgCAdNW3dVWLJjztohY0w2c0\nse3BsB+NcD1YjeE+smJtZyNAVZ1eilvzxDjyrMbKU4gYjTq5Tr+yJMGUv0xe\nxS5jtne8Zh1iinyYCy+PZsELvrelxlULLSoVSCga/g4R3x7HPA+p9ubY8C4y\nbkJ8wOkrztLKHrgIyNdbkc9PtgWQO0puZwYBpY4YokNAhWMfMm00dJ9qGgs/\n+B3COQ8ZnL9vxm0AFhYunCMAx+4gY1PP6bkMnckeFmeq4fuJCCEFuQEEIsft\neQfZjcBOE2z7k4nrgqKFF7pZmQoXoBPGy61JufziS3kwJs/+yuRESUq9eR5M\nNs0biaJP3fyEZyygUwdgxTK8kZhfzQedrvH8Fz5jlDSETwwIXMLsEGbBbPvP\nHXNz3tU1jM5RjiPlJewf3oXuT9cAtJOzw1hBgOcVlEQ4J6UtVkr0rSQECYUZ\nYuaECbc80+Fd5hXOlnvVYSgpzfCRFrXeRf9c+//hXtoQS8asoZHMPXRTUOVq\ndgo343oQ1Frp9wJWpLfy/9inKA6OuYETa99KSnYFmzt2nGLYzx87asePaLtX\nmQ28\r\n=YSYq\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-gftXq3XI81cJCgkUiAVixA0raD9IVmXqsylCrjRygw4+UOOGzPoxnQ6r/CnVL9i+mDncJo94tSkyrtuuQVBmrg==",
+    "shasum": "c672d1629de8bb27a9699eb599be47aeeedd8f73",
+    "tarball": "https://registry.npmjs.org/ws/-/ws-7.1.2.tgz",
+    "fileCount": 16,
+    "unpackedSize": 107031,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUYqLCRA9TVsSAnZWagAAjvQQAJbD1uawtWjhX1Et5uQ8\nrDp4cKDpVoJFdUslHKbK35Kgo48E9g9FDZ4UfYclBPzU4gKg5e2L/1u8XX+K\nDSrmP1QRLllkhxoq/kzK8ugFC6tO5FyUoxNolC8fdwgddMPrbPH/8y2bLuaE\n45k8dDz3zbHX7vz1Ti3Ja8wMbw9ISMerg3i+dJE4XtuM/qIudnfhE3ekFq19\nSJCaTJ+a7FsPYDM4rQR7rXhd2Br584xdIjkUF/9YFPpOx3qU9VZbF9+3kYc2\nCzMZsWAjWDiHz99e87gyWGVKuVr+nm09tf8rQ9O0GkGXNsttWoM20N6GHJxD\n+SVgKQOzfDlwcKnz4pH9PI118TGQrv3icb39If0JoNv7nbggPyLuL5M4l1ua\nDgZoD2eoLdN5HT7C/Sfci28rA+Un+DXjjG9esqUgsEaXXC4aXkkmZGjJiOJE\neI1T/rPlUle2Y3WXFgY99lP54VKR/4VjMmmh1uk4nf7Dp0wuw+wgK4rtIzq0\njY9NMcPwufO137KJVyZwZQBarnYYfEmx8ThX2EvT2P3Y9pubi5GnRftScetm\npMaCio7XFbjOiXFs0qcqsVlmXHZYQta6fpiaS5PSeBwW/+y7ILnF1MlN/cta\np5+V/e6Hw6S+aaueTukWwE9FYaSx5bed3jypEamMrTpLgzHRfvRl347TELW2\nRhXB\r\n=f5CZ\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "directories": {}
 }
