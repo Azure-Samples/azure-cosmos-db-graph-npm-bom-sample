@@ -86,6 +86,9 @@ Then create a new collection in your CosmosDB Graph database, as shown below.
 A database named **dev** with collection named **npm** is recommended.
 Specify a partition key named **/pk** and 10,000 RUs.
 
+Also create a second collection named **views** in the **dev** database, 
+with a partition key named **/pk** and 10,000 RUs.
+
 ![provision-gremlin-collection](img/provision-gremlin-collection.png)
 
 Then go to the **Keys panel**, as shown below, and set the following **environment variables** 
