@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Bash script to execute the Docker container run the web app.
+# See the corresponding "sudo_" script in this repository.
 # Chris Joakim, Microsoft, 2019/09/03
 
 docker run -it \

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Bash script to execute the Docker container run the web app as sudo/superuser.
+# See the corresponding non-sudo script in this repository.
 # Chris Joakim, Microsoft, 2019/09/03
 
 sudo docker run -it \
