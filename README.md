@@ -470,7 +470,7 @@ To run this project on this DSVM, first ssh into the VM, then run these steps:
 ```
 $ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
 $ cd azure-cosmos-db-graph-npm-bom-sample/
-$ sudo ./docker_run_load_npm_collection.sh
-$ sudo ./docker_run_load_views_collection.sh
-$ sudo ./docker_run_webapp.sh
+$ sudo ./sudo_docker_run_load_npm_collection.sh
+$ sudo ./sudo_docker_run_load_views_collection.sh
+$ sudo ./sudo_docker_run_webapp.sh
 ```
