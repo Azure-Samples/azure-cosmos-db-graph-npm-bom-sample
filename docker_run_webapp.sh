@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Bash script to execute the Docker container run the web app.
+# Chris Joakim, Microsoft, 2019/09/03
+
 docker run -it \
     -e PORT=3000 \
     -e AZURE_COSMOSDB_GRAPHDB_ACCT=$AZURE_COSMOSDB_GRAPHDB_ACCT \

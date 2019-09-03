@@ -422,3 +422,44 @@ g.V(["MAINT-cjoakim","MAINT-cjoakim"])
 g.V(["MAINT-luisbosquez","MAINT-luisbosquez"])
 g.V(["MAINT-tjholowaychuk","MAINT-tjholowaychuk"])
 ```
+
+---
+
+# Docker Support
+
+This project can, and has, been containerized as a Docker container.  Using Docker
+can eliminate workstation OS, networking, and Node.js differences that may prevent you from
+running the project successfully.
+
+See the **Dockerfile** which is used to create the container as follows:
+```
+docker build -t <yourname>/azure-cosmos-db-graph-npm-bom-sample .
+```
+
+A pre-build container, available for your use, is on DockerHub as this name:
+```
+cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest
+```
+
+## Docker Runtimes
+
+The container should run successfully on any Docker runtime.  
+
+The [Azure Data Science Virtual Machine (Ubuntu DSVM)](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro) is a recommended platform.
+
+So as to enable access to the Node/Express/HTTP Server for this project, port 3000
+on the DSVM needs to be enabled, as shown below (Port_3000) rule. 
+**Remember, this web application is non-authenticated, so only public data should be contained in your
+CosmosDB instance.  The sample data in this project is public npm data.**
+![dsvm-inbound-port-3000](img/dsvm-inbound-port-3000.png)
+
+To run this project on this DSVM, first ssh into the VM, then run these steps:
+```
+$ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
+$ cd azure-cosmos-db-graph-npm-bom-sample/
+$ sudo ./docker_run_load_npm_collection.sh
+$ sudo ./docker_run_load_views_collection.sh
+$ sudo ./docker_run_webapp.sh
+```
+
+![dsvm-inbound-port-3000](img/dsvm-inbound-port-3000.png)
