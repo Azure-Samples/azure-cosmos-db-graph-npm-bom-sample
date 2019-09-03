@@ -422,3 +422,90 @@ g.V(["MAINT-cjoakim","MAINT-cjoakim"])
 g.V(["MAINT-luisbosquez","MAINT-luisbosquez"])
 g.V(["MAINT-tjholowaychuk","MAINT-tjholowaychuk"])
 ```
+
+---
+
+# Docker Support
+
+This project can, and has, been containerized as a Docker container.  Using Docker
+can eliminate workstation OS and Node.js differences that may prevent you from
+running the project successfully.
+
+See the **Dockerfile** which is used to create the container as follows:
+```
+docker build -t <your-name>/azure-cosmos-db-graph-npm-bom-sample .
+```
+
+A pre-build container, available for your use, is on DockerHub as this name:
+
+```
+cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest
+```
+
+Alternatively, you can build your own Docker container like this:
+```
+Instead of:
+docker build -t cjoakim/azure-cosmos-db-graph-npm-bom-sample . 
+
+Build your container with:
+docker build -t <your-name>/<your-container-name> . 
+```
+
+See the comments in the Dockerfile regarding pushing your image to **DockerHub**
+or **Azure Container Registry**.
+
+## Docker Runtimes
+
+The container should run successfully on any Docker runtime.  
+
+The [Azure Data Science Virtual Machine (Ubuntu DSVM)](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro) is a recommended platform.  A Standard DS2 v2 (2 vcpus, 7 GiB memory)
+should be adequate to run this app.  This can be provisioned in Azure Portal.
+
+After the DSVM is created, in Azure Portal capture the IP address of your DSVM.
+
+So as to enable access to the Node/Express/HTTP Server for this project, port 3000
+on the DSVM needs to be enabled, as shown below (Port_3000) rule. 
+
+![dsvm-inbound-port-3000](img/dsvm-inbound-port-3000.png)
+
+**Remember, this web application is non-authenticated, so only public data should be contained in your
+CosmosDB instance and web app.  The sample data in this project is public npm data.**
+
+Set the following environment variables in your shell; these are the same
+variables as described in the **Azure Setup** section above.  These can be set
+in your ~/.bash_profile file.
+
+```
+AZURE_COSMOSDB_GRAPHDB_ACCT
+AZURE_COSMOSDB_GRAPHDB_KEY
+AZURE_COSMOSDB_GRAPHDB_URI
+AZURE_COSMOSDB_GRAPHDB_DBNAME
+AZURE_COSMOSDB_GRAPHDB_GRAPH
+AZURE_COSMOSDB_GRAPHDB_VIEWS
+```
+
+To run this project on this DSVM, first ssh into the VM, then run these steps:
+```
+Set the above environment variables in your shell.
+
+$ git config --global user.name  "<your-name>"
+$ git config --global user.email "<your-email-address>"
+$ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
+$ cd azure-cosmos-db-graph-npm-bom-sample/
+$ mkdir tmp/
+$ ./sudo_docker_run_load_npm_collection.sh
+$ ./sudo_docker_run_load_views_collection.sh
+$ ./sudo_docker_run_webapp.sh
+
+Then point your Web Browser to http://<your-dsvm-ip-address>:3000
+```
+
+To stop the running webapp, open another terminal in the DSVM and run these commands:
+```
+$ sudo docker ps  (see the container ID for the process you want to stop)
+$ sudo docker stop -t 2 e7c7a67026b6
+```
+
+Note: if you change the Docker container name then you also need to modify the
+several ...docker_run_... scripts to use your alternative container name,
+instead of cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest.
