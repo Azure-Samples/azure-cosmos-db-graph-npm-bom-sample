@@ -472,7 +472,9 @@ on the DSVM needs to be enabled, as shown below (Port_3000) rule.
 CosmosDB instance and web app.  The sample data in this project is public npm data.**
 
 Set the following environment variables in your shell; these are the same
-variables as described in the **Azure Setup** above.
+variables as described in the **Azure Setup** section above.  These can be set
+in your ~/.bash_profile file.
+
 ```
 AZURE_COSMOSDB_GRAPHDB_ACCT
 AZURE_COSMOSDB_GRAPHDB_KEY
@@ -484,6 +486,8 @@ AZURE_COSMOSDB_GRAPHDB_VIEWS
 
 To run this project on this DSVM, first ssh into the VM, then run these steps:
 ```
+Set the above environment variables in your shell.
+
 $ git config --global user.name  "<your-name>"
 $ git config --global user.email "<your-email-address>"
 $ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
