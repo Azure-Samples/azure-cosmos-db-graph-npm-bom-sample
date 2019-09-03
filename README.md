@@ -449,9 +449,22 @@ The [Azure Data Science Virtual Machine (Ubuntu DSVM)](https://docs.microsoft.co
 
 So as to enable access to the Node/Express/HTTP Server for this project, port 3000
 on the DSVM needs to be enabled, as shown below (Port_3000) rule. 
+
 **Remember, this web application is non-authenticated, so only public data should be contained in your
 CosmosDB instance.  The sample data in this project is public npm data.**
+
 ![dsvm-inbound-port-3000](img/dsvm-inbound-port-3000.png)
+
+Set the following environment variables in your shell; these are the same
+variables as described in the **Azure Setup** above.
+```
+AZURE_COSMOSDB_GRAPHDB_ACCT
+AZURE_COSMOSDB_GRAPHDB_KEY
+AZURE_COSMOSDB_GRAPHDB_URI
+AZURE_COSMOSDB_GRAPHDB_DBNAME
+AZURE_COSMOSDB_GRAPHDB_GRAPH
+AZURE_COSMOSDB_GRAPHDB_VIEWS
+```
 
 To run this project on this DSVM, first ssh into the VM, then run these steps:
 ```
@@ -461,5 +474,3 @@ $ sudo ./docker_run_load_npm_collection.sh
 $ sudo ./docker_run_load_views_collection.sh
 $ sudo ./docker_run_webapp.sh
 ```
-
-![dsvm-inbound-port-3000](img/dsvm-inbound-port-3000.png)
