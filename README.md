@@ -428,7 +428,7 @@ g.V(["MAINT-tjholowaychuk","MAINT-tjholowaychuk"])
 # Docker Support
 
 This project can, and has, been containerized as a Docker container.  Using Docker
-can eliminate workstation OS, networking, and Node.js differences that may prevent you from
+can eliminate workstation OS and Node.js differences that may prevent you from
 running the project successfully.
 
 See the **Dockerfile** which is used to create the container as follows:
@@ -436,10 +436,23 @@ See the **Dockerfile** which is used to create the container as follows:
 docker build -t <yourname>/azure-cosmos-db-graph-npm-bom-sample .
 ```
 
-A pre-build container, available for your use, is on DockerHub as this name:
+A pre-build container, available for your use, is on DockerHub as this name.
+
 ```
 cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest
 ```
+
+Alternatively, you can build your own Docker container like this:
+```
+Instead of:
+docker build -t cjoakim/azure-cosmos-db-graph-npm-bom-sample . 
+
+Build your container with:
+docker build -t <your-name>/<your-container-name> . 
+```
+
+See the comments in the Dockerfile regarding pushing your image to **DockerHub**
+or **Azure Container Registry**.
 
 ## Docker Runtimes
 
@@ -470,7 +483,8 @@ To run this project on this DSVM, first ssh into the VM, then run these steps:
 ```
 $ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
 $ cd azure-cosmos-db-graph-npm-bom-sample/
-$ sudo ./sudo_docker_run_load_npm_collection.sh
-$ sudo ./sudo_docker_run_load_views_collection.sh
-$ sudo ./sudo_docker_run_webapp.sh
+$ mkdir tmp/
+$ ./sudo_docker_run_load_npm_collection.sh
+$ ./sudo_docker_run_load_views_collection.sh
+$ ./sudo_docker_run_webapp.sh
 ```

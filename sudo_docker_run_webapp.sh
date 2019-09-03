@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Bash script to execute the Docker container run the web app.
+# Bash script to execute the Docker container run the web app as sudo/superuser.
 # Chris Joakim, Microsoft, 2019/09/03
 
-docker run -it \
+sudo docker run -it \
     -e PORT=3000 \
     -e AZURE_COSMOSDB_GRAPHDB_ACCT=$AZURE_COSMOSDB_GRAPHDB_ACCT \
     -e AZURE_COSMOSDB_GRAPHDB_KEY=$AZURE_COSMOSDB_GRAPHDB_KEY \
@@ -14,4 +14,3 @@ docker run -it \
     -p 3000:3000 \
     cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest \
     node webapp/bin/www
-
