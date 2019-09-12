@@ -1,3 +1,15 @@
+---
+page_type: sample
+languages:
+- javascript
+- html
+- powershell
+products:
+- azure
+description: "An example Bill-of-Material application with NPM data using Azure CosmosDB Graph/Gremlin database."
+urlFragment: azure-cosmos-db-graph-npm-bom-sample
+---
+
 # azure-cosmos-db-graph-npm-bom-sample
 
 An example Bill-of-Material application with NPM data using Azure CosmosDB Graph/Gremlin database.
