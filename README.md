@@ -75,8 +75,6 @@ queries via the SQL API.
 
 See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Pattern** for both the Gremlin and SQL APIs.
 
----
-
 ## Links
 
 - https://azure.microsoft.com/en-us/services/cosmos-db/
@@ -87,8 +85,6 @@ See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Patter
 - https://www.npmjs.com/package/gremlin
 - https://docs.microsoft.com/en-us/javascript/api/overview/azure/?view=azure-node-latest
 - https://github.com/Azure-Samples/azure-cosmosdb-graph-bulkexecutor-dotnet-getting-started
-
----
 
 ## Azure Setup
 
@@ -123,8 +119,6 @@ AZURE_COSMOSDB_GRAPHDB_URI=https://cjoakimcosmosdbgremlin.documents.azure.com:44
 PORT=3000  (Also add this environment variable for the localhost webserver port)
 ```
 
----
-
 ## Batch Processing Overview
 
 The batch processing does the following:
@@ -154,7 +148,7 @@ scripts (*.sh) and Windows PowerShell Scripts (*.ps1) are provided in this repo.
 
 First clone this repository and install the npm libraries necessary for this project
 in the project root directory.
-```
+```bash
 $ git clone git@github.com:Azure-Samples/azure-cosmos-db-graph-npm-bom-sample.git
 
 $ cd azure-cosmos-db-graph-npm-bom-sample
@@ -165,13 +159,13 @@ $ npm install
 ```
 
 Edit file **seeds.txt*, the execute the following:
-```
+```bash
 $ node main.js seed2json
 ```
 This creates file data/seed_libraries.json
 
 Then execute the npm "Spidering" process, with 10 iterations.
-```
+```bash
 $ ./spider_npm.sh
 ```
 
@@ -179,7 +173,7 @@ The above Spidering process will take roughly 10-minutes to execute, depending o
 of seed libraries and your network bandwidth.
 
 Then execute the data-wrangling and gremlin-statement-generation process:
-```
+```bash
 $ ./wrangle_npm_data.sh
 ```
 
@@ -189,19 +183,19 @@ and understanding.
 
 Finally, load your Azure CosmosDB Graph database, npm collection, with the generated file **data/gremlin/gremlin_load_file.txt**.
 
-```
+```bash
 $ ./load_gremlin_graph.sh
 ```
 
 When the load process reaches end-of-file, the program will display a line of output
 like the following.  This is normal, just CTRL-C in that Terminal to end the process.
-```
+```bash
 load_next_row 4685 : undefined
 ```
 
 Also load the Azure CosmosDB Graph database, views collection, with the materialized views.
 
-```
+```bash
 $ ./load_materialized_views.sh
 ```
 
@@ -209,7 +203,7 @@ $ ./load_materialized_views.sh
 
 #### For Libraries:
 
-```
+```json
   {
     "name": "express",
     "desc": "Fast, unopinionated, minimalist web framework",
@@ -342,7 +336,7 @@ $ ./load_materialized_views.sh
 
 #### For Maintainers:
 
-```
+```json
   {
     "email": "<tj@vision-media.ca>",
     "libs": [
@@ -371,14 +365,12 @@ $ ./load_materialized_views.sh
   }
 ```
 
----
-
 ## Web Application
 
 The Web Application for this project is implemented with Node.js and the Express
 web framework.  D3.js is used in the client-side browser code for Graph Visualization.
 
-```
+```bash
 $ cd webapp
 
 $ npm install
@@ -398,29 +390,24 @@ Then visit **http://localhost:3000/** with your browser.
 
 ![splash-screen](img/webapp-splash-screen.png)
 
----
 
 #### Bill-of-Material View
 
 ![bom-view](img/webapp-bom-view.png)
 
----
 
 #### Library View
 
 ![library-view](img/webapp-library-view.png)
 
----
 
 #### Maintainer View
 
 ![maintainer-view](img/webapp-maintainer-view.png)
 
----
+## Gremlin Queries
 
-# Gremlin Queries
-
-```
+```bash
 g.V().count()
 
 g.V(["tcx-js","tcx-js"])
@@ -437,25 +424,25 @@ g.V(["MAINT-tjholowaychuk","MAINT-tjholowaychuk"])
 
 ---
 
-# Docker Support
+## Docker Support
 
 This project can, and has, been containerized as a Docker container.  Using Docker
 can eliminate workstation OS and Node.js differences that may prevent you from
 running the project successfully.
 
 See the **Dockerfile** which is used to create the container as follows:
-```
+```bash
 docker build -t <your-name>/azure-cosmos-db-graph-npm-bom-sample .
 ```
 
 A pre-build container, available for your use, is on DockerHub as this name:
 
-```
+```bash
 cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest
 ```
 
 Alternatively, you can build your own Docker container like this:
-```
+```bash
 Instead of:
 docker build -t cjoakim/azure-cosmos-db-graph-npm-bom-sample . 
 
@@ -466,7 +453,7 @@ docker build -t <your-name>/<your-container-name> .
 See the comments in the Dockerfile regarding pushing your image to **DockerHub**
 or **Azure Container Registry**.
 
-## Docker Runtimes
+### Docker Runtimes
 
 The container should run successfully on any Docker runtime.  
 
@@ -487,7 +474,7 @@ Set the following environment variables in your shell; these are the same
 variables as described in the **Azure Setup** section above.  These can be set
 in your ~/.bash_profile file.
 
-```
+```bash
 AZURE_COSMOSDB_GRAPHDB_ACCT
 AZURE_COSMOSDB_GRAPHDB_KEY
 AZURE_COSMOSDB_GRAPHDB_URI
@@ -497,7 +484,7 @@ AZURE_COSMOSDB_GRAPHDB_VIEWS
 ```
 
 To run this project on this DSVM, first ssh into the VM, then run these steps:
-```
+```bash
 Set the above environment variables in your shell.
 
 $ git config --global user.name  "<your-name>"
@@ -513,7 +500,7 @@ Then point your Web Browser to http://<your-dsvm-ip-address>:3000
 ```
 
 To stop the running webapp, open another terminal in the DSVM and run these commands:
-```
+```bash
 $ sudo docker ps  (see the container ID for the process you want to stop)
 $ sudo docker stop -t 2 e7c7a67026b6
 ```
