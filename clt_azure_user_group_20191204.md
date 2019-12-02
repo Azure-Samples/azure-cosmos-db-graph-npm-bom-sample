@@ -10,8 +10,8 @@
 
 - Azure Cloud Solution Architect at Microsoft, 4 years
 - chjoakim@microsoft.com
-- Current: NoSQL/CosmosDB, Java/Spring, Node.js/MEAN, Python, .Net Core, DevOps
-- Dead-like-COBOL: COBOL, Smalltalk, C++, Flex/ActionScript, Ruby on Rails, Clojure
+- Current skills: **NoSQL/CosmosDB**, Java/Spring, Node.js/MEAN, Python, .Net Core, **DevOps**
+- Dead-like-COBOL skills: COBOL/CICS, **IMS/DB**, Smalltalk, C++, Flex/ActionScript, Ruby on Rails, Clojure
 
 ---
 
@@ -23,18 +23,26 @@
   - [Spectrum of Databases](img/spectrum-800.png)
   - [Intro to CosmosDB](img/azure-cosmosdb-2019.png)
 
-### Part 2 - SQL API, Geo Spatial, Notebooks
+### Part 2 - Graph Bill-of-Material App
 
-  - [GeoJSON](https://geojson.org)
-  - SQL API with [Geo-Spatial Data](https://docs.microsoft.com/en-us/azure/cosmos-db/geospatial) 
-  - Use [Jupyter Notebooks](https://jupyter.org) to query the Database
-
-### Part 3 - Graph Bill-of-Material App
-
-  - **Graph API Bill-of-Materials Reference Application**
   - [Graph Database Concepts](img/sample-graph.png)
   - [Apache Tinkerpop](http://tinkerpop.apache.org) 
   - [Gremlin Syntax](http://tinkerpop.apache.org/docs/current/reference/#basic-gremlin)
-  - [Load the Database](data/gremlin/gremlin_load_file.txt)
+
+  - **Graph API Bill-of-Materials Reference Application** (this repo)
+  - [NPM Libraries as a Bill-of-Material example](https://www.npmjs.com)
+  - Data mining from [Seed Data](data/seed_libraries.json), and Wrangling into Gremlin Statements
+    - npm list
+    - npm view tedious -json | jq
+  - [Load the Database - Graph](data/gremlin/gremlin_load_file.txt)
+  - Datastructure Driven Design vs Query Driven Design
+  - [Load the Database - Materialized View](data/aggregated_libraries.json)
   - [Query the Graph](https://github.com/Azure-Samples/azure-cosmos-db-graph-npm-bom-sample#gremlin-queries)
   - [Express.js Web Application](https://expressjs.com) with [D3.js](https://d3js.org) **UI Visualization**
+  - Also, the [The Six Degrees of Kevin Bacon](https://github.com/cjoakim/azure-cosmos-graph)
+  
+### Part 3 - SQL API, Geo Spatial, Notebooks
+
+  - Internet Engineering Task Force (IETF) - [GeoJSON](https://geojson.org)
+  - SQL API with [Geo-Spatial Data](https://docs.microsoft.com/en-us/azure/cosmos-db/geospatial) 
+  - Use [Jupyter Notebooks](https://jupyter.org) to query the Database
