@@ -28,7 +28,8 @@
   - [Graph Database Concepts](img/sample-graph.png)
   - [Apache Tinkerpop](http://tinkerpop.apache.org) 
   - [Gremlin Syntax](http://tinkerpop.apache.org/docs/current/reference/#basic-gremlin)
-  - **Graph API Bill-of-Materials Reference Application** (this repo)
+  - **Graph API Bill-of-Materials Reference Application**
+    - This repo: https://github.com/Azure-Samples/azure-cosmos-db-graph-npm-bom-sample
   - [NPM Libraries as a Bill-of-Material example](https://www.npmjs.com)
   - Data mining from [Seed Data](data/seed_libraries.json), and Wrangling into Gremlin Statements
     - npm list ; npm view tedious -json | jq
