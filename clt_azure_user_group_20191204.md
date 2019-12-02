@@ -20,7 +20,7 @@
 ### Part 1 - Intro
 
   - [History of NoSQL](img/nosql-history.png)
-  - [Spectrum of Databases](img/spectrum.png)
+  - [Spectrum of Databases](img/spectrum-800.png)
   - [Intro to CosmosDB](img/azure-cosmosdb-2019.png)
 
 ### Part 2 - SQL API, Geo Spatial, Notebooks
