@@ -183,6 +183,50 @@ and understanding.
 
 Finally, load your Azure CosmosDB Graph database, npm collection, with the generated file **data/gremlin/gremlin_load_file.txt**.
 
+Here are few sample entries in this file, formatted and commented for readability:
+```
+# Create the Vertex for the "mssql" npm library
+
+g.addV('library')
+  .property('pk','mssql')
+  .property('id','mssql')
+  .property('desc','Microsoft SQL Server client for Node.js.')
+  .property('name','mssql')
+
+# Create the Vertex for the "tedious" npm library
+
+g.addV('library')
+  .property('pk','tedious')
+  .property('id','tedious')
+  .property('desc','A TDS driver, for connecting to MS SQLServer databases.')
+  .property('name','tedious')
+
+# Create an Edge declaring that mssql "uses" the tedious library
+
+g.V(['mssql','mssql'])
+  .addE('uses_lib')
+  .to(g.V(['tedious','tedious']))
+
+# Create an Edge declaring that tedious "is used by" the mssql library
+
+g.V(['tedious','tedious'])
+  .addE('used_by_lib')
+  .to(g.V(['mssql','mssql']))
+
+# Create the Vertex for one of the maintainers of the tedious library, luisbosquez.
+
+g.addV('maintainer')
+  .property('pk','MAINT-luisbosquez')
+  .property('id','MAINT-luisbosquez')
+  .property('email','<lbosq@microsoft.com>')
+  .property('mid','luisbosquez')
+  .property('libs','tedious')
+
+# Create an Edge declaring that luisbosquez maintains the tedious library.
+
+g.V(['MAINT-luisbosquez','MAINT-luisbosquez']).addE('maintains').to(g.V(['tedious','tedious']))
+```
+
 ```bash
 $ ./load_gremlin_graph.sh
 ```
