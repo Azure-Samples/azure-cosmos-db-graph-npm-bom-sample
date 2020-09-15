@@ -88,34 +88,37 @@ See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Patter
 
 ## Azure Setup
 
-Provision an Azure CosmosDB instance, in your subscription, which uses the Gremlin API.
+Provision an Azure CosmosDB account, in your subscription, which uses the Gremlin/Graph API.
 
-Then create a new collection in your CosmosDB Graph database, as shown below.
-A database named **dev** with collection named **npm** is recommended.
-Specify a partition key named **/pk** and 10,000 RUs.
+Then create a new database in your CosmosDB Graph account, as shown below.
+Create a database named **dev** with a container named **npm**.
+Specify a partition key named **/pk**.
+Optionaly check the **Provision database throughput** checkbox so that the RUs are
+shared amongst the several containers in the database, and specify 1,000 RUs.  
 
-Also create a second collection named **views** in the **dev** database, 
-with a partition key named **/pk** and 10,000 RUs.
+![provision-gremlin-collection](img/add-dev-db.png)
 
-![provision-gremlin-collection](img/provision-gremlin-collection.png)
+Also create a second collection named **views** in the **dev** database, as shown below,
+also with a partition key named **/pk**.
 
-Then go to the **Keys panel**, as shown below, and set the following **environment variables** 
-on your computer based on the values you see in Azure Portal.
+![provision-gremlin-collection](img/add-views.png)
 
-![gremlin-keys-panel](img/gremlin-keys-panel.png)
+Then, go to the **Keys panel**, as shown below, and set the following **environment variables** 
+on your computer based on the values you see in Azure Portal for your account.
+
+![gremlin-keys-panel](img/keys2.png)
 
 Note, the **values** shown below are just examples; your values will be different.
 
 ```
-AZURE_COSMOSDB_GRAPHDB_ACCT=cjoakimcosmosdbgremlin
+AZURE_COSMOSDB_GRAPHDB_ACCT=cjoakimcosmosgremlin
 AZURE_COSMOSDB_GRAPHDB_COLNAME=npm
 AZURE_COSMOSDB_GRAPHDB_CONN_STRING= ...secret...
 AZURE_COSMOSDB_GRAPHDB_DBNAME=dev
 AZURE_COSMOSDB_GRAPHDB_GRAPH=npm
-AZURE_COSMOSDB_GRAPHDB_VIEWS=views
 AZURE_COSMOSDB_GRAPHDB_KEY= ...secret...
-AZURE_COSMOSDB_GRAPHDB_URI=https://cjoakimcosmosdbgremlin.documents.azure.com:443/
-
+AZURE_COSMOSDB_GRAPHDB_URI=https://cjoakimcosmosgremlin.documents.azure.com:443/
+AZURE_COSMOSDB_GRAPHDB_VIEWS=views
 PORT=3000  (Also add this environment variable for the localhost webserver port)
 ```
 
