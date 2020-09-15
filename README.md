@@ -552,3 +552,35 @@ $ sudo docker stop -t 2 e7c7a67026b6
 Note: if you change the Docker container name then you also need to modify the
 several ...docker_run_... scripts to use your alternative container name,
 instead of cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest.
+
+---
+
+## DotNet Core Support
+
+Though the original implementation of this project was in Node.js, we also added
+a DotNet Core implementation in September 2020.  Please see directory **BOMClient**.
+
+You'll need to have **DotNet Core version 3.1** installed on your computer to compile
+and execute this code.  See https://dotnet.microsoft.com/download 
+
+### Build the Console App
+
+```
+$ cd BOMClient
+$ dotnet build
+```
+
+### Load your CosmosDB database
+
+```
+$ dotnet run process_gremlin_commands ../data/gremlin/gremlin_load_file.txt  > tmp/gremlin_load_file.txt
+$ dotnet run load_materialized_views ../data/aggregated_libraries.json > tmp/load_materialized_views.txt
+```
+
+### Execute Queries against the loaded database
+
+Edit file gremlin_queries.txt per your desired queries.
+
+```
+$ dotnet run process_gremlin_commands ../data/gremlin/gremlin_queries.txt
+```
