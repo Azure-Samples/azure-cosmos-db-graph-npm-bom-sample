@@ -599,4 +599,36 @@ Edit file gremlin_queries.txt per your desired queries.
 
 ```
 $ dotnet run process_gremlin_commands ../data/gremlin/gremlin_queries.txt
+
+...
+
+---
+0 Command: g.V().count()
+Result:
+1147
+
+x-ms-status-code           : 200
+x-ms-total-server-time-ms] : 29.6129
+x-ms-total-request-charge] : 3.75
+
+---
+1 Command: g.E().count()
+Result:
+3538
+
+x-ms-status-code           : 200
+x-ms-total-server-time-ms] : 17.4554
+x-ms-total-request-charge] : 3.5500000000000003
+
+---
+2 Command: g.V(['tedious','tedious'])
+Result:
+{"id":"tedious","label":"library","type":"vertex","properties":{"pk":[{"id":"tedious|pk","value":"tedious"}],"desc":[{"id":"c060308c-a7f6-44bf-b772-ed4749c4ab76","value":"A TDS driver, for connecting to MS SQLServer databases."}],"name":[{"id":"3a6f513c-0fa5-4d03-ada3-667096743c86","value":"tedious"}]}}
+
+x-ms-status-code           : 200
+x-ms-total-server-time-ms] : 31.922
+x-ms-total-request-charge] : 4.1899999999999995
+
+...
+
 ```
