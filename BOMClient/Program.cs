@@ -233,7 +233,7 @@ namespace BOMClient
             librariesJson = null;
             librariesArray = null;
 
-            var maintainersJson = ReadText("data/maintainers.json");
+            var maintainersJson = ReadText("../data/maintainers.json");
             var maintainersObject = JObject.Parse(maintainersJson);
             int maintainerCount = 0;
             foreach (var maintainer in maintainersObject)

@@ -567,13 +567,26 @@ and execute this code.  See https://dotnet.microsoft.com/download
 
 ```
 $ cd BOMClient
+
 $ dotnet build
+
+$ dotnet list package
+Project 'BOMClient' has the following package references
+   [netcoreapp3.1]:
+   Top-level Package             Requested   Resolved
+   > Gremlin.Net                 3.4.8       3.4.8
+   > Microsoft.Azure.Cosmos      3.12.0      3.12.0
+   > Microsoft.CSharp            4.7.0       4.7.0
+   > Newtonsoft.Json             12.0.3      12.0.3
 ```
 
 ### Load your CosmosDB database
 
 ```
-$ dotnet run process_gremlin_commands ../data/gremlin/gremlin_load_file.txt  > tmp/gremlin_load_file.txt
+$ mkdir tmp
+
+$ dotnet run process_gremlin_commands ../data/gremlin/gremlin_load_file.txt > tmp/gremlin_load_file.txt
+
 $ dotnet run load_materialized_views ../data/aggregated_libraries.json > tmp/load_materialized_views.txt
 ```
 
