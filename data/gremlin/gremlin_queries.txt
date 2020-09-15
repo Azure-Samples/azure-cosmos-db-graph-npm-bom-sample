@@ -1,0 +1,4 @@
+g.V().count()
+g.E().count()
+g.V(['tedious','tedious'])
+g.V(["tedious", "tedious"]).emit().repeat(outE("uses_lib").inV()).times(16).path().by("id")
