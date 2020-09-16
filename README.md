@@ -88,34 +88,37 @@ See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Patter
 
 ## Azure Setup
 
-Provision an Azure CosmosDB instance, in your subscription, which uses the Gremlin API.
+Provision an Azure CosmosDB account, in your subscription, which uses the Gremlin/Graph API.
 
-Then create a new collection in your CosmosDB Graph database, as shown below.
-A database named **dev** with collection named **npm** is recommended.
-Specify a partition key named **/pk** and 10,000 RUs.
+Then create a new database in your CosmosDB Graph account, as shown below.
+Create a database named **dev** with a container named **npm**.
+Specify a partition key named **/pk**.
+Optionaly check the **Provision database throughput** checkbox so that the RUs are
+shared amongst the several containers in the database, and specify 1,000 RUs.  
 
-Also create a second collection named **views** in the **dev** database, 
-with a partition key named **/pk** and 10,000 RUs.
+![provision-gremlin-collection](img/add-dev-db.png)
 
-![provision-gremlin-collection](img/provision-gremlin-collection.png)
+Also create a second collection named **views** in the **dev** database, as shown below,
+also with a partition key named **/pk**.
 
-Then go to the **Keys panel**, as shown below, and set the following **environment variables** 
-on your computer based on the values you see in Azure Portal.
+![provision-gremlin-collection](img/add-views.png)
 
-![gremlin-keys-panel](img/gremlin-keys-panel.png)
+Then, go to the **Keys panel**, as shown below, and set the following **environment variables** 
+on your computer based on the values you see in Azure Portal for your account.
+
+![gremlin-keys-panel](img/keys2.png)
 
 Note, the **values** shown below are just examples; your values will be different.
 
 ```
-AZURE_COSMOSDB_GRAPHDB_ACCT=cjoakimcosmosdbgremlin
+AZURE_COSMOSDB_GRAPHDB_ACCT=cjoakimcosmosgremlin
 AZURE_COSMOSDB_GRAPHDB_COLNAME=npm
 AZURE_COSMOSDB_GRAPHDB_CONN_STRING= ...secret...
 AZURE_COSMOSDB_GRAPHDB_DBNAME=dev
 AZURE_COSMOSDB_GRAPHDB_GRAPH=npm
-AZURE_COSMOSDB_GRAPHDB_VIEWS=views
 AZURE_COSMOSDB_GRAPHDB_KEY= ...secret...
-AZURE_COSMOSDB_GRAPHDB_URI=https://cjoakimcosmosdbgremlin.documents.azure.com:443/
-
+AZURE_COSMOSDB_GRAPHDB_URI=https://cjoakimcosmosgremlin.documents.azure.com:443/
+AZURE_COSMOSDB_GRAPHDB_VIEWS=views
 PORT=3000  (Also add this environment variable for the localhost webserver port)
 ```
 
@@ -552,3 +555,80 @@ $ sudo docker stop -t 2 e7c7a67026b6
 Note: if you change the Docker container name then you also need to modify the
 several ...docker_run_... scripts to use your alternative container name,
 instead of cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest.
+
+---
+
+## DotNet Core Support
+
+Though the original implementation of this project was in Node.js, we also added
+a DotNet Core implementation in September 2020.  Please see directory **BOMClient**.
+
+You'll need to have **DotNet Core version 3.1** installed on your computer to compile
+and execute this code.  See https://dotnet.microsoft.com/download 
+
+### Build the Console App
+
+```
+$ cd BOMClient
+
+$ dotnet build
+
+$ dotnet list package
+Project 'BOMClient' has the following package references
+   [netcoreapp3.1]:
+   Top-level Package             Requested   Resolved
+   > Gremlin.Net                 3.4.8       3.4.8
+   > Microsoft.Azure.Cosmos      3.12.0      3.12.0
+   > Microsoft.CSharp            4.7.0       4.7.0
+   > Newtonsoft.Json             12.0.3      12.0.3
+```
+
+### Load your CosmosDB database
+
+```
+$ mkdir tmp
+
+$ dotnet run process_gremlin_commands ../data/gremlin/gremlin_load_file.txt > tmp/gremlin_load_file.txt
+
+$ dotnet run load_materialized_views ../data/aggregated_libraries.json > tmp/load_materialized_views.txt
+```
+
+### Execute Queries against the loaded database
+
+Edit file gremlin_queries.txt per your desired queries.
+
+```
+$ dotnet run process_gremlin_commands ../data/gremlin/gremlin_queries.txt
+
+...
+
+---
+0 Command: g.V().count()
+Result:
+1147
+
+x-ms-status-code           : 200
+x-ms-total-server-time-ms] : 29.6129
+x-ms-total-request-charge] : 3.75
+
+---
+1 Command: g.E().count()
+Result:
+3538
+
+x-ms-status-code           : 200
+x-ms-total-server-time-ms] : 17.4554
+x-ms-total-request-charge] : 3.5500000000000003
+
+---
+2 Command: g.V(['tedious','tedious'])
+Result:
+{"id":"tedious","label":"library","type":"vertex","properties":{"pk":[{"id":"tedious|pk","value":"tedious"}],"desc":[{"id":"c060308c-a7f6-44bf-b772-ed4749c4ab76","value":"A TDS driver, for connecting to MS SQLServer databases."}],"name":[{"id":"3a6f513c-0fa5-4d03-ada3-667096743c86","value":"tedious"}]}}
+
+x-ms-status-code           : 200
+x-ms-total-server-time-ms] : 31.922
+x-ms-total-request-charge] : 4.1899999999999995
+
+...
+
+```
