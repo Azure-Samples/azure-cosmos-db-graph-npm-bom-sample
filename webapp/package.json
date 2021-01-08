@@ -16,7 +16,7 @@
     "express-favicon": "^2.0.1",
     "express-session": "^1.17.1",
     "gremlin": "^3.4.9",
-    "ini": ">=1.3.6",
+    "ini": ">=1.3.8",
     "jade": "^1.11.0",
     "morgan": "^1.10.0",
     "numeral": "^2.0.6",
