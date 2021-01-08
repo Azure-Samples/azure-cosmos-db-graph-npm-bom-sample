@@ -563,7 +563,7 @@ instead of cjoakim/azure-cosmos-db-graph-npm-bom-sample:latest.
 Though the original implementation of this project was in Node.js, we also added
 a DotNet Core implementation in September 2020.  Please see directory **BOMClient**.
 
-You'll need to have **DotNet Core version 3.1** installed on your computer to compile
+You'll need to have **DotNet version 5** installed on your computer to compile
 and execute this code.  See https://dotnet.microsoft.com/download 
 
 ### Build the Console App
@@ -571,14 +571,17 @@ and execute this code.  See https://dotnet.microsoft.com/download
 ```
 $ cd BOMClient
 
+$ dotnet --version
+5.0.101
+
 $ dotnet build
 
 $ dotnet list package
 Project 'BOMClient' has the following package references
-   [netcoreapp3.1]:
+   [net5.0]:
    Top-level Package             Requested   Resolved
-   > Gremlin.Net                 3.4.8       3.4.8
-   > Microsoft.Azure.Cosmos      3.12.0      3.12.0
+   > Gremlin.Net                 3.4.9       3.4.9
+   > Microsoft.Azure.Cosmos      3.15.1      3.15.1
    > Microsoft.CSharp            4.7.0       4.7.0
    > Newtonsoft.Json             12.0.3      12.0.3
 ```
