@@ -4,7 +4,7 @@
   "description": "Node.js batch data wrangling for this NPM/BOM project",
   "main": "main.js",
   "dependencies": {
-    "@azure/cosmos": "^2.1.7",
+    "@azure/cosmos": "^3.10.5",
     "async": "^3.2.0",
     "gremlin": "^3.4.9"
   },

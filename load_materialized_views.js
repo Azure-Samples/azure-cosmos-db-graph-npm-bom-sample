@@ -73,7 +73,7 @@ function load_next_row() {
 
         if (do_db_load) {
             dao.sql_create_doc(db_name, coll_name, mv_doc).then(function(result) {
-                console.log(result['body']);
+                console.log(result['resource']);
                 console.log(result['headers']);
                 setTimeout(load_next_row, sleep_ms);
             });

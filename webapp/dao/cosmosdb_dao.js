@@ -12,8 +12,7 @@ const util   = require('util');
 const gremlin = require('gremlin');
 
 // SQL SDK
-const cosmos = require("@azure/cosmos");
-const CosmosClient = cosmos.CosmosClient;
+const { CosmosClient } = require("@azure/cosmos");
 
 class CosmosDbDao extends events.EventEmitter {
 
@@ -53,9 +52,9 @@ class CosmosDbDao extends events.EventEmitter {
         );
 
         // SQL client
-        var suri = this.cosmos_gremlin_uri; 
-        var skey = this.cosmos_gremlin_key;
-        this.sql_client = new CosmosClient({ endpoint: suri, auth: { masterKey: skey } });
+        var endpoint = this.cosmos_gremlin_uri;
+        var key = this.cosmos_gremlin_key;
+        this.sql_client = new CosmosClient({ endpoint,key });
     }
 
     async gremlin_submit_stmt(stmt, options) {
@@ -90,7 +89,7 @@ class CosmosDbDao extends events.EventEmitter {
     }
 
     async sql_query(db_name, coll_name, query_spec) {
-        return await this.sql_client.database(db_name).container(coll_name).items.query(query_spec).toArray();
+        return await this.sql_client.database(db_name).container(coll_name).items.query(query_spec).fetchAll();
     }
 
     async materialized_library_view(bom_id) {
@@ -99,7 +98,7 @@ class CosmosDbDao extends events.EventEmitter {
         var query_spec = {};
         query_spec['query'] = util.format('SELECT * from c where c.pk = "%s" and c.doctype = "library"', bom_id);
         query_spec['parameters'] = [];
-        return await this.sql_client.database(db_name).container(coll_name).items.query(query_spec).toArray();
+        return await this.sql_client.database(db_name).container(coll_name).items.query(query_spec).fetchAll();
     }
 
     async materialized_maintainer_view(maint_id) {
@@ -108,7 +107,7 @@ class CosmosDbDao extends events.EventEmitter {
         var query_spec = {};
         query_spec['query'] = util.format('SELECT * from c where c.pk = "%s" and c.doctype = "maintainer"', maint_id);
         query_spec['parameters'] = [];
-        return await this.sql_client.database(db_name).container(coll_name).items.query(query_spec).toArray();
+        return await this.sql_client.database(db_name).container(coll_name).items.query(query_spec).fetchAll();
     }
 }
 
