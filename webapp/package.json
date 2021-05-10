@@ -31,7 +31,7 @@
     "grunt-contrib-stylus": "^1.0.0",
     "grunt-develop": "^0.4.0",
     "load-grunt-tasks": "^5.1.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "underscore.string": ">=3.3.5"
   },
   "scripts": {
