@@ -23,6 +23,10 @@ RUN npm install
 
 EXPOSE 3000
 
+# Use this CMD when building the Docker image for use as a webapp only,
+# such as for the aci-create-instance.sh script in this repo.
+CMD  node webapp/bin/www
+
 
 # Docker Commands:
 # docker build -t cjoakim/azure-cosmos-db-graph-npm-bom-sample . 
