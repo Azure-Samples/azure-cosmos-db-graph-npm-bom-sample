@@ -8,7 +8,7 @@
   "keywords": [],
   "main": "app.js",
   "dependencies": {
-    "@azure/cosmos": "^2.1.7",
+    "@azure/cosmos": "^3.10.5",
     "async": "^3.2.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",

@@ -15,7 +15,7 @@ router.get('/:bom_id', function(req, res) {
   var bom_id = '' + req.params.bom_id;
   console.log('bom_id: ' + bom_id);
   req.app.locals.dao.materialized_library_view(bom_id).then(function(result) {
-    var lib_obj = result['result'][0];
+    var lib_obj = result['resources'][0];
     try {
       // TODO - refactor this common routine into a separate module; see bom.js#tooltip
       var now_ms = new Date().getTime();

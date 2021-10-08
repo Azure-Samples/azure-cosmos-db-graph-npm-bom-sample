@@ -64,7 +64,7 @@ router.get('/tooltip/:bom_id', function(req, res) {
   console.log('bom_id: ' + bom_id);
 
   req.app.locals.dao.materialized_library_view(bom_id).then(function(result) {
-    var lib_obj = result['result'][0];
+    var lib_obj = result['resources'][0];
     try {
       // TODO - refactor this common routine into a separate module; see library.js#get
       var now_ms = new Date().getTime();
