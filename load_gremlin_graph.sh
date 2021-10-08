@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Bash shell script to load the pre-wrangled Gremlin statements.
-# Chris Joakim, Microsoft, 2019/06/06
+# Chris Joakim, Microsoft, 2021/10/08
 
 echo ''
 echo '=== load_gremlin_graph ...'

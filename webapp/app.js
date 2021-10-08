@@ -1,5 +1,5 @@
 // Main file for this Node/Express web application.
-// Chris Joakim, Microsoft, 2019/06/21
+// Chris Joakim, Microsoft, 2021/10/08
 
 var   express    = require('express');
 var   session    = require('express-session');
@@ -8,9 +8,9 @@ var   path       = require('path');
 var   bodyParser = require('body-parser');
 var   logger     = require('morgan');
 var   cookieParser = require('cookie-parser');
-const uuidv4     = require('uuid/v4');
-const process    = require('process');
 
+const process    = require('process');
+const { v4: uuidv4 } = require('uuid');
 const CosmosDbDao = require('./dao/cosmosdb_dao').CosmosDbDao;
 var   dao = new CosmosDbDao();
 

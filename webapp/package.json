@@ -17,16 +17,14 @@
     "express-session": "^1.17.1",
     "gremlin": "^3.4.9",
     "ini": ">=2.0.0",
-    "jade": "^1.11.0",
     "morgan": "^1.10.0",
     "numeral": "^2.0.6",
     "pug": "^3.0.1",
     "request": "^2.88.2",
-    "uuid": "^3.4.0"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "clean-css": "^4.2.3",
-    "constantinople": "^4.0.1",
+    "clean-css": "^5.2.1",
     "grunt": "^1.3.0",
     "grunt-contrib-stylus": "^1.0.0",
     "grunt-develop": "^0.4.0",

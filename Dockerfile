@@ -2,7 +2,7 @@ FROM node:8.16.1-alpine
 
 # Docker build file for this project.
 # See the several "docker_run_xxx" scripts in this repo to execute this container.
-# Chris Joakim, Microsoft, 2019/09/03
+# Chris Joakim, Microsoft, 2021/10/08
 
 # Create app directories
 RUN mkdir -p /usr/src/app

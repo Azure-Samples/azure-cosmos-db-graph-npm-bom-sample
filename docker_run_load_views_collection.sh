@@ -2,7 +2,7 @@
 
 # Bash script to execute the Docker container to load the CosmosDB/Gremlin "views" container.
 # See the corresponding "sudo_" script in this repository.
-# Chris Joakim, Microsoft, 2019/09/03
+# Chris Joakim, Microsoft, 2021/10/08
 
 docker run -it \
     -e PORT=3000 \

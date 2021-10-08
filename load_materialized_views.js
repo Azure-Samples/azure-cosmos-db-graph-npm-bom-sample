@@ -1,6 +1,6 @@
 // Program to Load the "materialized views" into the CosmosDB/Graph DB
 // via the CosmosDB w/SQL API.
-// Chris Joakim, Microsoft, 2019/06/06
+// Chris Joakim, Microsoft, 2021/10/08
 //
 // node load_materialized_views.js dev views 50 > tmp/load_materialized_views.txt
 

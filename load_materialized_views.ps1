@@ -1,6 +1,6 @@
 
 # PowerShell script to load the materialized views into CosmosDB/Graph with the SQL API.
-# Chris Joakim, Microsoft, 2019/06/06
+# Chris Joakim, Microsoft, 2021/10/08
 
 echo ''
 echo '=== load_materialized_views ...'

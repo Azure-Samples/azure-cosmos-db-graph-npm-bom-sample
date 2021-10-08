@@ -1,5 +1,5 @@
 // Program to Load and Query a CosmosDB Gremlin Database
-// Chris Joakim, Microsoft, 2019/06/06
+// Chris Joakim, Microsoft, 2021/10/08
 
 const fs = require('fs');
 const gremlin = require('gremlin');
