@@ -4,7 +4,7 @@
   "@azure/cosmos": "Azure Cosmos DB Service Node.js SDK for SQL API",
   "@azure/event-hubs": "Azure Event Hubs SDK for JS.",
   "@azure/ms-rest-azure-env": "Isomorphic library that provides Azure endpoints for different Azure Environments/Clouds.",
-  "@azure/ms-rest-js": "Isomorphic client Runtime for Typescript/node.js/browser javascript client libraries generated using AutoRest",
+  "@azure/ms-rest-js": "Isomorphic client Runtime for TypeScript/node.js/browser javascript client libraries generated using AutoRest",
   "@azure/ms-rest-nodeauth": "Azure Authentication library in node.js with type definitions.",
   "@azure/storage-blob": "Microsoft Azure Storage SDK for JavaScript - Blob",
   "@babel/runtime-corejs2": "babel's modular runtime helpers with core-js@2 polyfilling",
