@@ -5,7 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "@azure/cosmos": "^3.10.5",
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "gremlin": "^3.4.9"
   },
   "engines": {
