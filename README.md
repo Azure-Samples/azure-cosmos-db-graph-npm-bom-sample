@@ -6,24 +6,24 @@ languages:
 - powershell
 products:
 - azure
-description: "An example Bill-of-Material application with NPM data using Azure CosmosDB Graph/Gremlin database."
+description: "An example Bill-of-Material application with NPM data using Azure Cosmos DB Graph/Gremlin database."
 urlFragment: azure-cosmos-db-graph-npm-bom-sample
 ---
 
 # azure-cosmos-db-graph-npm-bom-sample
 
-An example Bill-of-Material application with NPM data using Azure CosmosDB Graph/Gremlin database.
+An example Bill-of-Material application with NPM data using Azure Cosmos DB Graph/Gremlin database.
 
 ![cosmosgraph](img/cosmosgraph.png)
 
 ## Created By
 
 - Chris Joakim, Microsoft, Azure Cloud Solution Architect, Charlotte
-- Luis Bosquez, Microsoft, Azure CosmosDB Program Manager, Redmond
+- Luis Bosquez, Microsoft, Azure Cosmos DB Program Manager, Redmond
 
 ## NPM as the Data Source
 
-In our work with Azure CosmosDB we've seen that **Bill-of-Materials (BOM)** is a common use-case for companies,
+In our work with Azure Cosmos DB we've seen that **Bill-of-Materials (BOM)** is a common use-case for companies,
 especially in the manufacturing sector.  The graph of their manufactured products, and their many nested components, 
 is perfectly suited for CosmosDB with the Gremlin Graph API.
 
@@ -44,7 +44,7 @@ Visual Studio Code editor was used for the development of this project.  Visual 
 
 ## Architecture
 
-This application uses a Azure CosmosDB account, with the Gremlin API, as its sole datastore.  There is a batch process
+This application uses a Azure Cosmos DB account, with the Gremlin API, as its sole datastore.  There is a batch process
 which "spiders" npm for information about npm libraries, wrangles this JSON data, and then loads it into CosmosDB.
 There is also a web application, in the webapp/ directory, built with Node.js and Express which queries and
 displays the CosmosDB data.  The open-source JavaScript library [D3.js](https://d3js.org) is used to visualize
@@ -66,7 +66,7 @@ rather than the **Gremlin API**.  The materialized views are queried efficiently
 their **partition key attribute** whose name is simply 'pk'.  This is actually a best practice - to name your partition key 
 attributes with a generic name like 'pk' or 'partition_key' rather than a given business-oriented attribute name.
 
-This is currently the only case where a single Azure CosmosDB account can be accessed via two programatic APIs;
+This is currently the only case where a single Azure Cosmos DB account can be accessed via two programatic APIs;
 in this case a Gremlin account accesssed via the Gremlin and SQL APIs.
 
 The advantage of this approach is that your BOM data is in one database, with independent and independently scalable
@@ -88,7 +88,7 @@ See file **webapp/dao/cosmosdb_dao.js** which implements the **DAO Design Patter
 
 ## Azure Setup
 
-Provision an Azure CosmosDB account, in your subscription, which uses the Gremlin/Graph API.
+Provision an Azure Cosmos DB account, in your subscription, which uses the Gremlin/Graph API.
 
 Then create a new database in your CosmosDB Graph account, as shown below.
 Create a database named **dev** with a container named **npm**.
@@ -141,7 +141,7 @@ The batch processing does the following:
    - **Edges** also connect the **Maintainers** to each **Library** they maintain
    - Currently there isn't a **knows** Edge from one Maintainer to another within a Library.
 
-5) Load the Azure CosmosDB/Graph database from the generated Gremlin statements
+5) Load the Azure Cosmos DB/Graph database from the generated Gremlin statements
 
 ### Batch Processing Detail
 
@@ -184,7 +184,7 @@ Note that the Spidering process is intentionally decoupled from the Wrangling pr
 and that intermediate files are produced by the Wrangling process to increase clarity
 and understanding.
 
-Finally, load your Azure CosmosDB Graph database, npm collection, with the generated file **data/gremlin/gremlin_load_file.txt**.
+Finally, load your Azure Cosmos DB Graph database, npm collection, with the generated file **data/gremlin/gremlin_load_file.txt**.
 
 Here are few sample entries in this file, formatted and commented for readability:
 ```
@@ -240,7 +240,7 @@ like the following.  This is normal, just CTRL-C in that Terminal to end the pro
 load_next_row 4685 : undefined
 ```
 
-Also load the Azure CosmosDB Graph database, views collection, with the materialized views.
+Also load the Azure Cosmos DB Graph database, views collection, with the materialized views.
 
 ```bash
 $ ./load_materialized_views.sh
