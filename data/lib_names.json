@@ -443,7 +443,7 @@
   "pdfkit": "A PDF generation library for Node.js",
   "pend": "dead-simple optimistic async helper",
   "performance-now": "Implements performance.now (based on process.hrtime).",
-  "pg-connection-string": "Functions for dealing with a PostgresSQL connection string",
+  "pg-connection-string": "Functions for dealing with a PostgreSQL connection string",
   "pg-int8": "64-bit big-endian signed integer-to-string conversion",
   "pg-pool": "Connection pool for node-postgres",
   "pg-types": "Query result type converters for node-postgres",
